@@ -1,0 +1,109 @@
+{
+  "name": "Superior lighting",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.0enmnwCV8dttWHna",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.im.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.texts.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "aesthetics",
+            "im",
+            "texts"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "DzgKH2HohqY7o39e",
+      "transfer": true,
+      "name": "Superior lighting",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!0enmnwCV8dttWHna.DzgKH2HohqY7o39e"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.0enmnwCV8dttWHna"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1693635052173,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "0enmnwCV8dttWHna",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!0enmnwCV8dttWHna"
+}

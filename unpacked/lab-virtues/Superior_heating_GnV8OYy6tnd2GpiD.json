@@ -1,0 +1,109 @@
+{
+  "name": "Superior heating",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.GnV8OYy6tnd2GpiD",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.health.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.ig.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "health",
+            "aesthetics",
+            "ig"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "LNxurgUgSfx2SNif",
+      "transfer": true,
+      "name": "Superior heating",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!GnV8OYy6tnd2GpiD.LNxurgUgSfx2SNif"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.GnV8OYy6tnd2GpiD"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1693635052177,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "GnV8OYy6tnd2GpiD",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!GnV8OYy6tnd2GpiD"
+}

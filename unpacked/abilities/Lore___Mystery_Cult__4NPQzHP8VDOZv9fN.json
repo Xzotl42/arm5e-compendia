@@ -1,0 +1,44 @@
+{
+  "name": "Lore: (Mystery Cult)",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/cult.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Item.R0tlL5xZyoZP0ioL"
+    },
+    "cf": {
+      "id": "temp_7bwhgya3q6x",
+      "path": "Abilities#/CF_SEP/Arcane",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "TMRE",
+    "page": 11,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "cult",
+    "option": "cult",
+    "realm": "magic",
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751909,
+    "modifiedTime": 1693635052363,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "4NPQzHP8VDOZv9fN",
+  "_key": "!items!4NPQzHP8VDOZv9fN"
+}

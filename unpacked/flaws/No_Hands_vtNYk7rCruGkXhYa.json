@@ -1,0 +1,72 @@
+{
+  "name": "No Hands",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [
+    {
+      "_id": "An5Lfzt4Pt7JfN8c",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.flaws.hbzPg2zlVXLhUPrX",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "name": "No hands",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!vtNYk7rCruGkXhYa.An5Lfzt4Pt7JfN8c"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.q3KvEuIfz0Zj7Yji"
+    },
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "major"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751625,
+    "modifiedTime": 1693635052086,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "vtNYk7rCruGkXhYa",
+  "_key": "!items!vtNYk7rCruGkXhYa"
+}

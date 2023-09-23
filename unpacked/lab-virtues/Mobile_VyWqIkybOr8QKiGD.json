@@ -1,0 +1,82 @@
+{
+  "name": "Mobile",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.VyWqIkybOr8QKiGD",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.specialty.experimentation.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "labSpecialty"
+          ],
+          "subtype": [
+            "experimentation"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "4na1qXHyGIUcFcZE",
+      "transfer": true,
+      "name": "Mobile",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!VyWqIkybOr8QKiGD.4na1qXHyGIUcFcZE"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.VyWqIkybOr8QKiGD"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1693635052180,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "VyWqIkybOr8QKiGD",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!VyWqIkybOr8QKiGD"
+}

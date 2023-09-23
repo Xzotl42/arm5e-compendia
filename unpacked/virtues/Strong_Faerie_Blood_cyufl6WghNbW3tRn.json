@@ -1,0 +1,81 @@
+{
+  "name": "Strong Faerie Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "_id": "ghUg7E1TBNc4nCJZ",
+      "changes": [
+        {
+          "key": "system.realmAlignment",
+          "value": "2",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "magic"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "label": "",
+      "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 49,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751249,
+    "modifiedTime": 1693251904698,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "Sym94leLiWXQ3Rh9",
+  "_id": "cyufl6WghNbW3tRn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!cyufl6WghNbW3tRn"
+}

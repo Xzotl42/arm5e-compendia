@@ -1,0 +1,44 @@
+{
+  "name": "Craft: Pottery",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/craft.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.uHOT26PAysPOXDJg"
+    },
+    "cf": {
+      "id": "temp_2vp6z8wkvgl",
+      "path": "Abilities#/CF_SEP/General, Crafts",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 64,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "craft",
+    "option": "Pottery",
+    "realm": "magic",
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751915,
+    "modifiedTime": 1693635052366,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "MFzjPz65ke27cwqz",
+  "_key": "!items!MFzjPz65ke27cwqz"
+}

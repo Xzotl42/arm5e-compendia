@@ -1,0 +1,100 @@
+{
+  "name": "Greater horde \"to be configured\"",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "major"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.ZYoTIwVgfDnmNQj4",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "boW29C3S8bBAFPW8",
+      "transfer": true,
+      "name": "Greater horde (to be configured with +creature intelligence in Safety and 2 poins on Rego or other appropriate Art specialization(s))",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!ZYoTIwVgfDnmNQj4.boW29C3S8bBAFPW8"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.ZYoTIwVgfDnmNQj4"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1693635052180,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "ZYoTIwVgfDnmNQj4",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!ZYoTIwVgfDnmNQj4"
+}

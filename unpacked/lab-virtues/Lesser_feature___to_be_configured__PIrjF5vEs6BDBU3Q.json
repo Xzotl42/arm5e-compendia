@@ -1,0 +1,82 @@
+{
+  "name": "Lesser feature* \"to be configured\"",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 113,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.PIrjF5vEs6BDBU3Q",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "qWZ8MxLMhU9g8ZZU",
+      "transfer": true,
+      "name": "Lesser feature (to be configured with +1 on an appropriate specialisation)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!PIrjF5vEs6BDBU3Q.qWZ8MxLMhU9g8ZZU"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.PIrjF5vEs6BDBU3Q"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1693635052178,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "PIrjF5vEs6BDBU3Q",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!PIrjF5vEs6BDBU3Q"
+}

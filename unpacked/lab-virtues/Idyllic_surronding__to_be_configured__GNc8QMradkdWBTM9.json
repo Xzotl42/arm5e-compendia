@@ -1,0 +1,91 @@
+{
+  "name": "Idyllic surronding \"to be configured\"",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.GNc8QMradkdWBTM9",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "u3cB520QI2mmikig",
+      "transfer": true,
+      "name": "Idyllic surronding (to be configured with 1 point on specialization in Cr, Au, Aq, He ou Te depending upon terrain type)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!GNc8QMradkdWBTM9.u3cB520QI2mmikig"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.GNc8QMradkdWBTM9"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1693635052176,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "GNc8QMradkdWBTM9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!GNc8QMradkdWBTM9"
+}

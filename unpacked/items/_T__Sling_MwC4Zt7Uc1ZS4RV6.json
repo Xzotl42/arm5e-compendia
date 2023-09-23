@@ -1,0 +1,58 @@
+{
+  "_id": "MwC4Zt7Uc1ZS4RV6",
+  "name": "(T) Sling",
+  "type": "weapon",
+  "img": "icons/weapons/ammunition/shot-round-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.weapons.zhKjfqfE1N7KXpAu"
+    },
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "inexp",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "ability": "",
+    "abilities": [],
+    "weaponExpert": false,
+    "horse": false,
+    "init": -3,
+    "atk": 1,
+    "dfn": 0,
+    "dam": 4,
+    "str": -3,
+    "range": 20,
+    "load": 0,
+    "equiped": false,
+    "data": {
+      "description": "<div title=\"Page 177\">\n<div title=\"Page 177\">\n<p>&nbsp;</p>\n<div title=\"Page 177\">\n<div>\n<div>\n<div>\n<p>Although the sling uses the Thrown Weapon skill, it has much greater range than a hand-hurled weapon.&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n<p>Range: 20 paces</p>\n<div title=\"Page 177\">\n<div>\n<div>\n<div>\n<p>* Requires two free hands to load and fire.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+    },
+    "version": "1.4.5"
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235750960,
+    "modifiedTime": 1693635051888,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!MwC4Zt7Uc1ZS4RV6"
+}

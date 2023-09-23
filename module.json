@@ -1,0 +1,113 @@
+{
+  "id": "arm5e-compendia",
+  "title": "Ars Magica system shared compendia",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "arm5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Xzotl",
+      "discord": "Xzotl",
+      "url": "https://github.com/Xzotl42/arm5e",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Xzotl42/arm5e-compendia",
+  "packs": [
+    {
+      "name": "abilities",
+      "label": "abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "virtues",
+      "label": "virtues",
+      "path": "packs/virtues",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "flaws",
+      "label": "flaws",
+      "path": "packs/flaws",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "lab-virtues",
+      "label": "lab-virtues",
+      "path": "packs/lab-virtues",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "lab-flaws",
+      "label": "lab-flaws",
+      "path": "packs/lab-flaws",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    }
+  ]
+}

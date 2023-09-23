@@ -1,0 +1,66 @@
+{
+  "_id": "sPIJjlQaH78L4YP6",
+  "name": "Chain Mail - Partial",
+  "type": "armor",
+  "img": "icons/commodities/metal/mail-chain-steel.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.armor.i3UnUM9mmcNc5Q3y"
+    },
+    "cf": {
+      "id": "temp_d16odjpbext",
+      "path": "Equipments#/CF_SEP/Armor",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>At the top of 1220 technology lies chain mail, a suit of flexible metal made of links of chain.</p>\n<div title=\"Page 176\">\n<div>\n<div>\n<div>\n<p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p>\n</div>\n</div>\n</div>\n</div>",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "exp",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "prot": 6,
+    "full": false,
+    "equiped": false,
+    "costs": {
+      "n-a": {
+        "label": "arm5e.sheet.n-a",
+        "dtype": "String"
+      },
+      "inexp": {
+        "label": "arm5.sheet.inexpensive",
+        "dtype": "String"
+      },
+      "std": {
+        "label": "arm5.sheet.standard",
+        "dtype": "String"
+      },
+      "exp": {
+        "label": "arm5e.sheet.expensive",
+        "dtype": "String"
+      }
+    },
+    "version": "1.4.5",
+    "load": 4
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235750998,
+    "modifiedTime": 1693635051892,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!sPIJjlQaH78L4YP6"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Profession: Merchant",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/profession.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.0aet0aRMCmRFlGTo"
+    },
+    "cf": {
+      "id": "temp_objljw4w1kp",
+      "path": "Abilities#/CF_SEP/General, Professions",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 67,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "profession",
+    "option": "Merchant",
+    "realm": "magic",
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751884,
+    "modifiedTime": 1693635052366,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "MlKq5NOn1CuEy1OG",
+  "_key": "!items!MlKq5NOn1CuEy1OG"
+}

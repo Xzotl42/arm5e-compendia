@@ -1,0 +1,100 @@
+{
+  "name": "Magical superior lighting",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 1190,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.aG5DVMedRJJxC4Qj",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.im.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.texts.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "aesthetics",
+            "im",
+            "texts"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "Zk4juVkr6iD50bUF",
+      "transfer": true,
+      "name": "Magical superior lighting",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!0YcJv1sShRia3UGK.Zk4juVkr6iD50bUF"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.0YcJv1sShRia3UGK"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1693635052173,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "0YcJv1sShRia3UGK",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!0YcJv1sShRia3UGK"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "HH35VSchqssVhvxy",
+  "name": "Leather Scale - Partial",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.armor.NqS7SfacpTxc61RS"
+    },
+    "cf": {
+      "id": "temp_d16odjpbext",
+      "path": "Equipments#/CF_SEP/Armor",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div title=\"Page 176\">\n<div>\n<div>\n<div>\n<p>Breaking the leather up into a flexible array of scales allows the use of thicker pieces of leather.</p>\n</div>\n</div>\n</div>\n</div>\n<p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p>",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "std",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "prot": 3,
+    "full": false,
+    "equiped": false,
+    "costs": {
+      "n-a": {
+        "label": "arm5e.sheet.n-a",
+        "dtype": "String"
+      },
+      "inexp": {
+        "label": "arm5.sheet.inexpensive",
+        "dtype": "String"
+      },
+      "std": {
+        "label": "arm5.sheet.standard",
+        "dtype": "String"
+      },
+      "exp": {
+        "label": "arm5e.sheet.expensive",
+        "dtype": "String"
+      }
+    },
+    "version": "1.4.5",
+    "load": 2
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235750954,
+    "modifiedTime": 1693635051887,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!HH35VSchqssVhvxy"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Precious ingredients",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.SnlQECgj47gEY5CD",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.longevityRituals.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "longevityRituals"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "gbTUuMhFEXU237gY",
+      "transfer": true,
+      "name": "Precious ingredients",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!SnlQECgj47gEY5CD.gbTUuMhFEXU237gY"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.SnlQECgj47gEY5CD"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1693635052179,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "SnlQECgj47gEY5CD",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!SnlQECgj47gEY5CD"
+}

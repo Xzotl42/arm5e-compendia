@@ -1,0 +1,103 @@
+{
+  "name": "Dwarf",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [
+    {
+      "_id": "7Ku4M7y6PCGfxK66",
+      "changes": [
+        {
+          "key": "system.vitals.siz.value",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.str.value",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.sta.value",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.flaws.voE3EGIFczw3bxPe",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals",
+            "characteristics",
+            "characteristics"
+          ],
+          "subtype": [
+            "size",
+            "str",
+            "sta"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "name": "Dwarf",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!lM884WIUYka1rCFp.7Ku4M7y6PCGfxK66"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.kdQOGCJ2m7kr9bi1"
+    },
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "major"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751659,
+    "modifiedTime": 1693635052081,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "lM884WIUYka1rCFp",
+  "_key": "!items!lM884WIUYka1rCFp"
+}

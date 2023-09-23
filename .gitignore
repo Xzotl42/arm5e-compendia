@@ -1,0 +1,19 @@
+# Node Modules
+package*.json
+node_modules/
+npm-debug.log
+jsconfig.json
+test.js
+.npmignore
+TODO.txt
+foundry.js
+packs/**
+packs/abilities/**
+packs/flaws/**
+packs/items/**
+packs/lab-flaws/**
+packs/lab-virtues/**
+packs/spells/**
+packs/virtues/**
+.eslintrc.json
+arm5e.lock

@@ -1,0 +1,118 @@
+{
+  "name": "Outdoors",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/base-magic.svg",
+  "system": {
+    "description": "",
+    "source": "TME",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "major"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.OWtlOK5ONPLZkMNA",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.health.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "safety",
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "T9QlqnAB5m3kRuAw",
+      "transfer": true,
+      "name": "Outdoors",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!OWtlOK5ONPLZkMNA.T9QlqnAB5m3kRuAw"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-flaws.OWtlOK5ONPLZkMNA"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1693635052292,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "OWtlOK5ONPLZkMNA",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!OWtlOK5ONPLZkMNA"
+}

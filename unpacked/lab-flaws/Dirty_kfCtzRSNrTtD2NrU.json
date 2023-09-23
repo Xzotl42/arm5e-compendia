@@ -1,0 +1,100 @@
+{
+  "name": "Dirty",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/base-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.kfCtzRSNrTtD2NrU",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.pe.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "health",
+            "aesthetics",
+            "pe"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "TK1N4lZh4Rc7DhGN",
+      "transfer": true,
+      "name": "Dirty",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!kfCtzRSNrTtD2NrU.TK1N4lZh4Rc7DhGN"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-flaws.kfCtzRSNrTtD2NrU"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1693635052297,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "kfCtzRSNrTtD2NrU",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!kfCtzRSNrTtD2NrU"
+}

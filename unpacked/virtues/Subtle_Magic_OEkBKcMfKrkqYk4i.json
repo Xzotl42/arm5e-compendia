@@ -1,0 +1,90 @@
+{
+  "name": "Subtle Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.r5vYAGUnJS8enS6c",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.stances.gestures.subtle",
+          "value": "0",
+          "mode": 5,
+          "priority": null
+        },
+        {
+          "mode": 5,
+          "key": "system.stances.gestures.motionless",
+          "value": "0",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "spellcasting",
+            "spellcasting"
+          ],
+          "subtype": [
+            "gesturesSubtle",
+            "gesturesMotionless"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "YHfKYlgbXkTYYwBi",
+      "transfer": true,
+      "label": "",
+      "_key": "!items.effects!OEkBKcMfKrkqYk4i.YHfKYlgbXkTYYwBi"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 49,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751339,
+    "modifiedTime": 1693251904688,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "OEkBKcMfKrkqYk4i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!OEkBKcMfKrkqYk4i"
+}

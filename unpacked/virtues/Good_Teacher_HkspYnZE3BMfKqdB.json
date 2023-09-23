@@ -1,0 +1,90 @@
+{
+  "name": "Good Teacher",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "origin": "Compendium.arm5e.virtues.HkspYnZE3BMfKqdB",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.activities.writing",
+          "value": "3",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.teacher",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities",
+            "activities"
+          ],
+          "subtype": [
+            "writing",
+            "teacher"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "icon": "icons/svg/aura.svg",
+      "_id": "EolKipnLg6rW6AL2",
+      "transfer": true,
+      "label": "",
+      "_key": "!items.effects!HkspYnZE3BMfKqdB.EolKipnLg6rW6AL2"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 43,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751320,
+    "modifiedTime": 1693251904685,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "HkspYnZE3BMfKqdB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!HkspYnZE3BMfKqdB"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "C14pISsLWgPrYOUb",
+  "name": "(B) Bludgeon",
+  "type": "weapon",
+  "img": "icons/weapons/clubs/club-simple-black.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.weapons.kOIHXlgZkf1g8vZG"
+    },
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "inexp",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "ability": "",
+    "abilities": [],
+    "weaponExpert": false,
+    "horse": false,
+    "init": 0,
+    "atk": 2,
+    "dfn": 0,
+    "dam": 2,
+    "str": -2,
+    "range": 0,
+    "load": 1,
+    "equiped": false,
+    "data": {
+      "description": "<div title=\"Page 176\">\n<div>\n<div>\n<div>\n<div title=\"Page 177\">\n<div>\n<div>\n<div>\n<p>This could be a sap (a leather bag filled with lead shot) or any heavy object like a stone or a small hammer.</p>\n<div title=\"Page 176\">\n<div>\n<div>\n<div>\n<p>* Any improvised bashing weapon such as a rock or hand tool</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+    },
+    "version": "1.4.5"
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235750949,
+    "modifiedTime": 1693635051886,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!C14pISsLWgPrYOUb"
+}

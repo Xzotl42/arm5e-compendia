@@ -1,0 +1,69 @@
+{
+  "name": "Enchantment* \"to be configured\"",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.WKiE2pSLpjAEjLdI",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [],
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "_id": "1Xt19uSdvJgg84vx",
+      "transfer": true,
+      "name": "Enchantment (to be configured with appropriate bonus)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!WKiE2pSLpjAEjLdI.1Xt19uSdvJgg84vx"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.WKiE2pSLpjAEjLdI"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1693635052180,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "WKiE2pSLpjAEjLdI",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!WKiE2pSLpjAEjLdI"
+}

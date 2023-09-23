@@ -1,0 +1,83 @@
+{
+  "name": "Fragile constitution",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "url": "",
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.7IEjzpaoy6ImHpC5",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.recovery",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "recovery"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "5tGhOmmMppGsv3tZ",
+      "transfer": true,
+      "name": "-3 to wound recovery rolls",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!ps6J77kiz2sV0OqT.5tGhOmmMppGsv3tZ"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Item.7IEjzpaoy6ImHpC5"
+    },
+    "cf": {
+      "id": "temp_g1gywhrffo"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1691857906682,
+    "modifiedTime": 1693635052082,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ps6J77kiz2sV0OqT",
+  "_key": "!items!ps6J77kiz2sV0OqT"
+}

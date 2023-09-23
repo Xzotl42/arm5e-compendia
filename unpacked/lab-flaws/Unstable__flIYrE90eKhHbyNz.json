@@ -1,0 +1,91 @@
+{
+  "name": "Unstable*",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/base-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.flIYrE90eKhHbyNz",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "upkeep",
+            "safety"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "TlxXmSUeny07QcD5",
+      "transfer": true,
+      "name": "Unstable",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!flIYrE90eKhHbyNz.TlxXmSUeny07QcD5"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-flaws.flIYrE90eKhHbyNz"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1693635052296,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "flIYrE90eKhHbyNz",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!flIYrE90eKhHbyNz"
+}

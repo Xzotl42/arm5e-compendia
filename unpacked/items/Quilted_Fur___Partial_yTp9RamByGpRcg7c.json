@@ -1,0 +1,66 @@
+{
+  "_id": "yTp9RamByGpRcg7c",
+  "name": "Quilted/Fur - Partial",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Item.lrXlNBZX29t7Tzqv"
+    },
+    "cf": {
+      "id": "temp_d16odjpbext",
+      "path": "Equipments#/CF_SEP/Armor",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>&nbsp;</p>\n<div class=\"page\" title=\"Page 176\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Quilted cloth, a thin layer of leather, or layers of leather-strap-wrapped fur or cloth is the most basic of armor.<span style=\"font-size: 9.000000pt; font-family: 'Weiss'; color: rgb(6.313300%, 8.863500%, 10.356300%);\">&nbsp;&nbsp;</span></p>\n</div>\n</div>\n</div>\n</div>\n<p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p>",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "inexp",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "prot": 1,
+    "full": false,
+    "equiped": false,
+    "costs": {
+      "n-a": {
+        "label": "arm5e.sheet.n-a",
+        "dtype": "String"
+      },
+      "inexp": {
+        "label": "arm5.sheet.inexpensive",
+        "dtype": "String"
+      },
+      "std": {
+        "label": "arm5.sheet.standard",
+        "dtype": "String"
+      },
+      "exp": {
+        "label": "arm5e.sheet.expensive",
+        "dtype": "String"
+      }
+    },
+    "version": "1.4.5",
+    "load": 2
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751004,
+    "modifiedTime": 1693635051893,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!yTp9RamByGpRcg7c"
+}

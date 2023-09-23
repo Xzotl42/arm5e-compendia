@@ -1,0 +1,81 @@
+{
+  "name": "Faerie Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "ZRdm8YmVSxANqkIY",
+      "changes": [
+        {
+          "key": "system.realmAlignment",
+          "value": "2",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.G4m1LlEL19oB5CWx",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "magic"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "label": "",
+      "_key": "!items.effects!54SGECTkYW5h24AX.ZRdm8YmVSxANqkIY"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 42,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751243,
+    "modifiedTime": 1693251904679,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "54SGECTkYW5h24AX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!54SGECTkYW5h24AX"
+}

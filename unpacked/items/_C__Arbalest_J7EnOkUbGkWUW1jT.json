@@ -1,0 +1,58 @@
+{
+  "_id": "J7EnOkUbGkWUW1jT",
+  "name": "(C) Arbalest",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.weapons.bqhjCeA5KMM6n0bE"
+    },
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "exp",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "ability": "",
+    "abilities": [],
+    "weaponExpert": false,
+    "horse": false,
+    "init": 5,
+    "atk": 5,
+    "dfn": 0,
+    "dam": 10,
+    "str": -1,
+    "range": 30,
+    "load": 3,
+    "equiped": false,
+    "data": {
+      "description": "<div title=\"Page 176\">\n<div title=\"Page 177\">\n<div title=\"Page 177\">\n<p>&nbsp;</p>\n<div title=\"Page 139\">\n<div>\n<div>\n<p>An arbalest is crossbow that requires a mechanical device to span. Some arbalests can be spanned in a four-round Extended Action using a windlass. A few are spanned with block-and-tackle, which is usually slower, requiring a (6&ndash;Str)-round Extended Action. If the spanning process is interrupted, the character may later resume it at the point where he left off.&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n<div title=\"Page 177\">\n<div title=\"Page 177\">Range: 30 paces</div>\n<p>*The user&rsquo;s Strength does not add to Damage for crossbows. Use the Damage value given in the Missile Weapons Table directly, without adding anything.</p>\n<p><code>LoM p.138</code></p>\n</div>\n</div>\n</div>"
+    },
+    "version": "1.4.5"
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235750957,
+    "modifiedTime": 1693635051887,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!J7EnOkUbGkWUW1jT"
+}

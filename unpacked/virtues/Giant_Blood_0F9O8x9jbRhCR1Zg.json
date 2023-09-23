@@ -1,0 +1,99 @@
+{
+  "name": "Giant Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "szuK9RR2o1Fwvei3",
+      "changes": [
+        {
+          "key": "system.vitals.siz.value",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.str.value",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.sta.value",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.mhpaBm1ti8C6zWaq",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals",
+            "characteristics",
+            "characteristics"
+          ],
+          "subtype": [
+            "size",
+            "str",
+            "sta"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "label": "",
+      "_key": "!items.effects!0F9O8x9jbRhCR1Zg.szuK9RR2o1Fwvei3"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 43,
+    "type": "general",
+    "impact": {
+      "value": "major"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751327,
+    "modifiedTime": 1693251904674,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "jyD9OjMnXTZeke24",
+  "_id": "0F9O8x9jbRhCR1Zg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!0F9O8x9jbRhCR1Zg"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Lesser focus \"to be configured\"",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/base-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.XlyvecL8AMswwF18",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.generalQuality.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "SFZssrFiF1kVOnbg",
+      "transfer": true,
+      "name": "Lesser focus (to configure with 2 points among specializations provided by the feature)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!XlyvecL8AMswwF18.SFZssrFiF1kVOnbg"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-flaws.XlyvecL8AMswwF18"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1693635052295,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "XlyvecL8AMswwF18",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!XlyvecL8AMswwF18"
+}

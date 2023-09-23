@@ -1,0 +1,91 @@
+{
+  "name": "Gateway \"to be configured\"",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.tVl39wCULqxhvHMq",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "safety",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "2Ph3hRof8mshexVP",
+      "transfer": true,
+      "name": "Gateway (to be configured with 1 point on rego or another appropriate Art Specialization)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!tVl39wCULqxhvHMq.2Ph3hRof8mshexVP"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.tVl39wCULqxhvHMq"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1693635052183,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "tVl39wCULqxhvHMq",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!tVl39wCULqxhvHMq"
+}

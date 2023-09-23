@@ -1,0 +1,85 @@
+{
+  "name": "Poor Student",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [
+    {
+      "_id": "5409wAuYd96NvKfx",
+      "changes": [
+        {
+          "key": "system.bonuses.activities.teaching",
+          "value": "-3",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.flaws.t0CYrytE5z6bDwSS",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities"
+          ],
+          "subtype": [
+            "teaching"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Poor student",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!nvsPu2BTxzCXXFIT.5409wAuYd96NvKfx"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.yYqS0oakS8awS9Jv"
+    },
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751651,
+    "modifiedTime": 1693635052082,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "nvsPu2BTxzCXXFIT",
+  "_key": "!items!nvsPu2BTxzCXXFIT"
+}

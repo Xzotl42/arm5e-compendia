@@ -1,0 +1,81 @@
+{
+  "name": "Tough",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "jBpkQbNivkfs0HwB",
+      "changes": [
+        {
+          "key": "system.bonuses.traits.soak",
+          "value": "3",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.btxtlpTLe24uYd1Z",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "label": "",
+      "_key": "!items.effects!1DFTYivxLBhyiRqn.jBpkQbNivkfs0HwB"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 49,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751300,
+    "modifiedTime": 1693251904676,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "1DFTYivxLBhyiRqn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!1DFTYivxLBhyiRqn"
+}

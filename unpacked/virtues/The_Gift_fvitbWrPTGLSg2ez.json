@@ -1,0 +1,81 @@
+{
+  "name": "The Gift",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "_id": "yK4GGIeDpUr5wA3E",
+      "changes": [
+        {
+          "key": "system.realmAlignment",
+          "value": "1",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.5906ZrzYdesEtJH3",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "magic"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "label": "",
+      "_key": "!items.effects!fvitbWrPTGLSg2ez.yK4GGIeDpUr5wA3E"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_lre469g8dv",
+      "path": "Virtues#/CF_SEP/Special",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 43,
+    "type": "hermetic",
+    "impact": {
+      "value": "free"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751222,
+    "modifiedTime": 1693251904699,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "umvpyTZt5f5tEdND",
+  "_id": "fvitbWrPTGLSg2ez",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!fvitbWrPTGLSg2ez"
+}

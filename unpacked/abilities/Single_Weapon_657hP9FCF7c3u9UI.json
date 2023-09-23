@@ -1,0 +1,44 @@
+{
+  "name": "Single Weapon",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/singleWeapon.svg",
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.T9C2xLHJNIdDqckv"
+    },
+    "cf": {
+      "id": "temp_7d6ngxdzyst",
+      "path": "Abilities#/CF_SEP/Martial",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 67,
+    "defaultChaAb": "dex",
+    "speciality": "",
+    "xp": 0,
+    "key": "singleWeapon",
+    "option": "",
+    "realm": "magic",
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751899,
+    "modifiedTime": 1693635052363,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "657hP9FCF7c3u9UI",
+  "_key": "!items!657hP9FCF7c3u9UI"
+}

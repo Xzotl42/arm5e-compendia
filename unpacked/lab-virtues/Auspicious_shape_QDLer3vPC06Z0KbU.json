@@ -1,0 +1,91 @@
+{
+  "name": "Auspicious shape",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 113,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.QDLer3vPC06Z0KbU",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.vi.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "aesthetics",
+            "vi"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "3oGXjZuGT5UQYCRm",
+      "transfer": true,
+      "name": "Auspicious shape",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!QDLer3vPC06Z0KbU.3oGXjZuGT5UQYCRm"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.QDLer3vPC06Z0KbU"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1693635052178,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "QDLer3vPC06Z0KbU",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!QDLer3vPC06Z0KbU"
+}

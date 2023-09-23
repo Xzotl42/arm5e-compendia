@@ -1,0 +1,78 @@
+{
+  "_id": "GpoO6dFIKC7xaTcb",
+  "name": "Sharp Ears",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.base.lhcqMaAdkrXfvAW5"
+    },
+    "cf": {
+      "id": "temp_fjsd798nwqe",
+      "path": "Animal Traits",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "type": "other",
+    "impact": {
+      "value": "free",
+      "label": "arm5e.sheet.impact"
+    },
+    "types": {
+      "hermetic": {
+        "label": "arm5e.sheet.hermetic",
+        "dtype": "String"
+      },
+      "supernatural": {
+        "label": "arm5e.sheet.supernatural",
+        "dtype": "String"
+      },
+      "social": {
+        "label": "arm5e.sheet.socialStatus",
+        "dtype": "String"
+      },
+      "general": {
+        "label": "arm5e.sheet.general",
+        "dtype": "String"
+      }
+    },
+    "impacts": {
+      "free": {
+        "label": "arm5e.sheet.free",
+        "dtype": "String",
+        "cost": 0
+      },
+      "major": {
+        "label": "arm5e.sheet.major",
+        "dtype": "String",
+        "cost": 3
+      },
+      "minor": {
+        "label": "arm5e.sheet.minor",
+        "dtype": "String",
+        "cost": 1
+      }
+    },
+    "version": "1.4.5"
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751865,
+    "modifiedTime": 1693635052365,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!GpoO6dFIKC7xaTcb"
+}

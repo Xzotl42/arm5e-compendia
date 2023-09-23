@@ -1,0 +1,58 @@
+{
+  "_id": "diiC7F6NBc4zytnV",
+  "name": "Bow, Short",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-leather.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.weapons.3xQoUIdFwNnz4OGV"
+    },
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "std",
+      "label": "Cost"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "ability": "",
+    "abilities": [],
+    "weaponExpert": false,
+    "horse": false,
+    "init": -1,
+    "atk": 3,
+    "dfn": 0,
+    "dam": 6,
+    "str": -1,
+    "range": 15,
+    "load": 2,
+    "equiped": false,
+    "data": {
+      "description": "<div title=\"Page 176\">\n<div title=\"Page 177\">\n<div title=\"Page 177\">\n<p>&nbsp;</p>\n<div class=\"page\" title=\"Page 177\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>The name makes it sound weak compared to the long bow, but the short bow is still powerful enough to use on the battlefield or to hunt large game.<span style=\"font-size: 9.000000pt; font-family: 'Weiss'; color: rgb(6.313300%, 8.863500%, 10.356300%);\">&nbsp;</span></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div title=\"Page 177\">\n<div>\n<div>\n<div>\n<div title=\"Page 177\">Range: 15 paces</div>\n<p>* Requires two free hands to load and fire.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+    },
+    "version": "1.4.5"
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235750973,
+    "modifiedTime": 1693635051890,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_key": "!items!diiC7F6NBc4zytnV"
+}

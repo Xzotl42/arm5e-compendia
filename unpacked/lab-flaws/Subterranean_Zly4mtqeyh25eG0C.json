@@ -1,0 +1,109 @@
+{
+  "name": "Subterranean",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/base-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.Zly4mtqeyh25eG0C",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.health.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.te.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "health",
+            "aesthetics",
+            "te"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "rzZfacKvE5Yx5uuW",
+      "transfer": true,
+      "name": "Subterranean",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!Zly4mtqeyh25eG0C.rzZfacKvE5Yx5uuW"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-flaws.Zly4mtqeyh25eG0C"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1693635052295,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "Zly4mtqeyh25eG0C",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!Zly4mtqeyh25eG0C"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "True Faith",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "CVM94bUeNMQVHeWl",
+      "changes": [
+        {
+          "key": "system.realmAlignment",
+          "value": "3",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.RyWD74yNkZaUhCWt",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "magic"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "label": "",
+      "_key": "!items.effects!KN45mFZLdSb0xRPc.CVM94bUeNMQVHeWl"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 50,
+    "type": "general",
+    "impact": {
+      "value": "major"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751275,
+    "modifiedTime": 1693251904686,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "jyD9OjMnXTZeke24",
+  "_id": "KN45mFZLdSb0xRPc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!KN45mFZLdSb0xRPc"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Afflicted Tongue",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [
+    {
+      "_id": "qZY93ZsEnKaJvz1C",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.flaws.hADonI8WjhRHoERP",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "name": "Speach impediment",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!1SEkDzEOdFaZKaJE.qZY93ZsEnKaJvz1C"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.core.dAXqhpgvuj6Ahm9z"
+    },
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1662235751624,
+    "modifiedTime": 1693635052068,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "89iysgZdtlOHsDCT": 3
+  },
+  "_id": "1SEkDzEOdFaZKaJE",
+  "_key": "!items!1SEkDzEOdFaZKaJE"
+}

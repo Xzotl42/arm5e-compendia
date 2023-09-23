@@ -1,0 +1,91 @@
+{
+  "name": "Invisible",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.NRSmo6MsFbZAo2u4",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.im.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "warping",
+            "im"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "YkW7AJiYYefISQAZ",
+      "transfer": true,
+      "name": "Invisible (miss divide the Aesthetic by 2 after all other modifications)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!NRSmo6MsFbZAo2u4.YkW7AJiYYefISQAZ"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {
+      "sourceId": "Compendium.arm5e.lab-virtues.NRSmo6MsFbZAo2u4"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.10",
+    "coreVersion": "11.308",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1693635052178,
+    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+  },
+  "_id": "NRSmo6MsFbZAo2u4",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NGzrSiVnGM6Psvg4": 3
+  },
+  "_key": "!items!NRSmo6MsFbZAo2u4"
+}

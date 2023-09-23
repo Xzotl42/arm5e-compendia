@@ -1,0 +1,81 @@
+{
+  "name": "Shapeshifter",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.inDeFublocWDcUHX",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.shapeshifter.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "shapeshifter"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "TGXZRSMlTJTMKTIS",
+      "transfer": true,
+      "label": "",
+      "_key": "!items.effects!inDeFublocWDcUHX.TGXZRSMlTJTMKTIS"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nh7mgwj6rq",
+      "path": "Virtues#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 48,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751235,
+    "modifiedTime": 1693251904700,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "Sym94leLiWXQ3Rh9",
+  "_id": "inDeFublocWDcUHX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!inDeFublocWDcUHX"
+}

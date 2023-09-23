@@ -1,0 +1,90 @@
+{
+  "name": "Quiet Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.iu0yfAIc4gMftbyu",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.stances.voice.quiet",
+          "value": "0",
+          "mode": 5,
+          "priority": null
+        },
+        {
+          "mode": 5,
+          "key": "system.stances.voice.silent",
+          "value": "-5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "spellcasting",
+            "spellcasting"
+          ],
+          "subtype": [
+            "voiceQuiet",
+            "voiceSilent"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "vl0XJpbxPSgOKgcN",
+      "transfer": true,
+      "label": "",
+      "_key": "!items.effects!0WY13kLD6k24OU0V.vl0XJpbxPSgOKgcN"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 48,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.5",
+    "coreVersion": "10.291",
+    "createdTime": 1662235751352,
+    "modifiedTime": 1693251904675,
+    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "0WY13kLD6k24OU0V",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3
+  },
+  "_key": "!items!0WY13kLD6k24OU0V"
+}
