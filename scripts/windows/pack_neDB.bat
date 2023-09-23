@@ -1,6 +1,6 @@
 @echo off
 echo "Pack all compendia..."
-set FOUNDRY_DATA="D:\FoundryVTT"  
+set FOUNDRY_DATA="<MY FOUNDRY_DATA_PATH>"  
 set FOUNDRY_INSTALL="C:\Program Files\Foundry Virtual Tabletop"
 set ARS_COMPENDIA="arm5e-compendia"
 call fvtt configure set installPath  %foundry_install%

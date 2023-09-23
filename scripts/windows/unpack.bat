@@ -1,12 +1,12 @@
 @echo off
 echo "Unpack all compendia..."
-set FOUNDRY_DATA="D:\FoundryVTT"  
+set FOUNDRY_DATA="<MY FOUNDRY_DATA_PATH>"  
 set FOUNDRY_INSTALL="C:\Program Files\Foundry Virtual Tabletop"
 set ARS_COMPENDIA="arm5e-compendia"
 call fvtt configure set installPath  %foundry_install%
 call fvtt configure set dataPath  %foundry_data%
 cd %foundry_data%\Data\modules\%ars_compendia%\unpacked
-call fvtt package workon arm5e --type "System"
+call fvtt package workon %ars_compendia% --type "Module"
 call fvtt package unpack -n "abilities" -t "Item" --out .\abilities
 call fvtt package unpack -n "virtues" -t "Item" --out .\virtues
 call fvtt package unpack -n "flaws" -t "Item" --out .\flaws
