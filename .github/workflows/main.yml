@@ -39,6 +39,9 @@ jobs:
           url: ${{ env.project_url }}
           manifest: ${{ env.latest_manifest_url }}
           download: ${{ env.release_module_url }}
+      - name: Install module
+        id: install
+        run: npm install
       - name: Create Database Packs
         id: pack-db
         run: npm run pack
