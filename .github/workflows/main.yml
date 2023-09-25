@@ -39,20 +39,13 @@ jobs:
           url: ${{ env.project_url }}
           manifest: ${{ env.latest_manifest_url }}
           download: ${{ env.release_module_url }}
-
       - name: Create Database Packs
-        uses: aMediocreDad/foundry-db-packer@v0.2.1
-        with:
-          inputdir: unpacked/ # The directory which contains the JSON files to pack (required)
-          packsdir: packs/ # The directory where the compendium packs should exist (optional)
-          pack_classiclevel: true # <boolean> Whether to pack the class level db files (optional)
-          pack_nedb: false # <boolean> Whether to pack the nedb db files (optional)
-
-
-
-      # Create a zip file with all files required by the module to add to the release
-      - run: zip -r ./arm5e-compendia.zip module.json LICENSE.txt README.md ReleaseNotes.md  packs/ unpacked/ scripts/
-
+        id: pack-db
+        run: npm run pack
+      - name: Packaging
+        id: package
+        # Create a zip file with all files required by the module to add to the release
+        run: zip -r ./arm5e-compendia.zip module.json LICENSE.txt README.md ReleaseNotes.md  packs/ unpacked/ scripts/
       # Create a release for this specific version
       - name: Update Release with Files
         id: create_version_release
