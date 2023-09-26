@@ -1,0 +1,92 @@
+{
+  "name": "Silent Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.oAfkkOgj1fGwySQa",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.stances.voice.quiet",
+          "value": "0",
+          "mode": 5,
+          "priority": null
+        },
+        {
+          "mode": 5,
+          "key": "system.stances.voice.silent",
+          "value": "0",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "spellcasting",
+            "spellcasting"
+          ],
+          "subtype": [
+            "voiceQuiet",
+            "voiceSilent"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "xgihZ4LZlyRFEiIf",
+      "transfer": true,
+      "name": "Silent Magic",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!rsHORpQ0mYDWrxw0.xgihZ4LZlyRFEiIf"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
+    "createdTime": 1662235751352,
+    "modifiedTime": 1695753043053,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "rsHORpQ0mYDWrxw0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!rsHORpQ0mYDWrxw0"
+}

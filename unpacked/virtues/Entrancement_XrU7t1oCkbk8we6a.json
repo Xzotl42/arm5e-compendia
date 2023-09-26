@@ -2,7 +2,50 @@
   "name": "Entrancement",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Item.XrU7t1oCkbk8we6a",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.entrancement.bonus",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "bonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "entrancement"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "XP Bonus",
+      "icon": "icons/svg/aura.svg",
+      "_id": "EOOHBfrsl5vyRKLk",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_key": "!items.effects!XrU7t1oCkbk8we6a.EOOHBfrsl5vyRKLk"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {
@@ -23,18 +66,18 @@
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.5",
-    "coreVersion": "10.291",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
     "createdTime": 1662235751211,
-    "modifiedTime": 1693251904693,
-    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+    "modifiedTime": 1695753043053,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
   },
   "folder": "Sym94leLiWXQ3Rh9",
   "_id": "XrU7t1oCkbk8we6a",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "4OxU3E57BM9ttwDI": 3
+    "1JBSgWiiwizu7vru": 3
   },
   "_key": "!items!XrU7t1oCkbk8we6a"
 }

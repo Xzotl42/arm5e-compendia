@@ -1,0 +1,83 @@
+{
+  "name": "Faerie Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "_id": "ghUg7E1TBNc4nCJZ",
+      "changes": [
+        {
+          "key": "system.realms.faeric.aligned",
+          "value": "true",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "faeric"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Fae aligned",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!nQaZ6D4ZI7VK6mkW.ghUg7E1TBNc4nCJZ"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "ArM5",
+    "page": 49,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "url": ""
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
+    "createdTime": 1662235751249,
+    "modifiedTime": 1695753043053,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "nQaZ6D4ZI7VK6mkW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!nQaZ6D4ZI7VK6mkW"
+}

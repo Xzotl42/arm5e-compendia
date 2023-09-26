@@ -7,8 +7,8 @@
       "_id": "ghUg7E1TBNc4nCJZ",
       "changes": [
         {
-          "key": "system.realmAlignment",
-          "value": "2",
+          "key": "system.realms.faeric.aligned",
+          "value": "true",
           "mode": 5,
           "priority": null
         }
@@ -33,14 +33,16 @@
             "realm"
           ],
           "subtype": [
-            "magic"
+            "faeric"
           ],
           "option": [
             null
           ]
         }
       },
-      "label": "",
+      "name": "Fae aligned",
+      "description": "",
+      "statuses": [],
       "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
     }
   ],
@@ -64,18 +66,18 @@
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.5",
-    "coreVersion": "10.291",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
     "createdTime": 1662235751249,
-    "modifiedTime": 1693251904698,
-    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+    "modifiedTime": 1695753043053,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
   },
   "folder": "Sym94leLiWXQ3Rh9",
   "_id": "cyufl6WghNbW3tRn",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "4OxU3E57BM9ttwDI": 3
+    "1JBSgWiiwizu7vru": 3
   },
   "_key": "!items!cyufl6WghNbW3tRn"
 }

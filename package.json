@@ -1,14 +1,15 @@
 {
   "name": "arm5e-compendia",
   "description": "Reference and template for personal shared compendia used with the Ars Magica 5th Edition system for Foundry VTT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "type": "module",
   "dependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
   },
   "scripts": {
-    "pack": "node scripts/pack.js"
+    "pack": "node scripts/pack.js",
+    "unpack": "node scripts/unpack.js"
   },
   "repository": {
     "type": "git",

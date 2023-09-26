@@ -26,10 +26,17 @@
   "url": "https://github.com/Xzotl42/arm5e-compendia",
   "manifest": "https://raw.githubusercontent.com/xzotl42/arm5e-compendia/main/module.json",
   "download": "https://github.com/xzotl42/arm5e-compendia/archive/main.zip",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/arm5e-compendia/assets/ArM5logo.webp",
+      "thumbnail": "modules/arm5e-compendia/assets/ArM5logo.webp"
+    }
+  ],
   "packs": [
     {
       "name": "abilities",
-      "label": "abilities",
+      "label": "Abilities",
       "path": "packs/abilities",
       "type": "Item",
       "ownership": {
@@ -41,7 +48,7 @@
     },
     {
       "name": "virtues",
-      "label": "virtues",
+      "label": "Virtues",
       "path": "packs/virtues",
       "type": "Item",
       "ownership": {
@@ -53,7 +60,7 @@
     },
     {
       "name": "flaws",
-      "label": "flaws",
+      "label": "Flaws",
       "path": "packs/flaws",
       "type": "Item",
       "ownership": {
@@ -65,7 +72,7 @@
     },
     {
       "name": "spells",
-      "label": "spells",
+      "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
       "ownership": {
@@ -77,7 +84,7 @@
     },
     {
       "name": "lab-virtues",
-      "label": "lab-virtues",
+      "label": "Laboratory Virtues",
       "path": "packs/lab-virtues",
       "type": "Item",
       "ownership": {
@@ -89,7 +96,7 @@
     },
     {
       "name": "lab-flaws",
-      "label": "lab-flaws",
+      "label": "Laboratory Flaws",
       "path": "packs/lab-flaws",
       "type": "Item",
       "ownership": {
@@ -101,7 +108,7 @@
     },
     {
       "name": "items",
-      "label": "items",
+      "label": "Items",
       "path": "packs/items",
       "type": "Item",
       "ownership": {

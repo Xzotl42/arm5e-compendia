@@ -2,7 +2,50 @@
   "name": "Premonitions",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Item.lwiiGPQg5aSIK9fO",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.premonitions.bonus",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "bonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "premonitions"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "XP Bonus",
+      "icon": "icons/svg/aura.svg",
+      "_id": "QyzAY451Lt9o5iA4",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_key": "!items.effects!lwiiGPQg5aSIK9fO.QyzAY451Lt9o5iA4"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {
@@ -23,18 +66,18 @@
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.5",
-    "coreVersion": "10.291",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
     "createdTime": 1662235751337,
-    "modifiedTime": 1693251904702,
-    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+    "modifiedTime": 1695753043053,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
   },
   "folder": "XwOh5akgyjxNE2dG",
   "_id": "lwiiGPQg5aSIK9fO",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "4OxU3E57BM9ttwDI": 3
+    "1JBSgWiiwizu7vru": 3
   },
   "_key": "!items!lwiiGPQg5aSIK9fO"
 }

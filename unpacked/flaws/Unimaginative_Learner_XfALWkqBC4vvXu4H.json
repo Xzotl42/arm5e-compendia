@@ -2,11 +2,52 @@
   "name": "Unimaginative Learner",
   "type": "flaw",
   "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Item.XfALWkqBC4vvXu4H",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.visStudy",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities"
+          ],
+          "subtype": [
+            "visStudy"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Uniaginative learner",
+      "icon": "icons/svg/aura.svg",
+      "_id": "hFSBNsrS85NyJu9U",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_key": "!items.effects!XfALWkqBC4vvXu4H.hFSBNsrS85NyJu9U"
+    }
+  ],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.world.core.YlTRgjdCUKvLksbc"
-    },
+    "core": {},
     "cf": {
       "id": "temp_zctzc5h7p5",
       "path": "Flaws#/CF_SEP/Hermetic",
@@ -15,8 +56,8 @@
   },
   "system": {
     "description": "",
-    "source": "custom",
-    "page": 0,
+    "source": "ArM5",
+    "page": 60,
     "type": "hermetic",
     "impact": {
       "value": "minor"
@@ -25,18 +66,18 @@
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.10",
-    "coreVersion": "11.308",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
     "createdTime": 1662235751637,
-    "modifiedTime": 1693635052077,
-    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+    "modifiedTime": 1695753162863,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
   },
-  "folder": null,
+  "folder": "8FTSMAxaThguRoxc",
+  "_id": "XfALWkqBC4vvXu4H",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "89iysgZdtlOHsDCT": 3
+    "1JBSgWiiwizu7vru": 3
   },
-  "_id": "XfALWkqBC4vvXu4H",
   "_key": "!items!XfALWkqBC4vvXu4H"
 }

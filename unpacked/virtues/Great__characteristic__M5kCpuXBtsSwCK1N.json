@@ -2,7 +2,37 @@
   "name": "Great (characteristic)",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Item.M5kCpuXBtsSwCK1N",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [],
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "name": "Great characteristic (to configure)",
+      "icon": "icons/svg/aura.svg",
+      "_id": "hhvsgxVe6fSH5wyk",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_key": "!items.effects!M5kCpuXBtsSwCK1N.hhvsgxVe6fSH5wyk"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {
@@ -23,18 +53,18 @@
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.5",
-    "coreVersion": "10.291",
+    "systemVersion": "2.2.2.14",
+    "coreVersion": "11.309",
     "createdTime": 1662235751294,
-    "modifiedTime": 1693251904687,
-    "lastModifiedBy": "4OxU3E57BM9ttwDI"
+    "modifiedTime": 1695753043053,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
   },
   "folder": "jegZHVtv21smauPD",
   "_id": "M5kCpuXBtsSwCK1N",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "4OxU3E57BM9ttwDI": 3
+    "1JBSgWiiwizu7vru": 3
   },
   "_key": "!items!M5kCpuXBtsSwCK1N"
 }
