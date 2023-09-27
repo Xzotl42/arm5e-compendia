@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -36,7 +36,7 @@
   "packs": [
     {
       "name": "abilities",
-      "label": "Abilities",
+      "label": "Ars Magica - Abilities",
       "path": "packs/abilities",
       "type": "Item",
       "ownership": {
@@ -48,7 +48,7 @@
     },
     {
       "name": "virtues",
-      "label": "Virtues",
+      "label": "Ars Magica - Virtues",
       "path": "packs/virtues",
       "type": "Item",
       "ownership": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "flaws",
-      "label": "Flaws",
+      "label": "Ars Magica - Flaws",
       "path": "packs/flaws",
       "type": "Item",
       "ownership": {
@@ -72,7 +72,7 @@
     },
     {
       "name": "spells",
-      "label": "Spells",
+      "label": "Ars Magica - Spells",
       "path": "packs/spells",
       "type": "Item",
       "ownership": {
@@ -84,7 +84,7 @@
     },
     {
       "name": "lab-virtues",
-      "label": "Laboratory Virtues",
+      "label": "Ars Magica - Laboratory Virtues",
       "path": "packs/lab-virtues",
       "type": "Item",
       "ownership": {
@@ -96,7 +96,7 @@
     },
     {
       "name": "lab-flaws",
-      "label": "Laboratory Flaws",
+      "label": "Ars Magica - Laboratory Flaws",
       "path": "packs/lab-flaws",
       "type": "Item",
       "ownership": {
@@ -108,7 +108,7 @@
     },
     {
       "name": "items",
-      "label": "Items",
+      "label": "Ars Magica - Equipment",
       "path": "packs/items",
       "type": "Item",
       "ownership": {
