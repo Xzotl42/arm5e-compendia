@@ -1,9 +1,10 @@
 # Release notes
 
-
 ## Version 0.1.2
 
-- removal of Compendium folders documents
+- Removal of Compendium folders documents
+- Added prefix to the compendia labels
+- Updated readme file
 
 ## Version 0.1.1
 
