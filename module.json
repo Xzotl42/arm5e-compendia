@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -43,7 +43,7 @@
     {
       "name": "abilities",
       "label": "Ars Magica - Abilities",
-      "path": "packs/abilities",
+      "path": "packs/abilities.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -55,7 +55,7 @@
     {
       "name": "virtues",
       "label": "Ars Magica - Virtues",
-      "path": "packs/virtues",
+      "path": "packs/virtues.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -67,7 +67,7 @@
     {
       "name": "flaws",
       "label": "Ars Magica - Flaws",
-      "path": "packs/flaws",
+      "path": "packs/flaws.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -79,7 +79,7 @@
     {
       "name": "spells",
       "label": "Ars Magica - Spells",
-      "path": "packs/spells",
+      "path": "packs/spells.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -91,7 +91,7 @@
     {
       "name": "laboratory-virtues",
       "label": "Ars Magica - Laboratory Virtues",
-      "path": "packs/laboratory-virtues",
+      "path": "packs/laboratory-virtues.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -103,7 +103,7 @@
     {
       "name": "laboratory-flaws",
       "label": "Ars Magica - Laboratory Flaws",
-      "path": "packs/laboratory-flaws",
+      "path": "packs/laboratory-flaws.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -115,7 +115,7 @@
     {
       "name": "equipment",
       "label": "Ars Magica - Equipment",
-      "path": "packs/equipment",
+      "path": "packs/equipment.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
