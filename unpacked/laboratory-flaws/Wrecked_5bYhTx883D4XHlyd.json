@@ -1,0 +1,99 @@
+{
+  "name": "Wrecked",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 117,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "wrecked"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.5bYhTx883D4XHlyd",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "-5",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.safety.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality",
+            "safety",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "KrFlMBrXItN6Xfgf",
+      "transfer": true,
+      "name": "Wrecked",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!5bYhTx883D4XHlyd.KrFlMBrXItN6Xfgf"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1696140815104,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "WJlb29XyAyeU9Akz",
+  "_id": "5bYhTx883D4XHlyd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!5bYhTx883D4XHlyd"
+}

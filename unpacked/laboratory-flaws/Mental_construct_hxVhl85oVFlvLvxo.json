@@ -1,0 +1,108 @@
+{
+  "name": "Mental construct",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 120,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "mental-construct"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.hxVhl85oVFlvLvxo",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "-5",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.warping.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.me.bonus",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "warping",
+            "aesthetics",
+            "me"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "QK63K2WpqFBN72pW",
+      "transfer": true,
+      "name": "Mental construct",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!hxVhl85oVFlvLvxo.QK63K2WpqFBN72pW"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1696140815313,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "EDNjSPq3z0pnfthw",
+  "_id": "hxVhl85oVFlvLvxo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!hxVhl85oVFlvLvxo"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Superior lighting",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "superior-lighting"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.0enmnwCV8dttWHna",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.im.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.texts.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "aesthetics",
+            "im",
+            "texts"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "DzgKH2HohqY7o39e",
+      "transfer": true,
+      "name": "Superior lighting",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!0enmnwCV8dttWHna.DzgKH2HohqY7o39e"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1696140815463,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "vQrIj407rAmhWLxC",
+  "_id": "0enmnwCV8dttWHna",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!0enmnwCV8dttWHna"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Site of legend \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "site-of-legend"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.QxKrOR5dx0hw4Fu8",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [],
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "_id": "lw29nf6r7EMY1ZCU",
+      "transfer": true,
+      "name": "Site of legend (to be configured with any adjustements to characteristics and specializations as appropriate)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!QxKrOR5dx0hw4Fu8.lw29nf6r7EMY1ZCU"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696141677629,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "QxKrOR5dx0hw4Fu8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!QxKrOR5dx0hw4Fu8"
+}

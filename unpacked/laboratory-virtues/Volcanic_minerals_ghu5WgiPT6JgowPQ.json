@@ -1,0 +1,90 @@
+{
+  "name": "Volcanic minerals",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "HP",
+    "page": 19,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "volcanic-minerals"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.ghu5WgiPT6JgowPQ",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.te.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "te"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "URFM2Twpn6locWXT",
+      "transfer": true,
+      "name": "Volcanic minerals",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!ghu5WgiPT6JgowPQ.URFM2Twpn6locWXT"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1696140815712,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "ghu5WgiPT6JgowPQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!ghu5WgiPT6JgowPQ"
+}

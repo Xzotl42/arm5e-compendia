@@ -1,0 +1,99 @@
+{
+  "name": "Haunted",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "haunted"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.8P0ZH6EsSBan0IHO",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.me.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "warping",
+            "aesthetics",
+            "me"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "4UDOUa5DSaaSf24W",
+      "transfer": true,
+      "name": "Haunted",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!8P0ZH6EsSBan0IHO.4UDOUa5DSaaSf24W"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1696140815124,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "NVhyR3IguEbeHnVj",
+  "_id": "8P0ZH6EsSBan0IHO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!8P0ZH6EsSBan0IHO"
+}

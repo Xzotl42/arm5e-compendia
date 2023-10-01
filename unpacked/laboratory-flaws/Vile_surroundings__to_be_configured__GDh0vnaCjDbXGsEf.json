@@ -1,0 +1,90 @@
+{
+  "name": "Vile surroundings \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "vile-surroundings"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.GDh0vnaCjDbXGsEf",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "r3dGjncB97aN6AZW",
+      "transfer": true,
+      "name": "Vile surroundings (to configure with 1 point on a specialization in Pe, An, Aq, Au or Co depending upon terrain type)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!GDh0vnaCjDbXGsEf.r3dGjncB97aN6AZW"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1696141368604,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "fl7kQmeXUGdXgUzN",
+  "_id": "GDh0vnaCjDbXGsEf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!GDh0vnaCjDbXGsEf"
+}

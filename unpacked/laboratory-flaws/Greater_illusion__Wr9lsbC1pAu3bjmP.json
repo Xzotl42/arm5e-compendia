@@ -1,0 +1,99 @@
+{
+  "name": "Greater illusion*",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 120,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "greater-illusion"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.Wr9lsbC1pAu3bjmP",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.warping.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.im.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "warping",
+            "aesthetics",
+            "im"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "DarJKK0PmxdvImjD",
+      "transfer": true,
+      "name": "Greater illusion",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!Wr9lsbC1pAu3bjmP.DarJKK0PmxdvImjD"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1696140815249,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "EDNjSPq3z0pnfthw",
+  "_id": "Wr9lsbC1pAu3bjmP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!Wr9lsbC1pAu3bjmP"
+}

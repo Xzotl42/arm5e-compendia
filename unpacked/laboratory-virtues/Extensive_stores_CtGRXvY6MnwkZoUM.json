@@ -1,0 +1,81 @@
+{
+  "name": "Extensive stores",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 113,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "extensive-stores"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.CtGRXvY6MnwkZoUM",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "safety"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "qlnhZndHLRolZTcO",
+      "transfer": true,
+      "name": "Extensive stores",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!CtGRXvY6MnwkZoUM.qlnhZndHLRolZTcO"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1696140815526,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "kgPqOLvXx1QbgDtc",
+  "_id": "CtGRXvY6MnwkZoUM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!CtGRXvY6MnwkZoUM"
+}

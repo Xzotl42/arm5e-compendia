@@ -1,0 +1,117 @@
+{
+  "name": "Outdoors",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "TME",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "outdoors"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.OWtlOK5ONPLZkMNA",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.health.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "safety",
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "T9QlqnAB5m3kRuAw",
+      "transfer": true,
+      "name": "Outdoors",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!OWtlOK5ONPLZkMNA.T9QlqnAB5m3kRuAw"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1696140815200,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "FdDvdjsUhE2K9g6B",
+  "_id": "OWtlOK5ONPLZkMNA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!OWtlOK5ONPLZkMNA"
+}

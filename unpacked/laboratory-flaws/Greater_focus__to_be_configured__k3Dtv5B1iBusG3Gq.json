@@ -1,0 +1,81 @@
+{
+  "name": "Greater focus \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "greater-focus"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.k3Dtv5B1iBusG3Gq",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.generalQuality.bonus",
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "SyNqEaHipYvceP3M",
+      "transfer": true,
+      "name": "Greater focus (to configure with  4 points among specialzations provided by the feature)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!k3Dtv5B1iBusG3Gq.SyNqEaHipYvceP3M"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1696141377172,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "FdDvdjsUhE2K9g6B",
+  "_id": "k3Dtv5B1iBusG3Gq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!k3Dtv5B1iBusG3Gq"
+}

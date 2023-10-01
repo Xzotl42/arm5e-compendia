@@ -1,0 +1,81 @@
+{
+  "name": "Lesser focus \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "lesser-focus"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.XlyvecL8AMswwF18",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.generalQuality.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "SFZssrFiF1kVOnbg",
+      "transfer": true,
+      "name": "Lesser focus (to configure with 2 points among specializations provided by the feature)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!XlyvecL8AMswwF18.SFZssrFiF1kVOnbg"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1696141395060,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "aDJYrD4qp7WjRbfx",
+  "_id": "XlyvecL8AMswwF18",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!XlyvecL8AMswwF18"
+}

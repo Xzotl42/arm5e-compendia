@@ -1,0 +1,99 @@
+{
+  "name": "Predecessor",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "predecessor"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.HBcmhOrmn9yG8ssg",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.experimentation.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "safety",
+            "warping",
+            "experimentation"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "2jmdeJVoM5KQ7T9H",
+      "transfer": true,
+      "name": "Predecessor",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!HBcmhOrmn9yG8ssg.2jmdeJVoM5KQ7T9H"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1696140815172,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "NVhyR3IguEbeHnVj",
+  "_id": "HBcmhOrmn9yG8ssg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!HBcmhOrmn9yG8ssg"
+}

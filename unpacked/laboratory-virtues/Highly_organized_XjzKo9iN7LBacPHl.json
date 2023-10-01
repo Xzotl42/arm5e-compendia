@@ -1,0 +1,81 @@
+{
+  "name": "Highly organized",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "highly-organized"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.XjzKo9iN7LBacPHl",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.generalQuality.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "DjTN95kbt1SNgvg6",
+      "transfer": true,
+      "name": "Highly organized",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!XjzKo9iN7LBacPHl.DjTN95kbt1SNgvg6"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1696140815660,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "XjzKo9iN7LBacPHl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!XjzKo9iN7LBacPHl"
+}

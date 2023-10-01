@@ -1,0 +1,68 @@
+{
+  "name": "Restriction \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "restriction"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.JpYC6Fdpv5r4XKUA",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [],
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "_id": "a3T2hw2eaLBuwKWZ",
+      "transfer": true,
+      "name": "Restriction (to be configured with -1 general quality or +2 upkeep)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!JpYC6Fdpv5r4XKUA.a3T2hw2eaLBuwKWZ"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1696141456692,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "NVhyR3IguEbeHnVj",
+  "_id": "JpYC6Fdpv5r4XKUA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!JpYC6Fdpv5r4XKUA"
+}

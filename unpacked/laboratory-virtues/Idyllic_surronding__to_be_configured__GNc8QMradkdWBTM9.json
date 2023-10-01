@@ -1,0 +1,90 @@
+{
+  "name": "Idyllic surronding \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "idyllic-surronding"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.GNc8QMradkdWBTM9",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "u3cB520QI2mmikig",
+      "transfer": true,
+      "name": "Idyllic surronding (to be configured with 1 point on specialization in Cr, Au, Aq, He ou Te depending upon terrain type)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!GNc8QMradkdWBTM9.u3cB520QI2mmikig"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1696141588452,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "bgjOBA1J7YuglBIX",
+  "_id": "GNc8QMradkdWBTM9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!GNc8QMradkdWBTM9"
+}

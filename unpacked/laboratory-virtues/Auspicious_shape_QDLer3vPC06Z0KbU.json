@@ -1,0 +1,90 @@
+{
+  "name": "Auspicious shape",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 113,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "auspicious-shape"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.QDLer3vPC06Z0KbU",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.vi.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "aesthetics",
+            "vi"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "3oGXjZuGT5UQYCRm",
+      "transfer": true,
+      "name": "Auspicious shape",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!QDLer3vPC06Z0KbU.3oGXjZuGT5UQYCRm"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1696140815601,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "kgPqOLvXx1QbgDtc",
+  "_id": "QDLer3vPC06Z0KbU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!QDLer3vPC06Z0KbU"
+}

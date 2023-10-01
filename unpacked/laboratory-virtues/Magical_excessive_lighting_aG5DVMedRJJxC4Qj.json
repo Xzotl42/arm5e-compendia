@@ -1,0 +1,81 @@
+{
+  "name": "Magical excessive lighting",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 1190,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "magical-excessive-lighting"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.aG5DVMedRJJxC4Qj",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.specialty.im.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "labSpecialty"
+          ],
+          "subtype": [
+            "im"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "Zk4juVkr6iD50bUF",
+      "transfer": true,
+      "name": "Magical excessive lighting",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!aG5DVMedRJJxC4Qj.Zk4juVkr6iD50bUF"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696140815673,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "aG5DVMedRJJxC4Qj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!aG5DVMedRJJxC4Qj"
+}

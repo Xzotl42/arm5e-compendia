@@ -1,0 +1,81 @@
+{
+  "name": "Person* \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "person"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.5Y2u3kU7FVu7v0y2",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "safety"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "4CJgiPnga47XNfDj",
+      "transfer": true,
+      "name": "Person (to be configured with +1 Co or Me)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!5Y2u3kU7FVu7v0y2.4CJgiPnga47XNfDj"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663053848415,
+    "modifiedTime": 1696141531795,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "5Y2u3kU7FVu7v0y2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!5Y2u3kU7FVu7v0y2"
+}

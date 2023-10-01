@@ -1,0 +1,117 @@
+{
+  "name": "Hovel",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 117,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "hovel"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.XO2CviAzBMjywI6P",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.safety.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.health.bonus",
+          "value": "-3",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "safety",
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "5c3rrPxtpFFcB24t",
+      "transfer": true,
+      "name": "Hovel",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!XO2CviAzBMjywI6P.5c3rrPxtpFFcB24t"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1696140815254,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "UG6CvAk9qqXO8Aqp",
+  "_id": "XO2CviAzBMjywI6P",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!XO2CviAzBMjywI6P"
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Underwater",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "underwater"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.GmvXexNi9G07v5Pe",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.aq.bonus",
+          "value": "4",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.experimentation.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "labSpecialty",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "safety",
+            "warping",
+            "aesthetics",
+            "aq",
+            "experimentation"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "xDRscJ6c1lMtxwE2",
+      "transfer": true,
+      "name": "Underwater",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!GmvXexNi9G07v5Pe.xDRscJ6c1lMtxwE2"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1696140815168,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "NVhyR3IguEbeHnVj",
+  "_id": "GmvXexNi9G07v5Pe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!GmvXexNi9G07v5Pe"
+}

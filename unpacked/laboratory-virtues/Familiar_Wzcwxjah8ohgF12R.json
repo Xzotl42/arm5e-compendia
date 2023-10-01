@@ -1,0 +1,68 @@
+{
+  "name": "Familiar",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "familiar"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.Wzcwxjah8ohgF12R",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [],
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "_id": "POwlbV7oAZ9Hwazl",
+      "transfer": true,
+      "name": "Familiar (not configured because link with familiar)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!Wzcwxjah8ohgF12R.POwlbV7oAZ9Hwazl"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696140815656,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "wSymFiu4KZEUClwq",
+  "_id": "Wzcwxjah8ohgF12R",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!Wzcwxjah8ohgF12R"
+}

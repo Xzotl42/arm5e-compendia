@@ -1,0 +1,90 @@
+{
+  "name": "Greater guardian \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "greater-guardian"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.a341DOScHtlAIvT8",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "warping",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "DazH6owIXj0EPDip",
+      "transfer": true,
+      "name": "Greater guardian (to be configured with +creature intelligence in Safety and 3 points on appropriate Art specialization(s))",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!a341DOScHtlAIvT8.DazH6owIXj0EPDip"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696141686094,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "FKJvdtHXle5HOY22",
+  "_id": "a341DOScHtlAIvT8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!a341DOScHtlAIvT8"
+}

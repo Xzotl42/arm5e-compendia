@@ -1,0 +1,81 @@
+{
+  "name": "Hidden defect*",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "hidden-defect"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.LolvrmWAtoOZgeFG",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "safety"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "R4DvPQNS0BLyYs7o",
+      "transfer": true,
+      "name": "Hidden defect",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!LolvrmWAtoOZgeFG.R4DvPQNS0BLyYs7o"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1696140815190,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "WJlb29XyAyeU9Akz",
+  "_id": "LolvrmWAtoOZgeFG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!LolvrmWAtoOZgeFG"
+}

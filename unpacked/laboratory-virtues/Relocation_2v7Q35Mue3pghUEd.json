@@ -1,0 +1,90 @@
+{
+  "name": "Relocation",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "relocation"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.2v7Q35Mue3pghUEd",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.experimentation.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "warping",
+            "experimentation"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "iUK8UMyeTbvvmoHn",
+      "transfer": true,
+      "name": "Relocation (to be configured by removing the +1 warping if the relocation does not have a constant effect)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!2v7Q35Mue3pghUEd.iUK8UMyeTbvvmoHn"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696140815481,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "2v7Q35Mue3pghUEd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!2v7Q35Mue3pghUEd"
+}

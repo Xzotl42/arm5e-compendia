@@ -1,0 +1,81 @@
+{
+  "name": "Natural environment \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 113,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "natural-environment"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.u4wfDzpsEJ1ukmv3",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "tkIJCDASxKjibN7Z",
+      "transfer": true,
+      "name": "Natural environment (to be configuredd with 3 point amoung specializations in Cr, An, Aq, Au, He, Ig or Te depending upon terrain type)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!u4wfDzpsEJ1ukmv3.tkIJCDASxKjibN7Z"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1696141604284,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "TACZcFCFX6VRT6Jx",
+  "_id": "u4wfDzpsEJ1ukmv3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!u4wfDzpsEJ1ukmv3"
+}

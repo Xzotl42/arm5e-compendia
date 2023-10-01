@@ -1,0 +1,81 @@
+{
+  "name": "Missing ingredients*",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "missing-ingredients"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.xrKFPuJsGS2QNmt7",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.upkeep.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "upkeep"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "HkMosnHtL3i3VhtP",
+      "transfer": true,
+      "name": "Missing ingredients",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!xrKFPuJsGS2QNmt7.HkMosnHtL3i3VhtP"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1696140815377,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "WJlb29XyAyeU9Akz",
+  "_id": "xrKFPuJsGS2QNmt7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!xrKFPuJsGS2QNmt7"
+}

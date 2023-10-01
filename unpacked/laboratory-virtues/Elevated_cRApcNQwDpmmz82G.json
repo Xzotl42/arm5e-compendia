@@ -1,0 +1,90 @@
+{
+  "name": "Elevated",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "elevated"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.cRApcNQwDpmmz82G",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.au.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "aesthetics",
+            "au"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "T60GQ8hRkLUIfK2p",
+      "transfer": true,
+      "name": "Elevated",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!cRApcNQwDpmmz82G.T60GQ8hRkLUIfK2p"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1696140815683,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "bgjOBA1J7YuglBIX",
+  "_id": "cRApcNQwDpmmz82G",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!cRApcNQwDpmmz82G"
+}

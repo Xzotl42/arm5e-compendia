@@ -1,0 +1,81 @@
+{
+  "name": "Boundless",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "boundless"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.UrwAj6KMRR9eTaUP",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.warping.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "warping"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "aW9kUpoKiuE8TNSc",
+      "transfer": true,
+      "name": "Boundless",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!UrwAj6KMRR9eTaUP.aW9kUpoKiuE8TNSc"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696140815632,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "UrwAj6KMRR9eTaUP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!UrwAj6KMRR9eTaUP"
+}

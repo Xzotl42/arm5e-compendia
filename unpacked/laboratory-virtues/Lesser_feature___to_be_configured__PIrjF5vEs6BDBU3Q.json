@@ -1,0 +1,81 @@
+{
+  "name": "Lesser feature* \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 113,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "lesser-feature-to-be-configured"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.PIrjF5vEs6BDBU3Q",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "qWZ8MxLMhU9g8ZZU",
+      "transfer": true,
+      "name": "Lesser feature (to be configured with +1 on an appropriate specialisation)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!PIrjF5vEs6BDBU3Q.qWZ8MxLMhU9g8ZZU"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054291322,
+    "modifiedTime": 1696140815586,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "kgPqOLvXx1QbgDtc",
+  "_id": "PIrjF5vEs6BDBU3Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!PIrjF5vEs6BDBU3Q"
+}

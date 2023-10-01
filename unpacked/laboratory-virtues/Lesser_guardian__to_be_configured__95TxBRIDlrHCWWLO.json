@@ -1,0 +1,81 @@
+{
+  "name": "Lesser guardian \"to be configured\"",
+  "type": "virtue",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "lesser-guardian"
+  },
+  "effects": [
+    {
+      "icon": "icons/svg/aura.svg",
+      "origin": "Item.95TxBRIDlrHCWWLO",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "safety"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "OdXiaPmQ1zNkPxCj",
+      "transfer": true,
+      "name": "Lesser guardian (to be configured with 1 point on an appropriate Art specialization)",
+      "description": "",
+      "statuses": [],
+      "_key": "!items.effects!95TxBRIDlrHCWWLO.OdXiaPmQ1zNkPxCj"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1663054658610,
+    "modifiedTime": 1696141712733,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "folder": "wSymFiu4KZEUClwq",
+  "_id": "95TxBRIDlrHCWWLO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!95TxBRIDlrHCWWLO"
+}
