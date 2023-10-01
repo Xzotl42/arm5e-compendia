@@ -41,6 +41,18 @@
   "esmodules": ["scripts/index.js"],
   "packs": [
     {
+      "name": "macros",
+      "label": "Ars Magica - Macros",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
       "name": "abilities",
       "label": "Ars Magica - Abilities",
       "path": "packs/abilities.db",
