@@ -1,0 +1,50 @@
+{
+  "name": "Bow, Horse",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-recurve-red.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "cost": {
+      "value": "exp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": true,
+    "init": -2,
+    "atk": 5,
+    "dfn": 0,
+    "dam": 8,
+    "str": 2,
+    "range": 15,
+    "load": 2,
+    "equipped": false,
+    "indexKey": "bow-horse"
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
+    "createdTime": 1662235751000,
+    "modifiedTime": 1696140816065,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "_id": "uvJfv1457rmG2n0s",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!uvJfv1457rmG2n0s"
+}
