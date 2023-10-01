@@ -106,7 +106,7 @@ This will demand a little work on your side, but it should be only once. Support
       },
       "system": "arm5e",
       "flags": {}
-    },...
+    },
 ```
 
 - Start Foundry VTT, your world and enable your new personal module. That's it!

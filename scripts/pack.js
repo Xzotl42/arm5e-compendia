@@ -17,16 +17,16 @@ export async function packDatabases(inputdir, packsdir, packNeDB, packClassicLev
                 throw err;
               });
           }
-          if (packNeDB) {
-            await compilePack(`${inputdir}/${subdir}`, `${packsdir}/${subdir}`)
-              .then(() => {
-                console.info(`Packed ${subdir} as a NeDB`);
-              })
-              .catch((err) => {
-                console.error(`Error packing ${subdir} as a NeDB`);
-                throw err;
-              });
-          }
+        }
+        if (packNeDB) {
+          await compilePack(`${inputdir}/${subdir}`, `${packsdir}/${subdir}.db`, {log: true,nedb: true})
+            .then(() => {
+              console.info(`Packed ${subdir} as a NeDB`);
+            })
+            .catch((err) => {
+              console.error(`Error packing ${subdir} as a NeDB`);
+              throw err;
+            });
         }
       }
     })
@@ -36,7 +36,8 @@ export async function packDatabases(inputdir, packsdir, packNeDB, packClassicLev
     });
 }
 
-await packDatabases("unpacked", "packs", false, true);
+
+await packDatabases("unpacked", "packs", true, true);
 // Extract a NeDB compendium pack.
 //await extractPack("mymodule/packs/actors.db", "mymodule/packs/src/actors", { nedb: true });
 

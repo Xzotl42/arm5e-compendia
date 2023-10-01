@@ -1,20 +1,16 @@
 {
-  "_id": "bp5LsM19OmQrBBeH",
   "name": "Hardy",
   "type": "virtue",
-  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
   "effects": [],
-  "folder": null,
-  "sort": 0,
+  "folder": "MsRhehagmTgoYHrD",
   "flags": {
     "cf": {
       "id": "temp_fjsd798nwqe",
       "path": "Animal Traits",
       "color": "#000000"
     },
-    "core": {
-      "sourceId": "Compendium.world.base.1dad7slfT2IXhPFp"
-    }
+    "core": {}
   },
   "system": {
     "description": "",
@@ -22,22 +18,23 @@
     "page": 0,
     "type": "other",
     "impact": {
-      "value": "free",
-      "label": "arm5e.sheet.impact"
+      "value": "free"
     },
-    "version": "1.4.5"
-  },
-  "ownership": {
-    "default": 0,
-    "4OxU3E57BM9ttwDI": 3
+    "indexKey": "hardy"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.10",
-    "coreVersion": "11.308",
+    "systemVersion": "2.2.2.15",
+    "coreVersion": "11.311",
     "createdTime": 1662235751894,
-    "modifiedTime": 1693635052368,
-    "lastModifiedBy": "quXJxwb9vsFdyJ6l"
+    "modifiedTime": 1696140814806,
+    "lastModifiedBy": "1JBSgWiiwizu7vru"
+  },
+  "_id": "bp5LsM19OmQrBBeH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
   },
   "_key": "!items!bp5LsM19OmQrBBeH"
 }
