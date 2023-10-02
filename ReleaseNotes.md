@@ -3,6 +3,7 @@
 ## Version 0.1.4
 
 - Added macro compendium for migrations utilities
+- Fixed some abilities without the correct key
 
 ## Version 0.1.3
 
