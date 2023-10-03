@@ -34,6 +34,8 @@ Find below the different ways to use the module in incremental technical complex
 
 ### Usage for the mundane
 
+_Note_ : This way is now obsolete as the module is now a mandatory dependency to the system, it will be installed automatically.
+
 Install it as another module in Foundry VTT using the manifest link below, it will contain all the compendia the system has/use to have.
 
 Manifest link
@@ -45,11 +47,11 @@ Manifest link
 - Activate the module in your world.
 - Unlock a compendium and edit as you wish
 
-#### Pros
+#### The good
 
 - Very easy to put in place
 
-#### Cons
+#### The bad
 
 - It is static and won't receive the latest features and active effects implemented for the system in ulterior versions
 
@@ -98,7 +100,7 @@ This will demand a little work on your side, but it should be only once. Support
     {
       "name": "abilities",
       "label": "My prefix - my abilities",
-      "path": "packs/abilities",
+      "path": "packs/abilities.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -111,17 +113,54 @@ This will demand a little work on your side, but it should be only once. Support
 
 - Start Foundry VTT, your world and enable your new personal module. That's it!
 
-#### Pros
+#### The good
 
-- You get support and migration scripts when new features are added
+- You can add customization to the system by editing the module script.
+- You get support and migration scripts when new features are added.
+- You can add new descriptions and translations as needed.
 
-#### Cons
+#### The bad
 
 - Harder to contribute to the system
 
-## Usage for the Hermetic Magus
+### Usage for the Hermetic Magus
 
-[Work in progress]
+This step demands a little technical knowledge but offers more possibilities and control
+
+- Install git and node version 18+
+- Have a github account
+- Fork the repository
+- Check out the repository locally `git clone git@github.com:<MY_USERNAME>/arm5e-compendia.git`
+
+Check [here](https://gist.github.com/Chaser324/ce0505fbed06b947d962) for more information on GIT usage in that context
+
+In a terminal, go the directory of the project and install all dependencies (ie: Foundry CLI)
+```
+npm install
+```
+
+#### unpacked directory
+
+This directory contains all the documents of all the compendia of the module. One file in json format per document, one subfolder per compendium.
+
+#### scripts directory
+
+Warning: For convenience you can have the repository directly in the modules folder but do run those scripts when a world is open in Foundry!
+
+At that stage, the module is not usable as there is no compendium.
+```shell
+npm run pack
+```
+The command above will generate compendium files for Foundry V10 and V11 based on the content of the unpacked directory.
+
+You can then load Foundry and edit as you wish.
+
+After editing, close the world and run
+```shell
+npm run unpack
+```
+It will create or update files in the unpacked folder based on your changes.
+
 
 ## Contributing
 
