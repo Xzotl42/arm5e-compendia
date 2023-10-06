@@ -20,13 +20,14 @@ The use and inclusion of the logo, icon and art elements, as well as the use of 
 ## Why this module?
 
 - As you noticed, for copyright reasons, descriptions are empty in the system compendia. That's why most of us use a custom compendium with the descriptions filled (or in another language). This put limitations to what the system can do, for example:
+
   - The need to have an ability at 0 in your character before being able to learn or be taught about it, because there is a good chance that it is not the system ability you want to add, but with the description filled by yourself or in another language.
   - Inhability to automatically add some abilities at character creation.
 
 - This new module can be updated without the need of a system release.
 - It will serve as a template for your own shared compendia, with your own descriptions filled, in the language you prefer (see below for instructions)
 - A setting will allow you to choose the reference module to be used by the system (it will fallback to the system reference if something is missing).
-- Room for a premium official  module in the future? Who knows...
+- Room for a premium official module in the future? Who knows...
 
 ## Usage
 
@@ -62,9 +63,9 @@ This will demand a little work on your side, but it should be only once. Support
 - Install the module using the manifest link above
 - **Important step : quit the Foundry app or stop the Foundry server**
 - Go in the Foundry VTT data folder
-- In Data/modules, make a copy of the *arm5e-compendia" folder and name it as you want. (all lowercase, no space or special character allowed) Examples: "arm5e-spanish-compendia","my-arsmagica-compendia"
+- In Data/modules, make a copy of the \*arm5e-compendia" folder and name it as you want. (all lowercase, no space or special character allowed) Examples: "arm5e-spanish-compendia","my-arsmagica-compendia"
 - Edit the module.json file inside it in your preferred text editor (notepad++,nano,notepad but not Word!) :
-(In this example, the folder was renamed "my-arsmagica-compendia")
+  (In this example, the folder was renamed "my-arsmagica-compendia")
 
 ```json
   "id": "my-arsmagica-compendia",
@@ -127,40 +128,53 @@ This will demand a little work on your side, but it should be only once. Support
 
 This step demands a little technical knowledge but offers more possibilities and control
 
-- Install git and node version 18+
+- Install node version 18+
+
+Optionally:
+
+- Install git
 - Have a github account
 - Fork the repository
 - Check out the repository locally `git clone git@github.com:<MY_USERNAME>/arm5e-compendia.git`
 
 Check [here](https://gist.github.com/Chaser324/ce0505fbed06b947d962) for more information on GIT usage in that context
 
+#### Installing
+
 In a terminal, go the directory of the project and install all dependencies (ie: Foundry CLI)
+
 ```
 npm install
 ```
 
-#### unpacked directory
+#### Unpacked documents repository
 
-This directory contains all the documents of all the compendia of the module. One file in json format per document, one subfolder per compendium.
+The "unpacked" directory contains all the documents of all the compendia of the module. One file in json format per document, one subfolder per compendium.
+You could edit them by hand, but don't unless you know what you are doing.
 
-#### scripts directory
+#### Packing the file into Foundry VTT databases
 
 Warning: For convenience you can have the repository directly in the modules folder but do run those scripts when a world is open in Foundry!
 
 At that stage, the module is not usable as there is no compendium.
+
 ```shell
 npm run pack
 ```
+
 The command above will generate compendium files for Foundry V10 and V11 based on the content of the unpacked directory.
 
 You can then load Foundry and edit as you wish.
 
-After editing, close the world and run
+#### Unpacking the databases to json files
+
+After editing, close the world and run (V11 only)
+
 ```shell
 npm run unpack
 ```
-It will create or update files in the unpacked folder based on your changes.
 
+It will create or update files in the unpacked folder based on your changes.
 
 ## Contributing
 

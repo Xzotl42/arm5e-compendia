@@ -1,42 +1,42 @@
 {
-  "name": "Philosophiae*",
+  "name": "Language: Arabic*",
   "type": "ability",
-  "img": "systems/arm5e/assets/icons/abilities/philosophy.svg",
+  "img": "systems/arm5e/assets/icons/abilities/deadLanguage.svg",
   "effects": [],
   "flags": {
     "core": {},
     "cf": {
-      "id": "temp_5d6v8nsyfy",
-      "path": "Abilities#/CF_SEP/Academic",
+      "id": "temp_097jrlmaqjp7",
+      "path": "Abilities#/CF_SEP/Academic, Languages",
       "color": "#000000"
     }
   },
   "system": {
     "description": "",
     "source": "ArM5",
-    "page": 66,
-    "defaultChaAb": "int",
+    "page": 64,
+    "defaultChaAb": "com",
     "speciality": "",
     "xp": 0,
-    "key": "philosophy",
-    "option": "",
+    "key": "deadLanguage",
+    "option": "Arabic",
     "realm": "magic",
-    "indexKey": "philosophiae"
+    "indexKey": "language-latin"
   },
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.2.19",
     "coreVersion": "11.311",
-    "createdTime": 1662235751889,
+    "createdTime": 1662235751850,
     "modifiedTime": 1696597048288,
     "lastModifiedBy": "1JBSgWiiwizu7vru"
   },
   "folder": "RFwx3qCrd6CJ4GDo",
-  "_id": "ExnyEdZRnOCYWPsB",
-  "sort": 400000,
   "ownership": {
     "default": 0,
     "1JBSgWiiwizu7vru": 3
   },
-  "_key": "!items!ExnyEdZRnOCYWPsB"
+  "_id": "MijqmTmxkCooE5Pc",
+  "sort": 100000,
+  "_key": "!items!MijqmTmxkCooE5Pc"
 }

@@ -1,0 +1,38 @@
+<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off">
+  {{> "systems/arm5e/templates/roll/parts/roll-header.html" header="Inputs" }}
+  <div class="marginsides32">
+    <div class="form-group">
+      <label>{{localize "Dry run"}} <i class="fa-regular fa-circle-question"></i></label>
+      <input type="checkbox" name="dryRun" {{checked dryRun}} />
+    </div>
+    <div class="form-group">
+      <label>{{localize "Data source"}}</label>
+      <select name="source" data-type="String" style="max-width: 250px;">
+        {{#select source}}
+          {{#each arsModules }}
+            <option value="{{this.id}}">{{this.name}}</option>
+          {{/each}}
+        {{/select}}
+      </select>
+
+    </div>
+    <div class="form-group">
+      <label>Target module: {{localize referenceModule}}</label>
+    </div>
+    <fieldset>
+      <legend>{{localize "Items"}}</legend>
+
+      {{#each itemTypes as | info key |}}
+        <div class="form-group">
+          <label>{{localize info.label}}</label>
+          <input type="checkbox" name="itemTypes.{{key}}.enabled" {{checked info.enabled}} />
+        </div>
+      {{/each}}
+
+    </fieldset>
+
+    <button class="merge" style="margin-top: 3px;" {{merge}}>{{localize "Merge"}}</button>
+  </div>
+
+  {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}
+</form>

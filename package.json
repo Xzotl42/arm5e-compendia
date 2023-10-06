@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
+    "prettier": "^3.0.3"
   },
   "scripts": {
     "pack": "node scripts/pack.js",

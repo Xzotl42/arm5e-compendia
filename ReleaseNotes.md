@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.1.5
+
+- Added examples of customization in the init hook
+- Added a css file for custom styling
+- Added macro to merge personal compendia into your own reference module.
+
 ## Version 0.1.4
 
 - Added macro compendium for migrations utilities
