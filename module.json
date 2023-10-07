@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -20,12 +20,12 @@
       "name": "Xzotl",
       "discord": "Xzotl",
       "url": "https://github.com/Xzotl42/arm5e-compendia",
-      "contributions" : "module author"
+      "contributions": "module author"
     },
     {
       "name": "Orneen",
       "discord": "Orneen",
-      "contributions" : "compendium content"
+      "contributions": "compendium content"
     }
   ],
   "url": "https://github.com/Xzotl42/arm5e-compendia",
@@ -46,6 +46,18 @@
       "label": "Ars Magica - Macros",
       "path": "packs/macros.db",
       "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "Ars Magica - Journals",
+      "path": "packs/journals.db",
+      "type": "Journal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

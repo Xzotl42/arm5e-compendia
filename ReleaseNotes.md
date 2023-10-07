@@ -1,5 +1,10 @@
 # Release notes
 
+## Version 0.1.6
+
+- Added a journal compendium
+- Added missing css folder in the packaging
+
 ## Version 0.1.5
 
 - Added examples of customization in the init hook

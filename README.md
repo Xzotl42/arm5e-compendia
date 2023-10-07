@@ -22,7 +22,7 @@ The use and inclusion of the logo, icon and art elements, as well as the use of 
 - As you noticed, for copyright reasons, descriptions are empty in the system compendia. That's why most of us use a custom compendium with the descriptions filled (or in another language). This put limitations to what the system can do, for example:
 
   - The need to have an ability at 0 in your character before being able to learn or be taught about it, because there is a good chance that it is not the system ability you want to add, but with the description filled by yourself or in another language.
-  - Inhability to automatically add some abilities at character creation.
+  - Inhability to automatically add some abilities at character creation as most of the time the ones added are not the desired ones (ie: empty description or wrong language)
 
 - This new module can be updated without the need of a system release.
 - It will serve as a template for your own shared compendia, with your own descriptions filled, in the language you prefer (see below for instructions)
@@ -60,10 +60,10 @@ Manifest link
 
 This will demand a little work on your side, but it should be only once. Support and data migration will be provided "in app" for this one.
 
-- Install the module using the manifest link above
+- Install the module using the manifest link above (update: it should be done automatically now)
 - **Important step : quit the Foundry app or stop the Foundry server**
 - Go in the Foundry VTT data folder
-- In Data/modules, make a copy of the \*arm5e-compendia" folder and name it as you want. (all lowercase, no space or special character allowed) Examples: "arm5e-spanish-compendia","my-arsmagica-compendia"
+- In Data/modules, make a copy of the "arm5e-compendia" folder and name it as you want. (all lowercase, no space or special character allowed) Examples: "arm5e-spanish-compendia","my-arsmagica-compendia"
 - Edit the module.json file inside it in your preferred text editor (notepad++,nano,notepad but not Word!) :
   (In this example, the folder was renamed "my-arsmagica-compendia")
 
