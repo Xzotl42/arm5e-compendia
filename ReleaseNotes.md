@@ -1,9 +1,10 @@
 # Release notes
 
-## Version 0.1.7
+## Version 0.1.8
 
 - Put the user guide in the Journal compendium
 - Shapes and materials parsing
+- Typos fixes
 
 ## Version 0.1.6
 
