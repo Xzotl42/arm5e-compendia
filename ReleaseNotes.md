@@ -1,5 +1,7 @@
 # Release notes
 
+## Version 0.2.0
+
 ## Version 0.1.8
 
 - Put the user guide in the Journal compendium

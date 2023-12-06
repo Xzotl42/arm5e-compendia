@@ -139,6 +139,8 @@ Optionally:
 
 Check [here](https://gist.github.com/Chaser324/ce0505fbed06b947d962) for more information on GIT usage in that context
 
+Warning and reminder: Unless you have private repository, you cannot put the content of your compendia with full description on github for copyright reasons.
+
 #### Installing
 
 In a terminal, go the directory of the project and install all dependencies (ie: Foundry CLI)
