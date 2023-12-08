@@ -2,6 +2,8 @@
 
 ## Version 0.2.0
 
+- Basi upport for localization of shapes and materials.
+
 ## Version 0.1.8
 
 - Put the user guide in the Journal compendium

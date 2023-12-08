@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "11"
+    "verified": "11.315"
   },
   "relationships": {
     "systems": [
@@ -38,7 +38,7 @@
       "thumbnail": "modules/arm5e-compendia/assets/ArM5logo.webp"
     }
   ],
-  "esmodules": ["scripts/index.js"],
+  "esmodules": ["scripts/index.js", "lang/enchant-aspects_en.js"],
   "styles": ["css/arm5e-compendia.css"],
   "packs": [
     {

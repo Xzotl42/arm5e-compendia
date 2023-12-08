@@ -1,5 +1,17 @@
 import { CompendiaUtils } from "./compendia.js";
 
+Hooks.once("init", async function () {
+  // try to load localized aspects
+  let module;
+  try {
+    const langCode = game.i18n.lang;
+    module = await import(`../lang/enchant-aspects_${langCode}.js`);
+  } catch (err) {
+    module = await import(`../lang/enchant-aspects_en.js`);
+  }
+  CONFIG.ARM5E.ASPECTS = module.ASPECTS;
+});
+
 Hooks.on("arm5e-config-done", async (config) => {
   // Find below a list of examples of customizations you can make
   // You are encouraged to explore the content of the config object (type CONFIG.ARM5E in the console when logged into a world)
