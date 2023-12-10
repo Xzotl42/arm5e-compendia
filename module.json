@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315"
@@ -38,7 +38,7 @@
       "thumbnail": "modules/arm5e-compendia/assets/ArM5logo.webp"
     }
   ],
-  "esmodules": ["scripts/index.js", "lang/enchant-aspects_en.js"],
+  "esmodules": ["scripts/module.js"],
   "styles": ["css/arm5e-compendia.css"],
   "packs": [
     {

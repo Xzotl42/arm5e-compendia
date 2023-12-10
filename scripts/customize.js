@@ -1,18 +1,10 @@
 import { CompendiaUtils } from "./compendia.js";
 
-Hooks.once("init", async function () {
-  // try to load localized aspects
-  let module;
-  try {
-    const langCode = game.i18n.lang;
-    module = await import(`../lang/enchant-aspects_${langCode}.js`);
-  } catch (err) {
-    module = await import(`../lang/enchant-aspects_en.js`);
-  }
-  CONFIG.ARM5E.ASPECTS = module.ASPECTS;
-});
+export async function customizeOnInit() {
+  // customized stuff here
+}
 
-Hooks.on("arm5e-config-done", async (config) => {
+export async function customizeConfig(config) {
   // Find below a list of examples of customizations you can make
   // You are encouraged to explore the content of the config object (type CONFIG.ARM5E in the console when logged into a world)
   // Not all of can be edited (ask on Discord if you are unsure), but there is a lot of possibilities
@@ -49,8 +41,4 @@ Hooks.on("arm5e-config-done", async (config) => {
   // config.magic.ranges.arc.impact = 5
   // New duration: "High tide" similar to sun
   // config.magic.durations.hightide = { label : "High tide", source : "custom", impact : 2};
-});
-
-Hooks.once("init", () => {
-  game["arm5eCompendia"] = { CompendiaUtils };
-});
+}

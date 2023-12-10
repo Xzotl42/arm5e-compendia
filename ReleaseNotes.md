@@ -1,5 +1,10 @@
 # Release notes
 
+## Version 0.2.1
+
+- Relocation of the customized code for easier migration
+- Sorting of aspects by name.
+
 ## Version 0.2.0
 
 - Basi upport for localization of shapes and materials.
