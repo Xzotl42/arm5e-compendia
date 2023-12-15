@@ -286,7 +286,7 @@ export const ASPECTS = {
     src: "GotF",
     page: "33",
     effects: {
-      "creo-herbam": { name: "Creo herbam", bonus: 1 },
+      creo: { name: "Creo", bonus: 1 },
       childbirth: { name: "Childbirth", bonus: 3 }
     }
   },

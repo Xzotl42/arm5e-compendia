@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.2.2
+
+- Fixed Birch material bonus
+
 ## Version 0.2.1
 
 - Relocation of the customized code for easier migration
