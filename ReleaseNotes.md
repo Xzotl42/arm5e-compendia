@@ -2,7 +2,7 @@
 
 ## Version 0.2.2
 
-- Fixed Birch material bonus
+- Fixed Birch, Elder material bonuses
 - Imagonem -> Imaginem
 
 ## Version 0.2.1

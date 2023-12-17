@@ -667,7 +667,7 @@ export const ASPECTS = {
     src: "GotF",
     page: "33",
     effects: {
-      "vim-on-hostile-magic": { name: "Vim on hostile magic", bonus: 1 },
+      vim: { name: "Vim", bonus: 1 },
       "malicious-magic": { name: "Malicious magic", bonus: 4 }
     }
   },
