@@ -440,7 +440,7 @@ export const ASPECTS = {
     page: "33",
     effects: {
       "destroying-ghosts": { name: "Destroying ghosts", bonus: 2 },
-      imagonem: { name: "Imagonem", bonus: 4 }
+      imaginem: { name: "Imaginem", bonus: 4 }
     }
   },
   cinquefoil: {

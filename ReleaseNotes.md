@@ -3,6 +3,7 @@
 ## Version 0.2.2
 
 - Fixed Birch material bonus
+- Imagonem -> Imaginem
 
 ## Version 0.2.1
 
