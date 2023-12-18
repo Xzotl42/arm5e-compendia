@@ -459,15 +459,6 @@ export const ASPECTS = {
     page: "110",
     effects: { protection: { name: "Protection", bonus: 2 } }
   },
-  "clear-glass": {
-    name: "Clear glass",
-    src: "ArM5",
-    page: "110",
-    effects: {
-      invisibility: { name: "Invisibility", bonus: 4 },
-      "seeing-through-something": { name: "Seeing through something", bonus: 5 }
-    }
-  },
   cleaver: {
     name: "Cleaver",
     src: "HoH:MC",
@@ -744,15 +735,6 @@ export const ASPECTS = {
       "movement-across-bonus-to-affect": { name: "Movement across, bonus to affect", bonus: 7 }
     }
   },
-  frankincencense: {
-    name: "Frankincencense",
-    src: "C&C",
-    page: "117",
-    effects: {
-      medicine: { name: "Medicine", bonus: 3 },
-      "promote-life": { name: "Promote life", bonus: 5 }
-    }
-  },
   frankincense: {
     name: "Frankincense",
     src: "TMRE",
@@ -763,7 +745,9 @@ export const ASPECTS = {
       "cleanse-a-place-of-infernal-influence": {
         name: "Cleanse a place of infernal influence",
         bonus: 4
-      }
+      },
+      medicine: { name: "Medicine", bonus: 3 },
+      "promote-life": { name: "Promote life", bonus: 5 }
     }
   },
   garnet: {
@@ -780,8 +764,8 @@ export const ASPECTS = {
   },
   "glass-clear": {
     name: "Glass, clear",
-    src: "HoH:MC",
-    page: "137",
+    src: "ArM5",
+    page: "110",
     effects: {
       invisibility: { name: "Invisibility", bonus: 4 },
       "seeing-through-something": { name: "Seeing through something", bonus: 5 }

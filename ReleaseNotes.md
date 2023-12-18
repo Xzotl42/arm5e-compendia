@@ -4,6 +4,8 @@
 
 - Fixed Birch, Elder material bonuses
 - Imagonem -> Imaginem
+- Frankincense duplicate
+- CLear glass duplicate
 
 ## Version 0.2.1
 
