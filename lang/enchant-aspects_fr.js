@@ -311,6 +311,16 @@ export const ASPECTS = {
     page: "66",
     effects: { sailing: { name: "Sailing", bonus: 3 } }
   },
+  book: {
+    name: "Book",
+    src: "TMRE",
+    page: "92",
+    effects: {
+      intellego: { name: "Intellego", bonus: 2 },
+      divination: { name: "Divination", bonus: 3 },
+      numerology: { name: "Numerology", bonus: 4 }
+    }
+  },
   bookshelf: {
     name: "Bookshelf",
     src: "ArM5",
@@ -1187,10 +1197,11 @@ export const ASPECTS = {
   myrrh: {
     name: "Myrrh",
     src: "C&C",
-    page: "107",
+    page: "117",
     effects: {
       "sanctify-bonus-to": { name: "Sanctify, bonus to", bonus: 2 },
       spirits: { name: "Spirits", bonus: 3 },
+      "relieve-arthritis-or-inflammation": { name: "Relieve arthritis or inflammation", bonus: 3 },
       preservation: { name: "Preservation", bonus: 5 }
     }
   },
@@ -1434,8 +1445,8 @@ export const ASPECTS = {
   },
   ruby: {
     name: "Ruby",
-    src: "TMRE",
-    page: "33",
+    src: "ArM5",
+    page: "110",
     effects: {
       courage: { name: "Courage", bonus: 2 },
       "battle-wounds": { name: "Battle wounds", bonus: 3 },
@@ -1585,7 +1596,7 @@ export const ASPECTS = {
     name: "Snip",
     src: "HoH:MC",
     page: "137",
-    effects: { "shape-material": { name: "Shape material", bonus: 2 } }
+    effects: { "shape-metal": { name: "Shape metal", bonus: 2 } }
   },
   spade: {
     name: "Spade",
@@ -1665,15 +1676,6 @@ export const ASPECTS = {
     src: "ArM5",
     page: "110",
     effects: { "control-children": { name: "Control children", bonus: 4 } }
-  },
-  "tree-dead": {
-    name: "Tree, dead",
-    src: "HoH:MC",
-    page: "137",
-    effects: {
-      "living-wood-bonus-to-affect": { name: "Living wood, bonus to affect", bonus: 3 },
-      "dead-wood-bonus-to-affect": { name: "Dead wood, bonus to affect", bonus: 4 }
-    }
   },
   "tree-struck-by-lightning": {
     name: "Tree, struck by lightning",

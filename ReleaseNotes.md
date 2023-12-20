@@ -2,10 +2,14 @@
 
 ## Version 0.2.2
 
-- Fixed Birch, Elder material bonuses
-- Imagonem -> Imaginem
-- Frankincense duplicate
-- CLear glass duplicate
+- Aspect fixes
+  - Fixed Birch, Elder material bonuses
+  - Imagonem -> Imaginem
+  - Frankincense duplicate
+  - Clear glass duplicate
+  - Book added
+  - Dead wood vs Dead tree
+  - Snip fixed
 
 ## Version 0.2.1
 
