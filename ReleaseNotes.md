@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.2.3
+
+- French version by @orneen
+
 ## Version 0.2.2
 
 - Aspect fixes

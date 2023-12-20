@@ -1,122 +1,122 @@
 export const ASPECTS = {
   adze: {
-    name: "Adze",
+    name: "Herminette",
     src: "HoH:MC",
-    page: "137",
-    effects: { "beautify-wood-structures": { name: "Beautify wood structures", bonus: 2 } }
+    page: "172",
+    effects: { "beautify-wood-structures": { name: "Embellir une structure en bois", bonus: 2 } }
   },
   agate: {
     name: "Agate",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       air: { name: "Air", bonus: 3 },
-      "protection-from-storms": { name: "Protection from storms", bonus: 5 },
-      "protection-from-venom": { name: "Protection from venom", bonus: 7 }
+      "protection-from-storms": { name: "Protection contre les tempêtes", bonus: 5 },
+      "protection-from-venom": { name: "Protection contre les venins", bonus: 7 }
     }
   },
   alabaster: {
-    name: "Alabaster",
+    name: "Albâtre",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      forgiving: { name: "Forgiving", bonus: 2 },
-      "mental-acuity": { name: "Mental acuity", bonus: 4 }
+      forgiving: { name: "Oublier", bonus: 2 },
+      "mental-acuity": { name: "Acuité mental", bonus: 4 }
     }
   },
   alder: {
-    name: "Alder",
+    name: "Bois d'Aulne",
     src: "GotF",
     page: "33",
     effects: {
-      "resist-decay": { name: "Resist decay", bonus: 1 },
-      royalty: { name: "Royalty", bonus: 2 }
+      "resist-decay": { name: "Resistance à la décomposition", bonus: 1 },
+      royalty: { name: "Royauté", bonus: 2 }
     }
   },
   alexandrite: {
     name: "Alexandrite",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      regeneration: { name: "Regeneration", bonus: 2 },
-      "long-life": { name: "Long life", bonus: 3 },
-      horses: { name: "Horses", bonus: 5 }
+      regeneration: { name: "Régénération", bonus: 2 },
+      "long-life": { name: "Longévité", bonus: 3 },
+      horses: { name: "Chevaux", bonus: 5 }
     }
   },
   almond: {
-    name: "Almond",
+    name: "Bois d'amandier",
     src: "HoH:MC",
     page: "137",
     effects: { "creo-herbam": { name: "Creo herbam", bonus: 3 } }
   },
   aloe: {
-    name: "Aloe",
+    name: "Aloès",
     src: "TMRE",
     page: "33",
-    effects: { friendship: { name: "Friendship", bonus: 3 } }
+    effects: { friendship: { name: "Amitié", bonus: 3 } }
   },
   amber: {
-    name: "Amber",
+    name: "Ambre",
     src: "HoH:TL",
-    page: "139",
+    page: "163",
     effects: {
-      "controlling-movement": { name: "Controlling movement", bonus: 3 },
+      "controlling-movement": { name: "Controller les mouvements", bonus: 3 },
       corpus: { name: "Corpus", bonus: 3 }
     }
   },
   amethyst: {
-    name: "Amethyst",
+    name: "Améthyste",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
-      hearing: { name: "Hearing", bonus: 2 },
-      "wealth-and-mercantile": { name: "Wealth and mercantile", bonus: 2 },
-      dreams: { name: "Dreams", bonus: 3 },
+      hearing: { name: "Ouïe", bonus: 2 },
+      "wealth-and-mercantile": { name: "Richesse et commerce", bonus: 2 },
+      dreams: { name: "Rêves", bonus: 3 },
       poisons: { name: "Poisons", bonus: 3 },
-      "versus-poison": { name: "Versus poison", bonus: 3 },
-      temperance: { name: "Temperance", bonus: 4 },
-      drunkenness: { name: "Drunkenness", bonus: 7 },
-      "versus-drunkenness": { name: "Versus drunkenness", bonus: 7 }
+      "versus-poison": { name: "Contre les poisons", bonus: 3 },
+      temperance: { name: "Tempérance", bonus: 4 },
+      drunkenness: { name: "Ivresse", bonus: 7 },
+      "versus-drunkenness": { name: "Contre l'ivresse", bonus: 7 }
     }
   },
   "amulet-bearing-the-sigils-of-angels": {
-    name: "Amulet bearing the sigils of angels",
+    name: "Amulette avec le sceau des anges",
     src: "RoP:I",
     page: "123",
     effects: {
-      "banish-demons": { name: "Banish demons", bonus: 7 },
-      "ward-against-demons": { name: "Ward against demons", bonus: 7 }
+      "banish-demons": { name: "Banir les démons", bonus: 7 },
+      "ward-against-demons": { name: "Protection contre les démons", bonus: 7 }
     }
   },
   anchor: {
-    name: "Anchor",
+    name: "Ancre",
     src: "HP",
     page: "66",
-    effects: { "prevent-movement": { name: "Prevent movement", bonus: 3 } }
+    effects: { "prevent-movement": { name: "Empêcher le mouvement", bonus: 3 } }
   },
   "animal-bone": {
-    name: "Animal bone",
+    name: "Os d'animal",
     src: "ArM5",
-    page: "110",
-    effects: { "harm-or-destroy-animals": { name: "Harm or destroy animals", bonus: 4 } }
+    page: "173",
+    effects: { "harm-or-destroy-animals": { name: "Blesser ou détruire les animaux", bonus: 4 } }
   },
   "animal-hide": {
-    name: "Animal hide",
+    name: "Peau animale",
     src: "ArM5",
-    page: "110",
-    effects: { "turn-into-appropriate-animal": { name: "Turn into appropriate animal", bonus: 7 } }
+    page: "173",
+    effects: { "turn-into-appropriate-animal": { name: "prendre la forme de l'animal approprié", bonus: 7 } }
   },
   apple: {
-    name: "Apple",
+    name: "Bois de pommier",
     src: "GotF",
     page: "33",
-    effects: { corpus: { name: "Corpus", bonus: 1 }, longevity: { name: "Longevity", bonus: 1 } }
+    effects: { corpus: { name: "Corpus", bonus: 1 }, longevity: { name: "Longévité", bonus: 1 } }
   },
   aquamarine: {
-    name: "Aquamarine",
+    name: "Aigue-Marine",
     src: "ArM5",
-    page: "110",
-    effects: { water: { name: "Water", bonus: 3 } }
+    page: "173",
+    effects: { water: { name: "Eau", bonus: 3 } }
   },
   "armillary-sphere": {
     name: "Armillary Sphere",
@@ -124,55 +124,55 @@ export const ASPECTS = {
     page: "52",
     effects: {
       "display-the-heavens-celestial-time": {
-        name: "Display the heavens, celestial time",
+        name: "Observer le ciel, donner le temps celeste",
         bonus: 5
       }
     }
   },
   armor: {
-    name: "Armor",
+    name: "Armure",
     src: "ArM5",
-    page: "110",
-    effects: { "protect-wearer": { name: "Protect wearer", bonus: 7 } }
+    page: "173",
+    effects: { "protect-wearer": { name: "Protection du porteur", bonus: 7 } }
   },
   arrow: {
-    name: "Arrow",
+    name: "Flèche",
     src: "ArM5",
-    page: "110",
-    effects: { aiming: { name: "Aiming", bonus: 2 }, direction: { name: "Direction", bonus: 3 } }
+    page: "173",
+    effects: { aiming: { name: "Visée", bonus: 2 }, direction: { name: "Direction", bonus: 3 } }
   },
   "artifacts-from-pompeii-and-herculani": {
-    name: "Artifacts from Pompeii and Herculani",
+    name: "Objets provenant de Pompéi et d'Herculanum",
     src: "HP",
     page: "26",
-    effects: { volcanos: { name: "Volcanos", bonus: 3 } }
+    effects: { volcanos: { name: "Volcans", bonus: 3 } }
   },
   "ash-burned-material": {
-    name: "Ash (burned material)",
+    name: "Cendres (matériel brûlé)",
     src: "HP",
     page: "26",
     effects: {
-      "burning-things": { name: "Burning things", bonus: 2 },
+      "burning-things": { name: "Brûler des choses", bonus: 2 },
       ignem: { name: "Ignem", bonus: 2 },
       "things-that-have-been-burned-bonus-to-affect": {
-        name: "Things that have been burned, bonus to affect",
+        name: "Bonus pour affecter des choses qui ont été brûlé",
         bonus: 5
       }
     }
   },
   "ash-tree": {
-    name: "Ash (tree)",
+    name: "Bois de frêne",
     src: "GotF",
     page: "33",
-    effects: { "harm-people": { name: "Harm people", bonus: 2 } }
+    effects: { "harm-people": { name: "Blesser des gens", bonus: 2 } }
   },
   aspen: {
-    name: "Aspen",
+    name: "Bois de tremble",
     src: "GotF",
     page: "33",
     effects: {
-      "cure-disease": { name: "Cure disease", bonus: 2 },
-      "cure-fever": { name: "Cure fever", bonus: 5 }
+      "cure-disease": { name: "Soigner les maladies", bonus: 2 },
+      "cure-fever": { name: "Soigner la fièvre", bonus: 5 }
     }
   },
   astrolabe: {
@@ -180,272 +180,272 @@ export const ASPECTS = {
     src: "TMRE",
     page: "33",
     effects: {
-      astrology: { name: "Astrology", bonus: 5 },
+      astrology: { name: "Astrologie", bonus: 5 },
       "measure-the-stars-and-heavens-astrology-navigation": {
-        name: "Measure the stars and heavens, astrology, navigation",
+        name: "Mesurer les étoiles du ciel, astrologie, navigation",
         bonus: 5
       }
     }
   },
   auger: {
-    name: "Auger",
+    name: "Auger (vrille à bois)",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      "puncture-wood": { name: "Puncture wood", bonus: 2 },
-      "shape-wood": { name: "Shape wood", bonus: 2 }
+      "puncture-wood": { name: "Façonner le bois", bonus: 2 },
+      "shape-wood": { name: "Percer le bois", bonus: 2 }
     }
   },
   axe: {
-    name: "Axe",
+    name: "Hache",
     src: "ArM5",
-    page: "110",
-    effects: { "destroy-wood": { name: "Destroy wood", bonus: 4 } }
+    page: "173",
+    effects: { "destroy-wood": { name: "Destruction du bois", bonus: 4 } }
   },
   bagsack: {
-    name: "Bag/Sack",
+    name: "Sac/sacoche",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "moving-things-into-or-out-of": { name: "Moving things into or out of", bonus: 3 },
-      "trapping-things-within": { name: "Trapping things within", bonus: 5 }
+      "moving-things-into-or-out-of": { name: "pour y mettre ou en enlever les choses", bonus: 3 },
+      "trapping-things-within": { name: "pour emprisonner le contenu", bonus: 5 }
     }
   },
   bandage: {
     name: "Bandage",
     src: "ArM5",
-    page: "110",
-    effects: { "healing-wounds": { name: "Healing wounds", bonus: 4 } }
+    page: "173",
+    effects: { "healing-wounds": { name: "Soigner les blessures", bonus: 4 } }
   },
   basalt: {
-    name: "Basalt",
+    name: "Basalte",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: { ignem: { name: "Ignem", bonus: 3 }, perdo: { name: "Perdo", bonus: 3 } }
   },
   basket: {
-    name: "Basket",
+    name: "Panier",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      "collect-and-preserve-items": { name: "Collect and preserve items", bonus: 2 },
-      "create-things-within": { name: "Create things within", bonus: 3 },
-      "preserve-contents": { name: "Preserve contents", bonus: 4 },
-      "create-food-within": { name: "Create food within", bonus: 5 }
+      "collect-and-preserve-items": { name: "Collecter et conserver des objets", bonus: 2 },
+      "create-things-within": { name: "Création de choses à l'intérieur", bonus: 3 },
+      "preserve-contents": { name: "Conservation du contenu", bonus: 4 },
+      "create-food-within": { name: "Création de nourriture à l'intérieur", bonus: 5 }
     }
   },
   bed: {
-    name: "Bed",
+    name: "Lit",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "sleep-and-dreams-bonus-to-affect": { name: "Sleep and dreams, bonus to affect", bonus: 6 }
+      "sleep-and-dreams-bonus-to-affect": { name: "Affecter les rêves ou le sommeil", bonus: 6 }
     }
   },
   beech: {
-    name: "Beech",
+    name: "Bois de hêtre",
     src: "GotF",
     page: "33",
-    effects: { knowledge: { name: "Knowledge", bonus: 3 } }
+    effects: { knowledge: { name: "Connaissance", bonus: 3 } }
   },
   bell: {
-    name: "Bell",
+    name: "Cloche",
     src: "ArM5",
-    page: "110",
-    effects: { warning: { name: "Warning", bonus: 5 } }
+    page: "173",
+    effects: { warning: { name: "Avertir", bonus: 5 } }
   },
   bellows: {
-    name: "Bellows",
+    name: "Soufflet",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "create-wind": { name: "Create wind", bonus: 4 },
-      "strengthen-fire": { name: "Strengthen fire", bonus: 5 }
+      "create-wind": { name: "Création de vent", bonus: 4 },
+      "strengthen-fire": { name: "Attiser les feux", bonus: 5 }
     }
   },
   "belt-or-girdle": {
-    name: "Belt or Girdle",
+    name: "Ceinture ou Gaine",
     src: "ArM5",
-    page: "110",
-    effects: { "strength-bonus-to-affect": { name: "Strength, bonus to affect", bonus: 3 } }
+    page: "173",
+    effects: { "strength-bonus-to-affect": { name: "Affecter la force", bonus: 3 } }
   },
   beryl: {
-    name: "Beryl",
+    name: "Béryl",
     src: "ArM5",
-    page: "110",
-    effects: { water: { name: "Water", bonus: 3 } }
+    page: "173",
+    effects: { water: { name: "Eau", bonus: 3 } }
   },
   billhook: {
-    name: "Billhook",
+    name: "Serpette",
     src: "HoH:MC",
-    page: "137",
-    effects: { pruning: { name: "Pruning", bonus: 2 } }
+    page: "172",
+    effects: { pruning: { name: "Tailler", bonus: 2 } }
   },
   birch: {
-    name: "Birch",
+    name: "Bois de bouleau",
     src: "GotF",
     page: "33",
     effects: {
       creo: { name: "Creo", bonus: 1 },
-      childbirth: { name: "Childbirth", bonus: 3 }
+      childbirth: { name: "Naissance des enfants", bonus: 3 }
     }
   },
   blackthorn: {
-    name: "Blackthorn",
+    name: "Bois de prunellier",
     src: "HoH:MC",
     page: "137",
     effects: {
-      "dark-fey": { name: "Dark fey", bonus: 2 },
-      guardians: { name: "Guardians", bonus: 6 }
+      "dark-fey": { name: "Être féériques sombres", bonus: 2 },
+      guardians: { name: "Gardiens", bonus: 6 }
     }
   },
   bloodstone: {
-    name: "Bloodstone",
+    name: "Hématite",
     src: "ArM5",
-    page: "110",
-    effects: { "blood-and-wounds": { name: "Blood and wounds", bonus: 4 } }
+    page: "173",
+    effects: { "blood-and-wounds": { name: "Sang et blessures", bonus: 4 } }
   },
   boat: {
-    name: "Boat",
+    name: "Bateau (petite embarcation)",
     src: "HP",
     page: "66",
-    effects: { sailing: { name: "Sailing", bonus: 3 } }
+    effects: { sailing: { name: "Naviguer", bonus: 3 } }
   },
   book: {
-    name: "Book",
+    name: "Livre",
     src: "TMRE",
     page: "92",
     effects: {
       intellego: { name: "Intellego", bonus: 2 },
       divination: { name: "Divination", bonus: 3 },
-      numerology: { name: "Numerology", bonus: 4 }
+      numerology: { name: "Numérologie", bonus: 4 }
     }
   },
   bookshelf: {
-    name: "Bookshelf",
+    name: "Rayonnage (Bibliothèque)",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "hide-things-within": { name: "Hide things within", bonus: 3 },
-      "protect-things-within": { name: "Protect things within", bonus: 4 }
+      "hide-things-within": { name: "Cacher les choses qui s'y trouvent", bonus: 3 },
+      "protect-things-within": { name: "Protéger les choses qui s'y trouvent", bonus: 4 }
     }
   },
   boots: {
-    name: "Boots",
+    name: "Bottes",
     src: "ArM5",
-    page: "110",
-    effects: { "walking-bonus-to-affect": { name: "Walking, bonus to affect", bonus: 5 } }
+    page: "173",
+    effects: { "walking-bonus-to-affect": { name: "Affecter la marche", bonus: 5 } }
   },
   bow: {
-    name: "Bow",
+    name: "Arc",
     src: "ArM5",
-    page: "110",
-    effects: { "destroy-things-at-a-distance": { name: "Destroy things at a distance", bonus: 5 } }
+    page: "173",
+    effects: { "destroy-things-at-a-distance": { name: "Détruire les choses à distance", bonus: 5 } }
   },
   brass: {
-    name: "Brass",
+    name: "Laiton",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
       ignem: { name: "Ignem", bonus: 3 },
-      music: { name: "Music", bonus: 3 },
-      "demons-devils-and-angels": { name: "Demons, devils, and angels", bonus: 4 }
+      music: { name: "Musique", bonus: 3 },
+      "demons-devils-and-angels": { name: "Démons, diables et anges", bonus: 4 }
     }
   },
   bronze: {
     name: "Bronze",
     src: "HoH:MC",
-    page: "137",
-    effects: { terram: { name: "Terram", bonus: 3 }, darkness: { name: "Darkness", bonus: 5 } }
+    page: "173",
+    effects: { terram: { name: "Terram", bonus: 3 }, darkness: { name: "Ténèbres", bonus: 5 } }
   },
   "candle-made-of-goat-fat": {
-    name: "Candle made of goat fat",
+    name: "Bougie à la graisse de bouc",
     src: "RoP:I",
     page: "123",
-    effects: { "summon-demons": { name: "Summon demons", bonus: 3 } }
+    effects: { "summon-demons": { name: "Invocation démons", bonus: 3 } }
   },
   "candle-black": {
-    name: "Candle, black",
+    name: "Bougie noire",
     src: "RoP:I",
     page: "123",
-    effects: { "summon-demons": { name: "Summon demons", bonus: 2 } }
+    effects: { "summon-demons": { name: "Invocation démons", bonus: 2 } }
   },
   "cappadocian-salt": {
-    name: "Cappadocian Salt",
+    name: "Sel Capadocien",
     src: "AnM",
     page: "116",
-    effects: { "purifying-effects": { name: "Purifying effects", bonus: 6 } }
+    effects: { "purifying-effects": { name: "Effets purificateurs", bonus: 6 } }
   },
   "carving-of-behemoth": {
-    name: "Carving of Behemoth",
+    name: "Sculpture de Béhémoth",
     src: "TMRE",
     page: "33",
-    effects: { "great-size": { name: "Great size", bonus: 3 } }
+    effects: { "great-size": { name: "Grande taille", bonus: 3 } }
   },
   cask: {
-    name: "Cask",
+    name: "Tonneau",
     src: "HoH:MC",
-    page: "137",
-    effects: { "induce-drunkenness": { name: "Induce drunkenness", bonus: 3 } }
+    page: "172",
+    effects: { "induce-drunkenness": { name: "Provoquer l'ivresse", bonus: 3 } }
   },
   "cats-eye": {
-    name: "Cat's eye",
+    name: "Oeil de chat",
     src: "ArM5",
-    page: "110",
-    effects: { "versus-malign-corpus": { name: "Versus malign corpus", bonus: 3 } }
+    page: "173",
+    effects: { "versus-malign-corpus": { name: "Contre les sorts de Corpus néfaste", bonus: 3 } }
   },
   "cedar-tree": {
-    name: "Cedar tree",
+    name: "Bois de cèdre",
     src: "HoH:MC",
     page: "137",
     effects: {
-      "binding-spirits": { name: "Binding spirits", bonus: 2 },
+      "binding-spirits": { name: "Lier les esprits", bonus: 2 },
       "any-effect-with-mentem-and-herbam-requisites": {
-        name: "Any effect with mentem and herbam requisites",
+        name: "Tout effet avec un complément Herbam ou Mentem",
         bonus: 5
       }
     }
   },
   chalice: {
-    name: "Chalice",
+    name: "Calice",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "detect-poison-within": { name: "Detect poison within", bonus: 4 },
-      "transform-or-create-liquid-within": { name: "Transform or create liquid within", bonus: 5 }
+      "detect-poison-within": { name: "Détecter du poison contenu dedans", bonus: 4 },
+      "transform-or-create-liquid-within": { name: "Transformer ou créer un liquide dedans", bonus: 5 }
     }
   },
   "chalk-blue": {
-    name: "Chalk, blue",
+    name: "Craie bleue",
     src: "RoP:I",
     page: "123",
-    effects: { "wards-against-demons": { name: "Wards against demons", bonus: 2 } }
+    effects: { "wards-against-demons": { name: "Protection contre les démons", bonus: 2 } }
   },
   cherry: {
-    name: "Cherry",
+    name: "Bois de cerisier",
     src: "HoH:MC",
     page: "137",
-    effects: { bloodshed: { name: "Bloodshed", bonus: 4 } }
+    effects: { bloodshed: { name: "Massacre", bonus: 4 } }
   },
   chestnut: {
-    name: "Chestnut",
+    name: "bois de chataigner",
     src: "HoH:MC",
     page: "137",
-    effects: { justice: { name: "Justice", bonus: 3 }, honesty: { name: "Honesty", bonus: 4 } }
+    effects: { justice: { name: "Justice", bonus: 3 }, honesty: { name: "Honnêteté", bonus: 4 } }
   },
   cinnabar: {
-    name: "Cinnabar",
+    name: "Cinabre",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
-      "long-life": { name: "Long life", bonus: 3 },
-      language: { name: "Language", bonus: 4 },
-      wealth: { name: "Wealth", bonus: 4 },
+      "long-life": { name: "Longévité", bonus: 3 },
+      language: { name: "Langage", bonus: 4 },
+      wealth: { name: "Richesse", bonus: 4 },
       dragons: { name: "Dragons", bonus: 5 }
     }
   },
   cinnamon: {
-    name: "Cinnamon",
+    name: "Cannelle",
     src: "TMRE",
     page: "33",
     effects: {
@@ -454,295 +454,295 @@ export const ASPECTS = {
     }
   },
   cinquefoil: {
-    name: "Cinquefoil",
+    name: "Quintefeuille (Fleur)",
     src: "TMRE",
     page: "33",
     effects: {
-      "making-amends": { name: "Making amends", bonus: 2 },
-      "drive-away-demons": { name: "Drive away demons", bonus: 3 },
-      "resist-poison": { name: "Resist poison", bonus: 4 }
+      "making-amends": { name: "Se racheter", bonus: 2 },
+      "drive-away-demons": { name: "Chasser/éconduire les démons", bonus: 3 },
+      "resist-poison": { name: "Résister aux poisons", bonus: 4 }
     }
   },
   "clam-shell": {
-    name: "Clam shell",
+    name: "Coquille de palourde",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: { protection: { name: "Protection", bonus: 2 } }
   },
   cleaver: {
-    name: "Cleaver",
+    name: "Couperet",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      butchery: { name: "Butchery", bonus: 2 },
+      butchery: { name: "Boucherie", bonus: 2 },
       "perdo-animal": { name: "Perdo animal", bonus: 3 }
     }
   },
   cloak: {
-    name: "Cloak",
+    name: "Cape",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      flight: { name: "Flight", bonus: 3 },
-      "transform-wearer": { name: "Transform wearer", bonus: 4 },
-      "altersuppress-wearers-image": { name: "Alter/suppress wearer's image", bonus: 5 }
+      flight: { name: "Vol", bonus: 3 },
+      "transform-wearer": { name: "Transformer le porteur", bonus: 4 },
+      "altersuppress-wearers-image": { name: "Modifier ou supprimer l'image du porteur", bonus: 5 }
     }
   },
   "cloth-shears": {
-    name: "Cloth shears",
+    name: "Ciseaux à étoffe",
     src: "HoH:MC",
-    page: "137",
-    effects: { "shaping-fabrics": { name: "Shaping fabrics", bonus: 2 } }
+    page: "172",
+    effects: { "shaping-fabrics": { name: "Tailler le tissu", bonus: 2 } }
   },
   coin: {
-    name: "Coin",
+    name: "Pièce de monnaie",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "induce-greed": { name: "Induce greed", bonus: 4 },
-      "wealth-and-mercantile": { name: "Wealth and mercantile", bonus: 4 }
+      "induce-greed": { name: "Susciter l'avidité", bonus: 4 },
+      "wealth-and-mercantile": { name: "Richesse et commerce", bonus: 4 }
     }
   },
   collar: {
-    name: "Collar",
+    name: "Col de vêtement",
     src: "ArM5",
-    page: "110",
-    effects: { "control-wearer": { name: "Control wearer", bonus: 6 } }
+    page: "173",
+    effects: { "control-wearer": { name: "Contrôle du porteur", bonus: 6 } }
   },
   comb: {
-    name: "Comb",
+    name: "Peigne",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      beauty: { name: "Beauty", bonus: 5 },
-      "hair-bonus-to-affect": { name: "Hair, bonus to affect", bonus: 7 }
+      beauty: { name: "Beauté", bonus: 5 },
+      "hair-bonus-to-affect": { name: "Affecter la coiffure", bonus: 7 }
     }
   },
   container: {
-    name: "Container",
+    name: "Récipient",
     src: "ArM5",
-    page: "110",
-    effects: { "create-or-transform-within": { name: "Create or transform within", bonus: 5 } }
+    page: "173",
+    effects: { "create-or-transform-within": { name: "Création ou transformation d'un contenu", bonus: 5 } }
   },
   copper: {
-    name: "Copper",
+    name: "Cuivre",
     src: "TMRE",
     page: "33",
     effects: {
       passion: { name: "Passion", bonus: 2 },
-      "sex-magic": { name: "Sex magic", bonus: 2 },
-      bloodshed: { name: "Bloodshed", bonus: 3 },
-      deftness: { name: "Deftness", bonus: 4 },
-      "effects-that-changet-own-shape": { name: "Effects that changet own shape", bonus: 4 }
+      "sex-magic": { name: "Magie sexuelle", bonus: 2 },
+      bloodshed: { name: "Effusion de sang", bonus: 3 },
+      deftness: { name: "Habilité", bonus: 4 },
+      "effects-that-changet-own-shape": { name: "Effets qui change sa propre forme", bonus: 4 }
     }
   },
   "coral-red": {
-    name: "Coral, red",
+    name: "Corail rouge",
     src: "ArM5",
-    page: "110",
-    effects: { "versus-demons": { name: "Versus demons", bonus: 10 } }
+    page: "173",
+    effects: { "versus-demons": { name: "Contre les démons", bonus: 10 } }
   },
   cross: {
-    name: "Cross",
+    name: "Croix",
     src: "RoP:I",
     page: "123",
     effects: {
-      "banish-demons": { name: "Banish demons", bonus: 5 },
+      "banish-demons": { name: "Bannir les démons", bonus: 5 },
       "cause-damage-to-infernal-creatures": {
-        name: "Cause damage to infernal creatures",
+        name: "Causer des dommages aux créatures infernales",
         bonus: 5
       },
-      "ward-away-supernatural": { name: "Ward away supernatural", bonus: 5 }
+      "ward-away-supernatural": { name: "Protection contre le surnaturel", bonus: 5 }
     }
   },
   crowbar: {
-    name: "Crowbar",
+    name: "Levier",
     src: "HoH:MC",
-    page: "137",
-    effects: { "moving-stone": { name: "Moving stone", bonus: 2 } }
+    page: "172",
+    effects: { "moving-stone": { name: "Déplacer de la pierre", bonus: 2 } }
   },
   crown: {
-    name: "Crown",
+    name: "Couronne",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      wisdom: { name: "Wisdom", bonus: 2 },
-      "control-people": { name: "Control people", bonus: 3 },
-      "gain-respect-authority": { name: "Gain respect, authority", bonus: 5 }
+      wisdom: { name: "Sagesse", bonus: 2 },
+      "control-people": { name: "Contrôle des gens", bonus: 3 },
+      "gain-respect-authority": { name: "Gagner du respect ou de l'autorité", bonus: 5 }
     }
   },
   crystal: {
-    name: "Crystal",
+    name: "Cristal",
     src: "ArM5",
-    page: "110",
-    effects: { "water-related-effect": { name: "Water related effect", bonus: 5 } }
+    page: "173",
+    effects: { "water-related-effect": { name: "Effets liés à l'eau", bonus: 5 } }
   },
   "cypress-tree": {
-    name: "Cypress tree",
+    name: "Bois de cyprès",
     src: "HoH:MC",
     page: "137",
     effects: {
-      necromancy: { name: "Necromancy", bonus: 3 },
-      spirits: { name: "Spirits", bonus: 3 }
+      necromancy: { name: "Nécromancie", bonus: 3 },
+      spirits: { name: "Esprits", bonus: 3 }
     }
   },
   "dagger-knife": {
-    name: "Dagger/ Knife",
+    name: "Dague / Couteau",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "precise-destruction": { name: "Precise destruction", bonus: 2 },
-      "betrayal-assassination": { name: "Betrayal, assassination", bonus: 3 },
-      poisoning: { name: "Poisoning", bonus: 3 }
+      "precise-destruction": { name: "Destruction précise", bonus: 2 },
+      "betrayal-assassination": { name: "Traîtrise, Assassinat", bonus: 3 },
+      poisoning: { name: "Empoisonnement", bonus: 3 }
     }
   },
   diamond: {
-    name: "Diamond",
+    name: "Diamant",
     src: "ArM5",
-    page: "110",
-    effects: { "versus-demons": { name: "Versus demons", bonus: 5 } }
+    page: "173",
+    effects: { "versus-demons": { name: "Contre les démons", bonus: 5 } }
   },
   dividers: {
-    name: "Dividers",
+    name: "Compas",
     src: "HoH:MC",
-    page: "137",
-    effects: { measuring: { name: "Measuring", bonus: 2 } }
+    page: "172",
+    effects: { measuring: { name: "Mesurer", bonus: 2 } }
   },
   dogwood: {
-    name: "Dogwood",
+    name: "Bois de cornouiller",
     src: "HoH:MC",
     page: "137",
-    effects: { pixies: { name: "Pixies", bonus: 5 } }
+    effects: { pixies: { name: "Êtres féériques", bonus: 5 } }
   },
   door: {
-    name: "Door",
+    name: "Porte",
     src: "ArM5",
-    page: "110",
-    effects: { warding: { name: "Warding", bonus: 5 } }
+    page: "173",
+    effects: { warding: { name: "Garder", bonus: 5 } }
   },
   doorway: {
-    name: "Doorway",
+    name: "Seuil",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "magical-transportation": { name: "Magical transportation", bonus: 5 },
-      "magical-gates-and-portals": { name: "Magical gates and portals", bonus: 7 },
-      "movement-through-bonus-to-affect": { name: "Movement through, bonus to affect", bonus: 7 }
+      "magical-transportation": { name: "Transport magique", bonus: 5 },
+      "magical-gates-and-portals": { name: "Portails et portes magiques", bonus: 7 },
+      "movement-through-bonus-to-affect": { name: "Affecter le mouvement au travers", bonus: 7 }
     }
   },
   "doum-palm-leaf": {
-    name: "Doum Palm Leaf",
+    name: "Feuille de palmier",
     src: "AnM",
     page: "116",
     effects: {
       "controling-instincts-and-base-emotions": {
-        name: "Controling instincts and base emotions",
+        name: "Contrôler l'instinct et les émotions de base",
         bonus: 3
       }
     }
   },
   down: {
-    name: "Down",
+    name: "Duvet",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: { silence: { name: "Silence", bonus: 3 } }
   },
   drum: {
-    name: "Drum",
+    name: "Tambour",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "cause-fear": { name: "Cause fear", bonus: 2 },
-      "create-storms-and-thunder": { name: "Create storms and thunder", bonus: 3 },
-      deafening: { name: "Deafening", bonus: 5 }
+      "cause-fear": { name: "Faire peur", bonus: 2 },
+      "create-storms-and-thunder": { name: "Création de tempêtes et de tonnerre", bonus: 3 },
+      deafening: { name: "Assourdir", bonus: 5 }
     }
   },
   earring: {
-    name: "Earring",
+    name: "Boucle d'oreille",
     src: "ArM5",
-    page: "110",
-    effects: { "hearing-bonus-to-affect": { name: "Hearing, bonus to affect", bonus: 5 } }
+    page: "173",
+    effects: { "hearing-bonus-to-affect": { name: "Affecter l'ouïe", bonus: 5 } }
   },
   elder: {
-    name: "Elder",
+    name: "Bois de sureau",
     src: "GotF",
     page: "33",
     effects: {
       vim: { name: "Vim", bonus: 1 },
-      "malicious-magic": { name: "Malicious magic", bonus: 4 }
+      "malicious-magic": { name: "Magie malicieuse", bonus: 4 }
     }
   },
   electrum: {
     name: "Electrum",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
-      deception: { name: "Deception", bonus: 3 },
-      scrying: { name: "Scrying", bonus: 3 },
+      deception: { name: "Tromperie", bonus: 3 },
+      scrying: { name: "Cristallomancie", bonus: 3 },
       "muto-terram": { name: "Muto terram", bonus: 4 }
     }
   },
   elm: {
-    name: "Elm",
+    name: "Bois d'orme",
     src: "GotF",
     page: "33",
-    effects: { "death-and-decay": { name: "Death and decay", bonus: 2 } }
+    effects: { "death-and-decay": { name: "Mort et décomposition", bonus: 2 } }
   },
   emerald: {
-    name: "Emerald",
+    name: "Emeraude",
     src: "TMRE",
     page: "33",
     effects: {
-      calm: { name: "Calm", bonus: 2 },
-      "incite-love-or-passion": { name: "Incite love or passion", bonus: 4 },
-      "snakes-and-dragon-kind": { name: "Snakes and dragon kind", bonus: 7 }
+      calm: { name: "Calmer", bonus: 2 },
+      "incite-love-or-passion": { name: "Susciter l'amour ou la passion", bonus: 4 },
+      "snakes-and-dragon-kind": { name: "Les serpents et les dragons", bonus: 7 }
     }
   },
   fan: {
-    name: "Fan",
+    name: "Eventail",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "banish-weather-phenomena": { name: "Banish weather phenomena", bonus: 4 },
-      "create-or-control-winds": { name: "Create or control winds", bonus: 4 }
+      "banish-weather-phenomena": { name: "Elimination des perturbations météorologiques", bonus: 4 },
+      "create-or-control-winds": { name: "Création et contrôle des vents", bonus: 4 }
     }
   },
   fig: {
-    name: "Fig",
+    name: "Bois de figuier",
     src: "HoH:MC",
     page: "137",
     effects: {
-      gambling: { name: "Gambling", bonus: 3 },
-      "sex-magic": { name: "Sex magic", bonus: 3 }
+      gambling: { name: "Jeux de hasard", bonus: 3 },
+      "sex-magic": { name: "Magie sexuelle", bonus: 3 }
     }
   },
   fir: {
-    name: "Fir",
+    name: "Bois de sapin",
     src: "GotF",
     page: "33",
     effects: {
-      "malicious-faeries": { name: "Malicious faeries", bonus: 1 },
-      darkness: { name: "Darkness", bonus: 3 }
+      "malicious-faeries": { name: "Êtres féériques malicieux", bonus: 1 },
+      darkness: { name: "Ténèbre", bonus: 3 }
     }
   },
   "fired-clay": {
-    name: "Fired Clay",
+    name: "Argile cuite",
     src: "ArM5",
-    page: "110",
-    effects: { "contain-or-protect-from-fire": { name: "Contain or protect from fire", bonus: 4 } }
+    page: "173",
+    effects: { "contain-or-protect-from-fire": { name: "Contenir ou protéger du feu", bonus: 4 } }
   },
   flail: {
-    name: "Flail",
+    name: "Fléau à grain",
     src: "HoH:MC",
-    page: "137",
-    effects: { "harvesting-grain": { name: "Harvesting grain", bonus: 3 } }
+    page: "172",
+    effects: { "harvesting-grain": { name: "Récolter le grain", bonus: 3 } }
   },
   floor: {
-    name: "Floor",
+    name: "Plancher",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "movement-across-bonus-to-affect": { name: "Movement across, bonus to affect", bonus: 7 }
+      "movement-across-bonus-to-affect": { name: "Affecter les déplacements à travers", bonus: 7 }
     }
   },
   frankincense: {
@@ -750,285 +750,285 @@ export const ASPECTS = {
     src: "TMRE",
     page: "33",
     effects: {
-      dreams: { name: "Dreams", bonus: 3 },
+      dreams: { name: "Rêves", bonus: 3 },
       "perdo-vim": { name: "Perdo vim", bonus: 3 },
       "cleanse-a-place-of-infernal-influence": {
-        name: "Cleanse a place of infernal influence",
+        name: "Purifier un lieu d'influence infernale",
         bonus: 4
       },
-      medicine: { name: "Medicine", bonus: 3 },
-      "promote-life": { name: "Promote life", bonus: 5 }
+      medicine: { name: "Médicine", bonus: 3 },
+      "promote-life": { name: "Promouvoir la vie", bonus: 5 }
     }
   },
   garnet: {
-    name: "Garnet",
+    name: "Grenat",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
       navigation: { name: "Navigation", bonus: 2 },
-      "strengthen-body-and-mind": { name: "Strengthen body and mind", bonus: 2 },
-      vigor: { name: "Vigor", bonus: 2 },
-      "bonds-of-commitment": { name: "Bonds of commitment", bonus: 3 },
-      "repel-insects": { name: "Repel insects", bonus: 4 }
+      "strengthen-body-and-mind": { name: "Renforcer le corps et l'esprit", bonus: 2 },
+      vigor: { name: "Vigueur", bonus: 2 },
+      "bonds-of-commitment": { name: "Liens d'engagement", bonus: 3 },
+      "repel-insects": { name: "Repousser les insectes", bonus: 4 }
     }
   },
   "glass-clear": {
-    name: "Glass, clear",
-    src: "ArM5",
-    page: "110",
+    name: "Verre transparent",
+    src: "HoH:MC",
+    page: "173",
     effects: {
-      invisibility: { name: "Invisibility", bonus: 4 },
-      "seeing-through-something": { name: "Seeing through something", bonus: 5 }
+      invisibility: { name: "Invisibilité", bonus: 4 },
+      "seeing-through-something": { name: "Voir au travers de quelque chose", bonus: 5 }
     }
   },
   glove: {
-    name: "Glove",
+    name: "Gant",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "manipulate-at-a-distance": { name: "Manipulate at a distance", bonus: 4 },
-      "things-by-touch-bonus-to-affect": { name: "Things by touch, bonus to affect", bonus: 4 }
+      "manipulate-at-a-distance": { name: "Manipulation à distance", bonus: 4 },
+      "things-by-touch-bonus-to-affect": { name: "Affecter les choses au toucher", bonus: 4 }
     }
   },
   gold: {
-    name: "Gold",
+    name: "Or",
     src: "TMRE",
     page: "33",
     effects: {
-      health: { name: "Health", bonus: 2 },
-      "induce-greed": { name: "Induce greed", bonus: 4 },
-      nobility: { name: "Nobility", bonus: 4 },
-      peace: { name: "Peace", bonus: 4 },
-      "wealth-bonus-to-affect": { name: "Wealth, bonus to affect", bonus: 4 }
+      health: { name: "Santé", bonus: 2 },
+      "induce-greed": { name: "Susciter l'avidité", bonus: 4 },
+      nobility: { name: "Noblesse", bonus: 4 },
+      peace: { name: "Paix", bonus: 4 },
+      "wealth-bonus-to-affect": { name: "Affecter la richesse", bonus: 4 }
     }
   },
   granite: {
     name: "Granite",
     src: "HoH:MC",
-    page: "137",
-    effects: { wealth: { name: "Wealth", bonus: 2 }, terram: { name: "Terram", bonus: 3 } }
+    page: "173",
+    effects: { wealth: { name: "Richesse", bonus: 2 }, terram: { name: "Terram", bonus: 3 } }
   },
   "green-turquoise": {
-    name: "Green Turquoise",
+    name: "Turquoise verte",
     src: "ArM5",
-    page: "110",
-    effects: { necromancy: { name: "Necromancy", bonus: 4 } }
+    page: "173",
+    effects: { necromancy: { name: "Nécromancie", bonus: 4 } }
   },
   hall: {
-    name: "Hall",
+    name: "Porche",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "magical-transportation": { name: "Magical transportation", bonus: 3 },
-      "movement-through-bonus-to-affect": { name: "Movement through, bonus to affect", bonus: 6 }
+      "magical-transportation": { name: "Transports magique", bonus: 3 },
+      "movement-through-bonus-to-affect": { name: "Affecter les déplacements au travers", bonus: 6 }
     }
   },
   handsaw: {
-    name: "Handsaw",
+    name: "Scie à main",
     src: "HoH:MC",
-    page: "137",
-    effects: { "delicately-shape-wood": { name: "Delicately shape wood", bonus: 3 } }
+    page: "172",
+    effects: { "delicately-shape-wood": { name: "Façonner finement du bois", bonus: 3 } }
   },
   "haoma-in-potion": {
-    name: "Haoma  (in potion)",
+    name: "Haoma  (en potion)",
     src: "C&C",
     page: "91",
     effects: {
-      "health-of-fertility-promote": { name: "Health of fertility, promote", bonus: 3 },
-      "percieve-invisible-spirit": { name: "Percieve invisible spirit", bonus: 3 },
-      "longevity-promote": { name: "Longevity, promote", bonus: 5 }
+      "health-of-fertility-promote": { name: "Promouvoir la bonne fécondité", bonus: 3 },
+      "percieve-invisible-spirit": { name: "Percevoir les esprits invisible", bonus: 3 },
+      "longevity-promote": { name: "Favoriser la longévité", bonus: 5 }
     }
   },
   hat: {
-    name: "Hat",
+    name: "Chapeau",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "image-of-self-bonus-to-affect": { name: "Image of self, bonus to affect", bonus: 4 }
+      "image-of-self-bonus-to-affect": { name: "Affecter l'image de soi", bonus: 4 }
     }
   },
   hatchet: {
-    name: "Hatchet",
+    name: "Hachette",
     src: "HoH:MC",
-    page: "137",
-    effects: { "destroy-wood": { name: "Destroy wood", bonus: 4 } }
+    page: "172",
+    effects: { "destroy-wood": { name: "Détruire le bois", bonus: 4 } }
   },
   hawthorn: {
-    name: "Hawthorn",
+    name: "Bois d'aubépine",
     src: "GotF",
     page: "33",
-    effects: { wards: { name: "Wards", bonus: 3 } }
+    effects: { wards: { name: "Protection", bonus: 3 } }
   },
   hazel: {
-    name: "Hazel",
+    name: "Bois de noisetier",
     src: "GotF",
     page: "33",
     effects: {
-      "good-judgment": { name: "Good judgment", bonus: 1 },
+      "good-judgment": { name: "Bon jugement", bonus: 1 },
       divination: { name: "Divination", bonus: 3 }
     }
   },
   hearth: {
-    name: "Hearth",
+    name: "Âtre",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "destroy-things-within": { name: "Destroy things within", bonus: 5 },
-      "create-fire-and-heat": { name: "Create fire and heat", bonus: 7 }
+      "destroy-things-within": { name: "Détruire des choses à l'intérieur", bonus: 5 },
+      "create-fire-and-heat": { name: "Créer le feu et la chaleur", bonus: 7 }
     }
   },
   helmet: {
-    name: "Helmet",
+    name: "Heaume",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       "wearers-mindemotions-bonus-to-affect": {
-        name: "Wearer's mind/emotions, bonus to affect",
+        name: "Affecter l'esprit et les émotions du porteur",
         bonus: 4
       },
-      "wearers-sight-bonus-to-affect": { name: "Wearer's sight, bonus to affect", bonus: 6 }
+      "wearers-sight-bonus-to-affect": { name: "Affecter la vue du porteur", bonus: 6 }
     }
   },
   hickory: {
-    name: "Hickory",
+    name: "Bois de caryer",
     src: "HoH:MC",
     page: "137",
-    effects: { majesty: { name: "Majesty", bonus: 2 }, ignem: { name: "Ignem", bonus: 4 } }
+    effects: { majesty: { name: "Majesté", bonus: 2 }, ignem: { name: "Ignem", bonus: 4 } }
   },
   holly: {
-    name: "Holly",
+    name: "Bois de houx",
     src: "GotF",
     page: "33",
     effects: {
-      "inflict-pain": { name: "Inflict pain", bonus: 2 },
-      "inflict-wounds": { name: "Inflict wounds", bonus: 2 }
+      "inflict-pain": { name: "Infliger la douleur", bonus: 2 },
+      "inflict-wounds": { name: "Infliger des blessures", bonus: 2 }
     }
   },
   hornbeam: {
-    name: "Hornbeam",
+    name: "Bois de charme",
     src: "HoH:MC",
     page: "137",
     effects: {
-      strength: { name: "Strength", bonus: 6 },
-      "vim-on-hostile-magic": { name: "Vim on hostile magic", bonus: 6 }
+      strength: { name: "Force", bonus: 6 },
+      "vim-on-hostile-magic": { name: "Vim contre la magie hostile", bonus: 6 }
     }
   },
   horseshoe: {
-    name: "Horseshoe",
+    name: "Fer à cheval",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      warding: { name: "Warding", bonus: 2 },
-      "horses-movement-bonus-to-affect": { name: "Horse's movement, bonus to affect", bonus: 6 }
+      warding: { name: "Protection", bonus: 2 },
+      "horses-movement-bonus-to-affect": { name: "Affecter les mouvements des chevaux", bonus: 6 }
     }
   },
   hourglass: {
-    name: "Hourglass",
+    name: "Sablier",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "increasing-speed": { name: "Increasing speed", bonus: 3 },
-      "timing-and-alarms": { name: "Timing and alarms", bonus: 7 }
+      "increasing-speed": { name: "Augmenter la vitesse", bonus: 3 },
+      "timing-and-alarms": { name: "Chronométrage et alarmes", bonus: 7 }
     }
   },
   "human-bone": {
-    name: "Human bone",
+    name: "Os humain",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "destroy-human-mind": { name: "Destroy human mind", bonus: 3 },
-      "destroy-human-body": { name: "Destroy human body", bonus: 4 }
+      "destroy-human-mind": { name: "Détruire l'esprit humain", bonus: 3 },
+      "destroy-human-body": { name: "Détruire le corps humain", bonus: 4 }
     }
   },
   "human-skull": {
-    name: "Human skull",
+    name: "Crâne humain",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "destroy-human-body": { name: "Destroy human body", bonus: 4 },
-      "destroy-human-mind": { name: "Destroy human mind", bonus: 5 },
-      "destroy-or-control-ghosts": { name: "Destroy or control ghosts", bonus: 5 },
+      "destroy-human-body": { name: "Détruire le corp humain", bonus: 4 },
+      "destroy-human-mind": { name: "Détruire l'esprit humain", bonus: 5 },
+      "destroy-or-control-ghosts": { name: "Détruire ou contrôler les fantômes", bonus: 5 },
       "destroy-or-control-ghost-of-particular-skull": {
-        name: "Destroy or control ghost of particular skull",
+        name: "Détruire ou contrôler le fantôme d'un crâne donné",
         bonus: 10
       }
     }
   },
   hyacinth: {
-    name: "Hyacinth",
+    name: "Jacinthe",
     src: "ArM5",
-    page: "110",
-    effects: { "healing-wounds": { name: "Healing wounds", bonus: 2 } }
+    page: "173",
+    effects: { "healing-wounds": { name: "Soins", bonus: 2 } }
   },
   "ink-of-hermes": {
-    name: "Ink of Hermes",
+    name: "Encre hermétique",
     src: "TMRE",
     page: "33",
-    effects: { vim: { name: "Vim", bonus: 3 }, books: { name: "Books", bonus: 5 } }
+    effects: { vim: { name: "Vim", bonus: 3 }, books: { name: "Livres", bonus: 5 } }
   },
   iron: {
-    name: "Iron",
+    name: "Fer",
     src: "TMRE",
     page: "33",
     effects: {
-      bonds: { name: "Bonds", bonus: 3 },
-      "harm-or-repel-faeries": { name: "Harm or repel faeries", bonus: 7 }
+      bonds: { name: "Liens", bonus: 3 },
+      "harm-or-repel-faeries": { name: "Blesser ou repousser les êtres féériques", bonus: 7 }
     }
   },
   "iron-shackles": {
-    name: "Iron shackles",
+    name: "Entraves en fer",
     src: "ArM5",
-    page: "110",
-    effects: { "bind-faeries": { name: "Bind faeries", bonus: 8 } }
+    page: "173",
+    effects: { "bind-faeries": { name: "Emprisonner les fées", bonus: 8 } }
   },
   ivory: {
-    name: "Ivory",
+    name: "Ivoire",
     src: "HoH:MC",
-    page: "137",
-    effects: { "healing-wounds": { name: "Healing wounds", bonus: 5 } }
+    page: "173",
+    effects: { "healing-wounds": { name: "Guérir", bonus: 5 } }
   },
   jade: { name: "Jade", src: "ArM5", page: "110", effects: { aquam: { name: "Aquam", bonus: 4 } } },
   jasper: {
-    name: "Jasper",
+    name: "Jaspe",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "healing-wounds": { name: "Healing wounds", bonus: 2 },
-      "versus-demons": { name: "Versus demons", bonus: 2 }
+      "healing-wounds": { name: "Soins", bonus: 2 },
+      "versus-demons": { name: "Contre les démons", bonus: 2 }
     }
   },
   jet: {
-    name: "Jet",
+    name: "Jais",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       protection: { name: "Protection", bonus: 2 },
-      darkness: { name: "Darkness", bonus: 3 }
+      darkness: { name: "Obscurité", bonus: 3 }
     }
   },
   "jewelry-clothing": {
-    name: "Jewelry/ clothing",
+    name: "Bijou/Vêtement",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "move-self": { name: "Move self", bonus: 2 },
-      "protect-self": { name: "Protect self", bonus: 4 },
-      "transform-self": { name: "Transform self", bonus: 4 }
+      "move-self": { name: "Se déplacer", bonus: 2 },
+      "protect-self": { name: "Se protéger", bonus: 4 },
+      "transform-self": { name: "Se transformer", bonus: 4 }
     }
   },
   "kohl-powder": {
-    name: "Kohl powder",
+    name: "Poudre de Khôl",
     src: "C&C",
     page: "107",
-    effects: { "vision-to-affect": { name: "Vision, to affect", bonus: 3 } }
+    effects: { "vision-to-affect": { name: "Affecter la vision", bonus: 3 } }
   },
   lamp: {
-    name: "Lamp",
+    name: "Lampe",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "create-fire": { name: "Create fire", bonus: 4 },
-      "produce-light": { name: "Produce light", bonus: 7 }
+      "create-fire": { name: "Création de feu", bonus: 4 },
+      "produce-light": { name: "Production de lumière", bonus: 7 }
     }
   },
   "lapis-lazuli": {
@@ -1036,80 +1036,80 @@ export const ASPECTS = {
     src: "C&C",
     page: "176",
     effects: {
-      "keep-limbs-healthy": { name: "Keep limbs healthy", bonus: 5 },
-      "cure-boils-and-ulcers": { name: "Cure boils and ulcers", bonus: 5 },
-      "obsession-power-of-demons": { name: "Obsession power of demons", bonus: 6 }
+      "keep-limbs-healthy": { name: "Garder les membres en bonne santé", bonus: 5 },
+      "cure-boils-and-ulcers": { name: "Soins des furoncles et des ulcères", bonus: 5 },
+      "obsession-power-of-demons": { name: "Obsession pour le pouvoir des démons", bonus: 6 }
     }
   },
   "lapis-lazuli-powder": {
-    name: "Lapis Lazuli (powder)",
+    name: "Lapis Lazuli (poudre)",
     src: "C&C",
     page: "176",
-    effects: { aphrodisiac: { name: "Aphrodisiac", bonus: 3 } }
+    effects: { aphrodisiac: { name: "Aphrodisiaque", bonus: 3 } }
   },
   lead: {
-    name: "Lead",
+    name: "Plomb",
     src: "TMRE",
     page: "33",
     effects: {
-      hatred: { name: "Hatred", bonus: 3 },
-      "summon-or-bind-spirits": { name: "Summon or bind spirits", bonus: 3 },
-      "summoning-or-binding-ghosts": { name: "Summoning or binding ghosts", bonus: 3 },
-      wards: { name: "Wards", bonus: 4 }
+      hatred: { name: "Haine", bonus: 3 },
+      "summon-or-bind-spirits": { name: "Invoquer/Lier des esprits", bonus: 3 },
+      "summoning-or-binding-ghosts": { name: "Invoquer/Lier fantômes", bonus: 3 },
+      wards: { name: "Garder", bonus: 4 }
     }
   },
   lemon: {
-    name: "Lemon",
+    name: "Bois de citronnier",
     src: "HoH:MC",
     page: "137",
-    effects: { hearing: { name: "Hearing", bonus: 5 } }
+    effects: { hearing: { name: "Ouïe", bonus: 5 } }
   },
   lilac: {
-    name: "Lilac",
+    name: "Bois de lilas",
     src: "HoH:MC",
     page: "137",
-    effects: { travel: { name: "Travel", bonus: 2 } }
+    effects: { travel: { name: "Voyager", bonus: 2 } }
   },
   linden: {
-    name: "Linden",
+    name: "Bois de tilleul",
     src: "GotF",
     page: "33",
     effects: {
-      "good-fortune": { name: "Good fortune", bonus: 1 },
-      "protection-against-weapons": { name: "Protection against weapons", bonus: 2 }
+      "good-fortune": { name: "Bonne fortune", bonus: 1 },
+      "protection-against-weapons": { name: "Protection contre les armes", bonus: 2 }
     }
   },
   "lions-blood": {
-    name: "Lion's blood",
+    name: "Sang de lion",
     src: "TMRE",
     page: "33",
     effects: {
-      leadership: { name: "Leadership", bonus: 2 },
+      leadership: { name: "Commandement", bonus: 2 },
       courage: { name: "Courage", bonus: 3 },
-      "protection-from-wild-beasts": { name: "Protection from wild beasts", bonus: 4 }
+      "protection-from-wild-beasts": { name: "Protection contre les bêtes sauvages", bonus: 4 }
     }
   },
   "lions-mane": {
-    name: "Lion's mane",
+    name: "Crinière de lion",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       courage: { name: "Courage", bonus: 5 },
-      pride: { name: "Pride", bonus: 5 },
-      strength: { name: "Strength", bonus: 5 }
+      pride: { name: "Fierté", bonus: 5 },
+      strength: { name: "Force", bonus: 5 }
     }
   },
   lyre: {
     name: "Lyre",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "create-sounds": { name: "Create sounds", bonus: 3 },
-      "music-bonus-to-affect": { name: "Music, bonus to affect", bonus: 5 }
+      "create-sounds": { name: "Créer des sons", bonus: 3 },
+      "music-bonus-to-affect": { name: "Affecter la musique", bonus: 5 }
     }
   },
   magnet: {
-    name: "Magnet",
+    name: "Aimant",
     src: "TMRE",
     page: "33",
     effects: {
@@ -1119,689 +1119,689 @@ export const ASPECTS = {
     }
   },
   magnetite: {
-    name: "Magnetite",
+    name: "Magnétite",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: { animal: { name: "Animal", bonus: 3 } }
   },
   mallet: {
-    name: "Mallet",
+    name: "Maillet",
     src: "HoH:MC",
-    page: "137",
-    effects: { precision: { name: "Precision", bonus: 2 } }
+    page: "172",
+    effects: { precision: { name: "Précision", bonus: 2 } }
   },
   manacles: {
-    name: "Manacles",
+    name: "Menottes",
     src: "HoH:MC",
-    page: "137",
-    effects: { binding: { name: "Binding", bonus: 4 } }
+    page: "172",
+    effects: { binding: { name: "Lier", bonus: 4 } }
   },
   marble: {
-    name: "Marble",
+    name: "Marbre",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
-      beauty: { name: "Beauty", bonus: 3 },
-      cold: { name: "Cold", bonus: 3 },
-      wards: { name: "Wards", bonus: 5 }
+      beauty: { name: "Beauté", bonus: 3 },
+      cold: { name: "Froid", bonus: 3 },
+      wards: { name: "Protection", bonus: 5 }
     }
   },
   mask: {
-    name: "Mask",
+    name: "Masque",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "wearers-sight-bonus-to-affect": { name: "Wearer's sight, bonus to affect", bonus: 2 },
+      "wearers-sight-bonus-to-affect": { name: "Affecter la vue du porteur", bonus: 2 },
       "wearers-breathing-bonus-to-affect": {
-        name: "Wearer's breathing, bonus to affect",
+        name: "Affecter la respiration du porteur",
         bonus: 2
       },
-      hiding: { name: "Hiding", bonus: 3 },
-      disguise: { name: "Disguise", bonus: 7 }
+      hiding: { name: "Cacher", bonus: 3 },
+      disguise: { name: "Déguisement", bonus: 7 }
     }
   },
   "mason-chisel": {
-    name: "Mason chisel",
+    name: "Ciseaux de maçon",
     src: "HoH:MC",
-    page: "137",
-    effects: { "shape-stone": { name: "Shape stone", bonus: 2 } }
+    page: "172",
+    effects: { "shape-stone": { name: "Façonner la pierre", bonus: 2 } }
   },
   mast: {
-    name: "Mast",
+    name: "Mât",
     src: "HP",
     page: "66",
-    effects: { "protection-from-temptation": { name: "Protection from temptation", bonus: 2 } }
+    effects: { "protection-from-temptation": { name: "Protection contre la tentation", bonus: 2 } }
   },
   mercury: {
-    name: "Mercury",
+    name: "Mercure (Vif argent)",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
       aquam: { name: "Aquam", bonus: 3 },
-      "arts-and-sciences": { name: "Arts and sciences", bonus: 3 },
+      "arts-and-sciences": { name: "Arts et sciences", bonus: 3 },
       terram: { name: "Terram", bonus: 3 },
       muto: { name: "Muto", bonus: 5 }
     }
   },
   mirror: {
-    name: "Mirror",
+    name: "Miroir",
     src: "HoH:TL",
-    page: "139",
+    page: "163",
     effects: {
-      "summon-or-bind-ghosts": { name: "Summon or bind ghosts", bonus: 3 },
-      "see-the-truth": { name: "See the truth", bonus: 5 },
-      "display-images": { name: "Display images", bonus: 6 },
+      "summon-or-bind-ghosts": { name: "Conjurer/Lier des fantômes", bonus: 3 },
+      "see-the-truth": { name: "Voir la vérité", bonus: 5 },
+      "display-images": { name: "Afficher des images", bonus: 6 },
       illusions: { name: "Illusions", bonus: 7 }
     }
   },
   myrrh: {
-    name: "Myrrh",
+    name: "Myrrhe",
     src: "C&C",
     page: "117",
     effects: {
-      "sanctify-bonus-to": { name: "Sanctify, bonus to", bonus: 2 },
-      spirits: { name: "Spirits", bonus: 3 },
-      "relieve-arthritis-or-inflammation": { name: "Relieve arthritis or inflammation", bonus: 3 },
-      preservation: { name: "Preservation", bonus: 5 }
+      "sanctify-bonus-to": { name: "Bonus à la sanctification", bonus: 2 },
+      spirits: { name: "Esprits", bonus: 3 },
+	  "relieve-arthritis-or-inflammation": { name: "Soulager l'arthrite ou l'inflammation", bonus: 3 },
+      preservation: { name: "Préservation", bonus: 5 }
     }
   },
   necklace: {
-    name: "Necklace",
+    name: "Collier",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       "breathing-and-speaking-bonus-to-affect": {
-        name: "Breathing and speaking, bonus to affect",
+        name: "Affecter la respiration et la parole",
         bonus: 4
       }
     }
   },
   net: {
-    name: "Net",
+    name: "Filet",
     src: "ArM5",
-    page: "110",
-    effects: { immobilization: { name: "Immobilization", bonus: 5 } }
+    page: "173",
+    effects: { immobilization: { name: "Immobilisation", bonus: 5 } }
   },
   oak: {
-    name: "Oak",
+    name: "Bois de chêne",
     src: "ArM5",
-    page: "110",
-    effects: { "protection-from-storms": { name: "Protection from storms", bonus: 7 } }
+    page: "173",
+    effects: { "protection-from-storms": { name: "Protection contre les tempêtes", bonus: 7 } }
   },
   oar: {
-    name: "Oar",
+    name: "Rame",
     src: "ArM5",
-    page: "110",
-    effects: { "currents-bonus-to-affect": { name: "Currents, bonus to affect", bonus: 4 } }
+    page: "173",
+    effects: { "currents-bonus-to-affect": { name: "Affecter les courants", bonus: 4 } }
   },
   obsidian: {
-    name: "Obsidian",
+    name: "Obsidienne",
     src: "ArM5",
-    page: "110",
-    effects: { darkness: { name: "Darkness", bonus: 5 } }
+    page: "173",
+    effects: { darkness: { name: "Ténèbres", bonus: 5 } }
   },
   onyx: {
     name: "Onyx",
     src: "ArM5",
-    page: "110",
-    effects: { darkness: { name: "Darkness", bonus: 4 }, death: { name: "Death", bonus: 4 } }
+    page: "173",
+    effects: { darkness: { name: "Ténèbres", bonus: 4 }, death: { name: "Mort", bonus: 4 } }
   },
   opal: {
-    name: "Opal",
+    name: "Opale",
     src: "HoH:TL",
-    page: "139",
+    page: "163",
     effects: {
       images: { name: "Images", bonus: 2 },
       imagination: { name: "Imagination", bonus: 2 },
-      invisibility: { name: "Invisibility", bonus: 2 },
-      memory: { name: "Memory", bonus: 4 },
-      travel: { name: "Travel", bonus: 4 },
-      eyes: { name: "Eyes", bonus: 6 }
+      invisibility: { name: "Invisibilité", bonus: 2 },
+      memory: { name: "Mémoire", bonus: 4 },
+      travel: { name: "Voyager", bonus: 4 },
+      eyes: { name: "Yeux", bonus: 6 }
     }
   },
   orange: {
-    name: "Orange",
+    name: "Bois d'oranger",
     src: "HoH:MC",
     page: "137",
-    effects: { sight: { name: "Sight", bonus: 5 } }
+    effects: { sight: { name: "Vue", bonus: 5 } }
   },
   palm: {
-    name: "Palm",
+    name: "Bois de palmier",
     src: "HoH:MC",
     page: "137",
-    effects: { "animating-wood": { name: "Animating wood", bonus: 3 } }
+    effects: { "animating-wood": { name: "Animer le bois", bonus: 3 } }
   },
   panpipes: {
-    name: "Panpipes",
+    name: "Flûte de pan",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "emotion-bonus-to-affect": { name: "Emotion, bonus to affect", bonus: 3 },
-      "control-children": { name: "Control children", bonus: 5 },
-      revelry: { name: "Revelry", bonus: 5 },
-      "faerie-emotions-bonus-to-affect": { name: "Faerie emotions, bonus to affect", bonus: 6 }
+      "emotion-bonus-to-affect": { name: "Affecter les émotions", bonus: 3 },
+      "control-children": { name: "Contrôler les enfants", bonus: 5 },
+      revelry: { name: "Festivités", bonus: 5 },
+      "faerie-emotions-bonus-to-affect": { name: "Affecter les émotions des êtres féériques", bonus: 6 }
     }
   },
   pearl: {
-    name: "Pearl",
+    name: "Perle",
     src: "ArM5",
-    page: "110",
-    effects: { "detect-of-eliminate-poisons": { name: "Detect of eliminate poisons", bonus: 5 } }
+    page: "173",
+    effects: { "detect-of-eliminate-poisons": { name: "Detection/Eliminination des poisons", bonus: 5 } }
   },
   pepper: {
-    name: "Pepper",
+    name: "Poivre",
     src: "TMRE",
     page: "33",
     effects: { perdo: { name: "Perdo", bonus: 2 } }
   },
   peridot: {
-    name: "Peridot",
+    name: "Péridot",
     src: "TMRE",
     page: "33",
     effects: {
-      "protection-against-nightmares": { name: "Protection against nightmares", bonus: 3 }
+      "protection-against-nightmares": { name: "Protection contre les cauchemars", bonus: 3 }
     }
   },
   phylactery: {
-    name: "Phylactery",
+    name: "Amulette (Phylactère)",
     src: "RoP:I",
     page: "123",
-    effects: { "protect-wearer": { name: "Protect wearer", bonus: 5 } }
+    effects: { "protect-wearer": { name: "Protection du porteur", bonus: 5 } }
   },
   pick: {
-    name: "Pick",
+    name: "Pic",
     src: "ArM5",
-    page: "110",
-    effects: { "destroy-stone": { name: "Destroy stone", bonus: 4 } }
+    page: "173",
+    effects: { "destroy-stone": { name: "Destruction de la pierre", bonus: 4 } }
   },
   "pin-feather": {
-    name: "Pin Feather",
+    name: "Plume",
     src: "ArM5",
-    page: "110",
-    effects: { auram: { name: "Auram", bonus: 2 }, flight: { name: "Flight", bonus: 5 } }
+    page: "173",
+    effects: { auram: { name: "Auram", bonus: 2 }, flight: { name: "Vol", bonus: 5 } }
   },
   pine: {
-    name: "Pine",
+    name: "Bois de pin",
     src: "GotF",
     page: "33",
     effects: {
-      "friendly-faeries": { name: "Friendly faeries", bonus: 1 },
-      light: { name: "Light", bonus: 3 }
+      "friendly-faeries": { name: "Êtres féériques amicaux", bonus: 1 },
+      light: { name: "Lumière", bonus: 3 }
     }
   },
   "pitch-fork": {
-    name: "Pitch fork",
+    name: "Fourche",
     src: "HoH:MC",
-    page: "137",
-    effects: { "gathering-reaped-grain": { name: "Gathering reaped grain", bonus: 2 } }
+    page: "172",
+    effects: { "gathering-reaped-grain": { name: "Rassembler les grains récoltés", bonus: 2 } }
   },
   platinum: {
-    name: "Platinum",
+    name: "Platine",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: { air: { name: "Air", bonus: 4 } }
   },
   plum: {
-    name: "Plum",
+    name: "Bois de prunier",
     src: "HoH:MC",
     page: "137",
-    effects: { blood: { name: "Blood", bonus: 2 } }
+    effects: { blood: { name: "Sang", bonus: 2 } }
   },
   "poplar-white": {
-    name: "Poplar, white",
+    name: "Bois de peuplier blanc",
     src: "HoH:MC",
     page: "137",
     effects: { divination: { name: "Divination", bonus: 3 } }
   },
   "pure-honey": {
-    name: "Pure Honey",
+    name: "Miel pur",
     src: "AnM",
     page: "116",
     effects: {
-      presevation: { name: "Presevation", bonus: 2 },
-      "spiritual-travel": { name: "Spiritual travel", bonus: 5 }
+      presevation: { name: "Préservation", bonus: 2 },
+      "spiritual-travel": { name: "Voyage spirituel", bonus: 5 }
     }
   },
   quartz: {
     name: "Quartz",
     src: "ArM5",
-    page: "110",
-    effects: { invisibility: { name: "Invisibility", bonus: 5 } }
+    page: "173",
+    effects: { invisibility: { name: "Invisibilité", bonus: 5 } }
   },
   quill: {
-    name: "Quill",
+    name: "Plume d'oie",
     src: "ArM5",
-    page: "110",
-    effects: { scribing: { name: "Scribing", bonus: 7 } }
+    page: "173",
+    effects: { scribing: { name: "Ecriture", bonus: 7 } }
   },
   "rat-skull": {
-    name: "Rat Skull",
+    name: "Crâne de rat",
     src: "ArM5",
-    page: "110",
-    effects: { "cause-disease": { name: "Cause disease", bonus: 3 } }
+    page: "173",
+    effects: { "cause-disease": { name: "Provoquer des maladies", bonus: 3 } }
   },
   "red-gold": {
-    name: "Red gold",
+    name: "Or rouge",
     src: "TMRE",
     page: "33",
-    effects: { perdo: { name: "Perdo", bonus: 1 }, war: { name: "War", bonus: 4 } }
+    effects: { perdo: { name: "Perdo", bonus: 1 }, war: { name: "Guerre", bonus: 4 } }
   },
   rhodocrosite: {
     name: "Rhodocrosite",
     src: "HoH:TL",
-    page: "139",
+    page: "163",
     effects: {
-      memories: { name: "Memories", bonus: 2 },
-      "binding-wounds": { name: "Binding wounds", bonus: 3 },
-      forgetfulness: { name: "Forgetfulness", bonus: 3 }
+      memories: { name: "Mémoires/Souvenirs", bonus: 2 },
+      "binding-wounds": { name: "Cicatriser les blessures", bonus: 3 },
+      forgetfulness: { name: "Oubli", bonus: 3 }
     }
   },
   ring: {
-    name: "Ring",
+    name: "Anneau",
     src: "ArM5",
-    page: "110",
-    effects: { "constant-effect": { name: "Constant effect", bonus: 2 } }
+    page: "173",
+    effects: { "constant-effect": { name: "Effet constant", bonus: 2 } }
   },
   "rock-crystal": {
-    name: "Rock Crystal",
+    name: "Cristal de roche",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      healing: { name: "Healing", bonus: 3 },
-      ice: { name: "Ice", bonus: 3 },
-      clarity: { name: "Clarity", bonus: 4 },
+      healing: { name: "Soins", bonus: 3 },
+      ice: { name: "Glace", bonus: 3 },
+      clarity: { name: "Clarté", bonus: 4 },
       clairvoyance: { name: "Clairvoyance", bonus: 5 }
     }
   },
   room: {
-    name: "Room",
+    name: "Salle",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "create-things-within": { name: "Create things within", bonus: 4 },
+      "create-things-within": { name: "Création de salle à l'intérieur", bonus: 4 },
       "everything-within-at-once-bonus-to-affect": {
-        name: "Everything within at once, bonus to affect",
+        name: "Affecter tout ce qu'y s'y trouve",
         bonus: 6
       }
     }
   },
   "rope-or-cord": {
-    name: "Rope or Cord",
+    name: "Corde",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       strangulation: { name: "Strangulation", bonus: 2 },
-      "restraint-or-binding": { name: "Restraint or binding", bonus: 4 }
+      "restraint-or-binding": { name: "Contraindre ou entraver", bonus: 4 }
     }
   },
   rowan: {
-    name: "Rowan",
+    name: "Bois de sorbier",
     src: "GotF",
     page: "33",
     effects: {
       vim: { name: "Vim", bonus: 1 },
-      "protection-against-malicious-magic": { name: "Protection against malicious magic", bonus: 4 }
+      "protection-against-malicious-magic": { name: "Protection contre la magie maligne", bonus: 4 }
     }
   },
   ruby: {
     name: "Ruby",
-    src: "ArM5",
-    page: "110",
+    src: "TMRE",
+    page: "33",
     effects: {
       courage: { name: "Courage", bonus: 2 },
-      "battle-wounds": { name: "Battle wounds", bonus: 3 },
-      "blood-bonus-to-affect": { name: "Blood, bonus to affect", bonus: 3 },
-      "leadership-in-war": { name: "Leadership in war", bonus: 4 },
-      "fire-related-effect": { name: "Fire-related effect", bonus: 6 }
+      "battle-wounds": { name: "Blessures de combat", bonus: 3 },
+      "blood-bonus-to-affect": { name: "Affecter le sang", bonus: 3 },
+      "leadership-in-war": { name: "Commandement en temp de guerre", bonus: 4 },
+      "fire-related-effect": { name: "Pouvoir liés au feu", bonus: 6 }
     }
   },
   rug: {
-    name: "Rug",
+    name: "Tapis",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "those-upon-it-bonus-to-affect": { name: "Those upon it, bonus to affect", bonus: 3 }
+      "those-upon-it-bonus-to-affect": { name: "Affecter ceux qui s'y trouvent", bonus: 3 }
     }
   },
   saddle: {
-    name: "Saddle",
+    name: "Selle",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "horse-bonus-to-affect": { name: "Horse, bonus to affect", bonus: 4 },
-      "riding-bonus-to-affect": { name: "Riding, bonus to affect", bonus: 7 }
+      "horse-bonus-to-affect": { name: "Affecter les chevaux", bonus: 4 },
+      "riding-bonus-to-affect": { name: "Affecter l'équitation", bonus: 7 }
     }
   },
   saffron: {
-    name: "Saffron",
+    name: "Safran",
     src: "TMRE",
     page: "33",
-    effects: { "physical-strength": { name: "Physical strength", bonus: 4 } }
+    effects: { "physical-strength": { name: "Force physique", bonus: 4 } }
   },
   sapphire: {
-    name: "Sapphire",
+    name: "Saphir",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      knowledge: { name: "Knowledge", bonus: 2 },
-      "perdo-vim-against-spirits": { name: "Perdo vim against spirits", bonus: 2 },
-      "versus-malign-corpus": { name: "Versus malign corpus", bonus: 2 },
-      healing: { name: "Healing", bonus: 3 },
-      "reducing-anger": { name: "Reducing anger", bonus: 3 }
+      knowledge: { name: "Connaissance", bonus: 2 },
+      "perdo-vim-against-spirits": { name: "Perdo vim contre les esprits", bonus: 2 },
+      "versus-malign-corpus": { name: "Protection contre les sorts Corpus néfastes", bonus: 2 },
+      healing: { name: "Soins", bonus: 3 },
+      "reducing-anger": { name: "Réduire la colère", bonus: 3 }
     }
   },
   sardonyx: {
     name: "Sardonyx",
     src: "ArM5",
-    page: "110",
-    effects: { "versus-malign-corpus": { name: "Versus malign corpus", bonus: 2 } }
+    page: "173",
+    effects: { "versus-malign-corpus": { name: "Protection contre les sorts Corpus néfastes", bonus: 2 } }
   },
   scales: {
-    name: "Scales",
+    name: "Balance",
     src: "HoH:MC",
-    page: "137",
-    effects: { "weighing-goods-and-money": { name: "Weighing goods and money", bonus: 3 } }
+    page: "172",
+    effects: { "weighing-goods-and-money": { name: "Peser les biens et l'argent", bonus: 3 } }
   },
   scythe: {
-    name: "Scythe",
+    name: "Faux",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      reaping: { name: "Reaping", bonus: 3 },
-      "year-duration-effects": { name: "Year duration effects", bonus: 3 },
-      "effects-expressly-causing-death": { name: "Effects expressly causing death", bonus: 4 }
+      reaping: { name: "Moissonner", bonus: 3 },
+      "year-duration-effects": { name: "Effet à durée annuelle", bonus: 3 },
+      "effects-expressly-causing-death": { name: "Effets causant rapidement la mort", bonus: 4 }
     }
   },
   "sea-shell": {
-    name: "Sea Shell",
+    name: "Coquillage marin",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "the-sea": { name: "The sea", bonus: 2 },
-      "sea-creatures": { name: "Sea creatures", bonus: 3 }
+      "the-sea": { name: "Mer", bonus: 2 },
+      "sea-creatures": { name: "Créatures marines", bonus: 3 }
     }
   },
   serpentine: {
     name: "Serpentine",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "versus-infection-and-animal-poison": { name: "Versus infection and animal poison", bonus: 3 }
+      "versus-infection-and-animal-poison": { name: "Contre les infections et les poisons animaux", bonus: 3 }
     }
   },
   shackles: {
-    name: "Shackles",
+    name: "Chaîne",
     src: "ArM5",
-    page: "110",
-    effects: { "restraint-or-magical-binding": { name: "Restraint or magical binding", bonus: 6 } }
+    page: "173",
+    effects: { "restraint-or-magical-binding": { name: "Entrave ou contrainte magique", bonus: 6 } }
   },
   "sharp-blade": {
-    name: "Sharp blade",
+    name: "Lame affûtée",
     src: "HoH:MC",
-    page: "137",
-    effects: { "shape-leather": { name: "Shape leather", bonus: 2 } }
+    page: "172",
+    effects: { "shape-leather": { name: "Façonner le cuir", bonus: 2 } }
   },
   "shearing-shears": {
-    name: "Shearing shears",
+    name: "Ciseaux de tonte",
     src: "HoH:MC",
-    page: "137",
-    effects: { fleecing: { name: "Fleecing", bonus: 2 } }
+    page: "172",
+    effects: { fleecing: { name: "Tondre", bonus: 2 } }
   },
   shield: {
-    name: "Shield",
+    name: "Bouclier",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: { protection: { name: "Protection", bonus: 5 } }
   },
   "ship-sail": {
-    name: "Ship Sail",
+    name: "Voile de bateau",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "winds-bonus-to-affect": { name: "Winds, bonus to affect", bonus: 4 },
-      sailing: { name: "Sailing", bonus: 7 }
+      "winds-bonus-to-affect": { name: "Affecter les vents", bonus: 4 },
+      sailing: { name: "Navigation", bonus: 7 }
     }
   },
   sickle: {
-    name: "Sickle",
+    name: "Faucille",
     src: "HoH:MC",
-    page: "137",
-    effects: { harvesting: { name: "Harvesting", bonus: 2 } }
+    page: "172",
+    effects: { harvesting: { name: "Moissonner", bonus: 2 } }
   },
   silver: {
-    name: "Silver",
+    name: "Argent",
     src: "TMRE",
     page: "33",
     effects: {
       terram: { name: "Terram", bonus: 1 },
       intellego: { name: "Intellego", bonus: 2 },
-      "protect-spirits": { name: "Protect spirits", bonus: 3 },
-      "lycanthropes-in-general": { name: "Lycanthropes in general", bonus: 5 },
-      "harm-lycanthropes": { name: "Harm lycanthropes", bonus: 10 }
+      "protect-spirits": { name: "Protection contre les esprits", bonus: 3 },
+      "lycanthropes-in-general": { name: "Lycanthropie en général", bonus: 5 },
+      "harm-lycanthropes": { name: "Blesser les lycanthropes", bonus: 10 }
     }
   },
   "small-hammer": {
-    name: "Small hammer",
+    name: "Petit marteau",
     src: "HoH:MC",
-    page: "137",
-    effects: { building: { name: "Building", bonus: 2 } }
+    page: "172",
+    effects: { building: { name: "Construire", bonus: 2 } }
   },
   "snake-tongue": {
-    name: "Snake Tongue",
+    name: "Langue de serpent",
     src: "ArM5",
-    page: "110",
-    effects: { deception: { name: "Deception", bonus: 3 }, lying: { name: "Lying", bonus: 6 } }
+    page: "173",
+    effects: { deception: { name: "Tromperie", bonus: 3 }, lying: { name: "Mensonge", bonus: 6 } }
   },
   snip: {
-    name: "Snip",
+    name: "Cisaille",
     src: "HoH:MC",
-    page: "137",
-    effects: { "shape-metal": { name: "Shape metal", bonus: 2 } }
+    page: "172",
+    effects: { "shape-metal": { name: "Façonner le métal", bonus: 2 } }
   },
   spade: {
-    name: "Spade",
+    name: "Bêche/Pelle",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      "move-earth": { name: "Move earth", bonus: 2 },
-      "move-or-destroy-earth": { name: "Move or destroy earth", bonus: 4 }
+      "move-earth": { name: "Déplacer la terre", bonus: 2 },
+      "move-or-destroy-earth": { name: "Déplacer ou détruire la terre", bonus: 4 }
     }
   },
   "star-ruby": {
-    name: "Star Ruby",
+    name: "Rubis étoilé",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "conjurecontrol-occult-entities": { name: "Conjure/control occult entities", bonus: 5 }
+      "conjurecontrol-occult-entities": { name: "Conjuration ou contrôle des entités occultes", bonus: 5 }
     }
   },
   sulfur: {
-    name: "Sulfur",
+    name: "Souffre",
     src: "HoH:MC",
-    page: "137",
+    page: "173",
     effects: {
-      "preserving-or-decaying": { name: "Preserving or decaying", bonus: 2 },
-      "sowing-discord": { name: "Sowing discord", bonus: 2 },
-      "binding-tongues": { name: "Binding tongues", bonus: 3 },
-      demons: { name: "Demons", bonus: 4 }
+      "preserving-or-decaying": { name: "Préserver ou décomposer", bonus: 2 },
+      "sowing-discord": { name: "Semer la discorde", bonus: 2 },
+      "binding-tongues": { name: "Lier les langues", bonus: 3 },
+      demons: { name: "Démons", bonus: 4 }
     }
   },
   "sun-scarab": {
-    name: "Sun Scarab",
+    name: "Scarabée doré",
     src: "AnM",
     page: "116",
-    effects: { "detect-magic": { name: "Detect magic", bonus: 4 } }
+    effects: { "detect-magic": { name: "Détecter la magie", bonus: 4 } }
   },
   sword: {
-    name: "Sword",
+    name: "Epée",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "block-single-attack": { name: "Block single attack", bonus: 3 },
-      "harm-human-and-animal-bodies": { name: "Harm human and animal bodies", bonus: 4 }
+      "block-single-attack": { name: "Bloquer une unique attaque", bonus: 3 },
+      "harm-human-and-animal-bodies": { name: "Blesser les corps humains et animaux", bonus: 4 }
     }
   },
   tablet: {
-    name: "Tablet",
+    name: "Tablette",
     src: "RoP:I",
     page: "123",
-    effects: { "command-spirits": { name: "Command spirits", bonus: 2 } }
+    effects: { "command-spirits": { name: "Commander aux esprits", bonus: 2 } }
   },
   tin: {
-    name: "Tin",
+    name: "Etain",
     src: "TMRE",
     page: "33",
-    effects: { law: { name: "Law", bonus: 1 }, weakness: { name: "Weakness", bonus: 3 } }
+    effects: { law: { name: "Loi", bonus: 1 }, weakness: { name: "Faiblesse", bonus: 3 } }
   },
   tongs: {
-    name: "Tongs",
+    name: "Pince coupante",
     src: "HoH:MC",
-    page: "137",
-    effects: { "controlling-metal": { name: "Controlling metal", bonus: 2 } }
+    page: "172",
+    effects: { "controlling-metal": { name: "Contrôler le métal", bonus: 2 } }
   },
   topaz: {
-    name: "Topaz",
+    name: "Topaze",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
       courage: { name: "Courage", bonus: 4 },
-      leadership: { name: "Leadership", bonus: 4 },
-      pride: { name: "Pride", bonus: 4 },
-      strength: { name: "Strength", bonus: 4 },
-      "controlling-wild-beasts": { name: "Controlling wild beasts", bonus: 5 }
+      leadership: { name: "Commandement", bonus: 4 },
+      pride: { name: "Fierté", bonus: 4 },
+      strength: { name: "Force", bonus: 4 },
+      "controlling-wild-beasts": { name: "Contrôle des bêtes sauvages", bonus: 5 }
     }
   },
   toy: {
-    name: "Toy",
+    name: "Jouet",
     src: "ArM5",
-    page: "110",
-    effects: { "control-children": { name: "Control children", bonus: 4 } }
+    page: "173",
+    effects: { "control-children": { name: "Contrôle des enfants", bonus: 4 } }
   },
   "tree-struck-by-lightning": {
-    name: "Tree, struck by lightning",
+    name: "Bois foudroyé",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: { auram: { name: "Auram", bonus: 2 } }
   },
   "tree-twisted-in-a-field": {
-    name: "Tree, twisted in a field",
+    name: "Bois tordu dans un champ",
     src: "HoH:MC",
-    page: "137",
+    page: "172",
     effects: {
-      disguise: { name: "Disguise", bonus: 3 },
-      disfigure: { name: "Disfigure", bonus: 4 }
+      disguise: { name: "Déguiser", bonus: 3 },
+      disfigure: { name: "Défiguration", bonus: 4 }
     }
   },
   trowel: {
-    name: "Trowel",
+    name: "Truelle",
     src: "HoH:MC",
-    page: "137",
-    effects: { building: { name: "Building", bonus: 2 } }
+    page: "172",
+    effects: { building: { name: "Construire", bonus: 2 } }
   },
   turquoise: {
     name: "Turquoise",
     src: "HoH:MC",
-    page: "137",
-    effects: { necromancy: { name: "Necromancy", bonus: 4 } }
+    page: "173",
+    effects: { necromancy: { name: "Nécromancie", bonus: 4 } }
   },
   vent: {
-    name: "Vent",
+    name: "Fente",
     src: "HP",
     page: "26",
     effects: {
       "air-passing-through-it-bonus-to-affect": {
-        name: "Air passing through it, bonus to affect",
+        name: "Affecter l'air qui passe au travers",
         bonus: 7
       }
     }
   },
   "violet-amethyst": {
-    name: "Violet Amethyst",
+    name: "Améthyste violette",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "ascendancy-over-masses": { name: "Ascendancy over masses", bonus: 4 },
+      "ascendancy-over-masses": { name: "Ascendant sur les masses", bonus: 4 },
       "versus-drunkenness": {
-        name: "Versus drunkenness",
+        name: "Contre l'ivresse",
         bonus: 7
       }
     }
   },
   volcano: {
-    name: "Volcano",
+    name: "Volcan",
     src: "HP",
     page: "26",
-    effects: { volcanos: { name: "Volcanos", bonus: 5 } }
+    effects: { volcanos: { name: "Volcans", bonus: 5 } }
   },
   walnut: {
-    name: "Walnut",
+    name: "Bois de noyer",
     src: "HoH:MC",
     page: "137",
-    effects: { mind: { name: "Mind", bonus: 4 } }
+    effects: { mind: { name: "Esprit", bonus: 4 } }
   },
   wandstaff: {
-    name: "Wand/Staff",
+    name: "Bâton/Baguette",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "repel-things": { name: "Repel things", bonus: 2 },
-      "project-bolt-or-other-missile": { name: "Project bolt or other missile", bonus: 3 },
-      "control-things-at-a-distance": { name: "Control things at a distance", bonus: 4 },
-      "destroy-things-at-a-distance": { name: "Destroy things at a distance", bonus: 4 }
+      "repel-things": { name: "Repousser les choses", bonus: 2 },
+      "project-bolt-or-other-missile": { name: "Projeter des carreaux ou autres projectiles", bonus: 3 },
+      "control-things-at-a-distance": { name: "Contrôle à distance des choses", bonus: 4 },
+      "destroy-things-at-a-distance": { name: "Destruction des choses à distance", bonus: 4 }
     }
   },
   waterskin: {
-    name: "Waterskin",
+    name: "Outre",
     src: "ArM5",
-    page: "110",
-    effects: { "create-liquid-within": { name: "Create liquid within", bonus: 5 } }
+    page: "173",
+    effects: { "create-liquid-within": { name: "Création d'un contenu liquide", bonus: 5 } }
   },
   whip: {
-    name: "Whip",
+    name: "Fouet",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "control-human-or-animal-body": { name: "Control human or animal body", bonus: 4 },
-      "induce-fear-in-animals": { name: "Induce fear in animals", bonus: 5 }
+      "control-human-or-animal-body": { name: "Contrôle des corps humains ou animals", bonus: 4 },
+      "induce-fear-in-animals": { name: "Faire peur aux animaux", bonus: 5 }
     }
   },
   willow: {
-    name: "Willow",
+    name: "Bois de saule",
     src: "GotF",
     page: "33",
     effects: {
-      "cure-wounds": { name: "Cure wounds", bonus: 1 },
-      "restore-limb": { name: "Restore limb", bonus: 4 }
+      "cure-wounds": { name: "Soigner les blessures", bonus: 1 },
+      "restore-limb": { name: "Restaurer un membre", bonus: 4 }
     }
   },
   "wood-dead": {
-    name: "Wood (dead)",
+    name: "Bois mort",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "living-wood-bonus-to-affect": { name: "Living wood, bonus to affect", bonus: 3 },
-      "dead-wood-bonus-to-affect": { name: "Dead wood, bonus to affect", bonus: 4 }
+      "living-wood-bonus-to-affect": { name: "Affecter le bois vivant", bonus: 3 },
+      "dead-wood-bonus-to-affect": { name: "Affecter le bois mort", bonus: 4 }
     }
   },
   "yellow-sandalwood": {
-    name: "Yellow sandalwood",
+    name: "Bois de santal jaune",
     src: "TMRE",
     page: "33",
-    effects: { "binding-people": { name: "Binding people", bonus: 3 } }
+    effects: { "binding-people": { name: "Lier les gens", bonus: 3 } }
   },
   yew: {
-    name: "Yew",
+    name: "Bois d'if",
     src: "GotF",
     page: "33",
-    effects: { corpses: { name: "Corpses", bonus: 2 }, visions: { name: "Visions", bonus: 2 } }
+    effects: { corpses: { name: "Cadavres", bonus: 2 }, visions: { name: "Visions", bonus: 2 } }
   },
   yoke: {
-    name: "Yoke",
+    name: "Joug",
     src: "ArM5",
-    page: "110",
+    page: "173",
     effects: {
-      "control-wearer": { name: "Control wearer", bonus: 4 },
-      "enhance-strength-of-wearer": { name: "Enhance strength of wearer", bonus: 5 }
+      "control-wearer": { name: "Contrôle du porteur", bonus: 4 },
+      "enhance-strength-of-wearer": { name: "Augmenter la force du porteur", bonus: 5 }
     }
   }
 };
