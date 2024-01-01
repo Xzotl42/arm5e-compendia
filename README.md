@@ -156,7 +156,7 @@ You could edit them by hand, but don't unless you know what you are doing.
 
 #### Packing the file into Foundry VTT databases
 
-Warning: For convenience you can have the repository directly in the modules folder but do run those scripts when a world is open in Foundry!
+Warning: For convenience you can have the repository directly in the modules folder but do NOT run those scripts when a world is open in Foundry!
 
 At that stage, the module is not usable as there is no compendium.
 
