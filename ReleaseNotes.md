@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.2.4
+
+Aspect indexing FR
+
 ## Version 0.2.3
 
 - French version by @orneen

@@ -1,5 +1,6 @@
 import { customizeConfig, customizeOnInit } from "./customize.js";
 import { CompendiaUtils } from "./compendia.js";
+import { indexAspects } from "./parse.js";
 Hooks.once("init", async function () {
   game["arm5eCompendia"] = { CompendiaUtils };
   // try to load localized aspects
@@ -16,6 +17,8 @@ Hooks.once("init", async function () {
       return e1[1].name.localeCompare(e2[1].name);
     })
   );
+
+  // CONFIG.ARM5E.ASPECTS = indexAspects();
 
   await customizeOnInit();
 });
