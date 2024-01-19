@@ -19,15 +19,14 @@
       "changes": [
         {
           "mode": 2,
-          "key": "system.bonuses.skills.entrancement.bonus",
-          "value": "5",
-          "priority": null
+          "key": "system.bonuses.skills.entrancement.xpMod",
+          "value": "5"
         }
       ],
       "flags": {
         "arm5e": {
           "type": [
-            "bonusSupernaturalAbility"
+            "xpBonusSupernaturalAbility"
           ],
           "subtype": [
             "entrancement"
@@ -66,11 +65,11 @@
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
+    "systemVersion": "2.2.3.25",
+    "coreVersion": "11.315",
     "createdTime": 1662235751211,
-    "modifiedTime": 1696141996026,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "modifiedTime": 1705670953219,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
   },
   "folder": "Sym94leLiWXQ3Rh9",
   "_id": "XrU7t1oCkbk8we6a",

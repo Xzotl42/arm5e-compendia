@@ -1,8 +1,12 @@
 # Release notes
 
+## Version 0.2.5
+
+- Fixed wrong active effect for supernatural abilities
+
 ## Version 0.2.4
 
-Aspect indexing FR
+- Aspect indexing FR
 
 ## Version 0.2.3
 
