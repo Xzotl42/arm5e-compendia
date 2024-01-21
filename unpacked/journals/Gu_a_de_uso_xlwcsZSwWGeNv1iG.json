@@ -1,0 +1,358 @@
+{
+  "name": "Guía de uso",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Actores",
+      "type": "text",
+      "_id": "X4B31bvwKOCJefPn",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Se pueden crear diferentes tipos de Actores:</p><h2>Personajes</h2><p>Los miembros tradicionales de una troupe en una saga. Las hojas de personaje deberían resultar familiares a cualquier jugador de Ars Magica, y casi todos los campos son autoexplicativos. Aquí nos centraremos más en las características específicas dentro de Foundry.</p><p>Las hojas y los objetos en propiedad están codificados por color. Los Objetos sin propietario aparecen en negro.</p><h3>Miembros de troupe (azul)</h3><h4><strong>Magus, compañero y grog</strong></h4><h3>Personajes No Jugadores (PNJ) (marrón)</h3><h4><strong>Magus, mundanos o entidad</strong></h4><p></p><h2>Características de la hoja</h2><p>A continuación hay una descripción de las características de la hoja, pestaña por pestaña:</p><ul><li><p>Un magus tiene un pestaña más para las Artes Herméticas y el laboratorio.</p></li><li><p>Una entidad está alineada con un reino, tiene una puntuación de Poder y puede tener poderes. También se ve afectada por las auras.</p></li></ul><h3>Cabecera</h3><h4><strong>Características: </strong>Haz clic en la etiqueta de una característica para abrir una ventana de tirada. Pasa el ratón por encima de su puntuación para ver cuántos puntos de envejecimiento tiene acumulados esa característica; cuanto más puntos de envejecimiento, más grande será la sombra negra que aparecerá alrededor de esa casilla. <strong><br /><br />Campo de alianza field:</strong> Escribe el nombre de una alianza que exista en el mundo de juego para enlazarla con el personaje. El personaje también aparecerá como miembro en la hoja de esa alianza. Haz clic en el icono del clip para abrir la hoja de la alianza. También puedes arrastrar y soltar una hoja de alianza sobre esta hoja para obtener el mismo efecto.</h4><h3>Descripción</h3><p>Algunos campos como el Tamaño, el Aguante y la Carga son solo de lectura porque se calculan y /o solo pueden cambiarse mediante @UUID[.Gm3bQXMrk6WUTBaJ]{Efectos activos}</p><p><strong>Informidad</strong>: WIP, el Crepúsculo y sus efectos aún no están implementados.</p><p><strong>Envejecimiento y Decrepitud</strong>: Haz clic en el icono del reloj de arena para hacer una tirada de envejecimiento (ver @UUID[.x3UWNVGwHqQSh3sF#envejecimiento-(especial)]{Envejecimiento})</p><p><strong>Rasgos de Personalidad:</strong> Haz clic en el icono del dado para hacer una tirada por un Rasgo de Personalidad.</p><p><strong>Reputación</strong>: Haz clic en el icono del dado para hacer una tirada de reputación.</p><p></p><h3>Estadísticas vitales y combate</h3><p></p><p><strong>Fatiga</strong>: Usa los signos + y - para aumentar o reducir tu fatiga, o el boton \"descansar\" para reducirla a cero.<br />Como verás más abajo, es posible ganar o perder niveles de fatiga, con su penalización correspondiente, usando los @UUID[.Gm3bQXMrk6WUTBaJ]{Efectos activos}:</p><img src=\"systems/arm5e/assets/userguide/Fatigue.png\" /><p><strong>Heridas: </strong>Aquí puedes añadir heridas manualmente a un personaje.</p><p>Las penalizaciones por heridas y fatiga se incluyen automáticamente en las tiradas.</p><p></p><p><strong>Sección de combate: </strong>Aquí puedes tirar por iniciativa, ataque y defensa. (Ver @UUID[.yO7HSRsB4M21ykuk#combate]{Combate}</p><ul><li><p>Haz clic en la etiqueta de Aguante para aplicar una cantidad de daño específica. Si hay un combate en marcha, aquí también se calculará automáticamente la cantidad correcta de daño que hay que aguantar. El Tamaño, la vitalidad, la armadura y demás factores también se tienen en cuenta automáticamente para calcular el tipo de herida correcta.</p></li></ul><p><strong>Armas</strong>: Esto es un duplicado de la pestaña de inventario, para facilidad de acceso. Haz clic en la casilla correspondiente para equipar o dejar de equipar un arma.</p><p></p><h3>Habilidades</h3><p>Esta sección muestra todas las habilidades que conoce el personaje. Como se ha mencionado en la introducción, se pueden añadir habilidades preconfiguradas arrastrándolas y soltándolas desde la barra lateral, un compendio o incluso otra hoja de personaje.</p><p></p><img src=\"systems/arm5e/assets/userguide/AbilitiesActor.png\" /><ul><li><p>Haz clic sobre la etiqueta de la habilidad para hacer una tirada por ella.</p></li><li><p>Las habilidades están listadas por orden alfabético dentro de las respectivas categorías de habilidades.</p></li><li><p>Una categoría solo aparecerá si el personaje tiene alguna categoría habilidad en ella. Si haces clic en la categoría, su lista de habilidades correspondiente se comprimirá o se expandirá.</p></li></ul><p></p><h3>Virtudes y Defectos</h3><p>Al igual que con las habilidades, puedes arrastrar y soltar Virtudes y Defectos. La etiqueta aparecerá en <em>cursiva </em>si este tiene un Efecto Activo.</p><p></p><h3>Artes</h3><p>Esta pestaña solo aparece en el caso de magi.</p><img src=\"systems/arm5e/assets/userguide/HermeticArts.png\" /><p>En esta sección se incluye toda la información sobre las Artes :</p><ul><li><p>El símbolo del Arte o su gesto manual (ver @UUID[.pbpZGXKxANcTpr8R#settings]{Ajustes}</p></li><li><p>Su nombre. Haz clic en él para lanzar un hechizo espontáneo.</p></li><li><p>La cantidad de PX invertidos en el Arte y el total necesario para alcanzar el siguiente nivel. Puedes editar manualmente la cantidad.</p></li><li><p>La puntuación, que es de solo lectura pero se puede ajustar con los símbolos de + y -.</p></li><li><p>Las Formas tienen además un número entre paréntesis que indica la Resistencia Mágica para esta Forma (es decir, Parma Magica x5 + puntuación).</p></li><li><p>Las casillas con la puntuación pueden tener las mismas sombras de colores usadas con las habilidades para indicar un efecto activo:</p><ul><li><p>Azul: Maña</p></li><li><p>Rojo: Afinidad</p></li><li><p>Violeta: Maña y Afinidad</p></li><li><p>Azul oscuro grisáceo: Deficiencia</p></li></ul></li></ul><h3>Voz y gestos</h3><p>Aquí puedes configurar los modificadores de lanzamiento por defecto.</p><h3>Totales de magia</h3><p>Una lista de los totales utilizados para diferentes maniobras mágicas en base a las diferentes características y habilidades.</p><ul><li><p>Puedes tirar para hacer un lanzamiento rápido y para apuntar haciendo clic en las etiquetas correspondientes.</p></li></ul><p></p><h3>Hechizos</h3><p>Al igual que las habilidades, una lista de los hechizos que conoce el magus.</p><ul><li><p>Haz clic en un hechizo para lanzarlo.</p></li><li><p>Haciendo clic en la flecha de arriba-abajo aparecerá un menú especial de filtrado:</p></li></ul><img src=\"systems/arm5e/assets/userguide/SpellsFilter.png\" /><ul><li><p>Puedes filtrar por Técnica, Forma y nivel, y luego cerrar el menú. Un leve halo indica que hay un filtro activo en la lista.</p></li><li><p>Los parámetros de filtro se guardan en el navegador para cada usuario y personaje, de manera que dos usuarios diferentes pueden tener su propia vista específica de la misma hoja al mismo tiempo. Siempre que se siga usando la misma pestaña base, las vistas se conservarán.</p></li></ul><h3>Efectos mágicos espontáneos</h3><p>Igual que la lista de hechizos, pero para los efectos espontáneos que se usen con más frecuencia.</p><h3>Habilidades mágicas</h3><ul><li><p>Esta sección es un remanente de la hoja antigua, antes de que se usaran las claves para habilidades. Probablemente será eliminada en el futuro. <strong>No es necesario indicar las habilidades correspondientes aquí a menos que su clave de habilidad no esté configurada debidamente.</strong></p></li><li><p>Aún se puede crear para crear rápidamente las habilidades correspondientes haciendo clic en el icono del engranaje pequeño (usará las que vienen en el compendio del sistema).</p></li></ul><h3>Totales de lanzamiento</h3><p>Esta tabla te permite ver de un vistazo las capacidades mágicas del personaje. Los campos son autoexplicativos.</p><h3>Laboratorio</h3><p><strong>Nota del desarrollador:</strong> Esta pestaña aún está en <em>work in progress</em> y cambiará mucho a medida que se vayan implementando las actividades de laboratorio. Por ahora, se puede usar para guardar la información manualmente, sin más.</p><ul><li><p><strong>Sanctum</strong>: Puedes enlazar un laboratorio con tu personaje, de manera que su Calidad y sus especializaciones de Arte serán incluidas en la subpestaña del Total de Laboratorio de tu personaje.</p></li><li><p><strong>Modificador al ritual de longevidad:</strong> El modificador que recibe el personaje para su ritual de longevidad. (<strong>Nota del desarrollador:</strong> Podría cambiar en el futuro, cuadno esté implementada la creación de rituales de longevidad).</p></li><li><p><strong>Lazos del familiar:</strong> Se aplican en algunos casos (la de bronce para Aguante y Envejecimiento).</p></li></ul><p></p><h3>Totales de laboratorio</h3><p>Similar a los totales de lanzamiento, pero dan una panorámica de las capacidades del personaje en un laboratorio.</p><ul><li><p><strong>Calidad del laboratorio </strong>es solo lectura si el personaje tiene enlazado un sanctum.</p></li><li><p><strong>Aprendiz:</strong> Incluye aquí las características más relevantes del aprendiz que afecten al total de laboratorio.</p></li></ul><h3>Inventario</h3><p>Autoexplicativo, nótese que Mundano y Libro mágico pronto se fusionarán.<br /><br />Puedes equipar o desequipar armas y armaduras haciendo clic en la casilla correspondiente.</p><h3>Diario</h3><ul><li><p>Indica todas las entradas de diario en orden ante-cronológico. (Ver @UUID[.x3UWNVGwHqQSh3sF]{Actividades estacionales}.</p></li><li><p>Las entradas de diario con una actividad que aún no se ha aplicado aparecerán en <em>cursiva.</em></p></li><li><p><strong>PX pendientes: </strong>Este campo muestra la cantidad de PX generados por actividades que aún no han sido aplicados o distribuidos.<em><br /></em></p></li></ul><h3>Efectos</h3><img src=\"systems/arm5e/assets/userguide/ActiveEffects.png\" /><ul><li><p>Ver@UUID[.Gm3bQXMrk6WUTBaJ]{Efectos activos} para más información sobre cada tipo de efecto disponible.</p></li><li><p>Esta pestaña es solo lectura para los jugadores, pero pasar el puntero del ratón sobre el icono dará una descripción de su efecto.</p></li><li><p>Indica los efectos activos sobre el personaje.</p></li><li><p>Haciendo clic sobre el icono + lo desactivará temporalmente hasta que se vuelva a hacer clic en la marca de check.</p></li><li><p>Algunos efectos son solo lectura incluso para el DJ, ya que forman parte de un Objeto propiedad del personaje (por ejemplo, una Virtud). El campo <strong>fuente</strong> indica de dónde procede el efecto.</p></li><li><p><strong>Nota del desarrollador:</strong> En Foundry básico, el nombre de esta característica es Efectos Activos pero pueden estar activos, pasivos o inactivos, lo que resulta un tanto confuso.</p></li></ul><h2>Bestias (marrón)</h2><p>Las bestias tienen su propia hoja de perosnaje pero no es muy diferente a la de personaje. Esto cambiará más adelante.</p><p></p><h2>Estructuras</h2><p>Esta sección es un <em>work in progress.</em></p><h3>Alianza (rojo)</h3><p></p><h3>Laboratorio (verde)</h3><p></p><h2>Especial</h2><p></p><h3>Codex Hermeticum (violeta)</h3><p>Por lo general solo suele haber un Actor de este tipo en un mundo. Se usa para diseñar rápidamente efectos usando la base de datos de guías de efecto.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.X4B31bvwKOCJefPn"
+    },
+    {
+      "sort": 200000,
+      "name": "Objetos",
+      "type": "text",
+      "_id": "5Jj2WDHaVKZPXOBV",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A continuación se indica qué Objetos se pueden crear en el sistema.</p><p><br /><strong>Nota</strong>: Se pueden crear carpetas de Objetos en el menú lateral o en un compendio, que luego se pueden arrastrar y soltar en un Actor (por ejemplo, para crear paquetes de magus o de grogs). Es una forma sencilla de añadir un puñado de habilidades, Virtudes o Defectos a un personaje en la fase de creación.</p><p><strong>Metadatos de juego:</strong> Como no se pueden incluir descripciones por motivos de derechos, la mayoría de tipos de Objeto disponibles en el Compendio del sistema incluyen el nombre del suplemento en el que aparecen y la página con su descripción (en la edición inglesa). Se puede configurar su activación en @UUID[.pbpZGXKxANcTpr8R#settings]{Ajustes}</p><p>Algunos de los tipos de Objeto no tienen sentido con algunos tipos de Actor (por ejemplo, una habilidad en una alianza), en cuyo caso serán debidamente filtrados e ignorados.</p><h2>Habilidades</h2><p>Además del nombre, la especialización y la descripción, se incluyen los siguientes campos. Un \"*\" indica que este campo solo es visible cuando se es propietario.</p><p><br /><strong>Nombre: </strong>Nota sobre el nombre: puede ser cualquier cosa y estar en cualquier lenguaje. Al sistema eso le resulta indiferente (pero ver \"Claves de habilidades\" más abajo).</p><p><strong>Puntuación</strong>: Puede ajustarse bien usando los signos + y -, o bien introduciendo directamente una cantidad de experiencia.</p><p><strong>Característica por defecto:</strong> Elige la característica que se usará por defecto cuando tires por esta habilidad</p><p><strong>Clave de habilidad:</strong> Esta sí es una información <strong>importante</strong> para el sitema. Permite saber a qué habilidad hace referencia, independientemente de su nombre. Esto permite al sistema hacer muchas cosas:</p><ul><li><p>Comprobar si un personaje tiene una habilidad en concreto y su puntuación.</p></li><li><p>Usar automáticamente la puntuación en una habilidad para implementar alguna regla o computar algún valor (como la Parma Magica o la penetración).</p></li><li><p>Saber a qué habilidad recurrir durante una actividad estacional.</p></li><li><p>Y más cosas, a medida que el sistema evolucione.</p></li></ul><p><strong>En resumidas cuentas, si no lo configuras bien, algunas características del sistema no funcionarán.</strong><br /></p><p><strong>Opciones de habilidad:</strong> Este campo está desactivado en la mayoría de los casos, salvo con las habilidades genéricas. Ver más abajo.</p><p><strong>Efectos activos en las habilidades</strong></p><p>Las habilidades afectadas por un efecto activo tienen un halo de color:</p><div class=\"grid-2col\"><div><img src=\"systems/arm5e/assets/userguide/EffectsOnAbilities.png\" /></div><div><p></p><p>Habilidad con Maña</p><p><br /></p><p>Habilidad con Afinidad</p><p><br /></p><p>Habilidad con Afinidad y Maña</p><p><br /></p></div></div><h3>Habilidades genéricas</h3><ul><li><p>Conocimiento de Área, Conocimiento de Organización, Lengua (Muerta o no), Oficio, Manufactura, Conocimiento de Culto Mistérico y algunas otras son habilidades genéricas. Necesitan un parámetro adicional para ser reconocidas por el sistema, porque podría haber una variedad infinita de ellas. De lo contrario, sería imposible diferenciarlas.</p></li><li><p>Cada habilidad genérica con una opción de habilidad diferente es totalmente independiente de las demás. Tiene su propia especialización y su característica por defecto en las tiradas.</p></li><li><p>Las habilidades genéricas de los compendios deberían tener ya fijada su opción (por ejemplo: \"Lengua muerta: Latín\") tiene \"Latín\" como opción de habilidad).</p></li><li><p>La opción de habilidad es especialmente útil cuando quieres añadir una afinidad o una maña. Si tienes varios casos de una habilidad (por ejemplo, Trabajar el cuero y Cristalería, ambos casos de Manufactura), el uso de la opción permitirá que el sistema elija la habilidad correcta.</p></li><li><p><strong>Importante</strong>: Solo se pueden usar caracteres alfanuméricos con la opción de habilidad. El sistema eliminará automáticamente cualquier otro caracter. Usa CamelCase si quieres incluir más de una palabra.</p><p></p></li></ul><h2>Virtudes y Defectos</h2><p></p><p><strong>Tipo</strong>: Algunos Actores solo aceptarán Virtudes y Defectos de ciertos tipos.</p><p><strong>Impacto</strong>: Solo se usa para calcular cuántos puntos se han gastado durante la creación de personaje.</p><h3>Efectos:</h3><p>Las Virtudes y Defectos pueden tener efectos activos que afectarán a su propietario (Ver @UUID[.Gm3bQXMrk6WUTBaJ]{Efectos activos}. Siempre que sea posible, estos ya estarán configurados en el compendio de sistema (por ejemplo, la Virtud Grande ya aumenta el Tamaño en +1).</p><p><strong>Importante: </strong>Debido a una limitación de Foundry básico, no es posible editar efectos activos en un objeto que ya es propiedad de un Actor. Hay que editarlo antes en el menú lateral. Esto es especialmente relevante para efectos que requieren configuración como Afinidad, Maña, etc.</p><p></p><h2>Efecto base</h2><p>El efecto base es el cimiento de cualquier efecto, hechizo o poder mágico. Está pensado para que se use con el @UUID[.X4B31bvwKOCJefPn#codex-hermeticum-(violeta)]{Codex Hermeticum (violeta)}</p><p><strong>Requisitos</strong>:</p><p>Puedes elegir Artes adicionales como requisitos haciendo clic sobre el icono del martillo:</p><img src=\"systems/arm5e/assets/userguide/Requisites.png\" /><p>El <strong>nivel base</strong> es el nivel del hechizo con este efecto y los parámetros mínimos (Alcance: Personal, Duración: Momentánea y Objetivo: Individual). Tiene el mismo número que se puede encontrar en las guías de nivel que aparecen en el manual.</p><h2>Efectos mágicos</h2><p>Un efecto mágico es como un hechizo y se diseña igual. <br />El concepto no existe en las reglas oficiales, pero el sistema lo usa para mantener una lista de los efectos espontáneos más comunes para un personaje. En lugar de diseñarlo cada vez en juego, aquí está listo para su uso.</p><p>Ver <strong>Hechizos</strong>, a continuación, para más detalles sobre los campos.</p><h2>Hechizos</h2><p><strong>Nivel: </strong>El campo de nivel es solo lectura. Se calcula a partir del nivel base y todo el resto de atributos indicados en las reglas.</p><p><strong>Parámetros de hechizos (Alcance, Duración, Objetivo): </strong>Por defecto, la lista de parámetros disponibles está limitada a los que aparecen en el manual básico. Sin embargo, usando el <strong>filtro por suplemento</strong> se puede expandir la lista para que incluya los que aparecen en otros libros (nótese que la mayoría tienen restricciones para su uso). El número entre paréntsis indica la cantidad de magnitudes que aumentará el nivel de base.</p><p><strong>Aplicar focus mágico (propietario): </strong>Esta casilla indica que el efecto de hechizo entra dentro del alcance de cualquier focus mágico que pueda poseer el personaje. El total de lanzamiento se calculará de manera acorde.</p><p><strong>Bonificación y descripción de la bonificación (propietario): </strong>Estos campos se incluyen para cubrir cualquier bonificación específica que no esté cubierta (aún) por el sistema. Ejemplos: especializaciones de habilidades como Artes Liberales para rituales, bonificacoines por talismanes, etc.</p><p><strong>Dominio (propietario): </strong>Al igual que las habilidades, puedes cambiar la puntuación usando el + o el - o introduciendo directamente la experiencia total.</p><p><strong>Habilidades de dominio (propietario): </strong>Ahora mismo es un campo de texto normal, pero en el futuro probablemente cambiará…</p><p><strong>General: </strong>Si se marca, mostrará el campo llamado <strong>Ajuste de nivel.</strong></p><p><strong>Ajuste de nivel: </strong>Este campo permite ajustar ligeramente el nivel de un hechizo general de manera que sea posible tener un valor que no sea múltiplo de cinco.</p><p><strong>Tamaño del objetivo: </strong>Proporciona información sobre el tamaño de un objetivo Individual para cada Forma.</p><p></p><h2>Poderes</h2><p><strong>Forma</strong>: Se usa para la resistencia mágica.</p><p><strong>Coste</strong>: Se usa para calcular la penetración en función de la puntuación de Poder del propietario.</p><h2>Encantamientos</h2><p>Se pueden crear encantamientos a partir de un efecto mágico o un hechizo usando el @UUID[.X4B31bvwKOCJefPn#codex-hermeticum-(violeta)]{Codex Hermeticum (violeta)}.<br />Hay una pestaña adicional con nuevos atributos específicos de esta actividad.</p><p><br /><strong>Nota del desarrollador</strong>: El encantamiento de objetos como actividad aún no está implementado en el sistema, pero la hoja se puede usar para diseñarlos, puesto que el nivel se computa igualmente de manera automática.</p><h2>Entrada de diario</h2><p>Este Objeto puede usarse como una entrada de diario normal para el personaje, pero también para crear @UUID[.x3UWNVGwHqQSh3sF]{Actividades estacionales} durante el tiempo entre sesión y sesión de juego.</p><p><strong>Nota del desarrollador: </strong>La entrada de diario normal sigue existiendo en consideración a la gente que la usó como era en el pasado. Recomendaría usar una entrada de Journal normal de Foundry para los diarios convencionales, pues es mucho más fácil compartirlos entre jugadores o editarlos de manera colectiva.</p><p></p><h2>Libros</h2><p>Tema: Puedes elegir si el libro trata sobre un Arte, una habilidad o un dominio de hechizos.</p><img src=\"systems/arm5e/assets/userguide/book_icons.png\" /><ul><li><p>Junto al campo de \"tema\" hay un icono de un ojo. Si se hace clic se abrirá @UUID[.xpdDPJUjChabvRof#el-scriptorium]{el Scriptorium} con todos los campos del libro configurados. Si el libro es propiedad del Actor, también se preconfigurará el lector.</p></li><li><p>Ver @UUID[.5Jj2WDHaVKZPXOBV#habilidades-genericas]{Habilidades genéricas} para una mayor explicación del campo de opción de habilidad.</p></li></ul><p><strong>Nota del desarrollador: </strong>En breves estarán disponibles los libros que traten más de un tema.</p><p></p><h2>Arma</h2><p><strong>Habilidad:</strong> La habilidad que se aplica al usar el arma.</p><p><strong>Especialización:</strong> Indica que la especialización de la habilidad coincide con el arma.</p><h2><br />Otros</h2><p>Hay más tipos de objetos pero no tienen ningún uso específico más allá de la introducción de datos.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.5Jj2WDHaVKZPXOBV"
+    },
+    {
+      "sort": -100000,
+      "name": "Introducción",
+      "type": "text",
+      "_id": "pbpZGXKxANcTpr8R",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Esta es la largamente esparada guía para usuarios del sistema de Ars Magica para Foundry VTT.</p><p>Este documento no pretende reemplazar el libro de reglas sino que se centra en las características del sistema para ser una ayuda a la hora de preparar tu sesión de juego. </p><p>Estatus: <em>Borrador eterno</em><br /><br /><br />Este documento asume que:</p><ul><li><p>Tienes ciertos conocimientos básicos sobre la quinta edición del juego de rol Ars Magica.</p></li><li><p>Tienes ciertos conocimientos básicos sobre conceptos relativos a Foundry VTT como actores, objetos, escenas y compendios.</p></li><li><p>Sabes moverte por la interfaz de FoundryVTT.</p></li></ul><p></p><h3>Convenciones</h3><p>En esta guía, la palabra <strong>sistema</strong> hace referencia al sistema de Ars Magica 5ª Edición para Foundry VTT. La palabra <strong>base </strong>hace referencia a la API y el motor de Foundry VTT.</p><p>Un <strong>personaje </strong>incluye cualquier actor que corresponda a un personaje o un PNJ.</p><p>La mayoría de hojas de actores y objetos tienen pestañas y subpestañas. Para ayudarte a moverte por las hojas, se usan las siguientes convenciones a lo largo de esta guía: NombreActor.NombrePestaña.NombreSubpestaña</p><img src=\"systems/arm5e/assets/userguide/CharacterTabs.png\" /><p>Por ejemplo: Personaje.Habilidades.VirtudesyDefectos hace referencia a la subpestaña Virtudes y Defectos de la pestaña Habilidades de la hoja de personaje.</p><p><strong>Actor</strong> con A mayúscula <strong>Objeto</strong> con O mayúscula hacen referencia a los conceptos de Foundry VTT.</p><p>Encontrarás una lista de objetos en las listas, a continuación hay una descripción de los iconos:</p><div class=\"flexrow\"><div class=\"flex01\"><img src=\"systems/arm5e/assets/userguide/ListIcons.png\" style=\"width:60px\" /></div><div><ul><li><p>El símbolo \"+\" permite añadir un nuevo objeto a la lista.</p></li><li><p>El pergamino y la pluma permiten editar el objeto.</p></li><li><p>La mano con el símbolo de Perdo permite borrarlo.</p></li></ul></div></div><p><strong>A lo largo de este documento se usa DJ </strong>(Director de Juego) en lugar de narrador pues es así como lo denomina Foundry.</p><h3>Todo es \"arrastra y suelta\"</h3><p>El concepto clave es que todo se puede arrastrar y soltar en cualquier otro sitio. Puede que en algunos casos no tenga ningún efecto, pero no pierdes nada por probarlo.</p><p></p><p>Arrastra y suelta Objetos (Virtudes, Defectos, habilidades, hechizos, equipo) a una hoja de Actor:</p><ul><li><p>De un compendio a una hoja de personaje</p></li><li><p>De una hoja de personaje a otra</p></li><li><p>Del Codex a una hoja de personaje (y viceversa)</p></li><li><p>Un hechizo de un personaje a una alianza creará un texto de laboratorio para dicho hechizo.</p></li><li><p>También puedes arrastrar y soltar una carpeta llena de Objetos.</p></li></ul><p></p><p>Arrastra y suelta Actores sobre otros Actores</p><ul><li><p>Un personaje en una alianza</p></li><li><p>Una alianza en un actor</p></li><li><p>Un laboratorio en un personaje</p></li></ul><p></p><p>Un símbolo de cadena cerca de un campo a menudo indica que es posible enlazar el documento adecuado soltándolo sobre la hoja. Por lo general, al hacer clic en la cadena, se abrirá la hoja del documento enlazado.</p><p></p><h2>Ajustes</h2><p></p><p><strong>Filtro de manuales:</strong> Este ajuste permite reducir el número de opciones disponibles en función de los manuales seleccionados. De esta forma un nuevo usuario no se verá abrumado por la cantidad de objetos con los que pueda no estar familiarizado. (<em>Por el momento solo filtra atributos de hechizos).</em></p><p><strong>Versión de sistema de migración</strong>: Este ajuste permite hacer volver al sistema a una versión más antigua para poder activar una migración a partir de esa versión. Es útil para migrar rápidamente documentos que hayan sido recién importados desde compendios más antiguos.</p><p><strong>Estlo de icono por defecto:</strong> Si se usarán versiones en blanco y negro o a color de los iconos por defecto a la hora de crear documentos. Solo se aplica a documentos nuevos, se guardará una copia con el icono original.</p><p><strong>Estilo de icono para las Artes: </strong>Escoge entre los símbolos de las Artes herméticas o los gestos de las manos para representar las Artes.</p><p><strong>Mostrar información de metajuego:</strong> Permite elegir si se mostrará o no la información del manual y la página a la que pertenece la descripción de un objeto.</p><p><strong>Mostrar detalles de magia de los PNJ: </strong>Durante los enfrentamientos mágicos contra un PNJ, puedes escoger entre:</p><ul><li><p>Indicar solo si ha habido éxito o fracaso</p></li><li><p>Indicar claramente el grado del éxito o fracaso que se ha alcanzado</p></li></ul><p><strong>Dado de estrés divertido:</strong> Muestra una ventana cuando se saca un 1 en una tirada de estrés (Todos, Nadie o solo los jugadores).</p><p><strong>Borrado rápido: </strong>Determina si se pide confirmación o no a la hora de borrar un objeto que sea propiedad tuya.</p><p><strong>Pausa dramática al sacar un 1: </strong>[Integración con Dice so Nice] Si tienes activado el módulo Dice so Nice y el ajuste de \"Dado de estrés divertido\" desactivado, esto añadirá una pausa dramática (ms) tras sacar un 1.</p><p></p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.pbpZGXKxANcTpr8R"
+    },
+    {
+      "sort": 300000,
+      "name": "Efectos activos",
+      "type": "text",
+      "_id": "Gm3bQXMrk6WUTBaJ",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<ul><li><p>Los efectos activos modifican los datos de un documento respecto al estado en el que están almacenados en el sistema. .</p></li><li><p>Pueden añadirse directamente a Actores u Objetos. El efecto de un Objeto también puede configurarse para transmitirlo a su propietario.</p></li><li><p>En Ars Magica, este mecanismo se usa para Virtudes y Defectos. Por ejemplo, la Virtud \"Grande\", al pasar a formar parte de un personaje, aumentará su Tamaño en +1. La mayoría de Virtudes y Defectos de los compendios tienen un efecto activo preconfigurado en los casos en que es aplicable.</p></li><li><p>Los efectos activos pueden desactivarse temporalmente desde la pestaña de efectos (solo DJ). .</p></li><li><p><strong>Nota del desarrollador</strong>: En el futuro, los efectos activos se usarán también para simular los efectos de los hechizos.</p></li><li><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Importante</span></strong></span>: Los efectos activos de un Objeto propiedad de alguien no se pueden editar (es una limitación actual de Foundry)(. Hay que pasarlos antes al menú lateral para editarlos debidamente.</p></li><li><p>La pestaña <strong>Detalles</strong> solo se usa para indicar cómo aparece el efecto en la pestaña de efectos del Actor o el Objeto</p></li><li><p>La pestaña <strong>Efectos,</strong> como su nombre indica, es el lugar donde se configura un efecto.</p></li></ul><img src=\"systems/arm5e/assets/userguide/ActiveEffectConfig.png\" width=\"550\" /><ul><li><p>Haz clic en el signo + para añadir un efecto a la lista.</p></li><li><p>Haz clic en la mano con el gesto de Perdo para eliminar un efecto.</p></li></ul><p><strong>Tipo</strong>: A continuación se indica la lista de tipos disponibles.</p><p><strong>Atributo</strong>: Qué se cambia</p><p><strong>Modo de cambio</strong>: Un efecto puede:</p><ul><li><p><strong>Sumar</strong> el valor al atributo (asigna un valor negativo para que reste).</p></li><li><p><strong>Multiplicar</strong> el atributo por un factor (asigna un valor inferior a 1 para indicar una división)</p></li><li><p><strong>Anular </strong>el atributo en cuestión (por ejemplo, la alineación con un Reino)</p></li><li><p><strong>Estar ahí, </strong>y si el efecto existe, se aplicará (como por ejemplo con Arte Deficiente).</p></li></ul><p><strong>Valor del efecto:</strong> algunos tipos de efecto podrían no tener un valor, o solo una serie de valores específicos.</p><ul><li><p>Algunos efectos podrían necesitar informacíón adicional, que se puede añadir haciendo clic sobre el icono de la rueda (por ejemplo, las habilidades genéricas).</p></li></ul><h2>Tipos de efectos</h2><p>A continuación se indican los tipos de efectos disponibles ahora mismo:</p><h3>Sin efecto</h3><p>Este es un comodín que existe hasta que se elija un nombre mejor. No tiene ningún efecto.</p><h3>Lanzamiento de hechizos</h3><p>La mayoría los usa el sistema de forma interna.</p><ul><li><p>Voz: Bonificación por la fuerza de la voz durante el lanzamiento de un hechizo (ver (see Character.Arts)</p></li><li><p>Gestos: Bonificación por los gestos que se realizan durante el lanzamiento de un hechizo (ver Character.Ars).</p></li><li><p>Aura: Bonificación en función del aura (ver @UUID[.xpdDPJUjChabvRof#aura-management-(gm-only)]{Gestión de auras} <br /></p></li></ul><h3>Alineamiento con Reinos</h3><p>Aquí se indica si el personaje está alineado con algún reino sobrenatural en concreto. Un personaje con este efecto se verá afectado por las auras cuando use la magia o los poderes mágicos.</p><ul><li><p>Todos los magi están alineados con el Reino Mágico por defecto.</p></li><li><p>Algunas Virtudes asignan un alineamiento por defecto (como por ejemplo el Don).</p></li></ul><h3>Actividades estacionales</h3><p>Este efecto afectará a la calidad de la fuente de la actividad estacional correspondiente:</p><ul><li><p><strong>Práctica</strong></p></li><li><p><strong>Entrenamiento</strong></p></li><li><p><strong>Enseñanza</strong>: Término que se usa en las reglas, aunque en realidad hace referencia a los casos en los alguien <em>recibe enseñanza</em></p></li><li><p><strong>Profesor</strong>: La bonificación que recibirá un alumno al que se da clase.</p></li><li><p><strong>Lectura:</strong> Bonifcación a la calidad de un libro</p></li><li><p><strong>Escritura</strong>: Bonificación a la calidad de un libro (aún no implementado).</p></li></ul><h3>Artes</h3><p>Una bonificación directa a un Arte hermética específica (como la que da la Virtud Maña en Arte).</p><h3>Afinidad con Arte</h3><p>Un multiplicador al número total de puntos de experiencia en un Arte.</p><ul><li><p><strong>Nota del desarrollador: </strong>Para simplificar las cosas, el multiplicador se aplica a la cantidad total de PX, no a partir del momento en que se aplicó el efecto (es decir, una afinidad obtenida gracias a un Crepúsculo tendrá una bonificación muy superior).</p></li></ul><h3>Deficiencia en Arte</h3><p>Tal y como indican las reglas, reducen a la mitad los totales de lanzamiento y de laboratorio.</p><ul><li><p>Las Deficiencias por una Técnica y una forma son acumulativas (es decir, los totales se dividen entre 4).</p></li><li><p>Las Deficiencias en múltiples Formas o Técnicas no son acumulativas (en lo que respecta a los efectos con requisitos)</p></li></ul><h3>Vitales</h3><p>Un modificador directo a las siguientes características:</p><ul><li><p><strong>Tamaño </strong>(por ejemplo Grande o Pequeño)</p></li><li><p><strong>Aguante: </strong>(por ejemplo, Duro)</p></li><li><p><strong>Envejecimiento</strong>: para las tiradas de Envejecimiento (por ejemplo, Sangre Feérica)</p></li></ul><h3>Características</h3><p>Un modificador directo a una característica</p><ul><li><p><strong>Nota del desarrollador:</strong> A menos que se suspenda o se elimine el efecto, no se podrá editar la característica afectada mientras siga activo.</p></li></ul><h3>Fatiga</h3><p>Un modificador directo a lo siguiente:</p><ul><li><p><strong>El penalizador total por Fatiga</strong></p></li><li><p><strong>Un penalizador a un nivel de Fatiga específico</strong></p></li><li><p><strong>Un número de niveles de Fatiga específicos</strong> (ver @UUID[.X4B31bvwKOCJefPn#estadisticas-vitales-y-combate]{Estadísticas vitales y combate} para un ejemplo visual).</p></li></ul><h3>Heridas</h3><p>Un modificador directo a lo siguiente:</p><ul><li><p>La penalización total por heridas</p></li><li><p>Una penalización por un tipo de herida específico</p></li></ul><h3>Bonificación a categoría de habilidades</h3><p>Un bonificador directo a la puntuación de una habilidad.</p><ul><li><p>Para las habilidades genéricas, usa el icono de la ruedecita para especificar la opción de habilidad. El nombre debe coincidir exactamente con la opción que aparece en la habilidad genérica en cuestión (ver @UUID[.5Jj2WDHaVKZPXOBV#habilidades-genericas]{Habilidades genéricas} para más explicaciones)</p></li></ul><h3>Afinidad con categoría de habilidades</h3><p>Un multiplicador al total de puntos de experiencia de una habilidad.</p><ul><li><p>Para las habilidades genéricas, usa el icono de la ruedecita para especificar la opción de habilidad. El nombre debe coincidir exactamente con la opción que aparece en la habilidad genérica en cuestión (ver @UUID[.5Jj2WDHaVKZPXOBV#habilidades-genericas]{Habilidades genéricas} para más explicaciones)</p></li></ul><h3>Laboratorio</h3><p>Un modificador directo a un atributo de laboratorio:</p><ul><li><p>Tamaño</p></li><li><p>Calidad General</p></li><li><p>Seguridad</p></li><li><p>Salubridad</p></li><li><p>Refinamiento</p></li><li><p>Mantenimiento</p></li><li><p>Informidad</p></li><li><p>Estética</p></li></ul><p></p><h3>Especialidad de laboratorio</h3><p>Un bonificador directo a los totale sde laboratorio de un Arte en concreto.</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.Gm3bQXMrk6WUTBaJ"
+    },
+    {
+      "sort": 400000,
+      "name": "Actividades estacionales",
+      "type": "text",
+      "_id": "x3UWNVGwHqQSh3sF",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Las actividades estacionales se crean mediante entradas de diario (Personaje &gt; pestaña de Diario)</p><p></p><p>Crea una nueva entrada de diario y elige el tipo de actividad:</p><img src=\"systems/arm5e/assets/userguide/ActivitiesList.png\" /><ul><li><p>Un diario es, como su nombre implica, un texto típico que describe los hechos desde la perspectiva del personaje.</p></li><li><p>Aventura, exposición, práctica, entrenamiento y enseñanza corresponden a esas mismas actividades descritas en el capítulo \"El paso del tiempo\" del maunal básico.</p></li><li><p>Las opciones de aprendizaje, infancia temprana, vida posterior y años después del aprendizaje se incluyen para permitir una creación de personaje más estructurada.</p></li></ul><p>La pestaña de avances tendrá un aspecto parecido a este:</p><img src=\"systems/arm5e/assets/userguide/Adventuring.png\" /><p></p><ul><li><p>La Calidad de la fuente se puede editar o no en función del tipo de actividad.</p></li><li><p>Hay subpestañas para habilidades, Artes y dominios de hechizos, denominados atributosde avance.</p></li><li><p>Haciendo clic en el signo + se añadirá automáticamente a la lista una habilidad/hechizo que ya exista en la hoja de personaje. Luego puedes repartir los puntos de experiencia entre todos los atributos de avance hasta que la suma coincida con la Calidad de la fuente.</p></li><li><p>Cuando hayas terminado, haz clic en el botón \"Aplicar\" para añadir los PX a los atributos seleccionados. En la descripción de esa entrada de diario aparecerá un texto corto descriptivo que incluye los detalles técnicos del avance. La mayoría de campos son solo lectura.</p></li><li><p>Una actividad en la que no se ha aplicado el reparto aparecerá en <em>cursiva</em> en la lista de entradas de diario. La Calidad de la fuente se añadirá al campo de Experiencia pendiente.</p></li><li><p><strong>Importante</strong>: Debes tener la habilidad en cuestión para poder aplicarle experiencia. Opcionalmente, puedes arrastrar y soltar una habilidad en la subpestaña para añadirla al mismo tiempo a tu personaje.</p></li><li><p>Algunos tipos de actividad podrían tener restricciones de manera que no puedas hacer clic en el botón \"Aplicar\". Un mensaje en rojo junto a dicho botón te explicará cuál es la causa del problema.</p></li><li><p>Algunos tipos de actividades pueden tener opciones de bonificaciones con restricciones específicas.</p></li><li><p>Para casi todos los tipos de actividad existen efectos activos que modifican la Calidad de la fuente (ver @UUID[.Gm3bQXMrk6WUTBaJ]{Efectos activos}).</p></li><li><p>Una vez hayas aplicado la experiencia a una actividad, es posible anular sus efectos usando el botón \"Retroceder\" <strong>Importante</strong>: Esta característica está implementada para arreglar erratas y otros errores, pero si han ocurrido demasiados cambios después de aplicar la experiencia podrían surgir porblemas: <br />- Si se ha borrado un atributo de avance<br />- Si el nivel del atributo de avance era demasiado alto será imposible volver a aplicarlo (por ejemplo, en el caso de un libro o de la habilidad de un profesor)</p></li><li><p>Si tienes que retroceder varias actividades, es mejor hacerlo en el orden inverso para evitar problemas.</p></li><li><p>Algunas actividades introducen el concepto de un profesor/entrenador donde la Calidad de la fuente dependerá de las habilidades de ese personaje. Esta información se puede introducir manualmente o bien se puede arrastrar un Actor real a la pestaña del profesor.</p></li><li><p>La ganancia de experiencia de un entrenador no puede superar la habilidad de dicho entrenador. Recibirás un aviso cuando ocurra algo así, y la experiencia sobrante será ignorada.</p></li></ul><p></p><p>A continuación hay un listado de las actividades actuales con sus especificaciones.</p><h3>Adventuras</h3><ul><li><p>Calidad de la fuente editable: sí</p></li><li><p>Atributos de avance disponibles: habilidades, Artes, dominio de hechizos</p></li><li><p>Opciones: no</p></li><li><p>Profesor: no</p></li></ul><h3>Exposición</h3><ul><li><p>Calidad de la fuente editable: sí</p></li><li><p>Atributos de avance disponibles: habilidades, Artes, dominio de hechizos</p></li><li><p>Opciones: no</p></li><li><p>Profesor: no</p></li></ul><h3>Práctica</h3><ul><li><p>Calidad de la fuente editable: no</p></li><li><p>Atributos de avance disponibles: habilidades, dominio de hechizos</p></li><li><p>Opciones: sí. Idiomas, exploración de área, dominio de hechizos, práctica forzosa</p></li><li><p>Profesor: no</p></li></ul><h3>Entrenamiento</h3><ul><li><p>Calidad de la fuente editable: no</p></li><li><p>Atributos de avance disponibles: habilidades, dominio de hechizos</p></li><li><p>Opciones: no</p></li><li><p>Profesor: sí</p></li></ul><h3>Enseñanza</h3><ul><li><p>Calidad de la fuente editable: no</p></li><li><p>Atributos de avance disponibles: habilidades, Artes, dominio de hechizos</p></li><li><p>Opciones: sí. Número de estudiantes</p></li><li><p>Profesor: sí</p></li></ul><h3>Lectura (especial)</h3><p>Esta actividad no se genera de la manera convencional, sino mediante un libro o desde la ventana del Scriptorium (ver @UUID[.xpdDPJUjChabvRof#el-scriptorium]{el Scriptorium}</p><h3>Envejecimiento (especial)</h3><p>Puedes hacer una tirada de envejecimiento haciendo clic en el icono del reloj de arena de la pestaña de Descripción de la hoja de personaje.</p><ul><li><p>La edad del personaje, las condiciones de vida de la alianza y la bonificación por el ritual de longevidad se incluyen automáticamente en la tirada.</p></li><li><p>El resultado será aplicado automáticamente al personaje (edad, edad aparente, puntos de envejecimiento y decrepitud) y se creará una entrada de diario.</p></li><li><p>Si tienes mala suerte o eres muy viejo, podrías sufrir una crisis de envejecimiento. El personaje no podrá hacer ninguna tirada que no sea de característica hasta que no haya resuelto la crisis.</p></li><li><p>Para resolver una crisis, haz clic en el icono de la calavera que ha aparecido junto al nombre del personaje.</p></li><li><p>Es posible hacer retroceder los efectos de una tirada de envejecimiento, pero se recomiendo hacerlo de inmediato y en el orden inverso o bien el sistema podría no resolverlo de la manera correcta.</p></li></ul><p><strong>Nota del desarrollador: </strong>Este proceso en dos pasos está pensado para que el personaje pueda intervenir y tirar por Medicina o lanzar un hechizo de Creo Corpus.</p><h3><span style=\"font-family:bookAntiqua\">Otros</span></h3><p><span style=\"font-family:bookAntiqua\">Aprendizaje, infancia temprana, vida posterior y años después del aprendizaje.</span></p><ul><li><p>Calidad de la fuente editable: sí</p></li><li><p>Atributos de avance disponibles: habilidades, Artes, dominio de hechizos</p></li><li><p>Opciones: no</p></li><li><p>Profesor: no</p></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.n6NvbzYtCVl34MvZ.JournalEntryPage.x3UWNVGwHqQSh3sF"
+        }
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.x3UWNVGwHqQSh3sF"
+    },
+    {
+      "sort": 500000,
+      "name": "FAQ",
+      "type": "text",
+      "_id": "NALapvtAe2hIt2jh",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div><div><h1>General</h1></div><p></p><div><h2>Recibo un aviso al crear un nuevo mundo: \"No tienes un Actor del tipo 'magicCodex' en tu mundo, habrá algunas funcionalidades desactivadas hasta que lo tengas. Puedes importar el que aparece en el compendio de magi\".</h2></div><p>Nada de lo que preocuparse. Simplemente sigue las instrucciones e importa el Codex del compendio de magi o crear uno desde cero. El mensaje desaparecerá la próxima vez que cargues el mundo.</p><p></p><div><h2>No puedo editar una característica de un personaje.</h2></div><p>Es probable que tengas un efecto activo que modifica ese característica. probable you have an active effect giving a modifier to this characteristic. Solución alternativa: En la pestaña \"Efectos\", desactiva el efecto en cuestión mientras tengas que editar la característica. </p><p></p><div><h1>Habilidades</h1></div><p></p><h2>¿Para qué son los campos \"Clave de habilidad\" y \"Opción de habilidad\"?</h2><p>El campo de clave de habilidad se usa para que el sistema sepa a qué habilidad corresponde cada una. De esta forma podrás ponerle el nombre que quieras y en el idioma que prefieras. El campo de opción es solo lectura en casi todos los casos, pero se usa para habilidades genéricas (como Conocimiento de Área, Manufactura, lenguas,... ) para distinguirlas. Por ejemplo, un personaje podría conocer Trabajar el Cuero y Forjar, ambas habilidades de Manufactura, y el campo de opción le permitirá diferenciar ambas. </p><div><p>Esto resulta útil cuando necesitas decirle al sistema a qué habilidad te refieres. Por ejemplo, con las Afinidades o las Mañas.</p></div><p><br /></p><div><h1>Diario</h1></div><p></p><div><h2>No puedo elegir la habilidad a la que quiero asignar experiencia.</h2></div><p>Un personaje debe tener una habilidad para poder asignarle experiencia. Añade la habilidad desde un compendio y asígnale una puntuación de 0, o bien suéltala en la pestaña de habilidades de la hoja de diario en cuestión (esto último no funciona con entrenamiento ni enseñanza).</p><p></p><div><h1>Tiradas</h1></div><h2>¿Cómo sé cómo se ha calculado el total de una tirada?</h2><div><p>Hay un desplegable con todos los cálculos en el mensaje de chat, puedes hacer clic en \"Detalles\" para verlo.</p></div><p></p><h2>¿Cómo uso los puntos de Confianza?</h2><div><p>Hay un botoncito en la esquina inferior derecha del mensaje de chat que te permitirá usarlos si a tu personajes le quedan puntos.</p></div><p></p><div><h1>Combate</h1></div><p></p><h2>¿Cómo aplico el daño a un personaje?</h2><div><p>Ha clic en la etiqueta de \"Aguante\" en la pestaña de combate de la hoja de personaje e introduce un valor. Si hay un combate en marcha, la ventana calculará automáticamente la cantidad de daño que hay que aguantar. El Tamaño también se tiene en cuenta.</p></div></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.NALapvtAe2hIt2jh"
+    },
+    {
+      "sort": 250000,
+      "name": "Uso en juego",
+      "type": "text",
+      "_id": "yO7HSRsB4M21ykuk",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Tiradas</h2><p>Se puede realizar una tirada haciendo clic en el Objeto correspondiente</p><ul><li><p>Haz clic en la etiqueta de una característica para hacer una tirada solo de una característica</p></li><li><p>Haz clic en el nombre de un habilidad en la hoja de personaje</p></li><li><p>Haz clic en la etiqueta de un Arte para lanzar un hechizo espontáneo</p></li><li><p>Haz clic en el nombre de un hechizo para lanzarlo</p></li><li><p>Haz clic en el icono de dado junto a una etiqueta para tirar por ella (por ejemplo ataque, defensa, Rasgo de Personalidad, etc.)</p></li></ul><p>El tipo de tirada (pública, privada, etc.) indicada en la barra del chat es aplicable a todas las tiradas mencionadas.</p><p><strong>Nota del desarrollador:</strong> Aún no hay una forma de lanzar simplemente un dado de estrés desde la hoja de personaje (hay quien usa un Rasgo de Personalidad creado ex profeso para ello). Se incluye una macro para hacerlo, disponible en los compendios del sistema.</p><p><strong>Experimental</strong>: usa \"/r Xds\" para tirar un dado que explote. X es el número de dados de pifia.</p><ul><li><p>Todas las tiradas indicadas anteriormente pueden arrastrarse y soltarse en la barra de macros para poder acceder rápidamente a ellas.</p></li><li><p>Además, también se pueden poner armas en la barra de macros para hacer una tirada de combate.</p></li><li><p>También hay un campo de <strong>modificador </strong>en todas las tiradas para incluir los efectos de cualquier regla que no esté implementada aún o cualquier modificador especial asignado por el DJ.</p></li></ul><h3>Tiradas de característica y de habilidad</h3><img src=\"systems/arm5e/assets/userguide/RollAbility.png\" /><ul><li><p>Esta ventana es igual tanto para características como para habilidades-.Los campos se rellenan automáticamente basándose en el objeto en el que se ha hecho clic originalmente.</p><ul><li><p>Etiqueta de característica: Hay que elegir la característica correspondiente y marcar \"Ninguna\" en habilidad.</p></li><li><p>Nombre de habilidad: La característica pasa a ser la elegida por defecto indicada en la habilidad.</p></li></ul></li><li><p>El campo <strong>especialización</strong> permite indicar si la especialización de la habilidad se aplica a la tirada o no.</p></li><li><p>Siempre es posible cambiar los valores antes de tirar.</p></li></ul><h3>Tiradas de magia</h3><ul><li><p>Haz clic en un hechizo o efecto mágico para lanzarlo.</p></li><li><p>Para la magia espontánea general, haz clic en la etiqueta del Arte.</p></li></ul><p></p><img src=\"systems/arm5e/assets/userguide/RollSpontMagic.png\" /><ul><li><p>El campo \"aplicar focus mágico\" indicará por defecto lo que se indica en el hechizo original, pero puede activarse si hace falta para el caso de la magia espontánea.</p></li></ul><p>Las tiradas de magia tienen dos secciones adicoinales que se pueden expandir o contraer según sea necesario:</p><p>La sección de bonificaciones indicará cualquier modificador especial que vaya a aplicarse a la tirada:</p><ul><li><p>El aura, si hay alguna</p></li><li><p>Los modificadores por voz y gestos</p></li><li><p>Los bonificadores especiales indicados en la hoja del hechizo</p></li><li><p>Cualquier bonificador especial como el de Circunstancias Especiales aparecerá aquí en el futuro</p></li></ul><img src=\"systems/arm5e/assets/userguide/SpellBonuses.png\" /><p>Las opciones de penetración afectarán al total final de lanzamiento si el hechizo se lanza con éxito.</p><ul><li><p>Dominio en penetración incluye el efecto correspondiente por dominio del hechizo si está presente en la hoja</p></li></ul><img src=\"systems/arm5e/assets/userguide/PenetrationOptions.png\" /><p></p><h3>Tiradas de combate</h3><p></p><p>Se puede tirar todo desde la pestaña Descripción, subpestaña Vitales y combate:</p><img src=\"systems/arm5e/assets/userguide/CombatStats.png\" /><p>Ver @UUID[.yO7HSRsB4M21ykuk#combate]{Combate} más adelante para saber más detalles.</p><p>También es posible hacer una tirada de ataque soltando un arma en la barra de macros.</p><p></p><h3>Otras tiradas</h3><p>La mayoría de tiradas se pueden ejecutar haciendo clic sobre la etiqueta correspondiente.</p><h2>Magia</h2><p>Una vez lances un hechizo, uses la magia espontánea o utilices un poder, el resultado de la tirada aparecerá en el chat con la siguiente información:<br /></p><img src=\"systems/arm5e/assets/userguide/SpellChatResult.png\" /><ul><li><p>El icono de la ficha. Si se hace clic en él abrirá la hoja correspondiente.</p></li><li><p>El nombre del hechizo/efecto mágico y su nivel</p></li><li><p>El icono del hechizo, si lo tiene</p></li><li><p>Los detalles y modificadores de la tirada, incluido el cálculo de la penetración</p></li><li><p>La fórmula de la tirada</p></li><li><p>El total de lanzamiento sin penetración</p></li><li><p>El total de penetracíon entre paréntesis</p></li><li><p>El pequeño icono en la esquina inferior derecha permite gastar un punto de Confianza si existe esa posibilidad</p></li></ul><p>Si se lanza un hechizo cuando se tiene seleccionado un objetivo, aparecerá un mensaje adicional en el chat indicando si el hechizo ha logrado superar la resistencia mágica:</p><img src=\"systems/arm5e/assets/userguide/MagicContest.png\" /><p>Nótese que con los @UUID[.pbpZGXKxANcTpr8R#settings]{Ajustes} específicos, un jugador solo verá si el hechizo ha tenido éxito o no, y el resto de detalles solo estarán a la vista del DJ.</p><p></p><h2>Combate</h2><p></p><p><strong>Nota del desarrollador</strong>: Dado que el combate en Ars Magica suele ser rápido y mortal, por ahora no se ha integrado plenamente en la estructura de Foundry. Ahora mismo se puede tirar por iniciativa para determinar el orden de actuación, pero es una versión simplificada de las reglas (es decir, no se hace una nueva tirada en caso de empate).</p><ul><li><p>En las tiradas de <strong>Ataque</strong> o <strong>Defensa</strong>, es posible realizar un sobreesfuerzo (es decir, gastar un nivel de fatiga) para doblar la puntuación de la habilidad.</p></li><li><p>La tirada de <strong>daño</strong> incluirá automáticamente la ventaja basada en los mensajes anteriores mensajes de ataque y defensa del chat. Por ese motivo, el DJ deberá asegurarse de que los jugadores solo tiren cuando sea su turno, pues de lo contrario habrá que computar la ventaja de forma \"manual\".</p></li><li><p>La tirada de <strong>Aguante</strong> recuperará el resultado de la última tirada de <strong>Daño </strong>para aplicarla al objetivo, o bien usará un valor de 0 si no encuentra ninguna.</p><ul><li><p>El Tamaño se tiene en cuenta a la hora de calcular la gravedad de las heridas.</p></li><li><p>De esta forma se puede resolver también el daño procedente de factores ajenos al combate (como fuego, caídas, etc.).</p></li><li><p><strong>Nota del desarrollador: </strong>El daño por hechizos se aplicará de forma diferente en el futuro. Además, pronto habrá un campo adicional para seleccionar una Forma hermética para mejorar la resistencia.</p></li></ul></li></ul><p></p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.n6NvbzYtCVl34MvZ.JournalEntryPage.yO7HSRsB4M21ykuk"
+        }
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.yO7HSRsB4M21ykuk"
+    },
+    {
+      "sort": 600000,
+      "name": "Historial de cambios",
+      "type": "text",
+      "_id": "XpBuLiu6JhH4tI5C",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Esta página está dirigida a traductores, para que sepan qué parte revisar o actualizar con las nuevas versiones del sistema.</p><p></p><h2>Versión 2.0.3 (Jerbiton)</h2><ul><li><p>Primera versión de este documento.</p></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.XpBuLiu6JhH4tI5C"
+    },
+    {
+      "sort": 450000,
+      "name": "Menú del lienzo",
+      "type": "text",
+      "_id": "xpdDPJUjChabvRof",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"flexrow\"><div class=\"flex02\" style=\"margin:5px\"><img src=\"systems/arm5e/assets/userguide/CanvasMenu.png\" width=\"200\" /><p></p></div><div><p>El sistema de Ars Magica tiene sus propias herramientas disponibles en el menú de la parte izquierda del lienzo.</p><ul><li><p>La herramienta de gestión de auras</p></li><li><p>Un botón para despejar rápidamente el aura de la escena actual</p></li><li><p>El Astrolabium, para gestionar todo lo relacionado con el paso del tiempo</p></li><li><p>El Scriptorium, para gestionar todo lo relacionado con los libros</p></li><li><p>Más herramientas futuras, según sean necesarias</p></li></ul><p>A continuación se explican las herramientas mencionadas.</p></div></div><h2>Gestión de auras (solo DJ)</h2><p>Esta ventana permite definir el aura de una escena en concreto. El tipo de aura afectará al uso de magia, las habilidades sobrenaturales (en un futuro cercano) y los poderes tal y como se indica en la tabla de interacción de reinos.</p><ul><li><p>Para que se vea afectado por un aura, un personaje debe ser un magus, un PNJ entidad con un Poder alineado con un reino específico o tener un efecto activo específico de un reino (ver @UUID[.Gm3bQXMrk6WUTBaJ]{Efectos activos})</p></li><li><p><strong>Importante: </strong>Un aura solo es efectiva en la escena actual <em>activa</em>. Puedes tener múltiples escenas con su propia aura, pero solo la escena activa será efectiva. </p></li><li><p><strong>Limitación: </strong> Ahora mismo no es posible tener múltiples habilidades sobrenaturales alineadas con diferentes reinos. </p></li></ul><p></p><h2>El Astrolabium (solo DJ)</h2><p>Gestiona todo lo relacionado con el paso del tiempo.<strong><br /></strong></p><p><strong>Nota del desarrollador: </strong>Esta ventana sigue siendo un tanto tosca y su diseño es provisional, pero necesitaba implementar algún tipo de herramienta preliminar para esto. Será actualizada en el futuro, cuando las cuestiones relativas al paso del tiempo, como los efectos de los hechizos, estén implementadas. En el futuro también es posible que haya algún tipo de integración básica con el módulo \"Simple Calendar\". </p><ul><li><p><strong>Establecer fecha del mundo</strong> asignará la fecha seleccionada como fecha actual del mundo. Todos los nuevos actores tendrán esa fecha en el momento de su creación. </p></li><li><p><strong>Actualizar actores: </strong>Actualiza la fecha de todos los actores para que coincida con la fecha actual del mundo.</p></li></ul><p></p><h2>El Scriptorium</h2><p>Desde esta ventana se gestiona todo lo relacionado con los libros. </p><p><strong>Nota del desarrollador: </strong>Por ahora está implementado como solo lectura, pero en el futuro habrá pestañas para escribir y fabricar libros. </p><img src=\"systems/arm5e/assets/userguide/Scriptorium1.png\" /><p>Las instrucciones son bastante sencillas: arrastra al personaje que vaya a leer el libro, y opcionalmente puedes arrastrar también un libro para que se rellenen automáticamente todos los campos, o bien puedes crear un libro virtual <em>ad hoc</em>.</p><ul><li><p>Tras soltar el libro, los campos pasan a ser solo lectura. Si querías usar el libro como plantilla, puedes desvincularlo haciendo clic en el icono del clip y volver a editarlo. </p></li><li><p>Puedes resetear el lector haciendo clic en el icono del clip. </p></li><li><p>Una forma más rápida y conveniente de abrir el Scriptorium es desde la propia hoja del libro, haciendo clic en el icono del ojo. El libro será elegido automáticamente y si es propiedad de un personaje, este será asignado como lector por defecto. </p></li><li><p>Se hacen una serie de comprobaciones antes para comprobar que el personaje es capaz de leer el libro:</p><ul><li><p>El \"lector\" debe saber leer (debe tener Artes Liberales a 1+)</p></li><li><p>Debe conocer un idioma a nivel 4. (Es demasiado complejo/imposible para el sistema comprobar si es el lenguaje adecuado. Sujeto a la aprobación del DJ).</p></li><li><p>El Nivel del libro (en caso de una summa) debe ser superior a la habilidad del lector en el tema en cuestión.</p></li></ul></li><li><p>La ganancia por Calidad estará limitada por el nivel del libro. Aparecerá un aviso indicando que cualquier experiencia sobrante será ignorada.</p></li></ul><img src=\"systems/arm5e/assets/userguide/Scriptorium2.png\" /><ul><li><p>Para dominios de hechizos y habilidades genéricas, es complicado lograr que coincida exactamente con el nombre del hechizo (incluidas traducciones) o la opción de habilidad. Se ofrece la opción de elegir el atributo correcto bajo la aprobación del DJ.</p></li><li><p>Una vez todo está debidamente configurado, se activará el botón \"Crear actividad\" y se podrá crear una nueva entrada de diario, que a su vez puede ser aplicada (y anulada si fuese necesario). (Ver @UUID[.x3UWNVGwHqQSh3sF]{Actividades estacionales}).</p></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "core": {
+          "sourceId": "JournalEntry.n6NvbzYtCVl34MvZ.JournalEntryPage.xpdDPJUjChabvRof"
+        }
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!xlwcsZSwWGeNv1iG.xpdDPJUjChabvRof"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "ars",
+      "system": "arm5e",
+      "coreVersion": "10.288",
+      "systemVersion": "2.0.3.13"
+    }
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.4.0",
+    "coreVersion": "11.315",
+    "createdTime": 1664630413050,
+    "modifiedTime": 1705680599300,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "ownership": {
+    "default": 0,
+    "vqjAB1GXZwFSsktg": 3,
+    "ErQ613O32LNYb71L": 3
+  },
+  "folder": null,
+  "_id": "xlwcsZSwWGeNv1iG",
+  "sort": 0,
+  "_key": "!journal!xlwcsZSwWGeNv1iG"
+}

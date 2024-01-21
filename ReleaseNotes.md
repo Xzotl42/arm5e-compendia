@@ -1,5 +1,10 @@
 # Release notes
 
+## Version 0.2.6
+
+- Added templates for all generic abilities
+- Added Spanish userguide
+
 ## Version 0.2.5
 
 - Fixed wrong active effect for supernatural abilities
