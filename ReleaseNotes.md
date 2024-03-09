@@ -2,6 +2,8 @@
 
 ## Version 0.3.0
 
+- New ref compendia module generator
+- [technical]
 - New macros to open canvas applications via the hotbar (Scriptorium, Astrolabium, ...)
 
 ## Version 0.2.6

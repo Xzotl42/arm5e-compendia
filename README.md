@@ -34,13 +34,14 @@ The use and inclusion of the logo, icon and art elements, as well as the use of 
 Find below the different ways to use the module in incremental technical complexity. I recommand at least the "nobility" one for long term use.
 
 Once you have done one of the methods below, go to the system configuration and select your new compendium:
+
 ![Reference compendium configuration](./assets/compendiaRefCfg.webp)
 
 ### Usage for the mundane
 
 The module is now a mandatory dependency to the system, it should be installed automatically.
 
-If for some reason it wasn't installed, you can install it as another module in Foundry VTT using the manifest link below, it will contain all the compendia the system has/use to have.
+If for some reason it wasn't installed, you can install it as another module in Foundry VTT using the manifest link below, it will contain all the compendia the system has/used to have.
 
 Manifest link
 : <https://github.com/Xzotl42/arm5e-compendia/releases/latest/download/module.json>
@@ -61,28 +62,35 @@ Manifest link
 
 ### Usage for the nobility
 
-This will demand a little work on your side, but it should be only once. Support and data migration will be provided "in app" for this one.
+This will demand a little work on your side, but it should only be done once. Support and data migration will be provided "in app" for this one.
 
 - Install the module using the manifest link above (update: it should be done automatically now)
 - As a GM run the macro named "CreateCompendiaModule"
+
   ![Macro compendium](./assets/ModuleGenerator.webp)
+
 - Fill the fields of the dialog:
+
   ![Generator dialog](./assets/GeneratorDialog.webp)
-- Click the generation button
+
+- Click the "Generate button
 - **Important step : quit the Foundry app or stop the Foundry server**
 - Go in the Foundry VTT data folder
 - In the module subfolder, you will find the arm5e-compendia subfolder and your newly created module skeleton.
-- COPY (ie: not move) the following folders from arm5e-compendia to the new module:
+- COPY (ie: not move) the following folders from arm5e-compendia to the new module.
 
-  - assets
-  - css
-  - lang
-  - packs
-  - scripts
-  - templates
-    ![New module content](./assets/newModuleContent.webp)
+It should look like this:
 
-- Start Foundry VTT, your world and enable your new personal module. That's it!
+- assets
+- css
+- lang
+- packs
+- scripts
+- templates
+
+![New module content](./assets/newModuleContent.webp)
+
+- Start Foundry VTT, your world, activate your new personal module and you are done!
 
 #### The good
 

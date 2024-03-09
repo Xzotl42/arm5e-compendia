@@ -1,4 +1,6 @@
-import { CompendiaCreation, CompendiaUi } from "./toolsUi.js";
+import { MergeTool } from "/modules/arm5e-compendia/scripts/MergeTool.js";
+import { ModuleGenerator } from "/modules/arm5e-compendia/scripts/ModuleGenerator.js";
+import { SanitizationTool } from "/modules/arm5e-compendia/scripts/SanitizationTool.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(compendium) {
@@ -31,7 +33,16 @@ export class CompendiaUtils {
       console.log("Only GMs can do this operation");
       return;
     }
-    const ui = new CompendiaUi({}, {});
+    const ui = new MergeTool({}, {});
+    const res = await ui.render(true);
+  }
+
+  static async showSanitizationTool() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new SanitizationTool({}, {});
     const res = await ui.render(true);
   }
 
@@ -40,7 +51,7 @@ export class CompendiaUtils {
       console.log("Only GMs can do this operation");
       return;
     }
-    const ui = new CompendiaCreation({}, {});
+    const ui = new ModuleGenerator({}, {});
     const res = await ui.render(true);
   }
 

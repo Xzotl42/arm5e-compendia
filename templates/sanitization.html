@@ -1,0 +1,14 @@
+<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off" style="background-size: cover;">
+  {{> "systems/arm5e/templates/roll/parts/roll-header.html" header="Inputs" }}
+  <div class="marginsides32">
+    <div>
+      <label>{{localize "Output folder"}} <i class="fa-regular fa-circle-question"
+          data-tooltip="Name of the folder where your sanitized documents will be created"></i></label>
+      <input type="text" name="outputFolder" value="{{outputFolder}}" title="{{outputFolder}}" />
+    </div>
+    <div class="drop-box drop-document" data-drop="document">
+      <label>Drop your documents or folder of documents here</label>
+    </div>
+  </div>
+  {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}
+</form>
