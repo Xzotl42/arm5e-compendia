@@ -1,17 +1,17 @@
 // import { once } from "events";
-// import { createReadStream } from "fs";
+// import { createReadStream } from "fs.js";
 // import { createInterface } from "readline";
 
-function slugify(str) {
-  return String(str)
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "") // remove all accents.
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9 -]/g, "") // remove non-alphanumeric characters
-    .replace(/\s+/g, "-") // replace spaces with hyphens
-    .replace(/-+/g, "-"); // remove consecutive hyphens
-}
+// export function slugify(str) {
+//   return String(str)
+//     .normalize("NFKD")
+//     .replace(/[\u0300-\u036f]/g, "") // remove all accents.
+//     .trim()
+//     .toLowerCase()
+//     .replace(/[^a-z0-9 -]/g, "") // remove non-alphanumeric characters
+//     .replace(/\s+/g, "-") // replace spaces with hyphens
+//     .replace(/-+/g, "-"); // remove consecutive hyphens
+// }
 
 // async function processLineByLine() {
 //   try {

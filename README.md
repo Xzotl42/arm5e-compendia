@@ -33,11 +33,14 @@ The use and inclusion of the logo, icon and art elements, as well as the use of 
 
 Find below the different ways to use the module in incremental technical complexity. I recommand at least the "nobility" one for long term use.
 
+Once you have done one of the methods below, go to the system configuration and select your new compendium:
+![Reference compendium configuration](./assets/compendiaRefCfg.webp)
+
 ### Usage for the mundane
 
-_Note_ : This way is now obsolete as the module is now a mandatory dependency to the system, it will be installed automatically.
+The module is now a mandatory dependency to the system, it should be installed automatically.
 
-Install it as another module in Foundry VTT using the manifest link below, it will contain all the compendia the system has/use to have.
+If for some reason it wasn't installed, you can install it as another module in Foundry VTT using the manifest link below, it will contain all the compendia the system has/use to have.
 
 Manifest link
 : <https://github.com/Xzotl42/arm5e-compendia/releases/latest/download/module.json>
@@ -61,56 +64,23 @@ Manifest link
 This will demand a little work on your side, but it should be only once. Support and data migration will be provided "in app" for this one.
 
 - Install the module using the manifest link above (update: it should be done automatically now)
+- As a GM run the macro named "CreateCompendiaModule"
+  ![Macro compendium](./assets/ModuleGenerator.webp)
+- Fill the fields of the dialog:
+  ![Generator dialog](./assets/GeneratorDialog.webp)
+- Click the generation button
 - **Important step : quit the Foundry app or stop the Foundry server**
 - Go in the Foundry VTT data folder
-- In Data/modules, make a copy of the "arm5e-compendia" folder and name it as you want. (all lowercase, no space or special character allowed) Examples: "arm5e-spanish-compendia","my-arsmagica-compendia"
-- Edit the module.json file inside it in your preferred text editor (notepad++,nano,notepad but not Word!) :
-  (In this example, the folder was renamed "my-arsmagica-compendia")
+- In the module subfolder, you will find the arm5e-compendia subfolder and your newly created module skeleton.
+- COPY (ie: not move) the following folders from arm5e-compendia to the new module:
 
-```json
-  "id": "my-arsmagica-compendia",
-  "title": "Name of the module as you want it to appear in FoundryVTT",
-```
-
-- Add yourself as an author if you wish
-
-```json
-"authors": [
-    {
-      "name": "Xzotl",
-      "discord": "Xzotl",
-      "url": "https://github.com/Xzotl42/arm5e-compendia",
-      "contributions" : "module author"
-    },
-    {
-      "name": "Me",
-      "email": "myemail@redcap.com",
-      "contribution": "I did it!"
-    }
-  ],
-```
-
-- Unless you plan to go the "magus way" (see below), you can delete the line "manifest" and "download"
-
-- The list of compendia in the module:
-  - Edit only the "label" field unless you know what you are doing.
-  - It is recommended to add a specific prefix to all your labels. It is then easy to filter in Foundry VTT.
-
-```json
-"packs": [
-    {
-      "name": "abilities",
-      "label": "My prefix - my abilities",
-      "path": "packs/abilities.db",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "arm5e",
-      "flags": {}
-    },
-```
+  - assets
+  - css
+  - lang
+  - packs
+  - scripts
+  - templates
+    ![New module content](./assets/newModuleContent.webp)
 
 - Start Foundry VTT, your world and enable your new personal module. That's it!
 

@@ -1,4 +1,4 @@
-import { CompendiaUi } from "./toolsUi.js";
+import { CompendiaCreation, CompendiaUi } from "./toolsUi.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(compendium) {
@@ -26,8 +26,21 @@ export class CompendiaUtils {
     }
   }
 
-  static async showUI() {
+  static async showMergeDialog() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
     const ui = new CompendiaUi({}, {});
+    const res = await ui.render(true);
+  }
+
+  static async showGeneratorDialog() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new CompendiaCreation({}, {});
     const res = await ui.render(true);
   }
 
@@ -152,14 +165,8 @@ export class CompendiaUtils {
     }
   }
 
-  static slugify(str) {
-    return String(str)
-      .normalize("NFKD")
-      .replace(/[\u0300-\u036f]/g, "") // remove all accents.
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9 -]/g, "") // remove non-alphanumeric characters
-      .replace(/\s+/g, "-") // replace spaces with hyphens
-      .replace(/-+/g, "-"); // remove consecutive hyphens
+  static CloneReferenceCompendia(name, description, author, prefix = "My -") {
+    // first check if the name already exists
+    // if (prefix)
   }
 }

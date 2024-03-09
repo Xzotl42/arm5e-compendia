@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.3.0
+
+- New macros to open canvas applications via the hotbar (Scriptorium, Astrolabium, ...)
+
 ## Version 0.2.6
 
 - Added templates for all generic abilities
