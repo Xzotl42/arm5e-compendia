@@ -1,9 +1,13 @@
 # Release notes
 
+## Version 0.3.1
+
+- New sanitization tool
+
 ## Version 0.3.0
 
 - New ref compendia module generator
-- [technical]
+- [technical] use of absolute path in javascript imports, in order to always import from the original module.
 - New macros to open canvas applications via the hotbar (Scriptorium, Astrolabium, ...)
 
 ## Version 0.2.6

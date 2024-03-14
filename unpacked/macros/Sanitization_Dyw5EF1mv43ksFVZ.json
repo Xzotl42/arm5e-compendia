@@ -1,27 +1,30 @@
 {
-  "name": "Open Aura management",
+  "name": "Sanitization",
   "type": "script",
   "scope": "global",
   "author": "ErQ613O32LNYb71L",
-  "img": "systems/arm5e/assets/icons/Icon_Effects.png",
-  "command": "game.arm5e.ArsLayer.openAuraConfig();",
+  "img": "icons/tools/hand/broom-straw-brown.webp",
+  "command": "game.arm5eCompendia.CompendiaUtils.showSanitizationTool();",
   "folder": null,
   "ownership": {
     "default": 0,
     "ErQ613O32LNYb71L": 3
   },
   "flags": {
+    "socketmacros": {
+      "isSocket": false
+    },
     "core": {}
   },
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.12",
     "coreVersion": "11.315",
-    "createdTime": 1705161722316,
+    "createdTime": 1710003733506,
     "modifiedTime": 1710073687088,
     "lastModifiedBy": "ErQ613O32LNYb71L"
   },
-  "_id": "AuzYTK1BQF3xKID4",
-  "sort": 400000,
-  "_key": "!macros!AuzYTK1BQF3xKID4"
+  "_id": "Dyw5EF1mv43ksFVZ",
+  "sort": 100000,
+  "_key": "!macros!Dyw5EF1mv43ksFVZ"
 }
