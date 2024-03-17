@@ -70,7 +70,19 @@ export class ModuleGenerator extends FormApplication {
         p.label = `${this.object.prefix} - ${p.name}`;
       }
 
-      FileTools.uploadDataToServer(JSON.stringify(manifest, null, 2), `module.json`, "text/json", newModuleFolder);
+      const resp = FileTools.uploadDataToServer(
+        JSON.stringify(manifest, null, 2),
+        `module.json`,
+        "text/json",
+        newModuleFolder
+      );
+      if (resp != {}) {
+        Dialog.prompt({
+          title: "Module skeleton created",
+          content:
+            "<p>Module skeleton created. You can now follow detailed instructions at https://github.com/Xzotl42/arm5e-compendia#usage</p>"
+        });
+      }
     });
   }
 }

@@ -3,6 +3,7 @@
 ## Version 0.3.1
 
 - New sanitization tool
+- Fix missing template folder in package
 
 ## Version 0.3.0
 

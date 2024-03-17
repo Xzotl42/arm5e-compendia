@@ -48,7 +48,7 @@ jobs:
       - name: Packaging
         id: package
         # Create a zip file with all files required by the module to add to the release
-        run: zip -r ./arm5e-compendia.zip module.json LICENSE.txt README.md ReleaseNotes.md  css/ packs/ unpacked/ scripts/ lang/
+        run: zip -r ./arm5e-compendia.zip module.json LICENSE.txt README.md ReleaseNotes.md  css/ packs/ unpacked/ scripts/ lang/ templates/
       # Create a release for this specific version
       - name: Update Release with Files
         id: create_version_release
