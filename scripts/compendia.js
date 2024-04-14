@@ -1,6 +1,6 @@
-import { MergeTool } from "/modules/arm5e-compendia/scripts/MergeTool.js";
-import { ModuleGenerator } from "/modules/arm5e-compendia/scripts/ModuleGenerator.js";
-import { SanitizationTool } from "/modules/arm5e-compendia/scripts/SanitizationTool.js";
+import { MergeTool } from "../../arm5e-compendia/scripts/MergeTool.js";
+import { ModuleGenerator } from "../../arm5e-compendia/scripts/ModuleGenerator.js";
+import { SanitizationTool } from "../../arm5e-compendia/scripts/SanitizationTool.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(compendium) {

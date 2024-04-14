@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315"
@@ -142,6 +142,18 @@
       "label": "Ars Magica - Equipment",
       "path": "packs/equipment.db",
       "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "rolltables",
+      "label": "Ars Magica - Rolltables",
+      "path": "packs/rolltables.db",
+      "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.3.2
+
+- Added missing Rolltable compendium
+  - Experimentation tables
+- Use of relative paths even when refering to arm5e-compendia
+
 ## Version 0.3.1
 
 - New sanitization tool

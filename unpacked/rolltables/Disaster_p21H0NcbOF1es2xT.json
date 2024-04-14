@@ -1,0 +1,147 @@
+{
+  "name": "Disaster",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roll a simple die + Risk Modifier - Perception",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        -10,
+        0
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "Me8lvZdpSE4rmme8",
+      "text": "You avoid disaster but waste the season.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.Me8lvZdpSE4rmme8"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "ZOnIpshXskX5Rt7T",
+      "text": "Your creation is destroyed.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.ZOnIpshXskX5Rt7T"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "T43B5By7iJsxYGaw",
+      "text": "ur creation is destroyed, and so is some other valuable item that you keep in your laboratory.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.T43B5By7iJsxYGaw"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "G9BhhtxAcNldSEZ7",
+      "text": "Explosion! Your lab equipment is ruined, and you must roll a simple die for each valuble possession you keep in your lab. On a 0, it is destroyed. You take an amount of damage equal to a simple die + the level of the spell or effect you were working on.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.G9BhhtxAcNldSEZ7"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "JCSs1icnV86ZuXK1",
+      "text": "Your experiment backfires in such a way that the entire convenant is threatened, either through fire, the summoning of a major threat, or some other calamity the storyguide makes up.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.JCSs1icnV86ZuXK1"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "N9SaANBcg78RyD3i",
+      "text": "You gain Warping Points equal to the number of zeroes on the botch roll. Roll for Twilight if you gain two or more",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.N9SaANBcg78RyD3i"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        100
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "kLIpjrbDvoxI6JDW",
+      "text": "Roll twice more on this chart.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!p21H0NcbOF1es2xT.kLIpjrbDvoxI6JDW"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "k2UQWqUTpGfaVBxo",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "ars-magica",
+      "system": "arm5e",
+      "coreVersion": "10.303",
+      "systemVersion": "2.1.0.14"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.4.18",
+    "coreVersion": "11.315",
+    "createdTime": 1689068297989,
+    "modifiedTime": 1712088471581,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "formula": "1d10",
+  "_id": "p21H0NcbOF1es2xT",
+  "sort": 0,
+  "_key": "!tables!p21H0NcbOF1es2xT"
+}

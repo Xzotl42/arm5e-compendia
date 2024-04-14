@@ -1,0 +1,163 @@
+{
+  "name": "Side Effect",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Simple Die</p>",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "C9O9nz6SfBIaNLQZ",
+      "text": "Your sigil is exaggerated to many times its normal strength, becoming a significant portion of the effect.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.C9O9nz6SfBIaNLQZ"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "C5kMJysCq72W68Hp",
+      "text": "The effect has a minor flaw.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.C5kMJysCq72W68Hp"
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "KCy5a4jq7I1qDnfF",
+      "text": "The spell has a minor side effect.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.KCy5a4jq7I1qDnfF"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "8ecJ6EFfUwDOQbHJ",
+      "text": "The spell has a minor side benefit",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.8ecJ6EFfUwDOQbHJ"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "IVj7Q3PqZDf3IvTo",
+      "text": "The spell has a major flaw",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.IVj7Q3PqZDf3IvTo"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "lbAex24EcFqJcIge",
+      "text": "The spell has a major side effect",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.lbAex24EcFqJcIge"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "omCvvRUyt9YYGvXM",
+      "text": "The spell has a major side benefit",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.omCvvRUyt9YYGvXM"
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "t4XDK5FvehnxOK8Q",
+      "text": "The spell has a fatal flaw",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!twzHIUrhruYbUSPB.t4XDK5FvehnxOK8Q"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "k2UQWqUTpGfaVBxo",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "ars-magica",
+      "system": "arm5e",
+      "coreVersion": "10.303",
+      "systemVersion": "2.1.0.14"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.4.18",
+    "coreVersion": "11.315",
+    "createdTime": 1689068695624,
+    "modifiedTime": 1712088537815,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "formula": "1d10",
+  "_id": "twzHIUrhruYbUSPB",
+  "sort": 200000,
+  "_key": "!tables!twzHIUrhruYbUSPB"
+}

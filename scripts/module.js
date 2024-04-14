@@ -1,5 +1,5 @@
 import { customizeConfig, customizeOnInit } from "./customize.js";
-import { CompendiaUtils } from "/modules/arm5e-compendia/scripts/compendia.js";
+import { CompendiaUtils } from "../../arm5e-compendia/scripts/compendia.js";
 import { indexAspects } from "./parse.js";
 Hooks.once("init", async function () {
   game["arm5eCompendia"] = { CompendiaUtils };
