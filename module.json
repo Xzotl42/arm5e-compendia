@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315"
@@ -129,6 +129,30 @@
       "name": "laboratory-flaws",
       "label": "Ars Magica - Laboratory Flaws",
       "path": "packs/laboratory-flaws.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "boons",
+      "label": "Ars Magica - Covenant Boons",
+      "path": "packs/boons.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "hooks",
+      "label": "Ars Magica - Covenant Hooks",
+      "path": "packs/hooks.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",

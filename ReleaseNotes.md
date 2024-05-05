@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.3.3
+
+- Added boons and hooks compendia
+
 ## Version 0.3.2
 
 - Added missing Rolltable compendium
