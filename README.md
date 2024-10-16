@@ -1,33 +1,40 @@
 # Ars Magica Compendia
 
-Module name
-: arm5e-compendia
+Module name : arm5e-compendia
 
 ![Latest Release Download Count](https://img.shields.io/github/downloads/Xzotl42/arm5e-compendia/latest/arm5e-compendia.zip)
 
 Reference and template for personal shared compendia used with the [Ars Magica 5th Edition system for Foundry VTT](https://foundryvtt.com/packages/arm5e)
 
----
+## Legalese stuff
 
-This package is intended to enable Ars Magica play using Foundry VTT. In order to play, official Ars Magica materials are still required. Official material for Ars Magica 5th edition is published by and may be purchased from Atlas Games (<https://atlas-games.com>).
+- Based on the material for Ars Magica, ©1993–2024, licensed by Trident, Inc. d/b/a Atlas Games®, under [Creative Commons Attribution-ShareAlike 4.0 International license 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ("CC-BY-SA 4.0")
 
-Ars Magica content is copyright Trident, Inc d/b/a Atlas Games. Ars Magica, Mythic Europe, and Covenants are trademarks of Trident, Inc. Order of Hermes and Tremere are trademarks of White Wolf, Inc. USED WITH PERMISSION.
+- Ars Magica Open License Logo ©2024 Trident, Inc. The Ars Magica Open License Logo, Ars Magica, and Mythic Europe are trademarks of Trident, Inc., and are used with permission.
 
-The use and inclusion of the logo, icon and art elements, as well as the use of terms, has been expressly authorized in written form by Holocubierta Ediciones, S.L. (<https://www.holocubierta.com/>), the licensee of the game Ars Magica 5th Edition for its publication in Spanish.
+- Order of Hermes, Tremere, Doissetep, and Grimgroth are trademarks of Paradox Interactive AB and are used with permission.
 
----
+- The use and inclusion of the logo, icon and art elements, as well as the use of terms, has been expressly authorized in written form by Holocubierta Ediciones, S.L. (https://www.holocubierta.com/), the licensee of the game Ars Magica 5th Edition for its publication in Spanish.
+
+- Versión Española : La utilización e inclusión del logo, iconos y elementos artísticos, así como el uso de terminología, ha sido autorizado expresamente y por escrito por Holocubierta Ediciones, S.L. (https://www.holocubierta.com), licenciataria del juego Ars Magica 5ª Edición para su publicación en castellano.
+
+Even if most of the line is under the open license above you can still get physical soft-cover sourcebooks at the [Atlas Games website](https://atlas-games.com).
+
+## Support this project
+
+If you like what I do and want to show support, you can buy me a coffee here:
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-xzotl-00B9FE?logo=kofi)](https://ko-fi.com/xzotl)
+
+Big thanks to those who do!
+
+[Join our Discord server!](https://discord.gg/DdDetc9SYP).
 
 ## Why this module?
 
-- As you noticed, for copyright reasons, descriptions are empty in the system compendia. That's why most of us use a custom compendium with the descriptions filled (or in another language). This put limitations to what the system can do, for example:
-
-  - The need to have an ability at 0 in your character before being able to learn or be taught about it, because there is a good chance that it is not the system ability you want to add, but with the description filled by yourself or in another language.
-  - Inhability to automatically add some abilities at character creation as most of the time the ones added are not the desired ones (ie: empty description or wrong language)
-
-- This new module can be updated without the need of a system release.
+- Since the open license is active, a way to distribute all the available content without disturbing the development of new features was needed.
+- This new module can be updated without the need of a system release. Typos and errors can be easily fixed and the risk to break anything is very low
 - It will serve as a template for your own shared compendia, with your own descriptions filled, in the language you prefer (see below for instructions)
 - A setting will allow you to choose the reference module to be used by the system (it will fallback to the system reference if something is missing).
-- Room for a premium official module in the future? Who knows...
 
 ## Usage
 
@@ -36,29 +43,6 @@ Find below the different ways to use the module in incremental technical complex
 Once you have done one of the methods below, go to the system configuration and select your new compendium:
 
 ![Reference compendium configuration](./assets/compendiaRefCfg.webp)
-
-### Usage for the mundane
-
-The module is now a mandatory dependency to the system, it should be installed automatically.
-
-If for some reason it wasn't installed, you can install it as another module in Foundry VTT using the manifest link below, it will contain all the compendia the system has/used to have.
-
-Manifest link
-: <https://github.com/Xzotl42/arm5e-compendia/releases/latest/download/module.json>
-
-**Important**
-: **You need to lock the package or any update will overwrite your changes**
-
-- Activate the module in your world.
-- Unlock a compendium and edit as you wish
-
-#### The good
-
-- Very easy to put in place
-
-#### The bad
-
-- It is static and won't receive the latest features and active effects implemented for the system in ulterior versions
 
 ### Usage for the nobility
 

@@ -1,10 +1,10 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "0.3.3",
+  "version": "0.9.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.315"
+    "verified": "12.331"
   },
   "relationships": {
     "systems": [
@@ -34,8 +34,8 @@
   "media": [
     {
       "type": "setup",
-      "url": "modules/arm5e-compendia/assets/ArM5logo.webp",
-      "thumbnail": "modules/arm5e-compendia/assets/ArM5logo.webp"
+      "url": "modules/arm5e-compendia/assets/arm5openlicenselogo.png",
+      "thumbnail": "modules/arm5e-compendia/assets/arm5openlicenselogo.png"
     }
   ],
   "esmodules": ["scripts/module.js"],
