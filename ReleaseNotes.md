@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.9.0
+
+- Prepare the way for the open license
+
 ## Version 0.3.3
 
 - Added boons and hooks compendia
