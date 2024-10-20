@@ -12,8 +12,8 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>This could be a sap (a leather bag filled with lead shot) or any heavy object like a stone or a small hammer</p>",
+    "source": "ArM5Def",
     "page": 0,
     "cost": {
       "value": "inexp"
@@ -28,23 +28,29 @@
     "dam": 2,
     "str": -2,
     "range": 0,
-    "load": 1,
+    "load": 2,
     "equipped": false,
-    "indexKey": "b-bludgeon"
+    "indexKey": "b-bludgeon",
+    "state": "inert",
+    "enchantments": null,
+    "review_status": "definitiveReady",
+    "reviewer": "KILLTHESCRIBE"
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235750949,
-    "modifiedTime": 1696140815865,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.2",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1729411633150,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "C14pISsLWgPrYOUb",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!C14pISsLWgPrYOUb"
 }

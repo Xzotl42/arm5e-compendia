@@ -12,8 +12,8 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>A dagger is any knife-like weapon of length between about 6 inches and 14 inches. Daggers are commonly carried as tools, as well as for self-defense.</p>",
+    "source": "ArM5Def",
     "page": 0,
     "cost": {
       "value": "inexp"
@@ -30,21 +30,27 @@
     "range": 0,
     "load": 0,
     "equipped": false,
-    "indexKey": "b-dagger"
+    "indexKey": "b-dagger",
+    "state": "inert",
+    "enchantments": null,
+    "review_status": "definitiveReady",
+    "reviewer": "KILLTHESCRIBE"
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235750945,
-    "modifiedTime": 1696140815850,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.2",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1729411636062,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "7ZFzxMliEB43q8Dr",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!7ZFzxMliEB43q8Dr"
 }

@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.9.1
+
+### Compendia integration with DE
+
+- Equipment compendium
+
 ## Version 0.9.0
 
 - Prepare the way for the open license

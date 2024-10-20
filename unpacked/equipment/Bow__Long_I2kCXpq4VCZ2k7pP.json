@@ -12,8 +12,8 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>The famous English longbow, which equally famously required years of training and physical conditioning to use.</p>",
+    "source": "ArM5Def",
     "page": 0,
     "cost": {
       "value": "exp"
@@ -30,21 +30,27 @@
     "range": 30,
     "load": 2,
     "equipped": false,
-    "indexKey": "bow-long"
+    "indexKey": "bow-long",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235750956,
-    "modifiedTime": 1696140815897,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.2",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1729411708027,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "I2kCXpq4VCZ2k7pP",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!I2kCXpq4VCZ2k7pP"
 }

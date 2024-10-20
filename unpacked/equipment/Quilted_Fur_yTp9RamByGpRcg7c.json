@@ -1,7 +1,7 @@
 {
-  "name": "Metal Reinf Leather - Partial",
+  "name": "Quilted/Fur",
   "type": "armor",
-  "img": "icons/equipment/chest/breastplate-layered-leather-studded-brown.webp",
+  "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
   "effects": [],
   "folder": "qe6K6lOIy7t2w02l",
   "flags": {
@@ -13,18 +13,18 @@
     }
   },
   "system": {
-    "description": "<p>Using further reinforcements to the leather through the application of studs, rings, or other metal pieces strengthens it against slashes and cuts.<span style=\"font-family: 'Weiss'\">  </span></p><p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p>",
+    "description": "<p>Quilted cloth, a thin layer of leather, or layers of leather-strap-wrapped fur or cloth is the most basic of armor.<span style=\"font-family: 'Weiss'\">  </span></p><p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p>",
     "source": "ArM5Def",
     "page": 0,
     "cost": {
-      "value": "std"
+      "value": "inexp"
     },
     "quantity": 1,
-    "prot": 2,
+    "prot": 1,
     "full": false,
     "load": 2,
     "equipped": false,
-    "indexKey": "metal-reinf-leather-partial",
+    "indexKey": "quiltedfur-partial",
     "state": "inert",
     "enchantments": null,
     "review_status": "definitiveReady",
@@ -37,14 +37,14 @@
     "systemId": "arm5e",
     "systemVersion": "2.3.2.2",
     "createdTime": 1729410723029,
-    "modifiedTime": 1729411611628,
+    "modifiedTime": 1729411627670,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "uTgUdDuQLHE3aeL4",
+  "_id": "yTp9RamByGpRcg7c",
   "sort": 0,
   "ownership": {
     "default": 0,
     "6SdI10VpXHcBvx2J": 3
   },
-  "_key": "!items!uTgUdDuQLHE3aeL4"
+  "_key": "!items!yTp9RamByGpRcg7c"
 }

@@ -13,8 +13,8 @@
     }
   },
   "system": {
-    "description": "<p>&nbsp;</p>\n<div class=\"page\" title=\"Page 176\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Replacing the leather scales with small overlapping metal plates again increases protec- tion while retaining flexibility, although metal weighs slightly more.<span style=\"font-size: 9.000000pt; font-family: 'Weiss'; color: rgb(6.313300%, 8.863500%, 10.356300%);\">&nbsp;</span></p>\n</div>\n</div>\n</div>\n</div>\n<p>Full armor adds gauntlets to protect the hands, vambraces for the forearms, chausses for the legs, a closed helm that protects the face, and perhaps additional pieces for the throat, elbows, and knees. Full armor also often includes a gambeson, a heavily padded surcoat worn over the armor.</p>",
-    "source": "custom",
+    "description": "<p> Replacing the leather scales with small overlapping metal plates again increases protection while retaining flexibility, although metal weighs slightly more.<span style=\"font-family: 'Weiss'\"> </span></p><p><span style=\"font-family: bookAntiquaBold\">Full armor adds gauntlets to protect the hands, vambraces for the forearms, chausses for the legs, a closed helm that protects the face, and perhaps additional pieces for the throat, elbows, and knees. Full armor also often includes a gambeson, a heavily padded surcoat worn over the armor. The small auxiliary pieces may be made of a different material than the main cuirass - for instance, a suit of full chain mail might have chain mail to protect the torso and leather scale on the arms and legs (or it might be entirely made of chain mail).</span></p>",
+    "source": "ArM5Def",
     "page": 0,
     "cost": {
       "value": "std"
@@ -24,21 +24,27 @@
     "full": true,
     "load": 7,
     "equipped": false,
-    "indexKey": "metal-scale-full"
+    "indexKey": "metal-scale-full",
+    "state": "inert",
+    "enchantments": null,
+    "review_status": "definitiveReady",
+    "reviewer": "KILLTHESCRIBE"
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235750956,
-    "modifiedTime": 1696140815901,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.2",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1729411614379,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "Iivv9RvaImxlAR9O",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!Iivv9RvaImxlAR9O"
 }

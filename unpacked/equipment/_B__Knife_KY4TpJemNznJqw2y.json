@@ -12,8 +12,8 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>Any sharp knife of 6 inches or lesser length. Knives are even more common than daggers; they are everyday tools</p>",
+    "source": "ArM5Def",
     "page": 0,
     "cost": {
       "value": "inexp"
@@ -30,21 +30,27 @@
     "range": 0,
     "load": 0,
     "equipped": false,
-    "indexKey": "b-knife"
+    "indexKey": "b-knife",
+    "state": "inert",
+    "enchantments": null,
+    "review_status": "definitiveReady",
+    "reviewer": "KILLTHESCRIBE"
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235750958,
-    "modifiedTime": 1696140815914,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.2",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1729411657748,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "KY4TpJemNznJqw2y",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!KY4TpJemNznJqw2y"
 }
