@@ -1,6 +1,6 @@
 # Release notes
 
-## Version 0.9.1
+## Version 0.9.3
 
 ### Compendia integration with DE
 
