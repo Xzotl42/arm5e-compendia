@@ -5,6 +5,8 @@
 ### Compendia integration with DE
 
 - Equipment compendium
+- CLI update
+- Improved logging at packing.
 
 ## Version 0.9.0
 
