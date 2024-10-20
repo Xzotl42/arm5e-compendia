@@ -12,29 +12,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p>Your magic is much more potent in a fairly limited area, such as weather, necromancy, birds, or emotions. This area should be smaller than a single Art, but may be spread over several Arts � necromancy, for example, covers both Corpus and Mentem effects. You cannot be focused on laboratory activities, although a focus does apply to laboratory activities. When you cast a spell or generate a Lab Total within your focus, add the lowest applicable Art score twice. If a spell has requisites, the lowest applicable score may be one of the requisites, rather than one of the primary Arts. Thus, if a magus with a focus on birds was cast ing a spell to turn a bird into pure flame, MuAn (Ig), with Muto 14, An 18, and Ig 10, his final total would be 34 + other modifiers: 14 from Muto, and 20 from adding Ignem twice. If he was casting a spell to turn a bird into another sort of bird, MuAn with no requisites, his total would be 46 + other modifiers, 18 from Animal and 28 from adding Muto twice. A character can have only one Magical Focus, either major or minor, regardless of the source of the focus.</p>",
     "source": "ArM5",
     "page": 45,
     "type": "hermetic",
     "impact": {
       "value": "major"
     },
-    "indexKey": "major-magical-focus"
+    "indexKey": "major-magical-focus",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751232,
-    "modifiedTime": 1696141996206,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "ryEkrZYbf9tQGIrO",
   "_id": "qED4cDuaKu0AfKbI",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!qED4cDuaKu0AfKbI"
 }

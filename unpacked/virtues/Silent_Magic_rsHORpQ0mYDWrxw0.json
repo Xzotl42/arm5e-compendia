@@ -4,7 +4,6 @@
   "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Item.oAfkkOgj1fGwySQa",
       "duration": {
         "startTime": null,
@@ -52,6 +51,20 @@
       "name": "Silent Magic",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!rsHORpQ0mYDWrxw0.xgihZ4LZlyRFEiIf"
     }
   ],
@@ -71,22 +84,27 @@
     "impact": {
       "value": "minor"
     },
-    "indexKey": "silent-magic"
+    "indexKey": "silent-magic",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751352,
-    "modifiedTime": 1696141996226,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "C8jqPqfblXk6hGCE",
   "_id": "rsHORpQ0mYDWrxw0",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!rsHORpQ0mYDWrxw0"
 }

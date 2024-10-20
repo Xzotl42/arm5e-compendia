@@ -4,7 +4,7 @@
   "description": "<p>Simple Die</p>",
   "results": [
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         1,
@@ -20,7 +20,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.C9O9nz6SfBIaNLQZ"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         2,
@@ -36,7 +36,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.C5kMJysCq72W68Hp"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 2,
       "range": [
         4,
@@ -52,7 +52,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.KCy5a4jq7I1qDnfF"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         6,
@@ -68,7 +68,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.8ecJ6EFfUwDOQbHJ"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         7,
@@ -84,7 +84,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.IVj7Q3PqZDf3IvTo"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         8,
@@ -100,7 +100,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.lbAex24EcFqJcIge"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         9,
@@ -116,7 +116,7 @@
       "_key": "!tables.results!twzHIUrhruYbUSPB.omCvvRUyt9YYGvXM"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         10,
@@ -151,10 +151,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "11.315",
+    "coreVersion": "12.324",
     "createdTime": 1689068695624,
     "modifiedTime": 1712088537815,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "formula": "1d10",
   "_id": "twzHIUrhruYbUSPB",

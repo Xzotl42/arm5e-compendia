@@ -4,7 +4,7 @@
   "description": "<p>Roll a simple die + Risk Modifier. If you were investigating a magic item, you have changed one or more of its powers</p>",
   "results": [
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         1,
@@ -20,7 +20,7 @@
       "_key": "!tables.results!ucnhXS4WqqscQllG.X1di4cnx4DsZ2A8n"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         4,
@@ -36,7 +36,7 @@
       "_key": "!tables.results!ucnhXS4WqqscQllG.yO3WxOdRnsRkIGqA"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         7,
@@ -52,7 +52,7 @@
       "_key": "!tables.results!ucnhXS4WqqscQllG.bAcPf033VRe29jHJ"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         9,
@@ -68,7 +68,7 @@
       "_key": "!tables.results!ucnhXS4WqqscQllG.yovMzdZqnbzL0E1g"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         11,
@@ -103,10 +103,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "11.315",
+    "coreVersion": "12.324",
     "createdTime": 1689068936815,
     "modifiedTime": 1712088567153,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "formula": "1d10",
   "_id": "ucnhXS4WqqscQllG",

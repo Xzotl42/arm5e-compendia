@@ -4,7 +4,7 @@
   "description": "Roll a simple die + Risk Modifier",
   "results": [
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         1,
@@ -20,7 +20,7 @@
       "_key": "!tables.results!WQAGYNyE7q73D9XU.N2ft3WyLQaS8xLMG"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         5,
@@ -36,7 +36,7 @@
       "_key": "!tables.results!WQAGYNyE7q73D9XU.fyTCEbxHS1gDcHa2"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         7,
@@ -52,7 +52,7 @@
       "_key": "!tables.results!WQAGYNyE7q73D9XU.6UvG54aUUaAEBDMb"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         9,
@@ -68,7 +68,7 @@
       "_key": "!tables.results!WQAGYNyE7q73D9XU.QlwnZ6lpjzeqlilj"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         10,
@@ -103,10 +103,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "11.315",
+    "coreVersion": "12.324",
     "createdTime": 1689068843891,
     "modifiedTime": 1712088471581,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "formula": "1d10",
   "_id": "WQAGYNyE7q73D9XU",

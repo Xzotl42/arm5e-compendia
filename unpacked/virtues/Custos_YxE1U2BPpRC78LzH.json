@@ -12,29 +12,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p>You are an employee of a covenant, but you have high status within the walls. You may be a grog, or a specialist, or a manager. You may take one group of restricted Abilities during character generation, either Martial, Academic, or Arcane Abilities. If you choose Martial or Arcane Abilities, you may still learn to speak Latin, although you cannot read or write it. As a covenant employee, your wealth is determined by the covenant�s prosperity, and you may not take the Wealthy Virtue or Poor Flaw. This Virtue is available to male and female characters. This Virtue may also apply to employees of other institutions, such as a noble household or a monastery.</p>",
     "source": "ArM5",
     "page": 41,
     "type": "social",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "custos"
+    "indexKey": "custos",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751298,
-    "modifiedTime": 1696141996035,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "Dlca5muDKIfBSi6F",
   "_id": "YxE1U2BPpRC78LzH",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!YxE1U2BPpRC78LzH"
 }

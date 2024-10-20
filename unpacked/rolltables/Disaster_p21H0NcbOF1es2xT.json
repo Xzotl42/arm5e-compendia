@@ -4,7 +4,7 @@
   "description": "Roll a simple die + Risk Modifier - Perception",
   "results": [
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         -10,
@@ -20,7 +20,7 @@
       "_key": "!tables.results!p21H0NcbOF1es2xT.Me8lvZdpSE4rmme8"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         1,
@@ -36,7 +36,7 @@
       "_key": "!tables.results!p21H0NcbOF1es2xT.ZOnIpshXskX5Rt7T"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         3,
@@ -52,7 +52,7 @@
       "_key": "!tables.results!p21H0NcbOF1es2xT.T43B5By7iJsxYGaw"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         5,
@@ -68,7 +68,7 @@
       "_key": "!tables.results!p21H0NcbOF1es2xT.G9BhhtxAcNldSEZ7"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         7,
@@ -84,7 +84,7 @@
       "_key": "!tables.results!p21H0NcbOF1es2xT.JCSs1icnV86ZuXK1"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         9,
@@ -100,7 +100,7 @@
       "_key": "!tables.results!p21H0NcbOF1es2xT.N9SaANBcg78RyD3i"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         11,
@@ -135,10 +135,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "11.315",
+    "coreVersion": "12.324",
     "createdTime": 1689068297989,
     "modifiedTime": 1712088471581,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "formula": "1d10",
   "_id": "p21H0NcbOF1es2xT",

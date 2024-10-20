@@ -14,7 +14,6 @@
   },
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Item.XO2CviAzBMjywI6P",
       "duration": {
         "startTime": null,
@@ -89,6 +88,20 @@
       "name": "Hovel",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!XO2CviAzBMjywI6P.5c3rrPxtpFFcB24t"
     }
   ],
@@ -101,10 +114,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
+    "coreVersion": "12.324",
     "createdTime": 1663055655748,
     "modifiedTime": 1696140815254,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "folder": "UG6CvAk9qqXO8Aqp",
   "_id": "XO2CviAzBMjywI6P",

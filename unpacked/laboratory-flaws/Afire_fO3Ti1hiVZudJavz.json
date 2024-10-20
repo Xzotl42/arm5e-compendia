@@ -14,7 +14,6 @@
   },
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Item.fO3Ti1hiVZudJavz",
       "duration": {
         "startTime": null,
@@ -98,6 +97,20 @@
       "name": "Afire",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!fO3Ti1hiVZudJavz.goZGDOi0qJb7eHJf"
     }
   ],
@@ -110,10 +123,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
+    "coreVersion": "12.324",
     "createdTime": 1663055052510,
     "modifiedTime": 1696140815289,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "folder": "NVhyR3IguEbeHnVj",
   "_id": "fO3Ti1hiVZudJavz",

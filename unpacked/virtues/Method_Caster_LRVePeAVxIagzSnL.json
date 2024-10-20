@@ -12,29 +12,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p style=\"text-align: justify;\">You are excellent at formulaic spells, as you have perfected a consistent and precise method for casting them. You gain a +3 bonus to any formulaic spell you cast. However, if you vary at all from your precise method (by altering your gestures or voicing), you do not get this bonus.</p>\n<p style=\"text-align: justify;\">This bonus also applies to Ritual spells.</p>",
     "source": "ArM5",
     "page": 46,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "method-caster"
+    "indexKey": "method-caster",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751215,
-    "modifiedTime": 1696141995884,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "C8jqPqfblXk6hGCE",
   "_id": "LRVePeAVxIagzSnL",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!LRVePeAVxIagzSnL"
 }

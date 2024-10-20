@@ -4,7 +4,7 @@
   "description": "<p>Roll a stress die + Risk Modifier, with botch dies equal to 1 + the Risk Modifier + Magic Aura</p>",
   "results": [
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         0,
@@ -20,7 +20,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.soHjFDXwd9t58dzW"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         5,
@@ -36,7 +36,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.hXW6q7VMEUX6Jc7W"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         7,
@@ -52,7 +52,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.ibIFLEtKbenBu8xB"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         8,
@@ -68,7 +68,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.Ylqo7cgKGCGxA1XE"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         9,
@@ -84,7 +84,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.k8JslTOCodyrNKfA"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         10,
@@ -100,7 +100,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.jLPiPvz1UZTDk8j2"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         11,
@@ -116,7 +116,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.0e9aEnob34xvWbmu"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         12,
@@ -132,7 +132,7 @@
       "_key": "!tables.results!hbSxoarXQV7VbgMt.Ziehtap5XcKL6DAk"
     },
     {
-      "type": 0,
+      "type": "text",
       "weight": 1,
       "range": [
         -99,
@@ -167,10 +167,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "11.315",
+    "coreVersion": "12.324",
     "createdTime": 1689065677066,
     "modifiedTime": 1712088471581,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "formula": "1ds",
   "_id": "hbSxoarXQV7VbgMt",

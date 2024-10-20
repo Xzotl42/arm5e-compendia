@@ -1,5 +1,5 @@
 {
-  "name": "Sharp ears",
+  "name": "Sharp Ears",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
   "effects": [],
@@ -12,29 +12,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p style=\"text-align: justify;\"><span style=\"text-align: justify;\">You hear better than most. You get a +3 bonus to all rolls involving hearing.</span></p>",
     "source": "ArM5",
     "page": 48,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "sharp-ears"
+    "indexKey": "sharp-ears",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751326,
-    "modifiedTime": 1696141995950,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "jegZHVtv21smauPD",
   "_id": "QrNvOMnaEW5sYNOQ",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!QrNvOMnaEW5sYNOQ"
 }

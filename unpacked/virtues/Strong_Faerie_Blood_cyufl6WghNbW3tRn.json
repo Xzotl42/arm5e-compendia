@@ -23,7 +23,6 @@
         "startRound": null,
         "startTurn": null
       },
-      "icon": "icons/svg/aura.svg",
       "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
       "tint": "#000000",
       "transfer": true,
@@ -43,6 +42,20 @@
       "name": "Fae aligned",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
     }
   ],
@@ -55,29 +68,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p>The blood of the fay is strong in you. Perhaps one of your parents was actually a faerie, or maybe you were conceived or born in a place of great faerie power. This ancestry grants you several abilities. First, you have natural longevity. You start making aging rolls at the age of fifty, rather than the normal 35, and get �3 to Aging Rolls, cumulative with any other bonuses. Second, you have faerie eyes. This gives you the Virtue Second Sight (see page 48) at no cost, and you can see normally in darkness or semi-darkness, such as in deep woods or at night. Your eyes look mostly normal, but are an unusual and vivid color. Third, you may learn Faerie Lore during character generation. Finally, you get the benefits of a particular type of fay heritage, as given in the Virtue Faerie Blood (page 42). Your specific fay heritage is clearly visible. Choose one physical quirk, such as small horns, literally blue blood, or eyes without irises and pupils, appropriate to the faeries from which you are descended. You may not have both Faerie Blood and Strong Faerie Blood. This is a Supernatural Virtue, and you cannot lose it when being trained as a magus (see page 106). If your master cannot preserve the ability, you cannot be trained.</p>",
     "source": "ArM5",
     "page": 49,
     "type": "supernatural",
     "impact": {
       "value": "major"
     },
-    "indexKey": "strong-faerie-blood"
+    "indexKey": "strong-faerie-blood",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751249,
-    "modifiedTime": 1696141996089,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "Sym94leLiWXQ3Rh9",
   "_id": "cyufl6WghNbW3tRn",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!cyufl6WghNbW3tRn"
 }

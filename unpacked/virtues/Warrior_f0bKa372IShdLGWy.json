@@ -12,29 +12,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p>You have been trained to fight, and may have spent some time campaigning, perhaps on one of the Crusades. You may acquire Martial Abilities during character creation, and gain an additional 50 experience points which must be spent on Martial Abilities.</p>",
     "source": "ArM5",
     "page": 50,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "warrior"
+    "indexKey": "warrior",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
-    "createdTime": 1662235751312,
-    "modifiedTime": 1696141996107,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "jegZHVtv21smauPD",
   "_id": "f0bKa372IShdLGWy",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!f0bKa372IShdLGWy"
 }

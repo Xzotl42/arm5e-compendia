@@ -14,7 +14,6 @@
   },
   "effects": [
     {
-      "icon": "icons/svg/aura.svg",
       "origin": "Item.a341DOScHtlAIvT8",
       "duration": {
         "startTime": null,
@@ -62,6 +61,20 @@
       "name": "Greater guardian (to be configured with +creature intelligence in Safety and 3 points on appropriate Art specialization(s))",
       "description": "",
       "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!a341DOScHtlAIvT8.DazH6owIXj0EPDip"
     }
   ],
@@ -74,10 +87,12 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.2.15",
-    "coreVersion": "11.311",
+    "coreVersion": "12.324",
     "createdTime": 1663054658610,
     "modifiedTime": 1696141686094,
-    "lastModifiedBy": "1JBSgWiiwizu7vru"
+    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "folder": "FKJvdtHXle5HOY22",
   "_id": "a341DOScHtlAIvT8",

@@ -19,14 +19,15 @@
       "changes": [
         {
           "mode": 2,
-          "key": "system.bonuses.skills.entrancement.xpMod",
-          "value": "5"
+          "key": "system.bonuses.skills.entrancement.bonus",
+          "value": "5",
+          "priority": null
         }
       ],
       "flags": {
         "arm5e": {
           "type": [
-            "xpBonusSupernaturalAbility"
+            "bonusSupernaturalAbility"
           ],
           "subtype": [
             "entrancement"
@@ -37,11 +38,24 @@
         }
       },
       "name": "XP Bonus",
-      "icon": "icons/svg/aura.svg",
       "_id": "EOOHBfrsl5vyRKLk",
       "description": "",
       "transfer": true,
       "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!XrU7t1oCkbk8we6a.EOOHBfrsl5vyRKLk"
     }
   ],
@@ -54,29 +68,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p>You have the power to control another�s will by staring into their eyes and giving them a verbal command. Choosing this Virtue confers the Ability Entrancement 1 (page 65).</p>",
     "source": "ArM5",
     "page": 42,
     "type": "supernatural",
     "impact": {
       "value": "major"
     },
-    "indexKey": "entrancement"
+    "indexKey": "entrancement",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.25",
-    "coreVersion": "11.315",
-    "createdTime": 1662235751211,
-    "modifiedTime": 1705670953219,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "Sym94leLiWXQ3Rh9",
   "_id": "XrU7t1oCkbk8we6a",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!XrU7t1oCkbk8we6a"
 }

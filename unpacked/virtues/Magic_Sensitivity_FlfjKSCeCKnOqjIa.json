@@ -19,14 +19,15 @@
       "changes": [
         {
           "mode": 2,
-          "key": "system.bonuses.skills.magicSensitivity.xpMod",
-          "value": "5"
+          "key": "system.bonuses.skills.magicSensitivity.bonus",
+          "value": "5",
+          "priority": null
         }
       ],
       "flags": {
         "arm5e": {
           "type": [
-            "xpBonusSupernaturalAbility"
+            "bonusSupernaturalAbility"
           ],
           "subtype": [
             "magicSensitivity"
@@ -37,11 +38,24 @@
         }
       },
       "name": "XP Bonus",
-      "icon": "icons/svg/aura.svg",
       "_id": "ao3iOjP0tkReTUIC",
       "description": "",
       "transfer": true,
       "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
       "_key": "!items.effects!FlfjKSCeCKnOqjIa.ao3iOjP0tkReTUIC"
     }
   ],
@@ -54,29 +68,34 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p>You are often able to identify a place or object as magical. However, your sensitivity makes you more susceptible to magical effects: subtract your Magic Sensitivity score from all magic resistance rolls you make. Choosing this Virtue confers the Ability Magic Sensitivity 1 (page 66).</p>",
     "source": "ArM5",
     "page": 45,
     "type": "supernatural",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "magic-sensitivity"
+    "indexKey": "magic-sensitivity",
+    "review_status": "toReview",
+    "reviewer": "",
+    "hidden": false
   },
   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.25",
-    "coreVersion": "11.315",
-    "createdTime": 1662235751342,
-    "modifiedTime": 1705671139989,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "systemVersion": "2.3.2.0",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729316634167,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "XwOh5akgyjxNE2dG",
   "_id": "FlfjKSCeCKnOqjIa",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!FlfjKSCeCKnOqjIa"
 }
