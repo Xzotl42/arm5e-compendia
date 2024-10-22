@@ -1,9 +1,10 @@
 import { MergeTool } from "../../arm5e-compendia/scripts/MergeTool.js";
 import { ModuleGenerator } from "../../arm5e-compendia/scripts/ModuleGenerator.js";
 import { SanitizationTool } from "../../arm5e-compendia/scripts/SanitizationTool.js";
+import { CompendiumStats } from "./CompendiumStats.js";
 
 export class CompendiaUtils {
-  static async createIndexKeys(compendium) {
+  static async createIndexKeys(compendium, onlyMissingOnes = false) {
     let pack = game.packs.get(compendium);
     if (pack == undefined) {
       return;
@@ -23,9 +24,12 @@ export class CompendiaUtils {
     for (let doc of documents) {
       // skip Compendium Folders documents
       if (doc.name.startsWith("#[CF")) continue;
-
+      if (doc.system.indexKey !== "" && onlyMissingOnes) continue;
       await doc.update({ "system.indexKey": slugify(doc.name) });
     }
+    await pack.configure({
+      locked: true
+    });
   }
 
   static async showMergeDialog() {
@@ -43,6 +47,15 @@ export class CompendiaUtils {
       return;
     }
     const ui = new SanitizationTool({}, {});
+    const res = await ui.render(true);
+  }
+
+  static async showCompendiumStatsUI() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new CompendiumStats({}, {});
     const res = await ui.render(true);
   }
 

@@ -1,0 +1,15 @@
+<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off" style="min-height: 400px">
+  {{> "systems/arm5e/templates/roll/parts/roll-header.html" header="Inputs" }}
+  <div class="marginsides32">
+    <div>
+      <label>{{localize "Compendium"}} </label>
+    </div>
+    <div class="drop-box drop-document" data-drop="document">
+      <label>Drop your compendium here</label>
+    </div>
+  </div>
+  <div class="marginsides32" style="height: 400px; overflow-y: auto;padding: 8px;">
+    {{editor enrichedReport target="report" button=true owner=owner engine="prosemirror" editable=editable}}
+  </div>
+  {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}
+</form>
