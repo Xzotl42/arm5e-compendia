@@ -39,11 +39,19 @@ export class CompendiumStats extends FormApplication {
     const dropData = TextEditor.getDragEventData(event);
     if (dropData.type === "Compendium") {
       this.object.comp = await game.packs.get(dropData.id);
-      let docs = await comp.getDocuments();
-      const stats = { reviewed: [], toreview: [], needAE: [], todo: [], missingIndexKey: [], ready: [] };
+      let docs = await this.object.comp.getDocuments();
+      const stats = {
+        reviewed: [],
+        toreview: [],
+        needAE: [],
+        todo: [],
+        missingIndexKey: [],
+        missingDescription: [],
+        ready: []
+      };
       this.object.report = `<h1>Compendium stats</h1>`;
-      this.object.report += `<h2>${comp.metadata.label}</h2><ul>`;
-      this.object.report += `<li>Name: ${comp.metadata.name}</li>`;
+      this.object.report += `<h2>${this.object.comp.metadata.label}</h2><ul>`;
+      this.object.report += `<li>Name: ${this.object.comp.metadata.name}</li>`;
       this.object.report += `<li>Number of documents: ${docs.length}</li>`;
 
       for (let d of docs) {
@@ -67,6 +75,9 @@ export class CompendiumStats extends FormApplication {
         if (d.system.indexKey == "") {
           stats.missingIndexKey.push(d);
         }
+        if (d.system.description == "") {
+          stats.missingDescription.push(d);
+        }
       }
       this.object.report += `<li>To review: ${stats.toreview.length}</li>`;
       this.object.report += "<ul>";
@@ -86,12 +97,7 @@ export class CompendiumStats extends FormApplication {
       //   this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
       // }
       this.object.report += "</ul>";
-      this.object.report += `<li>Missing index-key: ${stats.missingIndexKey.length}</li>`;
-      this.object.report += "<ul>";
-      // for (let d of stats.reviewed) {
-      //   this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
-      // }
-      this.object.report += "</ul>";
+
       this.object.report += `<li>Need AE: ${stats.needAE.length}</li>`;
       this.object.report += "<ul>";
       for (let d of stats.needAE) {
@@ -99,7 +105,29 @@ export class CompendiumStats extends FormApplication {
       }
       this.object.report += "</ul>";
       this.object.report += `<li>DE Ready: ${stats.ready.length}</li>`;
+      this.object.report += "</ul>";
+      this.object.report += "</ul>";
 
+      this.object.report += `<h2>Documents lists</h2><ul>`;
+      this.object.report += "<ul>";
+      this.object.report += `<li>Missing index-key: ${stats.missingIndexKey.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.missingIndexKey) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+      this.object.report += `<li>Missing description: ${stats.missingDescription.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.missingDescription) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+      this.object.report += `<li>To review: ${stats.toreview.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.toreview) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
       this.object.report += "</ul>";
     } else {
       console.log("Not a compendium");
