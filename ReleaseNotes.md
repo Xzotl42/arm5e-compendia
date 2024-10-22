@@ -1,12 +1,13 @@
 # Release notes
 
-## Version 0.9.3
+## Version 0.9.4
 
 ### Compendia integration with DE
 
 - Equipment compendium
 - CLI update
 - Improved logging at packing.
+- Compendium stats macro
 
 ## Version 0.9.0
 
