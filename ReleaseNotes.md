@@ -1,23 +1,24 @@
 # Release notes
 
-## Version 0.9.5
+## Version 0.9.6
 
 - Improved compendium stats macro
   - List empty descriptions
   - List page references to be filled in the future (@@)
   - List duplicates
 
-### Compendia
+### Compendia content
 
-- equipment - Update
-- flaws
-- hooks
+- Equipment - Update
+- Flaws
+- Covenant - Boons
+- Covenant - Hooks
 - journals
-- laboratory-flaws
-- laboratory-virtues - 1st version
-- spells
-  - animal - 1st version
-- virtues
+- Laboratory-flaws
+- Laboratory-virtues - 1st version
+- Spells
+  - Animal - 1st version
+- Virtues
 
 ## Version 0.9.4
 
