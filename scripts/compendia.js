@@ -2,13 +2,14 @@ import { MergeTool } from "../../arm5e-compendia/scripts/MergeTool.js";
 import { ModuleGenerator } from "../../arm5e-compendia/scripts/ModuleGenerator.js";
 import { SanitizationTool } from "../../arm5e-compendia/scripts/SanitizationTool.js";
 import { CompendiumStats } from "./CompendiumStats.js";
+import { FileTools } from "./FileTools.js";
 
 export class CompendiaUtils {
-  static async createIndexKeys(compendium, onlyMissingOnes = false) {
-    let pack = game.packs.get(compendium);
-    if (pack == undefined) {
-      return;
-    }
+  static async createIndexKeys(pack, onlyMissingOnes = false) {
+    // let pack = game.packs.get(compendium);
+    // if (pack == undefined) {
+    //   return;
+    // }
 
     if (pack.documentName != "Item") {
       return;
@@ -20,13 +21,15 @@ export class CompendiaUtils {
     });
 
     const documents = await pack.getDocuments();
-
+    let count = 0;
     for (let doc of documents) {
       // skip Compendium Folders documents
       if (doc.name.startsWith("#[CF")) continue;
       if (doc.system.indexKey !== "" && onlyMissingOnes) continue;
-      await doc.update({ "system.indexKey": slugify(doc.name) });
+      await doc.update({ "system.indexKey": FileTools.slugify(doc.name) });
+      count++;
     }
+    console.log(`${count} index keys added.`);
     await pack.configure({
       locked: true
     });

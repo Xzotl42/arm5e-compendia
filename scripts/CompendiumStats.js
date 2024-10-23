@@ -1,8 +1,10 @@
+import { CompendiaUtils } from "./compendia.js";
 import { FileTools } from "./FileTools.js";
 
 export class CompendiumStats extends FormApplication {
   constructor(data, options) {
     super(data, options);
+    this.object.comp = null;
   }
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
@@ -19,20 +21,6 @@ export class CompendiumStats extends FormApplication {
     });
   }
 
-  ItemToSanitize = [
-    "weapon",
-    "armor",
-    "item",
-    "spell",
-    "book",
-    "virtue",
-    "flaw",
-    "diaryEntry",
-    "ability",
-    "magicalEffect",
-    "laboratoryText",
-    "enchantment"
-  ];
   async _onDrop(event) {
     const target = this.object.outputFolder;
 
@@ -45,16 +33,34 @@ export class CompendiumStats extends FormApplication {
         toreview: [],
         needAE: [],
         todo: [],
+        ready: [],
         missingIndexKey: [],
         missingDescription: [],
-        ready: []
+        hasPageRef: [],
+        duplicateName: [],
+        duplicateIndex: []
       };
+      let nameSet = new Set();
+      let indexKeySet = new Set();
+
       this.object.report = `<h1>Compendium stats</h1>`;
       this.object.report += `<h2>${this.object.comp.metadata.label}</h2><ul>`;
       this.object.report += `<li>Name: ${this.object.comp.metadata.name}</li>`;
       this.object.report += `<li>Number of documents: ${docs.length}</li>`;
 
       for (let d of docs) {
+        if (nameSet.has(d.name)) {
+          stats.duplicateName.push(d);
+        } else {
+          nameSet.add(d.name);
+        }
+
+        if (indexKeySet.has(FileTools.slugify(d.name))) {
+          stats.duplicateIndex.push(d);
+        } else {
+          indexKeySet.add(FileTools.slugify(d.name));
+        }
+
         switch (d.system.review_status) {
           case "toReview":
             stats.toreview.push(d);
@@ -77,6 +83,9 @@ export class CompendiumStats extends FormApplication {
         }
         if (d.system.description == "") {
           stats.missingDescription.push(d);
+        }
+        if (d.system.description.includes("@@")) {
+          stats.hasPageRef.push(d);
         }
       }
       this.object.report += `<li>To review: ${stats.toreview.length}</li>`;
@@ -108,8 +117,23 @@ export class CompendiumStats extends FormApplication {
       this.object.report += "</ul>";
       this.object.report += "</ul>";
 
-      this.object.report += `<h2>Documents lists</h2><ul>`;
+      this.object.report += `<h2>Documents lists</h2>`;
       this.object.report += "<ul>";
+
+      this.object.report += `<li>Is a duplicate: ${stats.duplicateName.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.duplicateName) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+
+      this.object.report += `<li>Has a duplicate index: ${stats.duplicateIndex.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.duplicateIndex) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+
       this.object.report += `<li>Missing index-key: ${stats.missingIndexKey.length}</li>`;
       this.object.report += "<ul>";
       for (let d of stats.missingIndexKey) {
@@ -129,6 +153,14 @@ export class CompendiumStats extends FormApplication {
       }
       this.object.report += "</ul>";
       this.object.report += "</ul>";
+      this.object.report += `<li>Has missing page references: ${stats.hasPageRef.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.hasPageRef) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+
+      this.object.report += "</ul>";
     } else {
       console.log("Not a compendium");
     }
@@ -137,6 +169,8 @@ export class CompendiumStats extends FormApplication {
 
   async getData() {
     const context = super.getData().object;
+
+    context.devMode = game.modules.get("_dev-mode")?.api?.getPackageDebugValue(CONFIG.ARM5E.SYSTEM_ID);
     context.enrichedReport = await TextEditor.enrichHTML(context.report, {
       // Whether to show secret blocks in the finished html
       secrets: true,
@@ -151,12 +185,17 @@ export class CompendiumStats extends FormApplication {
     return context;
   }
 
+  activateListeners(html) {
+    super.activateListeners(html);
+    html.find(".indexing").click(async (ev) => {
+      ev.preventDefault();
+      if (this.object.comp === null) return;
+      await CompendiaUtils.createIndexKeys(this.object.comp, true);
+    });
+  }
+
   async _updateObject(ev, formData) {
     foundry.utils.mergeObject(this.object, foundry.utils.expandObject(formData));
     this.render();
-  }
-
-  async _createFolder(name, collection, parentId) {
-    return await Folder.create({ name: name, type: collection, parent: parentId });
   }
 }

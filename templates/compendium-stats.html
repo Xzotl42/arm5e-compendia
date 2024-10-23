@@ -1,4 +1,4 @@
-<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off" style="min-height: 400px">
+<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off">
   {{> "systems/arm5e/templates/roll/parts/roll-header.html" header="Inputs" }}
   <div class="marginsides32">
     <div>
@@ -7,8 +7,18 @@
     <div class="drop-box drop-document" data-drop="document">
       <label>Drop your compendium here</label>
     </div>
+    <!-- <div class="flexrow resource"><label>Check for duplicates</label><input type="checkbox" name="checkDuplicates"
+        {{checked checkDuplicates}}>
+    </div> -->
+    {{#if devMode}}
+      <div class="flexrow resource">
+        <button class="indexing" style="margin-top: 3px;" {{merge}}>Index compendium</button>
+        <button class="process" title="Does whatever was needed the last time I needed it." style="margin-top: 3px;"
+          {{merge}}>Process all documents</button>
+      </div>
+    {{/if}}
   </div>
-  <div class="marginsides32" style="height: 400px; overflow-y: auto;padding: 8px;">
+  <div class="marginsides32" style="height: auto; overflow-y: auto;padding: 8px; min-height: 368px;">
     {{editor enrichedReport target="report" button=true owner=owner engine="prosemirror" editable=editable}}
   </div>
   {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}
