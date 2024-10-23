@@ -1,16 +1,20 @@
 {
   "name": "Mountaintop",
   "type": "virtue",
-  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
   "system": {
-    "description": "",
+    "description": "<p>The lab is located at the peak of a mountain. This is a dramatic and remote setting with a spectacular view, prone to strong winds and snows. <em>–1 Safety, +1 Upkeep, +2 Aesthetics; +2 Au.</em></p>",
     "source": "Cov",
     "page": 114,
     "type": "laboratoryStructure",
     "impact": {
       "value": "free"
     },
-    "indexKey": "mountaintop"
+    "indexKey": "mountaintop",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
   },
   "effects": [
     {
@@ -35,13 +39,19 @@
         },
         {
           "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.au.bonus",
           "value": "2",
           "mode": 2,
           "priority": null
         },
         {
           "mode": 2,
-          "key": "system.specialty.au.bonus",
+          "key": "system.aesthetics.bonus",
           "value": "2",
           "priority": null
         }
@@ -51,18 +61,22 @@
           "type": [
             "laboratory",
             "laboratory",
-            "labSpecialty"
+            "labSpecialty",
+            "laboratory"
           ],
           "subtype": [
             "safety",
             "upkeep",
-            "au"
+            "au",
+            "aesthetics"
           ],
           "option": [
             null,
             null,
+            null,
             null
-          ]
+          ],
+          "hidden": false
         }
       },
       "_id": "GE8i9baoD68NBV4A",
@@ -70,20 +84,20 @@
       "name": "Mountaintop",
       "description": "",
       "statuses": [],
-      "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
       "img": "icons/svg/aura.svg",
       "type": "base",
       "system": {},
       "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "_key": "!items.effects!Q1XZsvCOIvDi38ut.GE8i9baoD68NBV4A"
     }
   ],
@@ -94,21 +108,21 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1663054291322,
-    "modifiedTime": 1696140815596,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "bgjOBA1J7YuglBIX",
   "_id": "Q1XZsvCOIvDi38ut",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!Q1XZsvCOIvDi38ut"
 }

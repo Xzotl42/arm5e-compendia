@@ -1,16 +1,20 @@
 {
-  "name": "Inexhaustible supplies",
+  "name": "Inexhaustible Supplies",
   "type": "virtue",
-  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
   "system": {
-    "description": "",
-    "source": "Cov",
-    "page": 118,
+    "description": "<p> The lab is blessed with magically replenishing ingredients and consumables which never run out. <em>–3 Upkeep, +1 Warping.</em></p><p></p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "laboratorySupernatural",
     "impact": {
       "value": "free"
     },
-    "indexKey": "inexhaustible-supplies"
+    "indexKey": "inexhaustible-supplies",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
   },
   "effects": [
     {
@@ -61,20 +65,20 @@
       "name": "Inexhaustible supplies",
       "description": "",
       "statuses": [],
-      "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
       "img": "icons/svg/aura.svg",
       "type": "base",
       "system": {},
       "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "_key": "!items.effects!gKDxAa2RxAWjinpR.E2EWhWV3gaVSS3Yc"
     }
   ],
@@ -85,21 +89,21 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1663054658610,
-    "modifiedTime": 1696140815707,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "ZGMqg8IEffHNf4tN",
   "_id": "gKDxAa2RxAWjinpR",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!gKDxAa2RxAWjinpR"
 }

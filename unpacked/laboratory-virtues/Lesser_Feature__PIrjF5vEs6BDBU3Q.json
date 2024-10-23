@@ -1,0 +1,100 @@
+{
+  "name": "Lesser Feature*",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab features a unique structure which aids certain types of lab work — see the list of possible Features below. <em>+1 Aesthetics; 1 point on an appropriate Specialization.</em></p><p></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "lesser-feature-to-be-configured",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.PIrjF5vEs6BDBU3Q",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "qWZ8MxLMhU9g8ZZU",
+      "transfer": true,
+      "name": "Lesser feature (to be configured with +1 on an appropriate specialisation)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!PIrjF5vEs6BDBU3Q.qWZ8MxLMhU9g8ZZU"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "kgPqOLvXx1QbgDtc",
+  "_id": "PIrjF5vEs6BDBU3Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!PIrjF5vEs6BDBU3Q"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Greater Feature*",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab prominently features a unique and extensive structure which aids certain types of lab work — see the list of possible Features below. +2 Aesthetics;  3 points on appropriate Specialization(s).</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "greater-feature",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.VNsHytCdpKT4OuH5",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "OB9AMF5mF0h5mErR",
+      "transfer": true,
+      "name": "Greater feature (to be configured with 3 points on appropriate specializations)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!VNsHytCdpKT4OuH5.OB9AMF5mF0h5mErR"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "TACZcFCFX6VRT6Jx",
+  "_id": "VNsHytCdpKT4OuH5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!VNsHytCdpKT4OuH5"
+}

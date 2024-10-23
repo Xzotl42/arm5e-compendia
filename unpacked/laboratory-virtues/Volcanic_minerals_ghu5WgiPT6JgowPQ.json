@@ -1,16 +1,20 @@
 {
-  "name": "Volcanic minerals",
+  "name": "Volcanic Minerals",
   "type": "virtue",
-  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
   "system": {
-    "description": "",
+    "description": "<p>The laboratory is supplied with exotic minerals from a volcano. The laboratory needs to be regularly resupplied, otherwise this Virtue is lost. There is no benefit in taking this Virtue multiple times — once the laboratory’s demands for exotic minerals have been met, additional minerals are of little value. <em>–1 Upkeep, +1 Terram.</em></p>",
     "source": "HP",
     "page": 19,
     "type": "laboratoryOutfitting",
     "impact": {
       "value": "free"
     },
-    "indexKey": "volcanic-minerals"
+    "indexKey": "volcanic-minerals",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
   },
   "effects": [
     {
@@ -61,20 +65,20 @@
       "name": "Volcanic minerals",
       "description": "",
       "statuses": [],
-      "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
       "img": "icons/svg/aura.svg",
       "type": "base",
       "system": {},
       "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "_key": "!items.effects!ghu5WgiPT6JgowPQ.URFM2Twpn6locWXT"
     }
   ],
@@ -85,21 +89,21 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1663053848415,
-    "modifiedTime": 1696140815712,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "68Cg6jITpFirriaM",
   "_id": "ghu5WgiPT6JgowPQ",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!ghu5WgiPT6JgowPQ"
 }

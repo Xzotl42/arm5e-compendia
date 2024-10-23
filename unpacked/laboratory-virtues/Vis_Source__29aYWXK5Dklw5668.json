@@ -1,0 +1,109 @@
+{
+  "name": "Vis Source*",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>A naturally-occurring source of vis is to be found in the lab. <em>–1 Safety, +1 Warping; 2 points on the appropriate Art Specialization.</em></p><p></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "vis-source",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.29aYWXK5Dklw5668",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "safety",
+            "warping"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "SD5Df9ObawZSEcqp",
+      "transfer": true,
+      "name": "Vis source (to be configured with 2 points on the appropriate Art specialization)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!29aYWXK5Dklw5668.SD5Df9ObawZSEcqp"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "wSymFiu4KZEUClwq",
+  "_id": "29aYWXK5Dklw5668",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!29aYWXK5Dklw5668"
+}

@@ -1,16 +1,20 @@
 {
-  "name": "Highly organized",
+  "name": "Highly Organized",
   "type": "virtue",
-  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
   "system": {
-    "description": "",
-    "source": "Cov",
-    "page": 116,
+    "description": "<p>The lab's contents have been optimally arranged. There is a chance to gain this Virtue whenever a season of work is undertaken to improve the Refinement (see Refinement, above). A season of such work (with the normal chances of changes to laboratory Virtues and Flaws) may still be undertaken, even if no improvement to Refinement is possible. This Virtue is lost if a major accident is suffered, if someone else uses the lab, or if someone of lower Intelligence helps in it. <em>+1 General Quality.</em></p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "laboratoryOutfitting",
     "impact": {
       "value": "free"
     },
-    "indexKey": "highly-organized"
+    "indexKey": "highly-organized",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
   },
   "effects": [
     {
@@ -52,20 +56,20 @@
       "name": "Highly organized",
       "description": "",
       "statuses": [],
-      "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
       "img": "icons/svg/aura.svg",
       "type": "base",
       "system": {},
       "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "_key": "!items.effects!XjzKo9iN7LBacPHl.DjTN95kbt1SNgvg6"
     }
   ],
@@ -76,21 +80,21 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1663053848415,
-    "modifiedTime": 1696140815660,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "68Cg6jITpFirriaM",
   "_id": "XjzKo9iN7LBacPHl",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!XjzKo9iN7LBacPHl"
 }

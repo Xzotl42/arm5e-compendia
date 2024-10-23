@@ -1,0 +1,109 @@
+{
+  "name": "Gateway",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab is located at a supernatural gateway, for example, an entrance to a regio or a faerie realm, or a Mercere Portal. The owner of the lab usually controls access to the gateway, and might get some tangible benefits, such as receiving a toll from those who use the gateway, or simply the ability to pass through the gateway herself. The gateway may be made into a Portal Feature (purchased as usual) and might also be combined with the Thoroughfare Flaw. <em>–1 Safety, +1 Aesthetics; 1 point on Rego or another appropriate Art Specialization.</em></p>",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "gateway",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.tVl39wCULqxhvHMq",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "safety",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "2Ph3hRof8mshexVP",
+      "transfer": true,
+      "name": "Gateway (to be configured with 1 point on rego or another appropriate Art Specialization)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!tVl39wCULqxhvHMq.2Ph3hRof8mshexVP"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "wSymFiu4KZEUClwq",
+  "_id": "tVl39wCULqxhvHMq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!tVl39wCULqxhvHMq"
+}

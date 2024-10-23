@@ -1,16 +1,20 @@
 {
   "name": "Spotless",
   "type": "virtue",
-  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
   "system": {
-    "description": "",
-    "source": "Cov",
-    "page": 116,
+    "description": "<p>The lab is impeccably clean. This requires a season of work to gain. Also, there is a chance to gain this Virtue whenever a season of work is undertaken to improve the Refinement (see Refinement, above). This Virtue is lost if cleanliness is not maintained, or after an accident or neglect is suffered. <em>+1 Health, +1 Aesthetics; +1 Cr.</em></p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "laboratoryOutfitting",
     "impact": {
       "value": "free"
     },
-    "indexKey": "spotless"
+    "indexKey": "spotless",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
   },
   "effects": [
     {
@@ -70,20 +74,20 @@
       "name": "Spotless",
       "description": "",
       "statuses": [],
-      "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
-      },
       "img": "icons/svg/aura.svg",
       "type": "base",
       "system": {},
       "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "_key": "!items.effects!e6419R8W4SfSm0CG.nldOsSyxl9Ed6c4U"
     }
   ],
@@ -94,21 +98,21 @@
     "core": {}
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1663053848415,
-    "modifiedTime": 1696140815688,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "68Cg6jITpFirriaM",
   "_id": "e6419R8W4SfSm0CG",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!e6419R8W4SfSm0CG"
 }

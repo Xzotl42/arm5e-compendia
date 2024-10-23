@@ -1,0 +1,127 @@
+{
+  "name": "Ice Cavern",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab is located in a structure built of ice that never melts. Either it is located in the extreme north or high up a mountain, or else magic is used to prevent the ice from melting. The owner of such a lab presumably does not mind the cold. <em>+1 Upkeep, +1 Warping, –2 Health (unless immune to the cold), +2 Aesthetics; +2 Re or Te.</em></p>",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "ice-cavern",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.HWnaer2ZdzLyzuCS",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.warping.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.health.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "upkeep",
+            "warping",
+            "health",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "XZ0IilGndXoLyXAr",
+      "transfer": true,
+      "name": "Ice cavern (to be configured with +2 Re or Te and delete -2 health if immune to the cold)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!HWnaer2ZdzLyzuCS.XZ0IilGndXoLyXAr"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "HWnaer2ZdzLyzuCS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!HWnaer2ZdzLyzuCS"
+}

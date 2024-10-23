@@ -1,0 +1,100 @@
+{
+  "name": "Flawless Tools",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The craftsman who created such perfect tools as are found in this lab must have been legendary. <em>+1 Upkeep (unless the equipment is continuously protected, created, or donated by supernatural means, in which case –1 Upkeep); +2 Items</em></p>",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "flawless-tools",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.2SuMAe8H0YTP6bVU",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.specialty.items.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "labSpecialty"
+          ],
+          "subtype": [
+            "items"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "wNgxEpOJRyBzrMul",
+      "transfer": true,
+      "name": "Flawless tools (to be configured with +1 upkeep or -1 upkeep if the equipment is continuously protected, created or donated by supernatural means)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!2SuMAe8H0YTP6bVU.wNgxEpOJRyBzrMul"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1729577172410,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "2SuMAe8H0YTP6bVU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!2SuMAe8H0YTP6bVU"
+}
