@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Ward Against Faeries Which Creep and Crawl",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "circle"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "No faerie animal whose Faerie Might is equal or less to the level of the spell can affect the targeted Group as long as they remain within the ring. Julia commonly employs this spell every night along with a Circle of Beast Warding — after carefully sweeping the area to ensure that no spiders become trapped in the ring with her.",
+    "source": "MoH",
+    "page": 57,
+    "indexKey": "ward-against-faeries-which-creep-and-crawl",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.29ghMpzF3uN5O1zt",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "29ghMpzF3uN5O1zt",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!29ghMpzF3uN5O1zt"
+}

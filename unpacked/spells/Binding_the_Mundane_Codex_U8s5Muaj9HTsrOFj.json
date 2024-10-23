@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Binding the Mundane Codex",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell binds up to 1,000 prepared bifolds into books. Usually these bifolds have already been written upon, but magi may use this spell to create blank books if they wish. The spell fails if any of the necessary pieces of a codex are missing. Codices created with this spell are usually flap-books, since they lack wooden boards within their covers. Binding mundane materials into the book which are not derived from animals, like cover boards or registers, requires a spell with the appropriate requisite and an Intelligence + Finesse roll against an Ease Factor of 12. Some magi mold animal bones into plates, to serve instead of wood. This spell allows readers of the book to claim the +1 quality bonus for sound binding.",
+    "source": "Cov",
+    "page": 97,
+    "indexKey": "binding-the-mundane-codex",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.U8s5Muaj9HTsrOFj",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "U8s5Muaj9HTsrOFj",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!U8s5Muaj9HTsrOFj"
+}

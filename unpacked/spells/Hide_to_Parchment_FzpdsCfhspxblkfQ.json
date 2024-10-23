@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Hide to Parchment",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell stretches, shaves, and dries a stack of animal hides, as if a percamenarius had worked on them. Stretching makes hide flexible instead of leathery, while shaving makes it smooth enough for writing and thin enough for binding. Drying prevents mold from forming on the vellum, but if excessive makes it brittle. A Perception + Finesse roll is treated as a Craft: Percamenarius roll to determine the quality of the vellum created.",
+    "source": "Cov",
+    "page": 96,
+    "indexKey": "hide-to-parchment",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.FzpdsCfhspxblkfQ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "FzpdsCfhspxblkfQ",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!FzpdsCfhspxblkfQ"
+}

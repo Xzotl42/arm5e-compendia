@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Circle of Beast Warding",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "circle"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p lang=\"en-US\" style=\"line-height: 100%; margin-top: 0.21cm; margin-bottom: 0cm\">The caster inscribes a circle that no normal beast will cross.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "circle-of-beast-warding",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "Yves Stadler"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.Gvi7NxOMt9Ecwd5S",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Gvi7NxOMt9Ecwd5S",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!Gvi7NxOMt9Ecwd5S"
+}

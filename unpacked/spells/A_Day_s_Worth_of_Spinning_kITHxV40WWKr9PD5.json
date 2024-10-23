@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "A Day’s Worth of Spinning",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "One of the first spells taught to Petalichus by his mater, this spell cleans, cards, and spins a whole fleece, or a bale of cotton or flax, into thread in a matter of moments. If dye is available when the spell is cast, the thread can be dyed as the caster directs. A Herbam casting requisite is required for plant-based cloth.\nThis is an Average task for a mundane spinner, so the caster must make a Perception + Finesse (precision) + stress die roll against an Ease Factor of 12 (Craft Ease Factor 9 + 3 for using Craft Magic).\nFailing the roll results in a badly spun fleece, probably with flecks of dirt still clinging to the thread. A botched roll ruins the fleece outright, though this may not be immediately apparent.\nSee Covenants, page 49 for more on Rego Craft Magic.",
+    "source": "MoH",
+    "page": 100,
+    "indexKey": "a-days-worth-of-spinning",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.kITHxV40WWKr9PD5",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "kITHxV40WWKr9PD5",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!kITHxV40WWKr9PD5"
+}

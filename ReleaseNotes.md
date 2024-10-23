@@ -1,5 +1,24 @@
 # Release notes
 
+## Version 0.9.5
+
+- Improved compendium stats macro
+  - List empty descriptions
+  - List page references to be filled in the future (@@)
+  - List duplicates
+
+### Compendia
+
+- equipment - Update
+- flaws
+- hooks
+- journals
+- laboratory-flaws
+- laboratory-virtues - 1st version
+- spells
+  - animal - 1st version
+- virtues
+
 ## Version 0.9.4
 
 ### Compendia integration with DE

@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Beast of Outlandish Size",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p lang=\"en-US\" style=\"line-height: 100%; margin-top: 0.21cm; margin-bottom: 0cm\">Changes the Size of an animal by +1. This change modifies Strength by +2, the range for each wound level increases by one, and Quickness falls by one. The new beast is of huge size, and looks much more impressive than its former self. Townspeople may run in fear of it, and there is little doubt among them that it is a creature of magic.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "beast-of-outlandish-size",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.ZyRacCf2GojZCA0z",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ZyRacCf2GojZCA0z",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!ZyRacCf2GojZCA0z"
+}

@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Cloak of Nessus",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 2,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The targeted item of clothing partially converts into poison. The wearer suffers terrible agony as the poison touches his skin, and must make a Stamina roll against an Ease Factor of 9 to avoid taking a Light Wound. This Stamina roll must be repeated every round that the wearer is in contact with the robe, or until the Duration ends. The spell is named after the cloak dipped in the blood of the centaur Nessus in Greek myth.\nSince creating a poison of this strength has a base level of 15 (if it were an Aquam effect), two magnitudes are added for this effect, although since the poison is of Animal origin an Aquam requisite is not needed.",
+    "source": "MoH",
+    "page": 56,
+    "indexKey": "cloak-of-nessus",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.RIhmn12W63zWsI2D",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "RIhmn12W63zWsI2D",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!RIhmn12W63zWsI2D"
+}

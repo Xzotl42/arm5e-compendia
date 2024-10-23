@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Form of the (Temperament) Heartbeast",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "There are four versions of this spell, one for each of the sanguine, choleric, melancholic, and phlegmatic temperaments. These spells must be cast in animal form because they enhance the correspondences to the temperament of that form, whereas humans naturally have a more balanced temperament than animals. A Bjornaer magus may revert to human form after casting this spell and still retain its effects. It is not required that the animal form he takes take matches the temperament listed in the spell’s name; however, if the two do match, all bonuses granted by the spell are increased by one. Only one of these spells may be cast on the same character at any one time; they operate by influencing the bodily humors, and only one humor at a time may be influenced in this way.\nSanguine: +1 Qik; +3 to all rolls to negate the natural fear the caster instills (as a wild animal with The Gift); temporarily acquires the Cheerful Personality Trait at +3 (or increases preexisting trait by 3) .\nCholeric: +1 Dex; +3 to all rolls to follow a trail or find something deliberately hidden; temporarily acquires the Brave Personality Trait at +3 (or increases trait by 3) Melancholic: +1 Sta; +3 to all rolls to communicate across a language barrier, through empathy, via sign language, and so forth; temporarily acquires the Creative Personality Trait at +3 (or increases trait by 3) Phlegmatic: +1 Str; +3 to all rolls involving intuition and memory; temporarily acquires the Cool-Headed Personality Trait at +3 (or increases trait by 3)",
+    "source": "HoH:MC",
+    "page": 56,
+    "indexKey": "form-of-the-temperament-heartbeast",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.JVPku4af0cttj7pZ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "JVPku4af0cttj7pZ",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!JVPku4af0cttj7pZ"
+}

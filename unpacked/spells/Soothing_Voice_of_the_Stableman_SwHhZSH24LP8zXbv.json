@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Soothing Voice of the Stableman",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 1,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell implants the suggestion that the caster is a safe and helpful friend into the mind of the target animal. The spell maintains this suggestion in the mind of the animal for the duration of the spell, regardless of the actions of the caster. This spell can not remove the sense of unease that an animal will feel when exposed to a Gifted character, but an animal of bestial intelligence will not be able to associate its unease with the caster.\nHorses subject to this spell can be used as mounts by magi who do not have the Gentle Gift, but the uneasiness of such mounts makes them skittish and fearful. In situations where the mood of the animal is important, the Ease Factor of appropriate rolls should be 3 higher than normal and subject to one or more additional botch dice.\nThe effect of the Blatant Gift is sufficiently strong to make animals frenzied when they are both subject to this spell and exposed to a Blatantly Gifted caster. Animals that are Warped from long-term exposure to this spell often become belligerent and frightened all of the time.",
+    "source": "MoH",
+    "page": 65,
+    "indexKey": "soothing-voice-of-the-stableman",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.SwHhZSH24LP8zXbv",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "SwHhZSH24LP8zXbv",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!SwHhZSH24LP8zXbv"
+}

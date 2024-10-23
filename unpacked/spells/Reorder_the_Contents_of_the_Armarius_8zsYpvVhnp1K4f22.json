@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Reorder the Contents of the Armarius",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "room"
+    },
+    "complexity": 1,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": true,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": true,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell places books in a book chest or closet into a sequence. Sample sequences include the Art or Ability the books concern, the authors’ names, size through any dimension, the color of the covers, the binding material, the newness of the books, and their opening sentences. If the books are marked with acquisition or shelf location numbers, then those may also guide the sequence. With a Mentem requisite the magus can shelve books based on whether he has read them or not, how much he liked the books while reading them, how he feels about the authors, or his emotional attachment to the people who gave him the books. Books in chained libraries need to be taken off their rails for this spell to be used.",
+    "source": "Cov",
+    "page": 100,
+    "indexKey": "reorder-the-contents-of-the-armarius",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.8zsYpvVhnp1K4f22",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "8zsYpvVhnp1K4f22",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!8zsYpvVhnp1K4f22"
+}

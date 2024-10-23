@@ -38,7 +38,9 @@ export class CompendiumStats extends FormApplication {
         missingDescription: [],
         hasPageRef: [],
         duplicateName: [],
-        duplicateIndex: []
+        duplicateIndex: [],
+        homebrewOrCore: [],
+        customList: []
       };
       let nameSet = new Set();
       let indexKeySet = new Set();
@@ -87,6 +89,16 @@ export class CompendiumStats extends FormApplication {
         if (d.system.description.includes("@@")) {
           stats.hasPageRef.push(d);
         }
+
+        if (d.system.source === "ArM5" || d.system.source === "custom") {
+          stats.homebrewOrCore.push(d);
+        }
+        if (d.type === "spell" && d.system.source !== "ArM5Def" && d.system.general) {
+          // CUSTOM
+          stats.customList.push(d);
+        }
+
+        // CUSTOM END
       }
       this.object.report += `<li>To review: ${stats.toreview.length}</li>`;
       this.object.report += "<ul>";
@@ -159,6 +171,21 @@ export class CompendiumStats extends FormApplication {
         this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
       }
       this.object.report += "</ul>";
+      // Homebrew or corebook
+      this.object.report += `<li>Still homebrew or Corebook: ${stats.homebrewOrCore.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.homebrewOrCore) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+      // CUSTOM
+      this.object.report += `<li>Custom list: ${stats.customList.length}</li>`;
+      this.object.report += "<ul>";
+      for (let d of stats.customList) {
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
+      }
+      this.object.report += "</ul>";
+      // CUSTOM END
 
       this.object.report += "</ul>";
     } else {
@@ -192,6 +219,46 @@ export class CompendiumStats extends FormApplication {
       if (this.object.comp === null) return;
       await CompendiaUtils.createIndexKeys(this.object.comp, true);
     });
+
+    html.find(".process").click(async (ev) => {
+      ev.preventDefault();
+      if (this.object.comp === null) return;
+      await this.processDocuments(this.object.comp, false);
+    });
+  }
+
+  async processDocuments(pack, dryrun = true) {
+    if (pack.documentName != "Item") {
+      return;
+    }
+    // Unlock the pack for editing
+    const wasLocked = pack.locked;
+    await pack.configure({
+      locked: false
+    });
+
+    const documents = await pack.getDocuments();
+    let count = 0;
+    for (let doc of documents) {
+      // skip Compendium Folders documents
+      if (doc.name.startsWith("#[CF")) continue;
+
+      const updateData = {};
+      if (doc.system.source === "ArM5") continue;
+
+      if (doc.system.review_status == "toReview" && doc.system.general == false) {
+        updateData["system.reviewer"] = "TGGoHS";
+        updateData["system.review_status"] = "reviewed";
+        if (!dryrun) await doc.update(updateData);
+        count++;
+      }
+    }
+    console.log(`${count} document processed.`);
+    if (wasLocked) {
+      await pack.configure({
+        locked: true
+      });
+    }
   }
 
   async _updateObject(ev, formData) {

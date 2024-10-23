@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Steed of Vesuvius",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 25,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 1,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": true,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell magically transforms a horse so that he is able to gallop across molten lava as if it were a cobbled road. The horse also has no fear of the heat or fumes expelled by the lava, and he does not suffer from the heat of the lava or the toxicity of the fumes. The rider of the horse does not receive any protection from this spell.\nWhen the spell expires, the horse suffers a Long-Term Fatigue level.\nThe requisite is free because it is part of the guideline and required for the effect.",
+    "source": "HP",
+    "page": 15,
+    "indexKey": "steed-of-vesuvius",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.CaCGoLfB0GVUbOtt",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "CaCGoLfB0GVUbOtt",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!CaCGoLfB0GVUbOtt"
+}

@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "A Spell to Milk Cattle",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "While you wait, the cows are magically milked without further handling, transferring their milk into nearby milkpails. The magus’s Perception 4- Finesse roll substitutes for an Animal Handling roll by a competent farmer; the spell gathers the milk, but if the roll is failed, the cattle may be spooked.\nMilking cattle is normally Simple (3) if the cattle are accustomed to the process and the milking hand, so the basic Finesse Ease Factor is at least 6, higher if anything disturbs the cows. Cows are initially be disconcerted at being milked by invisible hands, and need soothing (The Gentle Herd is ideal for this task). Unless magically calmed, the Finesse roll is Very Hard (15-t) the first time cows are milked by magic, but this Ease Factor reducing over time and successful milking to 12, then 9, until the cows become accustomed to the process (6).",
+    "source": "Cov",
+    "page": 51,
+    "indexKey": "a-spell-to-milk-cattle",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.1dHBsAKMNn0I6wex",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "1dHBsAKMNn0I6wex",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!1dHBsAKMNn0I6wex"
+}

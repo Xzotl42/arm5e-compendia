@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "The Weaver’s Subtle Art",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 1,
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell allows the caster to make minor alterations to a finished tapestry or embroidered item, such as changing a subject’s pose, improving a likeness, or rewording an embroidered phrase. The change is minor in relation to the whole, never making up more than a fraction of the item, but as this spell can act on large tapestries, the individual change may itself be quite large. The change retains the original character of the work, so the intrinsic workmanship cannot, in itself, be improved through this spell.\nThe version known to Petalichus was handed down through generations of his confraternity. Casters who know this version may use their Weaver craft ability in place of Finesse when determining the quality of the effect. Magi who invent this spell, or learn it from another source, use Finesse as normal.\nA Herbam casting requisite is required for tapestries using plant-based thread.",
+    "source": "MoH",
+    "page": 101,
+    "indexKey": "the-weavers-subtle-art",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.WJVcxGIDui1mX5T1",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "WJVcxGIDui1mX5T1",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!WJVcxGIDui1mX5T1"
+}

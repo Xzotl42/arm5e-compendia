@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Soothe Pains of the Beast",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p lang=\"en-US\" style=\"line-height: 100%; margin-top: 0.21cm; margin-bottom: 0cm\">This spell looks much like a ritualistic \"laying on of hands\" seen in many churches. You kneel and press your hands to the wound while reciting a quiet incantation. The spell cures one Light Wound suffered by the animal.</p><p lang=\"en-US\" style=\"line-height: 100%; margin-top: 0.21cm; margin-bottom: 0cm\">Asaron of Flambeau believes his mission in life is to repopulate the world so there will be more to kill, and thus spends seasons healing animals and people throughout Europe. In his version of this spell, a black patch in the shape of a tongue of fire is left where the wound was. A symbolic flame is seen in almost all of Asaron's spells, making it his wizard's sigil.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "soothe-pains-of-the-beast",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "Yves Stadler"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.vWK1bWrHzhWIgwC7",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "vWK1bWrHzhWIgwC7",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!vWK1bWrHzhWIgwC7"
+}

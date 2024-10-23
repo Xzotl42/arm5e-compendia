@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Ward Against the Beasts of Legend",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "circle"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p lang=\"en-US\" style=\"line-height: 100%; margin-top: 0.21cm; margin-bottom: 0cm\">No magical beast whose Magic Might is equal to or less than the level can affect anyone within the Circle or, if it is within the Circle, affect those outside. When a magus is making this and most other wards, a common gesture employed is the Fig Sign. The magus balls his or her right hand into a fist, placing the thumb between the index and middle fingers. A magus traveling to Italy should be warned that this sign is a deadly insult in that country.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "ward-against-the-beasts-of-legend",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": true,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "Yves Stadler"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.qN4KKohJxml8TG5e",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "qN4KKohJxml8TG5e",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!qN4KKohJxml8TG5e"
+}

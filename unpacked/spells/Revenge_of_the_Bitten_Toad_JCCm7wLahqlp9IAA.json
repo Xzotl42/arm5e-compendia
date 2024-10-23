@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Revenge of the Bitten Toad",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "other"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Any creatures who bite (or otherwise taste) the caster suffer a Heavy Wound. Any successful bite attack against the caster results in the creature tasting him, even if no wound is actually inflicted. The caster still suffers any damage inflicted by the bite, but his opponent is typically deterred from further attacks.",
+    "source": "HoH:MC",
+    "page": 29,
+    "indexKey": "revenge-of-the-bitten-toad",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.JCCm7wLahqlp9IAA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "JCCm7wLahqlp9IAA",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!JCCm7wLahqlp9IAA"
+}

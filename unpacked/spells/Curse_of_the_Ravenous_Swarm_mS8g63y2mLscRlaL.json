@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Curse of the Ravenous Swarm",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "group"
+    },
+    "targetSize": 2,
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": true
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p lang=\"en-US\" style=\"line-height: 100%; margin-top: 0.21cm; margin-bottom: 0cm\">Calls a swarm of locusts or other destructive insects upon an area, which destroys wild plant life and fields. When the spell's duration ends, all the insects disappear, leaving nothing but the damage. The Rego requisite ensures that the insects only devastate the area desired by the caster.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "curse-of-the-ravenous-swarm",
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "Yves Stadler"
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.mS8g63y2mLscRlaL",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1729689989096,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "mS8g63y2mLscRlaL",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!mS8g63y2mLscRlaL"
+}
