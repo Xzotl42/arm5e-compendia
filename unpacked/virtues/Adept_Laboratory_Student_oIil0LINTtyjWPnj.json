@@ -1,0 +1,102 @@
+{
+  "name": "Adept Laboratory Student",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "origin": "Compendium.world.de-ars-virtues.Item.oIil0LINTtyjWPnj",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.labActivities.learnSpell",
+          "value": "6",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "labActivity"
+          ],
+          "subtype": [
+            "learnSpell"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Lab bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "4IsNcnYNpRpMIE9a",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": 1729318855384,
+        "modifiedTime": 1729318892509,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!items.effects!oIil0LINTtyjWPnj.4IsNcnYNpRpMIE9a"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW226751177 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW226751177 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW226751177 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: WordVisi_MSFontService, Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">You digest the instruction of others quite easily. You get a +6 bonus to Lab Totals when working from the lab texts of others, including when reinventing spells.</span></span><span style=\"font-family: WordVisiPilcrow_MSFontService, Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "adept-laboratory-student",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.3",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729586609792,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "oIil0LINTtyjWPnj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!oIil0LINTtyjWPnj"
+}

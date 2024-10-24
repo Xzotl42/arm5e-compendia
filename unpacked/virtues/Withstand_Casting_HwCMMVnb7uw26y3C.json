@@ -1,0 +1,46 @@
+{
+  "name": "Withstand Casting",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW174032314 BCX2\" style=\"direction: ltr;\"><div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW200612891 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW200612891 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW200612891 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"b1d8bc09-e92a-488d-b131-0ea130f7b11a|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">If a magus has this </span></span><span class=\"NormalTextRun SCXW200612891 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">Virtue, then whenever he is about to lose Fatigue from casting a spell, he loses 1 less Fatigue level than normal, with a minimum of 1 Fatigue level — but if the spell would have been cast without Fatigue loss, then he still loses no Fatigue. </span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW200612891 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW200612891 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW200612891 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">A magus may take the Virtue more than once, and withstand 1 Fatigue level for each level of the Virtue, although the minimum Fatigue loss remains. If he has Withstand Casting (3), he may withstand up to 3 Fatigue levels lost, with a minimum of 1 level lost. </span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW200612891 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW200612891 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW200612891 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">The Virtue decreases the severity of the Fatigue lost in the exact manner of the existing Fatigue loss. Thus, if the magus casts a Formulaic spell, the Fatigue is short-term Fatigue, easily recovered, and if he runs out of Fatigue levels he is rendered unconscious, loss of extra Fatigue levels results in him being unconscious for one hour for each overflowing level, and the respite of Withstand Casting lessens this. If, on the other hand, he casts a Ritual spell, then the Fatigue is long-term Fatigue, and losing more Fatigue than he has remaining causes wounds — the respite of Withstand Casting reduces the severity of wounds, and this may result in him taking no wounds (with the minimum Fatigue lost rendering him unconscious). </span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW200612891 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW200612891 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW200612891 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">You may not start your character with both Vulnerable Casting and Withstand Casting. However, she may acquire both in the course of play (Withstand Casting from Initiation rituals or beneficial Twilight effects; Vulnerable Casting from Ordeals or bad Twilight effects). If this occurs, apply the extra loss from Vulnerability first, then withstand the increased loss. </span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div></div></div></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "withstand-casting",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729795538450,
+    "modifiedTime": 1729795724599,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "HwCMMVnb7uw26y3C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!HwCMMVnb7uw26y3C"
+}

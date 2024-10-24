@@ -1,0 +1,101 @@
+{
+  "name": "Shapeshifter",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "origin": "Compendium.arm5e.virtues.inDeFublocWDcUHX",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.shapeshifter.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "shapeshifter"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "TGXZRSMlTJTMKTIS",
+      "transfer": true,
+      "name": "xp bonus",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!inDeFublocWDcUHX.TGXZRSMlTJTMKTIS"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nh7mgwj6rq",
+      "path": "Virtues#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW264085609 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW264085609 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW264085609 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"b1d8bc09-e92a-488d-b131-0ea130f7b11a|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">You may change your shape into that of one or more mundane animals. Choosing this </span></span><span class=\"NormalTextRun SCXW264085609 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">Virtue confers the Ability Shapeshifter 1 (page @@).</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "shapeshifter",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729795659044,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "Sym94leLiWXQ3Rh9",
+  "_id": "inDeFublocWDcUHX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!inDeFublocWDcUHX"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Boosted Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW177167601 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW177167601 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW177167601 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"5a36acb2-12ef-4854-81b3-2dc8f29e2832|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">By spending a pawn of vis when casting Formulaic </span></span><span class=\"NormalTextRun SCXW177167601 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">spells you may “boost” the Range, Duration, Target, or size of the effect by one magnitude. You can do this multiple times for the same spell. For example, boosting Range from Touch to Sight and Target from Individual to Group would cost you four pawns of vis. You may not reduce any of the parameters of the spell, nor may you exceed the limits of Formulaic magic. </span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">Casting success, Fatigue loss, and Penetration are all calculated based on the original level of the spell, but you do add one additional botch die for each pawn of vis used. </span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">This has no effect on Spontaneous or Ritual spells, though you can still use vis to boost your Penetration as normal.</span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "boosted-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729365125808,
+    "modifiedTime": 1729795724480,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "G4qyYgh1bGWcrgLY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!G4qyYgh1bGWcrgLY"
+}

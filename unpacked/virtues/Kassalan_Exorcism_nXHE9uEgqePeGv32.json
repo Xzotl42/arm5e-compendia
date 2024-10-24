@@ -1,0 +1,46 @@
+{
+  "name": "Kassalan Exorcism",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"OutlineElement Ltr SCXW59258563 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW59258563 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW59258563 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">You </span></span><span class=\"NormalTextRun SCXW59258563 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">are capable of performing minor exorcism spells through your knowledge of the rites of the Mortuary Society of Kassala in Alodia, the most remote of the three Nubian kingdoms on the southern reaches of the Nile. You can cast spells in a very limited focus, namely wards against ghosts and the physical dead (using the Rego Corpus or Rego Mentem guidelines), and spells to strip Might from these same beings (using the Perdo Vim guidelines). You cannot create spells that affect other spirits or creatures who are not the walking dead, but your spells are equally effective against creatures from any Realm. Wards created with this Virtue need not be circular, but can instead block the threshold(s) of a room; this is still treated as a Duration: Ring, Target: Circle spell for level calculations. </span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW59258563 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW59258563 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW59258563 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">To cast a spell you must expend a Fatigue level, whether the spell succeeds or fails. You must also spend at least 5 minutes preparing the spell, during which time you need unbroken concentration and expend one handful of Kassalan Dust. The spell is designed exactly like a Hermetic spell; if affecting a ghost you must be able to sense your target. Your Casting Total is equal to (Stamina + Organization Lore: Mortuary Society + Aura modifier + stress die) / 2. Penetration is calculated in the normal fashion: Casting Total – Spell Level + Penetration modifiers. Kassalan Exorcism is aligned to the Magic Realm.<br>See also \"Kassalan Dust\" page @@</span></span></p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "kassalan-exorcism",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729590795902,
+    "modifiedTime": 1729795726713,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "nXHE9uEgqePeGv32",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!nXHE9uEgqePeGv32"
+}

@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.9.7
+
+### Compendia content
+
+- Virtues - 1st version
+
 ## Version 0.9.6
 
 - Improved compendium stats macro

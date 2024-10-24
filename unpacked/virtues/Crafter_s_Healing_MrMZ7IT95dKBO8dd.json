@@ -1,0 +1,46 @@
+{
+  "name": "Crafter’s Healing",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p><span class=\"NormalTextRun SCXW167441858 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"2ed15b52-7773-4ee3-b93d-e7ada26e7fc4|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">Like the smiths of ancient lore, the character can magically heal wounds by touching them with the tools of his trade. This is a rare and mysterious power that Hermetic magi cannot understand or duplicate, and it is common for this Virtue to follow familial bloodlines. Selecting this Virtue gives the character the Crafter’s Healing Ability at a score of 1.</span></span></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "crafters-healing",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729445061251,
+    "modifiedTime": 1729795725014,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "MrMZ7IT95dKBO8dd",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MrMZ7IT95dKBO8dd"
+}

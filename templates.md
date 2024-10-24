@@ -13,17 +13,16 @@
 
 ### Bug fixes
 
-### Compendia changelog
+### Compendia content
 
-- abilities
-- boons
-- equipment - Update
-- flaws
-- hooks
-- journals
-- laboratory-flaws
-- laboratory-virtues
-- macros
-- rolltables
-- spells
-- virtues
+- Abilities
+- Covenant - Boons
+- Covenant - Hooks
+- Equipment - Update
+- Flaws
+- Journals
+- Laboratory- Flaws
+- Laboratory- Virtues - 1st version
+- Spells
+  - Animal - 1st version
+- Virtues

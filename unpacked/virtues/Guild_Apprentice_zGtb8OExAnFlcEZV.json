@@ -1,0 +1,111 @@
+{
+  "name": "Guild Apprentice",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [
+    {
+      "_id": "bilD3QUxzUDAjaDz",
+      "changes": [
+        {
+          "key": "system.bonuses.activities.training",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.activities.teaching",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.imAvDTVdtOdGXMKR",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities",
+            "activities"
+          ],
+          "subtype": [
+            "training",
+            "teaching"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "name": "Apt student",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!zGtb8OExAnFlcEZV.bilD3QUxzUDAjaDz"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW21807085 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW21807085 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW21807085 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"2ed15b52-7773-4ee3-b93d-e7ada26e7fc4|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">The character is a youth between the ages of 10 and 20 who is learning his trade from a guild master or journeyman. He has </span></span><span class=\"NormalTextRun SCXW21807085 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">entered into a contract with his master that guarantees his training. The character is not able to benefit from either the Poor Flaw or the Wealthy Virtue, since he is essentially the property of his master, until he moves to the journeyman rank. Most of his time is spent in ways determined by his master.</span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div></div>",
+    "source": "ArM5Def",
+    "page": 40,
+    "type": "socialWestern",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "guild-apprentice",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729512510227,
+    "modifiedTime": 1729795727294,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "Dlca5muDKIfBSi6F",
+  "_id": "zGtb8OExAnFlcEZV",
+  "sort": 3900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!zGtb8OExAnFlcEZV"
+}

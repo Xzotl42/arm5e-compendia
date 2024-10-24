@@ -1,0 +1,45 @@
+{
+  "name": "Priest",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_kuhc1tso94g",
+      "path": "Virtues#/CF_SEP/Social Status",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW145705120 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW145705120 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW145705120 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"b1d8bc09-e92a-488d-b131-0ea130f7b11a|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">You ha</span></span><span class=\"NormalTextRun SCXW145705120 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">ve been ordained a priest, which means that you can carry out the sacraments of the Mass, Penance, and Extreme Unction. By your words, you can cause the Son of God to manifest in bread and wine. As a priest you come under the protection of canon law, meaning that you cannot be prosecuted by secular authorities. You are accorded considerable respect due to your position, and few people are willing to insult you.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW145705120 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW145705120 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW145705120 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">You may be a parish priest. If you are, you cannot take the Poor Flaw. Your normal duties involve hearing confession, preaching to your flock, and ministering to their spiritual needs. If you are Wealthy, your parish is rich enough to pay for a curate to do some of the work for you, and you may be a pluralist, holding the benefices of several parishes. Reform-minded churchmen do not approve of pluralism.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW145705120 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW145705120 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW145705120 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">If you are not a parish priest, t</span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">he Wealthy Virtue and Poor Flaw affect you normally. You may be employed as a curate to a parish priest, or a chaplain to a wealthy individual, or in any other capacity requiring education.</span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW145705120 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW145705120 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW145705120 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">You may purchase Academic Abilities during character generation. If you are a priest in the western Church, under the Pope in Rome, you would normally take the Minor Personality Flaw Vow (see page @@) as one of your normal Flaws, for your vow of celibacy. Priests in the eastern Church, under the Patriarchs in Constantinople and elsewhere, need not be celibate. This Virtue is only available to male characters, and is compatible with the Magister in Artibus Major Virtue, and with some other Virtues, as noted in their descriptions.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "social",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "priest",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729762393130,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "Dlca5muDKIfBSi6F",
+  "_id": "8ajAlNqJ5KxnhdYK",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!8ajAlNqJ5KxnhdYK"
+}

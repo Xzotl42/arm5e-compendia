@@ -1,0 +1,101 @@
+{
+  "name": "Strong Faerie Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "_id": "ghUg7E1TBNc4nCJZ",
+      "changes": [
+        {
+          "key": "system.realms.faeric.aligned",
+          "value": "true",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "faeric"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Fae aligned",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"b1d8bc09-e92a-488d-b131-0ea130f7b11a|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">The blood of the fay is strong in you. Perhaps one of your parents was </span></span><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">actually a faerie, or maybe you were conceived or born in a place of great faerie power. This ancestry grants you several abilities.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">First, you have natural longevity. You start making aging rolls at the age of fifty, rather than the normal 35, and get –3 to Aging Rolls, cumulative with any other bonuses.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">Second, you have faerie eyes. This gives you the Virtue Second Sight (see page @@) at no cost, and you can see normally in total darkness or semi-darkness, such as in deep woods or at night. Your eyes look mostly normal, but are an unusual and vivid color.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">Third, you may learn Faerie Lore during character generation.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">Finally, you get the benefits of a particular type of fay heritage, as given in the Virtue Faerie Blood (page @@). Your specific fay heritage is clearly visible. Choose one physical quirk, such as small horns, literally blue blood, or eyes without irises and pupils, appropriate to the faeries from which you are descended.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">You may not have both Faerie Blood and Strong Faerie Blood.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div><div class=\"OutlineElement Ltr SCXW157146662 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW157146662 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW157146662 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">This is a Supernatural Virtue, and you cannot lose it when being trained as a magus (see page @@). If your master cannot preserve the ability, you cannot be trained.</span></span><span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\"> </span></p></div></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "strong-faerie-blood",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1729779472985,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "Sym94leLiWXQ3Rh9",
+  "_id": "cyufl6WghNbW3tRn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!cyufl6WghNbW3tRn"
+}
