@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Enchantment of the Scrying Pool",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": true,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>Turns a body of water into a scrying pool. Innately magical people (including most companions with mystical powers) who look into the pool can see any spot they know of that is within sight of some natural body of water. The view you get is the same view that someone would have from a low boat on the water — either close to shore or far from shore, as desired. Maximum range for scrying is 500 miles; the range of the spell is the range to the pool when the spell is cast. This ritual is not entirely of Hermetic magic, and does not conform to the normal InAq guidelines. It is an old Mercurian ritual that has become known throughout the Order, and which appears to use one body of water as an Arcane Connection to any other body of water. A number of theoreticians would like to make that work more generally, but so far this has not proved possible.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "enchantment-of-the-scrying-pool",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.YAX7f6TmMthkZvMq",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799767,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "z3zehHIEr0AvySr9",
+  "sort": 0,
+  "_key": "!items!z3zehHIEr0AvySr9"
+}

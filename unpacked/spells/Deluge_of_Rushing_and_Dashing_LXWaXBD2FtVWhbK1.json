@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Deluge of Rushing and Dashing",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 3,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>Causes a stream to flood, starting at the stream's nearest point to you and continuing downstream. The results of this spell are generally quite impressive. As the stream overflows its original bed, it becomes a raging torrent, sucking in everything near it. Damage from the spell can last for many years.</p><p>As long as you concentrate, the stream remains at flood levels. Anyone caught near the stream when it floods is struck by the rush of water (+10 damage), caught up in the flood, and dragged along. Every round, a victim makes a Strength + Swim stress roll against an Ease Factor of 9. Success means the character escapes the flood. Otherwise, the character loses one Fatigue level and takes +5 damage. Any who fall unconscious drown. This roll is repeated until the character either escapes the flood or dies.</p><p></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "deluge-of-rushing-and-dashing",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.HWdOJfzIxyZxXlLP",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799568,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "LXWaXBD2FtVWhbK1",
+  "sort": 0,
+  "_key": "!items!LXWaXBD2FtVWhbK1"
+}

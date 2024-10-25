@@ -1,7 +1,7 @@
 {
   "name": "Hermetic Experience",
   "type": "virtue",
-  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
   "effects": [],
   "flags": {
     "core": {},
@@ -15,7 +15,7 @@
     "description": "<div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW64506833 BCX2\" style=\"direction: ltr;\"><div id=\"WACViewPanel_ClipboardElement\" class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover\" style=\"overflow: hidden; visibility: visible; direction: ltr;\" tabindex=\"0\"><div class=\"OutlineElement Ltr SCXW73726516 BCX2\" style=\"direction: ltr;\"><p class=\"Paragraph SCXW73726516 BCX2\" style=\"font-weight: normal; font-style: normal; vertical-align: baseline; background-color: transparent; color: windowtext; margin: 7.8px 0px 0px; padding-left: 0px; padding-right: 0px; text-indent: 0px\"><span class=\"NormalTextRun SCXW73726516 BCX2\" data-ccp-parastyle=\"Ars Magica Text\" data-ccp-parastyle-defn=\"{\"ObjectId\":\"2ed15b52-7773-4ee3-b93d-e7ada26e7fc4|221\",\"ClassId\":1073872969,\"Properties\":[469777841,\"Times New Roman\",469777843,\"Times New Roman\",469777844,\"Times New Roman\",469769226,\"Times New Roman\",268442635,\"24\",469777842,\"Times New Roman\",469775450,\"Ars Magica Text\",201340122,\"2\",134233614,\"true\",469778129,\"ArsMagicaText\",335572020,\"99\",335559738,\"117\",469778324,\"Normal\"]}\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">The character has experience with the magi of the Order of Hermes. Maybe he is currently employed by a covenant, once served in the retinue of a magus, or has had other dealings or disputes with them. In any case, you have an additional 50 experience points to spend on Order of Hermes Lore, Magic Lore, or Latin. You cannot spend other experience points on Magic Lore or Latin unless the character has another Virtue or Flaw permitting this. This Virtue may be taken by any grog or </span></span><span class=\"NormalTextRun SCXW73726516 BCX2\" data-ccp-parastyle=\"Ars Magica Text\"><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\">covenfolk, or those who have had an exceptionally close relationship with the Order of Hermes. It <em>may</em> be taken by a magus, but there is usually no point.</span></span><span style=\"font-family: Times New Roman, 'Times New Roman_EmbeddedFont', 'Times New Roman_MSFontService', serif\"> </span></p></div></div></div></div>",
     "source": "ArM5Def",
     "page": 0,
-    "type": "hermetic",
+    "type": "general",
     "impact": {
       "value": "minor"
     },
@@ -32,12 +32,12 @@
     "systemId": "arm5e",
     "systemVersion": "2.3.2.4",
     "createdTime": 1729512778539,
-    "modifiedTime": 1729795725339,
+    "modifiedTime": 1729832536590,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "folder": "C8jqPqfblXk6hGCE",
+  "folder": "jegZHVtv21smauPD",
   "_id": "QCnvZ3e7BB4c6Oiv",
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "6SdI10VpXHcBvx2J": 3

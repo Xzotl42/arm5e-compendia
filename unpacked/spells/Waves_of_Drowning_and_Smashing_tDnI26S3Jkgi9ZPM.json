@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Waves of Drowning and Smashing",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 1,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>Raises a wave 5 feet high and 30 paces wide, which can submerge swimmers, overturn rowboats, and damage sailing ships. It starts as a small, curved wave and grows for the first 10 paces, at which point it reaches maximum size. If it travels 100 paces without striking an object large enough to break it up, it dissipates.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "waves-of-drowning-and-smashing",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.oIJnKvoW3aEaAiZ6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799740,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "tDnI26S3Jkgi9ZPM",
+  "sort": 0,
+  "_key": "!items!tDnI26S3Jkgi9ZPM"
+}

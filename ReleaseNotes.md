@@ -4,7 +4,12 @@
 
 ### Compendia content
 
-- Virtues - 1st version
+- Equipment - V2
+- Virtues - V1 - NEW
+- Spells
+  - Animal - V1
+  - Aquam (DE only) V1 - NEW
+- Laboratory-virtues - V1
 
 ## Version 0.9.6
 

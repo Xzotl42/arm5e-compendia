@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Neptune’s Wrath",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 3,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>A gigantic wave is created in a very large body of water. The wave, which is only 20 feet high but up to a mile wide, is capable of capsizing ships at sea, smashing and drowning people near shore, and seriously damaging coastline communities. The tidal wave needs 5 miles of water surface to build itself up to proper proportions. The magus cannot control the wave without casting another spell.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "neptunes-wrath",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.BX85CBgkKZMM0tJD",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799623,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "UW96uaUG5iWghqsY",
+  "sort": 0,
+  "_key": "!items!UW96uaUG5iWghqsY"
+}

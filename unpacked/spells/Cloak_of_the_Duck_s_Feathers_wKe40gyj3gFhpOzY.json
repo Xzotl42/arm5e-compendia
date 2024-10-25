@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Cloak of the Duck’s Feathers",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Makes water run off one object or creature, protecting the target and the target’s apparel from dampness. The spell is broken if the target is submerged in water.",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "cloak-of-the-ducks-feathers",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.lKgV6rT8KYZIRRcf",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799758,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "wKe40gyj3gFhpOzY",
+  "sort": 0,
+  "_key": "!items!wKe40gyj3gFhpOzY"
+}

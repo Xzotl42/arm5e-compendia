@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Ice of Drowning",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 1,
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>Turns part of the water in a circle 10 paces across into large, jagged chunks of ice and drives them to pound against anything on the water's surface. The ice can punch holes in small boats but does not damage ships. Any swimmers in the area take +15 damage, and suffer –6 and two extra botch checks on Swim rolls.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "ice-of-drowning",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.MsqTbq080T3pGR0u",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "7eC6Zadzy0nOTzcV",
+  "sort": 0,
+  "_key": "!items!7eC6Zadzy0nOTzcV"
+}

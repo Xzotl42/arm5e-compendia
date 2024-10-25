@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Bridge of Frost",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 1,
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>Causes a thick layer of frost (firm enough to walk on) to form on the surface of a body of water. The frost can take any shape up to fifteen paces in any direction.</p><p class=\"ArsMagicaText\">In Cralian of Tremere's version of this spell, the frost is so crystal clear that it can hardly be seen. All of his spells are very subtle.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "bridge-of-frost",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.bcMMdMSq9FaRixdf",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799749,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "tzNzqes6kM0oSJXL",
+  "sort": 0,
+  "_key": "!items!tzNzqes6kM0oSJXL"
+}

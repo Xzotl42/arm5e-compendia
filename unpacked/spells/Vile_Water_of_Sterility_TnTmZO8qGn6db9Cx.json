@@ -1,0 +1,80 @@
+{
+  "type": "spell",
+  "name": "Vile Water of Sterility",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "group"
+    },
+    "targetSize": 2,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "<p>Ruins a body of water up to the size of a small lake, making it unfit for natural habitation and consumption. The water becomes dark and murky, and noxious fumes emanate from it. Vegetation on the banks either dies or becomes corrupt. Nearby trees become gnarled and blackened, and land animals flee the area.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "vile-water-of-sterility",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "KelpTheShark"
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-aquam.Item.SBc4swCHru9pqXi3",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.4",
+    "createdTime": 1729835678720,
+    "modifiedTime": 1729835799612,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "U1PQp4E5HVBU8pTj",
+  "_id": "TnTmZO8qGn6db9Cx",
+  "sort": 0,
+  "_key": "!items!TnTmZO8qGn6db9Cx"
+}
