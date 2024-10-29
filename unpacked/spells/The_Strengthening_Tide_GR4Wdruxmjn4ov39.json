@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Strengthening Tide",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 3,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell makes the movement of the tides more extreme throughout a port or natural bay, forcing them to rise higher and fall lower, and with greater speed. The effects are to impose a — 1 penalty to all swimming and sea-faring rolls and totals along the affected coast.\nBy observing the motion of the tides for a season or more in conjunction with the brightness of the moon, the magus gains insight into the effect that heavenly aether has upon the aether resident within the oceans. By replicating and strengthening that effect across the Moon Duration, the magus learns more about how aether behaves.",
+    "source": "Dies",
+    "page": 41,
+    "indexKey": "the-strengthening-tide",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233532853,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "GR4Wdruxmjn4ov39",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!GR4Wdruxmjn4ov39"
+}

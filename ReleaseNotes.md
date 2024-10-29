@@ -5,6 +5,8 @@
 - Added compendium data from the standard edition
 
   - Abilities
+  - Spells
+    - Aquam
 
 - New macros for troubleshooting
 - New Credits page

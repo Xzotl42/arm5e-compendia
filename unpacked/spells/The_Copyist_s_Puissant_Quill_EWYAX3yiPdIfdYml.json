@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Copyist’s Puissant Quill",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This craft magic spell causes prepared ink to form words and images on a page. The ink is overlaid on guidelines already present on the page, such as chalk or charcoal sketches left by a copyist, or the result of a spell such as The First Furrow Guides the Second. The Group Target permits multiple colors of ink to be employed. The spell does not distinguish between writing and illustrations, copying both with equal skill. The caster must make an Intelligence 4- Finesse roll to determine the accuracy of the spell’s copying. The Ease Factor is 9 for an easy piece of copying; for example, one color and no illustrations, typical of a book with a Quality of 6 or less. The Ease Factor is higher for more complex or detailed works typical of higher Quality; for a Quality of 7 to 9 the copying Ease Factor is 12, and for a Quality of 10 or more the Ease Factor is 15. If this roll fails, then the ink fails to form letters and simply makes a mess. A botch indicates that the text looks fine but is actually nonsensical, a flaw only discovered when the text is read for the first time; however, characters will not often be rolling stress die for this Finesse roll.\nVariants of this spell with higher Duration allow a magus to use this spell to make patterns on the page that correspond to the caster’s words.",
+    "source": "TME",
+    "page": 100,
+    "indexKey": "the-copyists-puissant-quill",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233532841,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "EWYAX3yiPdIfdYml",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!EWYAX3yiPdIfdYml"
+}

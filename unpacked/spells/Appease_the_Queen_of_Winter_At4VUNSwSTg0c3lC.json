@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Appease the Queen of Winter",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Propitiates the Queen of Winter, who then allows the Baltic Sea to thaw that year. Falke learned this spell with the assistance of the volkhvy of Arkona and a laboratory text in the possession of Crintera. If this spell is cast at Arkona (which Falke and magi of Crintera do every year), the Casting Total receives a bonus of + 10, due to the presence of the sun-god Svantovit, who is opposed to the Queen of Winter.",
+    "source": "GotF",
+    "page": 96,
+    "indexKey": "appease-the-queen-of-winter",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233532803,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "At4VUNSwSTg0c3lC",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!At4VUNSwSTg0c3lC"
+}

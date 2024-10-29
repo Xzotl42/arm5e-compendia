@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Tower of Lava",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 6,
+    "complexity": 3,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell sculpts a tower out of hot bubbling lava. The resulting tower is solid and rigid, but if its foundations remain in lava, then the tower will dissolve back into the bulk within a day. The Part target is required, because the spell does not use all the available lava.\nThe tower is about the same size and dimensions as the one created by the spell Conjuring the Mystic Tower (see Ars Magica Fifth Edition, page 153). A Finesse roll against an Ease Factor of 15 is required to ensure that the tower is well made; failure means that the lava takes a solid but malformed shape[].",
+    "source": "HP",
+    "page": 19,
+    "indexKey": "tower-of-lava",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233532711,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "3G7vvaJd7LugBXFX",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!3G7vvaJd7LugBXFX"
+}

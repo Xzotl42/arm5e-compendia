@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Becalmed Harbor",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 3,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This project removes the naturally-occurring aether from within the waters of a harbor or bay. In doing so, the aether in the heavens is unable to influence the motion of the waters and all tides stop throughout the Moon Duration. The ocean neither rises nor falls as before, but rather retains the level at the point it occupies when the ritual concludes.",
+    "source": "Dies",
+    "page": 41,
+    "indexKey": "the-becalmed-harbor",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233533419,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "t2KEAQxOR09fsiHV",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!t2KEAQxOR09fsiHV"
+}

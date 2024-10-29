@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Rarefy the Crude Water",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 25,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual spell rarefies a base amount of water (up to a pool of 5 paces diameter and 2 paces deep) to bring a water elemental into existence. At its maximum size, the elemental has a Might of 15 and a Size of 0, but smaller bodies of water will yield smaller elementals. The character guides given later in the chapter describe typical elementals created by this spell. For larger (and thus more powerful) elementals, this spell must be invented with a Size modifier to the target, with each application of the modifier giving +3 Size. Since Size determines Might (see later), 1 extra size magnitude gives an elemental a Might of 20 (Size +3), 2 a Might of 25 (Size +6), etc. This spell doesn’t need to penetrate the Might of the elemental instantiated; until the completion of the spell, the elemental doesn’t exist.",
+    "source": "RoP:M",
+    "page": 133,
+    "indexKey": "rarefy-the-crude-water",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233533350,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "qB8mwKbnfKEjVJAs",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!qB8mwKbnfKEjVJAs"
+}

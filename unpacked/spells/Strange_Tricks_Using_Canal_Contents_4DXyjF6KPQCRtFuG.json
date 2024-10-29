@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Strange Tricks Using Canal Contents",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell transforms the water in the canals of the island into another natural liquid. Oil, tar, turpentine, treacle, honey, wine, vinegar or whatever else suits the magus’ fancy is possible, save blood which requires a Corpus requisite.\nRemember to add further magnitudes to increase Boundary size.",
+    "source": "TME",
+    "page": 77,
+    "indexKey": "strange-tricks-using-canal-contents",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1730233532725,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "4DXyjF6KPQCRtFuG",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!4DXyjF6KPQCRtFuG"
+}
