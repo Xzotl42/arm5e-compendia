@@ -1,5 +1,16 @@
 # Release notes
 
+## Version 0.9.8
+
+- Added compendium data from the standard edition
+
+  - Abilities
+
+- New macros for troubleshooting
+- New Credits page
+
+### Compendia content
+
 ## Version 0.9.7
 
 ### Compendia content

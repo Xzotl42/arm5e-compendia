@@ -12,7 +12,7 @@
     }
   },
   "system": {
-    "description": "",
+    "description": "<p style=\"text-align: justify;\">You have the ability to find things nearby through the use of a dowsing rod (usually a forked stick) and your own intuitive sense. You concentrate on the thing to be found, hold your dowsing rod out in front of you, and follow its subtle motions to the target. If you're looking for something specific, you must have an appropriate sympathetic connection to the thing sought (such as bottled water from a stream when searching for running water). Before you roll, designate the area in which you are searching - if the item sought is not present in that area, you automatically fail. The time required to search depends on the size of the area, and must be invested whether you succeed or not. It takes about one Diameter (two minutes, or twenty combat rounds) to search for something within 25 paces, and doubling the distance quadruples the time. To find something common, like water, within 25 paces requires a Perception + Dowsing of 9+. Increased distances or dowsing for less common things increases the target number, so that, for example, finding gold within 100 paces would have an Ease Factor of 15.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> searching for a particular kind of thing (water, gold, etc.), searching in a particular kind of place. (Supernatural)</p>",
     "source": "ArM5",
     "page": 64,
     "defaultChaAb": "int",
@@ -21,15 +21,15 @@
     "key": "dowsing",
     "option": "",
     "realm": "magic",
-    "indexKey": "dowsing"
+    "indexKey": "downsing"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.12",
-    "coreVersion": "12.324",
+    "systemVersion": "2.2.2.19",
+    "coreVersion": "12.331",
     "createdTime": 1662235751892,
-    "modifiedTime": 1701812784244,
-    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "modifiedTime": 1696534780940,
+    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
     "duplicateSource": null
   },

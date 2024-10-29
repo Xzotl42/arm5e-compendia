@@ -1,7 +1,7 @@
 import { MergeTool } from "../../arm5e-compendia/scripts/MergeTool.js";
 import { ModuleGenerator } from "../../arm5e-compendia/scripts/ModuleGenerator.js";
 import { SanitizationTool } from "../../arm5e-compendia/scripts/SanitizationTool.js";
-import { CompendiumStats } from "./CompendiumStats.js";
+import { CompendiumStats } from "../../arm5e-compendia/scripts/CompendiumStats.js";
 import { FileTools } from "./FileTools.js";
 
 export class CompendiaUtils {

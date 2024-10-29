@@ -244,14 +244,10 @@ export class CompendiumStats extends FormApplication {
       if (doc.name.startsWith("#[CF")) continue;
 
       const updateData = {};
-      if (doc.system.source === "ArM5") continue;
+      let desc = $(doc.system.description);
 
-      if (doc.system.review_status == "toReview" && doc.system.general == false) {
-        updateData["system.reviewer"] = "TGGoHS";
-        updateData["system.review_status"] = "reviewed";
-        if (!dryrun) await doc.update(updateData);
-        count++;
-      }
+      // if (!dryrun) await doc.update(updateData);
+      count++;
     }
     console.log(`${count} document processed.`);
     if (wasLocked) {

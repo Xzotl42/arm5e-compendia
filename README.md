@@ -36,6 +36,10 @@ Big thanks to those who do!
 - It will serve as a template for your own shared compendia, with your own descriptions filled, in the language you prefer (see below for instructions)
 - A setting will allow you to choose the reference module to be used by the system (it will fallback to the system reference if something is missing).
 
+## Credits
+
+A lot of people contributed to the compendium content, you can find a list as exhaustive as possible [here](Credits.md)
+
 ## Usage
 
 Find below the different ways to use the module in incremental technical complexity. I recommand at least the "nobility" one for long term use.

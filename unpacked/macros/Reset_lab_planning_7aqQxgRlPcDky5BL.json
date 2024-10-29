@@ -1,0 +1,32 @@
+{
+  "name": "Reset lab planning",
+  "type": "script",
+  "scope": "global",
+  "author": "tBE5EmoIXLzf3maM",
+  "img": "icons/svg/card-joker.svg",
+  "command": "const tokens = canvas.tokens.controlled;\n\nif (tokens.length == 1 ){\n  await fixLab(tokens[0]);\n} else {\n  ui.notifications.info(\"No Tokens or too many tokens were selected\");\n}\n\nasync function fixLab(token){\n  if (!token.isOwner) {\n    ui.notifications.info(\"You don't own that token\");\n  }\n  let actorSheet = token.actor.sheet;\n  \n  await actorSheet._resetPlanning()\n  \n\n  ui.notifications.info(`${updated.length} items updated`);\n  \n}",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3,
+    "tBE5EmoIXLzf3maM": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Macro.FL254GFtSFOTzooP"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Macro.FL254GFtSFOTzooP",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730094485446,
+    "modifiedTime": 1730094485446,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM"
+  },
+  "folder": "qGZgdsZ3cZpILlVt",
+  "_id": "7aqQxgRlPcDky5BL",
+  "sort": 0,
+  "_key": "!macros!7aqQxgRlPcDky5BL"
+}
