@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Curse of the Unportended Plague",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 20,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Starts a plague in a city or other Boundary. Everyone within the boundary is afflicted with the disease when the ritual is complete, and suffers as described under Curse of the Leprous Flesh, above. The conditions causing the disease last but a moment, so people entering the area after the spell is cast are safe. Using, or even transcribing, this spell is rigorously discouraged by most of the Order of Hermes. (Note: the disease caused by this spell is not the later Bubonic Plague, which is unknown in Europe in 1220.)",
+    "source": "ArM5",
+    "page": 133,
+    "indexKey": "curse-of-the-unportended-plague",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "7d9e8xrDup9IKYwY",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!7d9e8xrDup9IKYwY"
+}

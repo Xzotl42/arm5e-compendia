@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Blessing of Artemis’ Fertility",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 20,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Increases the fertility of all within the boundary, even if they were not present at the completion of the ritual. As with the spell Artemis ’ Fertility, no other magus believes that this spell works as anything other than a giant waste of precious Creo and Corpus vis.\nAurulentus points out that at his Covenant a higher than average rate of births is apparent, but most magi believe this to be merely a fluke. Other magi theorise that the mundanes are influenced by the fact that the magi have many children, and thus also act in a promiscuous way. So far, no-one has been able to replicate the spell, although Aurulentus gives copies of the Lab Texts of the spell freely to anyone asking for them.",
+    "source": "MoH",
+    "page": 21,
+    "indexKey": "blessing-of-artemis-fertility",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "3CMqn0sfvE3Oqp9F",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!3CMqn0sfvE3Oqp9F"
+}

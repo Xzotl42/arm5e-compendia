@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Physician’s Eye",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Determines the general health of a single person. Specific afflictions appear to you as areas of yellow coloration on the person’s body. A Perception + Medicine stress roll is required to identify unusual diseases. The Ease Factor is determined by the rarity of the disease.",
+    "source": "ArM5",
+    "page": 130,
+    "indexKey": "physicians-eye",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "xk5U2IrvFWvgKlVF",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!xk5U2IrvFWvgKlVF"
+}

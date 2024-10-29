@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Retreat Into the Shell of Shadow",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster instantly transports himself to any location he can see, not more than 50 paces distant. A puff of black, quickly dis solving vapor is all that is left behind once the caster vanishes and reappears at the destination. If the initial point or endpoint of the leap is Warded, or if the caster’s magic is resisted, that resistance must be overcome much the same as when targeting a Warded area (see Aegis of the Hearth, Ars Magica Fifth Edition, page 161). Tolides developed this spell to retreat into the shadow of a dark corner. If the endpoint of the transportation is exposed to unclouded daylight, Tolides must make a Concentration roll against an Ease Factor of 9 to gracefully reach his destination. A failure usually means that he tumbles and falls, is disorientated, or is enfeebled, whereas a botch calls for more-dramatic results to reflect his malediction. Note that this quirk is not a flaw of the spell, but an effect of Tolides’ Susceptibility to Sunlight.",
+    "source": "MoH",
+    "page": 131,
+    "indexKey": "retreat-into-the-shell-of-shadow",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "YlMdzBb4aqFFuUFX",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!YlMdzBb4aqFFuUFX"
+}

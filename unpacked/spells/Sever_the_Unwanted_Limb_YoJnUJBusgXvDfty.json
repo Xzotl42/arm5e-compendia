@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Sever the Unwanted Limb",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 20,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "One of the target’s limbs is amputated cleanly and painlessly, without bleeding. The amputation requires an Intelligence + Finesse roll against an Ease Factor of 12; failure indicates that the target is left intact. If this roll succeeds, the target acquires the Lame or Missing Hand Flaw. If used instead of surgical intervention, the patient’s failed Recovery roll is treated as a stable result instead.",
+    "source": "A&A",
+    "page": 60,
+    "indexKey": "sever-the-unwanted-limb",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "YoJnUJBusgXvDfty",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!YoJnUJBusgXvDfty"
+}

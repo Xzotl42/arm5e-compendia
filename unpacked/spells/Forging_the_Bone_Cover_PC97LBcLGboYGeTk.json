@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Forging the Bone Cover",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell changes the inelastic nature of bone, making it elastic and able to be reshaped under pressure. The skull becomes as pliable as clay for the duration of the spell. Once this spell is cast, a human skull can be pressed into a book-shaped wooden frame. When the spell ends, the skull reverts to its inelastic property, but retains its new shape. If later used in an enchanted item, the reshaped skull still gives the magus the same Shape & Material bonus (Ars Magica Fifth Edition, page 110).\nBase Level Interpretation: A base level 1 Muto Terram spell will change one property of dirt. The base level to create dirt is Creo Terram 1, and the base level to create stone is base level 3. A base level 3 Muto Terram would change one property of stone. Bone is harder than dirt but softer than stone, so a base level 1 would not be enough, but base level 3 would. Thus: Muto Corpus base level 3, change one property of bone.",
+    "source": "HP",
+    "page": 103,
+    "indexKey": "forging-the-bone-cover",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "PC97LBcLGboYGeTk",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!PC97LBcLGboYGeTk"
+}

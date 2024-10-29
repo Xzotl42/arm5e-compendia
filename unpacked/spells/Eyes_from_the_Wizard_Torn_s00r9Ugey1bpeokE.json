@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Eyes from the Wizard Torn",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 2,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": true,
+      "mu": false,
+      "pe": false,
+      "re": true
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": true,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This macabre variation on Image from the Wizard Torn and Prying Eyes actually removes the caster’s eyes and has them fly to the location of interest where they transmit the information that they see. At the end of the spell, the caster’s eyes are restored to their proper place. This spell did not result in a breakthrough, although Marcus has found it useful. The Rego requisite is required to allow the eyes to fly, but does not incur additional magnitudes.",
+    "source": "MoH",
+    "page": 84,
+    "indexKey": "eyes-from-the-wizard-torn",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "s00r9Ugey1bpeokE",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!s00r9Ugey1bpeokE"
+}

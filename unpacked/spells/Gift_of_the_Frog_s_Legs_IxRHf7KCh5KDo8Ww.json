@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Gift of the Frog’s Legs",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Allows the target to leap up to 15 feet vertically or 25 feet horizontally (2 feet less for every Encumbrance point). The person must make a Dexterity - Encumbrance stress roll of 0+ to land without injury. A miss indicates that he takes a Light Wound, and a botch indicates a Medium Wound. The target can only leap once for each casting of the spell, and that leap must be made within ten seconds. As with a frog’s leap, a running start does not improve the leap.",
+    "source": "ArM5",
+    "page": 134,
+    "indexKey": "gift-of-the-frogs-legs",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "IxRHf7KCh5KDo8Ww",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!IxRHf7KCh5KDo8Ww"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Spirit of the Bull of Minos",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": true,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "During the casting of this ritual spell, the target’s heart is cut out and replaced with the heart of a bull. The surgery causes no damage as long as the spell is cast correctly, and it grants the target the Reserves of Strength Virtue throughout the duration of the spell. At the end of the year, the caster can replace the original heart of the target with no ill effects if it has been preserved sufficiently well. If this is not done, the target dies.\nThis spell results from an Insight (see Ancient Magic, pages 8-9) Marcus received after investigating the catacombs under the ruined palace of Knossos. There he found ritual objects belonging to the Minoan Cult of the Bull who practiced a magic similar to that he was trying to achieve. His ability to read the memories of a sacrificial knife (thanks to the third station of the Path of Seeming, see Houses of Hermes: Mystery Cults, pages 64-65) gave him the requisite insight to allow him to invent this non-standard spell. He has created an enchanted item called a Canopic Jar to preserve the heart of his experimental subjects (see Enchantments, below).",
+    "source": "MoH",
+    "page": 84,
+    "indexKey": "spirit-of-the-bull-of-minos",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "WeTuxDMfWg4VaiCt",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!WeTuxDMfWg4VaiCt"
+}

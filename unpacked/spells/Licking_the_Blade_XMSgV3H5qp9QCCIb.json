@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Licking the Blade",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 25,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "When casting this spell, the caster holds a glass phial in one hand. When cast, the spell instantly transports a quantity of spilled blood that the caster can see and is within one league (3 miles) into the phial. The blood can be used as a +3 Arcane Connection to the character(s) from which it came. The Arcane Connection lasts for years (see Ars Magica Fifth Edition, page 84).\nIf the blood comes from a mixture of individuals, it must be sorted using a spell such as Division According to Blood before it can be used as an Arcane Connection. The exception is that the unsorted blood can be used as an Arcane Connection for effects that use a Group target to affect the entire group from which the blood came.\nThis spell works because once the blood of a character has been spilled, it does not inherit the character’s Magic Resistance. Versions of this spell that instantly transport the blood a shorter (or longer) distance can obviously be invented. The blood might be spilled by a spell effect such as Crystal Rain, or it might be spilled via mundane means such as a sword blow or a punch in the face.\nThe caster may require some sort of enhancement to his senses (such as Eyes of the Hawk) to target the spilled blood at the extremes of the range of this spell.",
+    "source": "HP",
+    "page": 87,
+    "indexKey": "licking-the-blade",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "XMSgV3H5qp9QCCIb",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!XMSgV3H5qp9QCCIb"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Tireless Flight",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The target feels no fatigue for the duration of the spell, allowing her to endure a long journey without rest or sleep. She may also ignore hunger and thirst, and if she is injured she does not feel the pain. Practically speaking, she may ignore all Fatigue and wound penalties. However, this effect only masks the feeling, it doesn’t actually replenish her energy, so she still must actually eat and drink to avoid starving to death, and if she pushes herself too hard she may cause herself serious injury (Fatigue levels past Unconscious become Light wounds). The spell is tethered so that the target can control the effect, allowing her to stop concentrating when she has reached her destination and has time to recover. It is also boosted so that the duration may be extended to as much as a month if necessary, and harnessed so that the target can still cancel it at will.",
+    "source": "HoH:TL",
+    "page": 102,
+    "indexKey": "the-tireless-flight",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "gA7tF9sSLqOySQPd",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!gA7tF9sSLqOySQPd"
+}

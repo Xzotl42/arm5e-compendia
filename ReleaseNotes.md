@@ -8,6 +8,7 @@
   - Spells
     - Aquam
     - Auram
+    - Corpus
 
 - New macros for troubleshooting
 - New Credits page

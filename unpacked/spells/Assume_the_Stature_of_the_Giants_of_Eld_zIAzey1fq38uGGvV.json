@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Assume the Stature of the Giants of Eld",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 1,
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Adds +3 to the caster’s normal Size, turning him into a veritable giant. The caster’s clothing, armor, and weapons are also increased in size in proportion. Characteristics are not affected by the size change, but the caster’s wound ranges change accordingly: at Size +3, the caster’s wounds have eight-point increments (1-8 points for a Light Wound, 9-16 for a Medium Wound, and so forth). Casting requisites of Animal, Herbam, and Terram are usually required to affect all the target’s equipment. A size modifier is required for this spell since the final size is ten times the mass of a base target for Corpus.",
+    "source": "MoH",
+    "page": 49,
+    "indexKey": "assume-the-stature-of-the-giants-of-eld",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "zIAzey1fq38uGGvV",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!zIAzey1fq38uGGvV"
+}

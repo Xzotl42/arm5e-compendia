@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Blood of My Enemy",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster of this spell eats a small piece of bread dipped in the blood of another character, although any Arcane Connection to the other character will work. The spell changes the blood of the character so that he becomes a blood relative of the character from whom the consumed blood came. This effect only lasts for the duration of this spell. This does not stop the character from also being a blood relative to his natural relations. Being a blood relative is worth a +1 Sympathetic Connection (Ars Magica Fifth Edition, page 84).\nThis spell is possible because, although being a blood relative is a part of a character’s essential nature, Muto spells can violate a character’s essential nature (turn a man into a wolf, for example); the character’s true essential nature merely returns when the Muto spell ends.",
+    "source": "HP",
+    "page": 91,
+    "indexKey": "blood-of-my-enemy",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "yHtNYOq29SBZac0V",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!yHtNYOq29SBZac0V"
+}

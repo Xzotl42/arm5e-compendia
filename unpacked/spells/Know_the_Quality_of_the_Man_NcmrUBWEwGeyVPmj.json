@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Know the Quality of the Man",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster of this ritual gains information on the target’s location and the state of the humors within the target Individual, who must be present throughout the casting of the ritual, across the duration of a year. This allows the magus to record the changes in the target’s humors in response to celestial events and circumstances appropriate for their location. In doing so, the magus learns more about the effects of aether upon the humors, ultimately enough to detect the very aether itself once the final breakthrough has been made.",
+    "source": "Dies",
+    "page": 40,
+    "indexKey": "know-the-quality-of-the-man",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "NcmrUBWEwGeyVPmj",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!NcmrUBWEwGeyVPmj"
+}

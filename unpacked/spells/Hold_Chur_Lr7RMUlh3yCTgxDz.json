@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Hold Chur",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Holds the target completely motionless for the duration of the spell. In addition, the spell closes the eyes of the target and keeps them firmly shut, so that he is unable to see for the duration of the spell.\nChur is a troublesome grog of the covenant. A lesser version of this spell was used to stop him when he was doing mischief. Aurulentus soon realized that a more- powerful version would have many uses: as a combat spell, as a spell to act without witnesses, and as a spell to stop nosy mundanes. It was once used on a friendly grog who came under the influence of a mind control spell to stop him from attacking his group without harming him.",
+    "source": "MoH",
+    "page": 22,
+    "indexKey": "hold-chur",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Lr7RMUlh3yCTgxDz",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Lr7RMUlh3yCTgxDz"
+}

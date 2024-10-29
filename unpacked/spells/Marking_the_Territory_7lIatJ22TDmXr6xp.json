@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Marking the Territory",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "other"
+    },
+    "complexity": 2,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Anyone smelling the territory marked out by the caster’s scent (usually his urine) cannot enter the warded area for as long as the scent stays fresh, requiring the caster to renew it regularly. The spell manifests as a physical compulsion to turn back upon smelling the magus’s scent. This spell must penetrate successfully to bar passage to any intruder with Magic Resistance, assuming that the intruder is usually associated with the Form of Corpus. (Intruders associated with other Forms are not warded against in any way.)",
+    "source": "HoH:MC",
+    "page": 29,
+    "indexKey": "marking-the-territory",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "7lIatJ22TDmXr6xp",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!7lIatJ22TDmXr6xp"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Sight of the Molting Magus",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "sight"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell allows the caster to spot Corpus material (hair, blood, etc.) within his line of sight. Such material appears to glow with a reddish hue. The spell also allows the magus to estimate how long ago the item parted company from its owner by the brightness of the glow. This spell is used to place suspects in a particular time and place. The spell The Whole from the Part (see above) is often used to identify who the item belonged to.",
+    "source": "HoH:TL",
+    "page": 72,
+    "indexKey": "sight-of-the-molting-magus",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "uuUEjYeykCEgmWtl",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!uuUEjYeykCEgmWtl"
+}

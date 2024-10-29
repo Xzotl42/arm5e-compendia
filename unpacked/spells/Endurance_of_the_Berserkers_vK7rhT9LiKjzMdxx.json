@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Endurance of the Berserkers",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Your body acts as though it were unwounded and unfatigued for as long as you concentrate. Keep track of the actual Fatigue levels that the body loses while “berserk,” because as soon as the spell wears off, you lose those levels. If you run out of Fatigue levels, the spell terminates immediately and you fall unconscious. A character under the influence of this spell does risk worsening wounds, but he may not notice. Consecutive castings delay the end of the spell — that is, put off the time when accumulated wounds take effect — but a body can only take a number of consecutive castings equal to its Size + 2.",
+    "source": "ArM5",
+    "page": 134,
+    "indexKey": "endurance-of-the-berserkers",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "vK7rhT9LiKjzMdxx",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!vK7rhT9LiKjzMdxx"
+}

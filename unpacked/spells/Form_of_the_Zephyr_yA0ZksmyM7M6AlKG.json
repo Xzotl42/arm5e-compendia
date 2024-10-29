@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Form of the Zephyr",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 30,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": true,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Transforms the caster into a strong gale wind. She flies at 50 miles an hour, but can increase this speed to that of — violent storm wind — 75 miles per hour — by expending a Long Term Fatigue level. She can travel at this increased speed for no more than an hour without expending another Fatigue level. This ability to gust is intrinsic to the type of wind into which the caster turns, much as the Cloak of Mist (Ars Magica Fifth Edition, page 131) allows the caster to seep through cracks like natural mist. Note that because this spell turns the caster into a gale wind, she cannot travel any more slowly than 50 miles an hour. A different spell (of the same level) is needed to turn into a more gentle wind. The caster inhales a gust of wind to cast this spell, and can end the spell and transform back into human form by letting this captured wind free.\nWhile in the form of a wind, she can attempt to bowl over any object her size or smaller; this requires making roll of Strength + Concentration + stress die against the target’s Stamina + stress die. The defender may add Athletics to their roll if they are braced for the attack. If the caster’s roll exceeds her opponent’s, then the target is knocked off his feet and flung backwards one foot for every point of the difference. As a violent storm wind, the target is instead flung three feet per point of the difference. Falling damage (Ars Magica Fifth Edition page 181) is inflicted on those knocked over; hitting an obstruction before the full distance flung back is reached counts as falling onto a hard surface (such as a wall) or a soft surface (such as a haystack). Knocking over inanimate objects has an Ease Factor of 9 + (3 x its Size).",
+    "source": "TME",
+    "page": 113,
+    "indexKey": "form-of-the-zephyr",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "yA0ZksmyM7M6AlKG",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!yA0ZksmyM7M6AlKG"
+}

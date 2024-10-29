@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Silent Vigil",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 25,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "You can move into and become part of a rock formation that’s at least twice your size. While in the stone, you can hear what’s going on around you, but you can’t use other senses. The spell lasts until you come out, and you must come out where you went in. You have no need for food or drink, though you do age. Rolls to recover from Fatigue or wounds take twice as long to make while you are in the stone. Casting requisites are required for items you take with you into the stone.",
+    "source": "ArM5",
+    "page": 132,
+    "indexKey": "the-silent-vigil",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "d9ae6WV2CHn6cPUi",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!d9ae6WV2CHn6cPUi"
+}

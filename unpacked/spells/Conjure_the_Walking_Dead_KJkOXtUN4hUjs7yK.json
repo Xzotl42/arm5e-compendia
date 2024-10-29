@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Conjure the Walking Dead",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 45,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": true,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": true
+    },
+    "description": "This ritual creates — revenant — one of the magical walking dead. Different from an animated corpse, a revenant is a malefic creature with a Magic Might of 9. While it is lacking intelligence, a revenant possesses a violent personality and, if not immediately magically controlled, it attacks the nearest living creature. The Auram and Terram requisites are necessary for instilling the revenant’s magic powers.\nBase Level Interpretation: A level 10 Creo Animal spell creates the corpse of a mundane animal, while a base level 5 Creo Corpus spell creates a mundane human corpse. A level 50 Creo Animal spell will create a magical beast, meaning that a level 45 Creo Corpus spell will create a magical human.",
+    "source": "HP",
+    "page": 117,
+    "indexKey": "conjure-the-walking-dead",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "KJkOXtUN4hUjs7yK",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!KJkOXtUN4hUjs7yK"
+}

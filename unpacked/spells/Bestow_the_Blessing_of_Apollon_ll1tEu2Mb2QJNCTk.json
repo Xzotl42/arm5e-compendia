@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Bestow the Blessing of Apollon",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "room"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "All targets within the room gain a +18 bonus to Recovery rolls to recover from injuries or diseases, as long as they have been under the influence of this spell for the whole of the recovery interval. The recovery interval is counted from the time that the spell is cast or from the time the subject enters the room — whichever is later. Any previous time is ignored.\nThis spell was invented by Aurulentus as a proof of concept. It is no longer used, as it is too expensive in terms of vis and causes Warping. Instead, an Enchanted Item has been made with similar effects (see New Items: Bed of Rapid Convalescence).",
+    "source": "MoH",
+    "page": 21,
+    "indexKey": "bestow-the-blessing-of-apollon",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ll1tEu2Mb2QJNCTk",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ll1tEu2Mb2QJNCTk"
+}

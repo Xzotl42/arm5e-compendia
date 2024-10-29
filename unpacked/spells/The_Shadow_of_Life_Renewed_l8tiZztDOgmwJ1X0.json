@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Shadow of Life Renewed",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 70,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": true,
+      "te": false,
+      "vi": false
+    },
+    "description": "Brings a semblance of life to a corpse. During the ritual, healing spells work on the corpse, since the body must be physically whole or it dies again once brought to life. For each day the person has been dead, roll for aging.\nWhen the ritual is complete, roll to determine the success of the attempt: [TABLE] .\nIn any case, the revived person is not truly alive and is unable to gain experience points. Also, the person must make an aging roll at the beginning of each year of its existence, regardless of age. This is the closest that the Order has gotten to raising a person from the dead.",
+    "source": "ArM5",
+    "page": 129,
+    "indexKey": "the-shadow-of-life-renewed",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1730240398532,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "l8tiZztDOgmwJ1X0",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!l8tiZztDOgmwJ1X0"
+}
