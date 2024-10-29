@@ -7,6 +7,7 @@
   - Abilities
   - Spells
     - Aquam
+    - Auram
 
 - New macros for troubleshooting
 - New Credits page

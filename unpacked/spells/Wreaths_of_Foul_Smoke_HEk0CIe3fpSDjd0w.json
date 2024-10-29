@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Wreaths of Foul Smoke",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Thick, yellow, sulfurous smoke rises up from the spot you designate, spreading and thinning naturally, but thick enough to block sight in a radius of about five paces around the point of origin. For each round anyone breathes the smoke, a Stamina stress roll of 3+ must be made or a Fatigue level is lost. Once a character is Unconscious, further failed rolls result in the character taking a Light Wound each time. The area where the spell is cast will be damaged: small plants wilt and die, and tree growth is stunted. A faint stench of sulfur clings for days to anything exposed to the smoke.",
+    "source": "ArM5",
+    "page": 125,
+    "indexKey": "wreaths-of-foul-smoke",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239829534,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "HEk0CIe3fpSDjd0w",
+  "sort": 100002,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!HEk0CIe3fpSDjd0w"
+}

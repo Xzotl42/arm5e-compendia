@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Scent of Ash",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "smell"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster can smell and identify, on the breath of the air, the ash that has carried from volcanoes. This is enough information for the caster to determine the approximate direction and distance to each of the volcanoes he detects. A dormant volcano can be detected in this way from within one league (three miles), a volcano that has erupted within the last 100 years can be detected from within seven leagues (21 miles), and a volcano that has erupted in the last season can be detected from within 100 miles. Dormant volcanoes are detectable in this way because ash from their violent eruption is still present in the environment. The ash may have fallen to the ground, but some small (but detectable via Hermetic magic) fraction has been blown up into the air again.\nOf course, the huge plume of ash from a large on-going eruption can easily be identified without the aid of magic from many hundreds of miles away.",
+    "source": "HP",
+    "page": 12,
+    "indexKey": "scent-of-ash",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239814316,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "x9CLQoD73G07XvpX",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!x9CLQoD73G07XvpX"
+}

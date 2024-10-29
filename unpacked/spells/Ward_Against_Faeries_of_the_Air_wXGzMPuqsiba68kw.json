@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Ward Against Faeries of the Air",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "circle"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "As Ward Against Faeries of the Water (ReAq Gen), but for faeries of the air. The faerie cannot directly or indirectly break the magic circle, nor can they use ranged attacks or magic to affect those within it. From some angles at night, the ring may be seen as a violet-hued dome.",
+    "source": "ArM5",
+    "page": 128,
+    "indexKey": "ward-against-faeries-of-the-air",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239822176,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "wXGzMPuqsiba68kw",
+  "sort": 100196,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!wXGzMPuqsiba68kw"
+}

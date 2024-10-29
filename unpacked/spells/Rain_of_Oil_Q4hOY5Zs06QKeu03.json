@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Rain of Oil",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 5,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": true,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Turns rain into droplets of oil. The rain of oil continues as long as the storm does, drenching the landscape with flammable liquid. The oil will evaporate at a natural rate after the rain ceases. A Creo Ignem spell can ignite the storm so that the oil burns as it falls, but this requires a Group target large enough to catch all the raindrops. Lighting the oil after it has landed is much easier.",
+    "source": "ArM5",
+    "page": 128,
+    "indexKey": "rain-of-oil",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239814316,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "Q4hOY5Zs06QKeu03",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Q4hOY5Zs06QKeu03"
+}

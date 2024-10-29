@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Catapult of the Mighty Winds",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 2,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": true
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Terrifically strong winds sweep up an object (such as a barrel, a piece of furniture, or an unfortunate human being) and hurl it on a high, arched trajectory toward any point within range. If the projectile has Magic Resistance, this spell must penetrate in order to affect it. However, once the projectile is airborne, its motion is natural and hence it bypasses the Magic Resistance of anything it hits.\nYou must succeed at an aiming roll to hit the intended target. Because this spell gives the caster only indirect control of the projectile, the aiming roll suffers a -3 penalty and an extra botch die. The winds are strong enough to throw a grown man 20 feet into the air. Both the projectile and anything underneath it suffer damage when it crashes to earth: the damage is usually +10 but it could be less if the projectile is considerably lighter than an adult human.",
+    "source": "HoH:S",
+    "page": 35,
+    "indexKey": "catapult-of-the-mighty-winds",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239814316,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "bsXRTOqcYGF1Mob9",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!bsXRTOqcYGF1Mob9"
+}

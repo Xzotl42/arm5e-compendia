@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Curse of the Evil Humors",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Converts clean air into foul humors that can cause disease. The humors form a cloud about 20 paces across and ten paces high. They are invisible but foul-smelling and noxious. Characters who breathe the befouled air must make Stamina roll against an Ease Factor of 6 or contract malaria (roll once, the first time a character is exposed). This disease, whose name is Italian for “bad air,” causes a Medium Wound. Once a character has contracted the disease, further exposure to this spell has no effect.\nThe foul humors dissipate when the spell Duration expires. A brisk breeze can disperse the humors within two or three rounds, and strong winds make the spell unusable.",
+    "source": "HoH:S",
+    "page": 36,
+    "indexKey": "curse-of-the-evil-humors",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239816621,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "ClAJ32q5bGb8AZ7B",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ClAJ32q5bGb8AZ7B"
+}

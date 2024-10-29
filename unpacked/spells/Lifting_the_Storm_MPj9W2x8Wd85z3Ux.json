@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Lifting the Storm",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "au"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "group"
+    },
+    "targetSize": 2,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Poor weather can keep ships anchored in harbor for weeks, while their captains wait for the weather to turn. This spell controls even the strongest of storms, carving a channel through the weather through which ships can sail.\nNote that the spell is powerful enough to lift a storm across a harbor, but the effect is somewhat localized. This means that the weather may still be problematic out to sea, but at least the ships are able to safely leave the more treacherous inshore waters. The Sun duration allows multiple ships to sail under a single casting.",
+    "source": "HP",
+    "page": 74,
+    "indexKey": "lifting-the-storm",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/au.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730239712993,
+    "modifiedTime": 1730239814316,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "eh6ejLC7eDZ9R8Pp",
+  "_id": "MPj9W2x8Wd85z3Ux",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MPj9W2x8Wd85z3Ux"
+}
