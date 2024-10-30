@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Invoke the Pact of Zelos",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell represents the formation of a pact with Zelos, the Daimon of rivalry and contention. It targets a duplicate (called an Aspect) of Zelos, rather than the spirit itself, and if the spell penetrates the Aspect’s Might (see insert), that Aspect appears before the caster to perform a specific service. This spell does not exert any control over this spirit.\nWithout the Mystery Virtue of Hermetic Theurgy, this spell must have a level of at least 40 (twice the Might of the Daimon’s Aspect), and it usually needs to be cast using Wizard’s Communion, to achieve sufficient Penetration. As a spell adapted from non-Hermetic theurgic practices, it requires knowledge of a Mystery, or a Hermetic Breakthrough, to invent, although nontheurgist Hermetic magi can learn the spell from a Lab Text or from a teacher. Acquiring an Arcane Connection to a Daimon such as Zelos is no simple task, and may be the focus of a story in its own right.",
+    "source": "HoH:S",
+    "page": 100,
+    "indexKey": "invoke-the-pact-of-zelos",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "D27ekHoqM7Kbf7XT",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!D27ekHoqM7Kbf7XT"
+}

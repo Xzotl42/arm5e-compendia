@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Frosted Timber",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell cools the bark of a tree, the wood of a cart, or even the planks of a house so that it is cool to the touch. This a good effect to help dispel the heat of the night and keep the magus cool during the hotter seasons.",
+    "source": "MoH",
+    "page": 40,
+    "indexKey": "frosted-timber",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ryNwGKPJZzfgGPwr",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ryNwGKPJZzfgGPwr"
+}

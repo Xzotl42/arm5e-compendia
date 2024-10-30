@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Rapacious Hand of the Highwayman",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 2,
+    "complexity": 3,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Transports a wagon and its contents from within range to a location three miles away. An Intelligence + Finesse stress roll against an Ease Factor of 9 ensures that the wagon is deposited on all four wheels, otherwise it tips over upon landing and may spill its contents. Note that since this uses the Terram guidelines to transport non­living objects, anyone riding in the wagon is left behind. Without requisites, substantial amounts of liquid or animals are also left behind.\nThis spell has become commonly used in the Normandy Tribunal, where stealing the supplies of another covenant is not forbidden by the Peripheral Code and there is a culture of raiding the supply lines of one’s rivals.",
+    "source": "TME",
+    "page": 109,
+    "indexKey": "rapacious-hand-of-the-highwayman",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "eioxlGIiWlB1Zs6d",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!eioxlGIiWlB1Zs6d"
+}

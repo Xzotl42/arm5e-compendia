@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Shell of Opaque Mysteries",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell is similar to Shell of False Determinations (above), but it causes all attempts to investigate the magic item to utterly fail, unless the level of the ritual is exceeded by the magus’s Investigation roll. Once a magus determines the presence of a particular shell (that is, by overcoming it), it has no more power against him or her.",
+    "source": "ArM5",
+    "page": 157,
+    "indexKey": "shell-of-opaque-mysteries",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "8chLCT51DeWL4irZ",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!8chLCT51DeWL4irZ"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Circular Wall of Shields",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 2,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Up to twenty shields rise into the air and form a circle around the caster or anyone he designates. Up to ten people can stand within the circle, if they crowd together, but two shields are needed to give adequate defense to each person. The shields slowly rotate around the circle, providing total cover against missile weapons, and limited cover against melee attacks. The shields provide a Defense Total against melee attacks equal to the caster’s Perception + Finesse plus the Defense modifier of the shield in question. If a shield successfully defends against an attack, the base weapon damage is still inflicted directly on the shield. Each shield has a Soak of 3, and if it takes more than 10 points of damage in a single blow, the shield is destroyed and drops to the ground. Destroying shields leaves some individuals in the ring unprotected; but because the shields move, the undefended individuals change each round. If a person is protected by just one shield, then apply the Defense Total to missile attacks as well as melee attacks. From inside the ring, the shields can be plucked from the air; but once this is done, they cannot be replaced.",
+    "source": "MoH",
+    "page": 50,
+    "indexKey": "circular-wall-of-shields",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ii6y7sZwNa7dhUBe",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ii6y7sZwNa7dhUBe"
+}

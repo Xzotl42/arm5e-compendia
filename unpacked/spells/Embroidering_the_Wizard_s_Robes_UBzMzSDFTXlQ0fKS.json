@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Embroidering the Wizard’s Robes",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster traces out a design on a piece of cloth, and a piece of thread follows her finger and is embroidered into the cloth. A Finesse roll of Ease Factor 9 is required for simple designs, but a 12 is needed for intricate embroidery. Failure to achieve this Ease Factor results in a tangled mess that needs to be unpicked by hand. Julia often “signs” any cloth or clothes she makes using this spell.",
+    "source": "MoH",
+    "page": 58,
+    "indexKey": "embroidering-the-wizards-robes",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "UBzMzSDFTXlQ0fKS",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!UBzMzSDFTXlQ0fKS"
+}

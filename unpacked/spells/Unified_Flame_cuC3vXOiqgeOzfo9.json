@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Unified Flame",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell alters the target fires to resemble one another in all ways. The fires to be targeted by this spell must all be Arcane Connections to one another. The targeted fires change over the course of a few minutes to mirror one another completely in the shape of their flames, the sound of their roar and crackling, and the smoke that they produce. Any changes in one fire will be reflected in the others. The affected fires all take on a slightly unnatural appearance as their flames move into a configuration that does not completely match the logs that they are burning, and they are altered by the sigil of the casting wizard.\nWhen Ranulfs apprentice is away from him, the apprentice is instructed to kindle a fire using a coal stored in the Chest of the Ember Seed just after sunset every evening. While this spell is normally intended to unite two fires, the spell was designed with a Target of Group. Ranulf believed that the effort required to create a spell that affected just two fires would be as great as or greater than the work needed to develop a spell that targeted a group, because of the difficulty of using non-standard Targets. As a result, more than two fires can be affected by this spell, and the caster could be completely unaware of the additional fires (possibly allowing a communication to be intercepted, see Discourse of Glowing Tongues above).\nThis spell is an example of magic created to match the needs of the magus. For most magi, any number of Intellego spells would provide a significantly easier method of communication. Yet for Ranulf, who has a Magical Focus in unnatural fires and the Deficient Technique Flaw with Intellego, the season that he invested to invent this spell was a wiser choice than trying to learn magics not suited to his talents.",
+    "source": "MoH",
+    "page": 112,
+    "indexKey": "unified-flame",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "cuC3vXOiqgeOzfo9",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!cuC3vXOiqgeOzfo9"
+}

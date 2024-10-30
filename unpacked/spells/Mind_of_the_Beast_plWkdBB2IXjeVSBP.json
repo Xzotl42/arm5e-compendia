@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Mind of the Beast",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "eye"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": true,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "You turn the mind of the target into that of an animal of your choice. The victim acts and thinks like that animal as much as possible; a person who thinks he is a bird will try to fly, but will not be able to. This can be dangerous for the target.",
+    "source": "ArM5",
+    "page": 149,
+    "indexKey": "mind-of-the-beast",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "plWkdBB2IXjeVSBP",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!plWkdBB2IXjeVSBP"
+}

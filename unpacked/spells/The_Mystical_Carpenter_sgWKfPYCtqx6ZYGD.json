@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Mystical Carpenter",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The magus selects a pile of wood, and the spell cuts, splits, carves, and joins the wood into the desired form. Any nails needed must be supplied, but wooden dowels can be formed from the supplied wood.\nThe magus must make a Perception + Finesse roll to determine the success of the process, substituting for a Craft: Carpenter roll, and if this fails, the results is just a mess of chopped-up wood. The Ease Factor is at least 3 higher than a carpenter’s Craft roll would require, so the simplest basic items have an Ease Factor of 6, increasing as the task gets harder.\nIf the magus chooses inappropriate wood (such as green, unseasoned wood), the spell still acts — as if an unwilling carpenter worked against his better judgment — but the resulting goods will undoubtedly split and warp later. The magus’s choice of wood can be improved by The Carpenter's Keen Eye, or the advice of a real carpenter.",
+    "source": "Cov",
+    "page": 51,
+    "indexKey": "the-mystical-carpenter",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "sgWKfPYCtqx6ZYGD",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!sgWKfPYCtqx6ZYGD"
+}

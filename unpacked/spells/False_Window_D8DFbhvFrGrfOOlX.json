@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "False Window",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell allows the magus to trace the frame of a door or window and create a miniature that seems to show something that lies beyond the frame. A Perception + Finesse roll is required to craft a convincing illusion. The Ease Factor is 9 if the image seems to show a room, 12 if it seems to show a structure, or 15 if it seems to run to the horizon. These numbers already include the reduction for limiting the viewer’s line of sight, but could be reduced or increased by familiarity with the depicted scene.\nMany casters of False Window add an additional magnitude, so that figures within the image appear to move, and the pattern of light changes to suit the time of day, but this simpler version creates only a static image. This spell also models similar spells for the other senses: a mirror that plays a tune, provided its face is not turned toward a wall, is an example. Directly created species like these are resisted by the Parma Magica.\nNote: One level was added for Target: Individual in the source.",
+    "source": "HoH:S",
+    "page": 68,
+    "indexKey": "false-window",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "D8DFbhvFrGrfOOlX",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!D8DFbhvFrGrfOOlX"
+}

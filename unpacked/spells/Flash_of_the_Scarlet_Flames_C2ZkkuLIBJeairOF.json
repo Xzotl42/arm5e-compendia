@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Flash of the Scarlet Flames",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "A brilliant red flash explodes in the air where you designate. If you target a person’s face the target needs a Stamina stress roll of 9+ to avoid temporary blindness. If the target botches the roll, he is permanently blinded. If temporarily blinded, he can try to make a simple Stamina roll of 9+ each minute to recover. The flash is equivalent to looking straight at the sun.\nIn Rose of Jerbiton’s version of this spell, there is a faint odor of roses in the area where the flash explodes.",
+    "source": "ArM5",
+    "page": 140,
+    "indexKey": "flash-of-the-scarlet-flames",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "C2ZkkuLIBJeairOF",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!C2ZkkuLIBJeairOF"
+}

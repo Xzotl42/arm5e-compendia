@@ -9,6 +9,12 @@
     - Aquam
     - Auram
     - Corpus
+    - Herbam
+    - Ignem
+    - Imaginem
+    - Mentem
+    - Terram
+    - Vim
 
 - New macros for troubleshooting
 - New Credits page

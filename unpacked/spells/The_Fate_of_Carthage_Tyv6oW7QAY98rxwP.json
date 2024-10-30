@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Fate of Carthage",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Over the course of a season, any crops or livestock farmed on the affected land suffer as though being starved. Deprivation checks at three-day intervals may be unwieldy for use across the season, so it is reasonable to assume that harvests fail and livestock dies unless food is brought in from outside the affected area. As a rule of thumb, assume that the income from the affected land halves each season, with the effect being noticed after the first week. The effect is permanent and the soil cannot support life until healed in some way.\nThe base level of 5 is used as the spell is destroying only a single aspect of the soil, namely the ability to nourish crops and animals. The high vis cost of this ritual is compensated by the ability to strike unseen from afar.",
+    "source": "ToP",
+    "page": 126,
+    "indexKey": "the-fate-of-carthage",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Tyv6oW7QAY98rxwP",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Tyv6oW7QAY98rxwP"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Wealth of Croesus",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Creates 13,000 silver pennies, amounting to 650 Mythic Pounds. The magus’s sigil is incorporated into the design on the obverse and reverse of each coin. An Intelligence + Finesse roll allows the caster to match the design otherwise to that of a specific realm’s coinage; an Ease Factor of 9 means that only an expert would notice the difference. Note that the coins are made of unusually pure silver; even English silver — considered the purest in Mythic Europe — cannot match it in quality. Furthermore, coinage created with this spell is free from nicks, scratches, dents, and tarnish, and unlike a large proportion of coins in Mythic Europe, have not been clipped or divided to make change.",
+    "source": "TME",
+    "page": 117,
+    "indexKey": "the-wealth-of-croesus",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "WQImrSyKUkDECa7x",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!WQImrSyKUkDECa7x"
+}

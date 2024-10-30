@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Locus of the Literatus",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "With this spell, the caster creates a drawing of his location as a vestige, illuminated on a page inside a book that he carries with him. By casting this spell in several different places, the caster produces a map that may be used with InIm spells to travel more easily through the Magic Realm.",
+    "source": "RoP:M",
+    "page": 27,
+    "indexKey": "locus-of-the-literatus",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "mA03SVFR38tITBl1",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!mA03SVFR38tITBl1"
+}

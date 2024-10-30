@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Patient Spell",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "When this spell is cast in conjunction with a second spell (requiring an Intelligence + Concentration roll against an Ease Factor of 9), the other spell is delayed in taking effect until the caster ceases concentration on The Patient Spell. The target spell can be of no higher level than the level of The Patient Speh. A spell held using The Patient Spell may be released to interrupt an action in the same manner as a fast cast spell, requiring the same “fast casting” roll of Quickness + Finesse (Ars Magica Fifth Edition page 83).\nRanulf uses The Patient Spell to provide himself with an opportunity to cast Boreal Flames with Pilum of Fire. Maintaining concentration on The Patient Spell while casting another spell requires an Intelligence + Concentration roll against an Ease Factor of 9 to perform successfully; this is easier than normal, because the spell is designed for this use.",
+    "source": "MoH",
+    "page": 113,
+    "indexKey": "the-patient-spell",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "DDoQrAiO2xGsfPa0",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!DDoQrAiO2xGsfPa0"
+}

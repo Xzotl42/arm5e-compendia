@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Endurance of the Witch Moon",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 20,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": true,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Similar to the common spell The Enigma's Gift (Ars Magica Fifth Edition, page 157), this spell causes the target to gain four Warping Points. However, in the case of characters with a specific response to Warping, the effect of these points is to force the target to undergo the Witch Moon just as if the affected target were a member of the Folk Witch hedge tradition, as described in Hedge Magic: Revised Edition, page 42. Enduring the Witch Moon is automatic. This replaces the normal effects of gaining two or more Warping Points, which for Hermetic magi is a roll for Twilight.\nThis effect is inspired by observing the Witch Moon endured by a subject Folk Witch.\nIf you are not using the Hedge Magic: Revised Edition rules, then the following should suffice: .\nThe target immediately develops a fever, treated as a Medium Wound. For the period of a month, the target is unable to draw upon their Gift either to use Supernatural Abilities or to cast spells. This potentially disrupts laboratory work, although the use of enchanted devices is unaffected. At the end of the month, make a roll to see if the Witch Moon has passed: .\nTo End Witch Moon: Stamina — Warping Score + stress die vs Ease Factor 6 .\nIf this roll fails, then the target gains another Warping Point and the Witch Moon lasts for another month, inflicting another Medium Wound on the due to fever. Roll again at the end of the second month and so forth, until the target recovers. If the roll to end the Witch Moon is botched, the target gains an additional number of Warping Points equal to the number of Os of the botch die. Note that the penalties due to wounds do not affect this roll.",
+    "source": "Dies",
+    "page": 40,
+    "indexKey": "endurance-of-the-witch-moon",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "DFfMbTLQuaDwFsv1",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!DFfMbTLQuaDwFsv1"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Sense the Hearts of Fire",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "sight"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster detects whether creatures he can see have an Ignem Form Might (of any supernatural Realm). This is a magical property of a creature made of flame. It has no effect on creatures that are not made of Ignem, regardless of whether they have a Might or not. Creatures apparently made of flame (creatures of another Form, illusions, or the effects of Hermetic Rego Ignem magic) who do not have an Ignem Form Might are also not detected by this effect. Obviously, this spell needs to Penetrate the Magic Resistance of the detected creatures.",
+    "source": "HP",
+    "page": 25,
+    "indexKey": "sense-the-hearts-of-fire",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "rhg8dYGrvvJebkNS",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!rhg8dYGrvvJebkNS"
+}

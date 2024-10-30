@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Scattering Like Light",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 2,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": true,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell changes the metal in an object, a sword for example, into iconic species. Passing light carries off these species, which are absorbed when they strike a non- reflective surface. This spell disintegrates objects, so it has obvious combat advantages, but it was originally created by an artist seeking an efficient method of plating objects in metal. He placed the metal and the object he wanted to plate, levitating, in a supernaturally lit box, mirrored on the inside, and used this spell to turn the metal first into species, then back again. This created a smooth coat of metal around the object, and the interior of the box.",
+    "source": "HoH:S",
+    "page": 63,
+    "indexKey": "scattering-like-light",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ZYTa9wmfxfOveqD3",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ZYTa9wmfxfOveqD3"
+}

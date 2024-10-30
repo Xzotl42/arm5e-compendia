@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Human Figment of the Waking Mind",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "eye"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 4,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell places a hallucinatory person in the mind of another through the common sense. No one else can see or hear the person seen and heard by the target. The caster determines what the hallucination looks like, and can cause it to act in the way he wishes by concentrating. He cannot, however, see it himself.",
+    "source": "A&A",
+    "page": 32,
+    "indexKey": "human-figment-of-the-waking-mind",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "nrM7brOMiQBEXgkE",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!nrM7brOMiQBEXgkE"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Light Shaft of the Night",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Collects moonbeams and starlight into a single vertical shaft of soft, silvery light that moves under your control. It illuminates an area 15 paces across with light nearly equal to sunlight (if the moon is out) or moonlight (if the moon is not out). If the sky is overcast, the spell does not work. Can only be cast under the night sky.",
+    "source": "ArM5",
+    "page": 143,
+    "indexKey": "light-shaft-of-the-night",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "IlqpNcRMvx0Xqubc",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!IlqpNcRMvx0Xqubc"
+}

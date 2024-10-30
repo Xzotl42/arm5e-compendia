@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Servant of Fire",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "fire"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": true,
+      "te": false,
+      "vi": false
+    },
+    "description": "This Glamour spell (see page 101 in Houses of Hermes: Mystery Cults) turns a normal fire into a human servant. He has a simple intellect and is good for only simple tasks, but has no possibility of learning or free will. The servant must eat a lot of wood or other flammable materials, otherwise the fire will burn out, ending the spell. As long as the servant eats enough, however, the spell continues. This spell has a minor side effect from experimentation that makes the servant sing instead of speaking normally.",
+    "source": "MoH",
+    "page": 125,
+    "indexKey": "servant-of-fire",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "epX6fJkuu2b2YbKX",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!epX6fJkuu2b2YbKX"
+}

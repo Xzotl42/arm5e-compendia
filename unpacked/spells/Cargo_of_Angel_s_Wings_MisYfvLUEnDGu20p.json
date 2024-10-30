@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Cargo of Angel’s Wings",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 35,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": true,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster transports the target object to the location of an Arcane Connection. Hermanus used this spell to obtain vis and Arcane Connections from the location of the Wooden Mannequin that he used to explore the world without leaving his laboratory. In order to use this spell from a distance, Hermanus employed a spell similar to Opening the Intangible Tunnel (Ars Magica Fifth Edition page 162) in conjunction with the casting tablet.",
+    "source": "LH",
+    "page": 119,
+    "indexKey": "cargo-of-angels-wings",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "MisYfvLUEnDGu20p",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MisYfvLUEnDGu20p"
+}

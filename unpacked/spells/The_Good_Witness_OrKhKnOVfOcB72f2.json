@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Good Witness",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Refreshes a day’s memory within the mind of the subject; as long as some fragment of it remains this spell will restore it. The subject is asked to recall some event within the day in question as the spell is cast. Events that day are remembered as if they had occurred only an hour before. Depending on how long ago the day was, any particular event may have completely disappeared, depending on how memorable the event was. Thus some details may be recalled perfectly and others will be entirely missing.",
+    "source": "HoH:TL",
+    "page": 75,
+    "indexKey": "the-good-witness",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "OrKhKnOVfOcB72f2",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!OrKhKnOVfOcB72f2"
+}

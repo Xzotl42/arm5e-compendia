@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Commune with the Fire Soul",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 20,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster plunges his hands into lava (which will cause damage if he is not protected) and communes with the spirit of the volcano. If the volcano’s spirit is a creature with Might, then this spell needs to penetrate its Magic Resistance.\nThe length of time a conversation with a volcano spirit takes is highly variable, and depends on the activity of the volcano. The spell allows the caster to perceive and participate in the conversation at either great speed or very slowly, as appropriate. A conversation of a few simple sentences with a dormant volcano could take many days, and would therefore require either a spell with a different duration or magical effects similar to Maintaining the Demanding Spell (Ars Magica Fifth Edition, page 162) in order to maintain the Concentration duration. On the other hand, a long multi-faceted discourse with an active volcano can be conducted in a fraction of a round.",
+    "source": "HP",
+    "page": 25,
+    "indexKey": "commune-with-the-fire-soul",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "OgkGiaJ9g5sgTLCu",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!OgkGiaJ9g5sgTLCu"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Faerie Chains of the Familiar Slave",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "other"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 4,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual binds a supernatural creature to the caster as her familiar, until a condition incorporated into the spell comes to pass. The level of the ritual must be no less than (the creature’s Might +15), though she may also need to penetrate its Magic Resistance if casting on an unwilling target. It has no effect if the target is already bound as a familiar to another.\nCasting requisites of a Technique and Form appropriate to the creature’s nature and physical form may be included. These two Arts are used to determine the Lab Total for any subsequent improvements to the bond. The cords connecting maga and familiar have initial values of 0, and the vis cost of this ritual does not apply towards these improvements. The maga can strengthen the bond in the lab, but the effect is still inherently temporary. If she casts this on a faerie, she gains the three special powers (Shared Powers, Shared Senses, and Shared Fatigue) associated with a faerie familiar, but the cords will decay as normal, though the bond is never completely broken so long as the spell’s duration remains in effect.\nBecause the bond is often made under duress, the familiar is much more wild and independent than normal familiars, and typically must be subdued or guarded to ensure it does not try to escape. The two are probably at odds most of the time, and the faerie is likely to bear a grudge against the maga afterward if it is taken advantage of or treated badly.",
+    "source": "HoH:MC",
+    "page": 90,
+    "indexKey": "faerie-chains-of-the-familiar-slave",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "I06AokCZo32idmhg",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!I06AokCZo32idmhg"
+}

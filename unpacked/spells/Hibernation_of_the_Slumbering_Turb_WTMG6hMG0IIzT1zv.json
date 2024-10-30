@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Hibernation of the Slumbering Turb",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "other"
+    },
+    "complexity": 2,
+    "enhancingRequisite": 1,
+    "ritual": true,
+    "technique-req": {
+      "cr": true,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Anyone touching the caster falls asleep and does not awaken until the spell expires. The caster is not affected by this magic, and his own sleep is natural. Those affected by the spell do not need to eat or drink while it persists, but when they awaken, they are ravenously hungry. Despite the usual length of a Year Duration spell, this spell’s effects always end at the Spring Equinox. This spell was invented by Odorpes of the Sept of Urgen, who lives separate from the rest of her covenant. She hibernates and puts all her covenfolk to sleep with her, so she need not provision them during the winter.",
+    "source": "HoH:MC",
+    "page": 29,
+    "indexKey": "hibernation-of-the-slumbering-turb",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "WTMG6hMG0IIzT1zv",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!WTMG6hMG0IIzT1zv"
+}

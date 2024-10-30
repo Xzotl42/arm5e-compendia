@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Chamber of Muffled Passing",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "room"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "For the duration of two minutes, all sound inside the affected Room, regardless of its origin and volume, is completely muted. The spell affects mundane actions, such as creaking floor boards or shouting, in much the same way as spell casting that requires a voice.\nDue to his Quiet Magic, this limitation doesn’t impair Tolides much, unless he wants to cast an additional spell with Range Voice while inside the Room, or to affect a target across the threshold. In Tolides’ version of the spell, the affected Room is slightly tainted by darkness. Semi-translucent patches of murk slowly crawl along the walls of the Room, greedily devouring all sound from within or outside. Tolides is not very creative when it comes to finding names for his creations, and doesn’t care much about the ambiguous name of this spell that also describes the silenced deaths of those in the chamber whom Tolides decides to kill.",
+    "source": "MoH",
+    "page": 133,
+    "indexKey": "chamber-of-muffled-passing",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "6K8F0Qsi2c73qQpe",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!6K8F0Qsi2c73qQpe"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Irresistible Pressgang",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "A group of men are granted a Loyal +4 Personality Trait, with the object of this fanatical loyalty being the caster. This spell is both a powerful and a continuing mystical effect, and the targets will accumulate a total of 5 Warping Points by its end.",
+    "source": "L&L",
+    "page": 85,
+    "indexKey": "the-irresistible-pressgang",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "a4KymBhlp5h6GWP0",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!a4KymBhlp5h6GWP0"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Trigger the Distant Power",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster specifies a particular noise that then momentarily sounds in the vicinity of an object, place, or person to which the caster has an Arcane Connection. The spell cannot duplicate a voice or say words.\nPersephone uses this simple spell to trigger a number of different effects in the charged items she makes and distributes to her agents. Each item is keyed to trigger its effect upon hearing a commonplace noise, like a whine, a buzz, or a chirrup easily attributable to an insect.",
+    "source": "MoH",
+    "page": 91,
+    "indexKey": "trigger-the-distant-power",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "8VIGtN9x9BflhAgp",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!8VIGtN9x9BflhAgp"
+}

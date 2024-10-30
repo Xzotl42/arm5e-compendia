@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Summoning the Spirit of Anger",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell calls a spirit of wrath to the magus’s current location, if he has an Arcane Connection or knows its full name, and overcomes its Magic Resistance. The name can be a non-magical name, and need not be a magical True Name. A wrathful person serves as an Arcane Connection to any spirit of anger; if he has a Major Personality Flaw such as Wrathful, then the spirit has a Magic Might of 30. A Minor Personality Flaw attracts a spirit of Might 20. Otherwise, the spirit has a Might equal to (5 x Angry Personality Trait). Casting this spell inflicts a Warping Point on the source of the anger, unless it is the caster himself.\nSimilar spells exist for summoning the spirits of other emotions.",
+    "source": "HoH:S",
+    "page": 99,
+    "indexKey": "summoning-the-spirit-of-anger",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ipODCbb0fPR0uBo2",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ipODCbb0fPR0uBo2"
+}

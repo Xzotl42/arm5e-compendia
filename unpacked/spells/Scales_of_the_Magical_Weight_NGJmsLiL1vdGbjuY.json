@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Scales of the Magical Weight",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "When casting this spell, you typically hold your hands straight out from your body, place a known amount of Vim vis in your left hand (usually one pawn), and then place an unknown amount of vis in your right hand. After casting the spell, you may sense how heavy the unknown vis is in relation to the known, determining the number of pawns present. If you cast the spell without anything to measure the unknown vis against, you only have a very general idea of how valuable it is. The spell cannot be used to determine the amount of raw vis invested in an enchanted item.",
+    "source": "ArM5",
+    "page": 158,
+    "indexKey": "scales-of-the-magical-weight",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "NGJmsLiL1vdGbjuY",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!NGJmsLiL1vdGbjuY"
+}

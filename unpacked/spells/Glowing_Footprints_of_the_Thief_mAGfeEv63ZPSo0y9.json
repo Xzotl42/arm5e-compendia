@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Glowing Footprints of the Thief",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell makes the traces of sweat left by a person visible, by transforming the stream of olfactory species of the person’s scent into a stream of iconic species. The way this light appears is dependent on the sigil and Finesse of the magus. This spell is mimetic, so all nearby people can see the scent traces. Note that to cast this spell, the magus must be distinctly aware of the scent of the thief, so that there is a valid target for the spell.",
+    "source": "HoH:S",
+    "page": 65,
+    "indexKey": "glowing-footprints-of-the-thief",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "mAGfeEv63ZPSo0y9",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!mAGfeEv63ZPSo0y9"
+}

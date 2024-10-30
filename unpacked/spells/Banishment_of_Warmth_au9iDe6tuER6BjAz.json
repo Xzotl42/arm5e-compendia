@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Banishment of Warmth",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "circle"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This practical spell expels the warmth from all items that have been set up inside the affected Circle. Lowering the temperature of the Circle to slightly above freezing, Banishment of Warmth can be used to prevent goods related to Animal, Herbam, or Corpus from decaying naturally for a couple of days. The spell is not designed as an offensive weapon, but living creatures that remain in the Circle for an extended period of time do start losing Fatigue due to the cold. Note that the spell must be cast after the targets have been set up inside the Circle; it does not affect items that are placed into the Circle once the spell has been cast. A closer look at the enchanted Circle reveals a translucent waft of vapor over the affected area.",
+    "source": "MoH",
+    "page": 132,
+    "indexKey": "banishment-of-warmth",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "au9iDe6tuER6BjAz",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!au9iDe6tuER6BjAz"
+}

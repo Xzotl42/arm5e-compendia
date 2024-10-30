@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Absent Mind of the Scholar",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell changes the target’s memory so that he believes that Wizard’s War was declared on him one month prior to when it actually was.\nThe intent is that this spell is cast via an Intangible Tunnel-styC effect while the Wizard’s War is legitimately in progress, and the target (believing that the Wizard’s War occurred during the previous month) stops taking protective measures, and leaves the sanctuary of the Aegis of the Hearth. Obviously, this strategy will fail if the target is convinced by another character that their memory is in error. However, it might be very difficult to convince a magus that their memory is incorrect, and to be effective this strategy only requires the magus to make a single absent-minded mistake, such as briefly leaving the Aegis of the Hearth.",
+    "source": "HP",
+    "page": 94,
+    "indexKey": "absent-mind-of-the-scholar",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "DjqEhbafZk44PRf3",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!DjqEhbafZk44PRf3"
+}

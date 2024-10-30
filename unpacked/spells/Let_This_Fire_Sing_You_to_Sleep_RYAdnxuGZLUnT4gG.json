@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Let This Fire Sing You to Sleep",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell affects a single fire, turning the very tips of the flames into pleasing music. The caster decides the kind of music he wishes to hear (a ballad, a whirly jig, etc.), and the spell accommodates. The music of the flames always incorporates a signature refrain, as though a sigil, with each casting. But the mood of that same refrain is adapted to the needs of the song.\nThe flames play the same music all the while the fire burns, getting louder as the fire burns brighter, hotter, or larger, though the random nature of fire and differences in fuel mean that no two castings ever produce exactly the same performance.\nThe spell ends when the flame is extinguished, its original source is fully destroyed or, for particularly long- burning fires, when the spell’s Sun Duration naturally expires. This spell cannot affect a fire that is already larger than a campfire or a fire in a hearth (essentially, any fire doing +5 damage), but a fire that grows larger than this retains the magic.\nYestin originally designed this spell so that his fire, whether on the road or in his sanctum, could gently sing him to sleep. But the more he explored this new spell, the more he found new uses for it. It wasn’t just music that the flames could produce, but also speech (though limited in the range of words and voice to little more than those the caster imagines as he casts the spell) or other natural and unnatural sounds. These sounds always adopt the rhythm of the spell’s original melody, though. If left to sing (or talk) of its own volition, with no guidance from the caster, the fire sounds as though it is forming words, but this is an illusion; the sounds form true words by accident if at all.\nYestin has used this spell in his sanctum to experiment with different harmonies, and has on occasion established choirs of candles each quietly singing a different refrain or a different note. The effect can be mesmerizing.\nA Finesse Stress roll (Mastery of the spell reduces this to a simple roll) determines how pleasant the sound is, but the size of the fire determines how loud it is. [TABLE] .\nThis spell has the side effect of reducing the intensity of the target fire by 1 as flame is turned to sound.",
+    "source": "MoH",
+    "page": 139,
+    "indexKey": "let-this-fire-sing-you-to-sleep",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "RYAdnxuGZLUnT4gG",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!RYAdnxuGZLUnT4gG"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Halt the Piercing Shafts",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "This ward prevents any ranged weapons made of wood and/or metal from harming the caster. Missiles simply drop to the ground at his feet.",
+    "source": "MoH",
+    "page": 50,
+    "indexKey": "halt-the-piercing-shafts",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "pMkSLIBbWKYsd2Ow",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!pMkSLIBbWKYsd2Ow"
+}

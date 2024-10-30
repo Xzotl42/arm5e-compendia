@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Transmutation of Fire",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 1,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": true,
+      "ig": true,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell transmutes an object of stone, wood, or soil, or part of some such object, into a fire. The fire is still essentially the original object and will not be extinguished for lack of fuel, but it can be doused or extinguished in other ways. The transmuted fire is no larger than 2 paces in size and it is hot enough to do +5 damage. Objects smaller than 2 paces in size will turn into fires of their own size when they are subjected to this spell.",
+    "source": "MoH",
+    "page": 113,
+    "indexKey": "transmutation-of-fire",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ROwJsefyAzj4BjVg",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ROwJsefyAzj4BjVg"
+}

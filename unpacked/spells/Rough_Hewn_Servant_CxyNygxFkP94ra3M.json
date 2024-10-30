@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Rough-Hewn Servant",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This is a spell for carving a statue from a single block of wood. The piece of wood can be no larger than one cubic pace. This spell requires a Perception + Finesse roll. If this is botched the statue is ruined. If the roll exceeds the Ease Factor of 6, then the statue is serviceable, if not particularly pretty, and can be animated with the Carved Assassin spell. If the roll is not successful, then a statue is created, but it is too fragile or too blockish to use effectively with the Carved Assassin spell.",
+    "source": "ToME",
+    "page": 55,
+    "indexKey": "rough-hewn-servant",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "CxyNygxFkP94ra3M",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!CxyNygxFkP94ra3M"
+}

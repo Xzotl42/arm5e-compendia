@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Conjuring the Great Tower",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 7,
+    "complexity": 4,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual creates the foundations and first two levels of the tower. As the ritual concludes, the walls of a vast tower rise from the ground, surrounding those taking part in the ritual. The walls are vast, but the real power of the spell is shown below ground. The foundations extend deep into the earth, forming cellars, crypts, and cisterns between the immense stone pillars driven into the ground.\nThe time taken to develop this ritual is spent not only in learning how to draw the complex magical forces together, but also in designing the foundations and the lowest levels of the tower, which are filled with rooms, cloisters, courtyards, and arcades.\nCreo magic that creates artificial things, such as this huge tower, requires an Int + Finesse stress roll against an Ease Factor, in this case, of 12. If the roll fails, the tower is still successfully conjured but may require additional work to improve its appearance or to repair defects introduced by the casting. A failed Finesse roll creates a section of tower of shoddy quality, while a successful roll creates a standard quality section. If the Finesse roll botches, the foundations are not strong enough to support the tower and a stress check against damage is required each year.\nThe +7 magnitudes for size creates a circular tower of two levels, 2,000 feet in diameter, standing 40 feet above ground level. The high modifier for the elaborate design is required for the precise placement of the foundations, a hugely important factor in a tower this large.\nCasting this ritual causes a +1 preternatural tether, as per Realms of Power: Magic, page 10. If the site has no supernatural aura, this creates a level one Magic aura.",
+    "source": "HP",
+    "page": 39,
+    "indexKey": "conjuring-the-great-tower",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Gqz8i8uWkWfqTZN7",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Gqz8i8uWkWfqTZN7"
+}

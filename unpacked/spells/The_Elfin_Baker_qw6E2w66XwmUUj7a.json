@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Elfin Baker",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell uses Rego craft magic to create a batch of 12 dozen loaves of bread in an instant from sufficient raw ingredients of flour, water, and yeast. The spell can even use raw grain rather than flour; if used at its maximum capacity it requires 10 bushels of either. Making basic bread is a Simple (Ease Factor 3) task for a baker, so the magus must make an Intelligence + Finesse roll against an Ease Factor of 6 to succeed; otherwise the result is an inedible mess of spoiled dough. If this roll achieves an Ease Factor of 9 the bread is particularly good; an Ease Factor of 12 produces pandemayne, the finest white table bread.\nThe guideline used was published in Covenants (page 51), and permits items made of plant products to be treated and processed. A similar spell — The Elfin Brewer — can create 12 dozen pints of ale from grain, water, yeast, and gruit (herbs used for flavor).",
+    "source": "TME",
+    "page": 121,
+    "indexKey": "the-elfin-baker",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "qw6E2w66XwmUUj7a",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!qw6E2w66XwmUUj7a"
+}

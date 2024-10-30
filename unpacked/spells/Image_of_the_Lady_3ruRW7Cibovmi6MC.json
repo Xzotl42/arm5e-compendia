@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Image of the Lady",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "enhancingRequisite": 6,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": true,
+      "te": false,
+      "vi": false
+    },
+    "description": "Similar to Book of Images and the spell The Shadow of Human Life (Ars Magica Fifth Edition, page 144) this spell creates an image of a person, which can also make sounds, within a ring that serves as a frame. This image has limited freedom and a simulated intellect. He or she cannot learn Abilities, but can remember a story told while casting the spell. Such an image can also work as a guard or similar. In Scipio’s home covenant these pictures hang on almost every wall, working as advisors for slow grogs, as monitors in the kitchens, or as sentries. Due to experimentation, Scipio’s version of this spell creates images that need to sleep and eat illusionary meals.",
+    "source": "MoH",
+    "page": 124,
+    "indexKey": "image-of-the-lady",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "3ruRW7Cibovmi6MC",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!3ruRW7Cibovmi6MC"
+}

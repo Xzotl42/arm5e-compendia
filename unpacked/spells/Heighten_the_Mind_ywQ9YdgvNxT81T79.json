@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Heighten the Mind",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Removes four points of Personality Traits from the individual, which return one-by-one across the Duration. They are taken from weakest Personality Trait first. When that reaches zero, the next least prominent Trait is affected. Negative Traits are similarly affected, but their scores are increased toward zero.\nThis has the effect of removing the checks and balances afforded by the lesser Personality Traits, leaving the mind influenced by its most prominent Traits only.",
+    "source": "Dies",
+    "page": 41,
+    "indexKey": "heighten-the-mind",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ywQ9YdgvNxT81T79",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ywQ9YdgvNxT81T79"
+}

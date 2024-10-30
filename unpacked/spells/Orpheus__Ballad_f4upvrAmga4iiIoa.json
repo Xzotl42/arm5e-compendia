@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Orpheus’ Ballad",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The spell creates a momentary flash of intense unnatural fear, despair, and woe in the minds of the assailants, attacking their estimation (Art & Academe, page 32). Each target in turn, starting from the target closest to the caster, attempts a Brave Personality Roll against an Ease Factor of 9 or flees the scene. This roll is modified by - 1 for each other member of the group who fails his roll; the more who flee, the less resolve the others have.\nThe magic of the spell is carried on the caster’s own scream, and extends out as far as the caster’s voice would normally carry at a high volume (in excess of 50 paces). The magic of the spell affects the group of individuals in front of and closest to the caster. The individuals must still constitute a group as per Ars Magica Fifth Edition, page 113.\nYestin devised the spell after he was set upon by brigands along the road from Winchester to the Isle of Oxney near Rye. He was lucky to escape their clutches after their first meeting, and ensured that he was prepared for their next. The spell is named for all the grief suffered by Orpheus, who lost so much on leaving the underworld.",
+    "source": "MoH",
+    "page": 140,
+    "indexKey": "orpheus-ballad",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "f4upvrAmga4iiIoa",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!f4upvrAmga4iiIoa"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Early Punishment for the Sinful Witch",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": true,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell destroys an Infernal effect upon an infernalist’s person in a brief flash of white flame, as long as the effect has a level lower than this spell’s level + 5 + a stress die (no botch). The flames inflict points of damage equal to half the level of the destroyed effect. If the Infernal Power does not have a level, then its effective level is (5 x Supernatural Ability score) or (5 x Might Points expended) instead. Infernal Powers with a constant effect that require no Might expenditure cannot be affected by this spell. This is primarily used against infernalists who have woven protective enchantments around themselves with their evil Powers.",
+    "source": "RoP:I",
+    "page": 122,
+    "indexKey": "early-punishment-for-the-sinful-witch",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "wvskiUEmY3HUnfa8",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!wvskiUEmY3HUnfa8"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Miniature of Immortality",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 1,
+    "enhancingRequisite": 2,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": true,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "This spell creates a painted miniature of a person or scene within voice range of the caster. The picture is painted on a wooden panel, and the spell’s requisites include the required mineral-based pigments and the egg yolk necessary for binding the paint.",
+    "source": "A&A",
+    "page": 133,
+    "indexKey": "the-miniature-of-immortality",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "tUv5k8quzf7jEZM6",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!tUv5k8quzf7jEZM6"
+}

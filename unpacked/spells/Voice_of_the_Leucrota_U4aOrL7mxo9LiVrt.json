@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Voice of the Leucrota",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The target’s voice is changed so that it is wholly different. This can duplicate the voice of a specific person known to the caster, or a particular accent he has heard before, or simply change the voice to be different than the target’s own. This spell does not allow the target to speak a language that she does not know. An Intelligence + Finesse roll against an Ease Factor of 6 can accurately replicate an accent, and a 9 is needed to duplicate a specific voice. Someone more familiar with the person mimicked may still perpetrate the falsehood. This is also Persephone’s favored spell used to humiliate an opponent she has bested in certamen — she often gives them an unnaturally squeaky or basso profundo voice. A leucrota is a mythical beast that can mimic the voices of men to lure them as prey.",
+    "source": "MoH",
+    "page": 91,
+    "indexKey": "voice-of-the-leucrota",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "U4aOrL7mxo9LiVrt",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!U4aOrL7mxo9LiVrt"
+}

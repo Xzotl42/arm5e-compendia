@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Conjuration of the Seaworthy Cog",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 3,
+    "complexity": 5,
+    "enhancingRequisite": 1,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "This ritual creates a fully-formed cog. The resulting ship is an exact copy of the cog used as a template during the design of this spell, even down to the knots in the hull and the adze marks on the keel. The only difference is that, assuming the magus makes the Intelligence + Finesse stress roll against an Ease Factor of 9, the conjured ship is in perfect condition, as though each part of its construction has only just been finished. Any flaws in the original template are rectified where they would have made the conjured ship weaker or less seaworthy. A Terram requisite is required to create the bolts, nails, and other fixtures.\nGiven the nature of the spell, a different ritual is required for each different type of ship that the shipwright wishes to conjure. To achieve this, the Hermetic shipwright must create a new ritual using the existing laboratory text as a guide and apply the principles to a new design.\nUnless cast on a waterway, the ritual should be cast within a boat shed prepared to receive the conjured vessel so that it does not topple and damage itself or its surroundings. Making the preparations forms a significant part of the ritual. Botches in casting are likely to conjure the ship in a position the magus did not expect, which could cause significant damage to his laboratory or bystanders.",
+    "source": "HP",
+    "page": 65,
+    "indexKey": "conjuration-of-the-seaworthy-cog",
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "5CeJr56s8HEbInr6",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!5CeJr56s8HEbInr6"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Crest of the Earth Wave",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "part"
+    },
+    "targetSize": 2,
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Creates a wave in the earth that starts at your feet and travels out to the range of your Voice in a designated direction. It starts as a narrow ripple and within 5 paces reaches its full size of 5 feet high and 30 paces wide. It moves about 50 paces per round. Those caught in its path must make Dexterity stress rolls of 12+ to leap over the wave, or they are tossed aside and take +10 Damage. The wave overturns trees and damages buildings in its path.",
+    "source": "ArM5",
+    "page": 156,
+    "indexKey": "crest-of-the-earth-wave",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "hywKd5N9xbkQQPve",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!hywKd5N9xbkQQPve"
+}

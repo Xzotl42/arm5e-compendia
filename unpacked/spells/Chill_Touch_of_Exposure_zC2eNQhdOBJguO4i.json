@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Chill Touch of Exposure",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The target shivers like an unwanted baby left alone in a cold and frosty dell, losing a Fatigue level. Repeated casting of this spell can cause the character to eventually become unconscious; this usually takes 5 castings. Mastering this spell with the Multiple Casting mastery can reduce the time that this takes. Once the target is unconscious, additional castings of the spell increase the length of time that the target naturally remains unconscious (see Ars Magica Fifth Edition, page 179) If the target is unconscious at either sunrise or sunset, then his Parma Magica will go down.",
+    "source": "HP",
+    "page": 84,
+    "indexKey": "chill-touch-of-exposure",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "zC2eNQhdOBJguO4i",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!zC2eNQhdOBJguO4i"
+}

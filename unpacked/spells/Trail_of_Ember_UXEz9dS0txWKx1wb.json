@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Trail of Ember",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster of this spell throws a piece of volcanic rock onto a map. The rock lands on the location of the volcano it was expelled from. If the volcano’s location is not bounded by the map, then the rock rolls off in the direction that the volcano lies.\nIf the rock thrown onto the map is not volcanic, then it just lands somewhere at random. The caster can confirm this by casting the spell several times: a volcanic rock will always land on the same spot on the map.\nNote that a volcanic rock created via Creo Terram magic will not reveal what volcano it came from when thrown onto the map with the Trail of Ember spell. This is because such a magically created volcanic rock did not in fact come from a volcano.",
+    "source": "HP",
+    "page": 13,
+    "indexKey": "trail-of-ember",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "UXEz9dS0txWKx1wb",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!UXEz9dS0txWKx1wb"
+}

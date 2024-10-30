@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Shattered Goblet",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "targetSize": 2,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "At the conclusion of this ritual, the caster throws a glass goblet onto the ground which splits into thousands of sharp glass shards, with many times the volume of the original goblet (about 1,000 cubic paces).\nIf spread about on the ground, the glass shards cause +5 damage to anyone who walks over the ground, but this damage can be totally avoided by wearing hard-soled boots or shoes. The glass can cover an area about 60 paces across in glass 1 foot deep.\nThe glass shards are intended to be used with the Crystal Rain spell. The glass shards can be reduced in size to be more easily carried, using the Miniaturist of Venice spell.",
+    "source": "HP",
+    "page": 88,
+    "indexKey": "the-shattered-goblet",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "QTMLAU5I6yTqAnuC",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!QTMLAU5I6yTqAnuC"
+}

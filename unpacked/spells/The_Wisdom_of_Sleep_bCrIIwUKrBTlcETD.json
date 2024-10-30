@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Wisdom of Sleep",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": true
+    },
+    "description": "The caster sleeps with the target object beneath his pillow, and his dreams then inform him of all mundane properties of that object. The magic is of Momentary Duration, but the sleeping mind is more able to assimilate the huge amount of information that might be called up, weaving it into the caster’s dreams throughout the night. Note that this spell does not allow the caster to actually talk with the object or divine any secrets that the object may store in whatever passes for its intelligence.\nThis spell uses Terram in its all-encompassing form referencing all solid objects, and requires casting requisites appropriate for the target object.\nThe Vim requisite allows the spell to inform the caster of any active or any recent magical effects on the object. This spell is restricted to effects originating from the Magic Realm. Enchantments inherent to the object are not learned beyond a knowledge that some form of enchantment exists.\nYestin’s version of this spell sees him conversing with the object within his dreams, wherein the object adopts a persona (or rather, Yestin’s dream ascribes a personality to the object). Multiple castings of this spell on multiple objects are possible, though the caster’s pillow as well as his dreams may become a little crowded.\nThe quirkiness of the spell effect is due to experimentation. Yestin had intended for a more conventional spell, but he found towards the end of his experiments that the spell’s incantation wasn’t complete until the caster fell asleep. His Laboratory Text for this spell carries the same flaw. It’s possible that practitioners and researchers of Dream Magic may be interested in Yestin’s text for this spell, as it may further their own magical aims.",
+    "source": "MoH",
+    "page": 141,
+    "indexKey": "the-wisdom-of-sleep",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "bCrIIwUKrBTlcETD",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!bCrIIwUKrBTlcETD"
+}

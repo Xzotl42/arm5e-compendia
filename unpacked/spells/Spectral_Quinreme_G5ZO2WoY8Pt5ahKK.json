@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Spectral Quinreme",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "eye"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "struct"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": true,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "A ghostly ship is not the spirit of a ship, it’s a prop projected by the psyche of a ghost, like the clothes or weapons of a ghostly soldier. Ghost ships, as figments of the imagination of the dead, can be called up with Mentem magic. This spell makes a spectral ship sufficiently solid for humans to sail upon her, and stow cargo safely within her hold. It does not summon or command the ghostly ship: that requires the magus to summon and command the ghost or ghosts who manifest the ship.",
+    "source": "HoH:TL",
+    "page": 140,
+    "indexKey": "spectral-quinreme",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "G5ZO2WoY8Pt5ahKK",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!G5ZO2WoY8Pt5ahKK"
+}

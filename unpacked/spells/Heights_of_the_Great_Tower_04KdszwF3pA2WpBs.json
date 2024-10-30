@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Heights of the Great Tower",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 7,
+    "complexity": 3,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual conjures four fully-formed levels of the Great Tower, each 20 feet in height and building directly onto the level below, adding 80 feet to the tower in an instant. As with conjuring the foundations, this ritual requires an Int + Finesse stress roll against an Ease Factor of 12. A failed Finesse roll creates a section of tower of shoddy quality, while a successful roll creates a standard quality section. Botch dice on this Finesse roll are equal to 1 + 1 for each other level where the magus failed to meet the Finesse roll (failures should be recorded for future reference). This represents the inherent complexities and dangers of the project.\nBotches on this roll should be handled as story events, but clearly a botch in creating and assembling several thousand tons of stone is going to be significant. As the tower grows, the complexity of controlling the magic also grows, as does the risk of disaster, which may act as a limiting factor on the number of levels a magus would feel safe in conjuring.\nNote that by increasing the level of this spell by one magnitude, 40 levels of the tower could be produced, and 400 levels could be produced by increasing the spell by two magnitudes. But doing so should have a direct impact on the number of botch dice for the required Finesse roll. For each additional magnitude of size, add +3 to both the botch dice and the Finesse roll Ease Factor.\nCasting this spell creates a preternatural tether of 1 and adds +1 to the aura variation modifier.",
+    "source": "HP",
+    "page": 40,
+    "indexKey": "heights-of-the-great-tower",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "04KdszwF3pA2WpBs",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!04KdszwF3pA2WpBs"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Aura of Inconsequence",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "other"
+    },
+    "complexity": 4,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Occasionally a Quaesitor may need to conduct investigations in mundane society. Inspired by the non­Hermetic Veil all Eyes ritual (see Houses of Hermes - True Lineages), this spell can be used to aid avoiding mundane attention. This spell can be cast on either the magus himself or an ally; this individual is the recipient. At any point during the spell’s duration, individuals enter the influence of this spell by looking at the recipient. The spell stops influencing people as soon as they look away. The spell’s target is rated atStructure. The Penetration of the spell should be noted when cast, as this applies throughout the duration.\nThis spell simply deflects casual attention away from the recipient. Unless the recipient calls attention to himself or an observer is actively watchful, people will pay him no mind. If a character has some reason to be alert they are allowed a Per + Awareness roll of 12+ to noticed the recipient. The Blatant Gift reduces the Ease Factor to 9+. If the magus takes care to be inconspicuous this Ease Factor may be increased. Quaesitors with effective companions often cast this spell on themselves to avoid compromising mundane investigations with their presence. However, animals still react to the magus as normal.",
+    "source": "HoH:TL",
+    "page": 73,
+    "indexKey": "aura-of-inconsequence",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "kUlbTEMk9O2XAVv1",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!kUlbTEMk9O2XAVv1"
+}

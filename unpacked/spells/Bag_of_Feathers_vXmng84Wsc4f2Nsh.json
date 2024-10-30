@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Bag of Feathers",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": true,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell is used to lessen the load carried by expeditions, by transforming all of the food supply they must carry, excepting that required during the spell’s duration, into feathers. In Alexander’s case each type of food becomes a different color and pattern of feather, so that servants who travel with him learn to read which feather is which provision. Food in feather form does not spoil, although it often tastes slightly of chicken after it regains its original form. Note that the food does not change back when the caster wishes; without Perdo Vim magic, he must wait for the duration to end.",
+    "source": "MoH",
+    "page": 13,
+    "indexKey": "bag-of-feathers",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "vXmng84Wsc4f2Nsh",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!vXmng84Wsc4f2Nsh"
+}

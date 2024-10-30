@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Day of Communion",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell is a Wizard’s Communion as found in Ars Magica Fifth Edition, page 160, but with a longer duration. In accordance with the errata for Muto Vim such spells need a duration at least as long as the casting of the target spell. As Rituals as minimum are level 20 and take 15 minutes per magnitude to cast, a Muto Vim spell needs to last one hour or more, making Duration: Concentration impractical. All the magi in the group must add together the (level-2 magnitudes) of the Day of Communion they are casting. This number must exceed twice the level of the specified ritual being cast. As no more than one magus may join the group for each magnitude of the ritual being cast, this means that this spell is largely useless below level 20. It is highly useful for casting an efficient Aegis of the Hearth, which is no exception to the rule that all spells directly affecting targets must Penetrate.",
+    "source": "Through the Aegis",
+    "page": 137,
+    "indexKey": "day-of-communion",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "yZjUDGz6lcwxUbE6",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!yZjUDGz6lcwxUbE6"
+}

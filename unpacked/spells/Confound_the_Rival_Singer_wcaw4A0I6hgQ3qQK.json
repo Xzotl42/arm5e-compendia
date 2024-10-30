@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Confound the Rival Singer",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "sight"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "A somewhat mischievous spell, Yestin devised this in order to give himself an unfair advantage over his mundane rivals. The target of the spell is a singer’s voice (or the sound produced by a single musical instrument), and the spell allows the caster to pull that voice in all manner of directions. For example, it pulls notes higher, pushes them lower, draws them out longer, or cuts them off sharply.\nAs the caster must anticipate the music or song as it is being performed, the spell requires a Finesse roll to affect the sound to a greater or lesser degree. On a high Finesse roll (9 or higher), the caster is able to change words within the song, or change entire chords within the music. At the lowest level, the caster is able to at least change some of the music to bad notes or add a croak in the voice.\nFinesse Roll: 3+ .\nEffect: Causes occasional breaks in the voice or the random bad or missed note.\nFinesse Roll: 6+ .\nEffect: The caster can choose to manipulate the performance such that it appears to simply be a good player on a bad night. The target voice might sound strained or croaky, and instruments may sound in need of tuning.\nFinesse Roll: 9+ .\nEffect: The caster can make the singer sound tone deaf, flattening a performance or pitching the music off key.\nFinesse Roll: 12+ .\nEffect: The caster achieves a fine level of control, and can even change words within a song to any other words of his choosing.\nIf the caster is familiar with the song or the piece of music, he may add his Music score to his Finesse roll as there is less need to anticipate the performance.\nIt may be possible to apply the spell to the spoken word, perhaps to an orator or a tutor as he addresses an audience, although Yestin has not yet experimented with this.",
+    "source": "MoH",
+    "page": 140,
+    "indexKey": "confound-the-rival-singer",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "wcaw4A0I6hgQ3qQK",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!wcaw4A0I6hgQ3qQK"
+}

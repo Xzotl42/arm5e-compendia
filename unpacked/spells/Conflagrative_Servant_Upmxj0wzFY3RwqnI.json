@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Conflagrative Servant",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 1,
+    "complexity": 1,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": true
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell creates a four-pace-tall manshaped mass of brightly burning flames. This mass of flames responds to the verbal commands of the caster. Commands have to be very simple, like “follow me” or “wrap yourself around that creature and hold on.” The conflagrative servant is made of fire hot enough to do +5 damage to things that the servant touches or that touch the servant. The conflagrative servant is insubstantial but cannot pass through solid objects. The insubstantial nature of the servant also normally prevents it from manipulating objects. When created, the conflagrative servant has a Size of +3, Strength and Stamina scores of +5 (although it has no substance to touch things), and Dexterity and Quickness scores of-2. The conflagrative servant has no Abilities. The conflagrative servant is subject to damage from Perdo Ignem spells and water. When the conflagrative servant is injured by these means, it shrinks in size. Every size category that the conflagrative servant shrinks, it loses 2 points from its Strength and Stamina scores and gains 1 point in its Dexterity and Quickness scores. The conflagrative servant is extinguished if it shrinks to smaller than a candle flame in size (Size -10). Ranulf frequently casts Flames of Stone upon his conflagrative servants in order to allow them to perform manual labor. This makes the conflagrative servant substantial and vulnerable to physical damage. Any damage done to the conflagrative servant causes it to shrink as detailed above. A Light Wound shrinks the servant one size level, a Medium Wound shrinks the servant two size levels, and so on. Ranulf also frequently uses multiple invocations of Discriminating Flames on the servants to enable them to use tools and enter structures without causing tremendous damage.",
+    "source": "MoH",
+    "page": 111,
+    "indexKey": "conflagrative-servant",
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1730266564295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Upmxj0wzFY3RwqnI",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Upmxj0wzFY3RwqnI"
+}

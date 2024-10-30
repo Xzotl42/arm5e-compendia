@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Nature’s Kindest Seat",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell conjures a group of seats from the ground, centered on the point the user touches. The number of chairs the spell produces can be controlled by the caster, summoning up to ten.\nThe chairs rise from the ground and each molds itself to the nearest person as he sits back. Each chair is always at least passably comfortable, but notably more so when cast in a meadow with lush grass. Each chair sinks slowly back into the ground, leaving no trace, as the spell nears the end of its duration. The spell only works on sand or soil, a limitation Yestin aims to fix some time in the future.\nYestin decided that, to better capture an audience and draw them into the music, there was nothing like a little peripheral magic to increase anticipation. Yestin has never been shy about using his magic.\nYestin’s sigil manifesting in this spell can occasionally take his audience by surprise, as at first nothing seems to happen ... and then the chairs spring from the ground.",
+    "source": "MoH",
+    "page": 142,
+    "indexKey": "natures-kindest-seat",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "MPxBjZSxndIDMBON",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MPxBjZSxndIDMBON"
+}

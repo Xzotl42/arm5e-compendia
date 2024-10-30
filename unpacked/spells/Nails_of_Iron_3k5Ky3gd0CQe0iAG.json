@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Nails of Iron",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The touch of the caster tears at the fabric of stories. The target faerie is weakened and loses 10 Might Score. This must Penetrate the faerie’s Magic Resistance. If the faerie is reduced to 0 Might it is destroyed.\nNote that this spell is of little use in a Wizard’s War. However, it is a good way to attack a faerie if the magus has discovered an Arcane Connection to it (and can therefore open an Intangible Tunnel to the faerie). Similar spells can be used to attack creatures of other realms.",
+    "source": "HP",
+    "page": 84,
+    "indexKey": "nails-of-iron",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "3k5Ky3gd0CQe0iAG",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!3k5Ky3gd0CQe0iAG"
+}

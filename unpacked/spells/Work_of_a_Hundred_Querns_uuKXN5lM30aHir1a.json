@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Work of a Hundred Querns",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell uses Rego craft magic to transform up to 10 bushels of grain into flour. The caster must make an Intelligence + Finesse roll against an Ease Factor of 6 to obtain usable flour, but this is of the poorest quality with pieces of husk still within the bran-heavy flour. An Ease Factor of 12 generates fine white flour instead. An advantage of this spell is that no grit from the millstones end up in the flour regardless of its quality. In Mythic Europe, the right to mill flour is usually protected by law {Lords of Men, page 77), and using this spell could get the magus into a lot of trouble; however, it will save them the cost of employing a miller.\nThe guideline used was published in Covenants (page 51), and permits items made of plant products to be treated.",
+    "source": "TME",
+    "page": 120,
+    "indexKey": "work-of-a-hundred-querns",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "uuKXN5lM30aHir1a",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!uuKXN5lM30aHir1a"
+}

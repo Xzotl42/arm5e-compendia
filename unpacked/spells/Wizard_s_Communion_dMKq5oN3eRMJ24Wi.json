@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Wizard’s Communion",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell lets magi combine their power to cast spells. The group of magi work together to cast a specified spell through the unified power of the Communion. Only one extra magus may join the Communion for each 5 levels of the specified spell being cast. One of the magi in the group must also know the specified spell, or cast it from a Casting Tablet.\nOnly one magus in the group needs to cast the spell. The magus who casts the Wizard's Communion need not be the one who casts the main spell, and normally it is better for them to be different. More than one magus in the group may cast the spell. In this case, add the total levels of successfully cast Wizard's Communion to get the effective level of the Wizard's Communion for this casting.  This combined total must be at least twice the level of the specified spell being cast.\nOne magus must roll for success as if casting the specified spell himself. However, the target number for the spellcasting roll is the spell’s level divided by the number of magi participating in the Communion. So if five magi participate to cast a 50th level spell, the caster would have to successfully cast a 10th level spell — with all the relevant requisites, of course. This method of casting adds one botch die per magus participating. If the spell botches, all participants gain Warping Points and thus must check for Twilight.\nCommunion is a remnant of Mercurian rituals, so spontaneous spells may not be cast by this means, and it does not perfectly fit into the guidelines of Hermetic theory.",
+    "source": "ArM5",
+    "page": 160,
+    "indexKey": "wizards-communion",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "dMKq5oN3eRMJ24Wi",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!dMKq5oN3eRMJ24Wi"
+}

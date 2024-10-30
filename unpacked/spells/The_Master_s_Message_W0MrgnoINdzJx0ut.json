@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Master’s Message",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell opens a tunnel between the magus and a character that he touches.\nOnce it is cast, the tunnel remains in place, even if the characters break contact. The purpose of this spell is to enable the magus to open a tunnel between himself and a grog. The grog can then depart on a mission, and the magus is able to monitor his progress and cast spells through the tunnel as required.\nEven if the grog character has no Magic Resistance, it is a good idea to record the Penetration of this spell, as the grog may try to pass through a hostile Aegis.\nEffects cast through The Master’s Message tunnel can be up to one magnitude greater than the magnitude of The Master’s Message spell.",
+    "source": "HP",
+    "page": 81,
+    "indexKey": "the-masters-message",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "W0MrgnoINdzJx0ut",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!W0MrgnoINdzJx0ut"
+}

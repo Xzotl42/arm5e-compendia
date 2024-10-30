@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Watching Ward",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "other"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Watching Ward puts another spell on a given target on hold until that spell is triggered by a simple condition, which is determined when this ritual is cast. The target of the Watching Ward must be present for the entire casting ritual. When the conditions you specify come to pass, the suspended spell takes effect.\nOnly one Watching Ward can be placed on any one person or object. The level of the Watching Ward must at least equal the level of the spell held in suspension. You can put multiple spells in the Ward, provided that its level at least equals the sum of the levels of the contained spells. If Intellego spells are included in a Watching Ward, they may be used to trigger the other spells. Thus, if you put Frosty Breath of the Spoken Lie (InMe 20) into the Watching Ward, you can also put in a spell that is cast when someone lies. An Intellego spell in the Watching Ward has no effect other than to cast other spells when the proper condition is detected. Thus, in the example, one’s breath is not frosty when he or she is caught in a lie.\nIf someone tries to dispel the Watching Ward and fails, the suspended spell is cast. Flambeau and Tytalus magi commonly put highly destructive spells upon their persons, to be cast if they die so they may have vengeance upon their killers. The Ritual nature of this spell supports the potentially indefinite duration.\nThe Watching Ward is dispelled when it releases its spell. A version of this spell with target Room, known as Waiting Spell, is also well known in the Order. It can contain spells up to the level of the Waiting Spell- 10, and is also a Ritual.",
+    "source": "ArM5",
+    "page": 162,
+    "indexKey": "watching-ward",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "bq1Eol239p9yai6N",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!bq1Eol239p9yai6N"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Tear the Earth Asunder",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 13,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster of this ritual stabs a dagger into the ground: from the wound a volcano rises, and lava and scalding gases erupt. Over a period of a day, the volcano erupts, darkening the sky with plumes of ash, and forming a large volcanic crater.\nObviously, the eruption of the volcano devastates villages, towns, monasteries, covenants, or other settlements built in its shadow. Once the spell has been cast, there is no active magical effect; the eruption is natural and does not need to Penetrate Magic Resistance, and consequent rivers of lava and falling ash can also pass unhindered through an Aegis of the Hearth. The caster of the ritual also needs some form of protection to avoid being killed in the eruption.\nThe volcano region can be up to 20 miles in diameter (though the crater will be a fraction of this size), and the peak can be up to 15,000 feet high (which would make it one of the taller mountains in Mythic Europe).",
+    "source": "HP",
+    "page": 13,
+    "indexKey": "tear-the-earth-asunder",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "NhccDbA3kIpAnmRn",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!NhccDbA3kIpAnmRn"
+}

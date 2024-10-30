@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "A Song of All These Faerie Places",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 2,
+    "ritual": false,
+    "technique-req": {
+      "cr": true,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": true,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "When the caster stands at a place where the boundary between levels of a faerie regio can be crossed easily, he is able to sing a song or play music that describes the scene on the other side of the regio boundary.\nAs the song sings of each feature on the other side of the boundary, they become clearer in the visual illusion. They then fade slightly as the song moves onto the next feature. For example, where the first line of the song describes the lush grass, in the higher level the grass becomes visible through the boundary, bright and clear. As the next line describes the dry stone wall surrounding the meadow, the wall appears in the illusion but the grass becomes more misty and distant.\nThose able to see the illusion are also able to pass through from one regio level to the next, as they can see the necessary method. If crossing the regio boundary requires other conditions (help from a resident or a particular date, for example), the spell does not work.\nAs the caster must be standing exactly at the point where the regio layers meet and form a boundary, this spell can rarely be used to actually discern the location of that boundary.",
+    "source": "MoH",
+    "page": 142,
+    "indexKey": "a-song-of-all-these-faerie-places",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "M4nQPnxzbZMr2bcg",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!M4nQPnxzbZMr2bcg"
+}

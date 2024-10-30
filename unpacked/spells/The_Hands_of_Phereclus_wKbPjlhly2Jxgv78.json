@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Hands of Phereclus",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "targetSize": 3,
+    "complexity": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "Given enough lumber and prepared iron nails and other fixtures, this craft magic spell constructs an entire ship from the assembled raw materials. The design of the ship can be decided as the magus works the spell, and enough lumber can be controlled by the spell to create a ship of up to size +8. The free Terram requisite allows control and manipulation of the nails, bricks, and other mineral elements, but it cannot prepare them from raw materials; they must be in the required state.\nAs with all craft magic, a Perception + Finesse roll is required and, given the difficulty of creating a full vessel in little more than an instant, the Ease Factor is relatively high. Small ships, up to size +5, can ordinarily be built in a single season, while larger ships take multiple seasons. The following table takes this into account and provides a guide to Craft Magic Ease Factors for creating vessels of different sizes: [TABLE] .\nIn the table earlier, building a river barge is a relatively easy task for a shipwright, which is a base Ease Factor of 9, but the construction is likely to take up to a season, which adds +6 to the Ease Factor for a total of 15. Building a Mediterranean grain barge is an impressive feat (Ease Factor 21) and would normally take a shipwright a year (+9), which means a magus faces an Ease Factor of 30 to create such a vessel with craft magic. Given the relatively high Ease Factors involved, this spell is most likely to be used in constructing small vessels very quickly as a means of income for the shipyard.\nThe spell is named for Phereclus, a master shipbuilder of Greek antiquity.",
+    "source": "HP",
+    "page": 63,
+    "indexKey": "the-hands-of-phereclus",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "wKbPjlhly2Jxgv78",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!wKbPjlhly2Jxgv78"
+}

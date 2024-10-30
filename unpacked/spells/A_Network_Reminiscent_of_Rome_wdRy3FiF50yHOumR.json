@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "A Network Reminiscent of Rome",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "te"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 4,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Medieval roads vary in design, so in this spell the road is based, roughly, on the dimensions of Roman roads, which are just under three paces wide. For simplicity’s sake, the road is assumed to crown slightly, but average half a pace thick.\nIn Hermetic magic, all permanent creations spells are rituals, and all rituals are, at minimum, level 20. This means that for a simple shape, like a road, it’s no easier to create a permanent road ten paces long than one of the maximum length for this spell, which is 3.78 miles. If the road’s design is complex enough to require an extra magnitude, then either increase the level of the ritual, or shorten the road to 0.4 miles. Generally creating a bridge is not sufficiently complex to require an extra magnitude (there is none, for example in Bridge of Wood, Ars Magica page 135) but at the troupe’s discretion, creating a system that has many bridges may require one.",
+    "source": "TME",
+    "page": 60,
+    "indexKey": "a-network-reminiscent-of-rome",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/te.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266623057,
+    "modifiedTime": 1730266623057,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "wdRy3FiF50yHOumR",
+  "folder": "Cy6JvysNx2CNSwuF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!wdRy3FiF50yHOumR"
+}

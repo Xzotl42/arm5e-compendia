@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Remembered Messages",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "To use this spell successfully requires a little preparation, because each target needs to be prepared with a memory that can be altered with little trouble. For example, at sporting or cultural events, everyone may be asked to repeat the recipe for sea urchin soup, or memorize a string of flags.\nWhen this spell is required, the memory of the recipe is replaced with a single useful piece of information, or the flags are replaced with a single useful image. For example, an evacuation plan can be distributed in this way, or a series of mustering points for militias.\n* Remember to add further magnitudes to increase Boundary size.",
+    "source": "TME",
+    "page": 74,
+    "indexKey": "remembered-messages",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "MuB9OTDBtcraGBsP",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MuB9OTDBtcraGBsP"
+}

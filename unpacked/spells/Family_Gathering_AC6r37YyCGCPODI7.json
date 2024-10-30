@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Family Gathering",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "other"
+    },
+    "complexity": 3,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": true,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell alters the perceptions of the caster and all of those people who are descended from him or her. The affected people think themselves to be in a large, comfortable, well-lit room sitting around a table sufficiently large to seat every member of the bloodline, rather than at their actual locations. Those affected by the spell perceive their relatives to be with them in this room. The room itself is heavily influenced by the caster’s wizard’s sigil.\nThe members of the bloodline are able to speak to one another as if they were in the same room. If a member of the bloodline is asleep when Family Gathering is cast, the spell will not wake that family member; instead that person will experience the spell as a dream and he will have no easier of a time remembering the meeting than he would have remembering any other dream. The words and actions of a dreaming person are often, but not always, sufficiently odd to alert other participants to his or her state.\nDuring the spell’s duration, none of the family are able to receive information from their normal senses. (In terms of the mind as explained in Art and Academe, the forms and images collected by the target’s senses are overwritten in the target’s common sense by the Family Gathering spell). The targets of this spell are still able to move and control their bodies, but their inability to perceive their actual surroundings makes this a dangerous proposition.\nPrior to inventing this spell, Lambert on occasion spontaneously cast a Range: Personal, Target: Bloodline version of Words of the Unbroken Silence and used Familial Secrets to communicate with his children, but he found such communication to be very taxing. Lambert created Family Gathering to facilitate clear communication. This spell is specifically designed to not Warp members of Lambert’s bloodline.",
+    "source": "MoH",
+    "page": 67,
+    "indexKey": "family-gathering",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1730266602531,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "AC6r37YyCGCPODI7",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!AC6r37YyCGCPODI7"
+}

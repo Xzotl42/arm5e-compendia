@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Aegis of the Hearth",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual protects a covenant in the way a Parma Magica protects a magus.\nIf any spell is cast toward the Aegis (originating from outside it) by any magus who was not involved in the Aegis ritual, the Aegis resists the spell. Furthermore, spells that bring objects into the Aegis, including teleportation spells such as The Seven-League Stride, are also resisted unless the caster was involved in the ritual. If the foreign spell cannot penetrate a resistance equal to the level of the Aegis, it fizzles out. The Aegis is also able to block foreign Intellego spells, even if they cannot normally be blocked by a Parma Magica, and spells that were cast before they entered the Aegis, such as an invisibility spell cast on a magus outside the Aegis.\nMagi who were not involved in the ritual and who cast spells within the Aegis must subtract half the level of the Aegis from all their Casting Totals. Spells successfully cast have otherwise normal effects (e.g. Ignem spells still do full damage). Penetration totals for magical creatures are reduced by the same amount.\nEffects from enchanted devices are resisted by the Aegis unless the item was within the Aegis at the time of casting, or was created within the Aegis by someone who was part of the ritual or in possession of a token.\nCreatures with a Might score cannot enter the area protected by the Aegis unless they have a higher Might than the Aegis s level. When approaching the border of an Aegis, a magical person (including a Hermetic magus) feels a slight tingle in the extremities. Magical, Infernal, Faerie, and Divine creatures and persons may be brought.\nSuch a person is also not affected by the penalty to casting within the Aegis. The invitation may be withdrawn at any time. This does not require retrieving the token or even notifying the individual who is no longer welcome. Withdrawing an invitation will not expel the person beyond the Aegis, but will prevent them from re-entering after they leave (unless their Might is high enough), and subject them to the Casting Total penalty while they are within the Aegis. The invitation and expulsion must both be issued by magi who participated in the ritual, but not necessarily by the same magus. A magus may only invite or expel specific, known, individuals. He may not expel someone he does not know has been invited in.\nThe Aegis is typically cast on the winter solstice, since magical auras can be slightly higher at that time, and the Aegis then lasts for the entire next year. The entire covenant usually participates in the Aegis ritual, which often ends with the participants walking around the perimeter of the protected area in order to define it. Quite often, the covenant holds a major council meeting, or perhaps a large feast, after the ritual of the Aegis. Magi do not need to be able to cast the spell to participate in the ritual, and, indeed, non-Hermetic wizards can participate as well. Only one magus needs to actually cast the spell.\nAegis of the Hearth was invented by Notatus, the first Primus of House Bonisagus. It was a major breakthrough, incorporating Mercurian rituals as well as Hermetic theory, and was the reason Notatus was chosen to succeed Bonisagus. As a result, the spell is more powerful than it ought to be, and has no Perdo requisite. By 1220 Notatus’s discoveries have spread, and any magus trained in the Order is capable of inventing versions of the Aegis with the above parameters, but at different levels. Inventing a version with different parameters, however, would require a similar breakthrough, and years of research.",
+    "source": "ArM5",
+    "page": 161,
+    "indexKey": "aegis-of-the-hearth",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "4w2zrWwtwJGYsdfk",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!4w2zrWwtwJGYsdfk"
+}

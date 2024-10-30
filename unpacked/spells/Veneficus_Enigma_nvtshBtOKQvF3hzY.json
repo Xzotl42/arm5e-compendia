@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Veneficus Enigma",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 3,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Developed as a quick game for magi, the Veneficus Enigma creates the illusion of a small puzzlebox in the palm of the caster’s hand that can be manipulated by another. When cast, the caster sets the puzzle for the Veneficus Enigma. The illusory box then produces lights and sounds that are clues on how to open it. Figuring out the puzzle requires an Intelligence + Artes Liberales roll versus an Ease Factor equal to the caster’s Intelligence + Artes Liberales + 5. Traditionally, the caster holds an item in the palm of his hand when he casts this spell, to be retrieved as the “prize” when the box is opened. Removing the box from the caster’s hands to reveal the item without solving the puzzle is considered extremely impolite.",
+    "source": "MoH",
+    "page": 30,
+    "indexKey": "veneficus-enigma",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "nvtshBtOKQvF3hzY",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!nvtshBtOKQvF3hzY"
+}

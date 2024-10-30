@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "The Scrying Pool",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "other"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual allows the caster to see an image of the target and his immediate surroundings in the surface of the pool of water in the Scrying Office (in the Basillica). The ritual is specifically designed for this pool; another similar pool cannot be used.\nIf Wizard’s Communion is used to cast this ritual, then it only expires when all of the casting magi cease to concentrate. Individual magi may cease concentrating and rejoin later. In this way, by taking shifts, the ritual may be prolonged for hours, days, potentially even years. Only magi who participated in the Wizard’s Communion may join or rejoin the ritual. This effect is a special feature of how this ritual was originally designed to interact with Wizard’s Communion', these rules do not apply to other spells.\nCasting this spell on a member of Order of Hermes is illegal scrying. Of course, the casters might not be bothered by this.",
+    "source": "Mythic Locations",
+    "page": 98,
+    "indexKey": "the-scrying-pool",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1730266588755,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "tMrdpRPWEsNRslK6",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!tMrdpRPWEsNRslK6"
+}

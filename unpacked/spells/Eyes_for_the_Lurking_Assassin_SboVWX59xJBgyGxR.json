@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Eyes for the Lurking Assassin",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "sight"
+    },
+    "complexity": 3,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell detects the presence of an Intangible Tunnel- style tunnel, and reveals its sigil. This is sufficient information to use the tunnel or target the tunnel itself with spells.\nNote that a general Intellego Vim spell to detect magic might be used to provide similar information. This spell, however, specifically detects only Intangible Tunnel effects. This is useful because, as a magus is likely to be often among a lot of magical effects, he does not want to take time to scan his surroundings individually identifying specific effects as he searches for an Intangible Tunnel (see See the Light of Magic). This is important because, if the magus suspects he is under attack by an Intangible Tunnel, he may only have moments to react.",
+    "source": "HP",
+    "page": 83,
+    "indexKey": "eyes-for-the-lurking-assassin",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "SboVWX59xJBgyGxR",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!SboVWX59xJBgyGxR"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Impede the Impertinent Interloper",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "ring"
+    },
+    "target": {
+      "value": "circle"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell cancels the casting of any spell of instant transportation within a circle drawn at the time of casting, or to a person within the circle. It also prevents the area within the circle from being the destination of such a spell. The spell fails and the intended target does not move. The spell can only cancel spells of a level less than the (level of this spell + 5 + stress die (no botch)). Thus a 25th level version of this spell is always sufficient to block a Seven-League Stride, and might block The Leap of Homecoming if the stress die result is 5 or more. If the transport spell is of non-Hermetic origin then you should estimate its level based on Hermetic guidelines. If the caster of the affected spell is within the circle, then this spell must Penetrate Magic Resistance to have the desired effect.",
+    "source": "TME",
+    "page": 109,
+    "indexKey": "impede-the-impertinent-interloper",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1730266633698,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "OgALrquwC5IbMYwU",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!OgALrquwC5IbMYwU"
+}

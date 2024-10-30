@@ -1,0 +1,81 @@
+{
+  "type": "spell",
+  "name": "Vessel of the Clouds",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "he"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 1,
+    "complexity": 4,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Imbues a small boat such as a coracle with the power of flight. The boat and all its contents are lifted into the air, and the caster may make Intelligence + Finesse rolls to change direction or speed. For typical Ease Factors, see The Woolen Steed ofAraby, earlier. The maximum speed is forty miles an hour.\nThe rigid nature of wood allows the boat to carry a substantial burden; in addition to being lifted itself, the boat can contain a Load of 50. Note that an average person has a Load of 21, so the boat can carry perhaps two people and their equipment. Adding a Size modifier to this spell lifts a larger boat: each additional Size modifier multiplies the maximum additional Load by a factor of 10.\nA boat made of metal (or other metal object) could be made to fly using the Rego Terram base guideline of 2, +2 to affect metal. Metal is even more rigid than wood, and can bear an extra 75 points of Load in addition to itself. As before, Size modifiers lift ten times as much metal and thus ten times as much Load.\nThe extra magnitudes have been added to this spell by analogy with the Rego Corpus guidelines.",
+    "source": "TME",
+    "page": 112,
+    "indexKey": "vessel-of-the-clouds",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null
+  },
+  "img": "systems/arm5e/assets/magic/he.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730266541909,
+    "modifiedTime": 1730266541909,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "kqwA4dZoVdo10RvC",
+  "folder": "oUunfTgpdIKsTy19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!kqwA4dZoVdo10RvC"
+}
