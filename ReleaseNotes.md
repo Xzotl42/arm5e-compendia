@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.9.9
+
+- HTML clean up of virtues
+
 ## Version 0.9.8
 
 - Added compendium data from the standard edition

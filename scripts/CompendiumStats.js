@@ -244,9 +244,14 @@ export class CompendiumStats extends FormApplication {
       if (doc.name.startsWith("#[CF")) continue;
 
       const updateData = {};
-      let desc = $(doc.system.description);
+      const parser = new DOMParser();
+      let res = document.createElement("p");
+      const desc = $.parseHTML(doc.system.description);
+      let cleaned = this.cleanHTML(desc);
 
-      // if (!dryrun) await doc.update(updateData);
+      console.log(cleaned);
+      updateData["system.description"] = cleaned;
+      if (!dryrun) await doc.update(updateData);
       count++;
     }
     console.log(`${count} document processed.`);
@@ -255,6 +260,26 @@ export class CompendiumStats extends FormApplication {
         locked: true
       });
     }
+  }
+
+  cleanHTML(element) {
+    let output = "";
+    if (element) {
+      for (let e of element) {
+        if (e.id === "WACViewPanel_ClipboardElement") {
+          output += this.cleanHTML(e.children);
+        } else if (e.classList.contains("OutlineElement")) {
+          output += this.cleanHTML(e.children);
+        } else if (e.classList.contains("Paragraph")) {
+          output += this.cleanHTML(e.children);
+        } else if (e.classList.contains("NormalTextRun")) {
+          output += this.cleanHTML(e.children);
+        } else {
+          output += `<p>${e.innerHTML}</p>`;
+        }
+      }
+    }
+    return output;
   }
 
   async _updateObject(ev, formData) {
