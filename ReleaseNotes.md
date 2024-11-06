@@ -2,7 +2,10 @@
 
 ## Version 0.9.9
 
-- HTML clean up of virtues
+- New utility macro to display the rollData of a token in the console.
+- New Compendia : characters, creatures and covenants
+- HTML clean up of virtues (WIP)
+- Spanish user guide now points to the proper images.
 
 ## Version 0.9.8
 

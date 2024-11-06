@@ -93,8 +93,12 @@ export class CompendiumStats extends FormApplication {
         if (d.system.source === "ArM5" || d.system.source === "custom") {
           stats.homebrewOrCore.push(d);
         }
-        if (d.type === "spell" && d.system.source !== "ArM5Def" && d.system.general) {
-          // CUSTOM
+        // if (d.type === "spell" && d.system.source !== "ArM5Def" && d.system.general) {
+        //   // CUSTOM
+        //   stats.customList.push(d);
+        // }
+
+        if (d.system.description.includes("Times New Roman")) {
           stats.customList.push(d);
         }
 
@@ -244,13 +248,7 @@ export class CompendiumStats extends FormApplication {
       if (doc.name.startsWith("#[CF")) continue;
 
       const updateData = {};
-      const parser = new DOMParser();
-      let res = document.createElement("p");
-      const desc = $.parseHTML(doc.system.description);
-      let cleaned = this.cleanHTML(desc);
 
-      console.log(cleaned);
-      updateData["system.description"] = cleaned;
       if (!dryrun) await doc.update(updateData);
       count++;
     }
@@ -266,13 +264,21 @@ export class CompendiumStats extends FormApplication {
     let output = "";
     if (element) {
       for (let e of element) {
+        if (e.nodeName === "P") {
+          for (let child of e.children) {
+            if (child.classList.contains("NormalTextRun")) {
+              output += this.cleanHTML(child.children);
+            }
+          }
+          continue;
+        }
         if (e.id === "WACViewPanel_ClipboardElement") {
           output += this.cleanHTML(e.children);
-        } else if (e.classList.contains("OutlineElement")) {
+        } else if (e.classList?.contains("OutlineElement")) {
           output += this.cleanHTML(e.children);
-        } else if (e.classList.contains("Paragraph")) {
+        } else if (e.classList?.contains("Paragraph")) {
           output += this.cleanHTML(e.children);
-        } else if (e.classList.contains("NormalTextRun")) {
+        } else if (e.classList?.contains("NormalTextRun")) {
           output += this.cleanHTML(e.children);
         } else {
           output += `<p>${e.innerHTML}</p>`;

@@ -42,6 +42,42 @@
   "styles": ["css/arm5e-compendia.css"],
   "packs": [
     {
+      "name": "characters",
+      "label": "Ars Magica - Characters",
+      "path": "packs/characters.db",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "creatures",
+      "label": "Ars Magica - Creatures",
+      "path": "packs/creatures.db",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "covenants",
+      "label": "Ars Magica - Covenants",
+      "path": "packs/covenants.db",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
       "name": "macros",
       "label": "Ars Magica - Macros",
       "path": "packs/macros.db",
