@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 59,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">An air of corruption surrounds you as a result of something you, your parents, or your ancestors did. Others naturally feel very ill at ease around you, and can easily grow to hate you. Gaining a positive Reputation is impossible. Magi do not react as strongly to this attribute as normal people.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "tainted-with-evil"
+    "indexKey": "tainted-with-evil",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751581,
-    "modifiedTime": 1696141994860,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730925878079,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "UfPp46NPMX0jIrJv",
   "_id": "P5YOdXlQIcvqoTJT",
-  "sort": 0,
+  "sort": 4100000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!P5YOdXlQIcvqoTJT"
 }

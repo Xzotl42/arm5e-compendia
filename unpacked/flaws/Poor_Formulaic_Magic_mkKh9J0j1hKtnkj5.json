@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 58,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You are simply not very good at formulaic magic. Subtract 5 from every roll that you make to cast formulaic spells. This does not apply to Ritual spells.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "poor-formulaic-magic"
+    "indexKey": "poor-formulaic-magic",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751605,
-    "modifiedTime": 1696141995310,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730919282331,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "8FTSMAxaThguRoxc",
   "_id": "mkKh9J0j1hKtnkj5",
-  "sort": 0,
+  "sort": 3300000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!mkKh9J0j1hKtnkj5"
 }

@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 53,
+    "description": "<p>Spontaneous magic is always an effort for you. You cannot cast Spontaneous spells without exerting yourself. However, when you do exert yourself, you cast spells as any other magus.</p><p>This Flaw may be combined with Weak Spontaneous Magic (page @@) to create a magus who cannot use Spontaneous magic at all.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "difficult-spontaneous-magic"
+    "indexKey": "difficult-spontaneous-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751590,
-    "modifiedTime": 1696141994872,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730758529464,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "8FTSMAxaThguRoxc",
   "_id": "Pd60aIt2D8dTcpQ9",
-  "sort": 0,
+  "sort": 2100000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!Pd60aIt2D8dTcpQ9"
 }

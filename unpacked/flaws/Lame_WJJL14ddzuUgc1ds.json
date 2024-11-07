@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 55,
+    "description": "<p>One of your legs is weakened, whether since birth or through some accident. You move slowly and clumsily. Your base speed is a mere one mile per hour, and anyone can outrun you. You suffer a –6 penalty on rolls involving moving quickly or with agility, –3 on Dodge, and –1 on other combat scores.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "lame"
+    "indexKey": "lame",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751560,
-    "modifiedTime": 1696141994960,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730921663138,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "UfPp46NPMX0jIrJv",
   "_id": "WJJL14ddzuUgc1ds",
-  "sort": 0,
+  "sort": 4200000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!WJJL14ddzuUgc1ds"
 }

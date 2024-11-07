@@ -43,14 +43,14 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -68,31 +68,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 58,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You are bad at learning new things. Subtract 3 from all Advancement Totals derived from teaching and books (that is, you have no penalty to adventure experience, exposure, practice, studying from vis, or training), but do not reduce a total below one. If you could learn something without this Flaw, you still learn a bit.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "poor-student"
+    "indexKey": "poor-student",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751651,
-    "modifiedTime": 1696141995380,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730921663138,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "UfPp46NPMX0jIrJv",
   "_id": "nvsPu2BTxzCXXFIT",
-  "sort": 0,
+  "sort": 4800000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!nvsPu2BTxzCXXFIT"
 }

@@ -1,0 +1,47 @@
+{
+  "name": "Flawed Powers",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character must have at least one Major Supernatural Virtue to take this Flaw. The character’s supernatural powers are limited or restricted in some fashion. She suffers the effects of a Major Hermetic Flaw (commonly Restriction or Necessary Condition), but it is applied to her Supernatural Virtues rather than to her Hermetic magic (if any). Any Flaw that is only appropriate to Hermetic Magic (for example, Deficient Technique or Unstructured Caster) cannot be taken with this Flaw. Note that the restriction on the supernatural power is not a separate Major Flaw: this Minor Flaw represents the fact that a Major Supernatural Virtue is less central to a character’s activities than Hermetic magic is to a magus.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "compulsion-major",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false,
+    "ownership": null
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730014448737,
+    "modifiedTime": 1730756700400,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "FxRILmyYavwmreBA",
+  "_id": "ELeGYJIPsJQLQzOw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ELeGYJIPsJQLQzOw"
+}

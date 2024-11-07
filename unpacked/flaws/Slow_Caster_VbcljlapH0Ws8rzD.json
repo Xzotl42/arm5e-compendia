@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 59,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">Your magic requires more time to prepare and execute than that of other magi. Your Formulaic spells take two rounds to cast; Spontaneous spells also take two rounds unless you fast-cast, in which case they take one round casting time. Fast-cast Mastered spells also take the normal one-round time. You can still cast Muto Vim spells on your own spells, but the casting process takes longer. Ritual spells and ceremonial castings are performed as normal, since all magi must cast them slowly and carefully.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "slow-caster"
+    "indexKey": "slow-caster",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751516,
-    "modifiedTime": 1696141994930,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730922431803,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "8FTSMAxaThguRoxc",
   "_id": "VbcljlapH0Ws8rzD",
-  "sort": 0,
+  "sort": 2200000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!VbcljlapH0Ws8rzD"
 }

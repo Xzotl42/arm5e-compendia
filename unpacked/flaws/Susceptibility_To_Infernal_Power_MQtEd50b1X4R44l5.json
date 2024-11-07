@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 59,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You are especially vulnerable to the dark powers. Whenever you enter an area of Infernal influence, you must make a Stamina roll equal to or greater than the aura rating or become ill (–1 on all rolls). You get only half your normal Magic Resistance score against infernal effects, though if someone else's Parma Magica is protecting you, it counts normally.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "susceptibility-to-infernal-power"
+    "indexKey": "susceptibility-to-infernal-power",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751599,
-    "modifiedTime": 1696141994832,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730923156584,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "8FTSMAxaThguRoxc",
   "_id": "MQtEd50b1X4R44l5",
-  "sort": 0,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!MQtEd50b1X4R44l5"
 }

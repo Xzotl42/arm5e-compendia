@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 58,
+    "description": "<p>You are a fervent follower of your religion. You avoid the things it prohibits, and enthusiastically do the things it commands.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "personality",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "pious-minor"
+    "indexKey": "pious-minor",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751626,
-    "modifiedTime": 1696141994589,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730929008135,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "hXfkbCsUoxlA0bSB",
   "_id": "CFtyK6svM9eJ2GdS",
-  "sort": 0,
+  "sort": 2100000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!CFtyK6svM9eJ2GdS"
 }

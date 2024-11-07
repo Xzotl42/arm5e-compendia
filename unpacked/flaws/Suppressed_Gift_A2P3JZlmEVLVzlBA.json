@@ -1,0 +1,46 @@
+{
+  "name": "Suppressed Gift",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">The character has The Gift but cannot access its power, having temporarily lost his magical ability through mishap or some other misfortune. While the Gift is suppressed, the character cannot perform Hermetic magic, improve his Arts, or perform the Parma Magica. His Arts do provide him with Magic Resistance and he continues to suffer the negative social penalties of The Gift. Such a character may still use Supernatural Virtues and Abilities. He may be a member of the Order of Hermes, depending on when his Gift was suppressed.</p></div><div class=\"el-p\"><p dir=\"auto\">How The Gift returns should be decided by the storyguide. Examples are surviving a laboratory disaster while assisting another magus (perhaps that was how Suppressed Gift was gained), comprehending a Temporary Twilight while in a powerful regio, visiting the Magic Realm and succeeding in some task, or undergoing a year’s instruction from an elder dragon.</p></div><div class=\"el-p\"><p dir=\"auto\">The troupe should consider carefully how the character will fit into the saga. If he replaces a player’s magus, he has a very serious Flaw. If he replaces a companion, he will become much more powerful when the Story Flaw is resolved. Either approach can work, with care.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "suppressed-gift",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730922975464,
+    "modifiedTime": 1730929087228,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "MY0pk5xRqPANrebl",
+  "_id": "A2P3JZlmEVLVzlBA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!A2P3JZlmEVLVzlBA"
+}

@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 58,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You do not like being disturbed or interrupted. You feel that an intrusion by another upon your time is unnecessary at best, and an insult at worst. You are very reluctant to be dragged into public places, or group activities, and generally complain when you must participate. Note that this is often a bad Flaw for a player character, unless there is a good reason why that character needs to stay out of play most of the time (for example, he is played by the alpha storyguide).</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "personality",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "reclusive"
+    "indexKey": "reclusive",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751542,
-    "modifiedTime": 1696141995027,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730922497215,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "hXfkbCsUoxlA0bSB",
   "_id": "ZzhdTHRV2S5M8PHQ",
-  "sort": 0,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!ZzhdTHRV2S5M8PHQ"
 }

@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 54,
+    "description": "<p>You are scared of something that you are likely to encounter fairly often. Its presence makes you edgy and very uncomfortable.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "personality",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "fear"
+    "indexKey": "fear",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751647,
-    "modifiedTime": 1696141994849,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730922497215,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "hXfkbCsUoxlA0bSB",
   "_id": "ONKegvWnmGg4rpzQ",
-  "sort": 0,
+  "sort": 2600000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!ONKegvWnmGg4rpzQ"
 }

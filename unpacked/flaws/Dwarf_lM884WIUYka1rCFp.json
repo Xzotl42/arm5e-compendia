@@ -61,14 +61,14 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -86,31 +86,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 53,
+    "description": "<p>You are the size of a child. Your comfortable walking speed is two-thirds that of a normal person. Your Size is –2, so the severity of wounds you take increases in three point increments rather than five point increments (see page @@). You take a –1 penalty to each of Strength and Stamina, which may reduce each Characteristic as low as –6. You cannot take this Flaw and Giant Blood (page @@), Large (page @@), or Small Frame (page @@).</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "major"
     },
-    "indexKey": "dwarf"
+    "indexKey": "dwarf",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751659,
-    "modifiedTime": 1696141995275,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730756835940,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "JfccfuGi1M1LXZSX",
   "_id": "lM884WIUYka1rCFp",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!lM884WIUYka1rCFp"
 }

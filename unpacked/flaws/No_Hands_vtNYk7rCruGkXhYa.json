@@ -30,14 +30,14 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -55,31 +55,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 56,
+    "description": "<p>You have no hands. Any activity requiring hands is impossible, and magi with this Flaw take a –5 penalty to all Casting Scores. This may be offset by taking the Subtle Magic Virtue (page @@) or the Still Casting Spell Mastery ability.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "major"
     },
-    "indexKey": "no-hands"
+    "indexKey": "no-hands",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751625,
-    "modifiedTime": 1696141995531,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730756702515,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "JfccfuGi1M1LXZSX",
   "_id": "vtNYk7rCruGkXhYa",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!vtNYk7rCruGkXhYa"
 }

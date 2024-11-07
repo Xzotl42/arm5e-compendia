@@ -1,0 +1,47 @@
+{
+  "name": "Hermetic Patron",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You must be a Redcap or magus to take this Flaw.</p><p>You are watched over by an older magus or a more established Redcap, who considers you his charge and helps you out from time to time. This patron must be an NPC. Because of your special relationship, he is willing to do additional favors for you that cost him little, such as casting spells on you, lending you magic items, allowing you access to his books, providing you with mundane materials, supporting you financially for a season or two, or even adopting you into his House. However, in return he will expect special attention from you, and may periodically send you on missions or assign you important tasks.</p><p>You may take this Flaw with a large group of magi as your patrons, though the more numerous your benefactors, the more you will be expected to do for them.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "hermetic-patron",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false,
+    "ownership": null
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730455466694,
+    "modifiedTime": 1730929087295,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "hXfkbCsUoxlA0bSB",
+  "_id": "CnetuzlnRRY4FGyK",
+  "sort": 6100000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!CnetuzlnRRY4FGyK"
+}

@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 51,
+    "description": "<p>People immediately realize that there is something strange about you, even if they do not know you are a magus. Animals are extremely disturbed, frightened, and possibly enraged by your presence. You suffer a –6 penalty on all interaction rolls with normal people and animals, and should see page @@ for further discussion of this Flaw’s effects.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "major"
     },
-    "indexKey": "blatant-gift"
+    "indexKey": "blatant-gift",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751546,
-    "modifiedTime": 1696141995441,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730757351674,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "MY0pk5xRqPANrebl",
   "_id": "qTVw6H0wZEI8hrhL",
-  "sort": 0,
+  "sort": 1500000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!qTVw6H0wZEI8hrhL"
 }

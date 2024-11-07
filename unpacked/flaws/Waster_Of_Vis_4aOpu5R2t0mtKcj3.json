@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 61,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">When you use raw vis you waste one quarter (rounded up) of the pawns you apply. The lost raw vis does not apply to the magical effect being enacted but does count toward the total number of botch dice you must roll if you roll a zero. You must use a third again as many pawns as usual when casting a ritual spell, and if you want to improve an Art score by studying raw vis, you must use a third again as many pawns as usual. This Flaw applies to all occasions on which you use vis, including certamen, laboratory work, and boosting penetration. Wasted pawns count toward the maximum number you can use at one time.</p></div><div class=\"el-p\"><p dir=\"auto\">For example, if you would normally use 12 pawns, you must use 16, and 4, one quarter of those you use, are wasted. If you would normally need 10 pawns, you must use 14, because 4 pawns are wasted.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "major"
     },
-    "indexKey": "waster-of-vis"
+    "indexKey": "waster-of-vis",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751534,
-    "modifiedTime": 1696141994438,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730928562895,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "MY0pk5xRqPANrebl",
   "_id": "4aOpu5R2t0mtKcj3",
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!4aOpu5R2t0mtKcj3"
 }

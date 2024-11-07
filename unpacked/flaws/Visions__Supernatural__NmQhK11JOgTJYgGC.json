@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 60,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You often see images related to emotionally or magically laden events. A vision might be of the past, a possible future, or a distant occurrence, and is often symbolic or confusing. Visions usually come to you at quiet times or in places connected with a powerful emotional or magical event, such as the site of a patricide or diabolic sacrifice. Your visions may warn you of dangers to come, or get you involved in matters you would otherwise have avoided.</p></div><div class=\"el-p\"><p dir=\"auto\">The visions come purely at the storyguide's discretion, and reveal only what he wants to reveal.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "supernatural",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "visions-supernatural"
+    "indexKey": "visions-supernatural",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751537,
-    "modifiedTime": 1696141994844,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730929129486,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "FxRILmyYavwmreBA",
   "_id": "NmQhK11JOgTJYgGC",
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!NmQhK11JOgTJYgGC"
 }

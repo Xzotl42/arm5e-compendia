@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 52,
+    "description": "<p>Your family is one of the most important things in your life, and still supports and aids you whenever possible, even at personal risk. Family members do not hesitate to do you any favor that is within their power, and can call on their friends and neighbors to help you. It works both ways, however; your family will require help from you some day.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "story",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "close-family-ties"
+    "indexKey": "close-family-ties",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751575,
-    "modifiedTime": 1696141995044,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730785474169,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "w0VVgqRCx0opq0TL",
   "_id": "auUHRF64J1UTEk36",
-  "sort": 0,
+  "sort": 1200000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!auUHRF64J1UTEk36"
 }

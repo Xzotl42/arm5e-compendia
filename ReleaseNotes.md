@@ -7,6 +7,16 @@
 - HTML clean up of virtues (WIP)
 - Spanish user guide now points to the proper images.
 
+### Compendia content
+
+- Equipment - V2
+- Virtues - V1
+- Flaws - V1 - **NEW**
+- Spells
+  - Animal - V1
+  - Aquam (DE only) V1
+- Laboratory-virtues - V1
+
 ## Version 0.9.8
 
 - Added compendium data from the standard edition

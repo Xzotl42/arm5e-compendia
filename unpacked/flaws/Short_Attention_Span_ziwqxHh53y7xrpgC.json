@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 58,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You have trouble concentrating. Keeping watch, listening to complex orders, following the plot of a story, or performing other such tasks that require continued attention are usually not within your ability.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "personality",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "short-attention-span"
+    "indexKey": "short-attention-span",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751598,
-    "modifiedTime": 1696141995596,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730922497215,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "hXfkbCsUoxlA0bSB",
   "_id": "ziwqxHh53y7xrpgC",
-  "sort": 0,
+  "sort": 5900000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!ziwqxHh53y7xrpgC"
 }

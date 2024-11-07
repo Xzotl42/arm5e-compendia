@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 51,
+    "description": "<p>You come from a prestigious family, but you have somehow estranged yourself from your relatives. They have nothing to do with you, unless they wish to punish you somehow or make use of you. Those who resent your family’s power can take safe revenge by assaulting you. You begin the game with a bad Reputation of your choice at level 2, among those who respect your family.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "story",
     "impact": {
       "value": "major"
     },
-    "indexKey": "black-sheep"
+    "indexKey": "black-sheep",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751552,
-    "modifiedTime": 1696141994965,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730785231661,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "HvyHCuxjJNI5yJoA",
   "_id": "WPtBspG4NM7vgeZ3",
-  "sort": 0,
+  "sort": 1100000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!WPtBspG4NM7vgeZ3"
 }

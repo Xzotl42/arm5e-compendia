@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 57,
+    "description": "<p>You are convinced that everything will turn out for the best. This is not overconfidence, as you accept that you might well fail. Even if you do, however, you are sure that circumstances will mean that everything works to your benefit.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "personality",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "optimistic-minor"
+    "indexKey": "optimistic-minor",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751549,
-    "modifiedTime": 1696141995473,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730925618516,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "hXfkbCsUoxlA0bSB",
   "_id": "s4tpWNUDzr9V1wCE",
-  "sort": 0,
+  "sort": 4900000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!s4tpWNUDzr9V1wCE"
 }

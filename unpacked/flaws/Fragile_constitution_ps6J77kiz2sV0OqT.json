@@ -1,16 +1,20 @@
 {
-  "name": "Fragile constitution",
+  "name": "Fragile Constitution",
   "type": "flaw",
   "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 54,
+    "description": "<p>You are sickly and weak. You suffer a –3 penalty on all rolls to recover from wounds and diseases.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "fragile-constitution"
+    "indexKey": "fragile-constitution",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "effects": [
     {
@@ -53,14 +57,14 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -76,21 +80,21 @@
     }
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1691857906682,
-    "modifiedTime": 1696141995418,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730921663138,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "UfPp46NPMX0jIrJv",
   "_id": "ps6J77kiz2sV0OqT",
-  "sort": 0,
+  "sort": 5000000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!ps6J77kiz2sV0OqT"
 }

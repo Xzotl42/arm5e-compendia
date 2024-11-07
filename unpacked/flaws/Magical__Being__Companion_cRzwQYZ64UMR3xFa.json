@@ -1,0 +1,46 @@
+{
+  "name": "Magical (Being) Companion",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character is accompanied by an intelligent magical being, one that is smart enough to follow orders or disobey them on its own initiative, which the character must regularly look after. This might be an animal, a spirit, a human-like creature, or even an animate object. <em>Realms of Power: Magic</em> contains extensive rules for designing such characters, but they can also be made following the guidelines and examples in Chapter 13 of this book. A grog-level character might be essentially an extension of the character’s will, while a companion-level character might follow instructions but often do what it thinks is best, and a magus-level character might be condescending or wild, and rarely act except on its own initiative.&nbsp;</p><p>A particularly common example is a magical animal that’s smart enough to follow your orders or to disobey them on its own initiative. The smaller and more innocuous the creature, the more intelligent it is. A ferret or crow is as intelligent as a human, a wolf is very cunning, and an animal the size of a horse is simply more intelligent than normal. The creature has a Magic Might score of 10 – Size.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "story",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "magical-animal-companion",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730758110122,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "w0VVgqRCx0opq0TL",
+  "_id": "cRzwQYZ64UMR3xFa",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!cRzwQYZ64UMR3xFa"
+}

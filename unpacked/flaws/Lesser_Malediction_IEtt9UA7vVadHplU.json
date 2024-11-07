@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 55,
+    "description": "<p>You have been cursed by some supernatural power. The effects of the curse should be about as bad as other Minor General Flaws.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "supernatural",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "lesser-malediction"
+    "indexKey": "lesser-malediction",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751593,
-    "modifiedTime": 1696141994743,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730464909312,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "FxRILmyYavwmreBA",
   "_id": "IEtt9UA7vVadHplU",
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!IEtt9UA7vVadHplU"
 }

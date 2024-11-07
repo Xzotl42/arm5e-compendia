@@ -1,0 +1,496 @@
+{
+  "name": "Dummy",
+  "type": "covenant",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "indexKey": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "visRegistry": {
+      "sources": {
+        "name": "",
+        "art": "",
+        "peons": 0,
+        "collectionTime": "",
+        "notes": ""
+      },
+      "reserves": {
+        "cr": {
+          "notes": "",
+          "peons": 0,
+          "label": "Creo"
+        },
+        "in": {
+          "notes": "",
+          "peons": 0,
+          "label": "Intellego"
+        },
+        "mu": {
+          "notes": "",
+          "peons": 0,
+          "label": "Muto"
+        },
+        "pe": {
+          "notes": "",
+          "peons": 0,
+          "label": "Perdo"
+        },
+        "re": {
+          "notes": "",
+          "peons": 0,
+          "label": "Rego"
+        },
+        "an": {
+          "notes": "",
+          "peons": 0,
+          "label": "Animal"
+        },
+        "aq": {
+          "notes": "",
+          "peons": 0,
+          "label": "Aquam"
+        },
+        "au": {
+          "notes": "",
+          "peons": 0,
+          "label": "Auram"
+        },
+        "co": {
+          "notes": "",
+          "peons": 0,
+          "label": "Corpus"
+        },
+        "he": {
+          "notes": "",
+          "peons": 0,
+          "label": "Herbam"
+        },
+        "ig": {
+          "notes": "",
+          "peons": 0,
+          "label": "Ignem"
+        },
+        "im": {
+          "notes": "",
+          "peons": 0,
+          "label": "Imaginem"
+        },
+        "me": {
+          "notes": "",
+          "peons": 0,
+          "label": "Mentem"
+        },
+        "te": {
+          "notes": "",
+          "peons": 0,
+          "label": "Terram"
+        },
+        "vi": {
+          "notes": "",
+          "peons": 0,
+          "label": "Vim"
+        }
+      }
+    },
+    "narrator": "",
+    "saga": "",
+    "sagaType": "",
+    "foundationYear": 1200,
+    "season": "spring",
+    "tribunal": "",
+    "scene": {
+      "id": "",
+      "value": "",
+      "linked": false
+    },
+    "levelsRegio": 0,
+    "modifiersLife": {
+      "magi": 1,
+      "mundane": 0
+    },
+    "aegisCovenant": 0,
+    "reputations": [],
+    "constructionPoints": {
+      "total": 0,
+      "data": {
+        "library": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        },
+        "laboratoryTexts": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        },
+        "vis": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        },
+        "magicItems": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        },
+        "specialists": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        },
+        "laboratories": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        },
+        "money": {
+          "initials": 0,
+          "actuals": 0,
+          "notes": ""
+        }
+      }
+    },
+    "governForm": "",
+    "loyaltyPoints": {
+      "base": 0,
+      "actuals": 0,
+      "predominant": 0
+    },
+    "loyaltyModifiers": {
+      "livingConditions": 0,
+      "equipment": 0,
+      "money": 0,
+      "specialists": 0
+    },
+    "habitants": {
+      "npcgrogs": 0,
+      "totalHabitants": 0,
+      "magi": [],
+      "companion": [],
+      "specialists": [],
+      "habitants": [],
+      "horses": [],
+      "livestock": []
+    },
+    "possessions": [],
+    "labs": [],
+    "items": [],
+    "visSources": [],
+    "visStock": [],
+    "calendar": [],
+    "incomingSources": [],
+    "yearExpenditure": {
+      "buildings": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "consumables": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "inflation": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "laboratories": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "provisions": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "titles": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "wages": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "weapons": {
+        "expenditure": 0,
+        "notes": ""
+      },
+      "writingMaterials": {
+        "expenditure": 0,
+        "notes": ""
+      }
+    },
+    "costsSavings": {
+      "laborers": {
+        "quantity": 0,
+        "saving": 0,
+        "notes": ""
+      },
+      "craftsmenCommon": {
+        "quantity": 0,
+        "saving": 0,
+        "notes": ""
+      },
+      "craftsmenRare": {
+        "quantity": 0,
+        "saving": 0,
+        "notes": ""
+      },
+      "magicItems": {
+        "quantity": 0,
+        "saving": 0,
+        "notes": ""
+      }
+    },
+    "wealth": {
+      "totalIncome": 0,
+      "baseExpenditure": 0,
+      "costSavings": 0,
+      "totalExpenditure": 0,
+      "inhabitantsPoints": 0,
+      "laboratoriesPoints": 0,
+      "weaponsPoints": 0
+    },
+    "magicBooks": [],
+    "laboratoryTexts": [],
+    "mundaneBooks": [],
+    "aegisPenetration": 0,
+    "buildPoints": {
+      "library": {
+        "value": 0,
+        "notes": ""
+      },
+      "laboratoryTexts": {
+        "value": 0,
+        "notes": ""
+      },
+      "vis": {
+        "value": 0,
+        "notes": ""
+      },
+      "magicItems": {
+        "value": 0,
+        "notes": ""
+      },
+      "specialists": {
+        "value": 0,
+        "notes": ""
+      },
+      "laboratories": {
+        "value": 0,
+        "notes": ""
+      },
+      "money": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "npcInhabitants": 0,
+    "loyalty": {
+      "points": {
+        "modifier": 0,
+        "prevailing": 0
+      },
+      "modifiers": {
+        "equipment": "standard",
+        "wages": "normal",
+        "familiarity": 0,
+        "events": 0
+      }
+    },
+    "yearlyExpenses": {
+      "buildings": {
+        "amount": 0,
+        "notes": ""
+      },
+      "consumables": {
+        "amount": 0,
+        "notes": ""
+      },
+      "laboratories": {
+        "amount": 0,
+        "notes": ""
+      },
+      "provisions": {
+        "amount": 0,
+        "notes": ""
+      },
+      "wages": {
+        "amount": 0,
+        "notes": ""
+      },
+      "weapons": {
+        "amount": 0,
+        "notes": ""
+      },
+      "writingMaterials": {
+        "amount": 0,
+        "notes": ""
+      },
+      "tithes": {
+        "amount": 0,
+        "notes": ""
+      },
+      "inflation": {
+        "amount": 0,
+        "notes": ""
+      },
+      "sundry": {
+        "amount": 0,
+        "notes": ""
+      }
+    },
+    "yearlySavings": {
+      "laborers": {
+        "quantity": 0,
+        "amount": 0,
+        "notes": ""
+      },
+      "craftsmen": {
+        "quantity": 0,
+        "amount": 0,
+        "notes": ""
+      },
+      "specialists": {
+        "quantity": 0,
+        "amount": 0,
+        "notes": ""
+      },
+      "magicItems": {
+        "quantity": 0,
+        "amount": 0,
+        "notes": ""
+      }
+    },
+    "finances": {
+      "wealth": 0,
+      "totalIncome": 0,
+      "baseExpenditure": 0,
+      "costSavings": 0,
+      "totalExpenditure": 0,
+      "inhabitantsPoints": 0,
+      "laboratoriesPoints": 0,
+      "weaponsPoints": 0,
+      "averageEquipMaintenance": 5
+    }
+  },
+  "prototypeToken": {
+    "name": "Dummy",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/castle.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.6",
+    "createdTime": 1730959124699,
+    "modifiedTime": 1730959124699,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "KxuDdnzyaQ0GP9Il",
+  "sort": 0,
+  "_key": "!actors!KxuDdnzyaQ0GP9Il"
+}

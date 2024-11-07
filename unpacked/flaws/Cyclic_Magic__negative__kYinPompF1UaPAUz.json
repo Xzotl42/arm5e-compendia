@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 52,
+    "description": "<p>As with the Hermetic Virtue, your magic is attuned to some cycle of nature and is less potent at specific times. You have a –3 penalty to all Lab Totals and Casting Scores during that time. The penalty applies to Lab Totals even if the negative period does not cover the whole of the season. The length of time during which you are at a disadvantage must be equal to the time when there is no penalty.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "cyclic-magic-negative"
+    "indexKey": "cyclic-magic-negative",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751498,
-    "modifiedTime": 1696141995250,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730758486957,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "8FTSMAxaThguRoxc",
   "_id": "kYinPompF1UaPAUz",
-  "sort": 0,
+  "sort": 3000000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!kYinPompF1UaPAUz"
 }

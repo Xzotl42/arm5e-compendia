@@ -1,0 +1,47 @@
+{
+  "name": "Gender Nonconforming - Major",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You do not conform to the expected behavior for a person of the gender that your society would assign to you in the absence of social cues such as clothes and behavior. This may mean, for example, that you dress as a member of another gender, or that you structure your life in a way considered appropriate to another gender, or that you are sexually attracted to members of the same gender. It does not necessarily mean that you disagree about what your gender is, although it may. As a Minor Flaw, it does not normally cause you problems, whether because your society accepts your behavior, or because you can turn people who object into newts, or for some other reason. As a Major Flaw, it does cause you problems.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "gender-nonconforming-major",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false,
+    "ownership": null
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730015075568,
+    "modifiedTime": 1730929087725,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "bz0zTiMt6vpLpBEO",
+  "_id": "YhkkYHTmaV3wugom",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!YhkkYHTmaV3wugom"
+}

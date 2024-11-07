@@ -43,14 +43,14 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "12.324",
-        "systemId": null,
-        "systemVersion": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null
+        "lastModifiedBy": null
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
@@ -68,31 +68,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 59,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You are of a lighter-than-average build. Your Size is reduced to –1. This means that the severity of wounds you take increases in four point increments, rather than five point. (See page @@). You cannot take this Flaw and Giant Blood (page @@), Large (page @@), or Dwarf (page @@).</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "general",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "small-frame"
+    "indexKey": "small-frame",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751615,
-    "modifiedTime": 1696141995331,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730922593708,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "UfPp46NPMX0jIrJv",
   "_id": "nFbX2jgTUTuxw9cc",
-  "sort": 0,
+  "sort": 4600000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!nFbX2jgTUTuxw9cc"
 }

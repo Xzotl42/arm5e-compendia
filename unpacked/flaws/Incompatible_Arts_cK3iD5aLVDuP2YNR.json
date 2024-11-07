@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 55,
+    "description": "<p>For some reason you are completely unable to use two combinations of Techniques and Forms. For example, you may be unable to use Intellego Herbam and Intellego Animal. You may not use these Arts together even if one or both are requisites. This Flaw may be taken repeatedly with different combinations, but may not be combined with a Deficiency (see page @@).</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "incompatible-arts"
+    "indexKey": "incompatible-arts",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751643,
-    "modifiedTime": 1696141995055,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730756701442,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "8FTSMAxaThguRoxc",
   "_id": "cK3iD5aLVDuP2YNR",
-  "sort": 0,
+  "sort": 2600000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!cK3iD5aLVDuP2YNR"
 }

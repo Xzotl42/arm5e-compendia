@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 61,
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You may not exert yourself when casting spontaneous magic, so you always divide your Casting Score by five. In stressful conditions you must still roll a stress die to see if you botch, but the die roll does not add to your casting total. You may still use ceremonial casting.</p></div><div class=\"el-p\"><p dir=\"auto\">This Flaw may be combined with Difficult Spontaneous Magic (page @@) to create a magus who cannot cast spontaneous magic at all.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "hermetic",
     "impact": {
       "value": "major"
     },
-    "indexKey": "weak-spontaneous-magic"
+    "indexKey": "weak-spontaneous-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751619,
-    "modifiedTime": 1696141994751,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730928803381,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "MY0pk5xRqPANrebl",
   "_id": "Igv2QJa0ZUwDMjyD",
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!Igv2QJa0ZUwDMjyD"
 }

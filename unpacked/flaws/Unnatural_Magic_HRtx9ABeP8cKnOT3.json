@@ -1,0 +1,46 @@
+{
+  "name": "Unnatural Magic",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">Because of the unreal and illusory nature of your magic, none of the character’s Creo rituals have a permanent effect. Wounds magically closed with <em>The Chirurgeon’s Healing Touch</em> (CrCo20), for example, reopen again as soon as he finishes casting the spell, as the magic truly lasts only a moment. He also cannot extract vis from an aura using Creo, since his version of that Art is too unstable for the vis to remain in a lasting physical form.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "unnatural-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730926629969,
+    "modifiedTime": 1730929087408,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "MY0pk5xRqPANrebl",
+  "_id": "HRtx9ABeP8cKnOT3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!HRtx9ABeP8cKnOT3"
+}

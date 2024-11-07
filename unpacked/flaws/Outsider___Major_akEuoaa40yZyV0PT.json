@@ -1,0 +1,46 @@
+{
+  "name": "Outsider - Major",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_da50amwz3qe",
+      "path": "Flaws#/CF_SEP/Social Status",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You belong to a group that is both readily identifiable and distrusted or disliked. Examples in most of Europe include Jews, North Africans, and Arabs. For sagas set in Egypt, this Flaw is appropriate for Europeans.</p><p>If you live in society, take the Major version. You are shunned and often persecuted because of this, and your life and freedom may occasionally be in peril. You have a bad Reputation of level 1 to 3 (depending upon how easy it is to identify you) among members of the dominant social group of your area.</p><p>If you spend most of your life in a closed group, such as a city ghetto or covenant, where people like you are accepted, take the Minor version, as you are only shunned if you leave your home, and have somewhere relatively safe to run to if you find trouble. You still have the bad Reputation among members of the dominant social group, but do not meet them so often.</p><p>As a general rule, companions should take the Major version of this Social Status, as they probably interact with wider society often enough for it to be a major problem. Grogs may take the Minor version.</p><p>If the saga takes the character to an area where they are a member of the dominant culture (an Egyptian who lives in a covenant in Ireland travels to Egypt, for example), the troupe should decide on a suitable Social Status for the character. This should normally be a Free Social Status Virtue, unless there are established facts in the character’s background that suggest a different choice.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "social",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "outsider-major",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730925287269,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "VkWchgUydFoqpyYF",
+  "_id": "akEuoaa40yZyV0PT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!akEuoaa40yZyV0PT"
+}

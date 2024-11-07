@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 51,
+    "description": "<p>Probably due to a curse or a magical disaster, you age twice as fast as normal people. Your effective age (which applies as if it were your actual age when creating a Longevity Ritual, and when making rolls on the aging table) increases two years for every year that passes, and you make two aging rolls each year. It is possible to halt or slow the decline by supernatural means, such as Longevity Rituals, but they must deal with your effective age, not your chronological age.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "supernatural",
     "impact": {
       "value": "major"
     },
-    "indexKey": "age-quickly"
+    "indexKey": "age-quickly",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751611,
-    "modifiedTime": 1696141995457,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730925612643,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "PMTtdepguHpd2YfJ",
   "_id": "rXbP7wHbhjR0KCcG",
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!rXbP7wHbhjR0KCcG"
 }

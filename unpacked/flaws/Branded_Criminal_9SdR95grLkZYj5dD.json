@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 52,
+    "description": "<p>As punishment for some crime in your past, a mark has been burned into your cheek. This ad</p><p>versely affects your ability to function in society. You may not take the Wealthy Virtue, but you may take Martial Abilities at character creation. You may choose not to take such abilities, if your crime was not violent.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "social",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "branded-criminal"
+    "indexKey": "branded-criminal",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751519,
-    "modifiedTime": 1696141994567,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730756700158,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "49M5jwoqSphEsyDt",
   "_id": "9SdR95grLkZYj5dD",
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!9SdR95grLkZYj5dD"
 }

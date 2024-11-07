@@ -12,31 +12,35 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 54,
+    "description": "<p>You have been cursed by some supernatural power, in a way that greatly hinders you. The effects of the curse should be comparable to those of other Major Flaws. Indeed, almost any Flaw could be the result of a curse.</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "type": "supernatural",
     "impact": {
       "value": "major"
     },
-    "indexKey": "greater-malediction"
+    "indexKey": "greater-malediction",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
   },
   "_stats": {
-    "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
-    "coreVersion": "12.324",
-    "createdTime": 1662235751640,
-    "modifiedTime": 1696141994735,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1730756700575,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "folder": "PMTtdepguHpd2YfJ",
   "_id": "I9pbOgTPsaIX4MGM",
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
-    "1JBSgWiiwizu7vru": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "_key": "!items!I9pbOgTPsaIX4MGM"
 }
