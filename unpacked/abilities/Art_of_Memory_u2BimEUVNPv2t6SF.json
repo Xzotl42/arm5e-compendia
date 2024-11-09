@@ -1,0 +1,40 @@
+{
+  "folder": "RFwx3qCrd6CJ4GDo",
+  "name": "Art of Memory",
+  "type": "ability",
+  "_id": "u2BimEUVNPv2t6SF",
+  "img": "systems/arm5e/assets/icons/abilities/frontal-lobe.svg",
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">The Art of Memory deals with the creation of memory palaces, a form of mnemonic, in which one visualizes a number of loci (singular locus), where the scholar commits to memory a symbolic representation of a fact to be remembered.</p></div><div class=\"el-p\"><p dir=\"auto\">To memorize a complex scene, image, or piece of writing (such as a long letter, but not as long as an entire text), the character must succeed in a roll of</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Stress Die + Intelligence + Art of Memory vs. Ease Factor of 9 (or higher)</strong></p></div><div class=\"el-p\"><p dir=\"auto\">The Ease Factor may be higher depending on the length or complexity of the item to be memorized. If the character succeeds, they remember the item in exact detail, and may recall it at will although it may take time to explore a locus.</p></div><div class=\"el-p\"><p dir=\"auto\">Characters without the Art of Memory may memorize similar items with a Stress Die + Intelligence roll (with 3 extra botch dice) against the same Ease Factors, but must also repeat the roll to recall the memory perfectly. Each roll failed introduces errors in the memory which are repeated each time it is recalled. Those without the Art of Memory also lack the well-defined location system of loci. Specialties: an area of knowledge (Academic)</p></div><p><strong>Memorization Ease Factors</strong></p><table><tbody><tr><th style=\"min-width: 100px;\"><p><span class=\"\">Ease Factor</span></p></th><th><p>Description</p></th></tr><tr><td><p>9 (Average)</p></td><td><p>Memorize a single page letter verbatim, a conversation up to 5 minutes long, or a room as seen from a single vantage point, or the layout (but not contents) of a castle.</p></td></tr><tr><td><p>12 (Hard)</p></td><td><p>Memorize a letter of up to 12 pages, or an hour's conversation, lecture or debate, or a room explored and seen from many vantage points, or a whole manor house seen from a single vantage on each room, or the contents (but not details) of a castle.</p></td></tr><tr><td><p>18 (Impressive)</p></td><td><p>Memorize an extended missive up to 100 pages, or a day's lecture or debate (such as a day at Tribunal), or a whole manor house in detail, or the contents of a castle.</p></td></tr></tbody></table><p>Anything longer must be broken into sections and memorized as separate loci. If the subject matter is highly technical add 3 or even 6 to the Ease Factor. If the subject is technical and falls within an Ability that the scholar possesses, the scholar may use that Ability in place of Art of Memory (but must still roll to recall as well as memorize): for example a Lawyer using Civil & Canon Law to memorize court proceedings, or a magus using Magic Theory to recall a Bonisagus expert's lecture.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "art-of-memory",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "accelerated": false,
+    "key": "academicAbility",
+    "option": "ArtofMemory",
+    "realm": "mundane"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.6",
+    "createdTime": 1731062417647,
+    "modifiedTime": 1731132018110,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!items!u2BimEUVNPv2t6SF"
+}

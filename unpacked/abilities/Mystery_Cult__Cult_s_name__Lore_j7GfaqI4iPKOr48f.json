@@ -5,8 +5,8 @@
   "_id": "j7GfaqI4iPKOr48f",
   "img": "systems/arm5e/assets/icons/abilities/cult.svg",
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<div class=\"el-p\"><p dir=\"auto\">This is the (Organization) Lore of a particular cult. It provides knowledge of the legends, history, structure, operation and goals of the Mystery Cult in question.</p></div><div class=\"el-p\"><p dir=\"auto\">It includes knowledge of the magics, rites and secret passwords and symbolism of the cult, how to covertly signal membership, and how to assess another magus's membership or non-membership in your cult. Two magi with a score in this ability for the same Mystery Cult may well be able to hold a seemingly innocuous conversation without outsiders understanding the true significance or meaning of their words. Many Mystery Cult specialty books also require a score in this ability to decode their heavy symbolism; this method is used to prevent un-Initiated outsiders learning secrets of the Mystery.</p></div><div class=\"el-p\"><p dir=\"auto\">Mystery Cult Lore also covers the ceremonies of the cult, frequently enacted whenever the cult gathers formally. It is also a key knowledge for a Mystagogue's performance of the Initiation Rites, to guide the Initiate through the path of Ordeals, ceremony and meditation, to gain new Virtues.</p></div><div class=\"el-p\"><p dir=\"auto\">Cult Lore is passed from Mystagogue to Initiate, from Mystae to Mystae in a chain of living secrets. Some cults also write down their secret lores, as this codifies the Mystery and lets others share the same view of the cult — others prefer the secrecy of the Oral Tradition. Small cults may fade away from lack of members, especially if they are persecuted at some point — but if they committed some of their Lore to writing, the cult may be re-born by those who discover and understand the texts. Some cults risk the loss of secrecy for this very reason — that their secrets and magical rites may not be lost forever. Some magi search for lost texts, containing secret lores of the Ancients, hoping to re-enact the rites and rituals that led the Ancients to power.</p></div><div class=\"el-p\"><p dir=\"auto\">In game terms, Experience points in Cult Lore are acquired like any other knowledge — including Teaching, Books, Practice and Exposure. Learning Cult Lore from another ensures that master and pupil share the same rites; learning by yourself generally implies that you have devised your own variant (even \"deviant\") rites and rituals — from such disagreements schisms arise and cults may break up and fragment.</p></div><div class=\"el-p\"><p dir=\"auto\">A magus may build the knowledge from 0, even without instruction — but this means they have devised their own cult, and should treat their Lore as a new Lore. (General)</p></div>",
+    "source": "ArM5Def",
     "page": 0,
     "indexKey": "mystery-cult-generic",
     "defaultChaAb": "int",
@@ -14,7 +14,9 @@
     "xp": 0,
     "key": "cult",
     "option": "cultName",
-    "realm": "mundane"
+    "realm": "mundane",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "effects": [],
   "sort": 0,
@@ -25,11 +27,11 @@
   "flags": {},
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.26",
-    "coreVersion": "12.324",
+    "systemVersion": "2.3.2.6",
+    "coreVersion": "12.331",
     "createdTime": 1705775254439,
-    "modifiedTime": 1705775392189,
-    "lastModifiedBy": "CBVr9z58wiLAeuIl",
+    "modifiedTime": 1731062165069,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

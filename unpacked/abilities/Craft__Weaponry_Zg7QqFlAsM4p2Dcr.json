@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">A general term for countless Abilities, all dealing with handiwork of some type. In general, Craft Abilities are distinguished by the material they work with, although you may also take a Craft Ability that allows the character to work with several materials in one specific way. You may purchase Craft more than once, choosing a different one each time. Skill in one Craft does not imply skill in any others.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> as appropriate to the craft.</p>",
-    "source": "ArM5",
-    "page": 64,
+    "description": "<p style=\"text-align: justify\">A general term for countless Abilities, all dealing with handiwork of some type. In general, Craft Abilities are distinguished by the material they work with, although you may also take a Craft Ability that allows the character to work with several materials in one specific way. You may purchase Craft more than once, choosing a different one each time. Skill in one Craft does not imply skill in any others. <em>City and</em> Guild contains more detailed information about Craft Abilities and their use, in Chapter 4. <br><strong>Specialties</strong>: as appropriate to the craft. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "int",
     "speciality": "",
     "xp": 0,
     "key": "craft",
     "option": "Weaponry",
     "realm": "magic",
-    "indexKey": "craft-weaponry"
+    "indexKey": "craft-weaponry",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751841,
-    "modifiedTime": 1696534621799,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731099264297,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

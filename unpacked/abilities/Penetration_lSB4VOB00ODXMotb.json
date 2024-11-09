@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">Getting your spell through the target's Magic Resistance. See page 82 for detailed Penetration rules.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> any one Art. (Arcane)</p>",
-    "source": "ArM5",
-    "page": 66,
+    "description": "<p style=\"text-align: justify\">Getting your spell through the target's Magic Resistance. See page @@ for detailed Penetration rules.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> any one Art. (Arcane)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "int",
     "speciality": "",
     "xp": 0,
     "key": "penetration",
     "option": "",
     "realm": "magic",
-    "indexKey": "penetration"
+    "indexKey": "penetration",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751863,
-    "modifiedTime": 1696534621290,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731098413303,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

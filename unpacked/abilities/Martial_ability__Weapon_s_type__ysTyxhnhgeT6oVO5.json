@@ -5,8 +5,8 @@
   "_id": "ysTyxhnhgeT6oVO5",
   "img": "systems/arm5e/assets/icons/abilities/singleWeapon.svg",
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>Characters may only gain Martial Abilities during character generation if they are permitted to do so by a particular Virtue or Flaw, or if they are magi. Magi without a relevant Virtue or Flaw may only take Martial Abilities during and after apprenticeship.</p>",
+    "source": "ArM5Def",
     "page": 0,
     "indexKey": "martial-generic",
     "defaultChaAb": "dex",
@@ -14,7 +14,9 @@
     "xp": 0,
     "key": "martialAbility",
     "option": "weaponType",
-    "realm": "mundane"
+    "realm": "mundane",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "effects": [],
   "sort": 0,
@@ -25,11 +27,11 @@
   "flags": {},
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.26",
-    "coreVersion": "12.324",
+    "systemVersion": "2.3.2.6",
+    "coreVersion": "12.331",
     "createdTime": 1705764784871,
-    "modifiedTime": 1705764893985,
-    "lastModifiedBy": "CBVr9z58wiLAeuIl",
+    "modifiedTime": 1731099001268,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

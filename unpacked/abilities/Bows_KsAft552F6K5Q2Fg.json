@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p>Using bows and arrows.</p>\n<p>Specialties: any one weapon. (Martial)</p>",
-    "source": "ArM5",
-    "page": 64,
+    "description": "<p>Using bows and arrows.</p><p><strong>Specialties</strong>: any one weapon. (Martial)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "per",
     "speciality": "",
     "xp": 0,
     "key": "bows",
     "option": "",
     "realm": "magic",
-    "indexKey": "bows"
+    "indexKey": "bows",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751923,
-    "modifiedTime": 1696534621299,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731099218024,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

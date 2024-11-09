@@ -13,23 +13,25 @@
   },
   "system": {
     "description": "<p>Fighting with a weapon which requires two hands to use.</p>\n<p>Specialties: any one weapon. (Martial)</p>",
-    "source": "ArM5",
-    "page": 65,
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "dex",
     "speciality": "",
     "xp": 0,
     "key": "greatWeapon",
     "option": "",
     "realm": "magic",
-    "indexKey": "great-weapon"
+    "indexKey": "great-weapon",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751879,
-    "modifiedTime": 1696534621319,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731085660751,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

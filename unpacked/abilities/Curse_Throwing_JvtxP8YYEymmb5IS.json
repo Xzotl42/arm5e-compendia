@@ -1,0 +1,40 @@
+{
+  "name": "Curse-Throwing",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/throwing.svg",
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">This Supernatural Ability is usually aligned to the Faerie Realm, but could be aligned to any supernatural realm. It enables the character to heal diseases, remove curses, and dispel detrimental magical effects, but only by transferring (or 'throwing') their effects to another person. Curse-Throwing cannot affect Flaws; specifically, someone with the Lesser or Greater Malediction Flaw is beyond the power of Curse-Throwing, unless it is a Flaw imposed by a faerie or magician with a limited duration. However, any other curse laid by a supernatural power is potentially within the remit of this Ability; note that curses laid directly by God (such as leprosy) are normally represented by permanent Flaws, and thus exempt. Only harmful effects can be transferred with this Ability, and the storyguide is the arbiter in cases where spells are not directly detrimental. Barrenness is a common affliction treated by this power; if transferred to a man or male animal then impotence is inflicted instead. Other curses transferred to inappropriate targets are changed in a similar manner.</p></div><div class=\"el-p\"><p dir=\"auto\">To throw a curse, the afflicted person must be physically present, and the recipient of the curse must be represented either in person or by an Arcane Connection. Afflictions can be passed from humans to animals or vice versa, but this is harder than transferring within the same species. Curse-Throwers sometimes transfer the curse to themselves, but such altruism is rare. To throw a curse, the character must perform an elaborate ritual which involves the crafting of a charm which transfers the curse. This charm is a combination of a physical object and a chant. The object is repeatedly touched to the target and the recipient (or the Arcane Connection), whilst the chant is repeated over and over. The ritual typically takes an hour for every 5 points (or fraction) of the Ease Factor (see below). At the end of this time, the character generates a Casting Total, which must equal or exceed the Ease Factor listed below. If either the sufferer or the intended recipient of the curse has Magic Resistance, the Penetration Total must exceed it, else the curse stays where it is. A botched Curse-Throwing roll swaps the recipient of the curse to the caster.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Curse-Throwing Casting Total: Presence + Curse-Throwing + Aura + stress die</strong></p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Penetration Total: Casting Total – Ease Factor + Penetration Bonus</strong></p></div><div class=\"el-table\" style=\"overflow-x: auto;\" dir=\"ltr\"><table><thead><tr><th dir=\"ltr\">Curse</th><th dir=\"ltr\">Ease Factor</th></tr></thead><tbody><tr><td dir=\"ltr\">Minor Disease or Affliction*</td><td dir=\"auto\">9</td></tr><tr><td dir=\"ltr\">Serious Disease or Affliction*</td><td dir=\"auto\">12</td></tr><tr><td dir=\"ltr\">Major Disease or Affliction*</td><td dir=\"auto\">15</td></tr><tr><td dir=\"ltr\">Critical Disease *</td><td dir=\"auto\">18</td></tr><tr><td dir=\"ltr\">Spell</td><td dir=\"ltr\">12 + magnitude of spell</td></tr><tr><td dir=\"ltr\">Supernatural Ability</td><td dir=\"ltr\">12 + Ability score</td></tr><tr><td dir=\"ltr\">Power</td><td dir=\"ltr\">12 + Might points spent</td></tr></tbody></table></div><div class=\"el-p\"><p dir=\"auto\">*a Minor disease inflicts a Light wound, a Serious disease inflicts a Medium wound, a Major disease inflicts a Heavy wound, and a Critical disease inflicts an Incapacitating wound. See <em>Art &amp; Academe</em>, Chapter 4: Medicine for more details. Minor Afflictions include boils and warts. Serious Afflictions are equivalent to a Minor Flaw in magnitude, whereas Major Afflictions are as severe as a Major Flaw.</p></div><div class=\"el-table\" style=\"overflow-x: auto;\" dir=\"ltr\"><table><thead><tr><th dir=\"ltr\">Situation</th><th dir=\"ltr\">Modifier to Casting Total</th></tr></thead><tbody><tr><td dir=\"ltr\">Recipient present in person</td><td dir=\"auto\">0</td></tr><tr><td dir=\"ltr\">Recipient represented by Arcane Connection lasting decades or more</td><td dir=\"auto\">–1</td></tr><tr><td dir=\"ltr\">Recipient represented by Arcane Connection lasting months or years</td><td dir=\"auto\">–3</td></tr><tr><td dir=\"ltr\">Recipient represented by Arcane Connection lasting weeks or less</td><td dir=\"auto\">–6</td></tr><tr><td dir=\"ltr\">Recipient is different species to target</td><td dir=\"auto\">–3</td></tr></tbody></table></div><div class=\"el-table\" style=\"overflow-x: auto;\" dir=\"ltr\"><table><thead><tr><th dir=\"ltr\">Example of Curse-Throwing</th></tr></thead><tbody><tr><td dir=\"ltr\"><span class=\"internal-embed markdown-embed is-loaded\">A young woman has failed to conceive despite four years of marriage, and she and her mother visit Aelfred, the local faerie doctor. He explains that her barrenness needs to be transferred to another, and the mother volunteers, since she has already had three children. The Ease Factor for this operation is 12, since barrenness is equivalent to a Minor Flaw. The ritual takes three hours, at the end of which, Aelfred generates a Casting Total: 2 (Presence) + 5 (Curse-Throwing) + 5 (stress die) + 2 (Faerie aura of Aelfred's home), for a total of 14. However, unbeknownst to the characters the barrenness was caused by the curse of a local witch. Her Hex Ability score was 5, thus the Ease Factor was actually 17 (12 + Hex 5). Since Aelfred's player succeeds in an Intelligence + Faerie Lore roll, the storyguide informs him that Aelfred suspects that his Curse-Throwing should have worked if the barrenness was natural. Aelfred counsels the mother and daughter to investigate whether they have any enemies with supernatural powers.</span></td></tr></tbody></table></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "curse-throwing",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "defaultChaAb": "pre",
+    "speciality": "",
+    "xp": 0,
+    "accelerated": false,
+    "key": "supernatural",
+    "option": "curseThrowing",
+    "realm": "faeric"
+  },
+  "effects": [],
+  "folder": "ZbCET9zUtDWzYD5z",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.6",
+    "createdTime": 1731076706459,
+    "modifiedTime": 1731131986061,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "JvtxP8YYEymmb5IS",
+  "sort": 400000,
+  "_key": "!items!JvtxP8YYEymmb5IS"
+}

@@ -1,5 +1,21 @@
 # Release notes
 
+## Version 0.9.10
+
+- Abilities compendium integrated with DE content.
+- New Document Enricher macro
+
+### Compendia DE integration
+
+- Abilities - V1 **NEW**
+- Equipment - V2
+- Virtues - V1
+- Flaws - V1
+- Spells
+  - Animal - V1
+  - Aquam (DE only) V1
+- Laboratory-virtues - V1
+
 ## Version 0.9.9
 
 - New utility macro to display the rollData of a token in the console.

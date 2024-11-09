@@ -13,23 +13,25 @@
   },
   "system": {
     "description": "<p><span style=\"font-family: bookAntiquaBold\">Fighting at range using weapons which are thrown.</span></p><p style=\"box-sizing: border-box; user-select: text; margin: 0.5em 0px; color: rgb(25, 24, 19); font-family: bookAntiquaBold; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: bookAntiquaBold\"><strong style=\"box-sizing: border-box; user-select: text;\">Specialties:</strong> any one weapon. (Martial)</span></p>",
-    "source": "ArM5",
-    "page": 67,
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "dex",
     "speciality": "",
     "xp": 0,
     "key": "trownWeapon",
     "option": "",
     "realm": "magic",
-    "indexKey": "thrown-weapon"
+    "indexKey": "thrown-weapon",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751882,
-    "modifiedTime": 1696534846804,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731131782738,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

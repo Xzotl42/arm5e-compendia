@@ -5,8 +5,8 @@
   "_id": "Qxjci63FuI9mRBG5",
   "img": "systems/arm5e/assets/icons/abilities/magicTheory.svg",
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>A character may only take these Abilities during character generation if permitted to by a Virtue, or if he is a magus. Some Virtues allow a character to take a particular Arcane Ability, but not the others, while other Virtues allow a character to take any Arcane Ability. Any Virtue giving a character a Supernatural Ability that may need to Penetrate Magic Resistance also allows the character to take the Penetrate Ability. Magi without a relevant Virtue may only take Arcane Abilities during or after apprenticeship.</p>",
+    "source": "ArM5Def",
     "page": 0,
     "indexKey": "arcane-generic",
     "defaultChaAb": "int",
@@ -14,7 +14,9 @@
     "xp": 0,
     "key": "arcaneAbility",
     "option": "arcaneName",
-    "realm": "mundane"
+    "realm": "mundane",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "effects": [],
   "sort": 0,
@@ -25,11 +27,11 @@
   "flags": {},
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.26",
-    "coreVersion": "12.324",
+    "systemVersion": "2.3.2.6",
+    "coreVersion": "12.331",
     "createdTime": 1705764610558,
-    "modifiedTime": 1705764723384,
-    "lastModifiedBy": "CBVr9z58wiLAeuIl",
+    "modifiedTime": 1731098976807,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

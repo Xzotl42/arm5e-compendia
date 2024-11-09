@@ -5,8 +5,8 @@
   "_id": "29izX7oItdqKTyUe",
   "img": "systems/arm5e/assets/icons/abilities/infernalLore.svg",
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<div class=\"el-p\"><p dir=\"auto\">Characters may only gain Supernatural Abilities during character creation if they have the Virtue granting the Ability. Characters with The Gift who are not magi may learn a single Supernatural Ability during character creation.</p></div><div class=\"el-p\"><p dir=\"auto\">Most of these Supernatural Abilities are granted by the Magic or Faerie realms, and use the relevant column on the realm interaction table (page @@). Most can also be granted by the Infernal realm, but taking such an Ability suggests some sort of deal with Infernal powers. Sense Holiness and Unholiness is the main exception, as a Divine power. If you have no reason to choose otherwise, your Ability is granted by the Magic realm, which makes you immune to warping from powerful Magic auras (see page @@). An Ability granted by another realm makes you immune to warping from powerful auras associated with that realm, instead.</p></div><div class=\"el-p\"><p dir=\"auto\">The Gift allows characters to learn Supernatural Abilities in play (see page @@). However, The Gift is associated with the Realm of Magic, and thus only allows characters to learn Supernatural Abilities associated with that realm.</p></div>",
+    "source": "ArM5Def",
     "page": 0,
     "indexKey": "supernatural-generic",
     "defaultChaAb": "int",
@@ -14,10 +14,12 @@
     "xp": 0,
     "key": "supernatural",
     "option": "powerName",
-    "realm": "magic"
+    "realm": "magic",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "effects": [],
-  "sort": 0,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "CBVr9z58wiLAeuIl": 3
@@ -25,11 +27,11 @@
   "flags": {},
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.26",
-    "coreVersion": "12.324",
+    "systemVersion": "2.3.2.6",
+    "coreVersion": "12.331",
     "createdTime": 1705764964713,
-    "modifiedTime": 1705775541257,
-    "lastModifiedBy": "CBVr9z58wiLAeuIl",
+    "modifiedTime": 1731098928253,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

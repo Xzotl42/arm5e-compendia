@@ -13,23 +13,25 @@
   },
   "system": {
     "description": "<p style=\"text-align: justify;\">Knowledge of what magic is and how it works, used primarily in the laboratory. Magic Theory deals with the technical details of Hermetic magic; Magic Lore covers knowledge of magical things in general. Anyone can learn Magic Theory, if they have access to a teacher or book (normally represented by a Virtue), but it is little use to those without The Gift.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> inventing spells, enchanting items, a single Art. (Arcane)</p>",
-    "source": "ArM5",
-    "page": 66,
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "int",
     "speciality": "",
     "xp": 0,
     "key": "magicTheory",
     "option": "",
     "realm": "magic",
-    "indexKey": "magic-theory"
+    "indexKey": "magic-theory",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751871,
-    "modifiedTime": 1696534621756,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731098244396,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

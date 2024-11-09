@@ -3,6 +3,7 @@ import { ModuleGenerator } from "../../arm5e-compendia/scripts/ModuleGenerator.j
 import { SanitizationTool } from "../../arm5e-compendia/scripts/SanitizationTool.js";
 import { CompendiumStats } from "../../arm5e-compendia/scripts/CompendiumStats.js";
 import { FileTools } from "./FileTools.js";
+import { DocumentEnricher } from "./DocumentEnricher.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(pack, onlyMissingOnes = false) {
@@ -59,6 +60,15 @@ export class CompendiaUtils {
       return;
     }
     const ui = new CompendiumStats({}, {});
+    const res = await ui.render(true);
+  }
+
+  static async showDocumentEnricherUI() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new DocumentEnricher();
     const res = await ui.render(true);
   }
 
@@ -190,6 +200,106 @@ export class CompendiaUtils {
         locked: true
       });
     }
+  }
+
+  static async getAbilityFromCompendium(key, option = "") {
+    const ref = game.settings.get(CONFIG.ARM5E.SYSTEM_ID, "compendiaRef");
+
+    let res = await getAbilityInternal(ref, key, option);
+    if (!res) {
+      if (game.settings.get(CONFIG.ARM5E.SYSTEM_ID, "notifyMissingRef") == "true") {
+        ui.notifications.info(`Unknown ability key (${key}) in ${ref} compendium`);
+      }
+      res = await getAbilityInternal(CONFIG.ARM5E.REF_MODULE_ID, key, option);
+    }
+    return res;
+  }
+
+  /**
+   *
+   * @param compendium
+   * @param indexkey
+   */
+  static async getItemFromCompendium(compendium, indexkey) {
+    const ref = game.settings.get(CONFIG.ARM5E.SYSTEM_ID, "compendiaRef");
+
+    let res = await this.getItemInternal(ref, compendium, indexkey);
+    if (!res) {
+      if (game.settings.get(CONFIG.ARM5E.SYSTEM_ID, "notifyMissingRef") == "true") {
+        ui.notifications.info(`Unknown item key (${indexkey}) in ${ref} compendium`);
+      }
+      res = await this.getItemInternal(CONFIG.ARM5E.REF_MODULE_ID, indexkey);
+    }
+    return res;
+  }
+
+  /**
+   *
+   * @param moduleRef
+   * @param compendium
+   * @param indexkey
+   */
+  static async getItemInternal(moduleRef, compendium, indexkey) {
+    let pack = game.packs.get(`${moduleRef}.${compendium}`);
+
+    if (pack == undefined) return undefined;
+
+    if (!pack.indexFields.has("system.indexKey")) {
+      await pack.getIndex({ fields: ["system.indexKey"] });
+    }
+    let res = pack.index.find((i) => i.system.indexKey == indexkey);
+    if (res) {
+      return await fromUuid(res.uuid);
+    }
+    return null;
+  }
+  /**
+   *
+   * @param key
+   * @param option
+   */
+  static async getAbilityFromCompendium(key, option = "") {
+    const ref = game.settings.get(CONFIG.ARM5E.SYSTEM_ID, "compendiaRef");
+
+    let res = await this.getAbilityInternal(ref, key, option);
+    if (!res) {
+      res = await this.getAbilityInternal(CONFIG.ARM5E.REF_MODULE_ID, key, option);
+    }
+    return res;
+  }
+
+  /**
+   *
+   * @param moduleRef
+   * @param key
+   * @param option
+   */
+  static async getAbilityInternal(moduleRef, key, option = "") {
+    let abilitiesPack = game.packs.get(`${moduleRef}.abilities`);
+
+    if (abilitiesPack == undefined) return undefined;
+
+    if (!abilitiesPack.indexFields.has("system.key")) {
+      await abilitiesPack.getIndex({ fields: ["system.key", "system.option"] });
+    }
+    let res = abilitiesPack.index.find((i) => i.system.key == key && i.system.option == option);
+    if (res) {
+      let genericAb = await fromUuid(res.uuid);
+      return genericAb.toObject();
+    } else if (option !== "" && CONFIG.ARM5E.ALL_ABILITIES[key].option) {
+      // Try to get without specifying the option:
+      let optionDefault = game.i18n.localize(CONFIG.ARM5E.ALL_ABILITIES[key].optionDefault);
+
+      res = abilitiesPack.index.find((i) => i.system.key == key && i.system.option == optionDefault);
+      if (res) {
+        let genericAb = await fromUuid(res.uuid);
+        // Update the option
+        genericAb = genericAb.toObject();
+        genericAb.system.option = option;
+        return genericAb;
+      }
+    }
+    return null;
   }
 
   static CloneReferenceCompendia(name, description, author, prefix = "My -") {

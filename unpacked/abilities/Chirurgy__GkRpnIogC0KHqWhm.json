@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">This is Middle Ages-style surgery, used to help others recover from physical damage. It encompasses tending and binding wounds of all varieties, and the necessary but brutal skill of cauterization. See \"Wounds\" starting on page 178 for rules.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> cauterization, diagnosis, binding wounds, setting bones. (General)</p>",
-    "source": "ArM5",
-    "page": 64,
+    "description": "<p style=\"text-align: justify\">This is Middle Ages-style surgery, used to help others recover from physical damage. It encompasses tending and binding wounds of all varieties, and the necessary but brutal skill of cauterization. See page @@ for rules</p><p style=\"text-align: justify\"><strong>Specialties:</strong> cauterization, diagnosis, binding wounds, setting bones. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "dex",
     "speciality": "",
     "xp": 0,
     "key": "chirurgy",
     "option": "",
     "realm": "magic",
-    "indexKey": "chirurgy"
+    "indexKey": "chirurgy",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751902,
-    "modifiedTime": 1696534621902,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731073753204,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

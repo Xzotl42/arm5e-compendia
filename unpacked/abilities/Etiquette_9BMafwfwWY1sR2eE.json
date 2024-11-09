@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">You know the social graces and how to behave in different situations. Etiquette differs from Charm in that Etiquette covers proper behavior, rather than charming behavior. You cannot seduce someone with Etiquette, but neither can you get through an audience with the bishop on Charm alone.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> nobility, court, peasants, faeries, the Church. (General)</p>",
-    "source": "ArM5",
-    "page": 65,
-    "defaultChaAb": "int",
+    "description": "<p style=\"text-align: justify\">You know the social graces and how to behave in different situations. Etiquette differs from Charm in that Etiquette covers proper behavior, rather than charming behavior. You cannot seduce someone with Etiquette, but neither can you get through an audience with the bishop on Charm alone.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> nobility, court, peasants, faeries, the Church. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "pre",
     "speciality": "",
     "xp": 0,
     "key": "etiquette",
     "option": "",
     "realm": "magic",
-    "indexKey": "etiquette"
+    "indexKey": "etiquette",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751866,
-    "modifiedTime": 1696534621498,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731098845785,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

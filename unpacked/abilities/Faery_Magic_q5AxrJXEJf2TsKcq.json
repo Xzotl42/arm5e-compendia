@@ -5,8 +5,8 @@
   "_id": "q5AxrJXEJf2TsKcq",
   "img": "systems/arm5e/assets/icons/abilities/faerieMagic.svg",
   "system": {
-    "description": "",
-    "source": "custom",
+    "description": "<p>The connection to the power of the Faerie realm possessed by Merinita magi. It cannot be learned by other characters, even if they have access to Arcane Abilities. It is described in the Hermetic Magic chapter, on page @@. (Arcane)</p>",
+    "source": "ArM5Def",
     "page": 0,
     "indexKey": "faery-magic",
     "defaultChaAb": "int",
@@ -14,7 +14,9 @@
     "xp": 0,
     "key": "faerieMagic",
     "option": "",
-    "realm": "mundane"
+    "realm": "mundane",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "effects": [],
   "sort": 0,
@@ -25,11 +27,11 @@
   "flags": {},
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.3.26",
-    "coreVersion": "12.324",
+    "systemVersion": "2.3.2.6",
+    "coreVersion": "12.331",
     "createdTime": 1705775655290,
-    "modifiedTime": 1705775671196,
-    "lastModifiedBy": "CBVr9z58wiLAeuIl",
+    "modifiedTime": 1731085420740,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

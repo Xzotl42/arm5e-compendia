@@ -1,5 +1,5 @@
 {
-  "name": "Theology*",
+  "name": "Theology (religion)*",
   "type": "ability",
   "img": "systems/arm5e/assets/icons/abilities/theology.svg",
   "effects": [],
@@ -13,23 +13,25 @@
   },
   "system": {
     "description": "<p style=\"text-align: justify;\">Theology is the study of God and his work in the world. The authorities are the Bible and Peter the Lombard's Sententiae, the Bible having theoretical primacy, being infallible, and the Sentences being most studied. The speculations of theology are very abstruse, and many theologians are accused of heresy. Sometimes those accused recant, and sometimes they convince the Church that they were right after all. Theology can also be purchased (as a separate Ability) for other religions like Islam and Judaism.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> biblical knowledge, heresy, history. (Academic)</p>",
-    "source": "ArM5",
-    "page": 67,
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "int",
     "speciality": "",
     "xp": 0,
     "key": "theology",
-    "option": "",
+    "option": "religion",
     "realm": "magic",
-    "indexKey": "theology"
+    "indexKey": "theology",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751894,
-    "modifiedTime": 1696534621877,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731131351800,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

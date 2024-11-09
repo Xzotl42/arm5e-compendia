@@ -13,23 +13,25 @@
   },
   "system": {
     "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
-    "source": "ArM5",
-    "page": 64,
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "dex",
     "speciality": "",
     "xp": 0,
     "key": "brawl",
     "option": "",
     "realm": "magic",
-    "indexKey": "brawl"
+    "indexKey": "brawl",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751890,
-    "modifiedTime": 1696534621629,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731073616768,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

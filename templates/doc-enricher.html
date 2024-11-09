@@ -1,0 +1,51 @@
+<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off">
+  {{> "systems/arm5e/templates/roll/parts/roll-header.html" header="Inputs" }}
+  <div class="marginsides32">
+    <div>
+      <h1 style="text-align:center">{{localize "Enrich Document"}}</h1>
+      <label style="text-align:center; color:red;"><b>Make a backup of your documents before attempting
+          anything!</b></label>
+    </div>
+    <div class="drop-box drop-document" data-drop="document">
+      <label>Drop your actor here</label>
+    </div>
+    <fieldset>
+      <legend>{{localize "Documents to process"}}</legend>
+      <div class="form-group">
+        <label style="text-align: right;">Abilities</label>
+        <input type="checkbox" name="process.abilities" {{checked process.abilities}} />
+        <label style="text-align: right;">Virtues</label>
+        <input type="checkbox" name="process.virtues" {{checked process.virtues}} />
+        <label style="text-align: right;">Flaws</label>
+        <input type="checkbox" name="process.flaws" {{checked process.flaws}} />
+        <label style="text-align: right;">Equipment</label>
+        <input type="checkbox" name="process.equipment" {{checked process.equipment}} />
+        <label style="text-align: right;">Spells</label>
+        <input type="checkbox" name="process.spells" {{checked process.spells}} />
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>{{localize "Options"}}</legend>
+      <div class="flexrow resource">
+        <label style="text-align: right;">Overwrite description</label><input type="checkbox" name="overwrite" {{checked
+          overwrite}}>
+        <label style="text-align: right;">Update metadata</label><input type="checkbox" name="process.metadata"
+          {{checked process.metadata}}>
+      </div>
+    </fieldset>
+    <div class="flexrow resource">
+      <button class="analysis" style="margin-top: 3px;" {{merge}}>Analyze</button>
+      <button class="enrich" style="margin-top: 3px;" {{analyzed}}>Enrich Actor</button>
+    </div>
+
+    <!-- <button class="process" title="Does whatever was needed the last time I needed it." style="margin-top: 3px;"
+        {{merge}}>Process all documents</button> -->
+  </div>
+  <div>
+
+  </div>
+  <div class="marginsides32" style="height: auto; overflow-y: auto;padding: 8px; min-height: 368px;">
+    {{editor enrichedReport target="report" button=true owner=owner engine="prosemirror" editable=editable}}
+  </div>
+  {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}
+</form>

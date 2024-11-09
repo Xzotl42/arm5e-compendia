@@ -12,30 +12,32 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">You are mystically attuned to the ways of the wilderness. A Perception + Wilderness Sense roll against an Ease Factor of 9 lets you determine the direction of north, the upcoming weather, or the presence of natural hazards or resources. One roll will only reveal one piece of information.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> direction, weather, hazards, resources. (Supernatural)</p>",
-    "source": "ArM5",
-    "page": 67,
-    "defaultChaAb": "int",
+    "description": "<p>You are mystically attuned to the ways of the wilderness. A Perception + Wilderness Sense roll against an Ease Factor of 9 lets you determine the direction of north, the upcoming weather, or the presence of natural hazards or resources. One roll will only reveal one piece of information. </p><p><strong>Specialties</strong>: direction, weather, hazards, resources. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "per",
     "speciality": "",
     "xp": 0,
     "key": "wildernessSense",
     "option": "",
     "realm": "magic",
-    "indexKey": "wilderness-sense"
+    "indexKey": "wilderness-sense",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751926,
-    "modifiedTime": 1696534780840,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731131896695,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "folder": "ZbCET9zUtDWzYD5z",
   "_id": "zC9EVqIoRfkYsZYr",
-  "sort": 0,
+  "sort": 1900000,
   "ownership": {
     "default": 0,
     "1JBSgWiiwizu7vru": 3

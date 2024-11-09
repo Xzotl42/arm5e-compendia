@@ -1,0 +1,40 @@
+{
+  "name": "Induction",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/telepathy.svg",
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">This is the supernatural ability to create illusions in a person’s mind. Only the target can see those illusions. Each attempt at induction requires the inducer to talk with the victim for at least one minute. Characters who cannot hear the inducer are immune to his powers.</p></div><div class=\"el-p\"><p dir=\"auto\">Attempts at induction require a die roll of Communication + Induction. Induction is not made more difficult by the complexity of the illusion: it is made more difficult as the risk the victim takes by believing the illusion increases. On some level the victim is aware of the real world, and can snap out of the induced state if threatened.</p></div><div class=\"el-p\"><p dir=\"auto\">The Ease Factors for Induction are:<br>Innocuous 3<br>Potentially Shaming 6<br>Potentially Dangerous to Others 9<br>Potentially Dangerous to Self 12<br>Potentially Suicidal 15</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Roll Modifiers (pick only one)</strong><br>Victim is drunk, drugged, exhausted, or critically ill +3<br>Victim knows and trusts the inducer +3<br>Site of induction has been carefully prepared with expensive props, in advance +3.</p></div><div class=\"el-p\"><p dir=\"auto\">If an Inducer has successfully snared a victim, the Inducer may roll again to try and bump the effect up to the next level of risk. This requires at least fifteen minutes, and on the second roll, the Ease Factor is reduced by 3. An inducer can take a great deal of time, and several rolls, to work a victim up through the levels of danger to potentially suicidal.</p></div><div class=\"el-p\"><p dir=\"auto\">A victim of induction realizes afterwards that they have been affected by magic if the roll above does not exceed the Ease Factor by (6 – 1 per factor from the list below).</p></div><div class=\"el-p\"><p dir=\"auto\">This value can be reduced by 1 by each of the following factors: choose no more than 3.</p></div><div class=\"el-ul\"><ul class=\"has-list-bullet\"><li data-line=\"0\" dir=\"auto\">Careful use of props (clothes stained, souvenirs provided)</li><li data-line=\"1\" dir=\"auto\">Illusion includes brush off (character in illusion returns character home, character falls asleep inside illusion and wakes up in bed)</li><li data-line=\"2\" dir=\"auto\">No lost time (character in illusion explains it is all happening in one night, no servants notice the character gone)</li><li data-line=\"3\" dir=\"auto\">Real world effects (character's actions in illusion seem to have altered the real world in verifiable ways)</li><li data-line=\"4\" dir=\"auto\"><p>Follow up (the character has been convinced previous illusions were real, and this one is part of that larger story).<br>Specialties: particular kinds of illusion. (Supernatural)</p></li></ul></div><div class=\"el-table\" style=\"overflow-x: auto;\" dir=\"ltr\"><table><thead><tr><th dir=\"ltr\">Entrancement and Induction</th></tr></thead><tbody><tr><td dir=\"ltr\"><span class=\"internal-embed markdown-embed is-loaded\">Entrancement and Induction appear similar, because they have a similar scale of Ease factors, but they differ in practice. Entrancement takes control of a character's will, and dictates their actions, but does not affect what they believe or experience. Induction causes a character to sense things which are not real, and may convince them of things which are not true, but does not force them to act.It is possible for characters to have both Entrancement and Induction, and to use each to bolster the other. For example, \"Speak to me\" is an innocuous Entrancement, which allows Induction to begin. Inductions that convince a character that something is less risky, or more necessary, than it truly is alter the Ease Factors for Entrancement.</span></td></tr></tbody></table></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "induction",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "defaultChaAb": "com",
+    "speciality": "",
+    "xp": 0,
+    "accelerated": false,
+    "key": "supernatural",
+    "option": "induction",
+    "realm": "magic"
+  },
+  "effects": [],
+  "folder": "ZbCET9zUtDWzYD5z",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.6",
+    "createdTime": 1731087095472,
+    "modifiedTime": 1731131986033,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "GnTOb2cFLnuIsmHz",
+  "sort": 200000,
+  "_key": "!items!GnTOb2cFLnuIsmHz"
+}

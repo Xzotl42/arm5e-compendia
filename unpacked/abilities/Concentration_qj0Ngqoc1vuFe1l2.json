@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">Focusing your mental faculties on one task, particularly for extended periods of time. If you are attempting a feat that demands your extra attention, or if you have just failed an action and are trying again, the storyguide can call for a Concentration roll before you can make the attempt. This Ability is especially important for magi because it helps them maintain concentration on spells despite distractions.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> spell concentration, reading, lab work. (General)</p>",
-    "source": "ArM5",
-    "page": 64,
+    "description": "<p style=\"text-align: justify\">Focusing your mental faculties on one task, particularly for extended periods of time. If you are attempting a feat that demands your extra attention, or if you have just failed an action and are trying again, the storyguide can call for a Concentration roll before you can make the attempt. This Ability is especially important for magi because it helps them maintain concentration on spells despite distractions.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> spell concentration, reading, lab work. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "int",
     "speciality": "",
     "xp": 0,
     "key": "concentration",
     "option": "",
     "realm": "magic",
-    "indexKey": "concentration"
+    "indexKey": "concentration",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751855,
-    "modifiedTime": 1696534621667,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731074224988,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

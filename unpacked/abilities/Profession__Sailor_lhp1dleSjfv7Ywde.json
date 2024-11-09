@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "",
-    "source": "ArM5",
-    "page": 67,
-    "defaultChaAb": "int",
+    "description": "<p style=\"text-align: justify\">The ability to do a job which does not involve making something. Examples include jongleur, reeve, sailor, steward, teamster, and washerwoman.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> depend on the profession. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "dex",
     "speciality": "",
     "xp": 0,
     "key": "profession",
     "option": "Sailor",
     "realm": "magic",
-    "indexKey": "profession-sailor"
+    "indexKey": "profession-sailor",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.15",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751924,
-    "modifiedTime": 1696140814920,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731130156391,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

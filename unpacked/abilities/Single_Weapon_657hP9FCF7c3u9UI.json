@@ -13,23 +13,25 @@
   },
   "system": {
     "description": "<p style=\"text-align: justify;\">Fighting with a weapon used in one hand, possibly using a shield with the other. This includes lances used as intended from horseback.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> any one weapon or shield, which covers using that weapon with any shield or none, and that shield with any weapon. (Martial)</p>",
-    "source": "ArM5",
-    "page": 67,
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "dex",
     "speciality": "",
     "xp": 0,
     "key": "singleWeapon",
     "option": "",
     "realm": "magic",
-    "indexKey": "single-weapon"
+    "indexKey": "single-weapon",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751899,
-    "modifiedTime": 1696534621596,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731130727394,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },

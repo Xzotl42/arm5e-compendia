@@ -12,30 +12,32 @@
     }
   },
   "system": {
-    "description": "<p style=\"text-align: justify;\">You intuitively sense whenever something is wrong, or is likely to go wrong soon. This Ability can be called upon by you or the storyguide, as appropriate, whenever there is a chance to avoid danger. Roll Perception + Premonitions against an Ease Factor depending on the situation. The Ease Factor starts at 3 for imminent, mortal peril, and increases as the distance in time increases and the level of danger decreases. Mortal peril a week in the future would have an Ease Factor of 9, while an imminent minor inconvenience would have an Ease Factor of about 15. If you beat the Ease Factor by 3 or more, you also get some sense of the nature of the danger, with more detail if you roll more highly.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> threats to a particular person or group of people, particular kinds of threats. (Supernatural)</p>",
-    "source": "ArM5",
-    "page": 67,
+    "description": "<p>You intuitively sense whenever something is wrong, or is likely to go wrong soon. This Ability can be called upon by you or the storyguide, as appropriate, whenever there is a chance to avoid danger. Roll Perception + Premonitions against an Ease Factor depending on the situation. The Ease Factor starts at 3 for imminent, mortal peril, and increases as the distance in time increases and the level of danger decreases. Mortal peril a week in the future would have an Ease Factor of 9, while an imminent minor inconvenience would have an Ease Factor of about 15. If you beat the Ease Factor by 3 or more, you also get some sense of the nature of the danger, with more detail if you roll more highly. </p><p><strong>Specialties</strong>: threats to a particular person or group of people, particular kinds of threats. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "int",
     "speciality": "",
     "xp": 0,
     "key": "premonitions",
     "option": "",
     "realm": "magic",
-    "indexKey": "premonitions"
+    "indexKey": "premonitions",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751837,
-    "modifiedTime": 1696534780886,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731098686391,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "folder": "ZbCET9zUtDWzYD5z",
   "_id": "fqDVWjFDVD6N3TnJ",
-  "sort": 0,
+  "sort": 1300000,
   "ownership": {
     "default": 0,
     "1JBSgWiiwizu7vru": 3

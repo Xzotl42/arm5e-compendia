@@ -113,7 +113,7 @@ export class CompendiumStats extends FormApplication {
       this.object.report += `<li>To do: ${stats.todo.length}</li>`;
       this.object.report += "<ul>";
       for (let d of stats.todo) {
-        this.object.report += `<li>${d.uuid}</li>`;
+        this.object.report += `<li>@UUID[${d.uuid}]{${d.name}}</li>`;
       }
       this.object.report += "</ul>";
       this.object.report += `<li>Reviewed: ${stats.reviewed.length}</li>`;
@@ -248,6 +248,10 @@ export class CompendiumStats extends FormApplication {
       if (doc.name.startsWith("#[CF")) continue;
 
       const updateData = {};
+
+      updateData["system.source"] = "ArM5Def";
+      updateData["system.reviewer"] = "xzotl";
+      updateData["system.page"] = 0;
 
       if (!dryrun) await doc.update(updateData);
       count++;

@@ -12,24 +12,26 @@
     }
   },
   "system": {
-    "description": "<p>Care and use of animals, including raising, tending, grooming, and healing them.</p>\n<p><strong>Specialties:</strong> falconry, specific animals. (General)</p>",
-    "source": "ArM5",
-    "page": 62,
+    "description": "<p>Care and use of animals, including raising, tending, grooming, and healing them.</p><p><strong>Specialties:</strong> falconry, specific animals. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
     "defaultChaAb": "pre",
     "speciality": "",
     "xp": 0,
     "key": "animalHandling",
     "option": "",
     "realm": "magic",
-    "indexKey": "animal-handling"
+    "indexKey": "animal-handling",
+    "reviewer": "xzotl",
+    "review_status": "reviewed"
   },
   "_stats": {
     "systemId": "arm5e",
-    "systemVersion": "2.2.2.19",
+    "systemVersion": "2.3.2.6",
     "coreVersion": "12.331",
     "createdTime": 1662235751851,
-    "modifiedTime": 1696534621707,
-    "lastModifiedBy": "1JBSgWiiwizu7vru",
+    "modifiedTime": 1731062303827,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "compendiumSource": null,
     "duplicateSource": null
   },
