@@ -13,7 +13,7 @@
         "max": 5
       }
     },
-    "description": "",
+    "description": "<br/><h2>Migration comments</h2> The following fields are now computed and readonly. The original value is listed below<ol><li>Wealth totalIncome (0)</li><li>Wealth baseExpenditure (0)</li><li>Wealth costSavings (0)</li><li>Wealth totalExpenditure (0)</li><li>Wealth inhabitantsPoints (0)</li><li>Wealth laboratoriesPoints (0)</li><li>Wealth weaponsPoints (0)</li></ol>",
     "source": "custom",
     "page": 0,
     "indexKey": "",
@@ -123,58 +123,10 @@
     },
     "aegisCovenant": 0,
     "reputations": [],
-    "constructionPoints": {
-      "total": 0,
-      "data": {
-        "library": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        },
-        "laboratoryTexts": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        },
-        "vis": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        },
-        "magicItems": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        },
-        "specialists": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        },
-        "laboratories": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        },
-        "money": {
-          "initials": 0,
-          "actuals": 0,
-          "notes": ""
-        }
-      }
-    },
+    "constructionPoints": null,
     "governForm": "",
-    "loyaltyPoints": {
-      "base": 0,
-      "actuals": 0,
-      "predominant": 0
-    },
-    "loyaltyModifiers": {
-      "livingConditions": 0,
-      "equipment": 0,
-      "money": 0,
-      "specialists": 0
-    },
+    "loyaltyPoints": null,
+    "loyaltyModifiers": null,
     "habitants": {
       "npcgrogs": 0,
       "totalHabitants": 0,
@@ -192,75 +144,9 @@
     "visStock": [],
     "calendar": [],
     "incomingSources": [],
-    "yearExpenditure": {
-      "buildings": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "consumables": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "inflation": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "laboratories": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "provisions": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "titles": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "wages": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "weapons": {
-        "expenditure": 0,
-        "notes": ""
-      },
-      "writingMaterials": {
-        "expenditure": 0,
-        "notes": ""
-      }
-    },
-    "costsSavings": {
-      "laborers": {
-        "quantity": 0,
-        "saving": 0,
-        "notes": ""
-      },
-      "craftsmenCommon": {
-        "quantity": 0,
-        "saving": 0,
-        "notes": ""
-      },
-      "craftsmenRare": {
-        "quantity": 0,
-        "saving": 0,
-        "notes": ""
-      },
-      "magicItems": {
-        "quantity": 0,
-        "saving": 0,
-        "notes": ""
-      }
-    },
-    "wealth": {
-      "totalIncome": 0,
-      "baseExpenditure": 0,
-      "costSavings": 0,
-      "totalExpenditure": 0,
-      "inhabitantsPoints": 0,
-      "laboratoriesPoints": 0,
-      "weaponsPoints": 0
-    },
+    "yearExpenditure": null,
+    "costsSavings": null,
+    "wealth": null,
     "magicBooks": [],
     "laboratoryTexts": [],
     "mundaneBooks": [],
@@ -302,7 +188,7 @@
         "prevailing": 0
       },
       "modifiers": {
-        "equipment": "standard",
+        "equipment": "0",
         "wages": "normal",
         "familiarity": 0,
         "events": 0
@@ -485,10 +371,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.3.2.6",
+    "systemVersion": "2.3.2.7",
     "createdTime": 1730959124699,
-    "modifiedTime": 1730959124699,
-    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+    "modifiedTime": 1731255710900,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM"
   },
   "_id": "KxuDdnzyaQ0GP9Il",
   "sort": 0,
