@@ -1,0 +1,49 @@
+{
+  "name": "Profession: Farmer",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/profession.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_objljw4w1kp",
+      "path": "Abilities#/CF_SEP/General, Professions",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">The ability to do a job which does not involve making something. Examples include jongleur, reeve, sailor, steward, teamster, and washerwoman.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> depend on the profession. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "profession",
+    "option": "Farmer",
+    "realm": "magic",
+    "indexKey": "profession-farmer",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false,
+    "accelerated": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.9",
+    "createdTime": 1732268586636,
+    "modifiedTime": 1732268586636,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "_id": "yAxQAb4a0fitZmXE",
+  "sort": 0,
+  "_key": "!items!yAxQAb4a0fitZmXE"
+}

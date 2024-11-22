@@ -4,7 +4,7 @@
   "scope": "global",
   "author": "tBE5EmoIXLzf3maM",
   "img": "icons/svg/card-joker.svg",
-  "command": "const tokens = canvas.tokens.controlled;\n\nif (tokens.length == 1 ){\n  await fixLab(tokens[0]);\n} else {\n  ui.notifications.info(\"No Tokens or too many tokens were selected\");\n}\n\nasync function fixLab(token){\n  if (!token.isOwner) {\n    ui.notifications.info(\"You don't own that token\");\n  }\n  let actorSheet = token.actor.sheet;\n  \n  await actorSheet._resetPlanning()\n  \n\n  ui.notifications.info(`${updated.length} items updated`);\n  \n}",
+  "command": "const tokens = canvas.tokens.controlled;\n\nif (tokens.length == 1 ){\n  await fixLab(tokens[0]);\n} else {\n  ui.notifications.info(\"No Tokens or too many tokens were selected\");\n}\n\nasync function fixLab(token){\n  if (!token.isOwner) {\n    ui.notifications.info(\"You don't own that token\");\n  }\n  let actorSheet = token.actor.sheet;\n  if (token.actor.type === \"laboratory\") {\n    await actorSheet._resetPlanning()\n    ui.notifications.info(`Lab reset`);\n  }\n  else {\n      ui.notifications.info(`Not a lab`);\n  }\n  \n}",
   "ownership": {
     "default": 0,
     "ErQ613O32LNYb71L": 3,
@@ -13,6 +13,9 @@
   "flags": {
     "core": {
       "sourceId": "Macro.FL254GFtSFOTzooP"
+    },
+    "socketmacros": {
+      "isSocket": false
     }
   },
   "_stats": {
@@ -22,8 +25,8 @@
     "systemId": "arm5e",
     "systemVersion": "2.3.2.5",
     "createdTime": 1730094485446,
-    "modifiedTime": 1730094485446,
-    "lastModifiedBy": "tBE5EmoIXLzf3maM"
+    "modifiedTime": 1731829014007,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
   },
   "folder": "qGZgdsZ3cZpILlVt",
   "_id": "7aqQxgRlPcDky5BL",

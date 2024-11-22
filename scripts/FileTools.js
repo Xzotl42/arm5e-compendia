@@ -52,6 +52,23 @@ export class FileTools {
     }
   }
 
+  static async filepickerPromise(path) {
+    return new Promise((resolve, reject) => {
+      const fp = new FilePicker({
+        current: path,
+        type: "text",
+        callback: async (pth) => {
+          const { files } = await FilePicker.browse("data", pth);
+          resolve(files);
+        },
+        close: () => {
+          console.log("closing");
+        }
+      });
+      fp.render(true);
+    });
+  }
+
   /**
    * Creates a new folder
    */

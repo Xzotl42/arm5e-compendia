@@ -459,7 +459,7 @@ export class DocumentEnricher extends FormApplication {
         }
 
         if (!foundry.utils.isEmpty(itemData)) {
-          itemData["_id"] = s._id;
+          itemData["_id"] = a._id;
           if (toProcess.metadata) {
             itemData["system.source"] = ref.system.source;
             itemData["system.page"] = ref.system.page;

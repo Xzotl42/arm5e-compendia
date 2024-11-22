@@ -1,5 +1,26 @@
 # Release notes
 
+## Version 0.9.11
+
+- Added some macros
+- Fixed bug in Armor enriching
+- Actor importer (WIP)
+
+### Compendia DE integration
+
+- Abilities - V2 **NEW**
+  - Added Church lore
+  - Fixed some typos
+- Equipment - V2
+- Virtues - V2 **NEW**
+  - Added missing Fae virtues
+- Flaws - V3 **NEW**
+  - Added missing Fae Flaw
+- Spells
+  - Animal - V1
+  - Aquam (DE only) V1
+- Laboratory-virtues - V1
+
 ## Version 0.9.10
 
 - Abilities compendium integrated with DE content.

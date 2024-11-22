@@ -4,6 +4,7 @@ import { SanitizationTool } from "../../arm5e-compendia/scripts/SanitizationTool
 import { CompendiumStats } from "../../arm5e-compendia/scripts/CompendiumStats.js";
 import { FileTools } from "./FileTools.js";
 import { DocumentEnricher } from "./DocumentEnricher.js";
+import { ActorImporter } from "./ActorImporter.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(pack, onlyMissingOnes = false) {
@@ -78,6 +79,15 @@ export class CompendiaUtils {
       return;
     }
     const ui = new ModuleGenerator({}, {});
+    const res = await ui.render(true);
+  }
+
+  static async showImporter() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new ActorImporter({}, {});
     const res = await ui.render(true);
   }
 
