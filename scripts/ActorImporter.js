@@ -1,5 +1,5 @@
 import { CompendiaUtils } from "./compendia.js";
-import { ARTS, CHARACTERISTICS, MODEL } from "./DataModel.js";
+import { AREAS, ARTS, CHARACTERISTICS, FORMS, MODEL } from "./DataModel.js";
 import { FileTools } from "./FileTools.js";
 
 // to import the parsed characters and creatures
@@ -26,9 +26,10 @@ export class ActorImporter extends FormApplication {
     this.object.process = {
       abilities: true,
       virtuesAndFlaws: true,
+      personalityTraits: true,
       equipment: true,
       spells: true,
-      metadata: true
+      equipment: true
     };
   }
   static get defaultOptions() {
@@ -90,6 +91,9 @@ export class ActorImporter extends FormApplication {
     this.object.stats.actors = { count: 0 };
     this.object.stats.abilities = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.virtuesAndFlaws = { found: 0, unknown: 0, no_field: 0 };
+    this.object.stats.personalityTraits = { found: 0, unknown: 0, no_field: 0 };
+    this.object.stats.spells = { found: 0, unknown: 0, no_field: 0 };
+    this.object.stats.equipment = { found: 0, unknown: 0, no_field: 0 };
     this.actorsWithProblems = new Set();
     this.problems = new Set();
     for (let file of files) {
@@ -106,7 +110,7 @@ export class ActorImporter extends FormApplication {
   }
 
   async importCharacter(json) {
-    console.log(`Importing "${json.name}"`);
+    // console.log(`Importing "${json.name}"`);
     this.object.tmp = { name: json.name, type: this.guessType(json), system: {}, items: [] };
     const root = this.object.tmp.system;
     this.current = json;
@@ -115,6 +119,9 @@ export class ActorImporter extends FormApplication {
     this.importCharacteristics(json.system);
     if (this.object.process.abilities) await this.importAbilities(json.system);
     if (this.object.process.virtuesAndFlaws) await this.importVirtuesAndFlaws(json.system);
+    // if (this.object.process.personalityTraits) await this.importPersonalityTraits(json.system);
+    // if (this.object.process.equipment) await this.importEquipment(json.system);
+    if (this.object.process.spells) await this.importSpells(json.system);
   }
 
   importCharacteristics(src) {
@@ -194,10 +201,19 @@ export class ActorImporter extends FormApplication {
           await this.addSpecialCaseAbility(k, v, "great-weapon");
         } else if ("Divine Lore" === k) {
           await this.addSpecialCaseAbility(k, v, "dominion-lore");
-        } else if (/.*Area.+Lore/.test(k)) {
-          await this.addSpecialCaseAbility(k, v, "area-lore");
+        } else if (k.startsWith("Craft")) {
+          await this.addSpecialCaseAbility(k, v, "craft-generic");
+        } else if (k.startsWith("Profession")) {
+          await this.addSpecialCaseAbility(k, v, "profession-generic");
+        } else if (/(.+) Resistance/.test(k)) {
+          // TODO check if it is a Form
+          // if ()
+          await this.addSpecialCaseAbility(k, v, "form-resistance");
+          // DE special cases of area lore
+        } else if (this.handleSpecialCasesAreaLore(k, v)) {
+          continue;
         } else {
-          console.log(`Ability "${k}" with key : "${slug}" not found`);
+          console.log(`Ability "${k}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`);
           this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
           this.problems.add(`${this.current.name} - ${this.currentFile} - Ability not found: "${k}"`);
           stats.abilities.unknown++;
@@ -257,10 +273,45 @@ export class ActorImporter extends FormApplication {
             if (v.match(/Major/)) {
               await this.addSpecialCaseVnF("flaws", v, "driven-major");
             } else await this.addSpecialCaseVnF("flaws", v, "driven-minor");
+          } else if (v.startsWith("Wrathful")) {
+            if (v.match(/Major/)) {
+              await this.addSpecialCaseVnF("flaws", v, "wrathful-major");
+            } else await this.addSpecialCaseVnF("flaws", v, "wrathful-minor");
+          } else if (v.startsWith("Weakness")) {
+            await this.addSpecialCaseVnF("flaws", v, "weakness");
           } else if (v.startsWith("Higher Purpose ")) {
             await this.addSpecialCaseVnF("flaws", v, "higher-purpose");
-          } else if (v.startsWith("Greater Immunity ")) {
+          } else if (v.startsWith("Greater Malediction ")) {
+            await this.addSpecialCaseVnF("flaws", v, "greater-malediction");
+          } else if (v.startsWith("Necessary Condition")) {
+            await this.addSpecialCaseVnF("flaws", v, "necessary-condition");
+          } else if (v.startsWith("Deficient ")) {
+            let m = v.match(/Deficient (.+)/);
+            if (["Creo", "Intellego", "Muto", "Perdo", "Rego"].includes(m[1]))
+              await this.addSpecialCaseVnF("flaws", v, "deficient-technique");
+            else {
+              await this.addSpecialCaseVnF("flaws", v, "deficient-form");
+            }
+          } else if (v.startsWith("Vow ")) {
+            await this.addSpecialCaseVnF("flaws", v, "vow");
+          } else if (v.startsWith("Baneful Circumstances ")) {
+            await this.addSpecialCaseVnF("flaws", v, "baneful-circumstances");
+          } else if (v.startsWith("Sovereign Ward ")) {
+            await this.addSpecialCaseVnF("flaws", v, "sovereign-ward");
+          } else if (v.match(/Traditional Ward/)) {
+            await this.addSpecialCaseVnF("flaws", v, "traditional-ward");
+          } else if (v.startsWith("Overconfident ")) {
+            if (v.match(/Major/)) {
+              await this.addSpecialCaseVnF("flaws", v, "overconfident-major");
+            } else await this.addSpecialCaseVnF("flaws", v, "overconfident-minor");
+          } else if (v.match(/Greater .* Power/)) {
+            await this.addSpecialCaseVnF("virtues", v, "greater-power");
+          } else if (v.match(/Lesser .* Power/)) {
+            await this.addSpecialCaseVnF("virtues", v, "lesser-power");
+          } else if (v.startsWith("Greater Immunity")) {
             await this.addSpecialCaseVnF("virtues", v, "greater-immunity");
+          } else if (v.startsWith("Faerie Blood")) {
+            await this.addSpecialCaseVnF("virtues", v, "faerie-blood");
           } else if (v.toLowerCase().startsWith("student of ")) {
             await this.addSpecialCaseVnF("virtues", v, "student-of-realm");
           } else if (v.toLowerCase().startsWith("ways of the ")) {
@@ -293,7 +344,7 @@ export class ActorImporter extends FormApplication {
                   await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
                 }
               } else {
-                console.log("Unknown characteristic: " + match[1]);
+                console.log("Unknown improved Nx characteristic: " + match[1]);
                 this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
                 this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
               }
@@ -309,7 +360,7 @@ export class ActorImporter extends FormApplication {
                   await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
                 }
               } else {
-                console.log("Unknown characteristic: " + match[1]);
+                console.log("Unknown Great xN characteristic: " + match[1]);
                 this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
                 this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
               }
@@ -323,7 +374,7 @@ export class ActorImporter extends FormApplication {
                 // TODO effect
                 await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
               } else {
-                console.log("Unknown characteristic: " + match[1]);
+                console.log(`Unknown characteristic: match[1] from ${v}`);
                 this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
                 this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
               }
@@ -363,11 +414,105 @@ export class ActorImporter extends FormApplication {
     }
   }
 
+  async importPersonalityTraits(src) {
+    const stats = this.object.stats;
+    if (!src["Personality Traits"]) {
+      stats.virtuesAndFlaws.no_field++;
+      this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+      this.problems.add(`${this.current.name} - ${this.currentFile} - no "Virtues and Flaws" field`);
+      return;
+    }
+    const items = this.object.tmp.items;
+
+    for (let v of src["Personality Traits"]) {
+    }
+  }
+
+  async importSpells(src) {
+    const stats = this.object.stats;
+    if (!src["Spells Known"]) {
+      stats.spells.no_field++;
+      return;
+    }
+    const items = this.object.tmp.items;
+
+    for (let [k, v] of Object.entries(src["Spells Known"])) {
+      k = k.trim();
+      const slug = FileTools.slugify(k);
+      // console.log(`Find spell with key : "${slug}"`);
+      const item = await CompendiaUtils.getItemFromCompendium("spells", slug);
+      if (item) {
+        stats.spells.found++;
+        items.push(item);
+      } else {
+        if ("Phantom of the Talking Head" === k.trim()) {
+          // Typo in Criamon template
+          await this.addSpecialCaseSpell("Phantasm of the Talking Head", v, "phantasm-of-the-talking-head");
+        } else if (k.startsWith("Unraveling the Fabric of ")) {
+          await this.addSpecialCaseSpell(k, v, "unravelling-the-fabric-of-form");
+        } else if (k.startsWith("Mirror of Opposition ")) {
+          await this.addSpecialCaseSpell(k, v, "mirror-of-opposition-form");
+        } else if (k.startsWith("Wizard’s Boost ")) {
+          await this.addSpecialCaseSpell(k, v, "wizards-boost-form");
+        } else if (k.startsWith("Wizard’s Reach ")) {
+          await this.addSpecialCaseSpell(k, v, "wizards-reach-form");
+        } else if (k.startsWith("Wizard’s Expansion ")) {
+          await this.addSpecialCaseSpell(k, v, "wizards-expansion-form");
+        } else if (k.startsWith("Group Wizard’s Boost ")) {
+          await this.addSpecialCaseSpell(k, v, "group-wizards-boost-form");
+        } else if (k.startsWith("Facilitate the Stifled ")) {
+          await this.addSpecialCaseSpell(k, v, "facilitate-the-stifled-form-spell");
+        } else if (k.startsWith("Harnessing the Essential Power of ")) {
+          await this.addSpecialCaseSpell(k, v, "harnessing-the-essential-power-of-form");
+        } else if (k.startsWith("Sustain a Spell of ")) {
+          await this.addSpecialCaseSpell(k, v, "sustain-a-spell-of-form");
+        } else if (k.startsWith("The Lasting Synthemata of ")) {
+          await this.addSpecialCaseSpell(k, v, "lasting-synthemata-of-x");
+        } else if (k.startsWith("Synthemata of ")) {
+          await this.addSpecialCaseSpell(k, v, "synthemata-of-x");
+        } else if (k.startsWith("Revoke the Protection of ")) {
+          let m = k.match(/Revoke the Protection of (.+)/);
+          if (FORMS.includes(m[1])) {
+            await this.addSpecialCaseSpell(k.trim(), v, "revoke-the-protection-of-form");
+          } else {
+            await this.addSpecialCaseSpell(k.trim(), v, "revoke-the-protection-of-realm");
+          }
+        } else {
+          console.log(`Spell "${k}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`);
+          this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+          this.problems.add(`${this.current.name} - ${this.currentFile} - Spell not found: "${k}"`);
+          stats.spells.unknown++;
+        }
+      }
+    }
+  }
+
+  async addSpecialCaseSpell(name, attributes, key) {
+    const item = await CompendiaUtils.getItemFromCompendium("spells", key);
+    item.name = name;
+    this.object.tmp.items.push(item);
+    this.object.stats.spells.found++;
+  }
+
+  async handleSpecialCasesAreaLore(name, attributes) {
+    if (/.*Area.+Lore/.test(name)) {
+      await this.addSpecialCaseAbility(name, attributes, "area-lore");
+      return true;
+    }
+    for (let lore of AREAS) {
+      if (name === lore) {
+        await this.addSpecialCaseAbility(name, attributes, "area-lore");
+        return true;
+      }
+    }
+    return false;
+  }
+
   async addSpecialCaseAbility(name, attributes, key) {
     const item = await CompendiaUtils.getItemFromCompendium("abilities", key);
     item.name = name;
     item.system.xp = (attributes.score * (attributes.score + 1) * 5) / 2;
-    item.system.speciality = attributes.specializtion;
+    item.system.speciality = attributes.specialization;
     if (item.system.option !== "") {
       item.system.option = FileTools.slugify(name);
     }

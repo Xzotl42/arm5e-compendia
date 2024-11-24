@@ -10,12 +10,12 @@
 
 - Abilities - V2 **NEW**
   - Added Church lore
-  - Fixed some typos
+  - Fixed some typos and errors
 - Equipment - V2
 - Virtues - V2 **NEW**
   - Added missing Fae virtues
 - Flaws - V3 **NEW**
-  - Added missing Fae Flaw
+  - Added missing Fae Flaws
 - Spells
   - Animal - V1
   - Aquam (DE only) V1

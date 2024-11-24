@@ -1,0 +1,47 @@
+{
+  "name": "Craft (stonemason)",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/craft.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_2vp6z8wkvgl",
+      "path": "Abilities#/CF_SEP/General, Crafts",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">A general term for countless Abilities, all dealing with handiwork of some type. In general, Craft Abilities are distinguished by the material they work with, although you may also take a Craft Ability that allows the character to work with several materials in one specific way. You may purchase Craft more than once, choosing a different one each time. Skill in one Craft does not imply skill in any others. <em>City and</em> Guild contains more detailed information about Craft Abilities and their use, in Chapter 4. <br><strong>Specialties</strong>: as appropriate to the craft. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "dex",
+    "speciality": "decorations",
+    "xp": 0,
+    "key": "craft",
+    "option": "craft-stonemason",
+    "realm": "magic",
+    "indexKey": "craft-generic",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.9",
+    "coreVersion": "12.331",
+    "createdTime": 1662235751900,
+    "modifiedTime": 1732354381281,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "_id": "BLiSEiVpJofeHSDq",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!BLiSEiVpJofeHSDq"
+}

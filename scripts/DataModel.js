@@ -58,3 +58,11 @@ export const ARTS = [
   "Terram",
   "Vim"
 ];
+
+export const TECHNIQUES = ["Creo", "Intellego", "Muto", "Perdo", "Rego"];
+
+export const FORMS = ["Animal", "Aquam", "Auram", "Corpus", "Herbam", "Ignem", "Imaginem", "Mentem", "Terram", "Vim"];
+
+export const AREAS = ["Sicily Lore", "Local Farms Lore", "Bavaria Lore", "Mythic Middle East Lore", "Local Farms Lore"];
+
+export const ORGANIZATIONS = [];
