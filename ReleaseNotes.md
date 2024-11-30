@@ -1,5 +1,20 @@
 # Release notes
 
+## Version 0.9.12
+
+- Actor importer (WIP)
+
+### Compendia DE integration
+
+- Characters - V1 **NEW**
+  - All character templates
+- Equipment - V3 **UPDATE**
+  - Added standard inventory items (Wizardly robes,Clothes,...)
+- Virtues - V3 **UPDATE**
+  - Fixed some active effects
+- Flaws - V4 **UPDATE**
+  -Fixed some active effects
+
 ## Version 0.9.11
 
 - Added some macros

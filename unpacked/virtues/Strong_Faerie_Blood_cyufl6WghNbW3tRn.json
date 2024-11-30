@@ -57,6 +57,174 @@
       "system": {},
       "sort": 0,
       "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.secondSight.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "secondSight"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Second sight",
+      "img": "icons/svg/aura.svg",
+      "_id": "MwlDxY7HoS3LGxpG",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1732953362025,
+        "modifiedTime": 1732953403959,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+      },
+      "_key": "!items.effects!cyufl6WghNbW3tRn.MwlDxY7HoS3LGxpG"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.agingStart",
+          "value": "15",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "agingStart"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Aging late",
+      "img": "icons/svg/aura.svg",
+      "_id": "tlQay2OuvqOsFeth",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1732953460349,
+        "modifiedTime": 1732953500570,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+      },
+      "_key": "!items.effects!cyufl6WghNbW3tRn.tlQay2OuvqOsFeth"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.aging",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "aging"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Aging bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "9hLF74zBwPkyft7v",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1732953579223,
+        "modifiedTime": 1732953605230,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+      },
+      "_key": "!items.effects!cyufl6WghNbW3tRn.9hLF74zBwPkyft7v"
     }
   ],
   "flags": {

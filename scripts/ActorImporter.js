@@ -1,6 +1,19 @@
 import { CompendiaUtils } from "./compendia.js";
-import { AREAS, ARTS, CHARACTERISTICS, FORMS, MODEL } from "./DataModel.js";
+import {
+  AREAS,
+  ARTS,
+  ARTS_STRUCT,
+  CHARACTERISTICS,
+  EQUIPEMENT,
+  FORMS,
+  getShortCharac,
+  MINOR_MAJOR,
+  MODEL,
+  TECHNIQUES,
+  VnFToReview
+} from "./DataModel.js";
 import { FileTools } from "./FileTools.js";
+import ACTIVE_EFFECTS_TYPES from "../../../systems/arm5e/module/constants/activeEffectsTypes.js";
 
 // to import the parsed characters and creatures
 
@@ -29,14 +42,16 @@ export class ActorImporter extends FormApplication {
       personalityTraits: true,
       equipment: true,
       spells: true,
-      equipment: true
+      arts: true,
+      powers: true,
+      reputations: true
     };
   }
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       id: "actor-importer",
       template: "modules/arm5e-compendia/templates/ActorImporter.html",
-      height: 700,
+      height: 500,
       classes: ["arm5e", "arm5e-config"],
       closeOnSubmit: false,
       submitOnClose: false,
@@ -67,22 +82,22 @@ export class ActorImporter extends FormApplication {
 
   preprocessing(json) {
     //abilities
-    if (json.system.Abilities) {
-      const newAb = {};
-      let res = json.system.Abilities.reduce((previous, current) => {
-        const [e] = Object.entries(current);
-        previous[e[0]] = e[1];
-        return previous;
-      }, newAb);
-      json.system.Abilities = res;
-    } else if (json.system.Pretenses) {
-      const newAb = {};
-      let res = json.system.Pretenses.reduce((previous, current) => {
-        const [e] = Object.entries(current);
-        previous[e[0]] = e[1];
-        return previous;
-      }, newAb);
-      json.system.Abilities = res;
+    if (json.system.Pretenses) {
+      json.system.Abilities = json.system.Pretenses;
+    }
+
+    if (json.system["Customization Notes"]) {
+      json.system.description = json.system["Customization Notes"];
+    }
+
+    if (json.system["Appearance"]) {
+      json.system.description = json.system["Appearance"];
+    }
+
+    if (json.system.Arts) {
+      for (let [k, v] of Object.entries(json.system.Arts)) {
+        json.system.Arts[k.toLowerCase()] = v;
+      }
     }
   }
 
@@ -94,70 +109,283 @@ export class ActorImporter extends FormApplication {
     this.object.stats.personalityTraits = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.spells = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.equipment = { found: 0, unknown: 0, no_field: 0 };
+    this.object.stats.reputations = { found: 0, unknown: 0, no_field: 0 };
     this.actorsWithProblems = new Set();
     this.problems = new Set();
+    this.object.imports = [];
+    this.object.currentItems = [];
+    this.object.toReview = [];
+    let counter = 1;
+
     for (let file of files) {
       let json = await foundry.utils.fetchJsonWithTimeout(file);
       this.currentFile = file;
       this.preprocessing(json);
-      const imported = await this.importCharacter(json);
-      this.object.stats.actors.count++;
-      this.object.imports.push(imported);
-      // break;
+
+      let type = this.guessType(json);
+      let charType = this.guessCharType(type, json);
+      // if (json.name === "The Hunter") {
+      if (["magus"].includes(charType)) {
+        console.log(`Importing Actor "${json.name}"`);
+        const imported = await this.importCharacter(json);
+
+        // imported.folder =
+
+        let [actor] = await Actor.createDocuments([imported], { folder: "test" });
+
+        // imported.items = this.object.currentItems;
+
+        await actor.createEmbeddedDocuments("Item", this.object.currentItems, {});
+        this.object.stats.actors.count++;
+        this.object.imports.push(imported);
+
+        if (actor.name === "The Grizzled Veteran") break;
+      }
+      // }
+      // if (counter >= 24) {
+      //   break;
+      // }
+
+      counter++;
     }
+    // await Actor.createDocuments(this.object.imports);
     this.object.stats.actors.withProblem = this.actorsWithProblems.size;
     console.log(this.object.stats);
   }
 
+  addReviewItem(txt) {
+    this.object.toReview.push(txt);
+  }
+
   async importCharacter(json) {
     // console.log(`Importing "${json.name}"`);
-    this.object.tmp = { name: json.name, type: this.guessType(json), system: {}, items: [] };
-    const root = this.object.tmp.system;
+    this.object.currentActor = { name: json.name, type: this.guessType(json), system: {}, items: [] };
+    const root = this.object.currentActor.system;
     this.current = json;
+    this.object.currentItems = [];
+    this.object.toReview = [];
 
-    root.CharType = { value: this.guessCharType(json) };
+    root.charType = { value: this.guessCharType(this.object.currentActor.type, json) };
     this.importCharacteristics(json.system);
+    this.importTraits(json.system);
+
+    // await this.importPersonalityTraits(json.system);
+    await this.importReputations(json.system);
+    if (root.charType.value == "magus") {
+      if (this.object.process.spells) await this.importSpells(json.system);
+      if (this.object.process.arts) this.importArts(json.system);
+    }
+    root.indexKey = FileTools.slugify(json.name);
+    root.reviewer = "xzotl";
+    root.source = "ArM5Def";
     if (this.object.process.abilities) await this.importAbilities(json.system);
     if (this.object.process.virtuesAndFlaws) await this.importVirtuesAndFlaws(json.system);
-    // if (this.object.process.personalityTraits) await this.importPersonalityTraits(json.system);
-    // if (this.object.process.equipment) await this.importEquipment(json.system);
-    if (this.object.process.spells) await this.importSpells(json.system);
+    if (this.object.process.personalityTraits) await this.importPersonalityTraits(json.system);
+    if (this.object.process.equipment) await this.importEquipment(json.system);
+
+    if (this.object.toReview.length) {
+      let desc = "<h2>To review</h2><ul>";
+      for (let it of this.object.toReview) {
+        desc += `<li>${it}</li>`;
+      }
+      desc += "</ul>";
+      this.object.currentActor.system.biography += desc;
+    }
+
+    return this.object.currentActor;
   }
 
   importCharacteristics(src) {
-    const root = this.object.tmp.system;
-    root.characteristics = MODEL.characteristics;
+    const root = this.object.currentActor.system;
+    root.characteristics = foundry.utils.deepClone(MODEL.characteristics);
     const char = src.Characteristics;
+    const regex = /(\d+) \((\d+\))/;
     if (char.Cun) {
-      root.characteristics.cun.value = char.Cun;
+      const m = char.Cun.match(regex);
+      if (m) {
+        root.characteristics.cun.value = Number(m[1]);
+        root.characteristics.cun.aging = Number(m[1]);
+      } else {
+        root.characteristics.cun.value = Number(char.Cun);
+      }
+
+      delete root.characteristics.int;
     }
     if (char.Int) {
-      root.characteristics.int.value = char.Int;
+      const m = char.Int.match(regex);
+      if (m) {
+        root.characteristics.int.value = Number(m[1]);
+        root.characteristics.int.aging = Number(m[1]);
+      } else {
+        root.characteristics.int.value = Number(char.Int);
+      }
+      delete root.characteristics.cun;
     }
-    root.characteristics.per.value = char.Per;
-    root.characteristics.sta.value = char.Sta;
-    root.characteristics.str.value = char.Str;
-    root.characteristics.dex.value = char.Dex;
-    root.characteristics.qik.value = char.Qik;
-    root.characteristics.pre.value = char.Pre;
-    root.characteristics.com.value = char.Com;
+
+    let match = char.Per.match(regex);
+    if (match) {
+      root.characteristics.per.value = Number(match[1]);
+      root.characteristics.per.aging = Number(match[1]);
+    } else {
+      root.characteristics.per.value = Number(char.Per);
+    }
+
+    match = char.Sta.match(regex);
+    if (match) {
+      root.characteristics.sta.value = Number(match[1]);
+      root.characteristics.sta.aging = Number(match[1]);
+    } else {
+      root.characteristics.sta.value = Number(char.Sta);
+    }
+
+    match = char.Str.match(regex);
+    if (match) {
+      root.characteristics.str.value = Number(match[1]);
+      root.characteristics.str.aging = Number(match[1]);
+    } else {
+      root.characteristics.str.value = Number(char.Str);
+    }
+
+    match = char.Dex.match(regex);
+    if (match) {
+      root.characteristics.dex.value = Number(match[1]);
+      root.characteristics.dex.aging = Number(match[1]);
+    } else {
+      root.characteristics.dex.value = Number(char.Dex);
+    }
+
+    match = char.Qik.match(regex);
+    if (match) {
+      root.characteristics.qik.value = Number(match[1]);
+      root.characteristics.qik.aging = Number(match[1]);
+    } else {
+      root.characteristics.qik.value = Number(char.Qik);
+    }
+
+    match = char.Pre.match(regex);
+    if (match) {
+      root.characteristics.pre.value = Number(match[1]);
+      root.characteristics.pre.aging = Number(match[1]);
+    } else {
+      root.characteristics.pre.value = Number(char.Pre);
+    }
+
+    match = char.Com.match(regex);
+    if (match) {
+      root.characteristics.com.value = Number(match[1]);
+      root.characteristics.com.aging = Number(match[1]);
+    } else {
+      root.characteristics.com.value = Number(char.Com);
+    }
+  }
+
+  importArts(src) {
+    const root = this.object.currentActor.system;
+    root.arts = foundry.utils.deepClone(ARTS_STRUCT);
+    for (let t of Object.keys(CONFIG.ARM5E.magic.techniques)) {
+      root.arts.techniques[t].xp = src.Arts[t].xp;
+    }
+
+    for (let f of Object.keys(CONFIG.ARM5E.magic.forms)) {
+      root.arts.forms[f].xp = src.Arts[f].xp;
+    }
   }
 
   importTraits(src) {
-    const root = this.object.tmp.system;
+    const root = this.object.currentActor.system;
     // age
     if (src.Age) {
-      root.description.born = 1220 - Number(src.Age.actual);
-      root.apparent = Number(src.Age.apparent);
+      root.age = { value: Number(src.Age.actual) };
+      // root.description.born = 1220 - Number(src.Age.actual);
+      root.apparent = { value: Number(src.Age.apparent) };
     }
     // description
 
+    if (root.charType.value == "magus") {
+      if (Object.keys(MODEL.houses).includes(this.object.currentActor.name)) {
+        root.house = { value: MODEL.houses[this.object.currentActor.name] };
+      }
+    }
+
+    if (src.description) {
+      root.biography = src.description;
+    }
     //size
     if (src.Size) {
     } else {
     }
 
     if (src["Twilight Scars"]) {
+      root.laboratory = { longevityRitual: { twilightScars: src["Twilight Scars"] } };
+    }
+
+    if (src["Decrepitude"]) {
+      root.decrepitude = { points: 5 * Number(src["Decrepitude"].score) + Number(src["Decrepitude"].points) };
+    }
+    if (src["Warping Score"]) {
+      root.warping = { points: 5 * Number(src["Warping Score"].score) + Number(src["Warping Score"].points) };
+    }
+
+    // "Warping Score": {
+    //     "score": "6",
+    //     "points": "19"
+    // },
+    // "Confidence Score": {
+  }
+
+  async getAbitilyIndexKey(k, v) {
+    const slug = FileTools.slugify(k);
+    let found = await CompendiaUtils.getItemFromCompendium("abilities", slug);
+
+    if (found) {
+      return slug;
+    } else {
+      if (["Living Language", "Native Language", "Faerie Speech", "Language", "German"].includes(k)) {
+        return "language-generic";
+      } else if ("Latin" === k) {
+        return "language-latin";
+      } else if ("Arabic" === k) {
+        return "language-arabic";
+      } else if ("Hermes Lore" === k) {
+        return "order-of-hermes-lore";
+      } else if ("Civil and Canon Law" === k) {
+        return "civil-canon-law";
+      } else if ("Sense Holiness and Unholiness" === k) {
+        return "sense-holiness-unholiness";
+      } else if ("Single Weapons" === k) {
+        return "single-weapon";
+      } else if ("Thrown Weapons" === k) {
+        return "thrown-weapon";
+      } else if ("Great Weapons" === k) {
+        return "great-weapon";
+      } else if ("Divine Lore" === k) {
+        return "dominion-lore";
+      } else if (k.startsWith("Craft")) {
+        return "craft-generic";
+      } else if (k.startsWith("Profession")) {
+        return "profession-generic";
+      } else if (/(.+) Resistance/.test(k)) {
+        // TODO check if it is a Form
+        let m = k.match(/(.+) Resistance/);
+        if (FORMS.includes(m[1])) {
+          return "form-resistance";
+        } else {
+          console.log(`Ability "${k}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`);
+          this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+          this.addReviewItem(`Form resistance not found: "${k}"`);
+          stats.abilities.unknown++;
+        }
+        // DE special cases of area lore
+      } else if (/.*Area.+Lore/.test(k)) {
+        return "area-lore";
+      } else {
+        for (let lore of AREAS) {
+          if (k === lore) {
+            return "area-lore";
+          }
+        }
+        return null;
+      }
     }
   }
 
@@ -166,58 +394,28 @@ export class ActorImporter extends FormApplication {
     if (!src.Abilities) {
       stats.abilities.no_field++;
       this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-      this.problems.add(`${this.current.name} - ${this.currentFile} - no Ability field`);
+      this.addReviewItem(`No "Abilities" field`);
       return;
     }
-    const items = this.object.tmp.items;
+    const items = this.object.currentItems;
 
     for (let [k, v] of Object.entries(src.Abilities)) {
-      const slug = FileTools.slugify(k);
+      const indexKey = await this.getAbitilyIndexKey(k, v);
+
       // console.log(`Find ability with key : "${slug}"`);
-      const item = await CompendiaUtils.getItemFromCompendium("abilities", slug);
-      if (item) {
-        item.system.xp = (v.score * (v.score + 1) * 5) / 2;
-        item.system.speciality = v.specializtion;
-        stats.abilities.found++;
-        items.push(item);
-      } else {
-        if (["Living Language", "Native Language", "Faerie Speech", "Language", "German"].includes(k)) {
-          await this.addSpecialCaseAbility(k, v, "language-generic");
-        } else if ("Latin" === k) {
-          await this.addSpecialCaseAbility(k, v, "language-latin");
-        } else if ("Arabic" === k) {
-          await this.addSpecialCaseAbility(k, v, "language-arabic");
-        } else if ("Hermes Lore" === k) {
-          await this.addSpecialCaseAbility(k, v, "order-of-hermes-lore");
-        } else if ("Civil and Canon Law" === k) {
-          await this.addSpecialCaseAbility(k, v, "civil-canon-law");
-        } else if ("Sense Holiness and Unholiness" === k) {
-          await this.addSpecialCaseAbility(k, v, "sense-holiness-unholiness");
-        } else if ("Single Weapons" === k) {
-          await this.addSpecialCaseAbility(k, v, "single-weapon");
-        } else if ("Thrown Weapons" === k) {
-          await this.addSpecialCaseAbility(k, v, "thrown-weapon");
-        } else if ("Great Weapons" === k) {
-          await this.addSpecialCaseAbility(k, v, "great-weapon");
-        } else if ("Divine Lore" === k) {
-          await this.addSpecialCaseAbility(k, v, "dominion-lore");
-        } else if (k.startsWith("Craft")) {
-          await this.addSpecialCaseAbility(k, v, "craft-generic");
-        } else if (k.startsWith("Profession")) {
-          await this.addSpecialCaseAbility(k, v, "profession-generic");
-        } else if (/(.+) Resistance/.test(k)) {
-          // TODO check if it is a Form
-          // if ()
-          await this.addSpecialCaseAbility(k, v, "form-resistance");
-          // DE special cases of area lore
-        } else if (this.handleSpecialCasesAreaLore(k, v)) {
-          continue;
+      if (indexKey) {
+        if (indexKey == "area-lore") {
+          console.log(`Area lore "${k}"`);
+          this.handleSpecialCasesAreaLore(k, v);
         } else {
-          console.log(`Ability "${k}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`);
-          this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-          this.problems.add(`${this.current.name} - ${this.currentFile} - Ability not found: "${k}"`);
-          stats.abilities.unknown++;
+          let found = await this.addSpecialCaseAbility(k, v, indexKey);
         }
+      } else {
+        const slug = FileTools.slugify(k);
+        console.log(`Ability "${k}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`);
+        this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+        this.addReviewItem(`Ability not found: "${k}"`);
+        stats.abilities.unknown++;
       }
     }
   }
@@ -227,17 +425,26 @@ export class ActorImporter extends FormApplication {
     if (!src["Virtues and Flaws"]) {
       stats.virtuesAndFlaws.no_field++;
       this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-      this.problems.add(`${this.current.name} - ${this.currentFile} - no "Virtues and Flaws" field`);
+      this.addReviewItem(`No "Virtues and Flaws" field`);
       return;
     }
-    const items = this.object.tmp.items;
+    const items = this.object.currentItems;
 
     for (let v of src["Virtues and Flaws"]) {
+      v = v.trim();
       const slug = FileTools.slugify(v);
       // console.log(`Find ability with key : "${slug}"`);
+
+      let found = await this.handleAbilitiesOddities(v);
+      if (found) {
+        continue;
+      }
       const virtue = await CompendiaUtils.getItemFromCompendium("virtues", slug);
       if (virtue) {
         stats.virtuesAndFlaws.found++;
+        if (VnFToReview.includes(slug)) {
+          this.addReviewItem(`Review Active effects of : "${v}", they may have been applied twice`);
+        }
         items.push(virtue);
       } else {
         const flaw = await CompendiaUtils.getItemFromCompendium("flaws", slug);
@@ -247,8 +454,16 @@ export class ActorImporter extends FormApplication {
         } else {
           if (v.toLowerCase() == "none") {
             break;
+          } else if (v.toLowerCase() == "latent magical ability") {
+            await this.addSpecialCaseVnF("virtues", v, "latent-magic-ability");
+          } else if (v.startsWith("Disfigured")) {
+            await this.addSpecialCaseVnF("flaws", v, "disfigured");
           } else if (v.startsWith("Plagued by")) {
             await this.addSpecialCaseVnF("flaws", v, "plagued-by-supernatural-entity");
+          } else if (v.startsWith("Enemies")) {
+            await this.addSpecialCaseVnF("flaws", v, "enemies");
+          } else if (v.startsWith("Afflicted Tongue")) {
+            await this.addSpecialCaseVnF("flaws", v, "afflicted-tongue");
           } else if (v.startsWith("Social Contacts ")) {
             await this.addSpecialCaseVnF("virtues", v, "social-contacts");
           } else if (v.startsWith("Lesser Immunity ")) {
@@ -259,38 +474,81 @@ export class ActorImporter extends FormApplication {
             await this.addSpecialCaseVnF("virtues", v, "major-magical-focus");
           } else if (v.startsWith("Ferocity")) {
             await this.addSpecialCaseVnF("virtues", v, "ferocity");
-          } else if (v.startsWith("Compulsion ")) {
-            if (v.match(/Major/)) {
-              await this.addSpecialCaseVnF("flaws", v, "compulsion-major");
-            } else await this.addSpecialCaseVnF("flaws", v, "compulsion-minor");
-          } else if (v.startsWith("Social Handicap ")) {
-            await this.addSpecialCaseVnF("flaws", v, "social-handicap");
-          } else if (v.startsWith("Proud")) {
-            if (v.match(/Major/)) {
-              await this.addSpecialCaseVnF("flaws", v, "proud-major");
-            } else await this.addSpecialCaseVnF("flaws", v, "proud-minor");
-          } else if (v.startsWith("Driven")) {
-            if (v.match(/Major/)) {
-              await this.addSpecialCaseVnF("flaws", v, "driven-major");
-            } else await this.addSpecialCaseVnF("flaws", v, "driven-minor");
-          } else if (v.startsWith("Wrathful")) {
-            if (v.match(/Major/)) {
-              await this.addSpecialCaseVnF("flaws", v, "wrathful-major");
-            } else await this.addSpecialCaseVnF("flaws", v, "wrathful-minor");
+          } else if (v.startsWith("Fear")) {
+            await this.addSpecialCaseVnF("flaws", v, "fear");
+          } else if (v.startsWith("Dutybound")) {
+            await this.addSpecialCaseVnF("flaws", v, "dutybound");
+          } else if (v.startsWith("Restriction")) {
+            await this.addSpecialCaseVnF("flaws", v, "restriction");
+          } else if (v.startsWith("Vulnerable Magic ")) {
+            await this.addSpecialCaseVnF("flaws", v, "vulnerable-magic");
+          } else if (v.startsWith("Special Circumstances")) {
+            await this.addSpecialCaseVnF("virtues", v, "special-circumstances");
+          } else if (v.startsWith("Inoffensive to ")) {
+            await this.addSpecialCaseVnF("virtues", v, "inoffensive-to-beings-general");
+          } else if (v.startsWith("Side Effect ")) {
+            await this.addSpecialCaseVnF("virtues", v, "side-effect");
           } else if (v.startsWith("Weakness")) {
             await this.addSpecialCaseVnF("flaws", v, "weakness");
-          } else if (v.startsWith("Higher Purpose ")) {
-            await this.addSpecialCaseVnF("flaws", v, "higher-purpose");
+          } else if (FileTools.slugify(v) === "non-combattant") {
+            await this.addSpecialCaseVnF("flaws", v, "noncombattant");
+          } else if (v.startsWith("Visions")) {
+            await this.addSpecialCaseVnF("flaws", v, "visions");
+          } else if (v.startsWith("Social Handicap")) {
+            await this.addSpecialCaseVnF("flaws", v, "social-handicap");
           } else if (v.startsWith("Greater Malediction ")) {
             await this.addSpecialCaseVnF("flaws", v, "greater-malediction");
           } else if (v.startsWith("Necessary Condition")) {
             await this.addSpecialCaseVnF("flaws", v, "necessary-condition");
+          } else if (v.startsWith("Cyclic Magic (Positive)")) {
+            await this.addSpecialCaseVnF("virtues", v, "cyclic-magic-positive");
+          } else if (v.startsWith("Cyclic Magic (Negative)")) {
+            await this.addSpecialCaseVnF("flaws", v, "cyclic-magic-negative");
+          } else if (v.startsWith("Quiet Magic")) {
+            let n = v.replace("(", "").replace(")", "");
+            if (/Quiet Magic x2/.test(n)) {
+              await this.addSpecialCaseVnF("virtues", null, "silent-magic");
+            } else if (v === "Quiet Magic") {
+              await this.addSpecialCaseVnF("virtues", null, "quiet-magic");
+            } else {
+              this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+              this.addReviewItem(`Quiet Magic Virtue parsing error: "${v}"`);
+              stats.virtuesAndFlaws.unknown++;
+            }
+          } else if (v.startsWith("Deft ")) {
+            let m = v.match(/Deft (.+)/);
+            if (FORMS.includes(m[1])) {
+              const virtue = await this.addSpecialCaseVnF("virtues", v, "deft-form");
+            } else {
+              console.log(`Virtue or Flaw "${v}" with key : "${slug}" not found`);
+              this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+              this.addReviewItem(`Deft Virtue not found: "${v}"`);
+              stats.virtuesAndFlaws.unknown++;
+            }
           } else if (v.startsWith("Deficient ")) {
             let m = v.match(/Deficient (.+)/);
-            if (["Creo", "Intellego", "Muto", "Perdo", "Rego"].includes(m[1]))
-              await this.addSpecialCaseVnF("flaws", v, "deficient-technique");
-            else {
+
+            if (TECHNIQUES.includes(m[1])) {
+              const virtue = await this.addSpecialCaseVnF("flaws", v, "deficient-technique");
+              this.setActiveEffect(virtue, "deficiency", m[1].substring(0, 2).toLowerCase());
+            } else if (FORMS.includes(m[1])) {
               await this.addSpecialCaseVnF("flaws", v, "deficient-form");
+              this.setActiveEffect(virtue, "deficiency", m[1].substring(0, 2).toLowerCase());
+            } else {
+              let m = v.match(/Deficient (.+) \((.+)\)/);
+              const art = m[1].toLowerCase();
+              if ("technique" === art) {
+                const virtue = await this.addSpecialCaseVnF("flaws", v, "deficient-technique");
+                this.setActiveEffect(virtue, "deficiency", m[2].substring(0, 2).toLowerCase());
+              } else if ("form" === art) {
+                const virtue = await this.addSpecialCaseVnF("flaws", v, "deficient-form");
+                this.setActiveEffect(virtue, "deficiency", m[2].substring(0, 2).toLowerCase());
+              } else {
+                console.log(`Virtue or Flaw "${v}" with key : "${slug}" not found`);
+                this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+                tthis.addReviewItem(`Deficient X Flaw not found: "${v}"`);
+                stats.virtuesAndFlaws.unknown++;
+              }
             }
           } else if (v.startsWith("Vow ")) {
             await this.addSpecialCaseVnF("flaws", v, "vow");
@@ -312,104 +570,265 @@ export class ActorImporter extends FormApplication {
             await this.addSpecialCaseVnF("virtues", v, "greater-immunity");
           } else if (v.startsWith("Faerie Blood")) {
             await this.addSpecialCaseVnF("virtues", v, "faerie-blood");
+          } else if (v.startsWith("Strong Faerie Blood")) {
+            await this.addSpecialCaseVnF("virtues", v, "strong-faerie-blood");
           } else if (v.toLowerCase().startsWith("student of ")) {
             await this.addSpecialCaseVnF("virtues", v, "student-of-realm");
           } else if (v.toLowerCase().startsWith("ways of the ")) {
             await this.addSpecialCaseVnF("virtues", v, "ways-of-the-land");
+          } else if (v.toLowerCase().startsWith("Great Characteristics")) {
+            await this.addSpecialCaseVnF("virtues", null, "improved-characteristics");
+
+            // Improved Characteristics
           } else if (v.startsWith("Improved Characteristics ")) {
+            let np = v.replace("(", "").replace(")", "");
             let re = /Improved Characteristics x(\d)/;
 
-            let match = v.match(re);
+            let match = np.match(re);
             if (match) {
               for (let n = 1; n <= Number(match[1]); n++) {
-                // TODO effect
-                await this.addSpecialCaseVnF("virtues", v, "improved-characteristics");
+                await this.addSpecialCaseVnF("virtues", null, "improved-characteristics");
               }
+
               continue;
             }
             re = /Improved Characteristics/;
-            match = v.match(re);
+            match = np.match(re);
             if (match) {
-              // TODO effect
-              await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
+              const virtue = await this.addSpecialCaseVnF("virtues", v, "improved-characteristics");
+            } else {
+              console.log("Unknown improved characteristic: " + match[1]);
+              this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+              this.addReviewItem(`Improved characteristics - Virtue or Flaw not found: "${v}"`);
             }
+          } else if (v.startsWith("Poor ")) {
+            let found = await this.handleExtremeChars(v, "poor-characteristic", "Poor", "flaws", -1);
+            if (found) continue;
+            this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+            this.addReviewItem(`Poor characteristic - Virtue or Flaw not found: "${v}"`);
+            //Great characteristic
           } else if (v.startsWith("Great ")) {
-            let re = /Great (.+) (\d)x/;
-
-            let match = v.match(re);
-            if (match) {
-              if (CHARACTERISTICS.includes(match[1])) {
-                for (let n = 1; n <= Number(match[2]); n++) {
-                  // TODO effect
-                  await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
-                }
-              } else {
-                console.log("Unknown improved Nx characteristic: " + match[1]);
-                this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-                this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
-              }
-              continue;
-            }
-
-            re = /Great (.+) x(\d)/;
-            match = v.match(re);
-            if (match) {
-              if (CHARACTERISTICS.includes(match[1])) {
-                for (let n = 1; n <= Number(match[2]); n++) {
-                  // TODO effect
-                  await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
-                }
-              } else {
-                console.log("Unknown Great xN characteristic: " + match[1]);
-                this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-                this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
-              }
-              continue;
-            }
-
-            re = /Great (.+)/;
-            match = v.match(re);
-            if (match) {
-              if (CHARACTERISTICS.includes(match[1])) {
-                // TODO effect
-                await this.addSpecialCaseVnF("virtues", v, "great-characteristic");
-              } else {
-                console.log(`Unknown characteristic: match[1] from ${v}`);
-                this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-                this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
-              }
-            }
+            let found = await this.handleExtremeChars(v, "great-characteristic", "Great", "virtues", 1);
+            if (found) continue;
+            this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+            this.addReviewItem(`Great characteristic - Virtue or Flaw not found: "${v}"`);
           } else if (v.startsWith("Puissant")) {
-            const m = v.match(/Puissant (.+)/);
-            if (ARTS.includes(m[1].trim())) {
+            let np = v
+              .trim()
+              .replace("*", "")
+              .replace("(", "")
+              .replace(")", "")
+              .replace("Art", "art")
+              .replace("Ability", "ability");
+            let containArt = np.match(/Puissant art (.+)/);
+            if (containArt) np = np.replace(" art", "");
+
+            let m = np.match(/Puissant (.+)/);
+            if (ARTS.includes(m[1])) {
               // puissant art
               const virtue = await this.addSpecialCaseVnF("virtues", v, "puissant-art");
-              // TODO effect
-              // virtue.effects[0].changes[].key = `system.arts.techniques.cr.bonus`
+              // const art = Object.entries(CONFIG.ARM5E.magic.arts).find((k, v) => v.mnemonic == m[1]);
+              this.setActiveEffect(virtue, "art", m[1].toLowerCase().substring(0, 2));
             } else {
+              let containAb = np.match(/Puissant ability (.+)/);
+              if (containAb) np = np.replace(" ability", "");
+              m = np.match(/Puissant (.+)/);
               // puissant ability
-              // TODO effect
               const virtue = await this.addSpecialCaseVnF("virtues", v, "puissant-ability");
+              // find the corresponding ability.
+              const key = await this.getAbitilyIndexKey(m[1]);
+              if (key) {
+                let item = await CompendiaUtils.getItemFromCompendium("abilities", key);
+                let ability = CONFIG.ARM5E.LOCALIZED_ABILITIES_ENRICHED.find((e) => {
+                  return e.system.key === item.system.key && e.system.option === item.system.option;
+                });
+                if (ability) {
+                  const type = "bonus" + this.getAETypeFromCategory(ability.system.category);
+                  this.setActiveEffect(virtue, type, ability.system.key, FileTools.slugify(item.name));
+                } else {
+                  console.log(`Unknown Puissant ability: ${m[1]} from ${v}`);
+                  this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+                  this.addReviewItem(`Unknown Puissant ability: ${m[1]} "${v}"`);
+                }
+              } else {
+                console.log(`Unknown Puissant ability: ${m[1]} from ${v}`);
+                this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+                this.addReviewItem(`Unknown Puissant ability: ${m[1]} "${v}"`);
+              }
             }
           } else if (v.startsWith("Affinity with ")) {
-            const m = v.match(/Affinity with (.+)/);
+            let np = v.replace("*", "");
+            const m = np.match(/Affinity with (.+)/);
             if (ARTS.includes(m[1].trim())) {
               // puissant art
               const virtue = await this.addSpecialCaseVnF("virtues", v, "affinity-with-art");
-              // TODO effect
-              // virtue.effects[0].changes[].key = `system.arts.techniques.cr.bonus`
+
+              this.setActiveEffect(virtue, "affinity", m[1].trim().substring(0, 2).toLowerCase());
             } else {
               // puissant ability
-              // TODO effect
               const virtue = await this.addSpecialCaseVnF("virtues", v, "affinity-with-ability");
+              // find the corresponding ability.
+              const key = await this.getAbitilyIndexKey(m[1]);
+              if (key) {
+                let item = await CompendiaUtils.getItemFromCompendium("abilities", key);
+                let ability = CONFIG.ARM5E.LOCALIZED_ABILITIES_ENRICHED.find((e) => {
+                  return e.system.key === item.system.key && e.system.option === item.system.option;
+                });
+                if (ability) {
+                  const type = "affinity" + this.getAETypeFromCategory(ability.system.category);
+                  this.setActiveEffect(virtue, type, ability.system.key, FileTools.slugify(item.name));
+                } else {
+                  console.log(`Unknown affinity-with ability: ${m[1]} from ${v}`);
+                  this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+                  this.addReviewItem(`Unknown affinity-with ability: ${m[1]} "${v}"`);
+                }
+              } else {
+                console.log(`Unknown affinity-with ability: ${m[1]} from ${v}`);
+                this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+                this.addReviewItem(`Unknown affinity-with ability: ${m[1]} "${v}"`);
+              }
             }
+          } else if (await this.handlePersonalityFlaws(v, slug)) {
+            continue;
           } else {
-            console.log(`Virtue or Flaw "${v}" with key : "${slug}" not found`);
+            console.log(
+              `Virtue or Flaw "${v}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`
+            );
             this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-            this.problems.add(`${this.current.name} - ${this.currentFile} - Virtue or Flaw not found: "${v}"`);
+            this.addReviewItem(` Virtue or Flaw indexKey not found: "${v}"`);
             stats.virtuesAndFlaws.unknown++;
           }
         }
+      }
+    }
+  }
+  // Handle anything that doesn't follow any rule or too complex to automate
+  async handleAbilitiesOddities(v) {
+    switch (v) {
+      case "Puissant Craft (metalsmith)": {
+        const virtue = await this.addSpecialCaseVnF("virtues", v, "puissant-ability");
+        // const art = Object.entries(CONFIG.ARM5E.magic.arts).find((k, v) => v.mnemonic == m[1]);
+        this.setActiveEffect(virtue, "bonusGeneralAbility", "craft", "Metalsmith");
+        return true;
+      }
+      case "Affinity with Craft (metalsmith)": {
+        const virtue = await this.addSpecialCaseVnF("virtues", v, "affinity-with-ability");
+        // const art = Object.entries(CONFIG.ARM5E.magic.arts).find((k, v) => v.mnemonic == m[1]);
+        this.setActiveEffect(virtue, "affinityGeneralAbility", "craft", "Metalsmith");
+        return true;
+      }
+      case "Puissant Art (Perdo) (free Virtue)": {
+        const virtue = await this.addSpecialCaseVnF("virtues", v, "puissant-art");
+        // const art = Object.entries(CONFIG.ARM5E.magic.arts).find((k, v) => v.mnemonic == m[1]);
+        this.setActiveEffect(virtue, "art", "pe");
+        return true;
+      }
+    }
+  }
+
+  getAETypeFromCategory(cat) {
+    switch (cat) {
+      case "general":
+        return "GeneralAbility";
+      case "arcane":
+        return "ArcaneAbility";
+      case "academic":
+        return "AcademicAbility";
+      case "martial":
+        return "MartialAbility";
+      case "mystery":
+        return "MysteryAbility";
+      case "supernaturalCat":
+        return "SupernaturalAbility";
+      default:
+        return null;
+    }
+  }
+
+  setActiveEffect(item, type, subtype, option = null, value = null, idx = 0) {
+    if (!item) return;
+
+    const cfg = ACTIVE_EFFECTS_TYPES[type].subtypes[subtype];
+
+    const effect = item.effects[idx];
+    let key = cfg.key;
+    effect.flags.arm5e.type = [type];
+    effect.flags.arm5e.subtype = [subtype];
+    if (option) {
+      effect.flags.arm5e.option = [option];
+      key = key.replace("#OPTION#", option);
+    }
+    effect.name = item.name;
+    if (effect.changes.length) {
+      let newVal = value ? value : cfg.default;
+      effect.changes[0] = { key: key, mode: cfg.mode, value: newVal };
+    }
+  }
+
+  async handlePersonalityFlaws(name, key) {
+    for (let f of MINOR_MAJOR) {
+      if (name.startsWith(f)) {
+        // console.log(`Personality flaw: ${name}`);
+        if (name.match(/Major/)) {
+          this.addSpecialCaseVnF("flaws", name, `${FileTools.slugify(f)}-major`);
+        } else {
+          this.addSpecialCaseVnF("flaws", name, `${FileTools.slugify(f)}-minor`);
+        }
+        return true;
+      }
+    }
+    return false;
+  }
+
+  async handleExtremeChars(name, key, prefix, compendium, value) {
+    let re = new RegExp(`${prefix} (.+) (\\d)x`);
+    let np = name.replace("(", "").replace(")", "").replace("characteristic", "");
+    let match = np.match(re);
+    if (match) {
+      if (CHARACTERISTICS.includes(match[1])) {
+        for (let n = 1; n <= Number(match[2]); n++) {
+          // TODO effect
+          const virtue = await this.addSpecialCaseVnF(compendium, name, key, value);
+          const shortChar = getShortCharac(match[1]);
+          this.setActiveEffect(virtue, "characteristics", shortChar, null, value);
+          this.object.currentActor.system.characteristics[shortChar].value =
+            this.object.currentActor.system.characteristics[shortChar].value - value;
+        }
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    re = new RegExp(`${prefix} (.+) x(\\d)`);
+    match = np.match(re);
+    if (match) {
+      if (CHARACTERISTICS.includes(match[1])) {
+        for (let n = 1; n <= Number(match[2]); n++) {
+          const virtue = await this.addSpecialCaseVnF(compendium, name, key, value);
+          const shortChar = getShortCharac(match[1]);
+          this.setActiveEffect(virtue, "characteristics", shortChar, null, value);
+          this.object.currentActor.system.characteristics[shortChar].value =
+            this.object.currentActor.system.characteristics[shortChar].value - value;
+        }
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    re = new RegExp(`${prefix} (.+)`);
+    match = np.match(re);
+    if (match) {
+      if (CHARACTERISTICS.includes(match[1])) {
+        const virtue = await this.addSpecialCaseVnF(compendium, name, key, value);
+        const shortChar = getShortCharac(match[1]);
+        this.setActiveEffect(virtue, "characteristics", shortChar, null, value);
+        this.object.currentActor.system.characteristics[shortChar].value =
+          this.object.currentActor.system.characteristics[shortChar].value - value;
+        return true;
+      } else {
+        return false;
       }
     }
   }
@@ -419,13 +838,72 @@ export class ActorImporter extends FormApplication {
     if (!src["Personality Traits"]) {
       stats.virtuesAndFlaws.no_field++;
       this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-      this.problems.add(`${this.current.name} - ${this.currentFile} - no "Virtues and Flaws" field`);
+      this.problems.add(`${this.current.name} - ${this.currentFile} - no "Personality traits?`);
       return;
     }
-    const items = this.object.tmp.items;
+    const items = this.object.currentItems;
 
-    for (let v of src["Personality Traits"]) {
+    for (let [k, v] of Object.entries(src["Personality Traits"])) {
+      const trait = {
+        name: k,
+        type: "personalityTrait",
+        img: "icons/skills/social/intimidation-impressing.webp",
+        system: {}
+      };
+      let score = Number(v);
+      trait.system.xp = ((score * (score + 1)) / 2) * 5;
+      items.push(trait);
     }
+  }
+
+  async importReputations(src) {
+    const stats = this.object.stats;
+    if (!src["Reputations"]) {
+      stats.reputations.no_field++;
+      this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+      this.addReviewItem(`no "Reputation?`);
+      return;
+    }
+    const items = this.object.currentItems;
+    if (["none", "None"].includes(src["Reputations"])) return;
+
+    for (let r of src["Reputations"]) {
+      const trait = {
+        name: r.name,
+        type: "reputation",
+        img: "icons/svg/angel.svg",
+        system: {}
+      };
+      let score = Number(r.score);
+      trait.system.xp = ((score * (score + 1)) / 2) * 5;
+      trait.system.type = this.guessReputationType(r.type);
+      items.push(trait);
+    }
+  }
+
+  guessReputationType(type) {
+    let t = type?.toLowerCase() ?? "";
+    if (t.match(/local/)) {
+      return "local";
+    }
+    if (t.match(/hermetic/)) {
+      return "hermetic";
+    }
+    if (t.match(/local/)) {
+      return "local";
+    }
+    if (t.match(/academic/)) {
+      return "academic";
+    }
+    if (t.match(/persona/)) {
+      return "persona";
+    }
+    // if (t.match(/infernal/)) {
+    //   return "infernal";
+    // }
+
+    this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+    this.addReviewItem(`Unknown type of reputation: ${type}, "local" was used`);
   }
 
   async importSpells(src) {
@@ -434,7 +912,7 @@ export class ActorImporter extends FormApplication {
       stats.spells.no_field++;
       return;
     }
-    const items = this.object.tmp.items;
+    const items = this.object.currentItems;
 
     for (let [k, v] of Object.entries(src["Spells Known"])) {
       k = k.trim();
@@ -480,7 +958,7 @@ export class ActorImporter extends FormApplication {
         } else {
           console.log(`Spell "${k}" with key : "${slug}" not found - ${this.current.name} in ${this.currentFile}`);
           this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-          this.problems.add(`${this.current.name} - ${this.currentFile} - Spell not found: "${k}"`);
+          this.addReviewItem(`Spell not found: "${k}"`);
           stats.spells.unknown++;
         }
       }
@@ -488,10 +966,15 @@ export class ActorImporter extends FormApplication {
   }
 
   async addSpecialCaseSpell(name, attributes, key) {
-    const item = await CompendiaUtils.getItemFromCompendium("spells", key);
-    item.name = name;
-    this.object.tmp.items.push(item);
-    this.object.stats.spells.found++;
+    let item = await CompendiaUtils.getItemFromCompendium("spells", key);
+    if (item) {
+      item = item.toObject();
+      item.name = name;
+      this.object.currentItems.push(item);
+      this.object.stats.spells.found++;
+    } else {
+      console.error("Wrong special case");
+    }
   }
 
   async handleSpecialCasesAreaLore(name, attributes) {
@@ -509,23 +992,39 @@ export class ActorImporter extends FormApplication {
   }
 
   async addSpecialCaseAbility(name, attributes, key) {
-    const item = await CompendiaUtils.getItemFromCompendium("abilities", key);
-    item.name = name;
-    item.system.xp = (attributes.score * (attributes.score + 1) * 5) / 2;
-    item.system.speciality = attributes.specialization;
-    if (item.system.option !== "") {
-      item.system.option = FileTools.slugify(name);
+    let item = await CompendiaUtils.getItemFromCompendium("abilities", key);
+
+    if (item) {
+      item = item.toObject();
+
+      item.name = name;
+      // item.system.xp = (attributes.score * (attributes.score + 1) * 5) / 2;
+      item.system.xp = attributes.xp;
+      item.system.speciality = attributes.specialization;
+      if (item.system.option !== "") {
+        item.system.option = FileTools.slugify(name);
+      }
+      this.object.currentItems.push(item);
+      this.object.stats.abilities.found++;
+      return true;
+    } else {
+      console.error("Wrong special case");
+      return false;
     }
-    this.object.tmp.items.push(item);
-    this.object.stats.abilities.found++;
   }
 
   async addSpecialCaseVnF(compendium, name, key) {
-    const item = await CompendiaUtils.getItemFromCompendium(compendium, key);
-    item.name = name;
-    this.object.tmp.items.push(item);
-    this.object.stats.virtuesAndFlaws.found++;
-    return item;
+    let item = await CompendiaUtils.getItemFromCompendium(compendium, key);
+    if (item) {
+      item = item.toObject();
+      if (name) item.name = name;
+
+      this.object.currentItems.push(item);
+      this.object.stats.virtuesAndFlaws.found++;
+      return item;
+    } else {
+      console.error("Wrong special case");
+    }
   }
 
   guessType(json) {
@@ -539,29 +1038,205 @@ export class ActorImporter extends FormApplication {
     return "player";
   }
 
-  guessCharType(json) {
-    if (json.system.Arts) {
-      return "magus";
+  guessCharType(type, json) {
+    if (type == "player") {
+      if (!json.system["Confidence Score"]) {
+        return "grog";
+      }
+      if (json.system.Arts) {
+        return "magus";
+      } else {
+        return "companion";
+      }
     }
-    if (this.guessRealm(json)) {
+
+    const realm = this.guessRealm(json);
+    if (realm) {
+      json.system.might = {};
+      json.system.realm = {
+        magic: {
+          aligned: false
+        },
+        faeric: {
+          aligned: false
+        },
+        divine: {
+          aligned: false
+        },
+        infernal: {
+          aligned: false
+        }
+      };
       return "entity";
+    } else {
+      return "mundane";
     }
   }
 
   guessRealm(json) {
-    if (json.system["Faery Might"]) {
+    let res = {
+      might: {},
+      realm: {
+        magic: {
+          aligned: false
+        },
+        faeric: {
+          aligned: false
+        },
+        divine: {
+          aligned: false
+        },
+        infernal: {
+          aligned: false
+        }
+      }
+    };
+
+    if (json.system["Faery Might"] || json.system["Faerie Might"]) {
+      res.realm.faeric.aligned = true;
       return "faeric";
     }
     if (json.system["Magic Might"]) {
+      res.realm.magic.aligned = true;
       return "magic";
     }
     if (json.system["Infernal Might"]) {
+      res.realm.infernal.aligned = true;
       return "infernal";
     }
     if (json.system["Divine Might"]) {
+      res.realm.divine.aligned = true;
       return "divine";
     }
     return null; // mundane
+  }
+
+  async importEquipment(src) {
+    const stats = this.object.stats;
+    if (!src.Equipment) {
+      stats.equipment.no_field++;
+      // this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+      this.addReviewItem(`no "Equipment"?`);
+      return;
+    }
+
+    for (let e of src.Equipment) {
+      let slug = FileTools.slugify(e);
+      // alternate versions
+      slug = this.getProperVersion(slug);
+      if (EQUIPEMENT[slug]) {
+        let item = await CompendiaUtils.getItemFromCompendium("equipment", EQUIPEMENT[slug].key);
+        if (item) {
+          item = item.toObject();
+          item.name = e;
+          this.object.currentItems.push(item);
+          stats.equipment.found++;
+          continue;
+        } else {
+          console.error("Wrong Equipment key: " + slug);
+          stats.equipment.unknown++;
+        }
+      } else {
+        let item = await CompendiaUtils.getItemFromCompendium("equipment", slug);
+        if (item) {
+          item = item.toObject();
+          item.name = e;
+          this.object.currentItems.push(item);
+          stats.equipment.found++;
+          continue;
+        }
+      }
+
+      // find match in equipment list
+      let matches = [];
+      for (let ref of Object.keys(EQUIPEMENT)) {
+        let re = new RegExp(ref);
+        let m = slug.match(re);
+        if (m) {
+          matches.push(ref);
+        }
+      }
+      if (matches.length == 1) {
+        let item = await CompendiaUtils.getItemFromCompendium("equipment", EQUIPEMENT[matches[0]].key);
+        if (item) {
+          item = item.toObject();
+          item.name = e;
+          this.object.currentItems.push(item);
+          stats.equipment.found++;
+        } else {
+          stats.equipment.unknown++;
+          console.error("Wrong Equipment key: " + slug);
+        }
+      } else if (matches.length > 1) {
+        this.addReviewItem(`Equipment: Multiple (${matches.length}) matches for "${e}" : ${matches}`);
+        stats.equipment.unknown++;
+      } else {
+        this.addReviewItem(`Equipment: No matches for "${e}", added as item`);
+        console.log(`Unknown Equipment : "${e}" key=${slug}, adding as Item`);
+        stats.equipment.unknown++;
+
+        const inv = {
+          name: e,
+          type: "item",
+          img: "icons/svg/item-bag.svg",
+          system: {}
+        };
+        this.object.currentItems.push(inv);
+      }
+    }
+  }
+
+  getProperVersion(slug) {
+    switch (slug) {
+      case "partial-heavy-leather":
+        return "heavy-leather-partial";
+      case "full-metal-scale-armor":
+        return "metal-scale-full";
+      case "full-chain-mail":
+        return "chain-mail-full";
+      // shields
+      case "heater-shield":
+        return "shield-heater";
+      case "round-shield":
+        return "shield-round";
+      case "infantry-shield":
+        return "shield-infantry";
+      case "buckler-shield":
+        return "shield-buckler";
+      //swords
+      case "long-sword":
+        return "sword-long";
+      case "short-sword":
+        return "sword-short";
+      case "great-sword":
+        return "sword-great";
+      case "bastard-sword":
+        return "sword-bastard-1h";
+      // bows
+      case "long-bow":
+        return "bow-long";
+      case "short-bow":
+        return "bow-short";
+      case "composite-bow":
+        return "bow-composite";
+      // spears
+      case "long-spear":
+        return "spear-long";
+      case "short-spear":
+        return "spear-short";
+      default:
+        break;
+    }
+    // TODO complete
+    if (slug.includes("full-metal-scale-armor")) {
+      return slug.replace("full-metal-scale-armor", "metal-scale-full");
+    }
+
+    if (slug.includes("long-spear")) {
+      return slug.replace("long-spear", "spear-long");
+    }
+
+    return slug;
   }
 
   activateListeners(html) {
@@ -574,8 +1249,7 @@ export class ActorImporter extends FormApplication {
 
     html.find(".analysis").click(async (ev) => {
       ev.preventDefault();
-      if (this.object.toEnrich === null) return;
-      await this.analyzeDocuments(this.object.toEnrich);
+      this.doStuff();
     });
     html.find(".import").click(async (ev) => {
       ev.preventDefault();
@@ -583,16 +1257,62 @@ export class ActorImporter extends FormApplication {
       await this.importDocuments(this.object.toEnrich, false);
     });
   }
-  async analyzeDocuments(actor) {
-    this.render();
-  }
-
-  async importDocuments(actor, dryrun = true) {
-    await actor.updateEmbeddedDocuments("Item", this.object.updateData, { render: true });
-  }
 
   async _updateObject(ev, formData) {
     foundry.utils.mergeObject(this.object, foundry.utils.expandObject(formData));
     this.render();
+  }
+
+  async doStuff() {
+    const equip = {};
+
+    let init = await (await game.packs.get("arm5e-compendia.equipment")).getDocuments();
+    init = init.map((e) => {
+      return { [e.system.indexKey]: { type: e.folder.name } };
+    });
+    init.reduce((previous, current) => {
+      const [e] = Object.entries(current);
+      previous[e[0]] = e[1];
+      return previous;
+    }, equip);
+
+    const res = {};
+    for (let [k, v] of Object.entries(equip)) {
+      let m = k.match(/(s-)(.*)/);
+      if (m) {
+        let cleaned = m[2].replaceAll("-", " ");
+        res[cleaned] = { key: k, type: "weapon", ability: "single-weapon" };
+        continue;
+      }
+      m = k.match(/(g-)(.*)/);
+      if (m) {
+        let cleaned = m[2].replaceAll("-", " ");
+        res[cleaned] = { key: k, type: "weapon", ability: "great-weapon" };
+        continue;
+      }
+      m = k.match(/(b-)(.*)/);
+      if (m) {
+        let cleaned = m[2].replaceAll("-", " ");
+        res[cleaned] = { key: k, type: "weapon", ability: "brawl" };
+        continue;
+      }
+      m = k.match(/(t-)(.*)/);
+      if (m) {
+        let cleaned = m[2].replaceAll("-", " ");
+        res[cleaned] = { key: k, type: "weapon", ability: "thrown-weapon" };
+        continue;
+      }
+      if (v.type == "Missile") {
+        let cleaned = k.replaceAll("-", " ");
+        res[cleaned] = { key: k, type: "weapon", ability: "bow" };
+        continue;
+      }
+      if (v.type == "Armor") {
+        let cleaned = k.replaceAll("-", " ");
+        res[cleaned] = { key: k, type: "armor" };
+        continue;
+      }
+    }
+    console.log(res);
   }
 }

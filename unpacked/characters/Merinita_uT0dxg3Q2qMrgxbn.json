@@ -1,0 +1,2840 @@
+{
+  "name": "Merinita",
+  "type": "player",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 935
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "merinita",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "creationMode": true,
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false
+      },
+      "faeric": {
+        "aligned": false
+      },
+      "divine": {
+        "aligned": false
+      },
+      "infernal": {
+        "aligned": false
+      }
+    },
+    "pendingCrisis": false,
+    "biography": "The Merinita can take another three points of Flaws and as many Virtues. The type of Strong Faerie Blood can also be changed easily. They might look younger than 25, due to the influence of Strong Faerie Blood, but need not.",
+    "characteristics": {
+      "int": {
+        "value": 3,
+        "aging": 0
+      },
+      "per": {
+        "value": 1,
+        "aging": 0
+      },
+      "str": {
+        "value": -1,
+        "aging": 0
+      },
+      "sta": {
+        "value": -1,
+        "aging": 0
+      },
+      "pre": {
+        "value": 1,
+        "aging": 0
+      },
+      "com": {
+        "value": 2,
+        "aging": 0
+      },
+      "dex": {
+        "value": -1,
+        "aging": 0
+      },
+      "qik": {
+        "value": -1,
+        "aging": 0
+      }
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": -1
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": 0
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "finalScore": 0
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 15,
+          "finalScore": 5
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 1,
+          "finalScore": 1
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 15,
+          "finalScore": 5
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 3,
+          "finalScore": 2
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 15,
+          "finalScore": 5
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0,
+          "finalScore": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0,
+          "finalScore": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0,
+          "finalScore": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 1,
+          "finalScore": 1
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0,
+          "finalScore": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0,
+          "finalScore": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 55,
+          "finalScore": 13
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 15,
+          "finalScore": 5
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0,
+          "finalScore": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0,
+          "finalScore": 0
+        }
+      }
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": "cr"
+      },
+      "formFam": {
+        "value": "an"
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": "None"
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    },
+    "features": {
+      "magicSystem": false,
+      "powers": false
+    },
+    "charType": {
+      "value": "magus",
+      "label": "Char. Type"
+    },
+    "playername": "",
+    "house": {
+      "value": "mta",
+      "label": "House"
+    },
+    "dom-mag": {
+      "label": "Domus Magna",
+      "dtype": "String",
+      "value": ""
+    },
+    "primus": {
+      "label": "Primus",
+      "dtype": "String",
+      "value": ""
+    },
+    "parens": {
+      "label": "Parens",
+      "dtype": "String",
+      "value": ""
+    },
+    "apprenticeship": {
+      "label": "Covenant of Apprenticeship",
+      "dtype": "String",
+      "value": ""
+    },
+    "sigil": {
+      "label": "Wizard's Sigil",
+      "dtype": "String",
+      "value": "A flash of blue light."
+    },
+    "personalities": {
+      "0": {
+        "name": "Mercurial",
+        "score": 3
+      },
+      "1": {
+        "name": "Honest",
+        "score": 1
+      },
+      "2": {
+        "name": "Reliable",
+        "score": 2
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "castingtotal": {
+      "applyFocus": false,
+      "aura": 0,
+      "divider": "1",
+      "modifier": 0
+    },
+    "labTotal": {
+      "applyFocus": false,
+      "aura": 0,
+      "quality": 0,
+      "modifier": 0
+    },
+    "pendingXps": 0
+  },
+  "items": [
+    {
+      "type": "spell",
+      "name": "Phantasmal Animal",
+      "system": {
+        "technique": {
+          "value": "cr"
+        },
+        "form": {
+          "value": "im"
+        },
+        "baseLevel": 3,
+        "range": {
+          "value": "voice"
+        },
+        "duration": {
+          "value": "diam"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 2,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "Creates an image of any animal or beast up to the size of a pony (Size +1). Under your direct mental command, it moves about (within range) and makes appropriate noises. You need to be able to concentrate, and be within range, whenever you wish to direct the illusion to move in some manner. If you move out of range or stop concentrating, the illusion just freezes in place. The image does smell like an animal, but it has absolutely no effect on the sense of touch. Of course, a magus may not use this spell to create the image of an animal he or she does not know exists.",
+        "source": "ArM5",
+        "page": 144,
+        "indexKey": "phantasmal-animal",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/im.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "L8CzyEd6R0kezr96",
+      "folder": "6dbqyhZVkNHEsIEk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.L8CzyEd6R0kezr96"
+    },
+    {
+      "type": "spell",
+      "name": "Phantasm of the Human Form",
+      "system": {
+        "technique": {
+          "value": "cr"
+        },
+        "form": {
+          "value": "im"
+        },
+        "baseLevel": 2,
+        "range": {
+          "value": "voice"
+        },
+        "duration": {
+          "value": "sun"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 3,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "Makes an image of a clothed and equipped person that can make noise. Under your direct, unspoken command, the person can move about, speak, and behave as a human does.",
+        "source": "ArM5",
+        "page": 144,
+        "indexKey": "phantasm-of-the-human-form",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/im.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "YS4f7wHcRJazynQz",
+      "folder": "6dbqyhZVkNHEsIEk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.YS4f7wHcRJazynQz"
+    },
+    {
+      "type": "spell",
+      "name": "Veil of Invisibility",
+      "system": {
+        "technique": {
+          "value": "pe"
+        },
+        "form": {
+          "value": "im"
+        },
+        "baseLevel": 4,
+        "range": {
+          "value": "touch"
+        },
+        "duration": {
+          "value": "sun"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 1,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "The target becomes completely undetectable to normal sight, regardless of what he does, but still casts a shadow.",
+        "source": "ArM5",
+        "page": 146,
+        "indexKey": "veil-of-invisibility",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/im.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "g5pu6otKYd2pAvGj",
+      "folder": "6dbqyhZVkNHEsIEk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.g5pu6otKYd2pAvGj"
+    },
+    {
+      "type": "spell",
+      "name": "Wizard’s Sidestep",
+      "system": {
+        "technique": {
+          "value": "re"
+        },
+        "form": {
+          "value": "im"
+        },
+        "baseLevel": 2,
+        "range": {
+          "value": "personal"
+        },
+        "duration": {
+          "value": "sun"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 2,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "Your image appears up to 1 pace from where you actually are, so attacks aimed there are likely to miss you. Whenever the image is successfully struck, it disappears and reappears in another spot. In combat, early attacks are aimed at the image, and so automatically miss you. Once the image has been hit once, you have a +9 bonus to Defense, as attackers must try to find you in a fairly large area.",
+        "source": "ArM5",
+        "page": 147,
+        "indexKey": "wizards-sidestep",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/im.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Cfb6UUxQaW2SqgyI",
+      "folder": "6dbqyhZVkNHEsIEk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.Cfb6UUxQaW2SqgyI"
+    },
+    {
+      "type": "spell",
+      "name": "Image Phantom",
+      "system": {
+        "technique": {
+          "value": "mu"
+        },
+        "form": {
+          "value": "im"
+        },
+        "baseLevel": 5,
+        "range": {
+          "value": "touch"
+        },
+        "duration": {
+          "value": "sun"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 0,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "Any one thing, including a living thing, can be made to appear as if it were something else of approximately the same shape and size. The illusion cannot be cast on things that have a shape or size improper to the final appearance. If the target moves or is moved in such a way that the illusion is inappropriate, it looks very strange indeed.",
+        "source": "ArM5",
+        "page": 146,
+        "indexKey": "image-phantom",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/im.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "vjSY5VxWmfPNrSrW",
+      "folder": "6dbqyhZVkNHEsIEk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.vjSY5VxWmfPNrSrW"
+    },
+    {
+      "type": "spell",
+      "name": "Panic of the Trembling Heart",
+      "system": {
+        "technique": {
+          "value": "cr"
+        },
+        "form": {
+          "value": "me"
+        },
+        "baseLevel": 4,
+        "range": {
+          "value": "eye"
+        },
+        "duration": {
+          "value": "sun"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 0,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "Creates an overpowering fear in one person of a specific object, person, or place.",
+        "source": "ArM5",
+        "page": 148,
+        "indexKey": "panic-of-the-trembling-heart",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/me.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "vJIvqYCSgzSj8kgP",
+      "folder": "A2fOZ4LIRFoc2Ij8",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.vJIvqYCSgzSj8kgP"
+    },
+    {
+      "type": "spell",
+      "name": "The Call to Slumber",
+      "system": {
+        "technique": {
+          "value": "re"
+        },
+        "form": {
+          "value": "me"
+        },
+        "baseLevel": 4,
+        "range": {
+          "value": "voice"
+        },
+        "duration": {
+          "value": "moment"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "complexity": 0,
+        "ritual": false,
+        "technique-req": {
+          "cr": false,
+          "in": false,
+          "mu": false,
+          "pe": false,
+          "re": false
+        },
+        "form-req": {
+          "an": false,
+          "aq": false,
+          "au": false,
+          "co": false,
+          "he": false,
+          "ig": false,
+          "im": false,
+          "me": false,
+          "te": false,
+          "vi": false
+        },
+        "description": "The target becomes sleepy and falls asleep within a few seconds.",
+        "source": "ArM5",
+        "page": 151,
+        "indexKey": "the-call-to-slumber",
+        "targetSize": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "img": "systems/arm5e/assets/magic/me.png",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "HgL4bhqnS8theDC6",
+      "folder": "A2fOZ4LIRFoc2Ij8",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.HgL4bhqnS8theDC6"
+    },
+    {
+      "folder": "HYeAhCvwMqgUT4xR",
+      "name": "Faerie Magic",
+      "type": "ability",
+      "_id": "bSAHYk7yZruQPxCG",
+      "img": "systems/arm5e/assets/icons/abilities/faerieMagic.svg",
+      "system": {
+        "description": "<p>The connection to the power of the Faerie realm possessed by Merinita magi. It cannot be learned by other characters, even if they have access to Arcane Abilities. It is described in the Hermetic Magic chapter, on page @@. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "faerie-magic",
+        "defaultChaAb": "int",
+        "speciality": "illusions",
+        "xp": 5,
+        "key": "faerieMagic",
+        "option": "",
+        "realm": "mundane",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CBVr9z58wiLAeuIl": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.bSAHYk7yZruQPxCG"
+    },
+    {
+      "name": "Artes Liberales",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/artesLib.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The seven artes liberales, or liberal arts, are the basis of medieval higher education. Everyone learns them at the universities before passing on to study other subjects. It would be very rare for a character to have a score in any other Academic Knowledge without a score of at least one in this.</p><p style=\"text-align: justify\">The artes liberales are divided into two groups: the Trivium (grammar, logic, and rhetoric) and the Quadrivium (arithmetic, geometry, astronomy, and music). The emphasis at this period is on the Trivium, but both are taught. (Note that Artes Liberales as a whole is one Skill, not seven separate ones.)</p><p style=\"text-align: justify\">Grammar concerns theoretical questions of the structure of languages, rather than the ability to use a specific language (that is covered by Speak skills). The authorities are Priscian and Donatus. Logic is the study of the syllogism, and other forms of reasoning discussed by Aristotle. It is the most important of the arts at this period. Aristotle is the authority, in his <em>logica vetus </em>and <em>logica nova</em>. Rhetoric is the study of the theory of rhetorical forms: knowledge of the sort of tricks that an orator can use, rather than the ability to use them. The authority is Cicero, especially his <em>De Inventione</em>.</p><p style=\"text-align: justify\">Arithmetic is the ability to add and subtract, multiply and divide. The authority is Boethius, <em>De arithmetica</em>. Geometry is concerned with study of plane and solid figures, and the authority is Euclid, in his <em>Elementa</em>. It also deals with the study of light, and Euclid's <em>Optica</em> is the authority here. Astronomy is concerned with predicting the positions of the stars and planets, and the authority is Ptolemy, in the <em>Libri Almagesti</em>. Music is purely theoretical, the study of proportions and musical theory, not the ability to sing or play an instrument. The authority is Boethius, in <em>De Musica</em>.</p><p style=\"text-align: justify\">Artes Liberales also covers the ability to read and write. For every point in the Ability, the character can read and write one writing system, providing that he knows a language which normally uses that system: the Latin alphabet, the Greek alphabet, the Arabic alphabet, and so on.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> grammar, logic, rhetoric, arithmetic, geometry, astronomy, music, Ritual magic, Ceremonial magic. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "rhetoric",
+        "xp": 5,
+        "key": "artesLib",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "artes-liberales",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "woToSvd8EnuWBgXk",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.woToSvd8EnuWBgXk"
+    },
+    {
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "gaining trust",
+        "xp": 15,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "uYI33uqpfUEjGSnb",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.uYI33uqpfUEjGSnb"
+    },
+    {
+      "name": "Guile",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/guile.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Telling convincing lies, as well as feigning emotion, belief, or frame of mind. If you understand the person you are attempting to deceive (roll 9+ on Perception + Folk Ken), you gain a bonus of +1 to your Guile roll. This Ability also covers disguising yourself, and pretending to be something you are not. It is often an opposed roll, against the victim's Perception + Folk Ken or, for disguise, Perception + Awareness.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> particular sorts of deception, lying to authority, fast talk, elaborate lies. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "sustained lies",
+        "xp": 75,
+        "key": "guile",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "guile",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "AkoyO5utZifKqoF0",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.AkoyO5utZifKqoF0"
+    },
+    {
+      "name": "Folk Ken",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/folkKen.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Understanding the background, personality, and motives of another person. Often the storyguide secretly rolls a die when this Ability is used. Thus, you do not know if your character guessed correctly, or even botched.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> peasants, townsfolk, nobles, clergy, magi, the opposite sex. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "what people will believe",
+        "xp": 15,
+        "key": "folkKen",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "folk-ken",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "yUEImkrIkKi7yXpM",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.yUEImkrIkKi7yXpM"
+    },
+    {
+      "name": "Latin",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/deadLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_097jrlmaqjp7",
+          "path": "Abilities#/CF_SEP/Academic, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>This skill is similar to all other (Language) Abilities, but it is only available to educated characters. It grants the ability to speak a language which is no longer used as a native language in the areas the character has lived in. The most important example is Latin. All educated characters in the West know Latin, since without it you cannot learn any Academic Knowledges. It is also the common language of the Church and Order of Hermes. In other areas of the world, Arabic, Greek and Hebrew fill similar functions, although of these only Hebrew is a dead language.</p><p><strong>Specialties</strong>: academic usage, Church ceremonies, Hermetic usage. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "Hermetic terms",
+        "xp": 50,
+        "key": "deadLanguage",
+        "option": "latin",
+        "realm": "magic",
+        "indexKey": "language-latin",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "jCKPNSG8jJcJiMaW",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.jCKPNSG8jJcJiMaW"
+    },
+    {
+      "name": "Faerie Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/faerieLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Familiarity with faerie powers, weaknesses, motivations, and areas.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> faerie forests, faerie mounds, specific types of faeries. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "water fay",
+        "xp": 30,
+        "key": "faerieLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "faerie-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "UlOqdff35lieo7AW",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.UlOqdff35lieo7AW"
+    },
+    {
+      "name": "Magic Theory",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/magicTheory.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Knowledge of what magic is and how it works, used primarily in the laboratory. Magic Theory deals with the technical details of Hermetic magic; Magic Lore covers knowledge of magical things in general. Anyone can learn Magic Theory, if they have access to a teacher or book (normally represented by a Virtue), but it is little use to those without The Gift.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> inventing spells, enchanting items, a single Art. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "Imaginem",
+        "xp": 30,
+        "key": "magicTheory",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "magic-theory",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "61DOeY2NYurEYk2M",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.61DOeY2NYurEYk2M"
+    },
+    {
+      "name": "Native Language",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "faeries",
+        "xp": 75,
+        "key": "livingLanguage",
+        "option": "native-language",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "mK8R12U8axry0Bc9",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.mK8R12U8axry0Bc9"
+    },
+    {
+      "name": "Parma Magica",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/parma.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Protection from magic. This is a special ritual (not a ritual spell) that takes about two minutes to perform. It lets you add 5 times your Parma Magica score to your Magic Resistance until the next sunrise or sunset, whichever comes first. You may suppress your Parma Magica temporarily by concentrating; this is equivalent to sustaining a Concentration duration spell. (See page @@). Parma Magica does not require concentration while it is active.</p></div><div class=\"el-p\"><p dir=\"auto\">You may also protect one other person for each point in Parma Magica, with their consent. You must touch each person to start the protection, and it lasts as long as at least one character can see the other. The magus may cancel the protection at will, at any distance. While a magus is protecting others, his effective Parma Magica score is reduced by 3 points, both for himself and for the other people he is protecting. If the magus has a Parma Magica score of 3 or lower, his Parma Magica provides each character, including himself, with a Magic Resistance of 0. In the magus's case, this is added to his Form resistance, and a magus protected by another magus's Parma Magica may also add his Form resistance.</p></div><div class=\"el-p\"><p dir=\"auto\">Any character protected by a Parma Magica, whether their own or someone else’s, is unaffected by the social penalties of other people’s Gifts. If a protected character is Gifted, their Gift still imposes social penalties on others, unless those others are also protected by a Parma Magica, or are unaffected by The Gift for some other reason.</p></div><div class=\"el-p\"><p dir=\"auto\">Parma Magica can only be learned by Gifted characters, although they learn it as a normal Arcane Ability, not a Supernatural Ability. It is only known by Hermetic magi, as the Order enforces the 'Join or Die' choice rigorously on anyone who knows it, as well as declaring a Wizard's March on the magus who taught it. Parma Magica is the last thing an apprentice learns, being taught the final key to the Ability after he swears the Oath.</p></div><p style=\"text-align: justify\"><strong>Specialties: </strong>protection from any specific Form. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "Mentem",
+        "xp": 5,
+        "key": "parma",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "parma-magica",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "8NOriCS4jHHFVBW5",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.8NOriCS4jHHFVBW5"
+    },
+    {
+      "name": "The Gift",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+      "effects": [
+        {
+          "_id": "yK4GGIeDpUr5wA3E",
+          "changes": [
+            {
+              "key": "system.realms.magic.aligned",
+              "value": "true",
+              "mode": 5,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.virtues.5906ZrzYdesEtJH3",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "realm"
+              ],
+              "subtype": [
+                "magic"
+              ],
+              "option": [
+                null
+              ]
+            }
+          },
+          "name": "Magic aligned",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.cOiaLEgsJqGZnn6N.yK4GGIeDpUr5wA3E"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_lre469g8dv",
+          "path": "Virtues#/CF_SEP/Special",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The Gift is a special Virtue, because it has no cost. The character suffers all the penalties of The Gift, just as magi do (see page @@), but can be taught Supernatural Abilities without having to take the corresponding Virtues (see page @@ for rules). Most importantly, the character can be taught Hermetic Magic, so all magi must have this Virtue. A character with The Gift, even if he is not a magus, may take Hermetic Virtues and Flaws which relate to intrinsic ability rather than background or training. Characters may take Virtues that grant Supernatural Abilities without taking The Gift, and such characters do not suffer the penalties imposed by The Gift. However, such characters may not learn new Supernatural Abilities in the course of the saga, although they may improve the ones they already have. It is possible for unGifted characters to Initiate new Supernatural Abilities through a Mystery Cult, but even this is harder for them than for the Gifted.</p><p>Characters who have The Gift may start play with a single Supernatural Ability, without having to take any other Virtue, but if they wish to learn others they must find opportunities to do so in the course of the saga. They may also take Virtues granting Supernatural Abilities if they wish to have more Abilities at character creation. Note that it is harder for a character with Supernatural Abilities to become a Hermetic magus (see Training Your Apprentice on page @@), so you may not wish to take any such abilities if you plan for the character to become an apprentice. The ability to cast Hermetic magic is the single supernatural ability possessed by Hermetic magi in virtue of The Gift again, they may take more Supernatural Ability Virtues if they wish.</p><p>Grogs can never have The Gift, as a character with The Gift is too important to be a grog. As a rule, companions should only have The Gift if they are intended to become magi, or if they are members of one of the other magical traditions described in <strong>Ars Magica 5</strong><sup><strong>th</strong></sup><strong> Edition</strong> supplements. Troupes should not allow any other Gifted characters unless they are absolutely sure that they want them.</p>",
+        "source": "ArM5Def",
+        "page": 43,
+        "type": "hermetic",
+        "impact": {
+          "value": "free"
+        },
+        "indexKey": "the-gift",
+        "review_status": "definitiveReady",
+        "reviewer": "Xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "umvpyTZt5f5tEdND",
+      "_id": "cOiaLEgsJqGZnn6N",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.cOiaLEgsJqGZnn6N"
+    },
+    {
+      "name": "Penetration",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/penetration.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Getting your spell through the target's Magic Resistance. See page @@ for detailed Penetration rules.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> any one Art. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "Mentem",
+        "xp": 15,
+        "key": "penetration",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "penetration",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "nrSzCmvpIdfytqyE",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.nrSzCmvpIdfytqyE"
+    },
+    {
+      "name": "Deft Imaginem",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are particularly skilled with one Form. You suffer no penalty to the Casting Total casting spells in that Form when using non-standard voicings/gestures (see page @@), including using no voice or gestures because you are in a non-human form. Voice Range spells still have a Range based on how loudly you are speaking.</p><p>&nbsp;</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "hermetic",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "deft-form",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "C8jqPqfblXk6hGCE",
+      "_id": "btr8t7T0Iku0O3WY",
+      "sort": 2100000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.btr8t7T0Iku0O3WY"
+    },
+    {
+      "name": "Hermetic Magus",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/social.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_kuhc1tso94g",
+          "path": "Virtues#/CF_SEP/Social Status",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are a member of the Order of Hermes. All magi must take this as their Social Status, and only magi may take it.</p><p>&nbsp;</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "social",
+        "impact": {
+          "value": "free"
+        },
+        "indexKey": "hermetic-magus",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "CoxB6DSMq2bRMl47",
+      "_id": "KxdsSR7pdRp6tFeA",
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.KxdsSR7pdRp6tFeA"
+    },
+    {
+      "name": "Free Study",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+      "effects": [
+        {
+          "origin": "Item.sKLmw7fhKXq8fTSv",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.activities.visStudy",
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "activities"
+              ],
+              "subtype": [
+                "visStudy"
+              ],
+              "option": [
+                null
+              ]
+            }
+          },
+          "name": "Vis Study",
+          "_id": "64me9GK16BHoIa8D",
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.kVEbw3ohuU5PeFA9.64me9GK16BHoIa8D"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are better at figuring things out for yourself than you are at poring over books. Add +3 to </p><p>the Source Quality when studying from raw vis.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "hermetic",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "free-study",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "C8jqPqfblXk6hGCE",
+      "_id": "kVEbw3ohuU5PeFA9",
+      "sort": 4200000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.kVEbw3ohuU5PeFA9"
+    },
+    {
+      "name": "Faerie Magic",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have been initiated into the Outer Mystery of Faerie Magic (see page @@), and thus are a member of House Merinita. You have the Ability Faerie Magic 1. Note that all Merinita magi gain this Virtue for free at character generation.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "hermetic",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-magic",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "C8jqPqfblXk6hGCE",
+      "_id": "G0Fs7Io1KphMwukm",
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.G0Fs7Io1KphMwukm"
+    },
+    {
+      "name": "Chaotic Magic",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_zctzc5h7p5",
+          "path": "Flaws#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Your magic is very wild. When you cast a spontaneous spell, you must specify a desired level of effect. If you fall short of or exceed that target by more than one level, the spell still works, but its effects are beyond your control—the storyguide decides the results. The level of effect includes any levels you assign to Penetration.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "hermetic",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "chaotic-magic",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "MY0pk5xRqPANrebl",
+      "_id": "Wk2njvxsj9se2PWF",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.Wk2njvxsj9se2PWF"
+    },
+    {
+      "name": "Puissant Imaginem",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+      "effects": [
+        {
+          "_id": "X6B4YrvuSkRKZ2Mi",
+          "changes": [
+            {
+              "key": "system.arts.forms.im.bonus",
+              "mode": 2,
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.virtues.PhZnHgOvo4RxVTAq",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "art"
+              ],
+              "subtype": [
+                "im"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Puissant Imaginem",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.x1bOsnNpBQSIKeqd.X6B4YrvuSkRKZ2Mi"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You add 3 to the value of one Art whenever you use it. This means all totals in which the score of the Art is part of the total. It does not apply when learning, teaching, or writing about the Art. You may take this Virtue twice, for two different Arts. If a spell has requisites, include the bonus from Puissant Art with that Art when calculating which Art is higher. If the Puissant Art is higher, the bonus does not apply to the requisite.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "hermetic",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "puissant-art",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "C8jqPqfblXk6hGCE",
+      "_id": "x1bOsnNpBQSIKeqd",
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.x1bOsnNpBQSIKeqd"
+    },
+    {
+      "name": "Faerie Upbringing",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Perhaps you were abandoned by your true kin, and the faeries found you. Maybe your family actually lived in a faerie forest, or faeries took you as a babe. Though you are now back in human society, you feel at home with and have an enhanced understanding of faeries, magic, and other strange things. However, you find human society, including religion, bizarre. You may learn Faerie Lore at character generation.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-upbringing",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "ceOi1MUojH6F9EwU",
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.ceOi1MUojH6F9EwU"
+    },
+    {
+      "name": "Student of Faerie",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [
+        {
+          "origin": "Actor.T9pajJMxcHnjTvZe.Item.pfZ0kk00bK7HDuOJ",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.skills.faerieLore.bonus",
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "bonusArcaneAbility"
+              ],
+              "subtype": [
+                "faerieLore"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Faerie Lore bonus",
+          "img": "icons/svg/aura.svg",
+          "_id": "1SVKq1BpuieXfQje",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.pfZ0kk00bK7HDuOJ.1SVKq1BpuieXfQje"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have been trained in the mystical aspects of one of the four realms of power (Divine, Faerie, Infernal, or Magic), and you have a +2 bonus on all uses of the appropriate Lore. You may take that Lore at character generation even if you cannot learn other Arcane Abilities. You may take this Virtue multiple times, for a different realm each time. You may not take Student of (Realm) and Puissant Ability for the same Lore.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "student-of-realm",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "pfZ0kk00bK7HDuOJ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.pfZ0kk00bK7HDuOJ"
+    },
+    {
+      "name": "Mercurial",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "y6lO1LkDgpE27SYb",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.y6lO1LkDgpE27SYb"
+    },
+    {
+      "name": "Honest",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 5,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "zl4MPf7OAHNCWmes",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.zl4MPf7OAHNCWmes"
+    },
+    {
+      "name": "Plagued by Faerie",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/story.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ciwmacrmzmm",
+          "path": "Flaws#/CF_SEP/Story",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Some supernatural being interferes in your life on a fairly regular basis. It may even have your best interests at heart, but the result is that you get dragged into stories. Suitable examples would be a demon trying to corrupt you, an angel trying to save you, a faerie playing games with you, or a ghost continuing the agenda she had while alive.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "story",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "plagued-by-supernatural-entity",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "HvyHCuxjJNI5yJoA",
+      "_id": "KGxxrSpgjyGzkHXB",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.KGxxrSpgjyGzkHXB"
+    },
+    {
+      "name": "Reliable",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "iUMiNGiGninrbBmX",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.iUMiNGiGninrbBmX"
+    },
+    {
+      "folder": "qe6K6lOIy7t2w02l",
+      "name": "Wizardly robes.",
+      "type": "armor",
+      "_id": "4KJJcMPCISk0nSVA",
+      "img": "icons/equipment/chest/robe-layered-teal.webp",
+      "system": {
+        "description": "<p><span>A robe made from a durable yet soft fabric. It feels comfortable against the skin, providing warmth without being too heavy.</span></p><p><span><strong>Hood:</strong> A large hood that can easily cover the head, adding to the mystique of the wearer. When not in use, it drapes elegantly over the back.</span></p><p><span><strong>Sleeves:</strong> The sleeves are wide and billowing, perfect for wide gestures and spellcasting.</span></p><p><span><strong>Fastening:</strong> The robe is secured with a simple belt or sash, usually made from the same material.</span></p>",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "wizardly-robes",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "std",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "prot": 0,
+        "full": false,
+        "equipped": false,
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.4KJJcMPCISk0nSVA"
+    },
+    {
+      "name": "Strong Faerie Blood (Undine)",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [
+        {
+          "_id": "ghUg7E1TBNc4nCJZ",
+          "changes": [
+            {
+              "key": "system.realms.faeric.aligned",
+              "value": "true",
+              "mode": 5,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "realm"
+              ],
+              "subtype": [
+                "faeric"
+              ],
+              "option": [
+                null
+              ]
+            }
+          },
+          "name": "Fae aligned",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.dsnlpDzX12FkoK0y.ghUg7E1TBNc4nCJZ"
+        },
+        {
+          "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.skills.secondSight.xpMod",
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "xpBonusSupernaturalAbility"
+              ],
+              "subtype": [
+                "secondSight"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Second sight",
+          "img": "icons/svg/aura.svg",
+          "_id": "MwlDxY7HoS3LGxpG",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.dsnlpDzX12FkoK0y.MwlDxY7HoS3LGxpG"
+        },
+        {
+          "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.traits.agingStart",
+              "value": "15",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "vitals"
+              ],
+              "subtype": [
+                "agingStart"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Aging late",
+          "img": "icons/svg/aura.svg",
+          "_id": "tlQay2OuvqOsFeth",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.dsnlpDzX12FkoK0y.tlQay2OuvqOsFeth"
+        },
+        {
+          "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.traits.aging",
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "vitals"
+              ],
+              "subtype": [
+                "aging"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Aging bonus",
+          "img": "icons/svg/aura.svg",
+          "_id": "9hLF74zBwPkyft7v",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!uT0dxg3Q2qMrgxbn.dsnlpDzX12FkoK0y.9hLF74zBwPkyft7v"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The blood of the fay is strong in you. Perhaps one of your parents was actually a faerie, or maybe you were conceived or born in a place of great faerie power. This ancestry grants you several abilities.</p><p>First, you have natural longevity. You start making aging rolls at the age of fifty, rather than the normal 35, and get –3 to Aging Rolls, cumulative with any other bonuses.</p><p>Second, you have faerie eyes. This gives you the Virtue Second Sight (see page @@) at no cost, and you can see normally in total darkness or semi-darkness, such as in deep woods or at night. Your eyes look mostly normal, but are an unusual and vivid color.</p><p>Third, you may learn Faerie Lore during character generation.</p><p>Finally, you get the benefits of a particular type of fay heritage, as given in the Virtue Faerie Blood (page @@). Your specific fay heritage is clearly visible. Choose one physical quirk, such as small horns, literally blue blood, or eyes without irises and pupils, appropriate to the faeries from which you are descended.</p><p>You may not have both Faerie Blood and Strong Faerie Blood.</p><p>This is a Supernatural Virtue, and you cannot lose it when being trained as a magus (see page @@). If your master cannot preserve the ability, you cannot be trained.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "strong-faerie-blood",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Sym94leLiWXQ3Rh9",
+      "_id": "dsnlpDzX12FkoK0y",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!uT0dxg3Q2qMrgxbn.dsnlpDzX12FkoK0y"
+    }
+  ],
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Merinita",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "folder": "SMUZOLmSflTI5SBb",
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1732954228173,
+    "modifiedTime": 1732958482061,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "_id": "uT0dxg3Q2qMrgxbn",
+  "sort": 400000,
+  "_key": "!actors!uT0dxg3Q2qMrgxbn"
+}

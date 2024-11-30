@@ -4,9 +4,7 @@
     <div>
       <h1 style="text-align:center">{{localize "Import Document"}}</h1>
     </div>
-    <div class="">
-      <button class="pick-files" style="margin-top: 3px;" {{merge}}>Pick file</button>
-    </div>
+
     <fieldset>
       <legend>{{localize "Documents to import"}}</legend>
       <div class="form-group">
@@ -37,10 +35,10 @@
     <!-- <button class="process" title="Does whatever was needed the last time I needed it." style="margin-top: 3px;"
         {{merge}}>Process all documents</button> -->
   </div>
-  <div>
-
+  <div class="">
+    <button class="pick-files" style="margin-top: 3px;" {{merge}}>Pick file</button>
   </div>
-  <div class="marginsides32" style="height: auto; overflow-y: auto;padding: 8px; min-height: 368px;">
+  <div class="marginsides32" style="height: auto; overflow-y: auto;padding: 8px; ">
     {{editor enrichedReport target="report" button=true owner=owner engine="prosemirror" editable=editable}}
   </div>
   {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}

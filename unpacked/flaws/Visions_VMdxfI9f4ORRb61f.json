@@ -1,13 +1,13 @@
 {
-  "name": "Visions (Supernatural)",
+  "name": "Visions",
   "type": "flaw",
-  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
   "effects": [],
   "flags": {
     "core": {},
     "cf": {
-      "id": "temp_xc1hyhkw51",
-      "path": "Flaws#/CF_SEP/Supernatural",
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
       "color": "#000000"
     }
   },
@@ -15,32 +15,30 @@
     "description": "<div class=\"el-p\"><p dir=\"auto\">You often see images related to emotionally or magically laden events. A vision might be of the past, a possible future, or a distant occurrence, and is often symbolic or confusing. Visions usually come to you at quiet times or in places connected with a powerful emotional or magical event, such as the site of a patricide or diabolic sacrifice. Your visions may warn you of dangers to come, or get you involved in matters you would otherwise have avoided.</p></div><div class=\"el-p\"><p dir=\"auto\">The visions come purely at the storyguide's discretion, and reveal only what he wants to reveal.</p></div>",
     "source": "ArM5Def",
     "page": 0,
-    "type": "supernatural",
+    "type": "story",
     "impact": {
       "value": "minor"
     },
-    "indexKey": "visions-supernatural",
+    "indexKey": "visions",
     "review_status": "reviewed",
-    "reviewer": "xzotl",
-    "hidden": false,
-    "tainted": false
+    "reviewer": "xzotl"
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.3.2.7",
-    "createdTime": 1729832791616,
-    "modifiedTime": 1732293194458,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "systemVersion": "2.3.2.10",
+    "coreVersion": "12.331",
+    "createdTime": 1662235751535,
+    "modifiedTime": 1732466465832,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
-  "folder": "FxRILmyYavwmreBA",
-  "_id": "NmQhK11JOgTJYgGC",
-  "sort": 2600000,
+  "folder": "w0VVgqRCx0opq0TL",
+  "_id": "VMdxfI9f4ORRb61f",
+  "sort": 0,
   "ownership": {
     "default": 0,
-    "6SdI10VpXHcBvx2J": 3
+    "1JBSgWiiwizu7vru": 3
   },
-  "_key": "!items!NmQhK11JOgTJYgGC"
+  "_key": "!items!VMdxfI9f4ORRb61f"
 }
