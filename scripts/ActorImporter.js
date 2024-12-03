@@ -57,7 +57,7 @@ export class ActorImporter extends FormApplication {
       submitOnClose: false,
       submitOnChange: true,
       title: game.i18n.localize("Actor Importer"),
-      width: 600,
+      width: 480,
       resizable: true
     });
   }
@@ -125,12 +125,13 @@ export class ActorImporter extends FormApplication {
       let type = this.guessType(json);
       let charType = this.guessCharType(type, json);
       // if (json.name === "The Hunter") {
-      if (["magus"].includes(charType)) {
+      // if (["magus"].includes(charType)) {
+      if (["beast"].includes(type)) {
         console.log(`Importing Actor "${json.name}"`);
         const imported = await this.importCharacter(json);
 
         // imported.folder =
-
+        //
         let [actor] = await Actor.createDocuments([imported], { folder: "test" });
 
         // imported.items = this.object.currentItems;
@@ -138,8 +139,6 @@ export class ActorImporter extends FormApplication {
         await actor.createEmbeddedDocuments("Item", this.object.currentItems, {});
         this.object.stats.actors.count++;
         this.object.imports.push(imported);
-
-        if (actor.name === "The Grizzled Veteran") break;
       }
       // }
       // if (counter >= 24) {
@@ -181,7 +180,12 @@ export class ActorImporter extends FormApplication {
     if (this.object.process.abilities) await this.importAbilities(json.system);
     if (this.object.process.virtuesAndFlaws) await this.importVirtuesAndFlaws(json.system);
     if (this.object.process.personalityTraits) await this.importPersonalityTraits(json.system);
-    if (this.object.process.equipment) await this.importEquipment(json.system);
+    if (this.object.process.equipment) {
+      if (this.object.currentActor.type == "beast") {
+        await this.importNaturalWeapons(json.system);
+      }
+      await this.importEquipment(json.system);
+    }
 
     if (this.object.toReview.length) {
       let desc = "<h2>To review</h2><ul>";
@@ -199,84 +203,30 @@ export class ActorImporter extends FormApplication {
     const root = this.object.currentActor.system;
     root.characteristics = foundry.utils.deepClone(MODEL.characteristics);
     const char = src.Characteristics;
-    const regex = /(\d+) \((\d+\))/;
     if (char.Cun) {
-      const m = char.Cun.match(regex);
-      if (m) {
-        root.characteristics.cun.value = Number(m[1]);
-        root.characteristics.cun.aging = Number(m[1]);
-      } else {
-        root.characteristics.cun.value = Number(char.Cun);
-      }
-
+      root.characteristics.cun.value = char.Cun.score;
+      root.characteristics.cun.aging = char.Cun.agingPoints;
       delete root.characteristics.int;
     }
     if (char.Int) {
-      const m = char.Int.match(regex);
-      if (m) {
-        root.characteristics.int.value = Number(m[1]);
-        root.characteristics.int.aging = Number(m[1]);
-      } else {
-        root.characteristics.int.value = Number(char.Int);
-      }
+      root.characteristics.int.value = char.Int.score;
+      root.characteristics.int.aging = char.Int.agingPoints;
       delete root.characteristics.cun;
     }
-
-    let match = char.Per.match(regex);
-    if (match) {
-      root.characteristics.per.value = Number(match[1]);
-      root.characteristics.per.aging = Number(match[1]);
-    } else {
-      root.characteristics.per.value = Number(char.Per);
-    }
-
-    match = char.Sta.match(regex);
-    if (match) {
-      root.characteristics.sta.value = Number(match[1]);
-      root.characteristics.sta.aging = Number(match[1]);
-    } else {
-      root.characteristics.sta.value = Number(char.Sta);
-    }
-
-    match = char.Str.match(regex);
-    if (match) {
-      root.characteristics.str.value = Number(match[1]);
-      root.characteristics.str.aging = Number(match[1]);
-    } else {
-      root.characteristics.str.value = Number(char.Str);
-    }
-
-    match = char.Dex.match(regex);
-    if (match) {
-      root.characteristics.dex.value = Number(match[1]);
-      root.characteristics.dex.aging = Number(match[1]);
-    } else {
-      root.characteristics.dex.value = Number(char.Dex);
-    }
-
-    match = char.Qik.match(regex);
-    if (match) {
-      root.characteristics.qik.value = Number(match[1]);
-      root.characteristics.qik.aging = Number(match[1]);
-    } else {
-      root.characteristics.qik.value = Number(char.Qik);
-    }
-
-    match = char.Pre.match(regex);
-    if (match) {
-      root.characteristics.pre.value = Number(match[1]);
-      root.characteristics.pre.aging = Number(match[1]);
-    } else {
-      root.characteristics.pre.value = Number(char.Pre);
-    }
-
-    match = char.Com.match(regex);
-    if (match) {
-      root.characteristics.com.value = Number(match[1]);
-      root.characteristics.com.aging = Number(match[1]);
-    } else {
-      root.characteristics.com.value = Number(char.Com);
-    }
+    root.characteristics.per.value = char.Per.score;
+    root.characteristics.per.value = char.Per.agingPoints;
+    root.characteristics.sta.value = char.Sta.score;
+    root.characteristics.sta.aging = char.Sta.agingPoints;
+    root.characteristics.str.value = char.Str.score;
+    root.characteristics.str.aging = char.Str.agingPoints;
+    root.characteristics.dex.value = char.Dex.score;
+    root.characteristics.dex.aging = char.Dex.agingPoints;
+    root.characteristics.qik.value = char.Qik.score;
+    root.characteristics.qik.aging = char.Qik.agingPoints;
+    root.characteristics.pre.value = char.Pre.score;
+    root.characteristics.pre.aging = char.Pre.agingPoints;
+    root.characteristics.com.value = char.Com.score;
+    root.characteristics.com.aging = char.Com.agingPoints;
   }
 
   importArts(src) {
@@ -312,7 +262,9 @@ export class ActorImporter extends FormApplication {
     }
     //size
     if (src.Size) {
-    } else {
+      if (this.object.currentActor.type == "beast") {
+        root.vitals = { siz: { value: src.Size } };
+      }
     }
 
     if (src["Twilight Scars"]) {
@@ -320,10 +272,12 @@ export class ActorImporter extends FormApplication {
     }
 
     if (src["Decrepitude"]) {
-      root.decrepitude = { points: 5 * Number(src["Decrepitude"].score) + Number(src["Decrepitude"].points) };
+      let score = Number(src["Decrepitude"].score);
+      root.decrepitude = { points: 5 * ((score * (score + 1)) / 2) + Number(src["Decrepitude"].points) };
     }
     if (src["Warping Score"]) {
-      root.warping = { points: 5 * Number(src["Warping Score"].score) + Number(src["Warping Score"].points) };
+      let score = Number(src["Warping Score"].score);
+      root.warping = { points: 5 * ((score * (score + 1)) / 2) + Number(src["Warping Score"].points) };
     }
 
     // "Warping Score": {
@@ -1028,11 +982,11 @@ export class ActorImporter extends FormApplication {
   }
 
   guessType(json) {
-    if (json.system.Characteristics.Cun) {
-      return "beast";
-    }
     if (this.guessRealm(json)) {
       return "npc";
+    }
+    if (json.system.Characteristics.Cun) {
+      return "beast";
     }
 
     return "player";
@@ -1111,12 +1065,55 @@ export class ActorImporter extends FormApplication {
     return null; // mundane
   }
 
+  async importNaturalWeapons(src) {
+    const stats = this.object.stats;
+    if (!src.Combat) {
+      // this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+      if (this.object.currentActor.type != "beast") {
+        stats.equipment.no_field++;
+        this.addReviewItem(`no "Natural Weapons"?`);
+      }
+      return;
+    }
+
+    for (let [k, v] of Object.entries(src.Combat)) {
+      let slug = FileTools.slugify(k);
+      if (slug === "comment") continue;
+      if (slug === "notes") continue;
+      if (["antlers", "large-horns"].includes(slug)) {
+        slug = "large-horns-antlers";
+      } else if (slug === "claw") {
+        slug = "claws";
+      } else if (slug === "bite") {
+        slug = "teeth";
+      } else if (slug === "fangs") {
+        slug = "teeth";
+      }
+
+      let item = await CompendiaUtils.getItemFromCompendium("equipment", slug);
+      if (item) {
+        item = item.toObject();
+        item.name = k;
+        item.system.equiped = true;
+        // item.system.description =
+        this.object.currentItems.push(item);
+        stats.equipment.found++;
+        continue;
+      } else {
+        this.addReviewItem(`Natural Weapons: No matches for "${k}"?`);
+        console.error("Wrong Natural Weapons key: " + slug);
+        stats.equipment.unknown++;
+      }
+    }
+  }
+
   async importEquipment(src) {
     const stats = this.object.stats;
     if (!src.Equipment) {
       stats.equipment.no_field++;
       // this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
-      this.addReviewItem(`no "Equipment"?`);
+      if (this.object.currentActor.type != "beast") this.addReviewItem(`no "Equipment"?`);
+
       return;
     }
 
@@ -1129,6 +1126,7 @@ export class ActorImporter extends FormApplication {
         if (item) {
           item = item.toObject();
           item.name = e;
+          if (item.type == "weapon") item.system.ability = EQUIPEMENT[slug].ability;
           this.object.currentItems.push(item);
           stats.equipment.found++;
           continue;
@@ -1144,6 +1142,9 @@ export class ActorImporter extends FormApplication {
           this.object.currentItems.push(item);
           stats.equipment.found++;
           continue;
+        } else {
+          console.error("Wrong Equipment key: " + slug);
+          stats.equipment.unknown++;
         }
       }
 

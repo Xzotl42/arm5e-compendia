@@ -429,7 +429,7 @@ export const EQUIPEMENT = {
   "bow-horse": {
     key: "bow-horse",
     type: "weapon",
-    ability: "bow"
+    ability: "bows"
   },
   kick: {
     key: "b-kick",

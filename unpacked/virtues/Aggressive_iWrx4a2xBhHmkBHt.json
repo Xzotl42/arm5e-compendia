@@ -1,0 +1,152 @@
+{
+  "folder": "MewGclJOm3EmdeRI",
+  "name": "Aggressive",
+  "type": "quality",
+  "_id": "iWrx4a2xBhHmkBHt",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "system": {
+    "description": "<p><span class=\"internal-embed markdown-embed is-loaded\">Add 1 to Cunning, Brawl 5 (natural weapons)</span></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "aggressive",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "type": "mundane",
+    "impact": {
+      "value": "minor"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.iWrx4a2xBhHmkBHt",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 4,
+          "key": "system.bonuses.skills.brawl.upgrade",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "qualityAbilityBoost"
+          ],
+          "subtype": [
+            "brawl"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Brawl 5",
+      "img": "icons/svg/aura.svg",
+      "_id": "xHMl3krvY2zc3R3p",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1733041709028,
+        "modifiedTime": 1733041745975,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+      },
+      "_key": "!items.effects!iWrx4a2xBhHmkBHt.xHMl3krvY2zc3R3p"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.iWrx4a2xBhHmkBHt",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.characteristics.cun.value",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "characteristics"
+          ],
+          "subtype": [
+            "cun"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Cun +1",
+      "img": "icons/svg/aura.svg",
+      "_id": "GBe78QCqPoxkNkAT",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1733041754737,
+        "modifiedTime": 1733041771634,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+      },
+      "_key": "!items.effects!iWrx4a2xBhHmkBHt.GBe78QCqPoxkNkAT"
+    }
+  ],
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733032091460,
+    "modifiedTime": 1733252750707,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "_key": "!items!iWrx4a2xBhHmkBHt"
+}

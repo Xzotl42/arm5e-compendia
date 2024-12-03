@@ -1,0 +1,96 @@
+{
+  "folder": "MewGclJOm3EmdeRI",
+  "name": "Amphibious",
+  "type": "quality",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "system": {
+    "description": "<p>Swim 4 (home terrain). Can hold breath for twice as long as normal.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "amphibious",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "type": "mundane",
+    "impact": {
+      "value": "minor"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 4,
+          "key": "system.bonuses.skills.swim.upgrade",
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "qualityAbilityBoost"
+          ],
+          "subtype": [
+            "swim"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Swim",
+      "img": "icons/svg/aura.svg",
+      "_id": "7d10WnJ6va2kY5kb",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!WtBSHqVRSIZGftje.7d10WnJ6va2kY5kb"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733080636099,
+    "modifiedTime": 1733252750707,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "_id": "WtBSHqVRSIZGftje",
+  "sort": 4100000,
+  "_key": "!items!WtBSHqVRSIZGftje"
+}

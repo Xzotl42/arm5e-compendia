@@ -1,0 +1,96 @@
+{
+  "folder": "MewGclJOm3EmdeRI",
+  "name": "Shell",
+  "type": "quality",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "system": {
+    "description": "<p>The creature is encased in a protective shell. Grants a +4 to Protection, but the creature suffers a –3 to all rolls involving fast or nimble movement.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "shell",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "type": "mundane",
+    "impact": {
+      "value": "minor"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "+4 Soak",
+      "img": "icons/svg/aura.svg",
+      "_id": "yzHjW4Bc6hL2tWXt",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!BKxvjlfRJLllvx9S.yzHjW4Bc6hL2tWXt"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733204690173,
+    "modifiedTime": 1733252750707,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "_id": "BKxvjlfRJLllvx9S",
+  "sort": 1200000,
+  "_key": "!items!BKxvjlfRJLllvx9S"
+}

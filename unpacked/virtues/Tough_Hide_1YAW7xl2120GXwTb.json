@@ -1,0 +1,96 @@
+{
+  "folder": "MewGclJOm3EmdeRI",
+  "name": "Tough Hide",
+  "type": "quality",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "system": {
+    "description": "<p>+2 to Protection; this Quality stacks with the Tough Virtue and the Thick Fur Quality.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "tough-hide",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "type": "mundane",
+    "impact": {
+      "value": "minor"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "+2 Protection",
+      "img": "icons/svg/aura.svg",
+      "_id": "7gKEZCT6pLNVZrnh",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!1YAW7xl2120GXwTb.7gKEZCT6pLNVZrnh"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733252815746,
+    "modifiedTime": 1733252815746,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "_id": "1YAW7xl2120GXwTb",
+  "sort": 0,
+  "_key": "!items!1YAW7xl2120GXwTb"
+}
