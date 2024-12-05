@@ -1,13 +1,13 @@
 {
   "folder": "u0bqg5ruG7sX6XV0",
-  "name": "Large claws",
+  "name": "Beak",
   "type": "weapon",
-  "img": "icons/commodities/claws/claw-bear-brown.webp",
+  "img": "icons/commodities/bones/beak-hooked-red.webp",
   "system": {
     "description": "",
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "large-claws",
+    "indexKey": "beak",
     "review_status": "reviewed",
     "reviewer": "xzotl",
     "cost": {
@@ -17,15 +17,19 @@
     "quantity": 1,
     "load": 0,
     "init": 0,
-    "atk": 5,
-    "dfn": 3,
-    "dam": 4,
+    "atk": 3,
+    "dfn": 1,
+    "dam": 1,
     "str": 0,
     "range": 0,
     "weaponExpert": false,
     "equipped": false,
     "horse": false,
-    "ability": "brawl",
+    "ability": {
+      "key": "brawl",
+      "option": "",
+      "id": null
+    },
     "state": "inert",
     "enchantments": null
   },
@@ -41,11 +45,11 @@
     "coreVersion": "12.331",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
-    "createdTime": 1733042238742,
-    "modifiedTime": 1733378027266,
+    "createdTime": 1733378505696,
+    "modifiedTime": 1733378590479,
     "lastModifiedBy": "wUH1ww0o0zQEBtKr"
   },
-  "_id": "rUJJnOR6aEnfVCVr",
-  "sort": 1200000,
-  "_key": "!items!rUJJnOR6aEnfVCVr"
+  "_id": "KwZbeiP5pLus9AqB",
+  "sort": 0,
+  "_key": "!items!KwZbeiP5pLus9AqB"
 }

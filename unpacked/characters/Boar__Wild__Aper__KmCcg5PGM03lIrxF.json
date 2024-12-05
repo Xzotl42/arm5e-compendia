@@ -1,0 +1,1617 @@
+{
+  "name": "Boar, Wild (Aper)",
+  "type": "beast",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 940
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "boar-wild-aper",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "creationMode": true,
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "age": {
+      "value": 20
+    },
+    "characteristics": {
+      "cun": {
+        "value": 0,
+        "aging": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "str": {
+        "value": 2,
+        "aging": 0
+      },
+      "sta": {
+        "value": 2,
+        "aging": 0
+      },
+      "pre": {
+        "value": -4,
+        "aging": 0
+      },
+      "com": {
+        "value": -5,
+        "aging": 0
+      },
+      "dex": {
+        "value": 0,
+        "aging": 0
+      },
+      "qik": {
+        "value": 1,
+        "aging": 0
+      }
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": 0
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 0,
+      "points": 0
+    },
+    "abilities": [],
+    "weapons": [],
+    "powers": [],
+    "intelligent": false,
+    "charType": {
+      "value": "mundane"
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\">The wild boar has prominent tusks and a hairy ridge along its spine. It is densely covered in short bristles ranging in color from grey to black or brown. Its legs are longer than those of a domestic pig and it can run quickly for short distances.</p></div><div class=\"el-p\"><p dir=\"auto\">The wild boar lives in forests throughout Mythic Europe, where it forages by night and rests by day. Wild swine travel in groups called sounders of twenty or more individuals, though they are also encountered singly.</p></div><div class=\"el-p\"><p dir=\"auto\">In France and England the boar is called <em>la</em> <em>bête noire</em>, \"the black beast,\" for its evil temper. It is a favorite sport of noblemen, who hunt it from horseback using hounds, lances, and swords. According to Pliny the Elder, the wild boar toughens its hide by rubbing against trees.</p></div><div class=\"el-p\"><p dir=\"auto\">Boars vary greatly in size, from eight stone (112 pounds) to more than thirty stone (420 pounds). The largest boars are Size +1.</p></div>",
+    "decrepitude": {
+      "points": 0,
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "finalScore": null
+    },
+    "personalities": {
+      "0": {
+        "name": "Brave",
+        "score": 4
+      },
+      "1": {
+        "name": "Angry",
+        "score": 3
+      }
+    },
+    "reputations": {
+      "0": {
+        "name": "Ill-tempered"
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 2
+        }
+      }
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": null
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    }
+  },
+  "items": [
+    {
+      "name": "Ill-tempered",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 15,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "vpy4T9C6qnkhyfWT",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.vpy4T9C6qnkhyfWT"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Aggressive",
+      "type": "quality",
+      "_id": "sqgtK1Sw2mBWNCgL",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p><span class=\"internal-embed markdown-embed is-loaded\">Add 1 to Cunning, Brawl 5 (natural weapons)</span></p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "aggressive",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Compendium.arm5e-compendia.virtues.Item.iWrx4a2xBhHmkBHt",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 4,
+              "key": "system.bonuses.skills.brawl.upgrade",
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "qualityAbilityBoost"
+              ],
+              "subtype": [
+                "brawl"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Brawl 5",
+          "img": "icons/svg/aura.svg",
+          "_id": "xHMl3krvY2zc3R3p",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.sqgtK1Sw2mBWNCgL.xHMl3krvY2zc3R3p"
+        },
+        {
+          "origin": "Compendium.arm5e-compendia.virtues.Item.iWrx4a2xBhHmkBHt",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.characteristics.cun.value",
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "characteristics"
+              ],
+              "subtype": [
+                "cun"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Cun +1",
+          "img": "icons/svg/aura.svg",
+          "_id": "GBe78QCqPoxkNkAT",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.sqgtK1Sw2mBWNCgL.GBe78QCqPoxkNkAT"
+        }
+      ],
+      "sort": 4000000,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.sqgtK1Sw2mBWNCgL"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Hardy",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>The creature is used to harsh conditions; it has Survival 5 (home terrain) and an extra Fatigue Level.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "hardy",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Item.OByu58KOWYNkWSKr",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.bonuses.skills.survival.upgrade",
+              "value": "5",
+              "mode": 4,
+              "priority": null
+            },
+            {
+              "mode": 2,
+              "key": "system.fatigue.winded.amount",
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "qualityAbilityBoost",
+                "fatigue"
+              ],
+              "subtype": [
+                "survival",
+                "windedLevel"
+              ],
+              "option": [
+                null,
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Survival 5 + Fatigue level",
+          "img": "icons/svg/aura.svg",
+          "_id": "aTkKKjOzeEIcYTyg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.Vs2ZyBkJF5NlQHrP.aTkKKjOzeEIcYTyg"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Vs2ZyBkJF5NlQHrP",
+      "sort": 2300000,
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.Vs2ZyBkJF5NlQHrP"
+    },
+    {
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">General physical prowess. It includes moving smoothly, confidently, and with grace. Use of Athletics improves most large-muscle coordination.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> acrobatics, contortions, grace, jumping, running. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "sprinting",
+        "xp": 50,
+        "key": "athletics",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "athletics",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "rVs5DhEBLwVx49U7",
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.rVs5DhEBLwVx49U7"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "foraging",
+        "xp": 30,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "QX77jzXihvCaMDAQ",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.QX77jzXihvCaMDAQ"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "tusks",
+        "xp": 75,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "JEdDfwtWiUBPuew7",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.JEdDfwtWiUBPuew7"
+    },
+    {
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "forests",
+        "xp": 75,
+        "key": "survival",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "survival",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "jZoiaYMIaSVXGYRB",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.jZoiaYMIaSVXGYRB"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Herd Animal",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>The creature is brave when with others of its own kind. When forced to fight as a group, herd animals temporarily gain the Ferocity Virtue, which they may use to stampede or escape what is threatening them as a group. These animals do not have the Ferocity Virtue when caught on their own, unless taken as a Virtue. For example, a stag might have the Virtue, whereas the deer in his herd have this Quality.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "herd-animal",
+        "review_status": "needAE",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "hnOP8oTh6tNQkbHU",
+      "sort": 2400000,
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.hnOP8oTh6tNQkbHU"
+    },
+    {
+      "name": "Berserk",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are capable of entering a blinding rage when in combat or frustrating situations. You automatically gain the Personality Trait Angry +2 (or more, at your option). Any time you take a wound or wound an enemy, roll a stress die and add your Angry score. A roll of 9+ means you go berserk. The storyguide can also call for a roll when you are strongly frustrated. You may deliberately try to go berserk. In this case, you only need a 6+ when you take a wound or wound an enemy, or a 9+ if you have not been wounded or caused a wound. While berserk, you get +2 to Attack and Soak scores, but suffer a –2 penalty to Defense. While berserk, you cannot retreat, hesitate to attack, or give quarter. If you are still berserk when there are no enemies present, you attack your friends. You may roll once per round to calm down if you desire, requiring a stress die + Perception – Angry against an Ease Factor of 6. You may learn Martial Abilities at character creation.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "berserk",
+        "review_status": "needAE",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "rrC4zcEWie9ZrEfm",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.rrC4zcEWie9ZrEfm"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Tireless",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>The creature gains two extra fatigue levels.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "tireless",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Item.OByu58KOWYNkWSKr",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.fatigue.winded.amount",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "mode": 2,
+              "key": "system.fatigue.weary.amount",
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "fatigue",
+                "fatigue"
+              ],
+              "subtype": [
+                "windedLevel",
+                "wearyLevel"
+              ],
+              "option": [
+                null,
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Two fatigue levels",
+          "img": "icons/svg/aura.svg",
+          "_id": "7gKEZCT6pLNVZrnh",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.6Xd9TGD2y0I6elZq.7gKEZCT6pLNVZrnh"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "6Xd9TGD2y0I6elZq",
+      "sort": 900000,
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.6Xd9TGD2y0I6elZq"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Tough Hide",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>+2 to Protection; this Quality stacks with the Tough Virtue and the Thick Fur Quality.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "tough-hide",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Item.OByu58KOWYNkWSKr",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.traits.soak",
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "vitals"
+              ],
+              "subtype": [
+                "soak"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "+2 Protection",
+          "img": "icons/svg/aura.svg",
+          "_id": "7gKEZCT6pLNVZrnh",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.kuaB3S6Ousn7CHdi.7gKEZCT6pLNVZrnh"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "kuaB3S6Ousn7CHdi",
+      "sort": 0,
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.kuaB3S6Ousn7CHdi"
+    },
+    {
+      "name": "Enduring Constitution",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [
+        {
+          "_id": "Z8ApdwljNYpaTyMt",
+          "changes": [
+            {
+              "key": "system.fatigue.weary.number",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "key": "system.fatigue.tired.number",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "key": "system.fatigue.dazed.number",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "key": "system.penalties.wounds.light",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "key": "system.penalties.wounds.medium",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "mode": 2,
+              "key": "system.penalties.wounds.heavy",
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.virtues.FT8b6iFv5uBOpbar",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "fatigue",
+                "fatigue",
+                "fatigue",
+                "wounds",
+                "wounds",
+                "wounds"
+              ],
+              "subtype": [
+                "weary",
+                "tired",
+                "dazed",
+                "light",
+                "medium",
+                "heavy"
+              ],
+              "option": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          },
+          "name": "Enduring constitution",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.TYZUcsruY3PqdN9w.Z8ApdwljNYpaTyMt"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You can withstand pain and fatigue. Decrease the penalties for reduced Fatigue levels by one point, and reduce your total penalty from wounds by one point (but not below zero). You also get +3 on rolls to resist pain.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "enduring-constitution",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "TYZUcsruY3PqdN9w",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.TYZUcsruY3PqdN9w"
+    },
+    {
+      "name": "Ferocity (when cornered)",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Animals only. Like companion and magus characters, this character has Confidence points. However, these Confidence points may only be used in situations where its natural animal ferocity is triggered, such as when defending its den or fighting a natural enemy. Describe a situation which activates the Confidence for its species, and take 3 Confidence points and a Confidence Score of 1 to use when those circumstances are met.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "ferocity",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "zOYlNmLhSvpXh5yB",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.zOYlNmLhSvpXh5yB"
+    },
+    {
+      "name": "Tough",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [
+        {
+          "_id": "jBpkQbNivkfs0HwB",
+          "changes": [
+            {
+              "key": "system.bonuses.traits.soak",
+              "value": "3",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.virtues.btxtlpTLe24uYd1Z",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "vitals"
+              ],
+              "subtype": [
+                "soak"
+              ],
+              "option": [
+                null
+              ]
+            }
+          },
+          "name": "Soak +3",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "arm5e",
+            "systemVersion": "2.3.2.11",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!KmCcg5PGM03lIrxF.o8OxkogO2ogftm12.jBpkQbNivkfs0HwB"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You can take physical punishment better than most people. You get a +3 bonus on your Soak score.</p><p>&nbsp;</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "tough",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "o8OxkogO2ogftm12",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.o8OxkogO2ogftm12"
+    },
+    {
+      "name": "Wrathful (Minor)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are prone to anger over the smallest issues, and your rage when you are thwarted in something major is terrible to behold.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "wrathful-minor",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "PKWGJMpwgTiCQwyS",
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.PKWGJMpwgTiCQwyS"
+    },
+    {
+      "name": "Greedy (Minor)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You like to eat and drink, and do so to excess whenever given the chance. You are probably fat, but may not be if you rarely have the chance to indulge.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "greedy-minor",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "jShNWiUCU6qg3JyC",
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.jShNWiUCU6qg3JyC"
+    },
+    {
+      "name": "Brave",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 50,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "aFJ0M02kYVW3bswZ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.aFJ0M02kYVW3bswZ"
+    },
+    {
+      "name": "Angry",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "CAEsnpzxJxqcgNo2",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.CAEsnpzxJxqcgNo2"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Tusks",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "tusks",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 4,
+        "dfn": 2,
+        "dam": 5,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ixInxrh1he447Tbz",
+      "sort": 200000,
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.ixInxrh1he447Tbz"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Tusks (berserk)",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "tusks",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 6,
+        "dfn": 0,
+        "dam": 5,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "JEdDfwtWiUBPuew7"
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ZM2XlMDDlR041WDk",
+      "sort": 200000,
+      "_key": "!actors.items!KmCcg5PGM03lIrxF.ZM2XlMDDlR041WDk"
+    }
+  ],
+  "img": "systems/arm5e/assets/icons/Actors/Animals/boar.svg",
+  "prototypeToken": {
+    "name": "Boar, Wild (Aper)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/arm5e/assets/icons/Actors/Animals/boar.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "folder": "vWUpLQTIGWPEKQso",
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733416041992,
+    "modifiedTime": 1733417759746,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+  },
+  "_id": "KmCcg5PGM03lIrxF",
+  "sort": 1100000,
+  "_key": "!actors!KmCcg5PGM03lIrxF"
+}

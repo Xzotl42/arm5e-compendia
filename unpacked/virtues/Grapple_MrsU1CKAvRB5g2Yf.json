@@ -1,13 +1,13 @@
 {
   "folder": "MewGclJOm3EmdeRI",
-  "name": "Vocal",
+  "name": "Grapple",
   "type": "quality",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
   "system": {
-    "description": "<p>The creature can produce impressive vocalizations, such as a powerful roar or howl, beautiful birdsong or the like. Communication is raised to 0 (if negative) or increased by 1, gain Music 3. This Quality may be taken twice for particularly impressive vocal ability, increasing Music to 5.</p>",
+    "description": "<p>The creature may make a grapple attack instead of a normal attack. This attack may only be employed against an opponent which is less than or equal to (creature's Size + 1). See Non Lethal Combat (page @@) for rules on grappling. If the creature has another natural weapon (such as a bite), it may add its current Grapple Strength to its Attack Total in subsequent rounds, until the opponent breaks free. The creature must defend against any opponent outside the grapple with its Grapple Defense (see Natural Weapons Table, below).</p>",
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "vocal",
+    "indexKey": "grapple",
     "review_status": "reviewed",
     "reviewer": "xzotl",
     "type": "mundane",
@@ -81,7 +81,7 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!items.effects!PKN9FMYT1nWKwLrQ.D5jReB3N8J5AyS6E"
+      "_key": "!items.effects!MrsU1CKAvRB5g2Yf.D5jReB3N8J5AyS6E"
     },
     {
       "origin": "Item.OByu58KOWYNkWSKr",
@@ -98,7 +98,7 @@
       "tint": "#000000",
       "changes": [
         {
-          "mode": 4,
+          "mode": 2,
           "key": "system.bonuses.skills.music.upgrade",
           "value": "3",
           "priority": null
@@ -134,10 +134,10 @@
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
-        "modifiedTime": 1733289132912,
-        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "_key": "!items.effects!PKN9FMYT1nWKwLrQ.2m5LV1sn97v723j8"
+      "_key": "!items.effects!MrsU1CKAvRB5g2Yf.2m5LV1sn97v723j8"
     }
   ],
   "ownership": {
@@ -151,11 +151,11 @@
     "coreVersion": "12.331",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
-    "createdTime": 1733253153896,
-    "modifiedTime": 1733253153896,
+    "createdTime": 1733376778358,
+    "modifiedTime": 1733376778358,
     "lastModifiedBy": "wUH1ww0o0zQEBtKr"
   },
-  "_id": "PKN9FMYT1nWKwLrQ",
+  "_id": "MrsU1CKAvRB5g2Yf",
   "sort": 0,
-  "_key": "!items!PKN9FMYT1nWKwLrQ"
+  "_key": "!items!MrsU1CKAvRB5g2Yf"
 }

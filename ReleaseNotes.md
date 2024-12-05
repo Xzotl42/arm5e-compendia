@@ -8,8 +8,10 @@
 
 - Characters - V1 **NEW**
   - All character templates
+  - Mundane Animals
 - Equipment - V3 **UPDATE**
   - Added standard inventory items (Wizardly robes,Clothes,...)
+  - Added natural weapons
 - Virtues - V3 **UPDATE**
   - Fixed some active effects
 - Flaws - V4 **UPDATE**

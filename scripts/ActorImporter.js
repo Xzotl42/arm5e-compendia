@@ -109,6 +109,7 @@ export class ActorImporter extends FormApplication {
     this.object.stats.personalityTraits = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.spells = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.equipment = { found: 0, unknown: 0, no_field: 0 };
+    this.object.stats.qualities = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.reputations = { found: 0, unknown: 0, no_field: 0 };
     this.actorsWithProblems = new Set();
     this.problems = new Set();
@@ -167,7 +168,7 @@ export class ActorImporter extends FormApplication {
     root.charType = { value: this.guessCharType(this.object.currentActor.type, json) };
     this.importCharacteristics(json.system);
     this.importTraits(json.system);
-
+    this.importQualities(json.system);
     // await this.importPersonalityTraits(json.system);
     await this.importReputations(json.system);
     if (root.charType.value == "magus") {
@@ -274,10 +275,14 @@ export class ActorImporter extends FormApplication {
     if (src["Decrepitude"]) {
       let score = Number(src["Decrepitude"].score);
       root.decrepitude = { points: 5 * ((score * (score + 1)) / 2) + Number(src["Decrepitude"].points) };
+    } else {
+      root.decrepitude = { points: 0 };
     }
     if (src["Warping Score"]) {
       let score = Number(src["Warping Score"].score);
       root.warping = { points: 5 * ((score * (score + 1)) / 2) + Number(src["Warping Score"].points) };
+    } else {
+      root.warping = { points: 0 };
     }
 
     // "Warping Score": {
@@ -790,7 +795,7 @@ export class ActorImporter extends FormApplication {
   async importPersonalityTraits(src) {
     const stats = this.object.stats;
     if (!src["Personality Traits"]) {
-      stats.virtuesAndFlaws.no_field++;
+      stats.personalityTraits.no_field++;
       this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
       this.problems.add(`${this.current.name} - ${this.currentFile} - no "Personality traits?`);
       return;
@@ -807,6 +812,7 @@ export class ActorImporter extends FormApplication {
       let score = Number(v);
       trait.system.xp = ((score * (score + 1)) / 2) * 5;
       items.push(trait);
+      stats.personalityTraits.found++;
     }
   }
 
@@ -832,6 +838,7 @@ export class ActorImporter extends FormApplication {
       trait.system.xp = ((score * (score + 1)) / 2) * 5;
       trait.system.type = this.guessReputationType(r.type);
       items.push(trait);
+      stats.reputations.found++;
     }
   }
 
@@ -1080,7 +1087,7 @@ export class ActorImporter extends FormApplication {
       let slug = FileTools.slugify(k);
       if (slug === "comment") continue;
       if (slug === "notes") continue;
-      if (["antlers", "large-horns"].includes(slug)) {
+      if (["antlers", "large-horns", "large-antlers"].includes(slug)) {
         slug = "large-horns-antlers";
       } else if (slug === "claw") {
         slug = "claws";
@@ -1088,13 +1095,16 @@ export class ActorImporter extends FormApplication {
         slug = "teeth";
       } else if (slug === "fangs") {
         slug = "teeth";
+      } else if (slug.startsWith("tusks")) {
+        slug = "tusks";
       }
 
       let item = await CompendiaUtils.getItemFromCompendium("equipment", slug);
       if (item) {
         item = item.toObject();
         item.name = k;
-        item.system.equiped = true;
+        item.system.equipped = true;
+        if (item.type == "weapon") item.system.ability = { key: "brawl", option: "", id: null };
         // item.system.description =
         this.object.currentItems.push(item);
         stats.equipment.found++;
@@ -1103,6 +1113,43 @@ export class ActorImporter extends FormApplication {
         this.addReviewItem(`Natural Weapons: No matches for "${k}"?`);
         console.error("Wrong Natural Weapons key: " + slug);
         stats.equipment.unknown++;
+      }
+    }
+  }
+
+  async importQualities(src) {
+    const stats = this.object.stats;
+    if (!src.Combat) {
+      // this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+      if (this.object.currentActor.type == "beast") {
+        stats.qualities.no_field++;
+        this.addReviewItem(`no "Qualities"?`);
+      }
+      return;
+    }
+
+    for (let k of src.Qualities) {
+      let slug = FileTools.slugify(k);
+      if (slug.startsWith("extra-natural-weapons")) {
+        slug = "extra-natural-weapons";
+      } else if (slug.includes("flier")) {
+        slug = slug.replace("flier", "flyer");
+      } else if (["large-antlers", "large-horns"].includes(slug)) {
+        slug = "large-horns-antlers";
+      }
+
+      let item = await CompendiaUtils.getItemFromCompendium("virtues", slug);
+      if (item) {
+        item = item.toObject();
+        item.name = k;
+        // item.system.description =
+        this.object.currentItems.push(item);
+        stats.qualities.found++;
+        continue;
+      } else {
+        this.addReviewItem(`Qualities: No matches for "${k}"?`);
+        console.error("Wrong Qualities key: " + slug);
+        stats.qualities.unknown++;
       }
     }
   }
@@ -1126,7 +1173,7 @@ export class ActorImporter extends FormApplication {
         if (item) {
           item = item.toObject();
           item.name = e;
-          if (item.type == "weapon") item.system.ability = EQUIPEMENT[slug].ability;
+          if (item.type == "weapon") item.system.ability = { key: EQUIPEMENT[slug].ability, option: "", id: null };
           this.object.currentItems.push(item);
           stats.equipment.found++;
           continue;
