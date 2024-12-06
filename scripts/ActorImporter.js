@@ -108,6 +108,7 @@ export class ActorImporter extends FormApplication {
     this.object.stats.virtuesAndFlaws = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.personalityTraits = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.spells = { found: 0, unknown: 0, no_field: 0 };
+    this.object.stats.powers = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.equipment = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.qualities = { found: 0, unknown: 0, no_field: 0 };
     this.object.stats.reputations = { found: 0, unknown: 0, no_field: 0 };
@@ -127,7 +128,8 @@ export class ActorImporter extends FormApplication {
       let charType = this.guessCharType(type, json);
       // if (json.name === "The Hunter") {
       // if (["magus"].includes(charType)) {
-      if (["beast"].includes(type)) {
+      if (["entity"].includes(charType)) {
+        if (!json.system["Faerie Might"]) continue;
         console.log(`Importing Actor "${json.name}"`);
         const imported = await this.importCharacter(json);
 
@@ -169,6 +171,10 @@ export class ActorImporter extends FormApplication {
     this.importCharacteristics(json.system);
     this.importTraits(json.system);
     this.importQualities(json.system);
+    if (root.charType.value == "entity") {
+      this.setMightAndRealm(json);
+      this.importPowers(json.system);
+    }
     // await this.importPersonalityTraits(json.system);
     await this.importReputations(json.system);
     if (root.charType.value == "magus") {
@@ -182,9 +188,7 @@ export class ActorImporter extends FormApplication {
     if (this.object.process.virtuesAndFlaws) await this.importVirtuesAndFlaws(json.system);
     if (this.object.process.personalityTraits) await this.importPersonalityTraits(json.system);
     if (this.object.process.equipment) {
-      if (this.object.currentActor.type == "beast") {
-        await this.importNaturalWeapons(json.system);
-      }
+      await this.importNaturalWeapons(json.system);
       await this.importEquipment(json.system);
     }
 
@@ -285,6 +289,12 @@ export class ActorImporter extends FormApplication {
       root.warping = { points: 0 };
     }
 
+    if (src["Confidence Score"]) {
+      root.con = {
+        score: src["Confidence Score"].score,
+        points: src["Confidence Score"].points
+      };
+    }
     // "Warping Score": {
     //     "score": "6",
     //     "points": "19"
@@ -989,7 +999,7 @@ export class ActorImporter extends FormApplication {
   }
 
   guessType(json) {
-    if (this.guessRealm(json)) {
+    if (this.getMightFieldName(json)) {
       return "npc";
     }
     if (json.system.Characteristics.Cun) {
@@ -1011,9 +1021,8 @@ export class ActorImporter extends FormApplication {
       }
     }
 
-    const realm = this.guessRealm(json);
+    const realm = this.getMightFieldName(json);
     if (realm) {
-      json.system.might = {};
       json.system.realm = {
         magic: {
           aligned: false
@@ -1034,42 +1043,68 @@ export class ActorImporter extends FormApplication {
     }
   }
 
-  guessRealm(json) {
-    let res = {
-      might: {},
-      realm: {
-        magic: {
-          aligned: false
-        },
-        faeric: {
-          aligned: false
-        },
-        divine: {
-          aligned: false
-        },
-        infernal: {
-          aligned: false
-        }
+  getMightFieldName(json) {
+    if (json.system["Faerie Might"]) return "Faerie Might";
+    if (json.system["Magic Might"]) return "Magic Might";
+    if (json.system["Divine Might"]) return "Divine Might";
+    if (json.system["Infernal Might"]) return "Infernal Might";
+    return "";
+  }
+
+  setMightAndRealm(json) {
+    this.object.currentActor.system.realms = {
+      magic: {
+        aligned: false
+      },
+      faeric: {
+        aligned: false
+      },
+      divine: {
+        aligned: false
+      },
+      infernal: {
+        aligned: false
       }
     };
+    let mightField = this.getMightFieldName(json);
 
-    if (json.system["Faery Might"] || json.system["Faerie Might"]) {
-      res.realm.faeric.aligned = true;
-      return "faeric";
+    let might = String(json.system[mightField]);
+    let m = might.match(/(\d+) \((.+)\)/);
+    if (m) {
+      let form = m[2];
+      if (FORMS.includes(form)) {
+        this.object.currentActor.system.might = {
+          form: form.substring(0, 2).toLowerCase(),
+          value: m[1],
+          points: m[1]
+        };
+      } else {
+        this.addReviewItem(`Might problem: ${might}`);
+      }
+    } else {
+      this.addReviewItem(`Might problem: ${might}`);
     }
-    if (json.system["Magic Might"]) {
-      res.realm.magic.aligned = true;
-      return "magic";
+    switch (mightField) {
+      case "Faerie Might":
+        this.object.currentActor.system.realm = "faeric";
+        this.object.currentActor.system.realms.faeric.aligned = true;
+        return;
+      case "Magic Might":
+        this.object.currentActor.system.realm = "magic";
+        this.object.currentActor.system.realms.magic.aligned = true;
+        return;
+      case "Divine Might":
+        this.object.currentActor.system.realm = "divine";
+        this.object.currentActor.system.realms.divine.aligned = true;
+        return;
+      case "Infernal Might":
+        this.object.currentActor.system.realm = "infernal";
+        this.object.currentActor.system.realms.infernal.aligned = true;
+        return;
+      default:
+        this.object.currentActor.system.realm = "mundane";
+        return;
     }
-    if (json.system["Infernal Might"]) {
-      res.realm.infernal.aligned = true;
-      return "infernal";
-    }
-    if (json.system["Divine Might"]) {
-      res.realm.divine.aligned = true;
-      return "divine";
-    }
-    return null; // mundane
   }
 
   async importNaturalWeapons(src) {
@@ -1119,7 +1154,7 @@ export class ActorImporter extends FormApplication {
 
   async importQualities(src) {
     const stats = this.object.stats;
-    if (!src.Combat) {
+    if (!src.Qualities) {
       // this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
       if (this.object.currentActor.type == "beast") {
         stats.qualities.no_field++;
@@ -1151,6 +1186,36 @@ export class ActorImporter extends FormApplication {
         console.error("Wrong Qualities key: " + slug);
         stats.qualities.unknown++;
       }
+    }
+  }
+
+  async importPowers(src) {
+    const stats = this.object.stats;
+    if (!src.Powers) {
+      stats.powers.no_field++;
+      // this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
+      if (this.object.currentActor.type != "beast") this.addReviewItem(`no "Powers"?`);
+
+      return;
+    }
+
+    for (let p of src.Powers) {
+      let power = {
+        name: p.name,
+        type: "power",
+        system: {
+          description: p.description,
+          cost: p.points,
+          init: p.init,
+          form: p.form.substring(0, 2).toLowerCase(),
+          indexKey: FileTools.slugify(p.name),
+          reviewer: "xzotl",
+          source: "ArM5Def"
+        }
+      };
+
+      this.object.currentItems.push(power);
+      stats.powers.found++;
     }
   }
 

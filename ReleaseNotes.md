@@ -14,6 +14,7 @@
   - Added natural weapons
 - Virtues - V3 **UPDATE**
   - Fixed some active effects
+  - Added beast Qualities
 - Flaws - V4 **UPDATE**
   -Fixed some active effects
 
