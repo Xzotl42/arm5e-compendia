@@ -128,12 +128,12 @@ export class ActorImporter extends FormApplication {
       let charType = this.guessCharType(type, json);
       // if (json.name === "The Hunter") {
       // if (["magus"].includes(charType)) {
+      // if (type == "beast") {
       if (["entity"].includes(charType)) {
-        if (!json.system["Faerie Might"]) continue;
+        // if (!json.system["Magic Might"]) continue;
         console.log(`Importing Actor "${json.name}"`);
         const imported = await this.importCharacter(json);
 
-        // imported.folder =
         //
         let [actor] = await Actor.createDocuments([imported], { folder: "test" });
 
@@ -188,8 +188,10 @@ export class ActorImporter extends FormApplication {
     if (this.object.process.virtuesAndFlaws) await this.importVirtuesAndFlaws(json.system);
     if (this.object.process.personalityTraits) await this.importPersonalityTraits(json.system);
     if (this.object.process.equipment) {
+      if (json.system.Equipement) {
+        await this.importEquipment(json.system);
+      }
       await this.importNaturalWeapons(json.system);
-      await this.importEquipment(json.system);
     }
 
     if (this.object.toReview.length) {
@@ -1120,34 +1122,62 @@ export class ActorImporter extends FormApplication {
 
     for (let [k, v] of Object.entries(src.Combat)) {
       let slug = FileTools.slugify(k);
-      if (slug === "comment") continue;
-      if (slug === "notes") continue;
-      if (["antlers", "large-horns", "large-antlers"].includes(slug)) {
-        slug = "large-horns-antlers";
-      } else if (slug === "claw") {
-        slug = "claws";
-      } else if (slug === "bite") {
-        slug = "teeth";
-      } else if (slug === "fangs") {
-        slug = "teeth";
-      } else if (slug.startsWith("tusks")) {
-        slug = "tusks";
+      slug = FileTools.slugify(slug.replace("dismounted", "").replace("unmounted", "")).replace(/^-+|-+$/g, "");
+      let mounted = false;
+      if (slug.includes("mounted")) {
+        mounted = true;
+        slug = FileTools.slugify(slug.replace("mounted", "").replace(/^-+|-+$/g, ""));
       }
 
-      let item = await CompendiaUtils.getItemFromCompendium("equipment", slug);
-      if (item) {
-        item = item.toObject();
-        item.name = k;
-        item.system.equipped = true;
-        if (item.type == "weapon") item.system.ability = { key: "brawl", option: "", id: null };
-        // item.system.description =
-        this.object.currentItems.push(item);
-        stats.equipment.found++;
-        continue;
+      slug = this.getProperVersion(slug);
+      if (EQUIPEMENT[slug]) {
+        let item = await CompendiaUtils.getItemFromCompendium("equipment", EQUIPEMENT[slug].key);
+        if (item) {
+          item = item.toObject();
+          item.name = k;
+          if (item.type == "weapon") item.system.ability = { key: EQUIPEMENT[slug].ability, option: "", id: null };
+          this.object.currentItems.push(item);
+          stats.equipment.found++;
+          continue;
+        } else {
+          console.error("Wrong Equipment key: " + slug);
+          stats.equipment.unknown++;
+        }
       } else {
-        this.addReviewItem(`Natural Weapons: No matches for "${k}"?`);
-        console.error("Wrong Natural Weapons key: " + slug);
-        stats.equipment.unknown++;
+        if (slug === "comment") continue;
+        if (slug === "notes") continue;
+        if (["antlers", "large-horns", "large-antlers"].includes(slug)) {
+          slug = "large-horns-antlers";
+        } else if (slug === "claw") {
+          slug = "claws";
+        } else if (slug === "bite") {
+          slug = "teeth";
+        } else if (slug === "fangs") {
+          slug = "teeth";
+        } else if (slug.startsWith("tusks")) {
+          slug = "tusks";
+        } else if (slug.includes("claws")) {
+          slug = "claws";
+        }
+        let item = await CompendiaUtils.getItemFromCompendium("equipment", slug);
+        if (item) {
+          item = item.toObject();
+          item.name = k;
+          item.system.equipped = true;
+
+          if (item.type == "weapon") {
+            item.system.horse = mounted;
+            item.system.ability = { key: "brawl", option: "", id: null };
+          }
+          // item.system.description =
+          this.object.currentItems.push(item);
+          stats.equipment.found++;
+          continue;
+        } else {
+          this.addReviewItem(`Natural Weapons: No matches for "${k}"?`);
+          console.error("Wrong Natural Weapons key: " + slug);
+          stats.equipment.unknown++;
+        }
       }
     }
   }
@@ -1231,6 +1261,13 @@ export class ActorImporter extends FormApplication {
 
     for (let e of src.Equipment) {
       let slug = FileTools.slugify(e);
+      // remove dismounted
+      slug = FileTools.slugify(slug.replace("dismounted", "").replace("unmounted", "")).replace(/^-+|-+$/g, "");
+      let mounted = false;
+      if (slug.includes("mounted")) {
+        mounted = true;
+        slug = FileTools.slugify(slug.replace("mounted", "").replace(/^-+|-+$/g, ""));
+      }
       // alternate versions
       slug = this.getProperVersion(slug);
       if (EQUIPEMENT[slug]) {
@@ -1238,7 +1275,11 @@ export class ActorImporter extends FormApplication {
         if (item) {
           item = item.toObject();
           item.name = e;
-          if (item.type == "weapon") item.system.ability = { key: EQUIPEMENT[slug].ability, option: "", id: null };
+
+          if (item.type == "weapon") {
+            item.system.ability = { key: EQUIPEMENT[slug].ability, option: "", id: null };
+            item.system.horse = mounted;
+          }
           this.object.currentItems.push(item);
           stats.equipment.found++;
           continue;
@@ -1337,6 +1378,13 @@ export class ActorImporter extends FormApplication {
         return "spear-long";
       case "short-spear":
         return "spear-short";
+      case "thrown-rock":
+        return "stone";
+      case "great-sword":
+        return "sword-great";
+      // combo
+      case "lance":
+        return "spear-long";
       default:
         break;
     }

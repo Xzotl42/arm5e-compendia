@@ -1,5 +1,17 @@
 # Release notes
 
+## Version 0.9.13
+
+- Actor importer (WIP)
+
+### Compendia DE integration
+
+- Characters - V3 **UPDATE**
+  - Fixed errors and missing Items
+- Equipment - V4 **UPDATE**
+  - Fixed some typos
+  - Added some classic weapon and shield combos
+
 ## Version 0.9.12
 
 - Actor importer (WIP)

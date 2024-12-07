@@ -363,8 +363,8 @@ export const EQUIPEMENT = {
     type: "weapon",
     ability: "single-weapon"
   },
-  crudgel: {
-    key: "g-crudgel",
+  cudgel: {
+    key: "g-cudgel",
     type: "weapon",
     ability: "great-weapon"
   },
