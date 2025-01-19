@@ -1,5 +1,16 @@
 # Release notes
 
+## Version 0.9.14
+
+- FIY (Fix It Yourself) macro (alpha)
+
+### Compendia DE integration
+
+- Virtues - V4 **UPDATE**
+  - Added Mythic Blood effects
+- Flaws - V5 **UPDATE**
+  - Added Twilight prone effect.
+
 ## Version 0.9.13
 
 - Actor importer (WIP)

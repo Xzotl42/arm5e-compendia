@@ -1363,6 +1363,7 @@ export class ActorImporter extends FormApplication {
       case "short-sword":
         return "sword-short";
       case "great-sword":
+      case "greatsword":
         return "sword-great";
       case "bastard-sword":
         return "sword-bastard-1h";
@@ -1383,8 +1384,12 @@ export class ActorImporter extends FormApplication {
       case "great-sword":
         return "sword-great";
       // combo
+      case "lance-heater":
+        return "lance-and-heater-shield";
       case "lance":
         return "spear-long";
+      case "long-sword-heater":
+        return "long-sword-and-heater-shield";
       default:
         break;
     }

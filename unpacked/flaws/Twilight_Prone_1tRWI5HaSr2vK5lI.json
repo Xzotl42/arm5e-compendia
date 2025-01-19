@@ -2,7 +2,64 @@
   "name": "Twilight Prone",
   "type": "flaw",
   "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.flaws.Item.1tRWI5HaSr2vK5lI",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 5,
+          "key": "system.bonuses.arts.warpingThreshold",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "spellcasting"
+          ],
+          "subtype": [
+            "warpingThreshold"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Twilight prone",
+      "img": "icons/svg/aura.svg",
+      "_id": "Y4N6eWeSfx1vYBTF",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.13",
+        "createdTime": 1735281953438,
+        "modifiedTime": 1735281985540,
+        "lastModifiedBy": "6XwTYdUF2pe6loNQ"
+      },
+      "_key": "!items.effects!1tRWI5HaSr2vK5lI.Y4N6eWeSfx1vYBTF"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {

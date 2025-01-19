@@ -5,6 +5,7 @@ import { CompendiumStats } from "../../arm5e-compendia/scripts/CompendiumStats.j
 import { FileTools } from "./FileTools.js";
 import { DocumentEnricher } from "./DocumentEnricher.js";
 import { ActorImporter } from "./ActorImporter.js";
+import { FixItYourself } from "./FixItYourself.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(pack, onlyMissingOnes = false) {
@@ -88,6 +89,15 @@ export class CompendiaUtils {
       return;
     }
     const ui = new ActorImporter({}, {});
+    const res = await ui.render(true);
+  }
+
+  static async showFIY() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new FixItYourself({}, {});
     const res = await ui.render(true);
   }
 

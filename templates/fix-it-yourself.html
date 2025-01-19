@@ -1,0 +1,107 @@
+<form class="{{cssClass}} arm5eChooser doc-fixer" autocomplete="off">
+  {{> "systems/arm5e/templates/roll/parts/roll-header.html" header="Inputs" }}
+  <div class="marginsides32" style="overflow-y: auto; height: 500px; ">
+    <div>
+      <h1 style="text-align:center; font-size: 22pt;">{{localize "Fix it yourself"}}</h1>
+      <label style="text-align:center;"><b>List of invalid documents in the world.</b></label>
+    </div>
+    <div class="backSection">
+      <div class="resource">
+        <label class="resource">Invalid actors ({{invalidActorsCnt}})</label>
+        <ol>
+          {{#each actorsIds}}
+            <li style="list-style: none;">{{this}}</li>
+          {{/each}}
+          {{#each actors as | actor id|}}
+            <li style="list-style: none;">Actor : {{actor.doc.name}} <input style="font-size: 8pt;" type="text" readonly
+                value="{{id}}">
+              <ul>
+                {{#each actor.errors as |error field|}}
+                  <li class="clickable select-actor" data-actor-id="{{../doc._id}}" data-field="{{field}}"
+                    data-value="{{error.val}}">
+                    <input style="font-size: 8pt;" type="text" readonly value="{{field}}">
+                    {{error.msg}}
+                    <input style="font-size: 8pt;" type="text" readonly value="{{error.val}}">
+                  </li>
+                {{/each}}
+              </ul>
+            </li>
+          {{/each}}
+        </ol>
+      </div>
+    </div>
+    <div class="backSection">
+      <div class="resource">
+        <label class="resource">Invalid Items ({{invalidItemsCnt}})</label>
+        <ol>
+          {{#each items as | item id|}}
+            <li style="list-style: none;">Item : {{item.doc.name}} <input style="font-size: 8pt;" type="text" readonly
+                value="{{id}}">
+              <ul>
+                {{#each item.errors as |error field|}}
+                  <li class="clickable select-item" data-item-id="{{../doc._id}}" data-field="{{field}}"
+                    data-value="{{error.val}}">
+                    <input style="font-size: 8pt;" type="text" readonly value="{{field}}">
+                    {{error.msg}}
+                    <input style="font-size: 8pt;" type="text" readonly value="{{error.val}}">
+                  </li>
+                {{/each}}
+              </ul>
+            </li>
+          {{/each}}
+        </ol>
+      </div>
+    </div>
+
+    <div class="backSection">
+      <div class="resource">
+        <label class="resource">Invalid embedded items ({{invalidEmbItems}})</label>
+        {{#each embeddedItemIds as |data id|}}
+          <div class="backSection resource">
+            <ol>
+              <label>Actor : {{data.actor.name}} <input type="text" style="font-size: 8pt;" readonly
+                  value="{{id}}"></label>
+              {{#each data.invalidItems as |item itemId|}}
+                <div class="backSection resource ">
+                  <li style="list-style: none;">Item : {{item.doc.name}} <input style="font-size: 8pt;" type="text"
+                      readonly value="{{itemId}}">
+                    <ul>
+                      {{#each item.errors as |error field|}}
+                        {{log ".. .. " ..}}
+                        <li class="clickable select-embedded" data-actor-id="{{../../actor/_id}}"
+                          data-item-id="{{../doc._id}}" data-field="{{field}}" data-value="{{error.val}}">
+                          <input style="font-size: 8pt;" type="text" readonly value="{{field}}">
+                          {{error.msg}}
+                          <input style="font-size: 8pt;" type="text" readonly value="{{error.val}}">
+                        </li>
+                      {{/each}}
+                    </ul>
+                  </li>
+                </div>
+              {{/each}}
+            </ol>
+          </div>
+        {{/each}}
+
+      </div>
+    </div>
+  </div>
+  <div class="marginsides32">
+    <div class="resource">
+      <h2>Document to fix:</h2>
+      <div class="flexrow"><label>Actor: </label><input type="text" readonly value="{{selected.actor}}"></div>
+      <div class="flexrow"><label>Item: </label><input type="text" readonly value="{{selected.item}}"></div>
+      <div class="flexrow"><label>Field: </label><input type="text" readonly value="{{selected.field}}"></div>
+      <div class="flexrow"><label>New value: </label><input type="text" name="selected.newVal"
+          value="{{selected.newVal}}"></div>
+    </div>
+
+    <div class="flexrow resource">
+      <button class="update-document" style="margin-top: 3px;" {{merge}}>Update Value</button>
+    </div>
+  </div>
+  <!-- <button class="process" title="Does whatever was needed the last time I needed it." style="margin-top: 3px;"
+        {{merge}}>Process all documents</button> -->
+  </div>
+  {{> "systems/arm5e/templates/roll/parts/roll-footer.html" footer="Inputs"}}
+</form>
