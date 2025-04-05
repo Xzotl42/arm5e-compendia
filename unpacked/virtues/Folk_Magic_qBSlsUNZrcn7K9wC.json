@@ -1,40 +1,47 @@
 {
   "name": "Folk Magic",
-  "type": "flaw",
+  "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
   "system": {
     "description": "<div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">The character is capable of performing very minor acts of magic through his knowledge of scraps of occult lore. Choose one (Realm) Lore that is the key Ability for this magic; he may learn this Ability at Character Creation even if he is normally unable to take Arcane Abilities. The choice of (Realm) Lore also determines which supernatural realm his magic is aligned to for the purposes of aura modifiers. He can only create spells in one narrow area, which must be one of the following four options:</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\"><strong>Abjuration:</strong> Creates a ward against animals or supernatural creatures. Uses the Rego Animal or Rego Vim guidelines.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\"><strong>Divination:</strong> Acquire magical senses that detect health, wealth, and mental state. Uses Intellego Corpus, Intellego Mentem, and Intellego Terram guidelines.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\"><strong>Healing:</strong> Grants a Recovery bonus for either wounds or diseases, and aids the birthing of children and livestock. Uses the Creo Corpus or Creo Animal guidelines. Infernal Lore cannot be used to produce this type of effect.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\"><strong>Evil Eye:</strong> Causes minor acts of mischief like pain, blight of crops, hair loss, sneezing, and so forth. Uses the Perdo Corpus, Perdo Animal, or Perdo Herbam guidelines. Divine Lore cannot be used to produce this type of effect.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">To cast a spell the character must expend a Fatigue level, whether the spell succeeds or fails. He must also spend at least 15 minutes preparing the spell, during which time he needs unbroken concentration and access to his “magical” materials (while necessary, these materials offer no benefit to the casting). The spell is designed exactly like a Hermetic spell. The Casting Total is equal to (Stamina + (Realm) Lore + Aura modifier + stress die) / 2. Penetration is calculated in the normal fashion: Casting Total – Spell Level + Penetration modifiers. You may pick this Virtue more than once, to acquire expertise in a different category of spells. Each time you choose this Virtue, you can align it to the same Realm as before or pick a different one, although a character cannot have access to both the Divine and Infernal Realms.</span></p></div>",
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "folk-magic",
-    "review_status": "reviewed",
-    "reviewer": "xzotl",
     "type": "supernatural",
     "impact": {
-      "value": "major"
+      "value": "minor"
     },
+    "indexKey": "elemental-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
     "hidden": false,
-    "tainted": true,
-    "ownership": null
+    "tainted": false
   },
-  "effects": [],
-  "folder": "PMTtdepguHpd2YfJ",
-  "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "arm5e",
-    "systemVersion": "2.3.2.7",
-    "createdTime": 1730014697060,
-    "modifiedTime": 1732302432338,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "systemVersion": "2.3.2.28",
+    "createdTime": 1743830551047,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey"
   },
-  "_id": "rAVeXzaIexc43wcT",
-  "sort": 800000,
+  "folder": "XwOh5akgyjxNE2dG",
   "ownership": {
     "default": 0,
-    "6SdI10VpXHcBvx2J": 3
+    "6SdI10VpXHcBvx2J": 3,
+    "xMd6zrGNn4dbQYey": 3
   },
-  "_key": "!items!rAVeXzaIexc43wcT"
+  "_id": "qBSlsUNZrcn7K9wC",
+  "sort": 200000,
+  "_key": "!items!qBSlsUNZrcn7K9wC"
 }

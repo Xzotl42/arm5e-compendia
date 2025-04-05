@@ -1,5 +1,10 @@
 # Release notes
 
+## Version 0.9.15
+
+- Fixed Gold material sourcebook
+- Fixed Folk Magic and Vulnerable to Folk tradition type
+
 ## Version 0.9.14
 
 - FIY (Fix It Yourself) macro (alpha)

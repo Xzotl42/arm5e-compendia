@@ -792,8 +792,8 @@ export const ASPECTS = {
   },
   gold: {
     name: "Gold",
-    src: "TMRE",
-    page: "33",
+    src: "ArM5",
+    page: "110",
     effects: {
       health: { name: "Health", bonus: 2 },
       "induce-greed": { name: "Induce greed", bonus: 4 },
