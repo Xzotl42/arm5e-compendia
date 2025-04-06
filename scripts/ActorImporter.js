@@ -13,8 +13,8 @@ import {
   VnFToReview
 } from "./DataModel.js";
 import { FileTools } from "./FileTools.js";
-// import { ACTIVE_EFFECTS_TYPES } from "../../../systems/arm5e/module/constants/activeEffectsTypes.js";
-import ACTIVE_EFFECTS_TYPES from "../../../systems/arm5e/module/constants/activeEffectsTypes.js";
+import { ACTIVE_EFFECTS_TYPES } from "../../../systems/arm5e/module/constants/activeEffectsTypes.js";
+// import ACTIVE_EFFECTS_TYPES from "../../../systems/arm5e/module/constants/activeEffectsTypes.js";
 
 // to import the parsed characters and creatures
 

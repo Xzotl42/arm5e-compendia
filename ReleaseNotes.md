@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.9.16
+
+### Compatibility
+
+- System minimum version 2.3.2.28
+
 ## Version 0.9.15
 
 - Fixed Gold material sourcebook
