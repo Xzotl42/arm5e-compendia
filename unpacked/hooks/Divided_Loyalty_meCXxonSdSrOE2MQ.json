@@ -1,0 +1,39 @@
+{
+  "folder": "O5LhN2J2Ed3J2OWc",
+  "name": "Divided Loyalty",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/base-magic.svg",
+  "system": {
+    "description": "<p>The covenant is divided into factions, and the Prevailing Loyalty is calculated separately for each faction. These factions may be professional, political, or personal, but they are in competition with each other. Actions that affect the loyalty points (see Chapter 3: Governance) of the covenant as a whole affect all factions. Actions which benefit the loyalty of one faction over the others will cause a decrease in loyalty of the other factions equal to one half of the loyalty points gained. If the gap in Prevailing Loyalty between factions ever reaches 3 or more points, then a story results based on the tensions between the factions. This Hook is compatible with other Residents Boons and Hooks that affect loyalty; work out the total loyalty points, then divide them between the factions — but not necessarily equally.</p>",
+    "source": "Cov",
+    "page": 19,
+    "indexKey": "",
+    "review_status": "reviewed",
+    "reviewer": "lichen",
+    "type": "covenantResidents",
+    "impact": {
+      "value": "major"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1749287883937,
+    "modifiedTime": 1749287883937,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "meCXxonSdSrOE2MQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!meCXxonSdSrOE2MQ"
+}

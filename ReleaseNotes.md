@@ -1,5 +1,20 @@
 # Release notes
 
+## Version 0.10.0
+
+### Compatibility
+
+- System minimum version 2.3.2.28
+
+### Compendia DE integration
+
+- Boons - V1 **NEW**
+- Hooks - V1 **NEW**
+
+### Changes
+
+- Miscellaneous fixes
+
 ## Version 0.9.16
 
 ### Compatibility

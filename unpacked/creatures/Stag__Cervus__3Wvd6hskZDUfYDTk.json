@@ -1,0 +1,1067 @@
+{
+  "name": "Stag (Cervus)",
+  "type": "beast",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 940
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "stag-cervus",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "age": {
+      "value": 20
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "characteristics": {
+      "int": {
+        "value": 0
+      },
+      "cun": {
+        "value": -2,
+        "aging": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "str": {
+        "value": 2,
+        "aging": 0
+      },
+      "sta": {
+        "value": 2,
+        "aging": 0
+      },
+      "pre": {
+        "value": 0,
+        "aging": 0
+      },
+      "com": {
+        "value": -5,
+        "aging": 0
+      },
+      "dex": {
+        "value": 0,
+        "aging": 0
+      },
+      "qik": {
+        "value": 2,
+        "aging": 0
+      }
+    },
+    "vitals": {
+      "siz": {
+        "value": 2
+      },
+      "soa": {
+        "value": 0
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 0,
+      "points": 0
+    },
+    "abilities": [],
+    "weapons": [],
+    "powers": [],
+    "intelligent": false,
+    "creationMode": true,
+    "charType": {
+      "value": "mundane"
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\">These statistics are for the red deer, one of the largest deer in Mythic Europe. Adult males average 40 to 50 stone in weight (560 to 700 pounds) depending on the richness of the available food supply, and may be up to 15 hands high—as tall as some horses, but more lightly built. The red deer’s coat is reddish-brown in winter and tan in summer, with a lighter rump and underbelly. Stags have a shaggy mane of dark fur and an impressive rack of antlers over four feet across from tip to tip. They make a deep, bellowing roar during the autumn mating season.</p></div><div class=\"el-p\"><p dir=\"auto\">The red deer lives in open woodlands, moors, and grasslands throughout Mythic Europe. It avoids dense, tangled forests but can be found in alpine forests and meadows. The species is called \"elk\" in contemporary North America. The size of the red deer varies from +1 where grazing is poor to +2 where the grass is rich and plentiful. Does are smaller than stags and lack antlers.</p></div><div class=\"el-p\"><p dir=\"auto\">The red deer is a favorite quarry of hunters. In some places, only nobles are allowed to hunt it. The stag usually flees from combat, trying to draw enemies away from its herd, but it can fight if it must. All deer gain a +3 bonus to rolls involving running or jumping.</p></div>",
+    "decrepitude": {
+      "points": 0,
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "finalScore": null
+    },
+    "personalities": {
+      "0": {
+        "name": "Brave",
+        "score": 1
+      }
+    },
+    "reputations": {
+      "0": {
+        "name": "Noble"
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 2
+        }
+      }
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": null
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    }
+  },
+  "items": [
+    {
+      "name": "Noble",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 15,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "zVYac4e3Wkb1g0e6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.zVYac4e3Wkb1g0e6"
+    },
+    {
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">General physical prowess. It includes moving smoothly, confidently, and with grace. Use of Athletics improves most large-muscle coordination.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> acrobatics, contortions, grace, jumping, running. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "sprinting",
+        "xp": 50,
+        "key": "athletics",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "athletics",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "x0NIEofQowNQedoy",
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.x0NIEofQowNQedoy"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "predators",
+        "xp": 30,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "IABXbOhS8oG7u11p",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.IABXbOhS8oG7u11p"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "dodge",
+        "xp": 50,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "B5c8xRy04FAHDqmI",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.B5c8xRy04FAHDqmI"
+    },
+    {
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "woodlands",
+        "xp": 30,
+        "key": "survival",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "survival",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "KLuQCK9R3TegyjBu",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.KLuQCK9R3TegyjBu"
+    },
+    {
+      "name": "Improved Characteristics",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "improved-characteristics",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "1fUEEOeWZu6f1SX1",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.1fUEEOeWZu6f1SX1"
+    },
+    {
+      "name": "Brave",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 5,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "WDQJJGtcqAq5u1o7",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.WDQJJGtcqAq5u1o7"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Antlers",
+      "type": "weapon",
+      "img": "icons/creatures/mammals/deer-antlers-blue.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "large-horns-antlers",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 2,
+        "atk": 3,
+        "dfn": 2,
+        "dam": 3,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "naLYAao6hMnrWoZH",
+      "sort": 800000,
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.naLYAao6hMnrWoZH"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Hooves",
+      "type": "weapon",
+      "img": "icons/commodities/biological/foot-black-grey.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "hooves",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 2,
+        "atk": 2,
+        "dfn": 2,
+        "dam": 1,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "KWyLfzm74oSlpdtF",
+      "sort": 600000,
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.KWyLfzm74oSlpdtF"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Defensive Fighter",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>Defensive Fighter: the creature will fight, but only to defend itself. Brawl (dodging) 4, and an extra Fatigue Level</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "defensive-fighter",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Item.OByu58KOWYNkWSKr",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.bonuses.skills.brawl.upgrade",
+              "value": "4",
+              "mode": 4,
+              "priority": null
+            },
+            {
+              "mode": 2,
+              "key": "system.fatigue.winded.number",
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "qualityAbilityBoost",
+                "fatigue"
+              ],
+              "subtype": [
+                "brawl",
+                "winded"
+              ],
+              "option": [
+                null,
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Brawl 4 + Fatigue level",
+          "img": "icons/svg/aura.svg",
+          "_id": "TN9VPvM7CDUKPYTv",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!3Wvd6hskZDUfYDTk.kXWMdHX9JV1hMOUG.TN9VPvM7CDUKPYTv"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "kXWMdHX9JV1hMOUG",
+      "sort": 2900000,
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.kXWMdHX9JV1hMOUG"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Extra Natural Weapons",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>Gain an extra set of Natural Weapons, such as Horns/Antlers, Teeth/Tusks, Claws, or Hooves. Only one set of weapons may be used in each round of combat. This quality may be taken more than once.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "extra-natural-weapons",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Item.OByu58KOWYNkWSKr",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.characteristics.com.upgrade",
+              "value": "0",
+              "mode": 4,
+              "priority": null
+            },
+            {
+              "mode": 2,
+              "key": "system.characteristics.com.value",
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "characteristicBoost",
+                "characteristics"
+              ],
+              "subtype": [
+                "com",
+                "com"
+              ],
+              "option": [
+                null,
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Com boost",
+          "img": "icons/svg/aura.svg",
+          "_id": "D5jReB3N8J5AyS6E",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!3Wvd6hskZDUfYDTk.Aa6roYKY6VJ4ykpS.D5jReB3N8J5AyS6E"
+        },
+        {
+          "origin": "Item.OByu58KOWYNkWSKr",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.skills.music.upgrade",
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "qualityAbilityBoost"
+              ],
+              "subtype": [
+                "music"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Music 3",
+          "img": "icons/svg/aura.svg",
+          "_id": "2m5LV1sn97v723j8",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!3Wvd6hskZDUfYDTk.Aa6roYKY6VJ4ykpS.2m5LV1sn97v723j8"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Aa6roYKY6VJ4ykpS",
+      "sort": 0,
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.Aa6roYKY6VJ4ykpS"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Dodge",
+      "type": "weapon",
+      "_id": "E7cgtJGFsB2IuU7d",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "dodge",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.E7cgtJGFsB2IuU7d"
+    },
+    {
+      "name": "Higher Purpose (protect the herd)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Let others concern themselves with petty matters, you have a nobler goal. This purpose should be altruistic, like freeing an oppressed people or bringing peace between the Order of Hermes and society.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "higher-purpose-minor",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "FM6p7tOhKXfum14v",
+      "sort": 4300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!3Wvd6hskZDUfYDTk.FM6p7tOhKXfum14v"
+    }
+  ],
+  "img": "systems/arm5e/assets/icons/Actors/Animals/stag.svg",
+  "prototypeToken": {
+    "name": "Stag (Cervus)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/arm5e/assets/icons/Actors/Animals/stag.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "folder": "vWUpLQTIGWPEKQso",
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1748671593021,
+    "modifiedTime": 1748671593021,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "_id": "3Wvd6hskZDUfYDTk",
+  "sort": 400000,
+  "_key": "!actors!3Wvd6hskZDUfYDTk"
+}

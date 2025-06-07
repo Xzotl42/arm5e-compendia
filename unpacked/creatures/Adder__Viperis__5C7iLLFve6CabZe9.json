@@ -1,0 +1,1018 @@
+{
+  "name": "Adder (Viperis)",
+  "type": "beast",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1204
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "adder-viperis",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "age": {
+      "value": 20
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "characteristics": {
+      "int": {
+        "value": 0
+      },
+      "cun": {
+        "value": -1,
+        "aging": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "str": {
+        "value": -8,
+        "aging": 0
+      },
+      "sta": {
+        "value": 2,
+        "aging": 0
+      },
+      "pre": {
+        "value": -6,
+        "aging": 0
+      },
+      "com": {
+        "value": -6,
+        "aging": 0
+      },
+      "dex": {
+        "value": 2,
+        "aging": 0
+      },
+      "qik": {
+        "value": 3,
+        "aging": 0
+      }
+    },
+    "vitals": {
+      "siz": {
+        "value": -4
+      },
+      "soa": {
+        "value": 0
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 0,
+      "points": 0
+    },
+    "abilities": [],
+    "weapons": [],
+    "powers": [],
+    "intelligent": false,
+    "creationMode": true,
+    "charType": {
+      "value": "mundane"
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\">The common adder is a small snake, usually about a foot and a half in length. Its color varies from pale grey or yellow to red, with diamond-shaped black markings along its back. Some individuals are completely black. The adder's head is triangular in shape.</p></div><div class=\"el-p\"><p dir=\"auto\">The adder is a venomous snake commonly found throughout Mythic Europe (except in Ireland). It is hardy enough to hibernate through the winter. It hunts rodents, lizards, and frogs by hiding and waiting for prey to pass nearby. Its venom is weak and can sicken, but not usually kill, a man.</p></div><div class=\"el-p\"><p dir=\"auto\">The adder is prone to attack reflexively when anything stumbles across its hiding-place (see the Lightning Reflexes Virtue). Because it's so thin and flexible, it gains a <strong>+6 bonus to Defense against grapple attacks.</strong></p></div>",
+    "decrepitude": {
+      "points": 0,
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "finalScore": null
+    },
+    "personalities": {
+      "0": {
+        "name": "Hostile",
+        "score": 2
+      }
+    },
+    "reputations": {
+      "0": {
+        "name": "Venomous"
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 4
+        }
+      }
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": null
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    }
+  },
+  "items": [
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "prey",
+        "xp": 15,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "LhlP93EfrjxMhwDg",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.LhlP93EfrjxMhwDg"
+    },
+    {
+      "name": "Venomous",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 50,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "EtP2mC8HHqZ5jMCF",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.EtP2mC8HHqZ5jMCF"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Ambush Predator",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p><span class=\"internal-embed markdown-embed is-loaded\">The beast lies in wait for its prey, and catches it by surprise. Stealth 4 (stalking prey), Hunt 4 (prey). Specialization for Brawl changes to one of the beast's natural weapons. If it has successfully crept up on its prey, it automatically wins Initiative in the first round of combat, and gains a +3 to its Attack total for the first round only.</span></p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "ambush-predator",
+        "review_status": "needAE",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [
+        {
+          "origin": "Item.yNqZC4N6p3wUqLWn",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.bonuses.skills.hunt.upgrade",
+              "value": "4",
+              "mode": 4,
+              "priority": null
+            },
+            {
+              "mode": 4,
+              "key": "system.bonuses.skills.stealth.upgrade",
+              "value": "4",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "qualityAbilityBoost",
+                "qualityAbilityBoost"
+              ],
+              "subtype": [
+                "hunt",
+                "stealth"
+              ],
+              "option": [
+                null,
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Stealth 4 and Hunt 4",
+          "img": "icons/svg/aura.svg",
+          "_id": "Da3WAcATPS9lavxX",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!5C7iLLFve6CabZe9.7QYMtaYlHYuKanLD.Da3WAcATPS9lavxX"
+        },
+        {
+          "origin": "Item.yNqZC4N6p3wUqLWn",
+          "duration": {
+            "turns": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "attack",
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "optionalRollBonus"
+              ],
+              "subtype": [
+                "attack"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Attack +3 on ambush",
+          "img": "icons/svg/aura.svg",
+          "_id": "qmyHSH7jZnCOcJzt",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!5C7iLLFve6CabZe9.7QYMtaYlHYuKanLD.qmyHSH7jZnCOcJzt"
+        }
+      ],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "7QYMtaYlHYuKanLD",
+      "sort": 3900000,
+      "_key": "!actors.items!5C7iLLFve6CabZe9.7QYMtaYlHYuKanLD"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "fangs",
+        "xp": 15,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "NRrkqmTNVowA2NVR",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.NRrkqmTNVowA2NVR"
+    },
+    {
+      "name": "Hunt",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "rodents",
+        "xp": 50,
+        "key": "hunt",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "hunt",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "WO9KTCZhY2EZf5Sv",
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.WO9KTCZhY2EZf5Sv"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Loathsome Appearance",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>The creature is so repulsive that its Presence drops to –6. However, this should be treated as a Presence of +3 if the animal makes any attempt to scare or intimidate an opponent.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "loathsome-appearance",
+        "review_status": "needAE",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "KSx3LQQobtaTsfru",
+      "sort": 1300000,
+      "_key": "!actors.items!5C7iLLFve6CabZe9.KSx3LQQobtaTsfru"
+    },
+    {
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/stealth.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Sneaking about without being seen or heard, also hiding in one place. This includes following people without their noticing, which is rolled against the other person's Perception.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> hide, sneak, shadowing, urban areas, natural areas. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "stalking prey",
+        "xp": 50,
+        "key": "stealth",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "stealth",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "mro0g3vhtr9byCCY",
+      "sort": 5500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.mro0g3vhtr9byCCY"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Slippery",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>This creature has a +6 to Defense rolls against Grapple attacks. This Quality may be taken more than once; and the bonus rises by +3 each additional time it is taken.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "slippery",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "VZ7D2LatgnHtdWro",
+      "sort": 300000,
+      "_key": "!actors.items!5C7iLLFve6CabZe9.VZ7D2LatgnHtdWro"
+    },
+    {
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "grassy areas",
+        "xp": 30,
+        "key": "survival",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "survival",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "eyzI1OOI5KcGYKJK",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.eyzI1OOI5KcGYKJK"
+    },
+    {
+      "folder": "MewGclJOm3EmdeRI",
+      "name": "Venomous",
+      "type": "quality",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "system": {
+        "description": "<p>One of the cerature’s attacks (usually the bite) also delivers venom into the wound. Compare the Attack Advantage to the victim’s Protection (not Soak). If the creature’s advantage is higher, then the victim suffers the effect of the venom, regardless of whether the bite inflicts an actual wound. The venom can be of one of two strengths (chosen when Quality is taken) — the creature can choose from either: a venom that inflicts a Light Wound if a Stamina roll with an Ease Factor of 12 is failed; or one that inflicts a Medium Wound but has an Ease Factor of 9 to avoid the effects. This Quality may be taken more than once: each additional time increases the severity of the wound inflicted or adds three to the Ease Factor to avoid the effects.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "venomous",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "mundane",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "SKRS1CVHYdUgK7Dp",
+      "sort": 0,
+      "_key": "!actors.items!5C7iLLFve6CabZe9.SKRS1CVHYdUgK7Dp"
+    },
+    {
+      "name": "Infamous",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_g1gywhrffo",
+          "path": "Flaws#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>People know you well and curse you in their prayers. You have a level 4 bad Reputation, specifying the horrible deeds that earned you such ill will.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "infamous",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "UfPp46NPMX0jIrJv",
+      "_id": "wggZREzOYj2EFR2A",
+      "sort": 3300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.wggZREzOYj2EFR2A"
+    },
+    {
+      "name": "Lightning Reflexes",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You respond to surprises almost instantly. In fact, your reflexes are sometimes so fast that you don’t have a chance to think about how you are going to respond. Whenever you are surprised or startled, roll a stress die + Quickness. If you get a 3 or better, you respond reflexively. You must tell the storyguide on each occasion what one type of action (attacking, blocking, running, etc.) you would like to respond with. If attacking in response, you gain +9 to your Initiative Total. The storyguide is the final arbiter of what happens (though it is always in the best interests of your immediate self-preservation). You only react to threats that you are not fully aware of, so you don’t get a bonus against an assassin you watch sneak up on you. Note that you do not get a choice about whether to react. You could just as easily skewer a friend sneaking up in fun as you would an assassin about to strike. Also note that you must perceive an action to react to it — you can still be easily killed in your sleep. This Virtue gives you no special powers of perception.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "lightning-reflexes",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "LKHQ2OJnZqOBn3YZ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.LKHQ2OJnZqOBn3YZ"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Fangs",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fang-tooth-venomous.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "teeth",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "mythicPounds": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 3,
+        "dfn": 1,
+        "dam": 1,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "vBaSTzQeO4fRiiz5",
+      "sort": 1100000,
+      "_key": "!actors.items!5C7iLLFve6CabZe9.vBaSTzQeO4fRiiz5"
+    },
+    {
+      "name": "Hostile",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": ""
+      },
+      "_id": "PO2mmLoJd4DeCgkw",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5C7iLLFve6CabZe9.PO2mmLoJd4DeCgkw"
+    }
+  ],
+  "img": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
+  "prototypeToken": {
+    "name": "Adder (Viperis)",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "folder": "vWUpLQTIGWPEKQso",
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1748671593021,
+    "modifiedTime": 1748671661795,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "_id": "5C7iLLFve6CabZe9",
+  "sort": 1000000,
+  "_key": "!actors!5C7iLLFve6CabZe9"
+}
