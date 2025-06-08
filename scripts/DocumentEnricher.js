@@ -38,45 +38,46 @@ export class DocumentEnricher extends FormApplication {
     const dropData = TextEditor.getDragEventData(event);
     if (dropData.type === "Actor") {
       this.object.toEnrich = await fromUuid(dropData.uuid);
+      const type = this.object.toEnrich.type;
+      if (type == "player" || type == "npc" || type == "beast") {
+        this.object.updateData = [];
+        const actor = this.object.toEnrich;
 
-      if (!this.object.toEnrich._isCharacter()) {
+        this.object.report = `<h2>Name: ${actor.name}</h2>`;
+
+        // abilities:
+        this.object.report += `<h3>Abilities</h3>`;
+        this.object.report += `<label>Number of abilities: ${actor.system.abilities.length}</label>`;
+        // virtues :
+        this.object.report += `<h3>Virtues</h3>`;
+        this.object.report += `<label>Number of virtues: ${actor.system.virtues.length}</label>`;
+        // flaws
+        this.object.report += `<h3>Flaws</h3>`;
+        this.object.report += `<label>Number of flaws: ${actor.system.flaws.length}</label>`;
+        // equipment
+        this.object.report += `<h3>Equipment</h3>`;
+        this.object.report += `<label>Number of pieces of equipment: ${
+          actor.system.weapons.length + actor.system.armor.length
+        }</label>`;
+        // spells
+        this.object.report += `<h3>Spells</h3>`;
+        this.object.report += `<label>Number of spells: ${actor.system.spells.length}</label>`;
+        // } else if (dropData.type === "Folder") {
+        //   const folder = await fromUuid(dropData.uuid);
+        //   let rootFolder;
+        //   if (folder.type == "Actor") {
+        //     rootFolder = game.actors.folders.getName(target);
+        //   } else if (folder.type == "Item") {
+        //     rootFolder = game.items.folders.getName(target);
+        //   }
+        //   if (!rootFolder) {
+        //     rootFolder = await this._createFolder(target, folder.type, null);
+        //   }
+        //   await this._enrichFolderContents(folder, rootFolder._id);
+      } else {
         this.object.toEnrich = null;
         return;
       }
-      this.object.updateData = [];
-      const actor = this.object.toEnrich;
-
-      this.object.report = `<h2>Name: ${actor.name}</h2>`;
-
-      // abilities:
-      this.object.report += `<h3>Abilities</h3>`;
-      this.object.report += `<label>Number of abilities: ${actor.system.abilities.length}</label>`;
-      // virtues :
-      this.object.report += `<h3>Virtues</h3>`;
-      this.object.report += `<label>Number of virtues: ${actor.system.virtues.length}</label>`;
-      // flaws
-      this.object.report += `<h3>Flaws</h3>`;
-      this.object.report += `<label>Number of flaws: ${actor.system.flaws.length}</label>`;
-      // equipment
-      this.object.report += `<h3>Equipment</h3>`;
-      this.object.report += `<label>Number of pieces of equipment: ${
-        actor.system.weapons.length + actor.system.armor.length
-      }</label>`;
-      // spells
-      this.object.report += `<h3>Spells</h3>`;
-      this.object.report += `<label>Number of spells: ${actor.system.spells.length}</label>`;
-      // } else if (dropData.type === "Folder") {
-      //   const folder = await fromUuid(dropData.uuid);
-      //   let rootFolder;
-      //   if (folder.type == "Actor") {
-      //     rootFolder = game.actors.folders.getName(target);
-      //   } else if (folder.type == "Item") {
-      //     rootFolder = game.items.folders.getName(target);
-      //   }
-      //   if (!rootFolder) {
-      //     rootFolder = await this._createFolder(target, folder.type, null);
-      //   }
-      //   await this._enrichFolderContents(folder, rootFolder._id);
     } else {
       console.log("Not an actor");
     }

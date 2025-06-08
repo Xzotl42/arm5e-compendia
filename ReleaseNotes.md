@@ -4,6 +4,20 @@
 
 ### Compatibility
 
+- Verified for 12.343
+
+### Compendia DE integration
+
+- Hooks - V2 - added indexKeys
+
+### Changes
+
+- Fix to some utility macros
+
+## Version 0.10.0
+
+### Compatibility
+
 - System minimum version 2.3.2.28
 
 ### Compendia DE integration
