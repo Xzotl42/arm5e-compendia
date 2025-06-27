@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.10.1
+
+### Compendia DE integration
+
+- Boons - V2 : all official boons
+
 ## Version 0.10.0
 
 ### Compatibility
