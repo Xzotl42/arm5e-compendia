@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 0.10.2
+
+### Changes
+
+- added base effects to spells compendium
+- level is now precomputed for spells for easier indexing (even if it is recomputed on change)
+
 ## Version 0.10.1
 
 ### Compendia DE integration

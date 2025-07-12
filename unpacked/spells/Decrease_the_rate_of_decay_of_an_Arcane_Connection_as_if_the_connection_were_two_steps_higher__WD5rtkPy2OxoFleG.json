@@ -1,0 +1,61 @@
+{
+  "name": "Decrease the rate of decay of an Arcane Connection as if the connection were two steps higher.",
+  "type": "baseEffect",
+  "img": "icons/commodities/materials/parchment-secrets.webp",
+  "effects": [],
+  "folder": "DWjf8tAvdmAEQTwG",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1752302469202,
+    "modifiedTime": 1752302469202,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form": {
+      "value": "vi"
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "baseEffectDescription": "<p style=\"text-align: justify;\">If this increases the Duration to Years or greater, the duration of the connection continues to be measured in a period of years. Hermetic magic cannot make an Arcane Connection last indefinitely without fixing the connection as described in ArM5, page 94. Note that the range is the range to the Arcane Connection, and you must know what you are targeting just like any other spell.</p>",
+    "baseLevel": 10,
+    "description": "",
+    "source": "custom",
+    "page": 0,
+    "indexKey": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "credits": ""
+  },
+  "_id": "WD5rtkPy2OxoFleG",
+  "sort": 0,
+  "_key": "!items!WD5rtkPy2OxoFleG"
+}
