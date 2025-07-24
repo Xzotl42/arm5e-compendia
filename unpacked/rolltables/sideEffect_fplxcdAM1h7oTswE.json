@@ -1,0 +1,165 @@
+{
+  "name": "sideEffect",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Simple Die</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "C9O9nz6SfBIaNLQZ",
+      "text": "sigil",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.C9O9nz6SfBIaNLQZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "C5kMJysCq72W68Hp",
+      "text": "minorFlaw",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.C5kMJysCq72W68Hp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "KCy5a4jq7I1qDnfF",
+      "text": "minorSideEffect",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.KCy5a4jq7I1qDnfF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "8ecJ6EFfUwDOQbHJ",
+      "text": "minorSideBenefit",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.8ecJ6EFfUwDOQbHJ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "IVj7Q3PqZDf3IvTo",
+      "text": "majorFlaw",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.IVj7Q3PqZDf3IvTo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "lbAex24EcFqJcIge",
+      "text": "majorSideBenefit",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.lbAex24EcFqJcIge"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "omCvvRUyt9YYGvXM",
+      "text": "majorSideBenefit",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.omCvvRUyt9YYGvXM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "t4XDK5FvehnxOK8Q",
+      "text": "fatalFlaw",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!fplxcdAM1h7oTswE.t4XDK5FvehnxOK8Q"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "5h8zlEzGcp8XuAm9",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "ars-magica",
+      "system": "arm5e",
+      "coreVersion": "10.303",
+      "systemVersion": "2.1.0.14"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1752692977144,
+    "modifiedTime": 1753380514906,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "formula": "1d10",
+  "_id": "fplxcdAM1h7oTswE",
+  "sort": 0,
+  "_key": "!tables!fplxcdAM1h7oTswE"
+}

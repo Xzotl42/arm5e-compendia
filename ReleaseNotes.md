@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 0.10.3
+
+### Changes
+
+- new internal roll tables for Arcane Experimentation
+- new macro for Arcane Experimentation
+
 ## Version 0.10.2
 
 ### Changes
