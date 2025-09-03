@@ -1,0 +1,32 @@
+{
+  "name": "Quick magic",
+  "type": "script",
+  "scope": "global",
+  "author": "xMd6zrGNn4dbQYey",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "command": "const tokens = canvas.tokens.controlled;\n\nif (tokens.length == 1 ){\n  await quickMagic(tokens[0]);\n} else {\n  ui.notifications.info(\"No Tokens or too many tokens were selected\");\n}\n\nasync function quickMagic(token){\n  if (!token.isOwner) {\n    ui.notifications.info(\"You don't own that token\");\n  }\n  let actor = token.actor;\n  \n  \n  await actor.sheet.quickMagic(token.name);\n  \n}\n\n\t\nfunction printMessage(message){\n  let chatData = {\n    user : game.user._id,\n    content : message,\n    blind: true,\n    whisper : game.users.filter(u => u.isGM).map(u => u.id)\n  };\n  ChatMessage.create(chatData,{});\t\n}",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3,
+    "xMd6zrGNn4dbQYey": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Macro.JD9ajV5NV48yI7fv"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Macro.JD9ajV5NV48yI7fv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.13",
+    "createdTime": 1756497865649,
+    "modifiedTime": 1756497865649,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey"
+  },
+  "folder": "2uW3ICAU7LfWYfbq",
+  "_id": "BN2lYZMtvX7MX6cj",
+  "sort": 0,
+  "_key": "!macros!BN2lYZMtvX7MX6cj"
+}

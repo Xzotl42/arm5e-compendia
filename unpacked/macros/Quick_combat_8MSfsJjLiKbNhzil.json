@@ -1,0 +1,32 @@
+{
+  "name": "Quick combat",
+  "type": "script",
+  "scope": "global",
+  "author": "xMd6zrGNn4dbQYey",
+  "img": "icons/skills/melee/sword-shield-stylized-white.webp",
+  "command": "const tokens = canvas.tokens.controlled;\n\nif (tokens.length == 1 ){\n  await quickCombat(tokens[0]);\n} else {\n  ui.notifications.info(\"No Tokens or too many tokens were selected\");\n}\n\nasync function quickCombat(token){\n  if (!token.isOwner) {\n    ui.notifications.info(\"You don't own that token\");\n  }\n  let actor = token.actor;\n  \n  \n  await actor.sheet.quickCombat(token.name);\n  \n}\n\n\t\nfunction printMessage(message){\n  let chatData = {\n    user : game.user._id,\n    content : message,\n    blind: true,\n    whisper : game.users.filter(u => u.isGM).map(u => u.id)\n  };\n  ChatMessage.create(chatData,{});\t\n}",
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3,
+    "xMd6zrGNn4dbQYey": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Macro.5rEb7IVg2dJRWd73"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Macro.5rEb7IVg2dJRWd73",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.13",
+    "createdTime": 1756497823210,
+    "modifiedTime": 1756497863126,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey"
+  },
+  "folder": "2uW3ICAU7LfWYfbq",
+  "_id": "8MSfsJjLiKbNhzil",
+  "sort": 100000,
+  "_key": "!macros!8MSfsJjLiKbNhzil"
+}

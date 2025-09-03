@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 0.10.4
+
+### Changes
+
+- Anchored by <land> flaw fix
+- Added Quick UI macros to the compendium
+
 ## Version 0.10.3
 
 ### Changes
