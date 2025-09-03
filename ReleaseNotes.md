@@ -6,6 +6,7 @@
 
 - Anchored by <land> flaw fix
 - Added Quick UI macros to the compendium
+- All compendia have been put in a folder and their name shortened for easier browsing
 
 ## Version 0.10.3
 
