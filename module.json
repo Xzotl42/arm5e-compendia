@@ -42,10 +42,37 @@
   ],
   "esmodules": ["scripts/module.js"],
   "styles": ["css/arm5e-compendia.css"],
+  "packFolders": [
+    {
+      "name": "Ars Magica Compendia",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "characters",
+        "abilities",
+        "virtues",
+        "flaws",
+        "spells",
+        "equipment",
+        "creatures",
+        "covenants",
+        "journals",
+        "macros",
+        "laboratory-virtues",
+        "laboratory-flaws",
+        "boons",
+        "hooks",
+        "rolltables"
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "characters",
-      "label": "Ars Magica - Characters",
+      "label": "Characters",
       "path": "packs/characters.db",
       "type": "Actor",
       "ownership": {
@@ -57,7 +84,7 @@
     },
     {
       "name": "creatures",
-      "label": "Ars Magica - Creatures",
+      "label": "Creatures",
       "path": "packs/creatures.db",
       "type": "Actor",
       "ownership": {
@@ -69,7 +96,7 @@
     },
     {
       "name": "covenants",
-      "label": "Ars Magica - Covenants",
+      "label": "Covenants",
       "path": "packs/covenants.db",
       "type": "Actor",
       "ownership": {
@@ -81,7 +108,7 @@
     },
     {
       "name": "macros",
-      "label": "Ars Magica - Macros",
+      "label": "Macros",
       "path": "packs/macros.db",
       "type": "Macro",
       "ownership": {
@@ -93,7 +120,7 @@
     },
     {
       "name": "journals",
-      "label": "Ars Magica - Journals",
+      "label": "Journals",
       "path": "packs/journals.db",
       "type": "JournalEntry",
       "ownership": {
@@ -105,7 +132,7 @@
     },
     {
       "name": "abilities",
-      "label": "Ars Magica - Abilities",
+      "label": "Abilities",
       "path": "packs/abilities.db",
       "type": "Item",
       "ownership": {
@@ -117,7 +144,7 @@
     },
     {
       "name": "virtues",
-      "label": "Ars Magica - Virtues",
+      "label": "Virtues",
       "path": "packs/virtues.db",
       "type": "Item",
       "ownership": {
@@ -129,7 +156,7 @@
     },
     {
       "name": "flaws",
-      "label": "Ars Magica - Flaws",
+      "label": "Flaws",
       "path": "packs/flaws.db",
       "type": "Item",
       "ownership": {
@@ -141,7 +168,7 @@
     },
     {
       "name": "spells",
-      "label": "Ars Magica - Spells",
+      "label": "Spells",
       "path": "packs/spells.db",
       "type": "Item",
       "ownership": {
@@ -153,7 +180,7 @@
     },
     {
       "name": "laboratory-virtues",
-      "label": "Ars Magica - Laboratory Virtues",
+      "label": "Laboratory Virtues",
       "path": "packs/laboratory-virtues.db",
       "type": "Item",
       "ownership": {
@@ -165,7 +192,7 @@
     },
     {
       "name": "laboratory-flaws",
-      "label": "Ars Magica - Laboratory Flaws",
+      "label": "Laboratory Flaws",
       "path": "packs/laboratory-flaws.db",
       "type": "Item",
       "ownership": {
@@ -177,7 +204,7 @@
     },
     {
       "name": "boons",
-      "label": "Ars Magica - Covenant Boons",
+      "label": "Covenant Boons",
       "path": "packs/boons.db",
       "type": "Item",
       "ownership": {
@@ -189,7 +216,7 @@
     },
     {
       "name": "hooks",
-      "label": "Ars Magica - Covenant Hooks",
+      "label": "Covenant Hooks",
       "path": "packs/hooks.db",
       "type": "Item",
       "ownership": {
@@ -201,7 +228,7 @@
     },
     {
       "name": "equipment",
-      "label": "Ars Magica - Equipment",
+      "label": "Equipment",
       "path": "packs/equipment.db",
       "type": "Item",
       "ownership": {
@@ -213,7 +240,7 @@
     },
     {
       "name": "rolltables",
-      "label": "Ars Magica - Rolltables",
+      "label": "Rolltables",
       "path": "packs/rolltables.db",
       "type": "RollTable",
       "ownership": {
