@@ -1,5 +1,22 @@
 # Release notes
 
+## Version 0.11.0
+
+### Compendia DE integration
+
+- Virtues - V5 **UPDATE**
+  - Added Hedge Magic (revised) virtues
+  - Added RoP:I virtues
+  - Various fixes
+- Flaws - V6 **UPDATE**
+  - Added Hedge Magic (revised) flaws
+  - Added RoP:I flaws
+
+### Changes
+
+- Updated instructions for customizeConfig hook
+- All compendia have been put in a folder and their name shortened for easier browsing
+
 ## Version 0.10.4
 
 ### Changes

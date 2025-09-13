@@ -1,0 +1,97 @@
+{
+  "folder": "zbXsj4TBQ7fnb7ME",
+  "name": "Sense Passions",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">The character can see into the hearts and minds of others, learning their weaknesses, fears, and evil thoughts. This gives her the Supernatural Ability Sense Passions at 1, described in more detail under New Abilities, below.</span></p>",
+    "source": "RoP:I",
+    "page": 86,
+    "indexKey": "sense-passions",
+    "review_status": "toReview",
+    "reviewer": "",
+    "credits": "",
+    "type": "other",
+    "impact": {
+      "value": "major"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.pr0MRPYkJ7FLHauz",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.skills.supernatural_sense-passions.xpMod",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "supernatural"
+          ],
+          "option": [
+            "sense-passions"
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Xp bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "k2bWBXxnSF74JWn3",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.16",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!pr0MRPYkJ7FLHauz.k2bWBXxnSF74JWn3"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.16",
+    "createdTime": 1757740088763,
+    "modifiedTime": 1757740088763,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "pr0MRPYkJ7FLHauz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!pr0MRPYkJ7FLHauz"
+}

@@ -1,0 +1,97 @@
+{
+  "folder": "zbXsj4TBQ7fnb7ME",
+  "name": "Chthonic Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">Something about the character’s magic is very sinister or dark, and because of this he can benefit from many aspects of the Infernal realm even if he is not actually evil. This gives the character the Supernatural Ability Chthonic Magic at 1, and has other benefits as well, described below under New Abilities and in Chapter 12: Black Magic.</span></p>",
+    "source": "RoP:I",
+    "page": 83,
+    "indexKey": "chthonic-magic",
+    "review_status": "toReview",
+    "reviewer": "",
+    "credits": "",
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.fp08ScQX9Dyel09d",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.skills.arcaneAbility_chthonic-magic.xpMod",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusArcaneAbility"
+          ],
+          "subtype": [
+            "arcaneAbility"
+          ],
+          "option": [
+            "chthonic-magic"
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Xp bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "Qc609cHx6x7EbEUj",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.16",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!fp08ScQX9Dyel09d.Qc609cHx6x7EbEUj"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.16",
+    "createdTime": 1757740088763,
+    "modifiedTime": 1757740088763,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "fp08ScQX9Dyel09d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!fp08ScQX9Dyel09d"
+}

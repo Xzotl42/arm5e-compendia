@@ -1,0 +1,97 @@
+{
+  "folder": "zbXsj4TBQ7fnb7ME",
+  "name": "Binding",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">Binding is the Art of forcing a demon or a similarly incorporeal spirit into a physical object or person, for one of many different purposes. It is combined with Summoning to produce an effect, as described in Chapter 11: Ars Goetia. Taking this Virtue opens the character’s score in the Binding Art at 0.</span></p>",
+    "source": "RoP:I",
+    "page": 83,
+    "indexKey": "binding",
+    "review_status": "toReview",
+    "reviewer": "",
+    "credits": "",
+    "type": "other",
+    "impact": {
+      "value": "major"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.p0FoKxFppxGG1GbV",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.skills.supernatural_binding.xpMod",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "supernatural"
+          ],
+          "option": [
+            "binding"
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Xp bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "WR8z9JP3TNZUjSOZ",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.16",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!p0FoKxFppxGG1GbV.WR8z9JP3TNZUjSOZ"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.16",
+    "createdTime": 1757740088763,
+    "modifiedTime": 1757740088763,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "p0FoKxFppxGG1GbV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!p0FoKxFppxGG1GbV"
+}

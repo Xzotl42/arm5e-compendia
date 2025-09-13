@@ -1,0 +1,97 @@
+{
+  "folder": "zbXsj4TBQ7fnb7ME",
+  "name": "Summoning",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">This Virtue gives the character the primary Art of the Ars Goetia, Summoning. She begins with this Art at 0, and may increase it through study and practice. When combined with the other Goetic Arts, she can bind, destroy, and control demons and other spirits, as described in Chapter 11: Ars Goetia.</span></p>",
+    "source": "RoP:I",
+    "page": 86,
+    "indexKey": "summoning",
+    "review_status": "toReview",
+    "reviewer": "",
+    "credits": "",
+    "type": "other",
+    "impact": {
+      "value": "major"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.el5h0oBSGPdTPd2Y",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.skills.supernatural_summoning.xpMod",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "supernatural"
+          ],
+          "option": [
+            "summoning"
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Xp bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "w72O64YQtBcNWsUW",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.16",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!el5h0oBSGPdTPd2Y.w72O64YQtBcNWsUW"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.16",
+    "createdTime": 1757740088763,
+    "modifiedTime": 1757740088763,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "el5h0oBSGPdTPd2Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!el5h0oBSGPdTPd2Y"
+}

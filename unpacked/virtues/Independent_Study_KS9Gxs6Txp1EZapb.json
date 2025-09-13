@@ -2,7 +2,73 @@
   "name": "Independent Study",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.KS9Gxs6Txp1EZapb",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.activities.adventuring",
+          "value": "3",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.practice",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities",
+            "activities"
+          ],
+          "subtype": [
+            "adventuring",
+            "practice"
+          ],
+          "option": [
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "XP bonus on Adventuring and Practice",
+      "img": "icons/svg/aura.svg",
+      "_id": "VT8ukVbpdR2FqIsF",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.16",
+        "createdTime": 1757739075063,
+        "modifiedTime": 1757739158062,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!items.effects!KS9Gxs6Txp1EZapb.VT8ukVbpdR2FqIsF"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {
