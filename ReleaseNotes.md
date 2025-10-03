@@ -1,5 +1,13 @@
 # Release notes
 
+## Version 0.11.1
+
+### Changes
+
+- Minor fixes
+
+# Release notes
+
 ## Version 0.11.0
 
 ### Compendia DE integration
@@ -15,7 +23,6 @@
 ### Changes
 
 - Updated instructions for customizeConfig hook
-- All compendia have been put in a folder and their name shortened for easier browsing
 
 ## Version 0.10.4
 
