@@ -78,16 +78,20 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": true
+        "aligned": true,
+        "susceptible": false
       }
     },
     "states": {
@@ -1483,10 +1487,10 @@
     "systemId": "arm5e",
     "systemVersion": "2.4.0.4",
     "createdTime": 1748672049249,
-    "modifiedTime": 1748672049249,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "modifiedTime": 1760853264148,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "2OSJ8dGQdPPaGIKt",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!actors!2OSJ8dGQdPPaGIKt"
 }

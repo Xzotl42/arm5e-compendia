@@ -118,6 +118,11 @@ export class ActorImporter extends FormApplication {
     this.object.currentItems = [];
     this.object.toReview = [];
     let counter = 1;
+    const folderName = "Imported Actors";
+    let folder = game.folders.getName(folderName);
+    if (!folder) {
+      [folder] = await Folder.create([{ name: folderName, type: "Actor" }]);
+    }
 
     for (let file of files) {
       let json = await foundry.utils.fetchJsonWithTimeout(file);
@@ -133,9 +138,9 @@ export class ActorImporter extends FormApplication {
         // if (!json.system["Magic Might"]) continue;
         console.log(`Importing Actor "${json.name}"`);
         const imported = await this.importCharacter(json);
-
+        imported.folder = folder._id;
         //
-        let [actor] = await Actor.createDocuments([imported], { folder: "test" });
+        let [actor] = await Actor.createDocuments([imported]);
 
         // imported.items = this.object.currentItems;
 

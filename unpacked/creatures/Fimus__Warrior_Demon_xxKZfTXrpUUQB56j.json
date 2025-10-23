@@ -15,7 +15,7 @@
     },
     "description": {
       "born": {
-        "value": 1199
+        "value": 1196
       },
       "apprentice": {
         "value": "10"
@@ -78,16 +78,20 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": true
+        "aligned": true,
+        "susceptible": false
       }
     },
     "states": {
@@ -1401,13 +1405,13 @@
       "_key": "!actors.items!xxKZfTXrpUUQB56j.ekSj24AJQWw9Ey3Q"
     },
     {
-      "name": "Obsession",
+      "name": "Obsession (cowardice)",
       "type": "power",
       "system": {
         "description": "<p>Cowardice. See Chapter 4. Infernal Legions, Demonic Powers.</p><p>Obsession, 1-3 points, Init -5, Vim: Every demon possesses a particular sin called its Obsession Trait - which it may attempt to impose upon a mortal whenever the mortal indulges in a venial sin. A demon can only use this Power when there is a chink in the armour of virtue; that is, when a person is indulging in sinful thoughts or deeds. At such moments, the demon can impose its Obsession Trait, if it penetrates Magic Resistance. The victim is assailed with sinful thoughts, and acquires a Personality Trait to represent these thoughts, with a score equal to the number of Might Points spent by the demon (maximum of 3). When the victim is next presented with the opportunity to act on the Obsession Trait, the victim's player must make a simple roll and add the Obsession Trait; the result must be lower than a simple roll + any other suit- able opposed Personality Trait to success- fully resist the impulses. (A second trait which is similar to the imposed trait may act as a penalty instead). If the Obsession roll fails, then the demon's Power has failed and the Obsession Trait is lost. If the Obsession roll is higher, the victim gives in to sin, permanently acquiring the Obsession Trait at +1 (or increases it by one if he already possesses it). Any further succumbing to this trait counts as sinful, rather than as an action forced by a demon.</p><p>Each demon can inflict only certain traits, representing its particular role in the corruption of mankind; these are listed under the creature's Powers. Due to its low initiative, it is unusual for demons to use this Power when in physical combat.</p>",
-        "source": "custom",
+        "source": "RoP:I",
         "page": 0,
-        "indexKey": "",
+        "indexKey": "obsesion",
         "review_status": "toReview",
         "reviewer": "",
         "form": "vi",
@@ -1431,10 +1435,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.0.28",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1760854425428,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_key": "!actors.items!xxKZfTXrpUUQB56j.62vddz7blnYjU5NI"
     },
@@ -1644,12 +1648,12 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.4",
+    "systemVersion": "2.4.0.28",
     "createdTime": 1748672046437,
-    "modifiedTime": 1748672046437,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "modifiedTime": 1760854442513,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "xxKZfTXrpUUQB56j",
-  "sort": 0,
+  "sort": 300000,
   "_key": "!actors!xxKZfTXrpUUQB56j"
 }

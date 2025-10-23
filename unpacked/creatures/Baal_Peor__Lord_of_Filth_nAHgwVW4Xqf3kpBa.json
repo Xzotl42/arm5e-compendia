@@ -1,0 +1,1819 @@
+{
+  "name": "Baal-Peor, Lord of Filth",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1196
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "baal-peor-lord-of-filth",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 3,
+      "points": 9
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": true,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Weakness:</strong> Running water<br><strong>Vis:</strong> 6 pawns of Perdo, in tongue<br><strong>Appearance:</strong> Baal-Peor appears as an immensely fat naked man, with rolls of flab cascading down his body. He is completely hairless, and has a repulsive, snake–like tongue. He wears a serpent wrapped around his girth like a belt, and its head is usually draped over his shoulder.</p></div><div class=\"el-p\"><p dir=\"auto\">Baal-Peor (or Belphegor) is a demon of wealth. He creates discord by moving mortal riches in disruptive ways (using the <em>Wealth of Nations</em> power). He gives money to the vulnerable, so that the strong are tempted to take it. He gives the possessions of the powerful to others. This tempts the recipients to keep their stolen treasures, and rouses the powerful to recover them by force.</p></div><div class=\"el-p\"><p dir=\"auto\">Baal-Peor was worshipped, in ancient times, less as a wealth-god than as an embodiment of the desire to consume everything and transform it into vileness. His title, \"Lord of the Openings\" describes him: an unfillable mouth leading to a ceaseless defecation. Priests and pilgrims used the space before his statue as a latrine, as a form of worship. Baal-Peor, it is said, was sent by his masters to seek the truth of rumors that humans lived in marital bliss. He tried to live as a woman, but was so disgusted by marital relations that he fled back to Hell.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": 1,
+        "aging": 0
+      },
+      "per": {
+        "value": 2,
+        "aging": 0
+      },
+      "str": {
+        "value": 4,
+        "aging": 0
+      },
+      "sta": {
+        "value": 5,
+        "aging": 0
+      },
+      "pre": {
+        "value": -5,
+        "aging": 0
+      },
+      "com": {
+        "value": 1,
+        "aging": 0
+      },
+      "dex": {
+        "value": 1,
+        "aging": 0
+      },
+      "qik": {
+        "value": 1,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 1
+      },
+      "soa": {
+        "value": 8
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": {
+      "0": {
+        "name": "Treasurer of Hell"
+      },
+      "1": {
+        "name": "Demon of Filth"
+      }
+    },
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "co",
+      "value": 30,
+      "points": 30
+    },
+    "powers": [],
+    "realm": "infernal",
+    "personalities": {
+      "0": {
+        "name": "Proud",
+        "score": 6
+      },
+      "1": {
+        "name": "Hungry",
+        "score": 3
+      },
+      "2": {
+        "name": "Shame",
+        "score": -3
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 6
+        }
+      },
+      "1": {
+        "system": {
+          "score": 5
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Form of Woman",
+      "type": "power",
+      "system": {
+        "description": "<p>Corpus: Baal-Peor can take the form of a woman, although he cannot use this power to mimic a specific woman. He always chooses a form which will be considered beautiful by the target audience of his schemes.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "form-of-woman",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "lizHZazFxFaZXG4W",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": 1760880676242,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.lizHZazFxFaZXG4W"
+    },
+    {
+      "name": "Noxious Vomit",
+      "type": "power",
+      "system": {
+        "description": "<p>Corpus: This power allows Baal-Peor to spray vast amounts of vomit (or, facing the other way, even less pleasant substances) through an area. His vomit is an expression of his spiritual vileness, and does the damage indicated in his combat statistic through corrosion, except to characters with True Faith, whom it cannot touch. The target must make a Strength + Size stress roll against an Ease Factor of 9 or be sent flying backwards. Anyone successfully struck by this vileness continues to suffer +3 damage in each round until it is washed off. This damage does not stack for multiple successful attacks.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "noxious-vomit",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 1,
+        "init": 9,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "PM7QHaDcGqlx8IZd",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": 1760880734107,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.PM7QHaDcGqlx8IZd"
+    },
+    {
+      "name": "Proud",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 105,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "FxwZCtKKoXC8mjco",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": 1760880219517,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.FxwZCtKKoXC8mjco"
+    },
+    {
+      "name": "Hungry",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "85Nj844YUTOL7qvG",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": 1760880260541,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.85Nj844YUTOL7qvG"
+    },
+    {
+      "name": "Shame",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": -30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "nt0YXFhhAD6QgmWP",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": 1760880276827,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.nt0YXFhhAD6QgmWP"
+    },
+    {
+      "name": "Artes Liberales*",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/artesLib.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The seven artes liberales, or liberal arts, are the basis of medieval higher education. Everyone learns them at the universities before passing on to study other subjects. It would be very rare for a character to have a score in any other Academic Knowledge without a score of at least one in this.</p><p style=\"text-align: justify\">The artes liberales are divided into two groups: the Trivium (grammar, logic, and rhetoric) and the Quadrivium (arithmetic, geometry, astronomy, and music). The emphasis at this period is on the Trivium, but both are taught. (Note that Artes Liberales as a whole is one Skill, not seven separate ones.)</p><p style=\"text-align: justify\">Grammar concerns theoretical questions of the structure of languages, rather than the ability to use a specific language (that is covered by Speak skills). The authorities are Priscian and Donatus. Logic is the study of the syllogism, and other forms of reasoning discussed by Aristotle. It is the most important of the arts at this period. Aristotle is the authority, in his <em>logica vetus </em>and <em>logica nova</em>. Rhetoric is the study of the theory of rhetorical forms: knowledge of the sort of tricks that an orator can use, rather than the ability to use them. The authority is Cicero, especially his <em>De Inventione</em>.</p><p style=\"text-align: justify\">Arithmetic is the ability to add and subtract, multiply and divide. The authority is Boethius, <em>De arithmetica</em>. Geometry is concerned with study of plane and solid figures, and the authority is Euclid, in his <em>Elementa</em>. It also deals with the study of light, and Euclid's <em>Optica</em> is the authority here. Astronomy is concerned with predicting the positions of the stars and planets, and the authority is Ptolemy, in the <em>Libri Almagesti</em>. Music is purely theoretical, the study of proportions and musical theory, not the ability to sing or play an instrument. The authority is Boethius, in <em>De Musica</em>.</p><p style=\"text-align: justify\">Artes Liberales also covers the ability to read and write. For every point in the Ability, the character can read and write one writing system, providing that he knows a language which normally uses that system: the Latin alphabet, the Greek alphabet, the Arabic alphabet, and so on.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> grammar, logic, rhetoric, arithmetic, geometry, astronomy, music, Ritual magic, Ceremonial magic. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "arithmetic",
+        "key": "artesLib",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "artes-liberales",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 50
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.GhxO6KomdJ7lO7qc",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "RSB3z4U2Z4any42F",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.RSB3z4U2Z4any42F"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "claws",
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 50
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.gDKigulrSOhX1Vh7",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "etAD8WMDPfbIBCyt",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.etAD8WMDPfbIBCyt"
+    },
+    {
+      "name": "Civil & Canon Law",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/law.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Civil Law is the law of the Roman Empire. Most local legal systems are based upon it (England being the notable exception), and when a law is needed to govern international relations, Civil Law is appealed to. The authority is Justinian's Digest. Canon Law is the law of the Church. It is important to Mythic Europe as it applies in all nations, governing the working of the church and some other areas, such as marriage. It is important to note that members of the clergy are only subject to Canon Law, not customary or Civil Law. Most high churchmen are skilled canonists, not theologians. Canon Law is made by Papal bulls (pronouncements), but the authority is Gratian, in his Decretum. This skill covers the knowledge of both types of law. Other religions, particularly Judaism and Islam, have their own versions of this Ability, which must be learned separately.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> laws and customs of a specific area, papal laws. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "trade",
+        "key": "law",
+        "option": "civil-canon-law",
+        "realm": "magic",
+        "indexKey": "civil-canon-law",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 50
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.kpqiCnq9iu9jueyj",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "ggiq2ErPSIYHRNUD",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.ggiq2ErPSIYHRNUD"
+    },
+    {
+      "name": "Treasurer of Hell",
+      "type": "reputation",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "xp": 105,
+        "type": "infernal"
+      },
+      "_id": "WZYBtStNY86qXcgp",
+      "img": "icons/svg/angel.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880287553,
+        "modifiedTime": 1760880307782,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.WZYBtStNY86qXcgp"
+    },
+    {
+      "name": "Demon of Filth",
+      "type": "reputation",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "xp": 75,
+        "type": "infernal"
+      },
+      "_id": "Jg9IpYBf1qRPfwyt",
+      "img": "icons/svg/angel.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880316921,
+        "modifiedTime": 1760880323322,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.Jg9IpYBf1qRPfwyt"
+    },
+    {
+      "name": "Folk Ken",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/folkKen.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Understanding the background, personality, and motives of another person. Often the storyguide secretly rolls a die when this Ability is used. Thus, you do not know if your character guessed correctly, or even botched.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> peasants, townsfolk, nobles, clergy, magi, the opposite sex. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "fornication",
+        "key": "folkKen",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "folk-ken",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 105
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.9ocsdOchuGNtv9nH",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880349110,
+        "modifiedTime": 1760880365741,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "TdRVpTasDzLDRQIH",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.TdRVpTasDzLDRQIH"
+    },
+    {
+      "name": "Infernal Lore*",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/infernalLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">An understanding and familiarity with the sinister side of the world, primarily the Infernal and its agents. Includes knowledge of demons and their habits and weaknesses, undead and their habits and weaknesses, and the power of curses.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> demons, undead, curses. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "wealth",
+        "key": "infernalLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "infernal-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 75
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.jNc8xBPcrQUJlGkN",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880397650,
+        "modifiedTime": 1760880403510,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "G51lIE5pXanzfwtw",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.G51lIE5pXanzfwtw"
+    },
+    {
+      "name": "Intrigue",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/intrigue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Dealing and plotting, including subtle use of power in non-confrontational ways to achieve your own ends. Intrigue need not be underhanded or manipulative - it also covers negotiations and knowledge of formal and informal rules of conduct and politeness. In addition, Intrigue also allows a character to pick up important information about those in power, separating fact from useless gossip. Intrigue is a vital talent for those who frequent court or a Hermetic Tribunal.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> gossip, plotting, rumormongering, alliances. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "envy",
+        "key": "intrigue",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "intrigue",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 140
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.GkZeM6xhRgKdFQzu",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880417756,
+        "modifiedTime": 1760880427050,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "ZBtaQ8ZbHyMbNHfs",
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.ZBtaQ8ZbHyMbNHfs"
+    },
+    {
+      "name": "Medicine*",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/medicine.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Medicine is the formal study of the body and its diseases. Medical practice is based on the theory of the four humors: blood, phlegm, yellow bile, and black bile. Diseases are believed to be caused by imbalances among them, hence such practices as bloodletting, to restore the balance. Medicine also deals with treating poisons and the results of starvation and the like, but not with treating wounds (see \"Chirurgy,\" above). The authorities are Galen and Hippocrates, in many works.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> anatomy, apothecary, physician. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "poisons",
+        "key": "medicine",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "medicine",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 50
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.xww0Cs8dYQi4Kk5A",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880440605,
+        "modifiedTime": 1760880452829,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "F7of70lYLzVmZqgQ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.F7of70lYLzVmZqgQ"
+    },
+    {
+      "name": "Profession: Merchant",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/profession.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_objljw4w1kp",
+          "path": "Abilities#/CF_SEP/General, Professions",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The ability to do a job which does not involve making something. Examples include jongleur, reeve, sailor, steward, teamster, and washerwoman.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> depend on the profession. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "unfair deals",
+        "key": "profession",
+        "option": "Merchant",
+        "realm": "magic",
+        "indexKey": "profession-merchant",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 140
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.MlKq5NOn1CuEy1OG",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880469254,
+        "modifiedTime": 1760880479805,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "2WVq3rZBGRxGccwM",
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.2WVq3rZBGRxGccwM"
+    },
+    {
+      "name": "Coagulation",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">1 point per 10 Might (or fraction), Init –1, Corpus: This power allows demons manufacture a solid body from the ambient, unformed matter of the universe. They may only take a single specific form with this power (the one described under Appearance in the demon's statistics) unless they have another power which allows them to alter it. Manifesting a physical form takes a round for every point of Infernal Might possessed by the demon; those with a high Infernal Might have more power which they must collect and force into solid form. The demon can end this power at any time, allowing its body to become finer and more rarefied and return to its natural state. Dissolution of the solid form is almost instantaneous, taking only a round of concentration from the demon, although this concentration may be disrupted.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">The game statistics of a demon do not change regardless of whether it is in its physical or spiritual form, although a demon in spiritual form may not use its physical Characteristics. This power may not be a Corpus effect if the demon's body is naturally of a different substance, such as composed of elemental matter, or in the shape of an animal. Demons in Christian lands are forced to abandon their coagulated form on Holy Saturday (see Religious Limitations on Demons, later).</span></p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "coagulation",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 3,
+        "init": -1,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "xKEI3Y8GkEjxfVLn",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880557812,
+        "modifiedTime": 1760880571497,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.xKEI3Y8GkEjxfVLn"
+    },
+    {
+      "name": "Obsession (Shamelessness, Gluttony)",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">1 to 3 points, Init –5, Vim: Every demon possesses a particular sin — called its Obsession Trait — which it may attempt to impose upon a mortal whenever the mortal indulges in a venial sin. A demon can only use this power when there is a chink in the armor of virtue; that is, when a person is indulging in sinful thoughts or deeds. At this moment, the demon can impose its Obsession trait, if it penetrates Magic Resistance. The victim is assailed with sinful thoughts, and acquires a Personality Trait to represent these thoughts, with a score equal to the number of Might points spent by the demon (maximum of 3). When the victim is next presented with the opportunity to act on the Obsession Trait, the victim's player must make a simple roll and add the Obsession Trait; this must be lower than a simple roll + any other suitable Personality Trait to successfully resist the impulses (a Trait which is similar to the imposed Trait may act as a penalty instead). If the Obsession roll fails, then the demon's power has failed and the Obsession trait is lost. If the Obsession roll is higher, the victim gives in to sin, permanently acquiring the Obsession Trait at +1 (or increasing it by one if he already possesses it). Any further succumbing to this trait counts as sinful, rather than as an action forced by a demon.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">Each demon can inflict only certain traits, representing its particular role in the corruption of mankind; these Personality Traits are listed under the creature's powers. Due to its low initiative, it is unlikely that this power will be used by a demon when in physical combat.</span></p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "obsession",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 1,
+        "credits": "",
+        "init": -5,
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "goOXnL0WWfVkswMz",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 250000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.22piQPXnfNuNbpmM",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880577990,
+        "modifiedTime": 1760880603101,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.goOXnL0WWfVkswMz"
+    },
+    {
+      "name": "Swallow Assault",
+      "type": "power",
+      "system": {
+        "description": "<p>Terram: Baal-Peor may avoid injury from mundane objects by opening his maw so wide that the attack slides harmlessly down his throat.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "swallow-assault",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "te",
+        "cost": 5,
+        "credits": "",
+        "init": 3,
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "bOiDIilBo2QXsycu",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880747942,
+        "modifiedTime": 1760880795729,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.bOiDIilBo2QXsycu"
+    },
+    {
+      "name": "Shroud the Stench of the Pit",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><strong>Variable points</strong> Vim: This power may be used in two manners, both of which affect the expression of other supernatural powers. A demon can conceal the Infernal nature of any other supernatural power, making it appear to be magical or faerie instead. This power is used on an overt expression of power, to prevent spells from recognizing it as infernal in origin. Secondly, it may be used on more subtle powers to remove all stench of the supernatural, making them appear wholly mundane. This power costs Might points equal to the original cost of the power being concealed, or Might points equal to the magnitude of the Infernal effect if it does not cost might to use. This power lasts for as long as the power it is masking.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "shroud-the-stench-of-the-pit",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 5,
+        "init": 3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "NiS8dFTtGwdW59sl",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880812905,
+        "modifiedTime": 1760880885004,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.NiS8dFTtGwdW59sl"
+    },
+    {
+      "name": "The Wealth of Nations",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Terram: The demon can summon riches; each use of this power can create wealth equivalent to up to pound of gold for every point of Infernal Might possessed by the demon. This wealth can be of any form — gold, gems, rich tapestries, ivory, etc. — but it is always has intrinsic value, rather than being valuable because of its utility (a roomful of grain, for example). This wealth is not created, it is instead summoned from somewhere else, chosen by the demon, usually for the greatest effect. This might be a royal treasury on the other side of Europe or the purse of the man standing next to you.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "the-wealth-of-nations",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "te",
+        "cost": 3,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "M3f5D936xfJYfzrQ",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760880925444,
+        "modifiedTime": 1760880964739,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.M3f5D936xfJYfzrQ"
+    },
+    {
+      "folder": "o685xKwWjHPMy4pe",
+      "name": "His Master's Voice",
+      "type": "power",
+      "img": "icons/svg/tower.svg",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\"><strong>V</strong></span><strong>ariable points</strong>, Init +1, Vim: The demon can summon other demons or corrupt beasts to its current location. This costs one Might point for every point of Infernal Might of the being summoned, so is used sparingly. The demon has no control over the demon he has summoned.</p></div><div class=\"el-p\"><p dir=\"auto\"></p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "his-masters-voice",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 1,
+        "credits": "",
+        "init": 1,
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.Lz0wfysKx5FDXlga",
+        "duplicateSource": "Item.rWbZH2DAk0NXER3N",
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760881053928,
+        "modifiedTime": 1760881099721,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "yLrWDJ9ZYtYAlg72",
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.yLrWDJ9ZYtYAlg72"
+    },
+    {
+      "name": "Obese",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "effects": [
+        {
+          "_id": "RV7UuhWSSU7fHDn1",
+          "changes": [
+            {
+              "key": "system.vitals.siz.value",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.flaws.simXyBekUThIdt2Q",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "vitals"
+              ],
+              "subtype": [
+                "size"
+              ],
+              "option": [
+                null
+              ]
+            }
+          },
+          "name": "Size +1",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.28",
+            "createdTime": null,
+            "modifiedTime": 1760881399794,
+            "lastModifiedBy": "6SdI10VpXHcBvx2J"
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!nAHgwVW4Xqf3kpBa.p8AhkJv1JfuTEH8b.RV7UuhWSSU7fHDn1"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_g1gywhrffo",
+          "path": "Flaws#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are large because of fat, not muscle. You are at –1 to all rolls that involve moving quickly or gracefully and at –3 to all Fatigue rolls. You are not so large that your Size is increased, and you may take this Flaw along with the Virtues and Flaws that change your Size.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "obese",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.flaws.Item.3NUTVZLNMeA4yZxY",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760881152829,
+        "modifiedTime": 1760881152829,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "UfPp46NPMX0jIrJv",
+      "_id": "p8AhkJv1JfuTEH8b",
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.p8AhkJv1JfuTEH8b"
+    },
+    {
+      "name": "Oversensitive (coitus)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Something that others find merely unpleasant you consider intolerable. Examples might include an oversensitivity to disrespect, to slovenliness, or to impiety. If you are the violent type, you may start fights with those who offend you.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "oversensitive-minor",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.flaws.Item.fJEO7C5bS2oMb0kT",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760881192263,
+        "modifiedTime": 1760881214746,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "bz0zTiMt6vpLpBEO",
+      "_id": "ipBGJbp0KpIrOL6O",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.ipBGJbp0KpIrOL6O"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Claws",
+      "type": "weapon",
+      "_id": "QRuKYY0x5F2fO9yY",
+      "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+      "system": {
+        "description": "<p>Claws are coated in excrement. Unless injuries are cleaned carefully, they will fester and never heal. A roll on the Recovery Table that results in an Improvement indicates stability, while a Stable result indicates that the wound worsens. Once the infection has set in, only Divine aid in healing cleanses the wounds.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "claws",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 3,
+        "atk": -1,
+        "dfn": 0,
+        "dam": 2,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "etAD8WMDPfbIBCyt"
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.HKM1VZb46FfyVtsS",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760881258710,
+        "modifiedTime": 1760881652196,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.QRuKYY0x5F2fO9yY"
+    },
+    {
+      "name": "Demon skin",
+      "type": "armor",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "prot": 3,
+        "full": false,
+        "equipped": true,
+        "state": "inert",
+        "enchantments": null
+      },
+      "_id": "Kp5msrArvZVJyP6G",
+      "img": "icons/svg/statue.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760881346205,
+        "modifiedTime": 1760881379462,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.Kp5msrArvZVJyP6G"
+    },
+    {
+      "name": "Noxious vomit",
+      "type": "weapon",
+      "system": {
+        "description": "<p>*See power description</p>",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 8,
+        "atk": 7,
+        "dfn": 0,
+        "dam": 8,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null
+      },
+      "_id": "ne2gcXuh4umV9NEd",
+      "img": "icons/magic/unholy/projectile-fireball-green.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.28",
+        "createdTime": 1760881448370,
+        "modifiedTime": 1760881622570,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.ne2gcXuh4umV9NEd"
+    }
+  ],
+  "folder": "922DwHk6VGdEBAul",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Bomburkhan",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.28",
+    "createdTime": 1760880195772,
+    "modifiedTime": 1760881398367,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "nAHgwVW4Xqf3kpBa",
+  "sort": 0,
+  "_key": "!actors!nAHgwVW4Xqf3kpBa"
+}

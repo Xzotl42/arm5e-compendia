@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 940
+        "value": 1201
       }
     },
     "source": "ArM5Def",
@@ -92,6 +92,24 @@
       "qik": {
         "value": 2,
         "aging": 0
+      }
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
       }
     },
     "vitals": {
@@ -1925,10 +1943,10 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.4",
+    "systemVersion": "2.4.0.28",
     "createdTime": 1748671593021,
-    "modifiedTime": 1748671593021,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "modifiedTime": 1760777056681,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "BnMlX6rVWOm0kFfZ",
   "sort": 300000,

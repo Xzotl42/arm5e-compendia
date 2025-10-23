@@ -1,12 +1,17 @@
 # Release notes
 
+## Version 0.12.0
+
+### Compendia updates
+
+- Creatures: letters A-B
+- Spells: Common powers of creatures (A to B)
+
 ## Version 0.11.1
 
 ### Changes
 
 - Minor fixes
-
-# Release notes
 
 ## Version 0.11.0
 
