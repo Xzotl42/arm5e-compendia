@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.12.1
+
+### Compendia updates
+
+- Creatures: letters C-F
+
 ## Version 0.12.0
 
 ### Compendia updates

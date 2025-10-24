@@ -1,5 +1,5 @@
 {
-  "name": "Adranus, the Spirit of Mount Etna",
+  "name": "Gabriel, the Archangel of Prophecy",
   "type": "npc",
   "system": {
     "version": "2.0.2",
@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1196
+        "value": 1221
       },
       "apprentice": {
         "value": "10"
@@ -55,20 +55,20 @@
     },
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "adranus-the-spirit-of-mount-etna",
+    "indexKey": "gabriel-the-archangel-of-prophecy",
     "review_status": "toReview",
     "reviewer": "xzotl",
     "age": {
-      "value": 25
+      "value": null
     },
     "apparent": {
       "dtype": "Number",
-      "value": 25
+      "value": null
     },
     "con": {
       "label": "Confidence ",
-      "score": 1,
-      "points": null
+      "score": 7,
+      "points": 50
     },
     "covenant": {
       "value": "Covenant Name",
@@ -76,7 +76,7 @@
     },
     "realms": {
       "magic": {
-        "aligned": true,
+        "aligned": false,
         "susceptible": false
       },
       "faeric": {
@@ -84,7 +84,7 @@
         "susceptible": false
       },
       "divine": {
-        "aligned": false,
+        "aligned": true,
         "susceptible": false
       },
       "infernal": {
@@ -97,10 +97,10 @@
       "creationMode": true,
       "confidencePrompt": false
     },
-    "biography": "<div class=\"el-p\"><p dir=\"auto\">A powerful and violent spirit of fire, Adranus, slumbers beneath a mountain on the Mediterranean island of Sicily. It has developed an antipathy towards the local peoples, since they long ago ceased worshipping it as a god. Nevertheless, it is satisfied when mortals stay away from its slopes and live in a state of respectful fear, but should they become too bold, disrespectful, or forgetful, the genius loci will become irritated and its sleep will be disturbed. Its wrath gradually builds up until the need to vent its fury is overwhelming, at which point the volcano erupts with spectacular and devastating force. Those few who venture onto the blasted and rocky slopes of the mountain have been known to go insane.</p></div><div class=\"el-p\"><p dir=\"auto\">In ancient times, Adranus was worshiped by the primitive inhabitants of Sicily as a god of fire. When the Romans rose to prominence it was cast out by Vulcan, their god of fire and forge, but has since returned, and wreaks occasional and spectacular violent retribution on those who no longer either honor or fear it. A gateway to the Underworld was believed by the ancients to be situated beneath Etna. When using the Manifestation power, Adranus usually possesses one or more Sicilian eagles, the only creatures who will brave the mountain's heights. The volcano last erupted in 1194, and, if your saga follows real history, will next erupt in 1222.</p><p dir=\"auto\">Mount Etna is a conical and blasted peak that rises ten thousand feet above the eastern end of the island of Sicily.</p></div><p><strong>Vis:</strong> 10 pawns of Ignem vis; 5 pawns per year can also be harvested from the crater at the volcano's summit.</p>",
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 20 pawns of Mentem in head.<br><strong>Appearance:</strong> Gabriel usually takes the form of a compassionate, gentle man, sometimes with wings growing from his shoulders or arms.</p></div><div class=\"el-p\"><p dir=\"auto\">More approachable and intellectually-minded than his fellows, the Archangel Gabriel (Jibril or Jabra’il in Islam) is the chief messenger of God, best known for his teaching of the prophet Daniel, his announcing of the incarnation of Christ to the Virgin Mary and his bringing of the revelation of the <em>Qur’an</em> to Muhammad, for whom he also acted as a constant counsellor. He may be encountered by characters who are seeking wisdom, particularly if this wisdom is of a religious nature. He is most likely to be encountered in the form described here; in his natural form he is a 600-winged figure who is large enough to stand astride the horizon.</p></div>",
     "characteristics": {
       "int": {
-        "value": 3,
+        "value": 10,
         "aging": 0
       },
       "per": {
@@ -108,27 +108,27 @@
         "aging": 0
       },
       "str": {
-        "value": 3,
+        "value": 8,
         "aging": 0
       },
       "sta": {
-        "value": 2,
+        "value": 8,
         "aging": 0
       },
       "pre": {
-        "value": 2,
+        "value": 10,
         "aging": 0
       },
       "com": {
-        "value": 2,
+        "value": 10,
         "aging": 0
       },
       "dex": {
-        "value": -1,
+        "value": 8,
         "aging": 0
       },
       "qik": {
-        "value": -2,
+        "value": 8,
         "aging": 0
       }
     },
@@ -148,7 +148,7 @@
         "value": 0
       },
       "soa": {
-        "value": 2
+        "value": 8
       },
       "enc": {
         "value": 0
@@ -164,7 +164,7 @@
     "laboratoryTexts": [],
     "reputations": {
       "0": {
-        "name": "Bringer of Death and Destruction"
+        "name": "Messenger of God"
       }
     },
     "decrepitude": {
@@ -453,19 +453,31 @@
     },
     "might": {
       "label": "Might",
-      "form": "ig",
-      "value": 50,
-      "points": 50
+      "form": "me",
+      "value": 100,
+      "points": 100
     },
     "powers": [],
-    "realm": "magic",
+    "realm": "divine",
     "personalities": {
       "0": {
-        "name": "Wrathful",
-        "score": 6
+        "name": "Compassionate",
+        "score": 3
       },
       "1": {
-        "name": "Slumbering",
+        "name": "Intellectual",
+        "score": 3
+      },
+      "2": {
+        "name": "Just",
+        "score": 3
+      },
+      "3": {
+        "name": "Love of God",
+        "score": 5
+      },
+      "4": {
+        "name": "Patient",
         "score": 3
       }
     },
@@ -498,27 +510,27 @@
   },
   "items": [
     {
-      "name": "Grant Visions",
+      "name": "Spirit Form",
       "type": "power",
       "system": {
-        "description": "The target gains the Visions Flaw. Adranus can grant the Flaw temporarily, in which case it does not recover the Might Points spent until it withdraws the Flaw, or permanently, in which case its Might Score is reduced by 5",
+        "description": "Gabriel can become a creature of pure spirit as he wishes. This means that he is unable to affect things physically, or be affected physically",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "grant-visions",
+        "indexKey": "spirit-form",
         "review_status": "toReview",
         "reviewer": "xzotl",
         "form": "vi",
-        "cost": 5,
-        "init": -12,
+        "cost": 0,
+        "init": 30,
         "credits": "",
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "nfcVAdvRprFE6Fcl",
+      "_id": "keGlKe2epU2KUy89",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
-      "sort": 100000,
+      "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
@@ -529,152 +541,35 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
-        "modifiedTime": 1760793950887,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.nfcVAdvRprFE6Fcl"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.keGlKe2epU2KUy89"
     },
     {
-      "name": "Grant Simple-Minded",
+      "name": "Subtle Form",
       "type": "power",
       "system": {
-        "description": "The target gains the Simple-Minded Flaw. Adranus can grant the Flaw temporarily, in which case it does not recover the Might Points spent until it withdraws the Flaw, or permanently, in which case its Might Score is reduced by 5",
+        "description": "Gabriel can change his appearance to look like any human being. His statistics do not change.",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "grant-simple-minded",
+        "indexKey": "subtle-form",
         "review_status": "toReview",
         "reviewer": "xzotl",
-        "form": "vi",
-        "cost": 5,
-        "init": -12,
-        "credits": "",
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "ZHX1MXS71kxaoBTJ",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760793950887,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.ZHX1MXS71kxaoBTJ"
-    },
-    {
-      "name": "Hibernation",
-      "type": "power",
-      "system": {
-        "description": "<p>The spirit remains completely inactive for a year (spending no other Might points); the 15 points spent on this power are saved and added to the Might Pool for the first year out of hibernation. In this fashion, the Might Pool may exceed the permanent Might score (50). Using this power, the volcano can save up Might points over many years in succession and have a great amount to spend in the single year in which it awakens. </p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "hibernation",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "vi",
-        "cost": 15,
-        "init": -32,
-        "credits": "",
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "GQJyA4Pkidfb929p",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760793950887,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.GQJyA4Pkidfb929p"
-    },
-    {
-      "name": "Grant Wrathful",
-      "type": "power",
-      "system": {
-        "description": "The target gains the Wrathful Flaw. Adranus can grant the Flaw temporarily, in which case it does not recover the Might Points spent until it withdraws the Flaw, or permanently, in which case its Might Score is reduced by 5",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "grant-wrathful",
-        "review_status": "toReview",
-        "reviewer": "xzotl",
-        "form": "vi",
-        "cost": 5,
-        "init": -12,
-        "credits": "",
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "Qgb3Wx1UwY9TEvXO",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 250000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760793955331,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.Qgb3Wx1UwY9TEvXO"
-    },
-    {
-      "name": "Presence",
-      "type": "power",
-      "system": {
-        "description": "<p>R: Arc, D: Sun, T: Ind Grants awareness of everything that happens within the bounds of Mount Etna. In essence, the spirit is coterminous with its associated landscape feature, so it is present simultaneously everywhere within its boundaries. The area controlled by the spirit can produce a yearly harvest of 5 pawns of Ignem vis, which manifests as physical objects within the controlled region. Harvesting this vis does not erode the spirit's Might. InIm 30 (Base 2, +4 Arc, +2 Sun, +1 constant effect, +1 non-Hermetic effects) </p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "presence",
-        "review_status": "toReview",
-        "reviewer": "xzotl",
-        "form": "im",
+        "form": "co",
         "cost": 0,
         "init": 0,
         "credits": "",
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "0DFAd2pBlqkiwOHv",
+      "_id": "NGcEJEl2dgyIpAIj",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
-      "sort": 500000,
+      "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
@@ -685,15 +580,15 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
-        "modifiedTime": 1760812457903,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.0DFAd2pBlqkiwOHv"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.NGcEJEl2dgyIpAIj"
     },
     {
-      "name": "Bringer of Death and Destruction",
+      "name": "Messenger of God",
       "type": "reputation",
       "img": "icons/svg/angel.svg",
       "system": {
@@ -707,7 +602,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "IFcd5XKyVUhINhb3",
+      "_id": "bE0cD1K0Ed85pnqz",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -721,17 +616,17 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.IFcd5XKyVUhINhb3"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.bE0cD1K0Ed85pnqz"
     },
     {
-      "name": "Sicily Lore",
+      "name": "Awareness",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
       "effects": [],
       "flags": {
         "core": {},
@@ -742,66 +637,16 @@
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "defaultChaAb": "int",
-        "speciality": "mountains",
-        "xp": 105,
-        "key": "areaLore",
-        "option": "sicily-lore",
-        "realm": "magic",
-        "indexKey": "area-lore",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": true,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "GsNK7ltDoKEZOAae",
-      "sort": 3600000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.GsNK7ltDoKEZOAae"
-    },
-    {
-      "name": "Magic Lore",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/magicLore.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_7bwhgya3q6x",
-          "path": "Abilities#/CF_SEP/Arcane",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p style=\"text-align: justify;\">Knowledge of magical creatures, areas, and traditions.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> creatures, magical traditions, regiones. (Arcane)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "int",
-        "speciality": "underworld",
-        "xp": 180,
-        "key": "magicLore",
+        "defaultChaAb": "per",
+        "speciality": "the uneducated",
+        "xp": 275,
+        "key": "awareness",
         "option": "",
         "realm": "magic",
-        "indexKey": "magic-lore",
+        "indexKey": "awareness",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
@@ -813,73 +658,291 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "Ku86xoVh78FXIgLr",
-      "_id": "RXQuMNbVGH9wRzor",
-      "sort": 0,
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "pOn70TUNgPp3wMDk",
+      "sort": 5000000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.RXQuMNbVGH9wRzor"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.pOn70TUNgPp3wMDk"
     },
     {
-      "name": "Ways of the Mountains",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p>You ha ve a deep understanding of a type of terrain, feeling more natural and at home there than anywhere else. Examples include Ways of the Forest, Ways of the Mountain, Ways of the Steppe or Ways of the Town. You get a +3 bonus to all rolls, including combat and Casting Scores, that directly involve that area and its inhabitants; mundane, magical, or faerie. In addition, you roll one fewer botch die than normal (which may mean you roll no botch dice) in rolls that pertain to your area of understanding. You are not normally molested by animals of the terrain, and though particularly vicious creatures may still attack you, at least they’ll accord you proper respect. (For Ways of the Town, this still applies to town animals, of which there are plenty in the medieval world, rather than people. The +3 bonus does apply to people.) You may choose this Virtue multiple times, for different types of terrain.</p><p> </p>",
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "type": "general",
-        "impact": {
-          "value": "major"
-        },
-        "indexKey": "ways-of-the-land",
-        "review_status": "reviewed",
+        "defaultChaAb": "pre",
+        "speciality": "pupils",
+        "xp": 275,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
         "reviewer": "xzotl",
-        "hidden": false,
+        "review_status": "reviewed",
+        "optionLinked": false,
         "credits": "",
-        "tainted": false
+        "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "jyD9OjMnXTZeke24",
-      "_id": "UB7TJGX3K3SA087N",
-      "sort": 0,
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "NjbQ5wQA7pbQQ8cF",
+      "sort": 1900000,
       "ownership": {
         "default": 0,
+        "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.UB7TJGX3K3SA087N"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.NjbQ5wQA7pbQQ8cF"
     },
     {
-      "name": "Improved Characteristics",
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "fist",
+        "xp": 275,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "W0kekLlLuW3a3EMs",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.W0kekLlLuW3a3EMs"
+    },
+    {
+      "name": "Leadership",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "calling attention",
+        "xp": 275,
+        "key": "leadership",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "leadership",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "YCAXwASxQQ9pV9d7",
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.YCAXwASxQQ9pV9d7"
+    },
+    {
+      "name": "Teaching",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/teaching.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The ability to teach an Ability to someone else.</p>\n<p><strong>Specialties:</strong> a particular Ability, particular kinds of student. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "Theology",
+        "xp": 600,
+        "key": "teaching",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "teaching",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "UhNwoVQjxBFLptXq",
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.UhNwoVQjxBFLptXq"
+    },
+    {
+      "name": "Good Teacher",
       "type": "virtue",
       "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [],
+      "effects": [
+        {
+          "origin": "Compendium.arm5e.virtues.HkspYnZE3BMfKqdB",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.bonuses.activities.writing",
+              "value": "3",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "mode": 2,
+              "key": "system.bonuses.activities.teacher",
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "activities",
+                "activities"
+              ],
+              "subtype": [
+                "writing",
+                "teacher"
+              ],
+              "option": [
+                null,
+                null
+              ]
+            }
+          },
+          "_id": "EolKipnLg6rW6AL2",
+          "transfer": true,
+          "name": "Good teacher",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.29",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!HgUELKLBKOvJOo2F.a6L3bxy51v2an4MD.EolKipnLg6rW6AL2"
+        }
+      ],
       "flags": {
         "core": {},
         "cf": {
@@ -889,14 +952,14 @@
         }
       },
       "system": {
-        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
+        "description": "<p>You can explain new concepts and skills with great facility. Add three to the Quality of any books that you write, and five to the </p><p>Source Quality for anyone who studies with you.</p><p>&nbsp;</p>",
         "source": "ArM5Def",
         "page": 0,
         "type": "general",
         "impact": {
           "value": "minor"
         },
-        "indexKey": "improved-characteristics",
+        "indexKey": "good-teacher",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
@@ -908,22 +971,22 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "jegZHVtv21smauPD",
-      "_id": "tdKO3BAvfxmljupQ",
+      "_id": "a6L3bxy51v2an4MD",
       "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.tdKO3BAvfxmljupQ"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.a6L3bxy51v2an4MD"
     },
     {
-      "name": "Improved Characteristics",
+      "name": "Inspirational",
       "type": "virtue",
       "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
       "effects": [],
@@ -936,14 +999,14 @@
         }
       },
       "system": {
-        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
+        "description": "<p>You are a stirring speaker or a heroic </p><p>figure, and can urge people to great efforts. You give targets a +3 bonus to rolls for appropriate Personality Traits.</p>",
         "source": "ArM5Def",
         "page": 0,
         "type": "general",
         "impact": {
           "value": "minor"
         },
-        "indexKey": "improved-characteristics",
+        "indexKey": "inspirational",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
@@ -955,245 +1018,22 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "jegZHVtv21smauPD",
-      "_id": "5PcgCEe8wAtHxfWN",
+      "_id": "rMeHgOmhj4Zvto6g",
       "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.5PcgCEe8wAtHxfWN"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.rMeHgOmhj4Zvto6g"
     },
     {
-      "name": "Improved Characteristics",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "general",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "improved-characteristics",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "credits": "",
-        "tainted": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "jegZHVtv21smauPD",
-      "_id": "milgkZFS6BfMTicl",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.milgkZFS6BfMTicl"
-    },
-    {
-      "name": "Improved Characteristics",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "general",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "improved-characteristics",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "credits": "",
-        "tainted": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "jegZHVtv21smauPD",
-      "_id": "EfBsKr6oHqH3pgmj",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.EfBsKr6oHqH3pgmj"
-    },
-    {
-      "name": "Improved Characteristics",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "general",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "improved-characteristics",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "credits": "",
-        "tainted": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "jegZHVtv21smauPD",
-      "_id": "HzTc0H77AQvwMYwO",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.HzTc0H77AQvwMYwO"
-    },
-    {
-      "name": "Fury",
-      "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/story.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_ciwmacrmzmm",
-          "path": "Flaws#/CF_SEP/Story",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>A violent temper sometimes overwhelms you, sending you into a destructive, uncontrollable rage. You are likely to be provoked by some sort of specific event, such as being insulted, being hurt, or hearing the Order of Hermes disparaged. Roll 9+ on a stress die to avoid flying into a rage when such an event occurs, with another roll every round to try to calm yourself should you fail the first. On a botch, you try to kill everyone around you. While enraged you get +3 to Damage, but –1 on all other scores and rolls.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "story",
-        "impact": {
-          "value": "major"
-        },
-        "indexKey": "fury",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false,
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "HvyHCuxjJNI5yJoA",
-      "_id": "h2tIzpooedgRWcrW",
-      "sort": 300000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.h2tIzpooedgRWcrW"
-    },
-    {
-      "name": "Wrathful",
-      "type": "personalityTrait",
-      "img": "icons/skills/social/intimidation-impressing.webp",
-      "system": {
-        "xp": 105,
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": "",
-        "credits": ""
-      },
-      "_id": "FqEYcAYXjD3s3oSE",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.FqEYcAYXjD3s3oSE"
-    },
-    {
-      "name": "Slumbering",
+      "name": "Compassionate",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -1206,7 +1046,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "X1a1CJFupxU4Vrqh",
+      "_id": "NBOAeWmWWY2HuGH4",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1220,39 +1060,195 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.X1a1CJFupxU4Vrqh"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.NBOAeWmWWY2HuGH4"
     },
     {
-      "name": "Wrathful",
-      "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "name": "Intellectual",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "GEYhudp3yfyuGkSD",
       "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.GEYhudp3yfyuGkSD"
+    },
+    {
+      "name": "Just",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "UDtbyTg2RVuyakCv",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.UDtbyTg2RVuyakCv"
+    },
+    {
+      "name": "Love of God",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 75,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "2vX4J9cxUpzQYjdL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.2vX4J9cxUpzQYjdL"
+    },
+    {
+      "name": "Patient",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "LkqkxFQEZb4w2IOR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.LkqkxFQEZb4w2IOR"
+    },
+    {
+      "name": "Fist",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "folder": "u0bqg5ruG7sX6XV0",
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_18qw00m8tam",
-          "path": "Flaws#/CF_SEP/Personality",
+          "id": "temp_ebcddbqmaft",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p>You are prone to anger over the smallest issues, and your rage when you are thwarted in something major is terrible to behold.</p>",
+        "description": "<p>This is includes any unarmed attacks made with the hands</p>",
         "source": "ArM5Def",
         "page": 0,
-        "type": "personality",
-        "impact": {
-          "value": "minor"
+        "cost": {
+          "value": "n-a",
+          "amount": 0
         },
-        "indexKey": "wrathful-minor",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false,
+        "quantity": 1,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "weaponExpert": false,
+        "horse": false,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
+        "str": 0,
+        "range": 0,
+        "load": 0,
+        "equipped": false,
+        "indexKey": "b-fist",
+        "state": "inert",
+        "enchantments": null,
+        "review_status": "definitiveReady",
+        "reviewer": "KILLTHESCRIBE",
         "credits": ""
       },
       "_stats": {
@@ -1260,298 +1256,301 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "hXfkbCsUoxlA0bSB",
-      "_id": "TXjn21VhZiFctXYk",
-      "sort": 1700000,
+      "_id": "gZWwXUX7fSLKoufQ",
+      "sort": 1300000,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.TXjn21VhZiFctXYk"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.gZWwXUX7fSLKoufQ"
     },
     {
-      "name": "Manifestation",
+      "folder": "mK56OzqnxHUErQvp",
+      "name": "Angelic Mantle",
       "type": "power",
+      "img": "icons/svg/tower.svg",
       "system": {
-        "description": "<p>4 or more points, Init equal to (Qik - Might points spent), Animal R: Touch, D: Conc, T: Ind or Group Manifests the spirit's consciousness among animals it touches, temporarily granting them a Might score equal to the Might points spent, and controlling their actions. It is a Rego Herbam effect of Level 20 to control a plant that is a pace in diameter (costing 4 Might points), and a Rego Animal of Level 25 to control a single creature of Size +1 (costing 5 Might points). For an extra 2 Might points, a group of ten standard creatures (or the equivalent mass) can be controlled. For each additional 2 Might points spent, the mass of creatures controlled is multiplied by 10. The spirit cannot spend more Might points on this power than the magnitude of its Magic Might. Humans and other sentient beings cannot be controlled by this power. Adranus is considered to be touching any animal on the mountain. ReHe 20 or more (Base 10, +1 Touch, +1 Conc) or ReAn 25 or more (Base 15, +1 Touch, +1 Conc) </p>",
+        "description": "<p>Corpus: Angels use this power to manifest in the mundane world and appear to take on mortal flesh. In reality, this form is entirely formed from their intellect, but appears and acts exactly like real flesh. While in this “material” form, they must follow the mundane world’s natural laws, and so are limited, with Characteristic and Soak scores, and Fatigue and Wound levels. Although angels are genderless, their Mantles normally do have a gender; while in their Mantle, angels may breed, and sire or bear children (although no angel has done so since the flood), although they do not age. If they are “killed” while in their Mantle, they return to their spiritual form, but may if they chose (and have the necessary Might Points) immediately use this power again. An angel’s Mantle may appear as anything.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "manifestation",
+        "indexKey": "angelic-mantle",
         "review_status": "reviewed",
         "reviewer": "xzotl",
-        "form": "an",
-        "cost": 4,
+        "form": "co",
+        "cost": 2,
         "credits": "",
-        "init": -6,
+        "init": 12,
         "penetration": 0,
-        "realm": "mundane"
+        "realm": "divine"
       },
-      "_id": "SzEbPvVfCwtZs6pP",
-      "img": "icons/svg/tower.svg",
       "effects": [],
-      "folder": null,
-      "sort": 400000,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.fk9Z40VUtgK8S4xy",
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760793960248,
-        "modifiedTime": 1760794129524,
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292263184,
+        "modifiedTime": 1761292263184,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.SzEbPvVfCwtZs6pP"
-    },
-    {
-      "name": "Master of Earth",
-      "type": "power",
-      "system": {
-        "description": "<p> variable points, Init -2 - Might cost, Terram: Duplicates any non-Ritual Muto Terram or Perdo Terram spell no greater than 50th level at a cost of 1 Might point per magnitude of the effect</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "master-of-earth",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "te",
-        "cost": 1,
-        "credits": "",
-        "init": -2,
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "UG4ILYEXR7egYwoo",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
+      "_id": "8OJ3kJT7sZLCNfmB",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760794155326,
-        "modifiedTime": 1760794220579,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.UG4ILYEXR7egYwoo"
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.8OJ3kJT7sZLCNfmB"
     },
     {
-      "name": "Crafter of Fire",
+      "folder": "mK56OzqnxHUErQvp",
+      "name": "Enfolding (body)",
       "type": "power",
-      "system": {
-        "description": "<p>1 – 3 points, Init –4 – Might Cost, Ignem: duplicate any Creo Ignem or Rego Ignem spell of level 15 or below, at a cost of 1 Might point per magnitude of the spell.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "crafter-of-fire",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "ig",
-        "cost": 1,
-        "credits": "",
-        "init": -3,
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "TzPz16jO6p2ZK7ma",
       "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.9QVjYeQ0Qg2bSvG1.Item.Jwixq9kMUyAYfewk",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760812187947,
-        "modifiedTime": 1760812351454,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.TzPz16jO6p2ZK7ma"
-    },
-    {
-      "name": "Crafter of Earth",
-      "type": "power",
       "system": {
-        "description": "<p>1 – 3 points, Init –4 – Might Cost, Terram: duplicate any Creo Terramor Rego Terram spell of level 15 or below, at a cost of 1 Might point per magnitude of the spell.</p>",
+        "description": "<p>2 or 10 points, +10, Vim: When the pious are in danger or torment, the angel may grant them comfort, imparting a moment of peace and mercy. This power renders the target’s soul wholly safe and protected for a short time. While Enfolded the target’s soul (and mind) may not be targeted by any supernatural power of any kind. This power only lasts for a few scant moments, but for the target it is timeless and can seem to stretch to a lifetime. An angel may also Enfold a person’s body (costing 10 Might points), rendering them completely invulnerable to magic, pain, damage, fatigue, wounds, or death, although this power only lasts for a very short period of time (no longer than one combat round). This power is most often used on a member of the faithful who is about to be martyred or suffer terribly.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "crafter-of-earth",
+        "indexKey": "enfolding-body",
         "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "te",
-        "cost": 1,
-        "credits": "",
-        "init": -3,
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "EwBzyYowioiuWtvP",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.9QVjYeQ0Qg2bSvG1.Item.Jwixq9kMUyAYfewk",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760812208610,
-        "modifiedTime": 1760812365043,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.EwBzyYowioiuWtvP"
-    },
-    {
-      "name": "Regio",
-      "type": "power",
-      "system": {
-        "description": "<p>15 points, Init -32, Vim: By permanently spending Might, the spirit can add levels to the regio around the volcano's crater. </p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "regio",
-        "review_status": "toReview",
         "reviewer": "xzotl",
         "form": "vi",
-        "cost": 15,
+        "cost": 10,
         "credits": "",
-        "init": -32,
+        "init": 10,
         "penetration": 0,
-        "realm": "mundane"
+        "realm": "divine"
       },
-      "_id": "dYlefxubVuLC7yn8",
-      "img": "icons/svg/tower.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.sKQW9yuJ95Z4JvNU",
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760812462476,
-        "modifiedTime": 1760812555492,
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292266879,
+        "modifiedTime": 1761292266879,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.dYlefxubVuLC7yn8"
+      "_id": "rvGoxRtGfLTMfUAC",
+      "sort": 100000,
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.rvGoxRtGfLTMfUAC"
     },
     {
-      "name": "Ruler of Lava",
+      "folder": "mK56OzqnxHUErQvp",
+      "name": "Enfolding (soul)",
       "type": "power",
+      "img": "icons/svg/tower.svg",
       "system": {
-        "description": "<p>variable points, Init -2 - Might cost, Terram: Duplicates any non-Ritual spell pertaining to lava no greater than 50th level, at a cost of 1 Might point per magnitude of the effect. </p>",
+        "description": "<p>2 or 10 points, +10, Vim: When the pious are in danger or torment, the angel may grant them comfort, imparting a moment of peace and mercy. This power renders the target’s soul wholly safe and protected for a short time. While Enfolded the target’s soul (and mind) may not be targeted by any supernatural power of any kind. This power only lasts for a few scant moments, but for the target it is timeless and can seem to stretch to a lifetime. An angel may also Enfold a person’s body (costing 10 Might points), rendering them completely invulnerable to magic, pain, damage, fatigue, wounds, or death, although this power only lasts for a very short period of time (no longer than one combat round). This power is most often used on a member of the faithful who is about to be martyred or suffer terribly.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "ruler-of-lava",
+        "indexKey": "enfolding-soul",
         "review_status": "reviewed",
         "reviewer": "xzotl",
-        "form": "te",
-        "cost": 1,
+        "form": "vi",
+        "cost": 2,
         "credits": "",
-        "init": -2,
+        "init": 10,
         "penetration": 0,
-        "realm": "mundane"
+        "realm": "divine"
       },
-      "_id": "03A0LrG8ne4R05nY",
-      "img": "icons/svg/tower.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.bxluPLJiB70lsKv6",
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760812559600,
-        "modifiedTime": 1760812639468,
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292271903,
+        "modifiedTime": 1761292271903,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.03A0LrG8ne4R05nY"
+      "_id": "xX4fAyAGPA3C9taV",
+      "sort": 0,
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.xX4fAyAGPA3C9taV"
     },
     {
-      "name": "Ruler of Smoke",
+      "name": "Envisioning (awake)",
       "type": "power",
       "system": {
-        "description": "<p>variable points, Init -2 - Might cost, Auram: Duplicates any non-Ritual spell pertaining to smoke no greater than 50th level, at a cost of 1 Might point per magnitude of the effect.</p>",
+        "description": "<p>1 or 5 points, +0, <em>Mentem</em>: This power allows angels to appear in the dreams of a target, or even while awake, and impart a Divine message. This is different to a miraculous vision, which occurs through direct Divine agency. An Envisioning that takes place while the target is awake costs five points and may seem like a daydream, or a vivid or frightening vision, depending on what message the angel intends. Anyone may be the target of Envisioning, pious and impious, pagan and infernalist. Envisioning may occur over any distance.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "ruler-of-smoke",
+        "indexKey": "envisioning-awake",
         "review_status": "reviewed",
         "reviewer": "xzotl",
-        "form": "au",
-        "cost": 1,
+        "form": "me",
+        "cost": 5,
+        "init": 0,
         "credits": "",
-        "init": -2,
         "penetration": 0,
-        "realm": "mundane"
+        "realm": "divine"
       },
-      "_id": "DUTuMGz0DypsSVfI",
       "img": "icons/svg/tower.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
+      "folder": "mK56OzqnxHUErQvp",
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.7XnzeqNLxwd1LzpR",
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760812645635,
-        "modifiedTime": 1760812680353,
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292276690,
+        "modifiedTime": 1761292276690,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!NKqTvtt3p41RnUL6.DUTuMGz0DypsSVfI"
+      "_id": "58v2nM9d47gFtuuI",
+      "sort": 0,
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.58v2nM9d47gFtuuI"
+    },
+    {
+      "name": "Envisioning (in dreams)",
+      "type": "power",
+      "system": {
+        "description": "<p>1 or 5 points, +0, <em>Mentem</em>: This power allows angels to appear in the dreams of a target, or even while awake, and impart a Divine message. This is different to a miraculous vision, which occurs through direct Divine agency. An Envisioning that takes place while the target is awake costs five points and may seem like a daydream, or a vivid or frightening vision, depending on what message the angel intends. Anyone may be the target of Envisioning, pious and impious, pagan and infernalist. Envisioning may occur over any distance.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "envisioning-in-dreams",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 1,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "divine"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "mK56OzqnxHUErQvp",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.afwSieZATAYb7rZ1",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292280294,
+        "modifiedTime": 1761292280294,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "OwZt9ORJ9tDIafri",
+      "sort": 0,
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.OwZt9ORJ9tDIafri"
+    },
+    {
+      "folder": "o685xKwWjHPMy4pe",
+      "name": "Enlighten",
+      "type": "power",
+      "_id": "zCDm3CGSgdhW3X0i",
+      "img": "icons/svg/tower.svg",
+      "system": {
+        "description": "<p>variable cost, Init +0, Mentem: Gabriel can implant any Knowledge into the mind of another, at a cost of 1 Might for every experience point implanted. He may not give any character knowledge that takes their Ability score over 15.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "enlighten",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 1,
+        "credits": "",
+        "init": 0,
+        "penetration": 0,
+        "realm": "divine"
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.rWbZH2DAk0NXER3N",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292404609,
+        "modifiedTime": 1761292404609,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.zCDm3CGSgdhW3X0i"
+    },
+    {
+      "folder": "Ku86xoVh78FXIgLr",
+      "name": "All knowledge",
+      "type": "ability",
+      "_id": "Pl5u9Ct0dJcE5179",
+      "img": "systems/arm5e/assets/icons/abilities/magicTheory.svg",
+      "system": {
+        "description": "<p>A character may only take these Abilities during character generation if permitted to by a Virtue, or if he is a magus. Some Virtues allow a character to take a particular Arcane Ability, but not the others, while other Virtues allow a character to take any Arcane Ability. Any Virtue giving a character a Supernatural Ability that may need to Penetrate Magic Resistance also allows the character to take the Penetrate Ability. Magi without a relevant Virtue may only take Arcane Abilities during or after apprenticeship.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "arcane-generic",
+        "defaultChaAb": "int",
+        "speciality": "",
+        "key": "arcaneAbility",
+        "option": "All-knowledge",
+        "realm": "mundane",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false,
+        "xp": 600
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CBVr9z58wiLAeuIl": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.Qxjci63FuI9mRBG5",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292559152,
+        "modifiedTime": 1761292577920,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!HgUELKLBKOvJOo2F.Pl5u9Ct0dJcE5179"
     }
   ],
-  "folder": "dKkjbN7Pt49SfpMg",
+  "folder": "gGhlm2f4qLeLbbjA",
   "img": "icons/svg/mystery-man-black.svg",
   "prototypeToken": {
-    "name": "Adranus, the Spirit of Mount Etna",
+    "name": "Gabriel, the Archangel of Prophecy",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -1638,23 +1637,91 @@
     "flags": {},
     "randomImg": false
   },
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.creatures.Actor.HgUELKLBKOvJOo2F",
+      "duration": {
+        "turns": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.fatigue.winded.amount",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.fatigue.weary.amount",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "fatigue",
+            "fatigue"
+          ],
+          "subtype": [
+            "windedLevel",
+            "wearyLevel"
+          ],
+          "option": [
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Fatigue levels",
+      "img": "icons/svg/aura.svg",
+      "_id": "54SVjsOCEdmZFQUI",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761293195136,
+        "modifiedTime": 1761293335159,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.effects!HgUELKLBKOvJOo2F.54SVjsOCEdmZFQUI"
+    }
+  ],
   "ownership": {
     "default": 0,
     "6SdI10VpXHcBvx2J": 3
   },
-  "flags": {},
+  "flags": {
+    "arm5e": {}
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
     "systemVersion": "2.4.0.29",
-    "createdTime": 1760793651715,
-    "modifiedTime": 1761292666519,
+    "createdTime": 1761288848392,
+    "modifiedTime": 1761292488977,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "NKqTvtt3p41RnUL6",
-  "sort": 900000,
-  "_key": "!actors!NKqTvtt3p41RnUL6"
+  "_id": "HgUELKLBKOvJOo2F",
+  "sort": 0,
+  "_key": "!actors!HgUELKLBKOvJOo2F"
 }

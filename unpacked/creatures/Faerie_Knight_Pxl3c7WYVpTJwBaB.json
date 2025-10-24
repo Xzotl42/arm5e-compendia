@@ -1,0 +1,1981 @@
+{
+  "name": "Faerie Knight",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1196
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "faerie-knight",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Arms and armor. Has a faerie horse constructed of the knight's own glamor, so it flies when the knight does, and shares the knight's Magic Resistance.<br><strong>Vis</strong>: 2 pawns, often rusty pieces of armor that the knight has poured its glamor into.<br><strong>Appearance:</strong> A knight clad in silver leaves of metal, astride a fine horse. These knights often display the motif of their court on their surcoat, shield and pavilion.</p></div><div class=\"el-p\"><p dir=\"auto\">These faeries are often encountered outside courts, on lonely roads, and guarding bridges. They seek out defeat by humans as a way of gaining additional combat Pretenses. They are never seen with their armor off, so they may be a role that other faeries take on when they wish to enjoy some blood sport. Faerie Knights are more bound to the rules of chivalry than real knights, and so they do not use the Damaging Effect Power on their weapons against worthy foes.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": 0,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 3,
+        "aging": 0
+      },
+      "sta": {
+        "value": 2,
+        "aging": 0
+      },
+      "pre": {
+        "value": -2,
+        "aging": 0
+      },
+      "com": {
+        "value": -2,
+        "aging": 0
+      },
+      "dex": {
+        "value": 2,
+        "aging": 0
+      },
+      "qik": {
+        "value": 1,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": 9
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "co",
+      "value": 10,
+      "points": 10
+    },
+    "powers": [],
+    "realm": "faeric",
+    "personalities": {
+      "0": {
+        "name": "Arrogant",
+        "score": 3
+      },
+      "1": {
+        "name": "Courteous",
+        "score": 3
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Flight",
+      "type": "power",
+      "system": {
+        "description": "The character is capable of flight. The character may use the Athletics skill to simulate difficult maneuvers, but may not engage in combat while flying incredibly swiftly. The faerie may not fly when heavily encumbered, or with a passenger of its Size or more, unless assisted by another faerie that shares the load. Shift Human Shapes: 1 point, Init 0, Corpus. Allows the knight, who is usually armored to demonstrate his role, to remove the armor simply by thinking about it.<h3>Migration note:</h3><p>Init is now strictly a number, previous value:\"constant\", new value: 0",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "flight",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 2,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "waSFNwUaX5meTU9h",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.waSFNwUaX5meTU9h"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "enemies",
+        "xp": 5,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288079269,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "JE6YyuS0q7C0RG42",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.JE6YyuS0q7C0RG42"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "knights",
+        "xp": 30,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288097329,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "y1Zo3GfBlASN3PsY",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.y1Zo3GfBlASN3PsY"
+    },
+    {
+      "folder": "adQkl7QaQHRah9iT",
+      "name": "Carouse",
+      "type": "ability",
+      "_id": "RJPtPvLLLA75K4eO",
+      "img": "systems/arm5e/assets/icons/abilities/carouse.svg",
+      "system": {
+        "description": "<p style=\"text-align: justify;\">The ability to enjoy oneself without suffering adverse effects. A person with this skill can, for example, consume prodigious amounts of alcohol without passing out. The skill also covers a familiarity with acceptable behavior, balancing enjoyment and moderation. With this Skill, a person is able to have fun and gain friends among the lower classes nearly anywhere, even among those of a different culture.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> power drinking, drinking songs, games of chance, staying sober. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "carouse",
+        "defaultChaAb": "pre",
+        "speciality": "feasts",
+        "xp": 30,
+        "key": "carouse",
+        "option": "",
+        "realm": "mundane",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288118196,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.RJPtPvLLLA75K4eO"
+    },
+    {
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "ladies",
+        "xp": 5,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288128231,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "vjTFyL8VaBKK7Ram",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.vjTFyL8VaBKK7Ram"
+    },
+    {
+      "name": "Etiquette",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/etiquette.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">You know the social graces and how to behave in different situations. Etiquette differs from Charm in that Etiquette covers proper behavior, rather than charming behavior. You cannot seduce someone with Etiquette, but neither can you get through an audience with the bishop on Charm alone.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> nobility, court, peasants, faeries, the Church. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "chivalrous combat",
+        "xp": 30,
+        "key": "etiquette",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "etiquette",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288136441,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "vABxnc8Ps1bJbNg2",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.vABxnc8Ps1bJbNg2"
+    },
+    {
+      "name": "Faerie Speech",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "boasting",
+        "xp": 75,
+        "key": "livingLanguage",
+        "option": "faerie-speech",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288146570,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "X4hZxZpd4fTJBdJF",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.X4hZxZpd4fTJBdJF"
+    },
+    {
+      "name": "Hunt",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "humans",
+        "xp": 15,
+        "key": "hunt",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "hunt",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288157575,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "g9B2m7GOdY2g0qT0",
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.g9B2m7GOdY2g0qT0"
+    },
+    {
+      "name": "Leadership",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "guards",
+        "xp": 15,
+        "key": "leadership",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "leadership",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288175656,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "bdYlmsCRsULiLNoS",
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.bdYlmsCRsULiLNoS"
+    },
+    {
+      "name": "Single Weapon",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/singleWeapon.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7d6ngxdzyst",
+          "path": "Abilities#/CF_SEP/Martial",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting with a weapon used in one hand, possibly using a shield with the other. This includes lances used as intended from horseback.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> any one weapon or shield, which covers using that weapon with any shield or none, and that shield with any weapon. (Martial)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "varies",
+        "xp": 50,
+        "key": "singleWeapon",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "single-weapon",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288192789,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "Uh7ZiHdsWW2PjSJl",
+      "_id": "Iz4zrCWB8cedoc1o",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.Iz4zrCWB8cedoc1o"
+    },
+    {
+      "name": "Ride",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/ride.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Riding and controlling a horse, especially under stress.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> battle, speed, tricks. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "horses",
+        "xp": 30,
+        "key": "ride",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "ride",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288187262,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "gg4MDGmylHMYCDMq",
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.gg4MDGmylHMYCDMq"
+    },
+    {
+      "name": "Faerie Sight",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The character is able to improve itself in ways traditional for characters of this type. A dwarf may seek to become a dwarf king, for example. Or a faerie maid may wish to steal a child to raise as her own.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-sight",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "rEVFtKPsb49IDeEb",
+      "sort": 2200000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.rEVFtKPsb49IDeEb"
+    },
+    {
+      "name": "Faerie Speech",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Many faeries have a Pretense called Faerie Speech, which they use instead of acquiring human languages. Faeries seem to know the same languages as whomever they are talking to. If speaking to a group that has demonstrated mixed linguistic skills, the faerie may select which language to speak in.</span></p><p><span class=\"fontstyle0\">This effect occurs whenever the faerie speaks and costs no Might. It is not magically resisted, because the effect only alters the behavior of the faerie. If the faerie has not heard a person from its audience speak, it may only use whichever language it last used with humans. Once its audience speaks, the faerie may then converse in the correct language for its audience.</span></p><p><span class=\"fontstyle0\">In the bestiary chapter, Faerie Speech is frequently given to characters designed as NPCs. Characters designed for possible use by players have this Virtue more rarely, to free up a Virtue slot, but it is still appropriate for a wide variety of faeries.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-speech",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "q3Spjuv4A7W4JDSC",
+      "sort": 700000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.q3Spjuv4A7W4JDSC"
+    },
+    {
+      "name": "Large",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [
+        {
+          "_id": "CULCFmHIjMOPXI26",
+          "changes": [
+            {
+              "key": "system.vitals.siz.value",
+              "value": "1",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.arm5e.virtues.GTnrsLNpdMjrMoIl",
+          "tint": "#000000",
+          "transfer": true,
+          "flags": {
+            "arm5e": {
+              "type": [
+                "vitals"
+              ],
+              "subtype": [
+                "size"
+              ],
+              "option": [
+                null
+              ]
+            }
+          },
+          "name": "Size + 1",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.29",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!Pxl3c7WYVpTJwBaB.czP5nkFUD7uCC1BG.CULCFmHIjMOPXI26"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Your Size is +1 instead of 0, so you are between six and seven feet tall. This means that the severity of wounds you take increases in six point intervals rather than five point intervals. (See page @@). You cannot take this Virtue and Giant Blood (page @@), Small Frame (page @@), or Dwarf (page @@).</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 44,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "large",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "czP5nkFUD7uCC1BG",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.czP5nkFUD7uCC1BG"
+    },
+    {
+      "name": "Narrowly Cognizant",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Fae only. The character is able to improve itself in ways traditional for characters of this type. A dwarf may seek to become a dwarf king, for example. Or a faerie maid may wish to steal a child to raise as her own.</span></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "type": "supernatural",
+        "impact": {
+          "value": "free"
+        },
+        "indexKey": "narrowly-cognizant",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "JAV9SoAVuA225dAI",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "sxAs4hokM3HrSJIc",
+      "sort": 100000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.sxAs4hokM3HrSJIc"
+    },
+    {
+      "name": "Observant",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">A typical faerie player character increases its Pretenses in two seasons per year. In the other season, it completes the tasks set by its role</span>.</p>",
+        "source": "RoP:F",
+        "page": 64,
+        "type": "supernatural",
+        "impact": {
+          "value": "free"
+        },
+        "indexKey": "observant",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "JAV9SoAVuA225dAI",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "Dm7jWyihZaShIOBL",
+      "sort": 300000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.Dm7jWyihZaShIOBL"
+    },
+    {
+      "name": "Sovereign Ward (varies)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">If a taboo is selected as a major flaw, the faerie may not harm a person or thing that is defended by the ward. “Harm” is defined very broadly in the faerie’s glamour. A faerie that is vulnerable to religious symbols, for example, can not work around the symbol by putting mundane poison in the food of the wearer, or burning his house down around him. The person is completely safe from the faerie. The faerie must attempt to flee the ward, and its body is destroyed instantly by the ward’s touch.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "sovereign-ward",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "PMTtdepguHpd2YfJ",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "P6VzzOk3cwbbvycu",
+      "sort": 200000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.P6VzzOk3cwbbvycu"
+    },
+    {
+      "name": "Oath Of Fealty",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/story.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ciwmacrmzmm",
+          "path": "Flaws#/CF_SEP/Story",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">You have sworn an oath of loyalty and support to someone outside the covenant, and sometimes they call on you to uphold your vow. Magi are forbidden from taking Oaths of Fealty by the Hermetic Code. Some don’t let that stop them.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "story",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "oath-of-fealty",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "HvyHCuxjJNI5yJoA",
+      "_id": "CCFcdJO1kSiD3FIF",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.CCFcdJO1kSiD3FIF"
+    },
+    {
+      "name": "Vow (Chivalrous conduct)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">You have sworn to do something difficult, and breaking your vow is a serious matter. Example vows include never raising a weapon, never speaking, or living in poverty. If you do fail to uphold your vow, you must perform some kind of atonement, whether it be religious penance or coming to terms with your failure in some other way. A Vow that is a Major Flaw must be a vow to do something, rather than refrain from something, so that it can drive you to act.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "vow",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "6IL3zv4YaPJwUmO8",
+      "sort": 4600000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.6IL3zv4YaPJwUmO8"
+    },
+    {
+      "name": "Arrogant",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "5MYuUeK3IZez6Ev6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.5MYuUeK3IZez6Ev6"
+    },
+    {
+      "name": "Courteous",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "ob05fSLyjBq3Nwt8",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.ob05fSLyjBq3Nwt8"
+    },
+    {
+      "folder": "seNqaIxNCRH7Ny02",
+      "name": "Long Sword and Heater Shield*",
+      "type": "weapon",
+      "img": "icons/svg/combat.svg",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "long-sword-and-heater-shield",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 2,
+        "init": 2,
+        "atk": 4,
+        "dfn": 4,
+        "dam": 6,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "singleWeapon",
+          "option": "",
+          "id": "Iz4zrCWB8cedoc1o"
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288508591,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "6a3G3hle90rVMTMR",
+      "sort": 700000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.6a3G3hle90rVMTMR"
+    },
+    {
+      "folder": "seNqaIxNCRH7Ny02",
+      "name": "Mace and Heater shield*",
+      "type": "weapon",
+      "img": "icons/svg/combat.svg",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "mace-and-heater-shield",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 1,
+        "init": 1,
+        "atk": 3,
+        "dfn": 3,
+        "dam": 8,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "singleWeapon",
+          "option": "",
+          "id": "Iz4zrCWB8cedoc1o"
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761288456347,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "5CCgv2lEjdjQYtgj",
+      "sort": 0,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.5CCgv2lEjdjQYtgj"
+    },
+    {
+      "name": "Overconfident.",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have a completely unshakable faith in your own abilities. You believe that you will always perform at, or slightly above, the peak of your abilities, and cannot imagine failure. If you actually botch, you come up with some rationalization as to what 'really' happened.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "overconfident-minor",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "cRGZddtnRxDHTgPi",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.cRGZddtnRxDHTgPi"
+    },
+    {
+      "folder": "isxWGzUh0qpTFGA7",
+      "name": "Damaging Effect",
+      "type": "power",
+      "_id": "ZCoj4Sd733Vhv9S4",
+      "img": "icons/svg/tower.svg",
+      "system": {
+        "description": "<p><strong>Variable Form</strong>: Causes all of the faerie's weapons, which are part of its glamor, to take on a more deadly aspect for two minutes. The danger of the aspect varies according to the motif usual for the faerie, but always increases the weapon's Damage by +5.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "damaging-effect",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "inherit",
+        "cost": 2,
+        "credits": "",
+        "init": 0,
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.wW2qn1TdVZ4XeN90",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761287868518,
+        "modifiedTime": 1761287898057,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.ZCoj4Sd733Vhv9S4"
+    },
+    {
+      "name": "Shift Human Shapes",
+      "type": "power",
+      "system": {
+        "description": "<p>Corpus. Allows the knight, who is usually armored to demonstrate his role, to remove the armor simply by thinking about it.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "shift-human-shapes",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 1,
+        "credits": "",
+        "init": 0,
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "Ot1JO9OYS4Sr9CCZ",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761287985985,
+        "modifiedTime": 1761288020934,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.Ot1JO9OYS4Sr9CCZ"
+    },
+    {
+      "folder": "o685xKwWjHPMy4pe",
+      "name": "Lance and Heater shield* (mounted)",
+      "type": "weapon",
+      "img": "icons/svg/combat.svg",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "lance-and-heater-shield-mounted",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 1,
+        "init": 2,
+        "atk": 4,
+        "dfn": 3,
+        "dam": 8,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": true,
+        "horse": true,
+        "ability": {
+          "key": "singleWeapon",
+          "option": "",
+          "id": "Iz4zrCWB8cedoc1o"
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.Pxl3c7WYVpTJwBaB.Item.5CCgv2lEjdjQYtgj",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761288243403,
+        "modifiedTime": 1761288636879,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "HRrMxoh5PyYSnepE",
+      "sort": 150000,
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.HRrMxoh5PyYSnepE"
+    },
+    {
+      "name": "Faerie Metal Scale - Full",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+      "effects": [],
+      "folder": "qe6K6lOIy7t2w02l",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_d16odjpbext",
+          "path": "Equipments#/CF_SEP/Armor",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Faerie metal scale, made of glamor using the Shift Human Shapes Power.</p><p>Replacing the leather scales with small overlapping metal plates again increases protection while retaining flexibility, although metal weighs slightly more.<span style=\"font-family: 'Weiss'\"> </span></p><p>Full armor adds gauntlets to protect the hands, vambraces for the forearms, chausses for the legs, a closed helm that protects the face, and perhaps additional pieces for the throat, elbows, and knees. Full armor also often includes a gambeson, a heavily padded surcoat worn over the armor. The small auxiliary pieces may be made of a different material than the main cuirass - for instance, a suit of full chain mail might have chain mail to protect the torso and leather scale on the arms and legs (or it might be entirely made of chain mail).</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "cost": {
+          "value": "std",
+          "amount": 0
+        },
+        "quantity": 1,
+        "prot": 7,
+        "full": true,
+        "load": 7,
+        "equipped": true,
+        "indexKey": "metal-scale-full",
+        "state": "inert",
+        "enchantments": null,
+        "review_status": "definitiveReady",
+        "reviewer": "KILLTHESCRIBE",
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.Iivv9RvaImxlAR9O",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761288309866,
+        "modifiedTime": 1761288412414,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "46cXVDEhSryB8yH2",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!Pxl3c7WYVpTJwBaB.46cXVDEhSryB8yH2"
+    }
+  ],
+  "folder": "88CO5QBkOKA6hTJa",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Faerie Knight",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.29",
+    "createdTime": 1761287500942,
+    "modifiedTime": 1761288456427,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Pxl3c7WYVpTJwBaB",
+  "sort": 0,
+  "_key": "!actors!Pxl3c7WYVpTJwBaB"
+}

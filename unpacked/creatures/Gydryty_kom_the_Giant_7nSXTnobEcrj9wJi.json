@@ -1,5 +1,5 @@
 {
-  "name": "Aneirin the Bard",
+  "name": "Gydryty-kom the Giant",
   "type": "npc",
   "system": {
     "version": "2.0.2",
@@ -55,7 +55,7 @@
     },
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "aneirin-the-bard",
+    "indexKey": "gydryty-kom-the-giant",
     "review_status": "toReview",
     "reviewer": "xzotl",
     "age": {
@@ -97,10 +97,10 @@
       "creationMode": true,
       "confidencePrompt": false
     },
-    "biography": "<p>One of the five great Welsh poets believed by the Order to have left Daimons behind after their death (the other four being Taliesin, Talhaearn Tad Awen, Blwchbardd, and Cian). Famous for a single poem, Y Gododdin, Aneirin praises his fellows among the war band of Mynyddawg Mwynfawr (Mynyddawg the Wealthy) of Caereidyn (near Edinburgh), an army 300 strong sent on a doomed mission to recapture an old Roman stronghold from the Saxons. His tomb lies somewhere in the Cambrian Mountains. His spirit wanders across the entire mountain range, helping those who further his ideals and punishing those who go against them, but he is most powerful within his own tomb.</p><p dir=\"auto\"><strong>Vis:</strong> If his spirit is somehow bottled rather than banished 2 Imaginem Vis remains.</p><div class=\"el-p\"><p dir=\"auto\"></p></div>",
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> When he is banished his tongue remains, and contains 8 pawns of Auram Vis.</p></div><div class=\"el-p\"><p dir=\"auto\">Gydryty-kom is the master of hail, a giant who can stretch his mouth from the ground to the clouds. He swallows storms and lightning, but grows angry when summoned because it interrupts his eternal battle with a Daimonic snake of fog that threatens to swallow the world. Gydryty-kom was once highly regarded in the lands of the Albanians, but his power has faded thanks to Christianity.</p></div><p><strong>To review</strong></p><ul><li>No \"Abilities\" field</li><li>No \"Virtues and Flaws\" field</li></ul>",
     "characteristics": {
       "int": {
-        "value": 3,
+        "value": 0,
         "aging": 0
       },
       "per": {
@@ -108,27 +108,27 @@
         "aging": 0
       },
       "str": {
-        "value": 0,
+        "value": 8,
         "aging": 0
       },
       "sta": {
-        "value": 0,
+        "value": 6,
         "aging": 0
       },
       "pre": {
-        "value": 2,
+        "value": 0,
         "aging": 0
       },
       "com": {
-        "value": 4,
+        "value": -2,
         "aging": 0
       },
       "dex": {
-        "value": 0,
+        "value": 3,
         "aging": 0
       },
       "qik": {
-        "value": 0,
+        "value": 3,
         "aging": 0
       }
     },
@@ -145,10 +145,10 @@
     },
     "vitals": {
       "siz": {
-        "value": 0
+        "value": 3
       },
       "soa": {
-        "value": 0
+        "value": 20
       },
       "enc": {
         "value": 0
@@ -449,19 +449,23 @@
     },
     "might": {
       "label": "Might",
-      "form": "im",
-      "value": 15,
-      "points": 15
+      "form": "au",
+      "value": 40,
+      "points": 40
     },
     "powers": [],
     "realm": "magic",
     "personalities": {
       "0": {
-        "name": "Careful",
-        "score": 3
+        "name": "Hates Being Interrupted",
+        "score": 4
       },
       "1": {
-        "name": "Observant",
+        "name": "Determined",
+        "score": 3
+      },
+      "2": {
+        "name": "Protective",
         "score": 2
       }
     },
@@ -487,7 +491,81 @@
   },
   "items": [
     {
-      "name": "Careful",
+      "name": "Swallow Spells",
+      "type": "power",
+      "system": {
+        "description": "Can swallow any magical spell or effect with a level of 50 or less, completely dispelling it.",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "swallow-spells",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 5,
+        "init": 3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "94EEmoek91WCovsh",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.94EEmoek91WCovsh"
+    },
+    {
+      "name": "Hates Being Interrupted",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 50,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "uaWdtJ4PU1xjoinA",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.uaWdtJ4PU1xjoinA"
+    },
+    {
+      "name": "Determined",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -500,7 +578,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "zKF4JyBchN0TEh7Q",
+      "_id": "2zBzvSs8tulvB75J",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -514,15 +592,15 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!S39RMYK6kYo0VRC1.zKF4JyBchN0TEh7Q"
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.2zBzvSs8tulvB75J"
     },
     {
-      "name": "Observant",
+      "name": "Protective",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -535,7 +613,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "Hd0EoGPMtn7GMZV8",
+      "_id": "BM1dMJnDlz0Prho8",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -549,71 +627,189 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!S39RMYK6kYo0VRC1.Hd0EoGPMtn7GMZV8"
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.BM1dMJnDlz0Prho8"
     },
     {
-      "name": "Discorporate",
+      "name": "Auram Magic",
       "type": "power",
       "system": {
-        "description": "<p>Aneirin never physically manifests, save as a shadow and a melodic voice. He can only be harmed with magic.</p>",
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Cost varies, Init +3, Auram: May perform equivalent effects to any Auram magic at a cost of 1 point per magnitude, or for spells involving hail, 1 point per three magnitudes. Can perform Auram Ritual spells as if they were Formulaic spells; no extra time or vis is required.</p></div>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "discorporate",
+        "indexKey": "auram-magic",
         "review_status": "reviewed",
         "reviewer": "xzotl",
-        "form": "vi",
+        "form": "au",
         "cost": 1,
-        "credits": "",
         "init": 0,
+        "credits": "",
         "penetration": 0,
-        "realm": "mundane"
+        "realm": "magic"
       },
-      "_id": "ZUMPtweCl4jahjn1",
       "img": "icons/svg/tower.svg",
       "effects": [],
-      "folder": null,
-      "sort": 0,
+      "folder": "o685xKwWjHPMy4pe",
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760814121551,
-        "modifiedTime": 1760814168612,
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292850965,
+        "modifiedTime": 1761292850965,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!S39RMYK6kYo0VRC1.ZUMPtweCl4jahjn1"
+      "_id": "ABR8w8fkrtO04BKX",
+      "sort": 200000,
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.ABR8w8fkrtO04BKX"
     },
     {
-      "name": "Names of Power",
-      "type": "power",
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
       "system": {
-        "description": "<p>Aneirin knows many names of minor spirits and can teach them as a result of a Pact.</p>",
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "names-of-power",
+        "defaultChaAb": "dex",
+        "speciality": "fist",
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 105
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.gDKigulrSOhX1Vh7",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292901574,
+        "modifiedTime": 1761293080689,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "9tVLwApJFDmbaTR1",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.9tVLwApJFDmbaTR1"
+    },
+    {
+      "name": "(B) Fist",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "folder": "u0bqg5ruG7sX6XV0",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>This is includes any unarmed attacks made with the hands</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "9tVLwApJFDmbaTR1"
+        },
+        "weaponExpert": true,
+        "horse": false,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
+        "str": 0,
+        "range": 0,
+        "load": 0,
+        "equipped": true,
+        "indexKey": "b-fist",
+        "state": "inert",
+        "enchantments": null,
+        "review_status": "definitiveReady",
+        "reviewer": "KILLTHESCRIBE",
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.8vsnjFvwA01cMolg",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292959823,
+        "modifiedTime": 1761293095719,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "q6H8H0xciqpd9E8q",
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.q6H8H0xciqpd9E8q"
+    },
+    {
+      "name": "Magic skin",
+      "type": "armor",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "magic-skin",
         "review_status": "reviewed",
         "reviewer": "xzotl",
-        "form": "inherit",
-        "cost": 0,
         "credits": "",
-        "init": 0,
-        "penetration": 0,
-        "realm": "mundane"
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "prot": 14,
+        "full": false,
+        "equipped": true,
+        "state": "inert",
+        "enchantments": null
       },
-      "_id": "0LbFzT9nkpEpI1I4",
-      "img": "icons/svg/tower.svg",
+      "_id": "aiWbxlgKPHLziyBX",
+      "img": "icons/svg/statue.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -627,18 +823,18 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760814202274,
-        "modifiedTime": 1760814232441,
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761292983833,
+        "modifiedTime": 1761293040386,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!S39RMYK6kYo0VRC1.0LbFzT9nkpEpI1I4"
+      "_key": "!actors.items!7nSXTnobEcrj9wJi.aiWbxlgKPHLziyBX"
     }
   ],
   "folder": "dKkjbN7Pt49SfpMg",
   "img": "icons/svg/mystery-man-black.svg",
   "prototypeToken": {
-    "name": "Aneirin the Bard",
+    "name": "Gydryty-kom the Giant",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -730,18 +926,20 @@
     "default": 0,
     "6SdI10VpXHcBvx2J": 3
   },
-  "flags": {},
+  "flags": {
+    "arm5e": {}
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.28",
-    "createdTime": 1760814029724,
-    "modifiedTime": 1761292666519,
+    "systemVersion": "2.4.0.29",
+    "createdTime": 1761292666405,
+    "modifiedTime": 1761300696476,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "S39RMYK6kYo0VRC1",
-  "sort": 400000,
-  "_key": "!actors!S39RMYK6kYo0VRC1"
+  "_id": "7nSXTnobEcrj9wJi",
+  "sort": 200000,
+  "_key": "!actors!7nSXTnobEcrj9wJi"
 }

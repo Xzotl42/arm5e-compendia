@@ -1,5 +1,5 @@
 {
-  "name": "A Water Elemental",
+  "name": "Faerie Hounds",
   "type": "npc",
   "system": {
     "version": "2.0.2",
@@ -55,7 +55,7 @@
     },
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "a-water-elemental",
+    "indexKey": "faerie-hounds",
     "review_status": "toReview",
     "reviewer": "xzotl",
     "age": {
@@ -76,11 +76,11 @@
     },
     "realms": {
       "magic": {
-        "aligned": true,
+        "aligned": false,
         "susceptible": false
       },
       "faeric": {
-        "aligned": false,
+        "aligned": true,
         "susceptible": false
       },
       "divine": {
@@ -97,7 +97,7 @@
       "creationMode": true,
       "confidencePrompt": false
     },
-    "biography": "<p>This lympha haunts the river banks near its home, preying on the warmth of small creatures who dwell there.<br><br><strong>Vis:</strong> 3 pawns of Aquam, in body</p><p></p><p><strong>Review: </strong>Check combat stats again. (adjusted equipment for now)</p>",
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 1 pawn Animal, dog corpse</p><p dir=\"auto\"><strong>Appearance:</strong> Faerie hounds are usually of chunky, hunting breeds. Many have shining eyes, and almost all have black, white or green fur. These statistics also suit the hunting hounds of the courtly fae. This type of faerie hound often has a white coat, red ears and blue eyes.</p></div><div class=\"el-p\"><p dir=\"auto\">Huge faerie dogs haunt the roads of much of Mythic Europe. They terrify, and sometimes kill, travelers. Some can run rapidly, and others run upon their hindlimbs when chasing humans, to have their teeth closer to the victim's throat.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Variants:</strong><br>In part of France, this role is filled by a terrifying goat.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Aufhocker,</strong> found in German-speaking areas, acts as a kelpie, and uses a power to cling to foes while goring them so that his weight adds 6 to their combat Load.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Kludie,</strong> from Belgium, is the most powerful variant of this beast. It can take monstrously-large versions of the forms of dog, cat, bat, horse or frog. It walks on its back legs, with a dancing movement as it sprints toward its victim. It is preceded by supernatural blue flames. Kludie knows the trick of bouncing on the back of his quarry and using a power to drag his prey down. He also does the kelpie trick, dunking or drowning those who mount him in horse form.</p></div><p></p><p><strong>Powers:</strong><br>The powers listed are commonly found in Faerie Hounds, but it is rare for a single hound to have more than two of them.</p>",
     "characteristics": {
       "int": {
         "value": 0,
@@ -108,15 +108,15 @@
         "aging": 0
       },
       "str": {
-        "value": 3,
+        "value": 0,
         "aging": 0
       },
       "sta": {
-        "value": 3,
+        "value": 2,
         "aging": 0
       },
       "pre": {
-        "value": 0,
+        "value": -4,
         "aging": 0
       },
       "com": {
@@ -128,11 +128,11 @@
         "aging": 0
       },
       "qik": {
-        "value": -4,
+        "value": 2,
         "aging": 0
       },
       "cun": {
-        "value": 4,
+        "value": 0,
         "aging": 0
       }
     },
@@ -152,7 +152,7 @@
         "value": 0
       },
       "soa": {
-        "value": 6
+        "value": 2
       },
       "enc": {
         "value": 0
@@ -453,16 +453,24 @@
     },
     "might": {
       "label": "Might",
-      "form": "aq",
-      "value": 15,
-      "points": 15
+      "form": "an",
+      "value": 5,
+      "points": 5
     },
     "powers": [],
-    "realm": "magic",
+    "realm": "faeric",
     "personalities": {
       "0": {
-        "name": "River",
+        "name": "Loyal",
         "score": 3
+      },
+      "1": {
+        "name": "Reckless",
+        "score": 3
+      },
+      "2": {
+        "name": "Brave",
+        "score": 2
       }
     },
     "bonuses": {
@@ -487,84 +495,6 @@
   },
   "items": [
     {
-      "name": "Drown",
-      "type": "power",
-      "system": {
-        "description": "<div class=\"el-p\"><p dir=\"auto\">Init equal to (Qik – 2), Aquam<br>R: Touch, D: Sun, T: Ind</p></div><div class=\"el-p\"><p dir=\"auto\">After successful melee attack, the elemental can engulf a target whose Size is smaller than its own and attempt to drown him, necessitating a roll to avoid deprivation. The victim can attempt to escape from its clutches each round using the Grappling rules.</p></div><div class=\"el-p\"><p dir=\"auto\">ReAq(Co) 30 (Base 5, +1 Touch, +2 Sun, +1 requisite, +1 constant effect)</p></div>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "drown",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "aq",
-        "cost": 0,
-        "init": -6,
-        "credits": "",
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "s6xD4hNQHCd7v7XI",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760792894229,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.s6xD4hNQHCd7v7XI"
-    },
-    {
-      "name": "Chill Touch",
-      "type": "power",
-      "system": {
-        "description": "<div class=\"el-p\"><p dir=\"auto\">R: Touch, D: Mom, T: Ind</p></div><div class=\"el-p\"><p dir=\"auto\">The lympha's touch extracts heat from a target, inflicting +10 damage. This damage is Soaked without the benefit of armor, as the watery body of the elemental seeps through all protection.</p></div>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "chill-touch",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "ig",
-        "cost": 2,
-        "init": 0,
-        "credits": "",
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "Vq1IFNtP2uSszjxU",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760792987344,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.Vq1IFNtP2uSszjxU"
-    },
-    {
       "name": "Athletics",
       "type": "ability",
       "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
@@ -582,8 +512,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "when hunting",
-        "xp": 15,
+        "speciality": "distance running",
+        "xp": 75,
         "key": "athletics",
         "option": "",
         "realm": "magic",
@@ -599,20 +529,70 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1761287396040,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "2X7C7mqpBKMDaZvR",
+      "_id": "urdsNLDMxEA1IPrB",
       "sort": 3700000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.2X7C7mqpBKMDaZvR"
+      "_key": "!actors.items!E9men5jXVObcor6N.urdsNLDMxEA1IPrB"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "keeping watch",
+        "xp": 105,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761287373256,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "ePlTjVqby8BzbcnH",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!E9men5jXVObcor6N.ePlTjVqby8BzbcnH"
     },
     {
       "name": "Brawl",
@@ -632,8 +612,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "bludgeon",
-        "xp": 30,
+        "speciality": "bite",
+        "xp": 75,
         "key": "brawl",
         "option": "",
         "realm": "magic",
@@ -649,20 +629,20 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1761287357590,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "O1l1CMbh81WyKuDP",
+      "_id": "8uDLxXoJScky7VuC",
       "sort": 3200000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.O1l1CMbh81WyKuDP"
+      "_key": "!actors.items!E9men5jXVObcor6N.8uDLxXoJScky7VuC"
     },
     {
       "name": "Hunt",
@@ -682,8 +662,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "per",
-        "speciality": "river banks",
-        "xp": 30,
+        "speciality": "track by scent",
+        "xp": 105,
         "key": "hunt",
         "option": "",
         "realm": "magic",
@@ -699,182 +679,74 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1761287386531,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "294Wx8ZJVM4edKNV",
+      "_id": "eBPA33vjpaz8E3kE",
       "sort": 4900000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.294Wx8ZJVM4edKNV"
+      "_key": "!actors.items!E9men5jXVObcor6N.eBPA33vjpaz8E3kE"
     },
     {
-      "name": "Penetration",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/penetration.svg",
+      "name": "Faerie Sight",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_7bwhgya3q6x",
-          "path": "Abilities#/CF_SEP/Arcane",
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify\">Getting your spell through the target's Magic Resistance. See page @@ for detailed Penetration rules.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> any one Art. (Arcane)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "int",
-        "speciality": "Chill Touch power",
-        "xp": 15,
-        "key": "penetration",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "penetration",
-        "reviewer": "xzotl",
+        "description": "<p><span class=\"fontstyle0\">The character is able to improve itself in ways traditional for characters of this type. A dwarf may seek to become a dwarf king, for example. Or a faerie maid may wish to steal a child to raise as her own.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-sight",
         "review_status": "reviewed",
-        "optionLinked": false,
-        "credits": "",
-        "accelerated": false
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "Ku86xoVh78FXIgLr",
-      "_id": "sqiOQ8RFtDrgXpiR",
-      "sort": 0,
+      "folder": "XwOh5akgyjxNE2dG",
       "ownership": {
         "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.sqiOQ8RFtDrgXpiR"
+      "_id": "L9XPuYrB9sqqHoe9",
+      "sort": 2200000,
+      "_key": "!actors.items!E9men5jXVObcor6N.L9XPuYrB9sqqHoe9"
     },
     {
-      "name": "Swim",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/swim.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>The ability to propel yourself through water quickly and efficiently.</p>\n<p><strong>Specialties:</strong> long distances, diving, underwater maneuvering. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "sta",
-        "speciality": "speed",
-        "xp": 30,
-        "key": "swim",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "swim",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": false,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "q367Wja1mNsIdTKy",
-      "sort": 4400000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.q367Wja1mNsIdTKy"
-    },
-    {
-      "name": "Puissant Hunt",
+      "name": "Improved Characteristics",
       "type": "virtue",
       "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [
-        {
-          "_id": "J0QJLeqXymMl2eAe",
-          "changes": [
-            {
-              "key": "system.bonuses.skills.hunt.bonus",
-              "mode": 2,
-              "value": "2",
-              "priority": null
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "origin": "Compendium.arm5e.virtues.gA4tFkUvBXok0DiN",
-          "tint": "#000000",
-          "transfer": true,
-          "flags": {
-            "arm5e": {
-              "type": [
-                "bonusGeneralAbility"
-              ],
-              "subtype": [
-                "hunt"
-              ],
-              "option": [
-                "hunt"
-              ]
-            }
-          },
-          "name": "Puissant Hunt",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "12.343",
-            "systemId": "arm5e",
-            "systemVersion": "2.4.0.28",
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null
-          },
-          "img": "icons/svg/aura.svg",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!9QVjYeQ0Qg2bSvG1.jwzGaxLZgS4rE4qx.J0QJLeqXymMl2eAe"
-        }
-      ],
+      "effects": [],
       "flags": {
         "core": {},
         "cf": {
@@ -884,14 +756,14 @@
         }
       },
       "system": {
-        "description": "<p>You are particularly adept with one Ability, and add 2 to its value whenever you use it. Note that you do not, in general, use an Ability when learning it, writing about it, or helping someone else to improve it. You may only take this Virtue once for a given Ability, but may take it more than once for different Abilities.</p><p> </p>",
+        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
         "source": "ArM5Def",
         "page": 0,
         "type": "general",
         "impact": {
           "value": "minor"
         },
-        "indexKey": "puissant-ability",
+        "indexKey": "improved-characteristics",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
@@ -903,31 +775,78 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "jegZHVtv21smauPD",
-      "_id": "jwzGaxLZgS4rE4qx",
+      "_id": "7Tpfwbt56NU8Gstu",
       "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.jwzGaxLZgS4rE4qx"
+      "_key": "!actors.items!E9men5jXVObcor6N.7Tpfwbt56NU8Gstu"
     },
     {
-      "name": "Tough",
+      "name": "Sharp Ears",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You hear better than most. You get a +3 bonus to all rolls in</p><p>volving hearing.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "sharp-ears",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "de2L1LO7L8BxgUE6",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!E9men5jXVObcor6N.de2L1LO7L8BxgUE6"
+    },
+    {
+      "name": "Large",
       "type": "virtue",
       "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
       "effects": [
         {
-          "_id": "jBpkQbNivkfs0HwB",
+          "_id": "CULCFmHIjMOPXI26",
           "changes": [
             {
-              "key": "system.bonuses.traits.soak",
-              "value": "3",
+              "key": "system.vitals.siz.value",
+              "value": "1",
               "mode": 2,
               "priority": null
             }
@@ -942,7 +861,7 @@
             "startRound": null,
             "startTurn": null
           },
-          "origin": "Compendium.arm5e.virtues.btxtlpTLe24uYd1Z",
+          "origin": "Compendium.arm5e.virtues.GTnrsLNpdMjrMoIl",
           "tint": "#000000",
           "transfer": true,
           "flags": {
@@ -951,14 +870,14 @@
                 "vitals"
               ],
               "subtype": [
-                "soak"
+                "size"
               ],
               "option": [
                 null
               ]
             }
           },
-          "name": "Soak +3",
+          "name": "Size + 1",
           "description": "",
           "statuses": [],
           "_stats": {
@@ -966,7 +885,7 @@
             "duplicateSource": null,
             "coreVersion": "12.343",
             "systemId": "arm5e",
-            "systemVersion": "2.4.0.28",
+            "systemVersion": "2.4.0.29",
             "createdTime": null,
             "modifiedTime": null,
             "lastModifiedBy": null
@@ -975,7 +894,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!9QVjYeQ0Qg2bSvG1.c0up38L4aAICORbp.jBpkQbNivkfs0HwB"
+          "_key": "!actors.items.effects!E9men5jXVObcor6N.fsLHMqpahuajJLyL.CULCFmHIjMOPXI26"
         }
       ],
       "flags": {
@@ -987,14 +906,14 @@
         }
       },
       "system": {
-        "description": "<p>You can take physical punishment better than most people. You get a +3 bonus on your Soak score.</p><p>&nbsp;</p>",
+        "description": "<p>Your Size is +1 instead of 0, so you are between six and seven feet tall. This means that the severity of wounds you take increases in six point intervals rather than five point intervals. (See page @@). You cannot take this Virtue and Giant Blood (page @@), Small Frame (page @@), or Dwarf (page @@).</p><p> </p>",
         "source": "ArM5Def",
-        "page": 0,
+        "page": 44,
         "type": "general",
         "impact": {
           "value": "minor"
         },
-        "indexKey": "tough",
+        "indexKey": "large",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
@@ -1006,210 +925,151 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "jegZHVtv21smauPD",
-      "_id": "c0up38L4aAICORbp",
+      "_id": "fsLHMqpahuajJLyL",
       "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.c0up38L4aAICORbp"
+      "_key": "!actors.items!E9men5jXVObcor6N.fsLHMqpahuajJLyL"
     },
     {
-      "name": "Ways of the River",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "name": "Incognizant",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The character is not aware that it can change its role, although it may develop additional Pretenses by assisting humans in stories. Incognizant faeries do not, however, notice that they are more skilled than they once were, and cannot consciously seek developmental opportunities.</span></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "incognizant",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "d6pDzNO7OmrofVxn",
+      "sort": 200000,
+      "_key": "!actors.items!E9men5jXVObcor6N.d6pDzNO7OmrofVxn"
+    },
+    {
+      "name": "Reckless - Minor",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p>You ha ve a deep understanding of a type of terrain, feeling more natural and at home there than anywhere else. Examples include Ways of the Forest, Ways of the Mountain, Ways of the Steppe or Ways of the Town. You get a +3 bonus to all rolls, including combat and Casting Scores, that directly involve that area and its inhabitants; mundane, magical, or faerie. In addition, you roll one fewer botch die than normal (which may mean you roll no botch dice) in rolls that pertain to your area of understanding. You are not normally molested by animals of the terrain, and though particularly vicious creatures may still attack you, at least they’ll accord you proper respect. (For Ways of the Town, this still applies to town animals, of which there are plenty in the medieval world, rather than people. The +3 bonus does apply to people.) You may choose this Virtue multiple times, for different types of terrain.</p><p> </p>",
+        "description": "<div class=\"el-p\"><p dir=\"auto\">You tend not to notice that situations are threatening, and certainly do not stop to consider whether they might be. You just go ahead and charge right in.</p></div>",
         "source": "ArM5Def",
         "page": 0,
-        "type": "general",
+        "type": "personality",
         "impact": {
-          "value": "major"
+          "value": "minor"
         },
-        "indexKey": "ways-of-the-land",
+        "indexKey": "reckless",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
-        "credits": "",
-        "tainted": false
+        "tainted": false,
+        "credits": ""
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "jyD9OjMnXTZeke24",
-      "_id": "46DK3vS81F9z8CHM",
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "s66v5xHxzh5QBxdE",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!E9men5jXVObcor6N.s66v5xHxzh5QBxdE"
+    },
+    {
+      "name": "Traditional Wards (varies)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Fae only. If a taboo is selected as a Minor Flaw, then the faerie may not touch a thing protected by the ward with its glamour. The faerie is likely uncomfortable in the presence of the ward, but is not compelled to flee. The faerie cannot regenerate Might points in the presence of a traditional ward. If forced to touch the ward, the glamour holding the faerie’s body together begins to break down: its body begins to flake away. Prolonged contact with the ward destroys the body of the faerie by unpicking the glamour holding its body together.</span></p><p><span class=\"fontstyle0\">This may appear to humans as if the ward is burning the faerie. The damage to the faerie’s body can be simulated with the Heat and Corrosion rules found on page @@ of </span><span class=\"fontstyle2\">ArMDE</span><span class=\"fontstyle0\">. Assume that the object acts as a source of damage with an intensity of +6.</span></p><p><span class=\"fontstyle0\">If a faerie receives an Incapacitating wound from an item that is a Traditional Ward, then in addition to the usual effects of Incapacitating wounds (</span><span class=\"fontstyle2\">ArM5</span><span class=\"fontstyle0\">, page @@) the faerie cannot spend any further Might points. It can still activate powers with a zero cost, though. If the character has constant-effect powers with a non-zero cost, they expire at the next sunrise or sunset and cannot be reactivated until the character is no longer Incapacitated. The character may heal at a human rate, or may remove the injury with an appropriate story event.</span></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "traditional-ward",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "u3LbXUzQJo8Fs7Cp",
       "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.46DK3vS81F9z8CHM"
+      "_key": "!actors.items!E9men5jXVObcor6N.u3LbXUzQJo8Fs7Cp"
     },
     {
-      "name": "Poor Memory",
-      "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/personality.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_18qw00m8tam",
-          "path": "Flaws#/CF_SEP/Personality",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You have a very hard time recalling one type of thing, such as names, faces, or places.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "personality",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "poor-memory",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false,
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "hXfkbCsUoxlA0bSB",
-      "_id": "D1Ayp2TISlJNFzDq",
-      "sort": 5600000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.D1Ayp2TISlJNFzDq"
-    },
-    {
-      "name": "Short Attention Span",
-      "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/personality.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_18qw00m8tam",
-          "path": "Flaws#/CF_SEP/Personality",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<div class=\"el-p\"><p dir=\"auto\">You have trouble concentrating. Keeping watch, listening to complex orders, following the plot of a story, or performing other such tasks that require continued attention are usually not within your ability.</p></div>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "personality",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "short-attention-span",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false,
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "hXfkbCsUoxlA0bSB",
-      "_id": "XnIBSXQGlfw07oQQ",
-      "sort": 5900000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.XnIBSXQGlfw07oQQ"
-    },
-    {
-      "name": "Simple-minded",
-      "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/personality.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_18qw00m8tam",
-          "path": "Flaws#/CF_SEP/Personality",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<div class=\"el-p\"><p dir=\"auto\">You can only think about one thing at a time — guarding the bridge, hunting for a missing ring, or hiding in the trees for example. You become easily confused unless others give you very clear instructions. When unexpected circumstances pop up, you find them difficult to deal with.</p></div>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "personality",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "simple-minded",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false,
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "hXfkbCsUoxlA0bSB",
-      "_id": "i48SPANBikSvmkpX",
-      "sort": 4200000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.i48SPANBikSvmkpX"
-    },
-    {
-      "name": "River",
+      "name": "Loyal",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -1222,7 +1082,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "Pl9KsYU36sbax6WI",
+      "_id": "uGaW7fRDWjIGoJuw",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1236,156 +1096,28 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
+        "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.Pl9KsYU36sbax6WI"
+      "_key": "!actors.items!E9men5jXVObcor6N.uGaW7fRDWjIGoJuw"
     },
     {
-      "name": "Bludgeon",
-      "type": "weapon",
-      "img": "icons/magic/water/pseudopod-teal.webp",
-      "effects": [],
-      "folder": "seNqaIxNCRH7Ny02",
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_ebcddbqmaft",
-          "color": "#000000"
-        }
-      },
+      "name": "Reckless",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
-        "description": "<p>This could be a sap (a leather bag filled with lead shot) or any heavy object like a stone or a small hammer</p>",
-        "source": "ArM5Def",
+        "xp": 30,
+        "description": "",
+        "source": "custom",
         "page": 0,
-        "cost": {
-          "value": "inexp",
-          "amount": 0
-        },
-        "quantity": 1,
-        "ability": {
-          "key": "brawl",
-          "option": "",
-          "id": "O1l1CMbh81WyKuDP"
-        },
-        "weaponExpert": true,
-        "horse": false,
-        "init": 0,
-        "atk": 3,
-        "dfn": 3,
-        "dam": 2,
-        "str": -2,
-        "range": 0,
-        "load": 2,
-        "equipped": true,
-        "indexKey": "b-bludgeon",
-        "state": "inert",
-        "enchantments": null,
-        "review_status": "definitiveReady",
-        "reviewer": "KILLTHESCRIBE",
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
         "credits": ""
       },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760793616271,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_id": "Mu29O2t6IEdQU5Lp",
-      "sort": 600000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.Mu29O2t6IEdQU5Lp"
-    },
-    {
-      "name": "Bludgeon (Ways of the River)",
-      "type": "weapon",
-      "img": "icons/magic/water/pseudopod-teal.webp",
-      "effects": [],
-      "folder": "seNqaIxNCRH7Ny02",
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_ebcddbqmaft",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>This could be a sap (a leather bag filled with lead shot) or any heavy object like a stone or a small hammer</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "cost": {
-          "value": "inexp",
-          "amount": 0
-        },
-        "quantity": 1,
-        "ability": {
-          "key": "brawl",
-          "option": "",
-          "id": "O1l1CMbh81WyKuDP"
-        },
-        "weaponExpert": true,
-        "horse": false,
-        "init": 3,
-        "atk": 6,
-        "dfn": 6,
-        "dam": 2,
-        "str": -2,
-        "range": 0,
-        "load": 2,
-        "equipped": false,
-        "indexKey": "b-bludgeon",
-        "state": "inert",
-        "enchantments": null,
-        "review_status": "definitiveReady",
-        "reviewer": "KILLTHESCRIBE",
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": null,
-        "modifiedTime": 1760793616795,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_id": "jxXpORGUzT43Vq8E",
-      "sort": 600000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.jxXpORGUzT43Vq8E"
-    },
-    {
-      "name": "Crafter of Water",
-      "type": "power",
-      "system": {
-        "description": "<p>1 – 3 points, Init –4 – Might Cost, Aquam: duplicate any Creo Aquam or Rego Aquam spell of level 15 or below, at a cost of 1 Might point per magnitude of the spell.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "crafter-of-water",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "aq",
-        "cost": 1,
-        "credits": "",
-        "init": -5,
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "Jwixq9kMUyAYfewk",
-      "img": "icons/svg/tower.svg",
+      "_id": "zlnDoQ3bm5jzO0fZ",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1399,18 +1131,344 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760792729205,
-        "modifiedTime": 1760792809068,
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!E9men5jXVObcor6N.zlnDoQ3bm5jzO0fZ"
+    },
+    {
+      "name": "Brave",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "v1pZogY1roaCv8gf",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!E9men5jXVObcor6N.v1pZogY1roaCv8gf"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "system": {
+        "description": "<p>In some cases faerie hounds have the Power Damaging Effect, which adds +5 to the damage score of their bite. This is usually visually obvious, for example their spittle ignites tiny flames on the ground, or their breath puffs like smoke because their teeth freeze like ice.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "teeth",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 3,
+        "dfn": 1,
+        "dam": 1,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": null,
+        "modifiedTime": 1761287445773,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_key": "!actors.items!9QVjYeQ0Qg2bSvG1.Jwixq9kMUyAYfewk"
+      "_id": "hVoPKTpPIobK6fgj",
+      "sort": 1100000,
+      "_key": "!actors.items!E9men5jXVObcor6N.hVoPKTpPIobK6fgj"
+    },
+    {
+      "name": "Enthralling Sound",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Mentem: Used to cause terror and panic with its howl. This power also increases the intensity of an emotion that already exists. A stress roll with an appropriate Personality trait against an Ease Factor of 9 allows a victim to overcome this power's effect.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "enthralling-sound",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 3,
+        "init": -2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "isxWGzUh0qpTFGA7",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.GcTEV4icymeoo9LE",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761286989726,
+        "modifiedTime": 1761286989726,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "8uCCrbazObThUWgJ",
+      "sort": 0,
+      "_key": "!actors.items!E9men5jXVObcor6N.8uCCrbazObThUWgJ"
+    },
+    {
+      "folder": "isxWGzUh0qpTFGA7",
+      "name": "Damaging Effect",
+      "type": "power",
+      "_id": "NZdzCe7LAlW9Ph7x",
+      "img": "icons/svg/tower.svg",
+      "system": {
+        "description": "<p><strong>Variable Form</strong>: Causes all of the faerie's weapons, which are part of its glamor, to take on a more deadly aspect for two minutes. The danger of the aspect varies according to the motif usual for the faerie, but always increases the weapon's Damage by +5.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "damaging-effect",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 2,
+        "credits": "",
+        "init": 0,
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.wW2qn1TdVZ4XeN90",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761286994251,
+        "modifiedTime": 1761286994251,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!E9men5jXVObcor6N.NZdzCe7LAlW9Ph7x"
+    },
+    {
+      "name": "Enthrallment",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Mentem: Allows the faerie to take complete control of a single human's mind for a day, by making eye contact.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "enthrallment",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 4,
+        "init": -2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.uoGZNp9g9jtGH9Kf",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761287043290,
+        "modifiedTime": 1761287043290,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "TQTHMswtes3KrQ2P",
+      "sort": 250000,
+      "_key": "!actors.items!E9men5jXVObcor6N.TQTHMswtes3KrQ2P"
+    },
+    {
+      "name": "Fearful Flaming Eyes",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Corpus: Completely paralyzes a human who makes eye contact with the faerie.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "fearful-flaming-eyes",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 2,
+        "init": -2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.uoGZNp9g9jtGH9Kf",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761287108072,
+        "modifiedTime": 1761287108072,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "R11yYEFYeYjTjcCe",
+      "sort": 250000,
+      "_key": "!actors.items!E9men5jXVObcor6N.R11yYEFYeYjTjcCe"
+    },
+    {
+      "name": "Hound",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Corpus: Allows the faerie to know the direction and distance to its human quarry.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "hound",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 2,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.uoGZNp9g9jtGH9Kf",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761287152128,
+        "modifiedTime": 1761287152128,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "NWq6VUI81KZF7sMQ",
+      "sort": 250000,
+      "_key": "!actors.items!E9men5jXVObcor6N.NWq6VUI81KZF7sMQ"
+    },
+    {
+      "name": "Flight",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Animal: The character is capable of flight. The character may use the Athletics skill to simulate difficult maneuvers, but may not engage in combat while flying incredibly swiftly. The faerie may not fly when heavily encumbered, or with a passenger of its Size or more, unless assisted by another faerie that shares the load.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "flight",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 0,
+        "init": 2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.uoGZNp9g9jtGH9Kf",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.29",
+        "createdTime": 1761287203647,
+        "modifiedTime": 1761287203647,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "OADheXg06OfQFto9",
+      "sort": 250000,
+      "_key": "!actors.items!E9men5jXVObcor6N.OADheXg06OfQFto9"
     }
   ],
-  "folder": "dKkjbN7Pt49SfpMg",
+  "folder": "88CO5QBkOKA6hTJa",
   "img": "icons/svg/mystery-man-black.svg",
   "prototypeToken": {
-    "name": "A Water Elemental",
+    "name": "Faerie Hounds",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -1502,18 +1560,20 @@
     "default": 0,
     "6SdI10VpXHcBvx2J": 3
   },
-  "flags": {},
+  "flags": {
+    "arm5e": {}
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.28",
-    "createdTime": 1760792571774,
-    "modifiedTime": 1761292666519,
+    "systemVersion": "2.4.0.29",
+    "createdTime": 1761252654085,
+    "modifiedTime": 1761286910974,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "9QVjYeQ0Qg2bSvG1",
-  "sort": 700000,
-  "_key": "!actors!9QVjYeQ0Qg2bSvG1"
+  "_id": "E9men5jXVObcor6N",
+  "sort": 0,
+  "_key": "!actors!E9men5jXVObcor6N"
 }
