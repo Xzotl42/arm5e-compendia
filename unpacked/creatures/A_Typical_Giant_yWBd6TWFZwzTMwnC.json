@@ -148,7 +148,7 @@
         "value": 5
       },
       "soa": {
-        "value": 7
+        "value": 9
       },
       "enc": {
         "value": 0
@@ -691,9 +691,9 @@
           "_id": "jBpkQbNivkfs0HwB",
           "changes": [
             {
-              "key": "system.bonuses.traits.soak",
-              "value": "3",
               "mode": 2,
+              "key": "system.bonuses.traits.soak",
+              "value": "6",
               "priority": null
             }
           ],
@@ -720,10 +720,11 @@
               ],
               "option": [
                 null
-              ]
+              ],
+              "hidden": false
             }
           },
-          "name": "Soak +3",
+          "name": "Soak +6",
           "description": "",
           "statuses": [],
           "_stats": {
@@ -731,10 +732,10 @@
             "duplicateSource": null,
             "coreVersion": "12.343",
             "systemId": "arm5e",
-            "systemVersion": "2.4.0.28",
+            "systemVersion": "2.4.0.30",
             "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null
+            "modifiedTime": 1761469291999,
+            "lastModifiedBy": "6SdI10VpXHcBvx2J"
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -1146,58 +1147,6 @@
         "6SdI10VpXHcBvx2J": 3
       },
       "_key": "!actors.items!yWBd6TWFZwzTMwnC.Dg9zop79QgTjC6Bw"
-    },
-    {
-      "name": "Quilted/Fur",
-      "type": "armor",
-      "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
-      "effects": [],
-      "folder": "qe6K6lOIy7t2w02l",
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_d16odjpbext",
-          "path": "Equipments#/CF_SEP/Armor",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>Quilted cloth, a thin layer of leather, or layers of leather-strap-wrapped fur or cloth is the most basic of armor.<span style=\"font-family: 'Weiss'\">  </span></p><p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "cost": {
-          "value": "inexp",
-          "amount": 0
-        },
-        "quantity": 1,
-        "prot": 3,
-        "full": false,
-        "load": 2,
-        "equipped": true,
-        "indexKey": "quiltedfur-partial",
-        "state": "inert",
-        "enchantments": null,
-        "review_status": "definitiveReady",
-        "reviewer": "KILLTHESCRIBE",
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.yTp9RamByGpRcg7c",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760777246708,
-        "modifiedTime": 1760777552569,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_id": "vNbHgSy2vwtQxftp",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!yWBd6TWFZwzTMwnC.vNbHgSy2vwtQxftp"
     }
   ],
   "folder": "dKkjbN7Pt49SfpMg",
@@ -1301,9 +1250,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.28",
+    "systemVersion": "2.4.0.30",
     "createdTime": 1760776510687,
-    "modifiedTime": 1761292666519,
+    "modifiedTime": 1761469318327,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "yWBd6TWFZwzTMwnC",

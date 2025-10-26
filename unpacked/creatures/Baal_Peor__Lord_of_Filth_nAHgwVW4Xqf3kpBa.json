@@ -1606,51 +1606,6 @@
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.QRuKYY0x5F2fO9yY"
     },
     {
-      "name": "Demon skin",
-      "type": "armor",
-      "system": {
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": "",
-        "credits": "",
-        "cost": {
-          "value": "n-a",
-          "amount": 0
-        },
-        "quantity": 1,
-        "load": 0,
-        "prot": 3,
-        "full": false,
-        "equipped": true,
-        "state": "inert",
-        "enchantments": null
-      },
-      "_id": "Kp5msrArvZVJyP6G",
-      "img": "icons/svg/statue.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.28",
-        "createdTime": 1760881346205,
-        "modifiedTime": 1760881379462,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!nAHgwVW4Xqf3kpBa.Kp5msrArvZVJyP6G"
-    },
-    {
       "name": "Noxious vomit",
       "type": "weapon",
       "system": {
@@ -1797,7 +1752,64 @@
     "flags": {},
     "randomImg": false
   },
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.creatures.Actor.nAHgwVW4Xqf3kpBa",
+      "duration": {
+        "turns": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Extra soak",
+      "img": "icons/svg/aura.svg",
+      "_id": "kI0ciZmmjK8rANiH",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761468560012,
+        "modifiedTime": 1761469148430,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.effects!nAHgwVW4Xqf3kpBa.kI0ciZmmjK8rANiH"
+    }
+  ],
   "ownership": {
     "default": 0,
     "6SdI10VpXHcBvx2J": 3
@@ -1808,9 +1820,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.28",
+    "systemVersion": "2.4.0.30",
     "createdTime": 1760880195772,
-    "modifiedTime": 1761251587732,
+    "modifiedTime": 1761469153291,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "nAHgwVW4Xqf3kpBa",

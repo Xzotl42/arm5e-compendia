@@ -1,5 +1,5 @@
 {
-  "name": "Gabriel, the Archangel of Prophecy",
+  "name": "Kolazonta, the Chastiser",
   "type": "npc",
   "system": {
     "version": "2.0.2",
@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1221
+        "value": 1196
       },
       "apprentice": {
         "value": "10"
@@ -55,20 +55,20 @@
     },
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "gabriel-the-archangel-of-prophecy",
+    "indexKey": "kolazonta-the-chastiser",
     "review_status": "toReview",
     "reviewer": "xzotl",
     "age": {
-      "value": null
+      "value": 25
     },
     "apparent": {
       "dtype": "Number",
-      "value": null
+      "value": 25
     },
     "con": {
       "label": "Confidence ",
-      "score": 7,
-      "points": 50
+      "score": 2,
+      "points": 15
     },
     "covenant": {
       "value": "Covenant Name",
@@ -97,10 +97,10 @@
       "creationMode": true,
       "confidencePrompt": false
     },
-    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 20 pawns of Mentem in head.<br><strong>Appearance:</strong> Gabriel usually takes the form of a compassionate, gentle man, sometimes with wings growing from his shoulders or arms.</p></div><div class=\"el-p\"><p dir=\"auto\">More approachable and intellectually-minded than his fellows, the Archangel Gabriel (Jibril or Jabra’il in Islam) is the chief messenger of God, best known for his teaching of the prophet Daniel, his announcing of the incarnation of Christ to the Virgin Mary and his bringing of the revelation of the <em>Qur’an</em> to Muhammad, for whom he also acted as a constant counsellor. He may be encountered by characters who are seeking wisdom, particularly if this wisdom is of a religious nature. He is most likely to be encountered in the form described here; in his natural form he is a 600-winged figure who is large enough to stand astride the horizon.</p></div>",
+    "biography": "<p>…our father Aaron, armed with the censer, ran through the multitude of the people and conquered the fiery angel…<br><em>4 Maccabees 7:11</em></p><div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 4 pawns Corpus throughout body, 2 pawns Ignem in veins.<br><strong>Appearance:</strong> Kolazonta most often appears as a dark, ominous cloud, but may rarely manifest as a man made of white fire, with veins of flame and eyes of lightning.</p></div><div class=\"el-p\"><p dir=\"auto\">Kolazonta is one of the angels tasked by the lord to chastise His faithful for their failings, and as such he is a servant of Uriel, the Angel of Punishment. Kolazonta was the angel who brought the plague upon the Israelites (in Numbers 16:46–50) for rebelling against Moses. Aaron defeated Kolazonta after Moses told him the punishment was lifted. Kolazonta is a grim angel who executes the chastisement of the Lord without fear or favor. He is often present amidst armies or cities under siege, waiting for the Lord’s command to inflict a plague upon the sinful.</p></div>",
     "characteristics": {
       "int": {
-        "value": 10,
+        "value": 3,
         "aging": 0
       },
       "per": {
@@ -108,27 +108,27 @@
         "aging": 0
       },
       "str": {
-        "value": 8,
+        "value": 2,
         "aging": 0
       },
       "sta": {
-        "value": 8,
+        "value": 5,
         "aging": 0
       },
       "pre": {
-        "value": 10,
+        "value": 3,
         "aging": 0
       },
       "com": {
-        "value": 10,
+        "value": 3,
         "aging": 0
       },
       "dex": {
-        "value": 8,
+        "value": 1,
         "aging": 0
       },
       "qik": {
-        "value": 8,
+        "value": 1,
         "aging": 0
       }
     },
@@ -148,7 +148,7 @@
         "value": 0
       },
       "soa": {
-        "value": 8
+        "value": 5
       },
       "enc": {
         "value": 0
@@ -164,7 +164,7 @@
     "laboratoryTexts": [],
     "reputations": {
       "0": {
-        "name": "Messenger of God"
+        "name": "Scourge of the Impious"
       }
     },
     "decrepitude": {
@@ -453,38 +453,30 @@
     },
     "might": {
       "label": "Might",
-      "form": "me",
-      "value": 100,
-      "points": 100
+      "form": "ig",
+      "value": 30,
+      "points": 30
     },
     "powers": [],
     "realm": "divine",
     "personalities": {
       "0": {
-        "name": "Compassionate",
-        "score": 3
-      },
-      "1": {
-        "name": "Intellectual",
-        "score": 3
-      },
-      "2": {
-        "name": "Just",
-        "score": 3
-      },
-      "3": {
         "name": "Love of God",
         "score": 5
       },
-      "4": {
-        "name": "Patient",
+      "1": {
+        "name": "Grim",
+        "score": 4
+      },
+      "2": {
+        "name": "Remorseless",
         "score": 3
       }
     },
     "reputation": {
       "0": {
         "system": {
-          "score": 5
+          "score": 3
         }
       }
     },
@@ -510,23 +502,62 @@
   },
   "items": [
     {
-      "name": "Spirit Form",
+      "name": "Chastise the Sinful",
       "type": "power",
       "system": {
-        "description": "Gabriel can become a creature of pure spirit as he wishes. This means that he is unable to affect things physically, or be affected physically",
+        "description": "As Curse of the Unportended Plague",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "spirit-form",
+        "indexKey": "chastise-the-sinful",
         "review_status": "toReview",
         "reviewer": "xzotl",
-        "form": "vi",
+        "form": "co",
+        "cost": 5,
+        "init": 1,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "cxfrxtePXw7pYj4B",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!J4PqCAHWV448aRP7.cxfrxtePXw7pYj4B"
+    },
+    {
+      "name": "Cloud form",
+      "type": "power",
+      "system": {
+        "description": "Can take on the form of a cloud at will, making him immune to all physical attacks (although he may be targeted by Auram spells)",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "cloud-form",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "au",
         "cost": 0,
         "init": 30,
         "credits": "",
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "keGlKe2epU2KUy89",
+      "_id": "rrGbLMrVrMmueV3j",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
@@ -541,31 +572,31 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.keGlKe2epU2KUy89"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.rrGbLMrVrMmueV3j"
     },
     {
-      "name": "Subtle Form",
+      "name": "Fiery Form",
       "type": "power",
       "system": {
-        "description": "Gabriel can change his appearance to look like any human being. His statistics do not change.",
+        "description": "May become a fiery man at will, doing +5 damage to anyone that approaches within 5 feet.",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "subtle-form",
+        "indexKey": "fiery-form",
         "review_status": "toReview",
         "reviewer": "xzotl",
-        "form": "co",
+        "form": "ig",
         "cost": 0,
-        "init": 0,
+        "init": 30,
         "credits": "",
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "NGcEJEl2dgyIpAIj",
+      "_id": "OjymjzswzB7On2aY",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
@@ -580,19 +611,19 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.NGcEJEl2dgyIpAIj"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.OjymjzswzB7On2aY"
     },
     {
-      "name": "Messenger of God",
+      "name": "Scourge of the Impious",
       "type": "reputation",
       "img": "icons/svg/angel.svg",
       "system": {
-        "xp": 75,
+        "xp": 30,
         "type": "local",
         "description": "",
         "source": "custom",
@@ -602,7 +633,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "bE0cD1K0Ed85pnqz",
+      "_id": "9AkTt3brGA3VeouY",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -616,112 +647,12 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.bE0cD1K0Ed85pnqz"
-    },
-    {
-      "name": "Awareness",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "per",
-        "speciality": "the uneducated",
-        "xp": 275,
-        "key": "awareness",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "awareness",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": false,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "pOn70TUNgPp3wMDk",
-      "sort": 5000000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.pOn70TUNgPp3wMDk"
-    },
-    {
-      "name": "Charm",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "pre",
-        "speciality": "pupils",
-        "xp": 275,
-        "key": "charm",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "charm",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": false,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "NjbQ5wQA7pbQQ8cF",
-      "sort": 1900000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.NjbQ5wQA7pbQQ8cF"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.9AkTt3brGA3VeouY"
     },
     {
       "name": "Brawl",
@@ -741,8 +672,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "fist",
-        "xp": 275,
+        "speciality": "fists",
+        "xp": 50,
         "key": "brawl",
         "option": "",
         "realm": "magic",
@@ -758,45 +689,45 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "W0kekLlLuW3a3EMs",
+      "_id": "jIDpGcsMFL9QGMUf",
       "sort": 3200000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.W0kekLlLuW3a3EMs"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.jIDpGcsMFL9QGMUf"
     },
     {
-      "name": "Leadership",
+      "name": "Theology",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
+      "img": "systems/arm5e/assets/icons/abilities/theology.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "description": "<p style=\"text-align: justify;\">Theology is the study of God and his work in the world. The authorities are the Bible and Peter the Lombard's Sententiae, the Bible having theoretical primacy, being infallible, and the Sentences being most studied. The speculations of theology are very abstruse, and many theologians are accused of heresy. Sometimes those accused recant, and sometimes they convince the Church that they were right after all. Theology can also be purchased (as a separate Ability) for other religions like Islam and Judaism.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> biblical knowledge, heresy, history. (Academic)</p>",
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "int",
-        "speciality": "calling attention",
-        "xp": 275,
-        "key": "leadership",
-        "option": "",
+        "speciality": "sin",
+        "xp": 105,
+        "key": "theology",
+        "option": "theology",
         "realm": "magic",
-        "indexKey": "leadership",
+        "indexKey": "theology",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
@@ -808,45 +739,45 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "YCAXwASxQQ9pV9d7",
-      "sort": 4800000,
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "qaIunv4rLSBOhQ4D",
+      "sort": 0,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.YCAXwASxQQ9pV9d7"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.qaIunv4rLSBOhQ4D"
     },
     {
-      "name": "Teaching",
+      "name": "Dominion Lore",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/teaching.svg",
+      "img": "systems/arm5e/assets/icons/abilities/dominionLore.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p>The ability to teach an Ability to someone else.</p>\n<p><strong>Specialties:</strong> a particular Ability, particular kinds of student. (General)</p>",
+        "description": "<p style=\"text-align: justify;\">Knowledge of the manifestations of the power of the Divine. Different from Church Lore (a kind of (Organization) Lore)) because it covers miracles rather than politics, and different from Theology because it is concerned with power rather than doctrine.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> angels, saints, Divine creatures. (Arcane)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "defaultChaAb": "com",
-        "speciality": "Theology",
-        "xp": 600,
-        "key": "teaching",
+        "defaultChaAb": "int",
+        "speciality": "angels",
+        "xp": 105,
+        "key": "dominionLore",
         "option": "",
         "realm": "magic",
-        "indexKey": "teaching",
+        "indexKey": "dominion-lore",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
@@ -858,108 +789,43 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "UhNwoVQjxBFLptXq",
-      "sort": 1700000,
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "GlTV6YshBPwHqJAf",
+      "sort": 0,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.UhNwoVQjxBFLptXq"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.GlTV6YshBPwHqJAf"
     },
     {
-      "name": "Good Teacher",
+      "name": "Greater Immunity (Fire)",
       "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [
-        {
-          "origin": "Compendium.arm5e.virtues.HkspYnZE3BMfKqdB",
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "disabled": false,
-          "tint": "#000000",
-          "changes": [
-            {
-              "key": "system.bonuses.activities.writing",
-              "value": "3",
-              "mode": 2,
-              "priority": null
-            },
-            {
-              "mode": 2,
-              "key": "system.bonuses.activities.teacher",
-              "value": "5",
-              "priority": null
-            }
-          ],
-          "flags": {
-            "arm5e": {
-              "type": [
-                "activities",
-                "activities"
-              ],
-              "subtype": [
-                "writing",
-                "teacher"
-              ],
-              "option": [
-                null,
-                null
-              ]
-            }
-          },
-          "_id": "EolKipnLg6rW6AL2",
-          "transfer": true,
-          "name": "Good teacher",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "12.343",
-            "systemId": "arm5e",
-            "systemVersion": "2.4.0.29",
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null
-          },
-          "img": "icons/svg/aura.svg",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!HgUELKLBKOvJOo2F.a6L3bxy51v2an4MD.EolKipnLg6rW6AL2"
-        }
-      ],
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
+          "id": "temp_nh7mgwj6rq",
+          "path": "Virtues#/CF_SEP/Supernatural",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p>You can explain new concepts and skills with great facility. Add three to the Quality of any books that you write, and five to the </p><p>Source Quality for anyone who studies with you.</p><p>&nbsp;</p>",
+        "description": "<p>You are completely immune to one hazard which is both common and potentially deadly. For example, you might be immune to fire or to iron (and only iron) weapons. You may not take immunity to aging — see the Unaging Minor Virtue (page @@) instead. This immunity applies to mundane and magical versions of the thing. If you are immune to fire, you are also immune to magically created fire.</p><p>One important possibility is immunity to deprivation, which means that you suffer no loss of Fatigue or wounds from going without air, food or drink. However, you cannot regain long-term Fatigue without rest and sustenance, and if you are injured deprivation could cause your wounds to worsen.</p><p>You may take this Virtue more than once, with a different immunity each time.</p><p> </p>",
         "source": "ArM5Def",
         "page": 0,
-        "type": "general",
+        "type": "supernatural",
         "impact": {
-          "value": "minor"
+          "value": "major"
         },
-        "indexKey": "good-teacher",
+        "indexKey": "greater-immunity",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
@@ -971,171 +837,19 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "jegZHVtv21smauPD",
-      "_id": "a6L3bxy51v2an4MD",
+      "folder": "Sym94leLiWXQ3Rh9",
+      "_id": "ey4mk1nu59Crum9n",
       "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.a6L3bxy51v2an4MD"
-    },
-    {
-      "name": "Inspirational",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You are a stirring speaker or a heroic </p><p>figure, and can urge people to great efforts. You give targets a +3 bonus to rolls for appropriate Personality Traits.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "general",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "inspirational",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "credits": "",
-        "tainted": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "jegZHVtv21smauPD",
-      "_id": "rMeHgOmhj4Zvto6g",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.rMeHgOmhj4Zvto6g"
-    },
-    {
-      "name": "Compassionate",
-      "type": "personalityTrait",
-      "img": "icons/skills/social/intimidation-impressing.webp",
-      "system": {
-        "xp": 30,
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": "",
-        "credits": ""
-      },
-      "_id": "NBOAeWmWWY2HuGH4",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.NBOAeWmWWY2HuGH4"
-    },
-    {
-      "name": "Intellectual",
-      "type": "personalityTrait",
-      "img": "icons/skills/social/intimidation-impressing.webp",
-      "system": {
-        "xp": 30,
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": "",
-        "credits": ""
-      },
-      "_id": "GEYhudp3yfyuGkSD",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.GEYhudp3yfyuGkSD"
-    },
-    {
-      "name": "Just",
-      "type": "personalityTrait",
-      "img": "icons/skills/social/intimidation-impressing.webp",
-      "system": {
-        "xp": 30,
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": "",
-        "credits": ""
-      },
-      "_id": "UDtbyTg2RVuyakCv",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.UDtbyTg2RVuyakCv"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.ey4mk1nu59Crum9n"
     },
     {
       "name": "Love of God",
@@ -1151,7 +865,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "2vX4J9cxUpzQYjdL",
+      "_id": "2BEt8Xpxl4nI0pli",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1165,15 +879,50 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.2vX4J9cxUpzQYjdL"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.2BEt8Xpxl4nI0pli"
     },
     {
-      "name": "Patient",
+      "name": "Grim",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 50,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "gp57xTAq5qzpYoyF",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!J4PqCAHWV448aRP7.gp57xTAq5qzpYoyF"
+    },
+    {
+      "name": "Remorseless",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -1186,7 +935,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "LkqkxFQEZb4w2IOR",
+      "_id": "QuHVguI0sAa6BfRR",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1200,74 +949,12 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.0.30",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.LkqkxFQEZb4w2IOR"
-    },
-    {
-      "name": "Fist",
-      "type": "weapon",
-      "img": "icons/skills/melee/unarmed-punch-fist.webp",
-      "effects": [],
-      "folder": "u0bqg5ruG7sX6XV0",
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_ebcddbqmaft",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>This is includes any unarmed attacks made with the hands</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "cost": {
-          "value": "n-a",
-          "amount": 0
-        },
-        "quantity": 1,
-        "ability": {
-          "key": "brawl",
-          "option": "",
-          "id": null
-        },
-        "weaponExpert": false,
-        "horse": false,
-        "init": 0,
-        "atk": 0,
-        "dfn": 0,
-        "dam": 0,
-        "str": 0,
-        "range": 0,
-        "load": 0,
-        "equipped": false,
-        "indexKey": "b-fist",
-        "state": "inert",
-        "enchantments": null,
-        "review_status": "definitiveReady",
-        "reviewer": "KILLTHESCRIBE",
-        "credits": ""
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "gZWwXUX7fSLKoufQ",
-      "sort": 1300000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.gZWwXUX7fSLKoufQ"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.QuHVguI0sAa6BfRR"
     },
     {
       "folder": "mK56OzqnxHUErQvp",
@@ -1299,53 +986,14 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292263184,
-        "modifiedTime": 1761292263184,
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761369717891,
+        "modifiedTime": 1761369717891,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "8OJ3kJT7sZLCNfmB",
+      "_id": "USbxmnffFY4SKwiK",
       "sort": 0,
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.8OJ3kJT7sZLCNfmB"
-    },
-    {
-      "folder": "mK56OzqnxHUErQvp",
-      "name": "Enfolding (body)",
-      "type": "power",
-      "img": "icons/svg/tower.svg",
-      "system": {
-        "description": "<p>2 or 10 points, +10, Vim: When the pious are in danger or torment, the angel may grant them comfort, imparting a moment of peace and mercy. This power renders the target’s soul wholly safe and protected for a short time. While Enfolded the target’s soul (and mind) may not be targeted by any supernatural power of any kind. This power only lasts for a few scant moments, but for the target it is timeless and can seem to stretch to a lifetime. An angel may also Enfold a person’s body (costing 10 Might points), rendering them completely invulnerable to magic, pain, damage, fatigue, wounds, or death, although this power only lasts for a very short period of time (no longer than one combat round). This power is most often used on a member of the faithful who is about to be martyred or suffer terribly.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "enfolding-body",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "vi",
-        "cost": 10,
-        "credits": "",
-        "init": 10,
-        "penetration": 0,
-        "realm": "divine"
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.sKQW9yuJ95Z4JvNU",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292266879,
-        "modifiedTime": 1761292266879,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_id": "rvGoxRtGfLTMfUAC",
-      "sort": 100000,
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.rvGoxRtGfLTMfUAC"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.USbxmnffFY4SKwiK"
     },
     {
       "folder": "mK56OzqnxHUErQvp",
@@ -1377,14 +1025,53 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292271903,
-        "modifiedTime": 1761292271903,
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761369723771,
+        "modifiedTime": 1761369723771,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "xX4fAyAGPA3C9taV",
+      "_id": "rar74sTeVMql0IVy",
       "sort": 0,
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.xX4fAyAGPA3C9taV"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.rar74sTeVMql0IVy"
+    },
+    {
+      "folder": "mK56OzqnxHUErQvp",
+      "name": "Enfolding (body)",
+      "type": "power",
+      "img": "icons/svg/tower.svg",
+      "system": {
+        "description": "<p>2 or 10 points, +10, Vim: When the pious are in danger or torment, the angel may grant them comfort, imparting a moment of peace and mercy. This power renders the target’s soul wholly safe and protected for a short time. While Enfolded the target’s soul (and mind) may not be targeted by any supernatural power of any kind. This power only lasts for a few scant moments, but for the target it is timeless and can seem to stretch to a lifetime. An angel may also Enfold a person’s body (costing 10 Might points), rendering them completely invulnerable to magic, pain, damage, fatigue, wounds, or death, although this power only lasts for a very short period of time (no longer than one combat round). This power is most often used on a member of the faithful who is about to be martyred or suffer terribly.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "enfolding-body",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 10,
+        "credits": "",
+        "init": 10,
+        "penetration": 0,
+        "realm": "divine"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.sKQW9yuJ95Z4JvNU",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761369732244,
+        "modifiedTime": 1761369732244,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "LCfoqExxdt06ANyY",
+      "sort": 100000,
+      "_key": "!actors.items!J4PqCAHWV448aRP7.LCfoqExxdt06ANyY"
     },
     {
       "name": "Envisioning (awake)",
@@ -1416,14 +1103,14 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292276690,
-        "modifiedTime": 1761292276690,
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761369735495,
+        "modifiedTime": 1761369735495,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "58v2nM9d47gFtuuI",
+      "_id": "9pp8qR0uzqbN00XO",
       "sort": 0,
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.58v2nM9d47gFtuuI"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.9pp8qR0uzqbN00XO"
     },
     {
       "name": "Envisioning (in dreams)",
@@ -1455,102 +1142,82 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292280294,
-        "modifiedTime": 1761292280294,
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761369738552,
+        "modifiedTime": 1761369738552,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "OwZt9ORJ9tDIafri",
+      "_id": "gcAnW3gR0RilhGs3",
       "sort": 0,
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.OwZt9ORJ9tDIafri"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.gcAnW3gR0RilhGs3"
     },
     {
-      "folder": "o685xKwWjHPMy4pe",
-      "name": "Enlighten",
-      "type": "power",
-      "_id": "zCDm3CGSgdhW3X0i",
-      "img": "icons/svg/tower.svg",
+      "name": "Flaming fist",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "folder": "u0bqg5ruG7sX6XV0",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
       "system": {
-        "description": "<p>variable cost, Init +0, Mentem: Gabriel can implant any Knowledge into the mind of another, at a cost of 1 Might for every experience point implanted. He may not give any character knowledge that takes their Ability score over 15.</p>",
+        "description": "<p>This fire is natural and ignores Magic Resistance, although not Soak from Arts.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "enlighten",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "me",
-        "cost": 1,
-        "credits": "",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "jIDpGcsMFL9QGMUf"
+        },
+        "weaponExpert": true,
+        "horse": false,
         "init": 0,
-        "penetration": 0,
-        "realm": "divine"
+        "atk": 0,
+        "dfn": 0,
+        "dam": 5,
+        "str": 0,
+        "range": 0,
+        "load": 0,
+        "equipped": true,
+        "indexKey": "b-fist",
+        "state": "inert",
+        "enchantments": null,
+        "review_status": "definitiveReady",
+        "reviewer": "KILLTHESCRIBE",
+        "credits": ""
       },
-      "effects": [],
-      "sort": 100000,
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.8vsnjFvwA01cMolg",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761369798349,
+        "modifiedTime": 1761369870016,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "V9o8PhGS1vlgdVjk",
+      "sort": 1300000,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Item.rWbZH2DAk0NXER3N",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292404609,
-        "modifiedTime": 1761292404609,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.zCDm3CGSgdhW3X0i"
-    },
-    {
-      "folder": "Ku86xoVh78FXIgLr",
-      "name": "All knowledge",
-      "type": "ability",
-      "_id": "Pl5u9Ct0dJcE5179",
-      "img": "systems/arm5e/assets/icons/abilities/magicTheory.svg",
-      "system": {
-        "description": "<p>A character may only take these Abilities during character generation if permitted to by a Virtue, or if he is a magus. Some Virtues allow a character to take a particular Arcane Ability, but not the others, while other Virtues allow a character to take any Arcane Ability. Any Virtue giving a character a Supernatural Ability that may need to Penetrate Magic Resistance also allows the character to take the Penetrate Ability. Magi without a relevant Virtue may only take Arcane Abilities during or after apprenticeship.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "indexKey": "arcane-generic",
-        "defaultChaAb": "int",
-        "speciality": "",
-        "key": "arcaneAbility",
-        "option": "All-knowledge",
-        "realm": "mundane",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": true,
-        "credits": "",
-        "accelerated": false,
-        "xp": 600
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "CBVr9z58wiLAeuIl": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.Qxjci63FuI9mRBG5",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761292559152,
-        "modifiedTime": 1761292577920,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.items!HgUELKLBKOvJOo2F.Pl5u9Ct0dJcE5179"
+      "_key": "!actors.items!J4PqCAHWV448aRP7.V9o8PhGS1vlgdVjk"
     }
   ],
   "folder": "gGhlm2f4qLeLbbjA",
   "img": "icons/svg/mystery-man-black.svg",
   "prototypeToken": {
-    "name": "Gabriel, the Archangel of Prophecy",
+    "name": "Kolazonta, the Chastiser",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -1637,91 +1304,23 @@
     "flags": {},
     "randomImg": false
   },
-  "effects": [
-    {
-      "origin": "Compendium.arm5e-compendia.creatures.Actor.HgUELKLBKOvJOo2F",
-      "duration": {
-        "turns": null,
-        "startTime": 0,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "disabled": false,
-      "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.fatigue.winded.amount",
-          "value": "2",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "mode": 2,
-          "key": "system.fatigue.weary.amount",
-          "value": "1",
-          "priority": null
-        }
-      ],
-      "flags": {
-        "arm5e": {
-          "type": [
-            "fatigue",
-            "fatigue"
-          ],
-          "subtype": [
-            "windedLevel",
-            "wearyLevel"
-          ],
-          "option": [
-            null,
-            null
-          ],
-          "hidden": false
-        }
-      },
-      "name": "Fatigue levels",
-      "img": "icons/svg/aura.svg",
-      "_id": "54SVjsOCEdmZFQUI",
-      "type": "base",
-      "system": {},
-      "description": "",
-      "transfer": false,
-      "statuses": [],
-      "sort": 0,
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
-        "createdTime": 1761293195136,
-        "modifiedTime": 1761293335159,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!actors.effects!HgUELKLBKOvJOo2F.54SVjsOCEdmZFQUI"
-    }
-  ],
+  "effects": [],
   "ownership": {
     "default": 0,
     "6SdI10VpXHcBvx2J": 3
   },
-  "flags": {
-    "arm5e": {}
-  },
+  "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.29",
-    "createdTime": 1761288848392,
-    "modifiedTime": 1761462349189,
+    "systemVersion": "2.4.0.30",
+    "createdTime": 1761369599459,
+    "modifiedTime": 1761468507867,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "HgUELKLBKOvJOo2F",
-  "sort": 100000,
-  "_key": "!actors!HgUELKLBKOvJOo2F"
+  "_id": "J4PqCAHWV448aRP7",
+  "sort": 300000,
+  "_key": "!actors!J4PqCAHWV448aRP7"
 }

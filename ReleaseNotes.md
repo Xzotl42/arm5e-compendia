@@ -1,5 +1,15 @@
 # Release notes
 
+## Version 0.12.2
+
+### Chnages
+
+- Exchanged special armor equipment with active effect with bonus to soak when applicable.
+
+### Compendia updates
+
+- Creatures: letters G-M
+
 ## Version 0.12.1
 
 ### Compendia updates
