@@ -1,0 +1,1451 @@
+{
+  "name": "Two-Headed Hound",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1195
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "two-headed-hound",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": true,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 2 pawns of Vim, one in each head.<br><strong>Appearance:</strong> This huge dog has two slavering heads protruding from its massive shoulders. The two heads are cursed with independent minds which clearly hate each other and would like nothing more than to bite the other; it is only because the hound's necks are too short that it cannot. The dog is covered in gray fur in the few areas which are not affected by mange, which has left patches of puffy, purulent red flesh.</p></div><div class=\"el-p\"><p dir=\"auto\">This corrupted beast was created by a diabolist to be a guard for his sanctum. He controls it with an Infernal charm, but is fearful of the day that this charm fails, for he knows that the dog hates him.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": 0,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 0,
+        "aging": 0
+      },
+      "sta": {
+        "value": 2,
+        "aging": 0
+      },
+      "pre": {
+        "value": -6,
+        "aging": 0
+      },
+      "com": {
+        "value": 0,
+        "aging": 0
+      },
+      "dex": {
+        "value": 1,
+        "aging": 0
+      },
+      "qik": {
+        "value": 2,
+        "aging": 0
+      },
+      "cun": {
+        "value": 0,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": 2
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "an",
+      "value": 10,
+      "points": 10
+    },
+    "powers": [],
+    "realm": "infernal",
+    "personalities": {
+      "0": {
+        "name": "Hatred of Owner",
+        "score": 6
+      },
+      "1": {
+        "name": "Hatred of Humans",
+        "score": 5
+      },
+      "2": {
+        "name": "Hatred of Self",
+        "score": 3
+      },
+      "3": {
+        "name": "Reckless",
+        "score": 3
+      },
+      "4": {
+        "name": "Vigilant",
+        "score": 1
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Spit Fire",
+      "type": "power",
+      "system": {
+        "description": "The hound may spit a bolt of fire at its opponents; which does +15 damage to the individual it hits. The creature may bite one opponent and spit fire at another in the same round.",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "spit-fire",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "ig",
+        "cost": 4,
+        "init": 6,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "7iZD6ux0wK9CwUWX",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.7iZD6ux0wK9CwUWX"
+    },
+    {
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">General physical prowess. It includes moving smoothly, confidently, and with grace. Use of Athletics improves most large-muscle coordination.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> acrobatics, contortions, grace, jumping, running. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "pursuit",
+        "xp": 50,
+        "key": "athletics",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "athletics",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "olcd9Yo63MkWfiFy",
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.olcd9Yo63MkWfiFy"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "keeping watch",
+        "xp": 50,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "fW6iwZDS0FF8WLwB",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.fW6iwZDS0FF8WLwB"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "bite",
+        "xp": 105,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "3lzfWwm5tuVH2VSs",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.3lzfWwm5tuVH2VSs"
+    },
+    {
+      "name": "Hunt",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "track by scent",
+        "xp": 50,
+        "key": "hunt",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "hunt",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "xaXgW8BJ9QDUHI8m",
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.xaXgW8BJ9QDUHI8m"
+    },
+    {
+      "name": "Greater Infernal Power*",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have been blessed by some supernatural power. The effects of the benediction should be comparable to other Major Virtues. (See insert page @@ for examples.)</p><p> </p><p>The character has a supernatural power that he can activate at will.</p><p>If you take the Virtue once, this is a single power, equivalent to a Formulaic Hermetic spell with a level of 50 or lower. You may also spend levels one-for-one to give the power Penetration; otherwise, it has a Penetration of zero.</p><p> </p><p>This Virtue may be taken more than once, and the levels added together to create several powers. For example, a character who took the Virtue twice could have a power with a level of 60 and a Penetration of 0, and a second power with a level and Penetration of 20 each. By default, there should be one power per Virtue, as this Virtue is intended for powers that are individually significant. See Lesser Power if you want your character to have multiple minor powers. However, the troupe may allow the character to take more powers if they have a strong thematic link.</p><p> </p><p>The power has an Initiative equal to the character’s Quickness – (power magnitude/2) (rounded down). It costs one Fatigue level to activate if its level is less than or equal to 50, or two Fatigue levels if its level is 51 to 100. Higher level effects are unlikely to make sense.</p><p> </p><p>This Virtue may be associated with any supernatural realm. If you have access to other books, such as <em>Realms of Power: The Divine, Realms of Power: The Infernal, Realms of Power: Faerie, </em>or <em>Hedge Magic Revised Edition</em>, you may want to base the power on a different system of supernatural powers, to get something more appropriate to the character. If you do, remember that the levels of effects may work on different scales for different systems, and you may want to change the number of levels of effect. The power must be associated with the same supernatural realm as the system on which it is based. (If you have access to other books, you may want to restrict powers based on Hermetic magic to the Magic realm.)</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "greater-power",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Sym94leLiWXQ3Rh9",
+      "_id": "0eEQoyhshLtHzpzE",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.0eEQoyhshLtHzpzE"
+    },
+    {
+      "name": "Ferocity* (against intruders)",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Animals only. Like companion and magus characters, this character has Confidence points. However, these Confidence points may only be used in situations where its natural animal ferocity is triggered, such as when defending its den or fighting a natural enemy. Describe a situation which activates the Confidence for its species, and take 3 Confidence points and a Confidence Score of 1 to use when those circumstances are met.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "ferocity",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "xP5gxxwacxjdB4H6",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.xP5gxxwacxjdB4H6"
+    },
+    {
+      "name": "Improved Characteristics",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "improved-characteristics",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "UAi6pPS71io7taeJ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.UAi6pPS71io7taeJ"
+    },
+    {
+      "name": "Long-winded",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You can last longer when exerting yourself than </p><p>most, and gain +3 on all your Fatigue rolls. This bonus does not apply to casting spells.</p><p>&nbsp;</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "long-winded",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "VGnjB7CaYdL2xNKA",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.VGnjB7CaYdL2xNKA"
+    },
+    {
+      "name": "Sharp Ears",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You hear better than most. You get a +3 bonus to all rolls in</p><p>volving hearing.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "sharp-ears",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "1vZQnJHx7txjasUl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.1vZQnJHx7txjasUl"
+    },
+    {
+      "name": "Horrifying Appearance",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p>You a supernatural horrifying appearance which hinder you physically and socialy. you should consider how you survived childhood with this horrific deformity.</p><p><strong>Example: </strong>You have no legs, and instead your hips give rise to two or more snake-like tails;  Your movement is not hindered under most circumstances. You can hide this deformity under clothing, but you cannot move without revealing it, leaving you feigning being crippled as well.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "horrifying-appearance",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "PMTtdepguHpd2YfJ",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "zN82akHNIi42NL0z",
+      "sort": 400000,
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.zN82akHNIi42NL0z"
+    },
+    {
+      "name": "Reckless - Minor",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">You tend not to notice that situations are threatening, and certainly do not stop to consider whether they might be. You just go ahead and charge right in.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "reckless",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "FTnzjDARQrQ4902r",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.FTnzjDARQrQ4902r"
+    },
+    {
+      "name": "Hatred of Owner",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 105,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "HL6Ol7Sd5ipmjETb",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.HL6Ol7Sd5ipmjETb"
+    },
+    {
+      "name": "Hatred of Humans",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 75,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "OcYGOXNwjIp3v0H9",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.OcYGOXNwjIp3v0H9"
+    },
+    {
+      "name": "Hatred of Self",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "xHiUmAW0ypefxH1u",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.xHiUmAW0ypefxH1u"
+    },
+    {
+      "name": "Reckless",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "aa5be2DZ6woO4ZAa",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.aa5be2DZ6woO4ZAa"
+    },
+    {
+      "name": "Vigilant",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 5,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "tWbprCZaejUgkCFI",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.tWbprCZaejUgkCFI"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "teeth",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 3,
+        "dfn": 1,
+        "dam": 1,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761901189489,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "fuG7NmqwEAFfa75v",
+      "sort": 1100000,
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.fuG7NmqwEAFfa75v"
+    },
+    {
+      "name": "Corrupted Beast",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><em>Animals only</em></p></div><div class=\"el-p\"><p dir=\"auto\">The creature has been corrupted by Infernal power, and has acquired an Infernal Might of 5. The negative side of its character is brought to the fore, and it acquires one sinful Personality Trait at +6, such as Violent, Gluttonous or Lustful. As part of the corruption, the beast acquires some sort of disgusting or repellent appearance, decreasing its Presence to –6. However, should the animal make any attempt to scare or intimidate an opponent, this should be treated as a Presence of +6. Despite this deformity, it is possible (although difficult) to pass the animal off as a natural member of its species. Finally, the creature acquires the Tainted with Evil Flaw which affects the reactions of both humans and other animals towards it. Corrupted Beasts do not react negatively to The Gift.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "corrupted-beast",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": true,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.flaws.Item.cEp0bmTLYTw0AufG",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761901140671,
+        "modifiedTime": 1761901140671,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_id": "sMxFPD1XMULQEjpR",
+      "sort": 300000,
+      "_key": "!actors.items!I72mU3Q1F8uWtnhl.sMxFPD1XMULQEjpR"
+    }
+  ],
+  "folder": "922DwHk6VGdEBAul",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Two-Headed Hound",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761900619643,
+    "modifiedTime": 1761900756416,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "I72mU3Q1F8uWtnhl",
+  "sort": 0,
+  "_key": "!actors!I72mU3Q1F8uWtnhl"
+}

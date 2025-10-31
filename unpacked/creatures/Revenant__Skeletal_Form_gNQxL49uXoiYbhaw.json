@@ -1,0 +1,879 @@
+{
+  "name": "Revenant, Skeletal Form",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1195
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "revenant-skeletal-form",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<p><strong>Equipment:</strong> Tattered burial shroud<br><strong>Vis:</strong> 1 Corpus in skull<br><strong>Appearance:</strong> A leering skeleton whose bony fingers are as sharp as claws.<br>A human skeleton weighs much less than a living person, so an animate skeleton's Size is –2.</p>",
+    "characteristics": {
+      "int": {
+        "value": 0,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 0,
+        "aging": 0
+      },
+      "sta": {
+        "value": 3,
+        "aging": 0
+      },
+      "pre": {
+        "value": 0,
+        "aging": 0
+      },
+      "com": {
+        "value": -2,
+        "aging": 0
+      },
+      "dex": {
+        "value": 2,
+        "aging": 0
+      },
+      "qik": {
+        "value": 1,
+        "aging": 0
+      },
+      "cun": {
+        "value": -2,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": -2
+      },
+      "soa": {
+        "value": 9
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "co",
+      "value": 6,
+      "points": 6
+    },
+    "powers": [],
+    "realm": "magic",
+    "personalities": {
+      "0": {
+        "name": "Vengeful",
+        "score": 3
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Rise from the Grave",
+      "type": "power",
+      "system": {
+        "description": "R: Touch, D: Diameter, T: Part The skeleton can cause the earth over its grave to open for one Diameter so it may enter or leave. The earth then seals, leaving no trace of disturbance. ReTe 10 (Base 3, +1 Touch, +1 Diameter, +1 Part)",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "rise-from-the-grave",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "te",
+        "cost": 2,
+        "init": 2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "ElGo6wsHQbhlRx03",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!gNQxL49uXoiYbhaw.ElGo6wsHQbhlRx03"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "claws",
+        "xp": 30,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "J3xBoCkAUk0NtnMF",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!gNQxL49uXoiYbhaw.J3xBoCkAUk0NtnMF"
+    },
+    {
+      "name": "Baneful Circumstances (in daylight)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p>Something about the character’s supernatural nature weakens him in relatively common circumstances, such as when touching the ground or when in the presence of women. At these times, the character cannot recover Fatigue, heal wounds, or recover Might, and if at the end of the year the character has spent more than half of his time subject to these conditions, he must make an additional Aging roll even if he is normally immune to aging because of a Longevity Ritual or Might Score.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "baneful-circumstances",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "kHHD86eApMpt6Clg",
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!gNQxL49uXoiYbhaw.kHHD86eApMpt6Clg"
+    },
+    {
+      "name": "Vengeful",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "qfn2XX7xBBcQawiR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!gNQxL49uXoiYbhaw.qfn2XX7xBBcQawiR"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Bony Claws",
+      "type": "weapon",
+      "_id": "Gay5PJaIOS1pfgxj",
+      "img": "icons/commodities/claws/claw-canine-brown-grey.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "claws",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 2,
+        "dfn": 3,
+        "dam": 2,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761509695314,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!gNQxL49uXoiYbhaw.Gay5PJaIOS1pfgxj"
+    }
+  ],
+  "folder": "dKkjbN7Pt49SfpMg",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Revenant, Skeletal Form",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.creatures.Actor.gNQxL49uXoiYbhaw",
+      "duration": {
+        "turns": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "6",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Extra soak",
+      "img": "icons/svg/aura.svg",
+      "_id": "rl9NhQ2TDtrrxt7K",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761509741727,
+        "modifiedTime": 1761509766164,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.effects!gNQxL49uXoiYbhaw.rl9NhQ2TDtrrxt7K"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761509626906,
+    "modifiedTime": 1761893762164,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "gNQxL49uXoiYbhaw",
+  "sort": 300000,
+  "_key": "!actors!gNQxL49uXoiYbhaw"
+}

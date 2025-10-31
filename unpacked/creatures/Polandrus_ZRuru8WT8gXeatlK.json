@@ -1,0 +1,1480 @@
+{
+  "name": "Polandrus",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1221
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "polandrus",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": null
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": null
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": true,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Weakness:</strong> Vulnerability (Holly)<br><strong>Vis:</strong> 1 pawn of Animal in each of four large canine teeth, all Infernally tainted.<br><strong>Appearance:</strong> An extremely large, jet black wolf, with red eyes.</p></div><div class=\"el-p\"><p dir=\"auto\">Polandrus targets livestock farmers. He dominates a few wolves, and then kills some livestock, making sure that someone sees the wolves do it. A little later, he confronts the peasant in question, offering to ensure that the wolves do not attack for a week if the farmer does something innocuous, such as not wear a particular tunic. Polandrus comes back every week, and the requirements gradually become sinful, and more and more heinous. By the end, the wolf relies more on the threat to expose the farmer's deeds than on the threat to the livestock.</p></div><div class=\"el-p\"><p dir=\"auto\">Polandrus is unnaturally fast in combat, much more so than in normal situations. However, he never attacks people unless he is attacked first.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": 1,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 2,
+        "aging": 0
+      },
+      "sta": {
+        "value": 2,
+        "aging": 0
+      },
+      "pre": {
+        "value": 0,
+        "aging": 0
+      },
+      "com": {
+        "value": 2,
+        "aging": 0
+      },
+      "dex": {
+        "value": 2,
+        "aging": 0
+      },
+      "qik": {
+        "value": 3,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": 6
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "an",
+      "value": 20,
+      "points": 20
+    },
+    "powers": [],
+    "realm": "infernal",
+    "personalities": {
+      "0": {
+        "name": "Envious",
+        "score": 3
+      },
+      "1": {
+        "name": "Proud",
+        "score": 2
+      },
+      "2": {
+        "name": "Calculating",
+        "score": 2
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Calm Person",
+      "type": "power",
+      "system": {
+        "description": "Makes the target person unnaturally calm about talking to a large wolf. It doesn't lessen their fear, just the sense that it is something they should act on immediately",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "calm-person",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 1,
+        "init": 18,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "z70KMYg2xu77WrEH",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.z70KMYg2xu77WrEH"
+    },
+    {
+      "name": "Dominate Wolves",
+      "type": "power",
+      "system": {
+        "description": "Polandrus can establish absolute control over any wolf. The wolf doesn't like it, but Polandrus doesn't care. This power applies to mundane wolves, wolves with Might scores, and to characters who can naturally take the form of a wolf, including shapechangers, lycanthropes, skinchangers, and Bjornaer with wolf heartbeasts, but not including magi who change using spells. Once established, the domination lasts until Polandrus decides to drop it, the dominated wolf enters a Dominion aura of level 3 or higher, or someone dispels the power",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "dominate-wolves",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 0,
+        "init": 18,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "WWaX37EMjJOg6cF5",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.WWaX37EMjJOg6cF5"
+    },
+    {
+      "name": "[Area] Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "livestock",
+        "xp": 30,
+        "key": "areaLore",
+        "option": "area-lore",
+        "realm": "magic",
+        "indexKey": "area-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "ro3yAyBmUW7upOU1",
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.ro3yAyBmUW7upOU1"
+    },
+    {
+      "name": "Bargain",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/bargain.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The know-how to get the greatest return for a service or product, while paying the least. It involves reading the person with whom you haggle, a general knowledge of the value of goods, and presenting yourself in certain ways. A good haggler can easily overcome resistance in an inexperienced customer and see through attempts to over-value most merchandise.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> specific types of products, hard sell. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "for sins",
+        "xp": 140,
+        "key": "bargain",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "bargain",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "AnussGxtBvCbQeZw",
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.AnussGxtBvCbQeZw"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "bite",
+        "xp": 75,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "n5IprXJxRII2QXtg",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.n5IprXJxRII2QXtg"
+    },
+    {
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "frightened people",
+        "xp": 50,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "gKd9N81mIc0vVBrx",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.gKd9N81mIc0vVBrx"
+    },
+    {
+      "name": "Folk Ken",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/folkKen.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Understanding the background, personality, and motives of another person. Often the storyguide secretly rolls a die when this Ability is used. Thus, you do not know if your character guessed correctly, or even botched.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> peasants, townsfolk, nobles, clergy, magi, the opposite sex. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "peasants",
+        "xp": 30,
+        "key": "folkKen",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "folk-ken",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "8acV2aqWtNj1IQr9",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.8acV2aqWtNj1IQr9"
+    },
+    {
+      "name": "Guile",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/guile.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Telling convincing lies, as well as feigning emotion, belief, or frame of mind. If you understand the person you are attempting to deceive (roll 9+ on Perception + Folk Ken), you gain a bonus of +1 to your Guile roll. This Ability also covers disguising yourself, and pretending to be something you are not. It is often an opposed roll, against the victim's Perception + Folk Ken or, for disguise, Perception + Awareness.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> particular sorts of deception, lying to authority, fast talk, elaborate lies. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "when making deals",
+        "xp": 180,
+        "key": "guile",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "guile",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "ByYHfeQbt7e1P59S",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.ByYHfeQbt7e1P59S"
+    },
+    {
+      "name": "Hunt",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "livestock",
+        "xp": 105,
+        "key": "hunt",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "hunt",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "BFNvtPAcqK49o5KN",
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.BFNvtPAcqK49o5KN"
+    },
+    {
+      "name": "Language",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "making deals",
+        "xp": 105,
+        "key": "livingLanguage",
+        "option": "language",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "fGvSnPWrvIOtxEH9",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.fGvSnPWrvIOtxEH9"
+    },
+    {
+      "name": "Leadership",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "wolves",
+        "xp": 50,
+        "key": "leadership",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "leadership",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "brjB9gkkVSaDtbgj",
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.brjB9gkkVSaDtbgj"
+    },
+    {
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "woods",
+        "xp": 75,
+        "key": "survival",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "survival",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "rsFFyBtBy3KIONnU",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.rsFFyBtBy3KIONnU"
+    },
+    {
+      "name": "Envious",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "N3F2YAVY0YBzlPSx",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.N3F2YAVY0YBzlPSx"
+    },
+    {
+      "name": "Proud",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "lDyjJ9ezgK6Ocqsi",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.lDyjJ9ezgK6Ocqsi"
+    },
+    {
+      "name": "Calculating",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "CQ5M9BmkPqUFbOy2",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.CQ5M9BmkPqUFbOy2"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "teeth",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 15,
+        "atk": 3,
+        "dfn": 0,
+        "dam": 6,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": true,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761477463925,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "bqkDJKJGjiSq9h1f",
+      "sort": 1100000,
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.bqkDJKJGjiSq9h1f"
+    },
+    {
+      "name": "Coagulation",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">1 point per 10 Might (or fraction), Init –1, Corpus: This power allows demons manufacture a solid body from the ambient, unformed matter of the universe. They may only take a single specific form with this power (the one described under Appearance in the demon's statistics) unless they have another power which allows them to alter it. Manifesting a physical form takes a round for every point of Infernal Might possessed by the demon; those with a high Infernal Might have more power which they must collect and force into solid form. The demon can end this power at any time, allowing its body to become finer and more rarefied and return to its natural state. Dissolution of the solid form is almost instantaneous, taking only a round of concentration from the demon, although this concentration may be disrupted.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">The game statistics of a demon do not change regardless of whether it is in its physical or spiritual form, although a demon in spiritual form may not use its physical Characteristics. This power may not be a Corpus effect if the demon's body is naturally of a different substance, such as composed of elemental matter, or in the shape of an animal. Demons in Christian lands are forced to abandon their coagulated form on Holy Saturday (see Religious Limitations on Demons, later).</span></p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "coagulation",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 3,
+        "init": -1,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "gMcDfaxn4DS2G0Lk",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.KsZQutko8lboRPDa",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761477124374,
+        "modifiedTime": 1761477133267,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "s5xd8zoxUvu8XfQM",
+      "sort": 100000,
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.s5xd8zoxUvu8XfQM"
+    },
+    {
+      "name": "Obsession (Secrecy)",
+      "type": "power",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">1 to 3 points, Init –5, Vim: Every demon possesses a particular sin — called its Obsession Trait — which it may attempt to impose upon a mortal whenever the mortal indulges in a venial sin. A demon can only use this power when there is a chink in the armor of virtue; that is, when a person is indulging in sinful thoughts or deeds. At this moment, the demon can impose its Obsession trait, if it penetrates Magic Resistance. The victim is assailed with sinful thoughts, and acquires a Personality Trait to represent these thoughts, with a score equal to the number of Might points spent by the demon (maximum of 3). When the victim is next presented with the opportunity to act on the Obsession Trait, the victim's player must make a simple roll and add the Obsession Trait; this must be lower than a simple roll + any other suitable Personality Trait to successfully resist the impulses (a Trait which is similar to the imposed Trait may act as a penalty instead). If the Obsession roll fails, then the demon's power has failed and the Obsession trait is lost. If the Obsession roll is higher, the victim gives in to sin, permanently acquiring the Obsession Trait at +1 (or increasing it by one if he already possesses it). Any further succumbing to this trait counts as sinful, rather than as an action forced by a demon.</span></p></div><div class=\"el-p\"><p dir=\"auto\"><span class=\"internal-embed markdown-embed is-loaded\">Each demon can inflict only certain traits, representing its particular role in the corruption of mankind; these Personality Traits are listed under the creature's powers. Due to its low initiative, it is unlikely that this power will be used by a demon when in physical combat.</span></p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "obsession",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 1,
+        "credits": "",
+        "init": -5,
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "gMcDfaxn4DS2G0Lk",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.xVTPL1dVnQnOPnqG",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761477212050,
+        "modifiedTime": 1761477246450,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "0eDmCz9iMj2eZhyX",
+      "sort": 400000,
+      "_key": "!actors.items!ZRuru8WT8gXeatlK.0eDmCz9iMj2eZhyX"
+    }
+  ],
+  "folder": "922DwHk6VGdEBAul",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Polandrus",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.creatures.Actor.ZRuru8WT8gXeatlK",
+      "duration": {
+        "turns": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Extra soak",
+      "img": "icons/svg/aura.svg",
+      "_id": "pYbhb3KaZGphSM9g",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761477482247,
+        "modifiedTime": 1761477502344,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.effects!ZRuru8WT8gXeatlK.pYbhb3KaZGphSM9g"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761477029273,
+    "modifiedTime": 1761477512965,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "ZRuru8WT8gXeatlK",
+  "sort": 0,
+  "_key": "!actors!ZRuru8WT8gXeatlK"
+}

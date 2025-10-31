@@ -1,0 +1,1384 @@
+{
+  "name": "Zwergenstimme",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1195
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "zwergenstimme",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 3 pawns of Imaginem, as an immaterial echo</p><p dir=\"auto\"><strong>Appearance</strong>: An echo. This spirit appears only as auditory species to those with Second Sight</p></div><div class=\"el-p\"><p dir=\"auto\">This spirit of an echo lurks in caves or ravines. Its name literally means \"dwarf voice\" in German, and these spirits have been known to mislead lost humans by “playing” with them. The spirit certainly has no intent to harm; it doesn't even understand what harm is.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": 0,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 0,
+        "aging": 0
+      },
+      "sta": {
+        "value": -1,
+        "aging": 0
+      },
+      "pre": {
+        "value": -1,
+        "aging": 0
+      },
+      "com": {
+        "value": 3,
+        "aging": 0
+      },
+      "dex": {
+        "value": 0,
+        "aging": 0
+      },
+      "qik": {
+        "value": 3,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": -1
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": {
+      "0": {
+        "name": "Murderous"
+      }
+    },
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "im",
+      "value": 15,
+      "points": 15
+    },
+    "powers": [],
+    "realm": "magic",
+    "personalities": {
+      "0": {
+        "name": "Mischievous",
+        "score": 3
+      },
+      "1": {
+        "name": "Echo",
+        "score": 3
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 1
+        }
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        1,
+        1
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "sounds",
+        "xp": 50,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "vas3WhRrLdlarcM8",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.vas3WhRrLdlarcM8"
+    },
+    {
+      "name": "Murderous",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 5,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "mzqxS5gDc9qpH9BX",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.mzqxS5gDc9qpH9BX"
+    },
+    {
+      "name": "Guile",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/guile.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Telling convincing lies, as well as feigning emotion, belief, or frame of mind. If you understand the person you are attempting to deceive (roll 9+ on Perception + Folk Ken), you gain a bonus of +1 to your Guile roll. This Ability also covers disguising yourself, and pretending to be something you are not. It is often an opposed roll, against the victim's Perception + Folk Ken or, for disguise, Perception + Awareness.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> particular sorts of deception, lying to authority, fast talk, elaborate lies. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "mimicry",
+        "xp": 5,
+        "key": "guile",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "guile",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "GUkW6BdCoAVmNvMc",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.GUkW6BdCoAVmNvMc"
+    },
+    {
+      "name": "Folk Ken",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/folkKen.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Understanding the background, personality, and motives of another person. Often the storyguide secretly rolls a die when this Ability is used. Thus, you do not know if your character guessed correctly, or even botched.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> peasants, townsfolk, nobles, clergy, magi, the opposite sex. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "fear",
+        "xp": 5,
+        "key": "folkKen",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "folk-ken",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "xvzuvycR9YJCUXhY",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.xvzuvycR9YJCUXhY"
+    },
+    {
+      "name": "Music",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/music.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">The ability to sing, play musical instruments, and compose new music.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> sing, compose, any one instrument. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "echoes",
+        "xp": 15,
+        "key": "music",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "music",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "sd0bPcFlMyqlP9or",
+      "sort": 3300000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.sd0bPcFlMyqlP9or"
+    },
+    {
+      "name": "Thrown Weapon",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/trownWeapon.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7d6ngxdzyst",
+          "path": "Abilities#/CF_SEP/Martial",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span style=\"font-family: bookAntiquaBold\">Fighting at range using weapons which are thrown.</span></p><p style=\"box-sizing: border-box; user-select: text; margin: 0.5em 0px; color: rgb(25, 24, 19); font-family: bookAntiquaBold; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: bookAntiquaBold\"><strong style=\"box-sizing: border-box; user-select: text;\">Specialties:</strong> any one weapon. (Martial)</span></p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "rocks",
+        "xp": 50,
+        "key": "trownWeapon",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "thrown-weapon",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Uh7ZiHdsWW2PjSJl",
+      "_id": "dlnvvG5pyfnfMRCv",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.dlnvvG5pyfnfMRCv"
+    },
+    {
+      "name": "Great Communication",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [
+        {
+          "origin": "Item.M5kCpuXBtsSwCK1N",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "key": "system.characteristics.com.value",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "characteristics"
+              ],
+              "subtype": [
+                "com"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "Great Communication",
+          "_id": "hhvsgxVe6fSH5wyk",
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.31",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!fnrOLxPMkzoqHXsc.W5VCruaFIJ3SapPm.hhvsgxVe6fSH5wyk"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You may raise any Characteristic that already has a score of at least +3 by one point, to no more than +5. Make sure you describe what it is about you that causes that increase (such as sheer bulk, a lean build, or extreme charisma). You may take this Virtue twice for the same Characteristic, and for more than one Characteristic.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "great-characteristic",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "W5VCruaFIJ3SapPm",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.W5VCruaFIJ3SapPm"
+    },
+    {
+      "name": "Improved Characteristics",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have an additional three points to spend on buying Characteristics, but you are still limited to a maximum score of +3 in any single Characteristic unless you take the Virtue Great Characteristic. You may take this Virtue multiple times.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "improved-characteristics",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "BjjjcU612VTcFnVS",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.BjjjcU612VTcFnVS"
+    },
+    {
+      "name": "Sharp Ears",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You hear better than most. You get a +3 bonus to all rolls in</p><p>volving hearing.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "sharp-ears",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "TREhBX2wTUDVyc8g",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.TREhBX2wTUDVyc8g"
+    },
+    {
+      "name": "Mischievous",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "ZHnMo0gO2cZRN8Zx",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.ZHnMo0gO2cZRN8Zx"
+    },
+    {
+      "name": "Echo",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "7GJcSehfO0ZZTss6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.7GJcSehfO0ZZTss6"
+    },
+    {
+      "name": "Thrown Rock",
+      "type": "weapon",
+      "img": "icons/commodities/stone/rock-chunk-grey.webp",
+      "effects": [],
+      "folder": "Z3dh8zqhoGTsQkJz",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>A stone heavy enough to hurt someone, about the size of a fist.</p>",
+        "source": "LoM",
+        "page": 0,
+        "cost": {
+          "value": "inexp",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "trownWeapon",
+          "option": "",
+          "id": "dlnvvG5pyfnfMRCv"
+        },
+        "weaponExpert": true,
+        "horse": false,
+        "init": 1,
+        "atk": -1,
+        "dfn": -8,
+        "dam": 5,
+        "str": -1,
+        "range": 5,
+        "load": 1,
+        "equipped": true,
+        "indexKey": "t-stone",
+        "state": "inert",
+        "enchantments": null,
+        "reviewer": "KILLTHESCRIBE",
+        "review_status": "definitiveReady",
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761902383037,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "dVCrfV1w57C4nf51",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.dVCrfV1w57C4nf51"
+    },
+    {
+      "name": "Master of Sound",
+      "type": "power",
+      "system": {
+        "description": "<p>Variable cost, Init +5 – Might cost, Imaginem: The spirit can duplicate any non-Ritual spell involving sound up to Level 15, at a cost of 1 Might Point per magnitude of effect. (Te)Im15</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "master-of-sound",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "im",
+        "cost": 1,
+        "init": 4,
+        "credits": "",
+        "penetration": 0,
+        "realm": "magic"
+      },
+      "_id": "A3eXjAHtWfJ1WDmD",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761902488321,
+        "modifiedTime": 1761902488321,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.A3eXjAHtWfJ1WDmD"
+    },
+    {
+      "name": "Bring Down the Roof",
+      "type": "power",
+      "system": {
+        "description": "<p>The Zwergenstimme can cause the roof of a cave to collapse, crushing any within it. This causes +20 damage, and seals the exit from the cave. PeTe 20 (base 3, +1 Touch, +2 Room, +2 Size)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "bring-down-the-roof",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "te",
+        "cost": 2,
+        "init": 3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "magic"
+      },
+      "_id": "ml8W7j3KorP7vmE1",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761902497075,
+        "modifiedTime": 1761902528391,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.ml8W7j3KorP7vmE1"
+    },
+    {
+      "name": "Presence",
+      "type": "power",
+      "system": {
+        "description": "<p>Grants awareness of everything that happens within the bounds of a specific domain chosen by the spirit. In essence, the spirit is coterminous with its associated landscape feature, so it is present simultaneously everywhere within its boundaries. The area controlled by the spirit can produce a yearly harvest of 2 pawns of vis of an appropriate Form, which manifests as physical objects within the controlled region. Harvesting this vis does not erode the spirit's Might. The echo spirit can haunt a series of caves (constituting a Structure).</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "presence",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "im",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "magic"
+      },
+      "_id": "fcOYWBPfNYZuoRWq",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761902538410,
+        "modifiedTime": 1761902564274,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.fcOYWBPfNYZuoRWq"
+    },
+    {
+      "name": "Ghost Touch",
+      "type": "power",
+      "system": {
+        "description": "<p>Variable cost, Init +2, Terram: The spirit can hurl rocks at enemies. It uses the combat scores listed above, but each attack costs 1 Might point.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "ghost-touch",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "te",
+        "cost": 1,
+        "init": 2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "magic"
+      },
+      "_id": "iosKtsS3k4nNw21K",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761902573203,
+        "modifiedTime": 1761902621038,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!fnrOLxPMkzoqHXsc.iosKtsS3k4nNw21K"
+    }
+  ],
+  "folder": "dKkjbN7Pt49SfpMg",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Zwergenstimme",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761901988522,
+    "modifiedTime": 1761902643451,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "fnrOLxPMkzoqHXsc",
+  "sort": 0,
+  "_key": "!actors!fnrOLxPMkzoqHXsc"
+}

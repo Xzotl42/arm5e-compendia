@@ -1,0 +1,1378 @@
+{
+  "name": "The Buran of Yenghissar",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1195
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "the-buran-of-yenghissar",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": true,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<p><strong>Combat:</strong> Not applicable, the buran is an insubstantial spirit<br><strong>Soak:</strong> Not applicable, the buran is an insubstantial spirit</p><p><strong>Wound Penalties:</strong> Not applicable, the buran is an insubstantial spirit</p><div class=\"el-p\"><p dir=\"auto\"><strong>Weaknesses:</strong> Protected Group (individuals that invoke the Bismillah invocation)<br><strong>Vis:</strong> 5 pawns of Auram vis prava, left behind as black sand when dispersed.<br><strong>Appearance:</strong> Usually manifests as a giant shapeless vortex of raging black sand using its Auram powers. To those with Second Sight, a giant humanoid shadow can be discerned within the sandstorm.</p></div><div class=\"el-p\"><p dir=\"auto\">This wild desert storm spirit, or buran, once plagued the small village of Yenghissar along the route to Khashgar, bringing devastation to the crops and herd animals every seven years. It is now bound by an Infernally-aligned sahir using the Goetic Art of Binding (see <em>Realms of Power: The Infernal</em>, page 117). A speechless, destructive force of fury incarnate, it rages to be released and constantly strives to create elemental havoc around the thoughtless sahir who has trapped it within his ancestral sword.</p></div><div class=\"el-p\"><p dir=\"auto\">Unlike many other corrupt jinn, the buran lacks the <em>Coagulation</em> and <em>Obsession</em> powers common to most demons and is an insubstantial spirit, unable to affect the physical world except through its magic. It is an example of an Infernal storm spirit likely to be found in the Taklamakan Desert, although much stronger and less powerful creatures also exist (see <em>The Cradle and the Crescent,</em> Chapter 9: On the Silk Road and Beyond...). Many travelers' tales tell of companions fallen behind who are tempted off the track by the illusions created by these demons.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": -5,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 0,
+        "aging": 0
+      },
+      "sta": {
+        "value": 0,
+        "aging": 0
+      },
+      "pre": {
+        "value": 3,
+        "aging": 0
+      },
+      "com": {
+        "value": -2,
+        "aging": 0
+      },
+      "dex": {
+        "value": 3,
+        "aging": 0
+      },
+      "qik": {
+        "value": 6,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 4
+      },
+      "soa": {
+        "value": 0
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": {
+      "0": {
+        "name": "Scourge of Yenghissar"
+      }
+    },
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "au",
+      "value": 25,
+      "points": 25
+    },
+    "powers": [],
+    "realm": "infernal",
+    "personalities": {
+      "0": {
+        "name": "Untameable",
+        "score": 5
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 2
+        }
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Scourge of Yenghissar",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 15,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "M8qYIeahDCQVf1hU",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.M8qYIeahDCQVf1hU"
+    },
+    {
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "name": "Theology: Islam",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/moon.svg",
+      "system": {
+        "description": "<p>This is the Islamic equivalent of Theology: Christian. The major sources for Islamic theology are the Qur’an and the Sunna.</p><p><strong>Specialties</strong>: the Qur’an, debates, history, prophets. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "theology-islam",
+        "defaultChaAb": "int",
+        "speciality": "jinn",
+        "xp": 30,
+        "key": "theology",
+        "option": "theology-islam",
+        "realm": "mundane",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "accelerated": false,
+        "optionLinked": false,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "CBVr9z58wiLAeuIl": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "pScvPzsPyMtQuTaS",
+      "sort": 0,
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.pScvPzsPyMtQuTaS"
+    },
+    {
+      "name": "Arabic",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/deadLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_097jrlmaqjp7",
+          "path": "Abilities#/CF_SEP/Academic, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>This skill is similar to all other (Language) Abilities, but it is only available to educated characters. It grants the ability to speak a language which is no longer used as a native language in the areas the character has lived in. The most important example is Latin. All educated characters in the West know Latin, since without it you cannot learn any Academic Knowledges. It is also the common language of the Church and Order of Hermes. In other areas of the world, Arabic, Greek and Hebrew fill similar functions, although of these only Hebrew is a dead language.</p><p><strong>Specialties</strong>: academic usage, Church ceremonies, Hermetic usage. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "understanding)*, Folk Ken 3 (travelers",
+        "xp": 75,
+        "key": "deadLanguage",
+        "option": "arabic",
+        "realm": "magic",
+        "indexKey": "language-arabic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_id": "BqorMNXjUynBXJjg",
+      "sort": 100000,
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.BqorMNXjUynBXJjg"
+    },
+    {
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "desert",
+        "xp": 75,
+        "key": "survival",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "survival",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "1XIn5gTgY59fNAJg",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.1XIn5gTgY59fNAJg"
+    },
+    {
+      "name": "Wilderness Sense",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/wildernessSense.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_mjq1fx3r06m",
+          "path": "Abilities#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are mystically attuned to the ways of the wilderness. A Perception + Wilderness Sense roll against an Ease Factor of 9 lets you determine the direction of north, the upcoming weather, or the presence of natural hazards or resources. One roll will only reveal one piece of information. </p><p><strong>Specialties</strong>: direction, weather, hazards, resources. (Supernatural)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "weather",
+        "xp": 15,
+        "key": "wildernessSense",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "wilderness-sense",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "ZbCET9zUtDWzYD5z",
+      "_id": "YoPgOlCReqo2nAbK",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.YoPgOlCReqo2nAbK"
+    },
+    {
+      "name": "Strong-willed",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You cannot easily be coerced into activities, beliefs, or feelings. You get +3 on any roll which may require strength of will.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "strong-willed",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "6nw5dK2gW5pnu3vq",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.6nw5dK2gW5pnu3vq"
+    },
+    {
+      "name": "Berserk",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are capable of entering a blinding rage when in combat or frustrating situations. You automatically gain the Personality Trait Angry +2 (or more, at your option). Any time you take a wound or wound an enemy, roll a stress die and add your Angry score. A roll of 9+ means you go berserk. The storyguide can also call for a roll when you are strongly frustrated. You may deliberately try to go berserk. In this case, you only need a 6+ when you take a wound or wound an enemy, or a 9+ if you have not been wounded or caused a wound. While berserk, you get +2 to Attack and Soak scores, but suffer a –2 penalty to Defense. While berserk, you cannot retreat, hesitate to attack, or give quarter. If you are still berserk when there are no enemies present, you attack your friends. You may roll once per round to calm down if you desire, requiring a stress die + Perception – Angry against an Ease Factor of 6. You may learn Martial Abilities at character creation.</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "berserk",
+        "review_status": "needAE",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "jExlOV0KKxGYzQnK",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.jExlOV0KKxGYzQnK"
+    },
+    {
+      "name": "Greater Malediction (bound by bargains)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_xc1hyhkw51",
+          "path": "Flaws#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have been cursed by some supernatural power, in a way that greatly hinders you. The effects of the curse should be comparable to those of other Major Flaws. Indeed, almost any Flaw could be the result of a curse.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "greater-malediction",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "PMTtdepguHpd2YfJ",
+      "_id": "O1mBgrT3AkxJv0bg",
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.O1mBgrT3AkxJv0bg"
+    },
+    {
+      "name": "Wilderness Sense",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [
+        {
+          "origin": "Item.rdXZCgrtQYmHjZp2",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.skills.wildernessSense.xpMod",
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "xpBonusSupernaturalAbility"
+              ],
+              "subtype": [
+                "wildernessSense"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "XP Bonus",
+          "_id": "rqIXzVKvZtxv0W37",
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.343",
+            "systemId": "arm5e",
+            "systemVersion": "2.4.0.31",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!QKB90zWgcFPPY2JP.Va0UsGaz2fja8ofB.rqIXzVKvZtxv0W37"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nh7mgwj6rq",
+          "path": "Virtues#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are mystically attuned to the ways of the wilderness. Choosing this Virtue confers the Ability Wilderness Sense 1 (page @@).</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "wilderness-sense",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "_id": "Va0UsGaz2fja8ofB",
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.Va0UsGaz2fja8ofB"
+    },
+    {
+      "name": "Mute",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_g1gywhrffo",
+          "path": "Flaws#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You cannot speak; perhaps your tongue was cut out. You probably use rudimentary hand gestures and grunts to communicate your needs. You can still understand languages perfectly well, and may learn to read and write if you have an appropriate Virtue. Note that magi with this Flaw get a –10 penalty to all spellcasting, although this may be offset by taking the Quiet Magic Virtue (page @@). A magus with this Flaw can be assumed to be able to make sounds, which are sufficient to allow normal use of the Voice Range.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "mute",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "JfccfuGi1M1LXZSX",
+      "_id": "ThATmT0U0tna5FXB",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.ThATmT0U0tna5FXB"
+    },
+    {
+      "name": "Untameable",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 75,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "8J7F46QVObMA7YyL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.8J7F46QVObMA7YyL"
+    },
+    {
+      "name": "Recalcitrance",
+      "type": "power",
+      "system": {
+        "description": "Any attempt to control (but not destroy) the buran with any form of Supernatural Power (magical, Divine, or otherwise) treats the demon's Might as if it were 150% its actual Might, or otherwise has its Ease Factor increased by 50%. For example, a Circular Ward Against Demons of 38th level is needed to stop this demon. Weaknesses:  Protected Group (individuals that invoke the Bismillah invocation)<h3>Migration note:</h3><p>Init is now strictly a number, previous value:\"constant\", new value: 0",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "recalcitrance",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "vi",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "pA1tvPVflZ6Buvp6",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 250000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.QKB90zWgcFPPY2JP.Item.KFzYF2kABFti4zYw",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761900222109,
+        "modifiedTime": 1761900337030,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.pA1tvPVflZ6Buvp6"
+    },
+    {
+      "name": "Delusion of the Desert",
+      "type": "power",
+      "system": {
+        "description": "<p>1 or 5 points, Init +3, Imaginem: This evil spirit can create illusions of a lost traveler's companions or a welcoming oasis, only to launch itself in fury at an unsuspecting victim. Alternatively it can create images of itself as a humanoid sandstorm with glowing fiery eyes in order to terrify its victims prior to their deaths. A minor illusion which affects an Individual amount of material (such as the demon itself) costs one point; a larger illusion which fills a room costs five points. These visions always have a flaw, however (they smell wrong, can only be seen by one target, etc.).</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "delusion-of-the-desert",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "im",
+        "cost": 1,
+        "init": 3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "3yUyIYT6nG8eDpnE",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.QKB90zWgcFPPY2JP.Item.KFzYF2kABFti4zYw",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761900272180,
+        "modifiedTime": 1761900272180,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.3yUyIYT6nG8eDpnE"
+    },
+    {
+      "name": "Elemental Control of Wind",
+      "type": "power",
+      "system": {
+        "description": "<p>Auram: The buran has control over the winds of nature, which it uses to wreak destruction on the desert fringes. It may create any Creo, Muto, or Rego effect appropriate to Auram, at a cost of 1 Might Point per magnitude of effect. The demon cannot create any effect with a level greater than its Infernal Might, nor duplicate Ritual effects.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "elemental-control-of-wind",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "au",
+        "cost": 1,
+        "init": 1,
+        "credits": "",
+        "penetration": 0,
+        "realm": "infernal"
+      },
+      "_id": "wOYeLwwyslMP8u94",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.QKB90zWgcFPPY2JP.Item.KFzYF2kABFti4zYw",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761900332279,
+        "modifiedTime": 1761900332279,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.wOYeLwwyslMP8u94"
+    },
+    {
+      "name": "Taklamakan  Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "legends",
+        "key": "areaLore",
+        "option": "Taklamakan-Lore",
+        "realm": "magic",
+        "indexKey": "area-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false,
+        "xp": 75
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.jTQljMRQlD2ubG1N",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761900411183,
+        "modifiedTime": 1761900533725,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "s6ErP3oPDLhVrRQs",
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.s6ErP3oPDLhVrRQs"
+    },
+    {
+      "name": "Fury",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/story.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ciwmacrmzmm",
+          "path": "Flaws#/CF_SEP/Story",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>A violent temper sometimes overwhelms you, sending you into a destructive, uncontrollable rage. You are likely to be provoked by some sort of specific event, such as being insulted, being hurt, or hearing the Order of Hermes disparaged. Roll 9+ on a stress die to avoid flying into a rage when such an event occurs, with another roll every round to try to calm yourself should you fail the first. On a botch, you try to kill everyone around you. While enraged you get +3 to Damage, but –1 on all other scores and rolls.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "story",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "fury",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.flaws.Item.5j8nkvlhg4y4CCSj",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761900481258,
+        "modifiedTime": 1761900481258,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "HvyHCuxjJNI5yJoA",
+      "_id": "9nOSVy4ZwMkGO2aR",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QKB90zWgcFPPY2JP.9nOSVy4ZwMkGO2aR"
+    }
+  ],
+  "folder": "922DwHk6VGdEBAul",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "The Buran of Yenghissar",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761900153389,
+    "modifiedTime": 1761900583580,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "QKB90zWgcFPPY2JP",
+  "sort": 0,
+  "_key": "!actors!QKB90zWgcFPPY2JP"
+}

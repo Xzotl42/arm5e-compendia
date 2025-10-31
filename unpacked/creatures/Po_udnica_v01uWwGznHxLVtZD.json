@@ -1,0 +1,1326 @@
+{
+  "name": "Południca",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1196
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "poudnica",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 2 pawns (scythe, Ignem)<br><strong>Appearance:</strong> This faerie may appear as a beautiful maiden, a crone or an adolescent girl. She wears a white dress and carries a scythe or shears. She may travel as a dust devil, and is used as a nursery terror, to frighten children so that they do not harm crops.</p></div><div class=\"el-p\"><p dir=\"auto\">Południca usually appears around noon on hot days, and asks farmhands difficult questions, or engages them in conversation. If the farmhand tries to change the topic of their conversation, or cannot answer one of the faerie's questions, she gives him heatstroke. If particularly annoyed at this farmhand she might instead drive him insane, or cause his death from hyperthermia. Południca are unable to spend Might points during the winter.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": 1,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 0,
+        "aging": 0
+      },
+      "sta": {
+        "value": 0,
+        "aging": 0
+      },
+      "pre": {
+        "value": 3,
+        "aging": 0
+      },
+      "com": {
+        "value": 0,
+        "aging": 0
+      },
+      "dex": {
+        "value": 0,
+        "aging": 0
+      },
+      "qik": {
+        "value": 0,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": 0
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "au",
+      "value": 10,
+      "points": 10
+    },
+    "powers": [],
+    "realm": "faeric",
+    "personalities": {
+      "0": {
+        "name": "Curious",
+        "score": 3
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        1,
+        1
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "rural people",
+        "xp": 15,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "fyY6Fz4bfNHhSLts",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!v01uWwGznHxLVtZD.fyY6Fz4bfNHhSLts"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "laziness",
+        "xp": 30,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "AX4Xxf8CJSoypwUr",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!v01uWwGznHxLVtZD.AX4Xxf8CJSoypwUr"
+    },
+    {
+      "name": "Faerie Speech",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "rural people",
+        "xp": 75,
+        "key": "livingLanguage",
+        "option": "faerie-speech",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "3tlhXdx4B9TXcriG",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!v01uWwGznHxLVtZD.3tlhXdx4B9TXcriG"
+    },
+    {
+      "name": "Local Farms Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "stewardship",
+        "xp": 105,
+        "key": "areaLore",
+        "option": "local-farms-lore",
+        "realm": "magic",
+        "indexKey": "area-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "BSWZhuOXgf116SPA",
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!v01uWwGznHxLVtZD.BSWZhuOXgf116SPA"
+    },
+    {
+      "name": "Profession: Farmer",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/profession.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_objljw4w1kp",
+          "path": "Abilities#/CF_SEP/General, Professions",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The ability to do a job which does not involve making something. Examples include jongleur, reeve, sailor, steward, teamster, and washerwoman.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> depend on the profession. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "stewardship",
+        "xp": 105,
+        "key": "profession",
+        "option": "profession-farmer",
+        "realm": "magic",
+        "indexKey": "profession-farmer",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "accelerated": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_id": "URL5zEuhlm3SCudc",
+      "sort": 0,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.URL5zEuhlm3SCudc"
+    },
+    {
+      "name": "Single Weapon",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/singleWeapon.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7d6ngxdzyst",
+          "path": "Abilities#/CF_SEP/Martial",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting with a weapon used in one hand, possibly using a shield with the other. This includes lances used as intended from horseback.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> any one weapon or shield, which covers using that weapon with any shield or none, and that shield with any weapon. (Martial)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "rural people",
+        "xp": 30,
+        "key": "singleWeapon",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "single-weapon",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Uh7ZiHdsWW2PjSJl",
+      "_id": "c9aiTssHNySboHh4",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!v01uWwGznHxLVtZD.c9aiTssHNySboHh4"
+    },
+    {
+      "name": "Faerie Sight",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The character is able to improve itself in ways traditional for characters of this type. A dwarf may seek to become a dwarf king, for example. Or a faerie maid may wish to steal a child to raise as her own.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-sight",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "BZTkSBo5PKsJ6lI5",
+      "sort": 2200000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.BZTkSBo5PKsJ6lI5"
+    },
+    {
+      "name": "Faerie Speech",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Many faeries have a Pretense called Faerie Speech, which they use instead of acquiring human languages. Faeries seem to know the same languages as whomever they are talking to. If speaking to a group that has demonstrated mixed linguistic skills, the faerie may select which language to speak in.</span></p><p><span class=\"fontstyle0\">This effect occurs whenever the faerie speaks and costs no Might. It is not magically resisted, because the effect only alters the behavior of the faerie. If the faerie has not heard a person from its audience speak, it may only use whichever language it last used with humans. Once its audience speaks, the faerie may then converse in the correct language for its audience.</span></p><p><span class=\"fontstyle0\">In the bestiary chapter, Faerie Speech is frequently given to characters designed as NPCs. Characters designed for possible use by players have this Virtue more rarely, to free up a Virtue slot, but it is still appropriate for a wide variety of faeries.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-speech",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "YswMo2N0y7DBBCK9",
+      "sort": 700000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.YswMo2N0y7DBBCK9"
+    },
+    {
+      "name": "Incognizant",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The character is not aware that it can change its role, although it may develop additional Pretenses by assisting humans in stories. Incognizant faeries do not, however, notice that they are more skilled than they once were, and cannot consciously seek developmental opportunities.</span></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "incognizant",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "iX8Pb0NoPDpCxVh3",
+      "sort": 200000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.iX8Pb0NoPDpCxVh3"
+    },
+    {
+      "name": "Sovereign Ward (running water)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">If a taboo is selected as a major flaw, the faerie may not harm a person or thing that is defended by the ward. “Harm” is defined very broadly in the faerie’s glamour. A faerie that is vulnerable to religious symbols, for example, can not work around the symbol by putting mundane poison in the food of the wearer, or burning his house down around him. The person is completely safe from the faerie. The faerie must attempt to flee the ward, and its body is destroyed instantly by the ward’s touch.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "sovereign-ward",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "PMTtdepguHpd2YfJ",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1huSe0YWk1EMmDVf",
+      "sort": 200000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.1huSe0YWk1EMmDVf"
+    },
+    {
+      "name": "Traditional Wards (questions)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Fae only. If a taboo is selected as a Minor Flaw, then the faerie may not touch a thing protected by the ward with its glamour. The faerie is likely uncomfortable in the presence of the ward, but is not compelled to flee. The faerie cannot regenerate Might points in the presence of a traditional ward. If forced to touch the ward, the glamour holding the faerie’s body together begins to break down: its body begins to flake away. Prolonged contact with the ward destroys the body of the faerie by unpicking the glamour holding its body together.</span></p><p><span class=\"fontstyle0\">This may appear to humans as if the ward is burning the faerie. The damage to the faerie’s body can be simulated with the Heat and Corrosion rules found on page @@ of </span><span class=\"fontstyle2\">ArMDE</span><span class=\"fontstyle0\">. Assume that the object acts as a source of damage with an intensity of +6.</span></p><p><span class=\"fontstyle0\">If a faerie receives an Incapacitating wound from an item that is a Traditional Ward, then in addition to the usual effects of Incapacitating wounds (</span><span class=\"fontstyle2\">ArM5</span><span class=\"fontstyle0\">, page @@) the faerie cannot spend any further Might points. It can still activate powers with a zero cost, though. If the character has constant-effect powers with a non-zero cost, they expire at the next sunrise or sunset and cannot be reactivated until the character is no longer Incapacitated. The character may heal at a human rate, or may remove the injury with an appropriate story event.</span></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "traditional-ward",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "0BlMgQqFqd39yTAl",
+      "sort": 0,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.0BlMgQqFqd39yTAl"
+    },
+    {
+      "name": "Curious",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "4vg7ZARdsAKXjR0X",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!v01uWwGznHxLVtZD.4vg7ZARdsAKXjR0X"
+    },
+    {
+      "folder": "seNqaIxNCRH7Ny02",
+      "name": "Scythe",
+      "type": "weapon",
+      "img": "icons/weapons/sickles/scythe-wrapped-red.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "scythe",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 2,
+        "init": -1,
+        "atk": 3,
+        "dfn": 1,
+        "dam": 2,
+        "str": 2,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "mFCpJv70OcYgtNTh",
+      "sort": 3100000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.mFCpJv70OcYgtNTh"
+    },
+    {
+      "name": "Cause Fatigue",
+      "type": "power",
+      "system": {
+        "description": "<p>Ignem: Causes the loss of a long-term fatigue level via heatstroke.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "cause-fatigue",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "ig",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761477613460,
+        "modifiedTime": 1761477613460,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "etDTB6S95x8YxAen",
+      "sort": 200000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.etDTB6S95x8YxAen"
+    },
+    {
+      "name": "Shift Human Shapes",
+      "type": "power",
+      "system": {
+        "description": "<p>Corpus (beautiful to hideous within a range of +3/–3 Presence)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "shift-human-shapes",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 1,
+        "init": -1,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761477661651,
+        "modifiedTime": 1761477661651,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "i7Zlv7RlCibMqFI8",
+      "sort": 200000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.i7Zlv7RlCibMqFI8"
+    },
+    {
+      "name": "Transform Into Whirlwind",
+      "type": "power",
+      "system": {
+        "description": "<p>Transform Into Whirlwind</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "transform-into-whirlwind",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "au",
+        "cost": 3,
+        "init": 2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761477707899,
+        "modifiedTime": 1761477707899,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "f2HEGOziqWgiuKnu",
+      "sort": 200000,
+      "_key": "!actors.items!v01uWwGznHxLVtZD.f2HEGOziqWgiuKnu"
+    }
+  ],
+  "folder": "88CO5QBkOKA6hTJa",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Południca",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761477304271,
+    "modifiedTime": 1761901758504,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "v01uWwGznHxLVtZD",
+  "sort": 100000,
+  "_key": "!actors!v01uWwGznHxLVtZD"
+}

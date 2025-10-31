@@ -1,0 +1,1390 @@
+{
+  "name": "Tarlan the Wolf",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1220
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "tarlan-the-wolf",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": null
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": null
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 2 pawns of Intellego in his nose, 1 pawn of Intellego in each ear.<br><strong>Appearance:</strong> A large, deep black wolf with eyes that glint even when there seems to be no light around. He moves silently and can stay hidden unless he really wants his quarry to see him.</p></div><div class=\"el-p\"><p dir=\"auto\">Tarlan exists to hunt people. He picks individuals who are in the wilderness by themselves, marks them as quarry, and then harries them to exhaustion. Once they can run no further, he bursts out of cover, and, somehow, the victims regain their vigor at that moment, finding that they can run away once more. The wolf can keep the hunt up indefinitely, but normally he times a final attack, on an exhausted victim, to happen just before dawn. If the quarry is particularly resourceful, he might keep the hunt up longer.</p></div><div class=\"el-p\"><p dir=\"auto\">Tarlan does not always kill his victims, leaving some alive to tell the tale of their ordeal. He likes the idea that people are scared of him even before he uses his power. Indeed, he has occasionally not needed to use <em>Marked Quarry</em> at all.</p></div><div class=\"el-p\"><p dir=\"auto\">The wolf does have one weakness. He cannot enter holy ground, so a victim who can run into a church or graveyard is safe. Tarlan knows this, and tries to herd his victims away from such places. In addition, because <em>Prey's Vigor</em> cannot affect children, Tarlan never hunts them. In fact, he's come to feel somewhat protective of them, on the grounds that, if he can't hunt them, no-one else is going to. Finally, The Gift inspires respect in the faerie. He never hunts Gifted individuals, and might even be happy to work with one who let him hunt people.</p></div>",
+    "characteristics": {
+      "int": {
+        "value": -2,
+        "aging": 0
+      },
+      "per": {
+        "value": 0,
+        "aging": 0
+      },
+      "str": {
+        "value": 3,
+        "aging": 0
+      },
+      "sta": {
+        "value": 3,
+        "aging": 0
+      },
+      "pre": {
+        "value": 0,
+        "aging": 0
+      },
+      "com": {
+        "value": -3,
+        "aging": 0
+      },
+      "dex": {
+        "value": 2,
+        "aging": 0
+      },
+      "qik": {
+        "value": 3,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": -1
+      },
+      "soa": {
+        "value": 7
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": {
+      "0": {
+        "name": "Soul-eating demon"
+      }
+    },
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "an",
+      "value": 20,
+      "points": 20
+    },
+    "powers": [],
+    "realm": "faeric",
+    "personalities": {
+      "0": {
+        "name": "Relentless",
+        "score": 3
+      },
+      "1": {
+        "name": "Cheerful",
+        "score": 2
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 1
+        }
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Soul-eating demon",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 5,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "NQ0eIADRpFF0KOpK",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.NQ0eIADRpFF0KOpK"
+    },
+    {
+      "name": "[Area] Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "hunting tracks",
+        "xp": 105,
+        "key": "areaLore",
+        "option": "area-lore",
+        "realm": "magic",
+        "indexKey": "area-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899794184,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "PuBs2GpjGYmwxeDv",
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.PuBs2GpjGYmwxeDv"
+    },
+    {
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">General physical prowess. It includes moving smoothly, confidently, and with grace. Use of Athletics improves most large-muscle coordination.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> acrobatics, contortions, grace, jumping, running. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "running",
+        "xp": 75,
+        "key": "athletics",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "athletics",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899802746,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "seDAeyZNNRDztd55",
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.seDAeyZNNRDztd55"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "spotting quarry",
+        "xp": 180,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899811447,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "EWY7Dr21A9oFZmYl",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.EWY7Dr21A9oFZmYl"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "bite",
+        "xp": 30,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899818535,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "LfrGKiiCuHErcXMY",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.LfrGKiiCuHErcXMY"
+    },
+    {
+      "name": "Hunt",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "human beings",
+        "xp": 275,
+        "key": "hunt",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "hunt",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899826886,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "i3oqS3RmeNXo8VTJ",
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.i3oqS3RmeNXo8VTJ"
+    },
+    {
+      "name": "Living Language",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "threats",
+        "xp": 15,
+        "key": "livingLanguage",
+        "option": "living-language",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899835366,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "4yL8OOdRzlECXVAW",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.4yL8OOdRzlECXVAW"
+    },
+    {
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/stealth.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Sneaking about without being seen or heard, also hiding in one place. This includes following people without their noticing, which is rolled against the other person's Perception.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> hide, sneak, shadowing, urban areas, natural areas. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "hunting",
+        "xp": 225,
+        "key": "stealth",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "stealth",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899845255,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "b7KA8srmgew5aW4V",
+      "sort": 5500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.b7KA8srmgew5aW4V"
+    },
+    {
+      "name": "Survival",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "forests",
+        "xp": 140,
+        "key": "survival",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "survival",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1761899852562,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "4KG6UUQGkRIZonHk",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.4KG6UUQGkRIZonHk"
+    },
+    {
+      "name": "Incognizant",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The character is not aware that it can change its role, although it may develop additional Pretenses by assisting humans in stories. Incognizant faeries do not, however, notice that they are more skilled than they once were, and cannot consciously seek developmental opportunities.</span></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "incognizant",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "FxRILmyYavwmreBA",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "fc3nXI4Magzoe1e4",
+      "sort": 200000,
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.fc3nXI4Magzoe1e4"
+    },
+    {
+      "name": "Relentless",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "ZbGfW2Q23F7ZPLIt",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.ZbGfW2Q23F7ZPLIt"
+    },
+    {
+      "name": "Cheerful",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "kmehhJnjT8HOvA1o",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.kmehhJnjT8HOvA1o"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "teeth",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 3,
+        "dfn": 1,
+        "dam": 1,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": true,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "WmpZ1TFqOeaO6iEi",
+      "sort": 1100000,
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.WmpZ1TFqOeaO6iEi"
+    },
+    {
+      "name": "Marked Quarry",
+      "type": "power",
+      "system": {
+        "description": "<p>Mentem: Tarlan can pick a single human being whom he can see and who can see him, and mark him as quarry for the hunt. This inspires the victim with a strong fear of Tarlan, requiring a Brave roll against an Ease Factor of 9 to overcome, and specifically makes him likely to run.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "marked-quarry",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 1,
+        "init": 5,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "_id": "1PU8DRaxGRdqbjrK",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761899948869,
+        "modifiedTime": 1761899948869,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.1PU8DRaxGRdqbjrK"
+    },
+    {
+      "name": "Prey's Vigor",
+      "type": "power",
+      "system": {
+        "description": "<p>Corpus: By breathing on a tired person (anyone who has lost Fatigue levels), Tarlan can restore them to full vigor (i.e. all Fatigue levels are regained). However, the target also ages one year. This power can only be used if the target is close enough to actually feel the wolf's breath on his skin, and only works on adults.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "preys-vigor",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 1,
+        "init": 8,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "_id": "ygScdjenuC6YNmsk",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761899954252,
+        "modifiedTime": 1761899985986,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.ygScdjenuC6YNmsk"
+    },
+    {
+      "name": "Silent Running",
+      "type": "power",
+      "system": {
+        "description": "<p>Imaginem: Tarlan makes no noise unless he deliberately decides to.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "silent-running",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "im",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "_id": "db5AKEeSn0BhYIrb",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.owvGEaAEYIHRRUej.Item.KQjHWkwBgxKDy5IW",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761899998486,
+        "modifiedTime": 1761900034517,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!9yf1xRlyGmwBQXni.db5AKEeSn0BhYIrb"
+    }
+  ],
+  "folder": "88CO5QBkOKA6hTJa",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Tarlan the Wolf",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.creatures.Actor.9yf1xRlyGmwBQXni",
+      "duration": {
+        "turns": null,
+        "startTime": -23641545473,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Extra soak",
+      "img": "icons/svg/aura.svg",
+      "_id": "GfOQ9lQIvJU01jJn",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1761900054513,
+        "modifiedTime": 1761900096092,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.effects!9yf1xRlyGmwBQXni.GfOQ9lQIvJU01jJn"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {
+    "arm5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1761899730702,
+    "modifiedTime": 1761901758504,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "9yf1xRlyGmwBQXni",
+  "sort": 300000,
+  "_key": "!actors!9yf1xRlyGmwBQXni"
+}

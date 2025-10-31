@@ -1,8 +1,21 @@
 # Release notes
 
+## Version 1.0.0
+
+### Changes
+
+### Compendia updates
+
+- Creatures: letters N-Z
+- Flaws: Flaws for corrupted beasts
+
 ## Version 0.12.2
 
-### Chnages
+### Compatibility
+
+Verified for 13.350
+
+### Changes
 
 - Exchanged special armor equipment with active effect with bonus to soak when applicable.
 
