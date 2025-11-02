@@ -140,9 +140,31 @@ export const TECHNIQUES = ["Creo", "Intellego", "Muto", "Perdo", "Rego"];
 
 export const FORMS = ["Animal", "Aquam", "Auram", "Corpus", "Herbam", "Ignem", "Imaginem", "Mentem", "Terram", "Vim"];
 
-export const AREAS = ["Sicily Lore", "Local Farms Lore", "Bavaria Lore", "Mythic Middle East Lore", "Local Farms Lore"];
+export const AREAS = [
+  "Sicily Lore",
+  "Local Farms Lore",
+  "Bavaria Lore",
+  "Mythic Middle East Lore",
+  "Local Farms Lore",
+  "Holy Land Lore",
+  "Iberia Lore",
+  "Village Lore",
+  "[Surrounding Area]"
+];
 
-export const ORGANIZATIONS = [];
+export const LORES = [];
+
+export const ORGANIZATIONS = ["Covenant Lore"];
+
+export const TYPOS = {
+  KeenVision: "Keen Vision",
+  FreeExpression: "Free Expression",
+  GreatCharacteristics: "Great Characteristics",
+  LightTouch: "Light Touch",
+  EnchantingMusic: "Enchanting Music",
+  SharpEars: "Sharp Ears",
+  "Affinity(Single Weapon)": "Affinity (Single Weapon)"
+};
 
 export const MINOR_MAJOR = [
   "Ambitious",
@@ -171,6 +193,79 @@ export const MINOR_MAJOR = [
   "Reckless",
   "Wrathful"
 ];
+
+// Map ability names to their keys, the match will be done by startsWith function
+export const ABILITY_KEY_MAPPING = {
+  "Living Language": "language-generic",
+  "[Native Language]": "language-generic",
+  "Native Language": "language-generic",
+  "Faerie Speech": "language-generic",
+  Language: "language-generic",
+  German: "language-german",
+  Latin: "language-latin",
+  Greek: "language-greek",
+  Arabic: "language-arabic",
+  Hebrew: "language-hebrew",
+  "Hermes Lore": "order-of-hermes-lore",
+  "Civil and Canon Law": "civil-canon-law",
+  "Sense Holiness and Unholiness": "sense-holiness-unholiness",
+  "Single Weapons": "single-weapon",
+  "Great Weapons": "great-weapon",
+  "Thrown Weapons": "thrown-weapon",
+  "Divine Lore": "dominion-lore",
+  "Demonic Lore": "infernal-lore",
+  Climb: "athletics",
+  "Craft ": "craft-generic",
+  "Profession ": "profession-generic",
+  "Prof: ": "profession-generic"
+};
+
+export const VIRTUES_KEY_MAPPING = {
+  "Cyclic Magic (Positive)": "cyclic-magic-positive",
+  "Enchanting ": "enchanting-ability",
+  "Faerie Blood": "faerie-blood",
+  Ferocity: "ferocity",
+  "Great Characteristics": "improved-characteristics",
+  "Greater Immunity ": "greater-immunity",
+  "Greater Purifying Touch ": "greater-purifying-touch",
+  "Inoffensive to ": "inoffensive-to-being-general",
+  "latent magical ablity": "latent-magical-ability",
+  "Lesser Immunity ": "lesser-immunity",
+  "Lesser Purifying Touch ": "lesser-purifying-touch",
+  "Major Magical Focus": "major-magical-focus",
+  "Minor Magical Focus": "minor-magical-focus",
+  "Side Effect": "side-effect",
+  "Skinchanger ": "skinchanger",
+  "Social Contacts ": "social-contacts",
+  "Special Circumstances ": "special-circumstances",
+  "Strong Faerie Blood": "strong-faerie-blood",
+  "student of ": "student-of-realm",
+  "ways of the ": "ways-of-the-land"
+};
+
+export const FLAWS_KEY_MAPPING = {
+  "Ability Block": "ability-block",
+  "Afflicted Tongue": "afflicted-tongue",
+  "Baneful Circumstance": "baneful-circumstances",
+  "Cyclic Magic (Negative)": "cyclic-magic-negative",
+  Disfigured: "disfigured",
+  Dutybound: "dutybound",
+  Enemies: "enemies",
+  Fear: "fear",
+  "Greater Malediction ": "greater-malediction",
+  "Lesser Malediction ": "lesser-malediction",
+  "Necessary Condition": "necessary-condition",
+  "non-combattant": "noncombattant",
+  "Offensive to ": "offensive-to-being-general",
+  "Plagged by ": "plagued-by-supernatural-entity",
+  Restriction: "restriction",
+  "Social Handicap": "social-handicap",
+  "Sovereign Ward": "sovereign-ward",
+  "Vow ": "vow",
+  "Vulnerable Magic": "vulnerable-magic",
+  Visions: "visions",
+  Weakness: "weakness"
+};
 
 export const EQUIPEMENT = {
   "leather-scale-full": {
@@ -437,6 +532,16 @@ export const EQUIPEMENT = {
     ability: "brawl"
   },
   mace: {
+    key: "s-mace",
+    type: "weapon",
+    ability: "single-weapon"
+  },
+  dodging: {
+    key: "dodge",
+    type: "weapon",
+    ability: "brawl"
+  },
+  "hammer-as-mace": {
     key: "s-mace",
     type: "weapon",
     ability: "single-weapon"

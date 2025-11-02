@@ -1,5 +1,5 @@
 {
-  "name": "The Tough Guy",
+  "name": "Weapons Instructor",
   "type": "player",
   "system": {
     "version": "2.0.2",
@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 941
+        "value": 1190
       },
       "apprentice": {
         "value": "10"
@@ -55,15 +55,15 @@
     },
     "source": "ArM5Def",
     "page": 0,
-    "indexKey": "the-tough-guy",
-    "review_status": "reviewed",
+    "indexKey": "weapons-instructor",
+    "review_status": "toReview",
     "reviewer": "xzotl",
     "age": {
-      "value": 19
+      "value": 30
     },
     "apparent": {
       "dtype": "Number",
-      "value": 19
+      "value": 30
     },
     "con": {
       "label": "Confidence ",
@@ -97,10 +97,10 @@
       "creationMode": true,
       "confidencePrompt": false
     },
-    "biography": "<p>The Tough Guy works well as a defender for a magus, because he can take a lot of punishment before dropping and making the magus vulnerable. The Virtues depend on the concept, but the Flaws can be changed freely, and his combat Ability scores can be swapped freely between the combat Abilities he has.</p>",
+    "biography": "<p><strong>Equipment:</strong> long sword,if called to battle also a chain shirt and horse</p><p><strong>Customization Notes:</strong> Abilities can easily be swapped to make this character a master of some other Ability. He could narrow his focus to just one Martial Ability to become a real specialist. The Lame Flaw can be changed to Reckless or another Martial Flaw, removing the combat penalties while staying close to concept.</p><h2>To review</h2><ul><li>Natural Weapons: No matches for \"Combat scores include penalties for the Lame Flaw\"?</li></ul>",
     "characteristics": {
       "int": {
-        "value": -1,
+        "value": 0,
         "aging": 0
       },
       "per": {
@@ -108,27 +108,27 @@
         "aging": 0
       },
       "str": {
-        "value": 1,
+        "value": 2,
         "aging": 0
       },
       "sta": {
-        "value": 3,
-        "aging": 0
-      },
-      "pre": {
-        "value": 1,
-        "aging": 0
-      },
-      "com": {
-        "value": -1,
-        "aging": 0
-      },
-      "dex": {
         "value": 0,
         "aging": 0
       },
-      "qik": {
+      "pre": {
+        "value": 0,
+        "aging": 0
+      },
+      "com": {
+        "value": 2,
+        "aging": 0
+      },
+      "dex": {
         "value": 1,
+        "aging": 0
+      },
+      "qik": {
+        "value": 0,
         "aging": 0
       }
     },
@@ -148,10 +148,10 @@
         "value": 0
       },
       "soa": {
-        "value": 13
+        "value": 0
       },
       "enc": {
-        "value": 3
+        "value": 0
       }
     },
     "abilities": [],
@@ -166,7 +166,6 @@
     "decrepitude": {
       "points": 0,
       "effects": "Decrepitude effects",
-      "score": 0,
       "finalScore": 0
     },
     "warping": {
@@ -484,13 +483,6 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
-    "creationMode": true,
-    "pendingCrisis": false,
-    "bonuses": {
-      "traits": {
-        "aging": 0
-      }
-    },
     "personalities": {
       "0": {
         "name": "Brave",
@@ -498,70 +490,76 @@
       },
       "1": {
         "name": "Loyal",
-        "score": 2
+        "score": 3
       },
       "2": {
-        "name": "Overconfident",
-        "score": 3
+        "name": "Pious",
+        "score": 0
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
       }
     },
     "combat": {
       "overload": [
-        3,
-        3
+        0,
+        0
       ]
     },
     "pendingXps": 0
   },
   "items": [
     {
-      "name": "Area Lore",
+      "name": "Native Language",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "defaultChaAb": "int",
-        "speciality": "brewers",
-        "xp": 15,
-        "key": "areaLore",
-        "option": "area-lore",
+        "defaultChaAb": "com",
+        "speciality": "",
+        "xp": 75,
+        "key": "livingLanguage",
+        "option": "native-language",
         "realm": "magic",
-        "indexKey": "area-lore",
+        "indexKey": "language-generic",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": true,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "OmnDCSbTCPQoAwoe",
-      "sort": 3600000,
+      "_id": "ulgtHrgQJvoYoeQq",
+      "sort": 5400000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.OmnDCSbTCPQoAwoe"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.ulgtHrgQJvoYoeQq"
     },
     {
       "name": "Athletics",
@@ -582,7 +580,7 @@
         "page": 0,
         "defaultChaAb": "dex",
         "speciality": "running",
-        "xp": 5,
+        "xp": 15,
         "key": "athletics",
         "option": "",
         "realm": "magic",
@@ -590,76 +588,28 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "CsZuIW2yAQruglU1",
+      "_id": "Ufcsg1LC6Knm4Li5",
       "sort": 3700000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.CsZuIW2yAQruglU1"
-    },
-    {
-      "name": "Bows",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/bows.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_7d6ngxdzyst",
-          "path": "Abilities#/CF_SEP/Martial",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>Using bows and arrows.</p><p><strong>Specialties</strong>: any one weapon. (Martial)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "per",
-        "speciality": "shortbow",
-        "xp": 5,
-        "key": "bows",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "bows",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": false,
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "Uh7ZiHdsWW2PjSJl",
-      "_id": "tziyjRnVDjsvmira",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
-      },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.tziyjRnVDjsvmira"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.Ufcsg1LC6Knm4Li5"
     },
     {
       "name": "Awareness",
@@ -679,8 +629,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "per",
-        "speciality": "in combat",
-        "xp": 30,
+        "speciality": "alertness",
+        "xp": 15,
         "key": "awareness",
         "option": "",
         "realm": "magic",
@@ -688,27 +638,28 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "qmIx2tliQoNaZhCR",
+      "_id": "Nb8PGRTX0DPLApXN",
       "sort": 5000000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.qmIx2tliQoNaZhCR"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.Nb8PGRTX0DPLApXN"
     },
     {
       "name": "Brawl",
@@ -728,8 +679,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "grappling",
-        "xp": 30,
+        "speciality": "dagger",
+        "xp": 50,
         "key": "brawl",
         "option": "",
         "realm": "magic",
@@ -737,33 +688,84 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "CCd2ubNWS0xevrsK",
+      "_id": "u8Vz9st7FWbFtqsa",
       "sort": 3200000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.CCd2ubNWS0xevrsK"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.u8Vz9st7FWbFtqsa"
+    },
+    {
+      "name": "Bows",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/bows.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7d6ngxdzyst",
+          "path": "Abilities#/CF_SEP/Martial",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Using bows and arrows.</p><p><strong>Specialties</strong>: any one weapon. (Martial)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "long bow",
+        "xp": 30,
+        "key": "bows",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "bows",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "Uh7ZiHdsWW2PjSJl",
+      "_id": "00PcY4oeBY7mdNsl",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.00PcY4oeBY7mdNsl"
     },
     {
       "folder": "adQkl7QaQHRah9iT",
       "name": "Carouse",
       "type": "ability",
-      "_id": "itNgd47Z2yhmn8Hu",
+      "_id": "hV0WUL0QEfIsEw1p",
       "img": "systems/arm5e/assets/icons/abilities/carouse.svg",
       "system": {
         "description": "<p style=\"text-align: justify;\">The ability to enjoy oneself without suffering adverse effects. A person with this skill can, for example, consume prodigious amounts of alcohol without passing out. The skill also covers a familiarity with acceptable behavior, balancing enjoyment and moderation. With this Skill, a person is able to have fun and gain friends among the lower classes nearly anywhere, even among those of a different culture.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> power drinking, drinking songs, games of chance, staying sober. (General)</p>",
@@ -771,14 +773,15 @@
         "page": 0,
         "indexKey": "carouse",
         "defaultChaAb": "pre",
-        "speciality": "drinking",
-        "xp": 50,
+        "speciality": "power drinking",
+        "xp": 15,
         "key": "carouse",
         "option": "",
         "realm": "mundane",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "effects": [],
@@ -786,25 +789,25 @@
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.itNgd47Z2yhmn8Hu"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.hV0WUL0QEfIsEw1p"
     },
     {
-      "name": "Charm",
+      "name": "Covenant Lore",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "img": "systems/arm5e/assets/icons/abilities/organizationLore.svg",
       "effects": [],
       "flags": {
         "core": {},
@@ -815,40 +818,41 @@
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "description": "<p style=\"text-align: justify\">Knowledge of the legends, history, structure, operation, and goals of the specified organization. Organizations can be as large as the Church, or as small as a local craft guild. The smaller the organization, the more detailed your knowledge. Order of Hermes Lore is particularly important to most magi.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> personalities, history, politics. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "defaultChaAb": "pre",
-        "speciality": "when drunk",
-        "xp": 30,
-        "key": "charm",
-        "option": "",
+        "defaultChaAb": "int",
+        "speciality": "rules",
+        "xp": 15,
+        "key": "organizationLore",
+        "option": "covenant-lore",
         "realm": "magic",
-        "indexKey": "charm",
+        "indexKey": "lore-organisation",
         "reviewer": "xzotl",
         "review_status": "reviewed",
-        "optionLinked": false,
+        "optionLinked": true,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "bJmdrKqqYEc39YaP",
-      "sort": 1900000,
+      "_id": "CLl2gwsgSUNOBFaI",
+      "sort": 4300000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.bJmdrKqqYEc39YaP"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.CLl2gwsgSUNOBFaI"
     },
     {
       "name": "Folk Ken",
@@ -868,7 +872,7 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "com",
-        "speciality": "magi",
+        "speciality": "grogs",
         "xp": 5,
         "key": "folkKen",
         "option": "",
@@ -877,27 +881,28 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "uyR4VjiGtxG1Xzqa",
+      "_id": "dMrTpxEUmFccwwHx",
       "sort": 500000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.uyR4VjiGtxG1Xzqa"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.dMrTpxEUmFccwwHx"
     },
     {
       "name": "Great Weapon",
@@ -917,7 +922,7 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "pole axe",
+        "speciality": "great sword",
         "xp": 30,
         "key": "greatWeapon",
         "option": "",
@@ -926,32 +931,33 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "Uh7ZiHdsWW2PjSJl",
-      "_id": "xHZ7dLYTDeFlraAC",
+      "_id": "5rHtnspqNG3VCfoi",
       "sort": 0,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.xHZ7dLYTDeFlraAC"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.5rHtnspqNG3VCfoi"
     },
     {
-      "name": "Guile",
+      "name": "Hunt",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/guile.svg",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
       "effects": [],
       "flags": {
         "core": {},
@@ -962,94 +968,46 @@
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify;\">Telling convincing lies, as well as feigning emotion, belief, or frame of mind. If you understand the person you are attempting to deceive (roll 9+ on Perception + Folk Ken), you gain a bonus of +1 to your Guile roll. This Ability also covers disguising yourself, and pretending to be something you are not. It is often an opposed roll, against the victim's Perception + Folk Ken or, for disguise, Perception + Awareness.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> particular sorts of deception, lying to authority, fast talk, elaborate lies. (General)</p>",
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "defaultChaAb": "com",
-        "speciality": "lying to magi",
-        "xp": 5,
-        "key": "guile",
+        "defaultChaAb": "per",
+        "speciality": "on horse",
+        "xp": 2,
+        "key": "hunt",
         "option": "",
         "realm": "magic",
-        "indexKey": "guile",
+        "indexKey": "hunt",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "G6sQoQcXmzuJCv2Q",
-      "sort": 600000,
+      "_id": "HJi0H29h2GBbhMzv",
+      "sort": 4900000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.G6sQoQcXmzuJCv2Q"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.HJi0H29h2GBbhMzv"
     },
     {
-      "name": "Living Language",
+      "name": "Leadership",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_r64qqxkggi",
-          "path": "Abilities#/CF_SEP/General, Languages",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "com",
-        "speciality": "talking about fighting",
-        "xp": 75,
-        "key": "livingLanguage",
-        "option": "living-language",
-        "realm": "magic",
-        "indexKey": "language-generic",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": true,
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "TaLVHBwnAutwoaHH",
-      "sort": 5400000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
-      },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.TaLVHBwnAutwoaHH"
-    },
-    {
-      "name": "Music",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/music.svg",
+      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
       "effects": [],
       "flags": {
         "core": {},
@@ -1060,40 +1018,91 @@
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify;\">The ability to sing, play musical instruments, and compose new music.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> sing, compose, any one instrument. (General)</p>",
+        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "training",
+        "xp": 50,
+        "key": "leadership",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "leadership",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "yWebn4OOsBmRCFVa",
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.yWebn4OOsBmRCFVa"
+    },
+    {
+      "name": "Ride",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/ride.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Riding and controlling a horse, especially under stress.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> battle, speed, tricks. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "drinking songs",
-        "xp": 5,
-        "key": "music",
+        "speciality": "battle",
+        "xp": 30,
+        "key": "ride",
         "option": "",
         "realm": "magic",
-        "indexKey": "music",
+        "indexKey": "ride",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "UvVAVArnw4kO4uvD",
-      "sort": 3300000,
+      "_id": "XSRWY0xDy3HuYNFX",
+      "sort": 3100000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.UvVAVArnw4kO4uvD"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.XSRWY0xDy3HuYNFX"
     },
     {
       "name": "Single Weapon",
@@ -1113,8 +1122,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "heater shield",
-        "xp": 75,
+        "speciality": "long sword",
+        "xp": 140,
         "key": "singleWeapon",
         "option": "",
         "realm": "magic",
@@ -1122,27 +1131,78 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "Uh7ZiHdsWW2PjSJl",
-      "_id": "qu0KfPrelIO7ggXN",
+      "_id": "xLejwwBhhLHnar9Y",
       "sort": 0,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.qu0KfPrelIO7ggXN"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.xLejwwBhhLHnar9Y"
+    },
+    {
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/stealth.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Sneaking about without being seen or heard, also hiding in one place. This includes following people without their noticing, which is rolled against the other person's Perception.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> hide, sneak, shadowing, urban areas, natural areas. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "hide",
+        "xp": 15,
+        "key": "stealth",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "stealth",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "1cIwlnL59ZCN6uc4",
+      "sort": 5500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.1cIwlnL59ZCN6uc4"
     },
     {
       "name": "Survival",
@@ -1162,8 +1222,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "per",
-        "speciality": "on rivers",
-        "xp": 5,
+        "speciality": "woods",
+        "xp": 15,
         "key": "survival",
         "option": "",
         "realm": "magic",
@@ -1171,27 +1231,128 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "mcEqIEiixdpXm5YZ",
+      "_id": "5wWIS4zHV3WhCfcp",
       "sort": 200000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.mcEqIEiixdpXm5YZ"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.5wWIS4zHV3WhCfcp"
+    },
+    {
+      "name": "Swim",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/swim.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The ability to propel yourself through water quickly and efficiently.</p>\n<p><strong>Specialties:</strong> long distances, diving, underwater maneuvering. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "sta",
+        "speciality": "stay afloat",
+        "xp": 5,
+        "key": "swim",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "swim",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "ODdMxGG2OoeAMtqC",
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.ODdMxGG2OoeAMtqC"
+    },
+    {
+      "name": "Teaching",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/teaching.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The ability to teach an Ability to someone else.</p>\n<p><strong>Specialties:</strong> a particular Ability, particular kinds of student. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "soldiers",
+        "xp": 50,
+        "key": "teaching",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "teaching",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "spSV9v73YDBJCT0F",
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.spSV9v73YDBJCT0F"
     },
     {
       "name": "Thrown Weapon",
@@ -1211,8 +1372,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "axe",
-        "xp": 15,
+        "speciality": "knife",
+        "xp": 30,
         "key": "trownWeapon",
         "option": "",
         "realm": "magic",
@@ -1220,30 +1381,31 @@
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
+        "credits": "",
         "accelerated": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "Uh7ZiHdsWW2PjSJl",
-      "_id": "QABKfWNOfR761czO",
+      "_id": "vNwr1Dxu65fmX386",
       "sort": 0,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.QABKfWNOfR761czO"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.vNwr1Dxu65fmX386"
     },
     {
-      "name": "Covenfolk",
+      "name": "Custos",
       "type": "virtue",
       "img": "systems/arm5e/assets/icons/VF/social.svg",
       "effects": [],
@@ -1256,51 +1418,51 @@
         }
       },
       "system": {
-        "description": "<p>You are a member of the covenant </p><p>staff, and may have lived there all your life. You are supported by the covenant, and so your standard of living is determined by the covenant’s resources rather than your own. You may not take the Wealthy Major Virtue or the Poor Major Flaw.</p><p>&nbsp;</p>",
+        "description": "<p>You are an employee of a covenant, but you have high status within the walls. You may be a grog, or a specialist, or a manager. You may take one group of restricted Abilities during character generation, either Martial, Academic, or Arcane Abilities. If you choose Martial or Arcane Abilities, you may still learn to speak Latin, although you cannot read or write it. </p><p>As a covenant employee, your wealth is determined by the covenant’s prosperity, and you may not take the Wealthy Virtue or Poor Flaw. This Virtue is available to male and female characters.</p><p>&nbsp;</p><p>This Virtue may also apply to employees of other institutions, such as a noble household or a monastery.</p><p>&nbsp;</p>",
         "source": "ArM5Def",
         "page": 0,
         "type": "social",
         "impact": {
-          "value": "free"
+          "value": "minor"
         },
-        "indexKey": "covenfolk",
+        "indexKey": "custos",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
+        "credits": "",
         "tainted": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "CoxB6DSMq2bRMl47",
-      "_id": "JhJm9GtzckROsvkp",
-      "sort": 100000,
+      "folder": "Dlca5muDKIfBSi6F",
+      "_id": "NXmrU5OxgSo4rluA",
+      "sort": 4600000,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.JhJm9GtzckROsvkp"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.NXmrU5OxgSo4rluA"
     },
     {
-      "name": "Large",
+      "name": "Affinity (Single Weapon)",
       "type": "virtue",
       "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
       "effects": [
         {
-          "_id": "CULCFmHIjMOPXI26",
+          "_id": "OhGxjxuMflCr8VcU",
           "changes": [
             {
-              "key": "system.vitals.siz.value",
-              "value": "1",
-              "mode": 2,
+              "key": "system.bonuses.skills.singleWeapon.xpCoeff",
+              "mode": 1,
+              "value": "1.5",
               "priority": null
             }
           ],
@@ -1314,31 +1476,31 @@
             "startRound": null,
             "startTurn": null
           },
-          "origin": "Compendium.arm5e.virtues.GTnrsLNpdMjrMoIl",
+          "origin": "Compendium.arm5e.virtues.LJAAZ3p7XLkvN9GI",
           "tint": "#000000",
           "transfer": true,
           "flags": {
             "arm5e": {
               "type": [
-                "vitals"
+                "affinityMartialAbility"
               ],
               "subtype": [
-                "size"
+                "singleWeapon"
               ],
               "option": [
-                null
+                "single-weapon"
               ]
             }
           },
-          "name": "Size + 1",
+          "name": "Affinity (Single Weapon)",
           "description": "",
           "statuses": [],
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "12.343",
             "systemId": "arm5e",
-            "systemVersion": "2.3.2.11",
+            "systemVersion": "2.4.0.31",
             "createdTime": null,
             "modifiedTime": null,
             "lastModifiedBy": null
@@ -1347,7 +1509,7 @@
           "type": "base",
           "system": {},
           "sort": 0,
-          "_key": "!actors.items.effects!oPvl6BJEF2745HB7.0tLzrL9DrAxZkH6Y.CULCFmHIjMOPXI26"
+          "_key": "!actors.items.effects!x6NTw0OjWFPAUc0I.6cbwVImGfhgxV7FQ.OhGxjxuMflCr8VcU"
         }
       ],
       "flags": {
@@ -1359,141 +1521,38 @@
         }
       },
       "system": {
-        "description": "<p>Your Size is +1 instead of 0, so you are between six and seven feet tall. This means that the severity of wounds you take increases in six point intervals rather than five point intervals. (See page @@). You cannot take this Virtue and Giant Blood (page @@), Small Frame (page @@), or Dwarf (page @@).</p><p> </p>",
+        "description": "<p>All Advancement Totals for one Ability are increased by half, rounded up, as are any experience points you put in that Ability at character creation. You may only take this Virtue once for a given Ability, but may take it again for different Abilities. If you take this Virtue for an Ability, you may exceed the normal age-based cap during character generation (see page @@) by two points for that Ability.</p><p> </p>",
         "source": "ArM5Def",
-        "page": 44,
+        "page": 40,
         "type": "general",
         "impact": {
           "value": "minor"
         },
-        "indexKey": "large",
-        "review_status": "reviewed",
+        "indexKey": "affinity-with-ability",
+        "review_status": "definitiveReady",
         "reviewer": "xzotl",
         "hidden": false,
+        "credits": "",
         "tainted": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "jegZHVtv21smauPD",
-      "_id": "0tLzrL9DrAxZkH6Y",
+      "_id": "6cbwVImGfhgxV7FQ",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.0tLzrL9DrAxZkH6Y"
-    },
-    {
-      "name": "Tough",
-      "type": "virtue",
-      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-      "effects": [
-        {
-          "_id": "jBpkQbNivkfs0HwB",
-          "changes": [
-            {
-              "key": "system.bonuses.traits.soak",
-              "value": "3",
-              "mode": 2,
-              "priority": null
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "combat": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "origin": "Compendium.arm5e.virtues.btxtlpTLe24uYd1Z",
-          "tint": "#000000",
-          "transfer": true,
-          "flags": {
-            "arm5e": {
-              "type": [
-                "vitals"
-              ],
-              "subtype": [
-                "soak"
-              ],
-              "option": [
-                null
-              ]
-            }
-          },
-          "name": "Soak +3",
-          "description": "",
-          "statuses": [],
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "coreVersion": "12.331",
-            "systemId": "arm5e",
-            "systemVersion": "2.3.2.11",
-            "createdTime": null,
-            "modifiedTime": null,
-            "lastModifiedBy": null
-          },
-          "img": "icons/svg/aura.svg",
-          "type": "base",
-          "system": {},
-          "sort": 0,
-          "_key": "!actors.items.effects!oPvl6BJEF2745HB7.EWPeCer4nIuwSn1K.jBpkQbNivkfs0HwB"
-        }
-      ],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_qajjxhee95m",
-          "path": "Virtues#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You can take physical punishment better than most people. You get a +3 bonus on your Soak score.</p><p>&nbsp;</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "general",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "tough",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "jegZHVtv21smauPD",
-      "_id": "EWPeCer4nIuwSn1K",
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
-      },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.EWPeCer4nIuwSn1K"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.6cbwVImGfhgxV7FQ"
     },
     {
       "name": "Warrior",
@@ -1520,161 +1579,168 @@
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
+        "credits": "",
         "tainted": false
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "folder": "jegZHVtv21smauPD",
-      "_id": "fJew0A8fUljRsQ28",
+      "_id": "VLprtfIUNqMHkMwY",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.fJew0A8fUljRsQ28"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.VLprtfIUNqMHkMwY"
     },
     {
-      "name": "No Sense of Direction",
+      "name": "Covenant Upbringing",
       "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
       "system": {
-        "description": "<p>You are completely unable to follow directions. North, south, east, and west have no meaning to you, and you often confuse right and left. You frequently get lost while traveling unfamiliar paths by yourself, or with others following your lead, and often have to reason your way home or to your destination from first principles. This Flaw is incompatible with the Well-Traveled Virtue.</p>",
+        "description": "<p>You were raised in a large, old covenant that has little contact with the outside world. You might have very strange religious beliefs, and you certainly find medieval social and political structures very odd. You may take Latin at character creation, and are likely to have a score in Order of Hermes Lore. While Latin cannot be your native language, you may speak a language closely related to Latin that is spoken only at your home covenant.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "no-sense-of-direction",
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "covenant-upbringing",
         "review_status": "reviewed",
         "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "fYLx8QxOk31clCJC",
+      "sort": 5300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.fYLx8QxOk31clCJC"
+    },
+    {
+      "name": "Disfigured (scarred)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_g1gywhrffo",
+          "path": "Flaws#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>A visible disfigurement makes you ugly and easy to recognize. Presence rolls that involve good looks and gaining respect from most people are at –3. You probably have a cruel nickname that refers to your unfortunate appearance. You might have a large, visible burn scar, or an enlarged and deformed eye (an ‘evil eye’), or even be albino.</p>",
+        "source": "ArM5Def",
+        "page": 0,
         "type": "general",
         "impact": {
           "value": "minor"
         },
+        "indexKey": "disfigured",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
         "hidden": false,
-        "tainted": false
+        "tainted": false,
+        "credits": ""
       },
-      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
       "folder": "UfPp46NPMX0jIrJv",
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "j5Rqh2DBLmQaR5Sj",
-      "sort": 2100000,
+      "_id": "j0dwhz1UlmTJqaod",
+      "sort": 5100000,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.j5Rqh2DBLmQaR5Sj"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.j0dwhz1UlmTJqaod"
     },
     {
-      "name": "Overconfident (thinks he can't really be hurt)",
+      "name": "Lame",
       "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
       "effects": [],
       "flags": {
         "core": {},
         "cf": {
-          "id": "temp_18qw00m8tam",
-          "path": "Flaws#/CF_SEP/Personality",
+          "id": "temp_g1gywhrffo",
+          "path": "Flaws#/CF_SEP/General",
           "color": "#000000"
         }
       },
       "system": {
-        "description": "<p>You have a completely unshakable faith in your own abilities. You believe that you will always perform at, or slightly above, the peak of your abilities, and cannot imagine failure. If you actually botch, you come up with some rationalization as to what 'really' happened.</p>",
+        "description": "<p>One of your legs is weakened, whether since birth or through some accident. You move slowly and clumsily. Your base speed is a mere one mile per hour, and anyone can outrun you. You suffer a –6 penalty on rolls involving moving quickly or with agility, –3 on Dodge, and –1 on other combat scores.</p>",
         "source": "ArM5Def",
         "page": 0,
-        "type": "personality",
+        "type": "general",
         "impact": {
           "value": "minor"
         },
-        "indexKey": "overconfident-minor",
+        "indexKey": "lame",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "hidden": false,
-        "tainted": false
+        "tainted": false,
+        "credits": ""
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "folder": "hXfkbCsUoxlA0bSB",
-      "_id": "fP7VJlpE2yTmQk6u",
-      "sort": 1900000,
+      "folder": "UfPp46NPMX0jIrJv",
+      "_id": "qdIM2azsbXeAMBkz",
+      "sort": 5700000,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.fP7VJlpE2yTmQk6u"
-    },
-    {
-      "name": "Weakness (drinking)",
-      "type": "flaw",
-      "img": "systems/arm5e/assets/icons/VF/personality.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_18qw00m8tam",
-          "path": "Flaws#/CF_SEP/Personality",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p>You have a soft spot for some sort of object or person. In the face of this, all else is unimportant: promises are forgotten, duties neglected, and common sense cast to the winds. Examples include poets and storytellers, food, flattery, or a pretty face.</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "type": "personality",
-        "impact": {
-          "value": "minor"
-        },
-        "indexKey": "weakness",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "hidden": false,
-        "tainted": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "folder": "hXfkbCsUoxlA0bSB",
-      "_id": "g1cYWJVnoEe7gXsl",
-      "sort": 3100000,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
-      },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.g1cYWJVnoEe7gXsl"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.qdIM2azsbXeAMBkz"
     },
     {
       "name": "Brave",
@@ -1687,65 +1753,32 @@
         "page": 0,
         "indexKey": "",
         "review_status": "toReview",
-        "reviewer": ""
+        "reviewer": "",
+        "credits": ""
       },
-      "_id": "iJRx6XpZSPWCmSb9",
+      "_id": "Cb21CM8oC2o4m1jH",
       "effects": [],
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.iJRx6XpZSPWCmSb9"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.Cb21CM8oC2o4m1jH"
     },
     {
       "name": "Loyal",
-      "type": "personalityTrait",
-      "img": "icons/skills/social/intimidation-impressing.webp",
-      "system": {
-        "xp": 15,
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": ""
-      },
-      "_id": "XT0WgV1jTDGA5CGC",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "wUH1ww0o0zQEBtKr": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.XT0WgV1jTDGA5CGC"
-    },
-    {
-      "name": "Overconfident",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -1755,33 +1788,126 @@
         "page": 0,
         "indexKey": "",
         "review_status": "toReview",
-        "reviewer": ""
+        "reviewer": "",
+        "credits": ""
       },
-      "_id": "KJHd54LyKn1ULkn4",
+      "_id": "N7upTIDhuoTE5tGS",
       "effects": [],
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.KJHd54LyKn1ULkn4"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.N7upTIDhuoTE5tGS"
     },
     {
-      "name": "Heater Shield",
+      "name": "Pious",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 0,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "hKp39VjXMVB0i2Ic",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.hKp39VjXMVB0i2Ic"
+    },
+    {
+      "folder": "seNqaIxNCRH7Ny02",
+      "name": "Long sword & Heater",
       "type": "weapon",
-      "img": "icons/equipment/shield/heater-wooden-worn.webp",
+      "img": "icons/svg/combat.svg",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "long-sword-and-heater-shield",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 2,
+        "init": 2,
+        "atk": 4,
+        "dfn": 4,
+        "dam": 6,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": null,
+        "modifiedTime": 1762009917003,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "ovZrWPW30zFOTNzK",
+      "sort": 700000,
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.ovZrWPW30zFOTNzK"
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-straight-blue.webp",
       "effects": [],
       "folder": "seNqaIxNCRH7Ny02",
       "flags": {
@@ -1792,55 +1918,60 @@
         }
       },
       "system": {
-        "description": "<p>Often made of a combination of wood and metal, this shield tapers to a point at the bottom. The outer surface is not flat, but convex to better deflect blows.</p>",
+        "description": "<p>A dagger is any knife-like weapon of length between about 6 inches and 14 inches. Daggers are commonly carried as tools, as well as for self-defense.</p>",
         "source": "ArM5Def",
         "page": 0,
         "cost": {
-          "value": "std"
+          "value": "inexp",
+          "amount": 0
         },
         "quantity": 1,
-        "ability": "",
-        "weaponExpert": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "u8Vz9st7FWbFtqsa"
+        },
+        "weaponExpert": true,
         "horse": false,
         "init": 0,
-        "atk": 0,
-        "dfn": 3,
-        "dam": 0,
-        "str": 0,
+        "atk": 2,
+        "dfn": 0,
+        "dam": 3,
+        "str": -3,
         "range": 0,
-        "load": 2,
-        "equipped": true,
-        "indexKey": "s-shield-heater",
+        "load": 0,
+        "equipped": false,
+        "indexKey": "b-dagger",
         "state": "inert",
         "enchantments": null,
+        "review_status": "definitiveReady",
         "reviewer": "KILLTHESCRIBE",
-        "review_status": "definitiveReady"
+        "credits": ""
       },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
+        "systemVersion": "2.4.0.31",
         "createdTime": null,
-        "modifiedTime": 1732946688523,
-        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+        "modifiedTime": 1762010041696,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "pQR1v2fo924uqKfX",
-      "sort": 0,
+      "_id": "Lp4HgHXFw0fK35vV",
+      "sort": 400000,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.pQR1v2fo924uqKfX"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.Lp4HgHXFw0fK35vV"
     },
     {
-      "name": "Axe",
+      "name": "Long sword (mounted)",
       "type": "weapon",
-      "img": "icons/weapons/axes/axe-broad-black.webp",
+      "img": "icons/weapons/swords/sword-guard-worn-brown.webp",
       "effects": [],
-      "folder": "seNqaIxNCRH7Ny02",
+      "folder": "o685xKwWjHPMy4pe",
       "flags": {
         "core": {},
         "cf": {
@@ -1849,53 +1980,239 @@
         }
       },
       "system": {
-        "description": "<p>This could be a common woodcutter's axe or a heavier battle weapon. It is small enough to wield in one hand, albeit sometimes awkwardly.</p>",
+        "description": "<p>Any sword over 28 inches long. These swords are typically used by horsemen because they are long enough to reach opponents on foot. Long swords are typically straight, even in Arabia: the curved sword was introduced later than the 13th century.</p>",
         "source": "ArM5Def",
         "page": 0,
         "cost": {
-          "value": "std"
+          "value": "exp",
+          "amount": 0
         },
         "quantity": 1,
-        "ability": "qu0KfPrelIO7ggXN",
-        "weaponExpert": false,
-        "horse": false,
-        "init": 1,
+        "ability": {
+          "key": "singleWeapon",
+          "option": "",
+          "id": "uEBn9ZlETfxP7Qq5"
+        },
+        "weaponExpert": true,
+        "horse": true,
+        "init": 2,
         "atk": 4,
-        "dfn": 0,
+        "dfn": 1,
+        "dam": 6,
+        "str": 0,
+        "range": 0,
+        "load": 1,
+        "equipped": false,
+        "indexKey": "s-sword-long",
+        "state": "inert",
+        "enchantments": null,
+        "reviewer": "KILLTHESCRIBE",
+        "review_status": "definitiveReady",
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Actor.EHA8UnWLG3StMRD6.Item.5es5N01cubsSyBl9",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1762009935275,
+        "modifiedTime": 1762009935275,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "LJX6dMeL4S1WzLGs",
+      "sort": 925000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.LJX6dMeL4S1WzLGs"
+    },
+    {
+      "name": "Long sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-worn-brown.webp",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Any sword over 28 inches long. These swords are typically used by horsemen because they are long enough to reach opponents on foot. Long swords are typically straight, even in Arabia: the curved sword was introduced later than the 13th century.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "cost": {
+          "value": "exp",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "singleWeapon",
+          "option": "",
+          "id": "xLejwwBhhLHnar9Y"
+        },
+        "weaponExpert": true,
+        "horse": false,
+        "init": 2,
+        "atk": 4,
+        "dfn": 1,
         "dam": 6,
         "str": 0,
         "range": 0,
         "load": 1,
         "equipped": true,
-        "indexKey": "s-axe",
+        "indexKey": "s-sword-long",
         "state": "inert",
         "enchantments": null,
         "reviewer": "KILLTHESCRIBE",
-        "review_status": "definitiveReady"
+        "review_status": "definitiveReady",
+        "credits": ""
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Actor.EHA8UnWLG3StMRD6.Item.5es5N01cubsSyBl9",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": 1732947631101,
-        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1762009941907,
+        "modifiedTime": 1762010068183,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "4O54nhvXMuh809mQ",
+      "_id": "BnHW00dAf9FhKxFP",
+      "sort": 925000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.BnHW00dAf9FhKxFP"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Dodge",
+      "type": "weapon",
+      "_id": "bfgzw2fis5VvL8X9",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "dodge",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "equipped": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "u8Vz9st7FWbFtqsa"
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": ""
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.bdCmuAjLSzByaG9K",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1762009975769,
+        "modifiedTime": 1762009980278,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.bfgzw2fis5VvL8X9"
+    },
+    {
+      "name": "(T) Knife",
+      "type": "weapon",
+      "img": "icons/weapons/thrown/daggers-guard-gold.webp",
+      "effects": [],
+      "folder": "Z3dh8zqhoGTsQkJz",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Can be wielded in melee combat as standard. </p>",
+        "source": "LoM",
+        "page": 0,
+        "cost": {
+          "value": "inexp",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "trownWeapon",
+          "option": "",
+          "id": "vNwr1Dxu65fmX386"
+        },
+        "weaponExpert": true,
+        "horse": false,
+        "init": 0,
+        "atk": 1,
+        "dfn": 0,
+        "dam": 2,
+        "str": -2,
+        "range": 5,
+        "load": 0,
+        "equipped": false,
+        "indexKey": "t-knife",
+        "state": "inert",
+        "enchantments": null,
+        "reviewer": "KILLTHESCRIBE",
+        "review_status": "definitiveReady",
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.4TNgZ3lpzzJeXME2",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1762010021882,
+        "modifiedTime": 1762010027035,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_id": "jqQtMyymwWnDJhPy",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.4O54nhvXMuh809mQ"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.jqQtMyymwWnDJhPy"
     },
     {
-      "name": "Full metal scale armor",
+      "name": "Chain Mail - Partial",
       "type": "armor",
-      "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+      "img": "icons/commodities/metal/mail-chain-steel.webp",
       "effects": [],
       "folder": "qe6K6lOIy7t2w02l",
       "flags": {
@@ -1907,88 +2224,48 @@
         }
       },
       "system": {
-        "description": "<p> Replacing the leather scales with small overlapping metal plates again increases protection while retaining flexibility, although metal weighs slightly more.<span style=\"font-family: 'Weiss'\"> </span></p><p>Full armor adds gauntlets to protect the hands, vambraces for the forearms, chausses for the legs, a closed helm that protects the face, and perhaps additional pieces for the throat, elbows, and knees. Full armor also often includes a gambeson, a heavily padded surcoat worn over the armor. The small auxiliary pieces may be made of a different material than the main cuirass - for instance, a suit of full chain mail might have chain mail to protect the torso and leather scale on the arms and legs (or it might be entirely made of chain mail).</p>",
+        "description": "<p>At the top of 1220 technology lies chain mail, a suit of flexible metal made of links of chain.</p><div title=\"Page 176\"><div><div><div><p>Partial armor covers the vital areas only, and generally consists of a hauberk (a short- sleeved armored coat that extends down to the knee), perhaps a coif to protect the head and neck, and often an open-faced helmet.</p></div></div></div></div>",
         "source": "ArM5Def",
         "page": 0,
         "cost": {
-          "value": "std"
+          "value": "exp",
+          "amount": 0
         },
         "quantity": 1,
-        "prot": 7,
-        "full": true,
-        "load": 7,
+        "prot": 6,
+        "full": false,
+        "load": 4,
         "equipped": true,
-        "indexKey": "metal-scale-full",
+        "indexKey": "chain-mail-partial",
         "state": "inert",
         "enchantments": null,
         "review_status": "definitiveReady",
-        "reviewer": "KILLTHESCRIBE"
+        "reviewer": "KILLTHESCRIBE",
+        "credits": ""
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.sPIJjlQaH78L4YP6",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": 1732946683091,
-        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+        "systemVersion": "2.4.0.31",
+        "createdTime": 1762010089822,
+        "modifiedTime": 1762010094015,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
-      "_id": "f0U5yNmhc1K6cvZS",
+      "_id": "GBCBZEDJCaTBGw9v",
       "sort": 0,
       "ownership": {
         "default": 0,
-        "6SdI10VpXHcBvx2J": 3,
-        "wUH1ww0o0zQEBtKr": 3
+        "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.f0U5yNmhc1K6cvZS"
-    },
-    {
-      "name": "Pack containing gear to care for weapons and armor and establish camps when traveling.",
-      "type": "item",
-      "img": "icons/svg/item-bag.svg",
-      "system": {
-        "description": "",
-        "source": "custom",
-        "page": 0,
-        "indexKey": "",
-        "review_status": "toReview",
-        "reviewer": "",
-        "quantity": 1,
-        "weight": 0,
-        "cost": {
-          "value": "n-a",
-          "mythicPounds": 0
-        },
-        "carried": false,
-        "state": "inert",
-        "enchantments": null
-      },
-      "_id": "FDwULXDa7bSmansr",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "wUH1ww0o0zQEBtKr": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.11",
-        "createdTime": null,
-        "modifiedTime": 1732946695413,
-        "lastModifiedBy": "wUH1ww0o0zQEBtKr"
-      },
-      "_key": "!actors.items!oPvl6BJEF2745HB7.FDwULXDa7bSmansr"
+      "_key": "!actors.items!x6NTw0OjWFPAUc0I.GBCBZEDJCaTBGw9v"
     }
   ],
+  "folder": "haJnxDYdm2CI8lsP",
   "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
-    "name": "The Tough Guy",
+    "name": "Weapons Instructor",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -2076,10 +2353,9 @@
     "randomImg": false
   },
   "effects": [],
-  "folder": "haJnxDYdm2CI8lsP",
   "ownership": {
     "default": 0,
-    "wUH1ww0o0zQEBtKr": 3
+    "6SdI10VpXHcBvx2J": 3
   },
   "flags": {},
   "_stats": {
@@ -2087,12 +2363,12 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.3.2.11",
-    "createdTime": 1732898409572,
+    "systemVersion": "2.4.0.31",
+    "createdTime": 1762009850353,
     "modifiedTime": 1762029115655,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "oPvl6BJEF2745HB7",
-  "sort": 2200000,
-  "_key": "!actors!oPvl6BJEF2745HB7"
+  "_id": "x6NTw0OjWFPAUc0I",
+  "sort": 300000,
+  "_key": "!actors!x6NTw0OjWFPAUc0I"
 }

@@ -58,7 +58,6 @@
     "indexKey": "the-hunter",
     "review_status": "toReview",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 20
     },
@@ -77,19 +76,27 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
     "biography": "<p>The hunter is extremely useful in the wilderness, and can guide the party as well as take part in missile combat. He can also help to support the covenant by bringing in food. He doesn't work well in social situations, though. Note that the character's Bows score uses the bonus XP from Warrior, and thus cannot go below 4, but otherwise the values of his Abilities, apart from his Native Language, can be swapped freely.</p>",
     "characteristics": {
       "int": {
@@ -124,6 +131,17 @@
         "value": 2,
         "aging": 0
       }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
     },
     "vitals": {
       "siz": {
@@ -465,6 +483,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "bonuses": {
       "traits": {
         "aging": 0
@@ -1420,14 +1440,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
     "createdTime": 1732914316671,
-    "modifiedTime": 1732947678533,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "modifiedTime": 1762029115655,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "yPzEGwBIQXvb8Uno",
-  "sort": 0,
+  "sort": 1400000,
   "_key": "!actors!yPzEGwBIQXvb8Uno"
 }

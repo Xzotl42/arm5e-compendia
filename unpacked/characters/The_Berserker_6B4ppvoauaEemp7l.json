@@ -58,7 +58,6 @@
     "indexKey": "the-berzerker",
     "review_status": "reviewed",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 15
     },
@@ -77,19 +76,27 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
     "biography": "The Berserker's Large Virtue could be swapped out for an Affinity or Puissant Ability with Great Weapons. In addition he could have another Flaw, and take one of those Virtues to balance it. Other than that, he is young, so most of his Abilities are dictated by the concept. The Abilities at 1 or 2 can be swapped around, though.<h2>To review</h2><ul><li>Review Active effects of : \"Large\", they may have been applied twice</li><li>Equipment: No matches for \"pack containing gear to care for weapons and armor and establish camps when traveling.\", added as item</li></ul>",
     "characteristics": {
       "int": {
@@ -124,6 +131,17 @@
         "value": 1,
         "aging": 0
       }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
     },
     "vitals": {
       "siz": {
@@ -466,6 +484,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "bonuses": {
       "traits": {
         "aging": 0
@@ -1578,14 +1598,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
     "createdTime": 1732898389532,
-    "modifiedTime": 1732909151224,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "modifiedTime": 1762029115655,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "6B4ppvoauaEemp7l",
-  "sort": 300000,
+  "sort": 2100000,
   "_key": "!actors!6B4ppvoauaEemp7l"
 }

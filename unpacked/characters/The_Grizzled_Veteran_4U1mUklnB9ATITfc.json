@@ -58,7 +58,6 @@
     "indexKey": "the-grizzled-veteran",
     "review_status": "reviewed",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 45
     },
@@ -77,19 +76,27 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
     "biography": "<p>The Grizzled Veteran has been around the covenant for years, but has never reached a formal position of leadership, because he has a tendency to talk back to the magi. On the other hand, he makes a good informal leader of the grogs. Age hasn't really slowed him down yet, but it is about to, and the years have already reduced his Presence and Communication to -1 each. He could take another two Flaws and a corresponding number of Virtues if desired, and his Ability scores can be moved around. The high set should probably be kept in combat, but he could specialize in a different sort of combat (you would have to recalculate Combat Totals), and the secondary abilities can be moved around at will.</p>",
     "characteristics": {
       "int": {
@@ -124,6 +131,17 @@
         "value": 2,
         "aging": 2
       }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
     },
     "vitals": {
       "siz": {
@@ -465,6 +483,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "bonuses": {
       "traits": {
         "aging": 0
@@ -1820,14 +1840,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
     "createdTime": 1732909151122,
-    "modifiedTime": 1732909404324,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "modifiedTime": 1762029115655,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "4U1mUklnB9ATITfc",
-  "sort": 200000,
+  "sort": 2000000,
   "_key": "!actors!4U1mUklnB9ATITfc"
 }

@@ -2,63 +2,7 @@
   "name": "Obese",
   "type": "flaw",
   "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
-  "effects": [
-    {
-      "_id": "RV7UuhWSSU7fHDn1",
-      "changes": [
-        {
-          "key": "system.vitals.siz.value",
-          "value": "1",
-          "mode": 2,
-          "priority": null
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "origin": "Compendium.arm5e.flaws.simXyBekUThIdt2Q",
-      "tint": "#000000",
-      "transfer": true,
-      "flags": {
-        "arm5e": {
-          "type": [
-            "vitals"
-          ],
-          "subtype": [
-            "size"
-          ],
-          "option": [
-            null
-          ]
-        }
-      },
-      "name": "Size +1",
-      "description": "",
-      "statuses": [],
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "arm5e",
-        "systemVersion": "2.3.2.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "img": "icons/svg/aura.svg",
-      "type": "base",
-      "system": {},
-      "sort": 0,
-      "_key": "!items.effects!3NUTVZLNMeA4yZxY.RV7UuhWSSU7fHDn1"
-    }
-  ],
+  "effects": [],
   "flags": {
     "core": {},
     "cf": {

@@ -58,7 +58,6 @@
     "indexKey": "tytalus",
     "review_status": "reviewed",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 25
     },
@@ -77,19 +76,27 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
     "biography": "The Tytalus can take up to three more points of Flaws, and a similar number of Virtues.",
     "characteristics": {
       "int": {
@@ -124,6 +131,17 @@
         "value": 1,
         "aging": 0
       }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
     },
     "vitals": {
       "siz": {
@@ -480,6 +498,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "personalities": {
       "0": {
         "name": "Argumentative",

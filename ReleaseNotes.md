@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 1.1.0
+
+### Compendia updates
+
+- Characters: Added Grogs templates from Covenants
+- Flaws: Obese no longer impacts size
+
 ## Version 1.0.0
 
 ### Changes

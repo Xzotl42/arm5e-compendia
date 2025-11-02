@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 935
+        "value": 1195
       },
       "apprentice": {
         "value": "10"
@@ -58,7 +58,6 @@
     "indexKey": "bjornaer",
     "review_status": "reviewed",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 25
     },
@@ -77,19 +76,27 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
     "biography": "The Bjornaer is much more comfortable with animals than with people, and may think of him or herself as just as much animal as human. The combination of Blatant Gift and Inoffensive to Animals means that she gets along better with animals than with people. Ways of the Forest should be changed to a terrain appropriate to the actual heartbeast; a wolf is assumed for the example. Both Major Flaws can be changed freely, and while Deficient Form (Ignem) is very common in House Bjornaer, there is no particular reason for your character to have it. Note that Quiet and Subtle Magic allow the magus to cast in his heartbeast form without any penalty.",
     "characteristics": {
       "int": {
@@ -124,6 +131,17 @@
         "value": 1,
         "aging": 0
       }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
     },
     "vitals": {
       "siz": {
@@ -278,9 +296,9 @@
         "value": "an"
       },
       "cordFam": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0
+        "bronze": null,
+        "silver": null,
+        "gold": null
       },
       "characteristicsFam": {
         "int": {
@@ -480,6 +498,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "personalities": {
       "0": {
         "name": "Status-seeking",
@@ -3009,12 +3029,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.3.2.11",
+    "systemVersion": "2.4.0.31",
     "createdTime": 1732950707233,
-    "modifiedTime": 1732958482061,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "modifiedTime": 1762030198426,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "aYQrIGRFvDFpCiLO",
   "sort": 1000000,

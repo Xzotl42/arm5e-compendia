@@ -58,7 +58,6 @@
     "indexKey": "the-specialist",
     "review_status": "reviewed",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 19
     },
@@ -77,19 +76,27 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false
+    },
     "biography": "<p>The Specialist can easily focus on a different Ability, although you might want to swap the Characteristics around as well if he does, and probably change Warrior for one of the other experience-point-granting Virtues, such as Educated or Well-Traveled. You can change Personality Traits freely, and assign the Ability scores to other Abilities. Similarly, the Flaws can be changed without changing the central concept of the character.</p>",
     "characteristics": {
       "int": {
@@ -124,6 +131,17 @@
         "value": 2,
         "aging": 0
       }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
     },
     "vitals": {
       "siz": {
@@ -466,6 +484,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "bonuses": {
       "traits": {
         "aging": 0
@@ -1878,14 +1898,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
     "createdTime": 1732898403235,
-    "modifiedTime": 1732946433966,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "modifiedTime": 1762029115655,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "zThgljqXdMmsnUat",
-  "sort": 600000,
+  "sort": 2300000,
   "_key": "!actors!zThgljqXdMmsnUat"
 }
