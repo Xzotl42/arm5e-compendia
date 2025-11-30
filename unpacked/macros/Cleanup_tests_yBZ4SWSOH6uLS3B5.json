@@ -1,0 +1,31 @@
+{
+  "name": "Cleanup tests",
+  "type": "script",
+  "scope": "global",
+  "author": "ErQ613O32LNYb71L",
+  "img": "icons/tools/hand/broom-straw-brown.webp",
+  "command": "const actors = game.actors.filter(e=> {return e.name === \"Tiberius\" || e.name ===\"BobTheCompanion\"|| e.name ===\"The Lair of Tiberius\" || e.name ===\"The lair of Tiberius\";}).map( e => {return e.id})\n\nui.notifications.info(`${actors.length} documents selected`);\n\nawait Actor.deleteDocuments(actors )",
+  "folder": "qGZgdsZ3cZpILlVt",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "socketmacros": {
+      "isSocket": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.4",
+    "createdTime": 1764512326075,
+    "modifiedTime": 1764512326075,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "_id": "yBZ4SWSOH6uLS3B5",
+  "sort": 0,
+  "_key": "!macros!yBZ4SWSOH6uLS3B5"
+}

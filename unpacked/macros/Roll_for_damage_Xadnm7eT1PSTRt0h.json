@@ -1,0 +1,31 @@
+{
+  "name": "Roll for damage",
+  "type": "script",
+  "img": "icons/skills/wounds/injury-body-pain-gray.webp",
+  "command": "const tokens = canvas.tokens.controlled;\n\nif (tokens.length == 0 ){\n    ui.notifications.info(\"No Tokens are selected.\");\n} else {\n    await rollForDamage(tokens);\n  \n}\n\nasync function rollForDamage(tokens){\n  \n  await game.arm5e.ArsApps.rollForDamage(tokens)\n  \n  \n}\n\n\t\nfunction printMessage(message){\n  let chatData = {\n    user : game.user._id,\n    content : message,\n    blind: true,\n    whisper : game.users.filter(u => u.isGM).map(u => u.id)\n  };\n  ChatMessage.create(chatData,{});\t\n}",
+  "flags": {
+    "arm5e": {
+      "itemMacro": true
+    }
+  },
+  "author": "ErQ613O32LNYb71L",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.4",
+    "createdTime": 1764512154918,
+    "modifiedTime": 1764512154918,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "_id": "Xadnm7eT1PSTRt0h",
+  "sort": 0,
+  "_key": "!macros!Xadnm7eT1PSTRt0h"
+}

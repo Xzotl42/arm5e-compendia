@@ -1,0 +1,31 @@
+{
+  "name": "Where is the item",
+  "type": "script",
+  "scope": "global",
+  "author": "ErQ613O32LNYb71L",
+  "img": "icons/svg/eye.svg",
+  "command": "// Put the item ID you are looking for here\nconst itemId = \"<ITEM_ID>\";\n\n// look in the world items\n\n\nlet item = game.items.get(itemId);\nif (item) {\n    console.log(\"Item found in the world: \" + item.name);\n    return;\n}\n\n// look into each actor\n\nfor (const a of game.actors)\n{\n    \n    item = a.items.get(itemId);\n    if (item) {\n        console.log(\"Item with id \" + itemId + \" is named \\\"\" + item.name + \"\\\" of type \\\"\" +item.type + \"\\\" is found in actor \\\"\" +a.name +\"\\\".\");\n        return;        \n    }\n}\n\nconsole.log(\"Item with id \\\"\" +itemId+ \"\\\" not found.\");",
+  "folder": "qGZgdsZ3cZpILlVt",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "socketmacros": {
+      "isSocket": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.4",
+    "createdTime": 1764512212406,
+    "modifiedTime": 1764512212406,
+    "lastModifiedBy": "ErQ613O32LNYb71L"
+  },
+  "_id": "qX13DrwNnK7wDLM4",
+  "sort": 0,
+  "_key": "!macros!qX13DrwNnK7wDLM4"
+}
