@@ -2,7 +2,64 @@
   "name": "Long-winded",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.pnliPApYYrGiQ6mo",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.rolls.fatigue",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "fatigue"
+          ],
+          "subtype": [
+            "fatigueRolls"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Fatigue roll modifier",
+      "img": "icons/svg/aura.svg",
+      "_id": "NuGPmkWdtBmbFpir",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.4",
+        "createdTime": 1764495896258,
+        "modifiedTime": 1764495917970,
+        "lastModifiedBy": "ErQ613O32LNYb71L"
+      },
+      "_key": "!items.effects!pnliPApYYrGiQ6mo.NuGPmkWdtBmbFpir"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {
