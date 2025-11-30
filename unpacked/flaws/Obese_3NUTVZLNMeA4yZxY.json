@@ -2,7 +2,64 @@
   "name": "Obese",
   "type": "flaw",
   "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.flaws.Item.3NUTVZLNMeA4yZxY",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.rolls.fatigue",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "fatigue"
+          ],
+          "subtype": [
+            "fatigueRolls"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Fatigue rolls modifier",
+      "img": "icons/svg/aura.svg",
+      "_id": "CuyrypXStGNejZIO",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.4",
+        "createdTime": 1764495459636,
+        "modifiedTime": 1764495518075,
+        "lastModifiedBy": "ErQ613O32LNYb71L"
+      },
+      "_key": "!items.effects!3NUTVZLNMeA4yZxY.CuyrypXStGNejZIO"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {

@@ -1,5 +1,16 @@
 # Release notes
 
+## Version 1.1.1
+
+### Bug fixes
+
+- Moved the retrieval of shapes and materials translation to the "i18nInit" hook instead of "init" one, fixin a problem where the configured language was not yet set properly
+
+### Compendia updates
+
+- Virtues: Long-winded gets a +3 to fatigue rolls.
+- Flaws: Obese get a -3 to fatigue rolls.
+
 ## Version 1.1.0
 
 ### Compendia updates
