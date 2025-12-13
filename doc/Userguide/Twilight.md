@@ -1,0 +1,1 @@
+Clicking a second time, after the roll opens another popup to embrace Twilight or avoid it. A third time opens the roll for Twilight strength. A fourth opens the popup to detail the Twilight episode and roll to try and understand it. A description will then be added to the character's Diary.

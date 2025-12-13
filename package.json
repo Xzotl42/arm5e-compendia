@@ -10,7 +10,11 @@
   },
   "scripts": {
     "pack": "node scripts/pack.js",
-    "unpack": "node scripts/unpack.js"
+    "unpack": "node scripts/unpack.js",
+    "prepare:import:dry": "node ./scripts/userguide-cli.js import --dry",
+    "prepare:import": "node ./scripts/userguide-cli.js import",
+    "prepare:commit:dry": "node ./scripts/userguide-cli.js commit --dry",
+    "prepare:commit": "node ./scripts/userguide-cli.js commit"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,14 @@
 # Release notes
 
+## Version 1.1.3
+
+### Compendia updates
+
+### Changes
+
+- Moved offline userguide from system package (Obsidian folder)
+- Added scripts to update all images links to absolute path for Journal import
+
 ## Version 1.1.2
 
 ### Compendia updates
