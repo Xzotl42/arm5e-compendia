@@ -4,6 +4,12 @@
 
 ### Compendia updates
 
+- Creatures
+  - WIP spliting description and SG notes between biography and secret fields
+  - WIP flagging natural weapons as such.
+- Journals
+  - New userguide without broken image links
+
 ### Changes
 
 - Moved offline userguide from system package (Obsidian folder)

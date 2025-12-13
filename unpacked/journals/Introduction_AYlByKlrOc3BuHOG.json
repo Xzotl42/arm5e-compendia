@@ -1,0 +1,70 @@
+{
+  "name": "Introduction",
+  "folder": "fvhddaQ8XyRwnldJ",
+  "ownership": {
+    "default": 2,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "AYlByKlrOc3BuHOG",
+  "pages": [
+    {
+      "name": "Introduction",
+      "text": {
+        "markdown": "Salve, sodalis!\n\nWelcome to the user guide for the Ars Magica system in Foundry VTT.\n\nPlease note this document is in no way intended as a substitute for the core rules book or any of the supplements published by Atlas Games, and no rules of the system will be explained here - it will focus on how to navigate and use this specific system to help manage your game sessions.\n\nThis system makes use of the new Open License Atlas Games has adopted, and so official content can also be found here.\n\nThis document is always being updated as the system is developed, so be sure to check back often. New additions or changes will be marked under the session @UUID[JournalEntry.mmZyFupNfBjAF8bP.JournalEntryPage.dUtEwmw1HRiEpmEy]{News and Modifications}.\n\nThis document assumes that:\n\n-   You have some basic knowledge of the Ars Magica 5th edition RPG;\n    \n-   You have some basic understanding of Foundry VTT concepts, such as Actors, Items, Scenes, and Compendium;\n    \n-   You are able to navigate the Foundry VTT GUI.\n    \n\n### Conventions\n\n- **Actor** (capital A) = Foundry VTT concept;\n- **character** = any player character or NPC Actor;\n- **core** = the Foundry VTT API and engine;\n- **GM** = used instead of Storyguide since that is what Foundry calls it;\n- **Item** (capital I) = Foundry VTT concept;\n- **system** = the Foundry VTT system for Ars Magica 5th edition.\n\nMost Actor and Item sheets have tabs and subtabs to help keep information on the sheets organized. The following convention is used to specify where a subtab is:\n**<p style=\"text-align:center;\">\nActorName.TabName.SubtabName</p>\n\nFor example: **Character.Abilities.Virtues&Flaws** indicates the subtab *Virtues&Flaws* in the tab *Abilities* of the *Character sheet* (in this case, Magnus's). Please look at the image below, where we navigated to that subtab:\n\n![](modules/arm5e-compendia/doc/images/CharacterSheet01.webp)\n*Abilities.Virtues&Flaws*\n\nThe way the **system** organizes information, much like a character sheet on paper, is through lists. If you take a quick look at the above image, you will see some of Magnus's Virtues and Flaws listed and a few extra icons to help us manage that. Those icons are common throughout the **system** and are explained below:\n\n![ListIcons 1.webp]()\n\n- You can use the little plus sign to add something new that will be exclusive to this sheet. It will follow the type of whatever part of the sheet you're adding it to (so, clicking on it here will add a new Virtue). In general, it's much better to add something from a compendium or item list than through this. See also @UUID[JournalEntry.rD9Rr6vgJObawhIN.JournalEntryPage.jM2sv0MvGsXN9zlw]{Creating a character} and @UUID[JournalEntry.AYlByKlrOc3BuHOG.JournalEntryPage.WwcmJz7FCM5GKVJq]{Introduction};\n- The parchment and quill icon will open a new window to edit the item;\n- The black hand (the Perdo sign) will delete this item. A pop up will confirm the deletion. Please be aware there's no going back if you confirm the deletion.\n\n### *Everything* is drag and drop\n\nThe **system** was designed in such a way that almost everything can be dragged from somewhere onto somewhere else, saving a lot of typing. It may not do anything, but please try it all - you can't break anything this way.\n\nHere are a few examples of what can be done:\n\n#### Drag and drop Items (such as Virtues, Flaws, Abilities, Spells and Equipment)\n\n- From a compendium to a character sheet;\n\n- From a character sheet to another;\n\n- From the Codex to a character sheet and vice versa;\n\n- A spell from a character sheet to a Covenant will create a lab text for it;\n\n- You can also drag and drop a folder full of items!\n\n#### Drag and drop Actors on other Actors\n\n- A character on a covenant will assign that character as an inhabitant of that covenant;\n\n- A covenant on an Actor will do the same as above;\n\n- A laboratory on a character will do the same as above.\n\n    \n![](modules/arm5e-compendia/doc/images/ChainLink.webp)\n\nA chain link symbol near a field often indicates it is possible to link the appropriate document by dropping it on the sheet. Clicking on the chain will generally open the linked document sheet.\n\n\nIf you're done reading all this, we recommend you check out the @UUID[JournalEntry.HZV1J7fg8SPBkubm.JournalEntryPage.xG16QexpHHgMfurT]{Settings} next.",
+        "format": 2,
+        "content": "<p>Salve, sodalis!</p>\n<p>Welcome to the user guide for the Ars Magica system in Foundry VTT.</p>\n<p>Please note this document is in no way intended as a substitute for the core rules book or any of the supplements published by Atlas Games, and no rules of the system will be explained here - it will focus on how to navigate and use this specific system to help manage your game sessions.</p>\n<p>This system makes use of the new Open License Atlas Games has adopted, and so official content can also be found here.</p>\n<p>This document is always being updated as the system is developed, so be sure to check back often. New additions or changes will be marked under the session @UUID[JournalEntry.mmZyFupNfBjAF8bP.JournalEntryPage.dUtEwmw1HRiEpmEy]{News and Modifications}.</p>\n<p>This document assumes that:</p>\n<ul>\n<li><p>You have some basic knowledge of the Ars Magica 5th edition RPG;</p></li>\n<li><p>You have some basic understanding of Foundry VTT concepts, such as Actors, Items, Scenes, and Compendium;</p></li>\n<li><p>You are able to navigate the Foundry VTT GUI.</p></li>\n</ul>\n<h3>Conventions</h3>\n<ul>\n<li><strong>Actor</strong> (capital A) = Foundry VTT concept;</li>\n<li><strong>character</strong> = any player character or NPC Actor;</li>\n<li><strong>core</strong> = the Foundry VTT API and engine;</li>\n<li><strong>GM</strong> = used instead of Storyguide since that is what Foundry calls it;</li>\n<li><strong>Item</strong> (capital I) = Foundry VTT concept;</li>\n<li><strong>system</strong> = the Foundry VTT system for Ars Magica 5th edition.</li>\n</ul>\n<p>Most Actor and Item sheets have tabs and subtabs to help keep information on the sheets organized. The following convention is used to specify where a subtab is:\n**</p><p style=\"text-align:center\">\nActorName.TabName.SubtabName</p><p></p>\n<p>For example: <strong>Character.Abilities.Virtues&amp;Flaws</strong> indicates the subtab <em>Virtues&amp;Flaws</em> in the tab <em>Abilities</em> of the <em>Character sheet</em> (in this case, Magnus's). Please look at the image below, where we navigated to that subtab:</p>\n<p><img src=\"modules/arm5e-compendia/doc/images/CharacterSheet01.webp\" alt=\"\" />\n<em>Abilities.Virtues&amp;Flaws</em></p>\n<p>The way the <strong>system</strong> organizes information, much like a character sheet on paper, is through lists. If you take a quick look at the above image, you will see some of Magnus's Virtues and Flaws listed and a few extra icons to help us manage that. Those icons are common throughout the <strong>system</strong> and are explained below:</p>\n<p>![ListIcons 1.webp]()</p>\n<ul>\n<li>You can use the little plus sign to add something new that will be exclusive to this sheet. It will follow the type of whatever part of the sheet you're adding it to (so, clicking on it here will add a new Virtue). In general, it's much better to add something from a compendium or item list than through this. See also @UUID[JournalEntry.rD9Rr6vgJObawhIN.JournalEntryPage.jM2sv0MvGsXN9zlw]{Creating a character} and @UUID[JournalEntry.AYlByKlrOc3BuHOG.JournalEntryPage.WwcmJz7FCM5GKVJq]{Introduction};</li>\n<li>The parchment and quill icon will open a new window to edit the item;</li>\n<li>The black hand (the Perdo sign) will delete this item. A pop up will confirm the deletion. Please be aware there's no going back if you confirm the deletion.</li>\n</ul>\n<h3><em>Everything</em> is drag and drop</h3>\n<p>The <strong>system</strong> was designed in such a way that almost everything can be dragged from somewhere onto somewhere else, saving a lot of typing. It may not do anything, but please try it all - you can't break anything this way.</p>\n<p>Here are a few examples of what can be done:</p>\n<h4>Drag and drop Items (such as Virtues, Flaws, Abilities, Spells and Equipment)</h4>\n<ul>\n<li><p>From a compendium to a character sheet;</p></li>\n<li><p>From a character sheet to another;</p></li>\n<li><p>From the Codex to a character sheet and vice versa;</p></li>\n<li><p>A spell from a character sheet to a Covenant will create a lab text for it;</p></li>\n<li><p>You can also drag and drop a folder full of items!</p></li>\n</ul>\n<h4>Drag and drop Actors on other Actors</h4>\n<ul>\n<li><p>A character on a covenant will assign that character as an inhabitant of that covenant;</p></li>\n<li><p>A covenant on an Actor will do the same as above;</p></li>\n<li><p>A laboratory on a character will do the same as above.</p></li>\n</ul>\n<p><img src=\"modules/arm5e-compendia/doc/images/ChainLink.webp\" alt=\"\" /></p>\n<p>A chain link symbol near a field often indicates it is possible to link the appropriate document by dropping it on the sheet. Clicking on the chain will generally open the linked document sheet.</p>\n<p>If you're done reading all this, we recommend you check out the @UUID[JournalEntry.HZV1J7fg8SPBkubm.JournalEntryPage.xG16QexpHHgMfurT]{Settings} next.</p>"
+      },
+      "_id": "WwcmJz7FCM5GKVJq",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!AYlByKlrOc3BuHOG.WwcmJz7FCM5GKVJq"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "world": {
+      "lavaFlowJournalEntry": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1765608525994,
+    "modifiedTime": 1765608525994,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!journal!AYlByKlrOc3BuHOG"
+}

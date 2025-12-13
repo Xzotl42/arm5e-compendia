@@ -15,7 +15,7 @@ The **Details** tab is only used for display in the Actor's or Item's Effects ta
 
 The **Effects tab** as its name implies is where active effects are configured
 
-![](modules/arm5e-compendia/doc/images/ActiveEffectConfig.webp)
+![](images/ActiveEffectConfig.webp)
 
 -   Click the plus sign to add an effect to the list
     

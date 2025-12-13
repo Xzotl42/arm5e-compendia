@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1221
+        "value": 1230
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "<p dir=\"auto\"><strong>Vis:</strong> 4 pawns of Terram in feet.</p><p dir=\"auto\">Nasir is a minor angel charged with the safety of pious travellers. He spends most of his time helping those in need, seeming to appear by mundane means from just out of sight, providing what aid he can, and then leaving again before he can be questioned too closely about his origins.</p>",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "nasir-the-helper",
@@ -95,9 +96,18 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
-    "biography": "<p><em>As I was unable to walk, I climbed the mountain on horseback, while its slopes were all covered with pieces of stone and pebbles which slipped backwards under the feet of the horse every time its hoofs struck them [...] It slipped backward, with the pebbles and chips of stone sliding under it, and fell. So I dismounted, assisted the horse to its feet and stopped, unable to move. At that moment a man came down to me from the mountain and held me by the hand, my other hand holding the pack horse, until he got me to the summit. No, by Allah, I did not know who the man was and never saw him again. [...] He was none other than an angel whom Allah, moved by compassion toward me, sent to my aid.</em><br>Usama ibn Munqidh (d. 1188), <em>The Book of Learning by Example</em></p><div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Travelling clothes<br><strong>Encumbrance:</strong> 0 (0)<br><strong>Vis:</strong> 4 pawns of Terram in feet.<br><strong>Appearance:</strong> An unassuming man dressed in well-worn travelling clothes.</p></div><div class=\"el-p\"><p dir=\"auto\">Nasir is a minor angel charged with the safety of pious travellers. He spends most of his time helping those in need, seeming to appear by mundane means from just out of sight, providing what aid he can, and then leaving again before he can be questioned too closely about his origins.</p></div>",
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
+    },
+    "biography": "<p><em>As I was unable to walk, I climbed the mountain on horseback, while its slopes were all covered with pieces of stone and pebbles which slipped backwards under the feet of the horse every time its hoofs struck them [...] It slipped backward, with the pebbles and chips of stone sliding under it, and fell. So I dismounted, assisted the horse to its feet and stopped, unable to move. At that moment a man came down to me from the mountain and held me by the hand, my other hand holding the pack horse, until he got me to the summit. No, by Allah, I did not know who the man was and never saw him again. [...] He was none other than an angel whom Allah, moved by compassion toward me, sent to my aid.</em><br>Usama ibn Munqidh (d. 1188), <em>The Book of Learning by Example</em></p><div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Travelling clothes<br><strong>Encumbrance:</strong> 0 (0)<br><strong>Appearance:</strong> An unassuming man dressed in well-worn travelling clothes.</p></div>",
     "characteristics": {
       "int": {
         "value": 2,
@@ -336,6 +346,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1866,9 +1877,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.31",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761476784950,
-    "modifiedTime": 1761476851667,
+    "modifiedTime": 1765108229518,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "UWPKBI9xTBfQ2adJ",

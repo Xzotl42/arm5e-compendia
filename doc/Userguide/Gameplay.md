@@ -22,7 +22,7 @@ You can trigger a roll by clicking on the relevant item you want to roll or, occ
 
 **Please be aware all the rolls will be affected by the Default Roll Mode!**
 
-![](modules/arm5e-compendia/doc/images/ChatRollMode.png)
+![](images/ChatRollMode.png)
 *Chat Roll Mode, found at the bottom right of the Foundry screen*
 
 **Dev note:** There is not yet a way to just roll a stress die using the character sheet, that is, not involving any characteristic, ability etc. Some people are rolling a dummy personality trait for that. A macro has been provided to do it, and it is available in the system compendia.
@@ -32,7 +32,7 @@ You can trigger a roll by clicking on the relevant item you want to roll or, occ
 
 ### Characteristic and ability rolls
 
-![](modules/arm5e-compendia/doc/images/RollAbility.webp)
+![](images/RollAbility.webp)
 
 - This dialog is the exact same for both characteristics and abilities. All the fields are filled from the character sheet;
 
@@ -50,7 +50,7 @@ You can trigger a roll by clicking on the relevant item you want to roll or, occ
 
 - For generic spontaneous magic, click on the Art label. It is possible to set a target level in order to compute penetration - leaving it at zero disables this calculation.
 
-![](modules/arm5e-compendia/doc/images/SpellRoll.webp)
+![](images/SpellRoll.webp)
 
 - Here you can change Voice and Gestures from the default set in the sheet;
 
@@ -72,7 +72,7 @@ Magic rolls have one additional section for Penetration, which can be expanded o
 
 You can roll everything in Description.Vitals&Combat:
 
-![](modules/arm5e-compendia/doc/images/CombatStats.webp)
+![](images/CombatStats.webp)
 
 See [[#Combat|Combat]] below for more details.  
 It is also possible to roll for attack by dropping a weapon in the hotbar.
@@ -89,7 +89,7 @@ Most rolls are triggered by clicking on the appropriate label.
 
 Once you cast a spell, do spontaneous magic or use a power, the result of the roll will appear in chat:
 
-![](modules/arm5e-compendia/doc/images/SpellChatResult.webp)
+![](images/SpellChatResult.webp)
 
 - Icon of the token. Clicking on it will open its sheet.
 
@@ -109,7 +109,7 @@ Once you cast a spell, do spontaneous magic or use a power, the result of the ro
 
 If the spell is cast while one or more tokens are selected, additional message per target will appear in the chat indicating whether the spell successfully overcame magic resistance:
 
-![](modules/arm5e-compendia/doc/images/MagicContest.webp)
+![](images/MagicContest.webp)
 
 Note that with the right [[Introduction#Settings|Settings]], a player will only see whether if the spell was a success or not, the details are reserved for the GM.
 

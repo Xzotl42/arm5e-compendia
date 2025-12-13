@@ -1,0 +1,70 @@
+{
+  "name": "Laboratories",
+  "folder": "fvhddaQ8XyRwnldJ",
+  "ownership": {
+    "default": 2,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "kJQ6CXIYUqn7kloW",
+  "pages": [
+    {
+      "name": "Laboratories",
+      "text": {
+        "markdown": "### Interface\n\n![Lab-planning-spell.webp]()\n\n-   At the top left is the current magus using it, just as a reminder and to avoid mistakes. It is also a quick access to the magus sheet if you click on it.\n    \n-   The left column lists all modifiers related to the lab's owner. The last one (\"Other\") is for rules and special cases not (yet) covered by the system.\n    \n-   The right column lists external parameters\n    \n-   In the middle:\n    \n    -   Activity selection\n        \n    -   Selected activity information (see below)\n        \n    -   Options that may modify the lab total (eg: does the magic theory specialty apply?)\n        \n-   A the bottom are possible actions:\n    \n    -   **Schedule**: trigger the creation of a diary entry a the date entered\n        \n    -   **Refresh**: When changing the covenant or the owner stats, the lab sheet is not automatically updated unless you click that button.\n        \n    -   **Reset**: clear out the central area for something else\n        \n\n### Invent a spell\n\nEvery field can be edited as you would for designing a spell, but it is recommended to do the design in the Codex or the sidebar, that way you won't lose you work if the magus is not yet powerful enough to invent it.\n\nInstead it is recommended to drag and drop spells, magic effects or lab text on the central area to fill all the blanks and maybe do some finetuning.\n\n### Learn spell from lab text\n\n-   This is the activity displayed when you attempt to read from a book or lab text (See @UUID[JournalEntry.KKFKdcwXkQJchvjw.JournalEntryPage.EKW28yHd4a54NLnp]{Books})\n    \n-   All the fields are read-only as per the rules, but you can still switch to \"Invent spell\" activity for a few minutes without losing the content to edit some fields if needed.\n\n\n### Vis extraction\n\nThis activity will create an amount of Vim vis based on the aura and the magus CrVi lab total\n\n### Lesser enchantment",
+        "format": 2,
+        "content": "<h3>Interface</h3>\n<p>![Lab-planning-spell.webp]()</p>\n<ul>\n<li><p>At the top left is the current magus using it, just as a reminder and to avoid mistakes. It is also a quick access to the magus sheet if you click on it.</p></li>\n<li><p>The left column lists all modifiers related to the lab's owner. The last one (\"Other\") is for rules and special cases not (yet) covered by the system.</p></li>\n<li><p>The right column lists external parameters</p></li>\n<li><p>In the middle:</p>\n<ul>\n<li><p>Activity selection</p></li>\n<li><p>Selected activity information (see below)</p></li>\n<li><p>Options that may modify the lab total (eg: does the magic theory specialty apply?)</p></li></ul></li>\n<li><p>A the bottom are possible actions:</p>\n<ul>\n<li><p><strong>Schedule</strong>: trigger the creation of a diary entry a the date entered</p></li>\n<li><p><strong>Refresh</strong>: When changing the covenant or the owner stats, the lab sheet is not automatically updated unless you click that button.</p></li>\n<li><p><strong>Reset</strong>: clear out the central area for something else</p></li></ul></li>\n</ul>\n<h3>Invent a spell</h3>\n<p>Every field can be edited as you would for designing a spell, but it is recommended to do the design in the Codex or the sidebar, that way you won't lose you work if the magus is not yet powerful enough to invent it.</p>\n<p>Instead it is recommended to drag and drop spells, magic effects or lab text on the central area to fill all the blanks and maybe do some finetuning.</p>\n<h3>Learn spell from lab text</h3>\n<ul>\n<li><p>This is the activity displayed when you attempt to read from a book or lab text (See @UUID[JournalEntry.KKFKdcwXkQJchvjw.JournalEntryPage.EKW28yHd4a54NLnp]{Books})</p></li>\n<li><p>All the fields are read-only as per the rules, but you can still switch to \"Invent spell\" activity for a few minutes without losing the content to edit some fields if needed.</p></li>\n</ul>\n<h3>Vis extraction</h3>\n<p>This activity will create an amount of Vim vis based on the aura and the magus CrVi lab total</p>\n<h3>Lesser enchantment</h3>"
+      },
+      "_id": "jQsIRlxTgvVUgYij",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!kJQ6CXIYUqn7kloW.jQsIRlxTgvVUgYij"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "world": {
+      "lavaFlowJournalEntry": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1765608525994,
+    "modifiedTime": 1765608525994,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!journal!kJQ6CXIYUqn7kloW"
+}

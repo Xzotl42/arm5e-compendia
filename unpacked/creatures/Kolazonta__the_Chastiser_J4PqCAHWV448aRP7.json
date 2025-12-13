@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1196
+        "value": 1205
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "<p dir=\"auto\"><strong>Vis:</strong> 4 pawns Corpus throughout body, 2 pawns Ignem in veins.<br></p><div class=\"el-p\"><p dir=\"auto\">Kolazonta is one of the angels tasked by the lord to chastise His faithful for their failings, and as such he is a servant of Uriel, the Angel of Punishment. Kolazonta was the angel who brought the plague upon the Israelites (in Numbers 16:46–50) for rebelling against Moses. Aaron defeated Kolazonta after Moses told him the punishment was lifted. Kolazonta is a grim angel who executes the chastisement of the Lord without fear or favor. He is often present amidst armies or cities under siege, waiting for the Lord’s command to inflict a plague upon the sinful.</p></div>",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "kolazonta-the-chastiser",
@@ -95,9 +96,18 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
-    "biography": "<p>…our father Aaron, armed with the censer, ran through the multitude of the people and conquered the fiery angel…<br><em>4 Maccabees 7:11</em></p><div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 4 pawns Corpus throughout body, 2 pawns Ignem in veins.<br><strong>Appearance:</strong> Kolazonta most often appears as a dark, ominous cloud, but may rarely manifest as a man made of white fire, with veins of flame and eyes of lightning.</p></div><div class=\"el-p\"><p dir=\"auto\">Kolazonta is one of the angels tasked by the lord to chastise His faithful for their failings, and as such he is a servant of Uriel, the Angel of Punishment. Kolazonta was the angel who brought the plague upon the Israelites (in Numbers 16:46–50) for rebelling against Moses. Aaron defeated Kolazonta after Moses told him the punishment was lifted. Kolazonta is a grim angel who executes the chastisement of the Lord without fear or favor. He is often present amidst armies or cities under siege, waiting for the Lord’s command to inflict a plague upon the sinful.</p></div>",
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
+    },
+    "biography": "<p>…our father Aaron, armed with the censer, ran through the multitude of the people and conquered the fiery angel…<br><em>4 Maccabees 7:11</em><br><strong>Appearance:</strong> Kolazonta most often appears as a dark, ominous cloud, but may rarely manifest as a man made of white fire, with veins of flame and eyes of lightning.</p>",
     "characteristics": {
       "int": {
         "value": 3,
@@ -340,6 +350,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1315,9 +1326,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.30",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761369599459,
-    "modifiedTime": 1761468507867,
+    "modifiedTime": 1765108100492,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "J4PqCAHWV448aRP7",

@@ -14,9 +14,10 @@
     },
     "description": {
       "born": {
-        "value": 1201
+        "value": 1210
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "wolf-lupus-pack-leader",
@@ -24,6 +25,7 @@
     "reviewer": "xzotl",
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -56,7 +58,8 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
     "characteristics": {
       "int": {
@@ -127,6 +130,14 @@
       "label": "Confidence ",
       "score": 0,
       "points": 0
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "abilities": [],
     "weapons": [],
@@ -1657,16 +1668,17 @@
         "dam": 1,
         "str": 0,
         "range": 0,
-        "weaponExpert": false,
+        "weaponExpert": true,
         "equipped": true,
         "horse": false,
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": null
+          "id": "s6v6DHalOkghBAXA"
         },
         "state": "inert",
-        "enchantments": null
+        "enchantments": null,
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -1679,10 +1691,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1765108757612,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "DOq8hAEHCJlFeMS5",
       "sort": 1100000,
@@ -1943,9 +1955,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.28",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1748671593021,
-    "modifiedTime": 1760777056681,
+    "modifiedTime": 1765108784766,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "BnMlX6rVWOm0kFfZ",

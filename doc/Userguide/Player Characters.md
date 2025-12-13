@@ -14,7 +14,7 @@ For brevity, we will limit ourselves to describing only items that need some sor
 
 ## Header
 
-![](modules/arm5e-compendia/doc/images/CreationModeIcon.webp)
+![](images/CreationModeIcon.webp)
 **Creation mode icon:** Indicates this **Actor** is in creation mode. Right now, it has only the following effects (with more to come):
 	- Normal mode: You can change the **Year born** field and have the system set the **Actor's** age;
 	- Creation mode: You set the age of the **Actor** and the system sets the birth year based on the current time
@@ -48,12 +48,12 @@ It is also possible to increase or decrease your fatigue levels and the associat
 
 **Wounds:** You can manually add wounds to a character here. Each wound is individually represented by an icon and fresh wounds have a red aura around them.
 
-![](modules/arm5e-compendia/doc/images/Wounds.webp)
+![](images/Wounds.webp)
 *Wounds*
 
 Clicking the wound icon opens a pop up where you can add more information about the wound, such as location, for instance. It will also allow you to delete the wound. Deleting the wound is *not* the same as recovering from it and will just remove it altogether!
 
-![](modules/arm5e-compendia/doc/images/WoundWindow.webp)
+![](images/WoundWindow.webp)
 *Wound window*
 
 Clicking the bandaged hand opens the [[Sanatorium]] window. In this window not only can you roll for recovery, it will also keep a record of the rolls and effects. Please see the corresponding page for more details on how it works.
@@ -68,13 +68,13 @@ The penalties for wounds and fatigue are automatically taken into account for ro
 
 This section lists all the abilities possessed by the character. As mentioned in the Introduction, you can add preconfigured abilities by dragging and dropping from the sidebar, from a Compendium or even from another character sheet.
 
-![](modules/arm5e-compendia/doc/images/AbilitiesActor.webp)
+![](images/AbilitiesActor.webp)
 
 You can also click the little + icon to add an ability that will be specific to this character only. Creating it here and then dragging and dropping it back into the Items tab will add that new ability to the Items available.
 
 Simply click on the Ability label to roll for it. A pop up window will ask for the specific conditions to the roll (like Characteristic to be used, simple/stress die etc).
 
-![](modules/arm5e-compendia/doc/images/AbilityRoll.webp)
+![](images/AbilityRoll.webp)
 *Ability roll window*
 
 The abilities are arranged alphabetically in different sections corresponding to their category in the Core book (General, Academic etc).
@@ -91,7 +91,7 @@ Active effects are represented by colors:
 
 * Dark grey blue: Deficiency
 
-![](modules/arm5e-compendia/doc/images/AbilitiesActorEffects.webp)
+![](images/AbilitiesActorEffects.webp)
 *Active effects*
 
 ### Virtues and Flaws
@@ -102,7 +102,7 @@ As with abilities, you can drag and drop Virtues and Flaws, as well as create ne
 
 This tab is only available to magic users.
 
-![](modules/arm5e-compendia/doc/images/HermeticArts.webp)
+![](images/HermeticArts.webp)
 
 Each of the Arts is represented in this section:
 
@@ -126,18 +126,18 @@ Each of the Arts is represented in this section:
    
    -   Dark grey blue: Deficiency
 
-![](modules/arm5e-compendia/doc/images/SpontaneousCasting.webp)
+![](images/SpontaneousCasting.webp)
   *Spontaneous casting window*
 
 #### Voice and gestures
 
-![](modules/arm5e-compendia/doc/images/VoiceGestures.webp)
+![](images/VoiceGestures.webp)
 
 You can configure the default casting modifiers here. Whenever you cast a spell, whether formulaic or through a spontaneous casting effect, these settings will affect that roll.
 
 #### Magic totals
 
-![](modules/arm5e-compendia/doc/images/MagicTotals.webp)
+![](images/MagicTotals.webp)
 
 A list of totals used for magic computed with characteristics and abilities. None of these are directly editable, being derived numbers.
 
@@ -145,7 +145,7 @@ You can, however, directly roll fast-casting and targeting by clicking on the co
 
 #### Spells
 
-![](modules/arm5e-compendia/doc/images/SpellList.webp)
+![](images/SpellList.webp)
 
 As it is for abilities, a list of the spells known by the magus. And just as with abilities, these can be created here, added through drag and drop from the Items tab, or created here and then dragged back to the Item tab, adding them to the general item list.
 
@@ -157,7 +157,7 @@ Click on a spell to roll for casting. That will open a pop up window asking for 
 
 Clicking on the up-down arrow icon will display a special filter area:
 
-![](modules/arm5e-compendia/doc/images/SpellFilter.webp)
+![](images/SpellFilter.webp)
 *Spell filter*
 
 You can filter by technique, form and level and then close it. A red aura around the word "Filter" will indicate the list is filtered.
@@ -223,7 +223,7 @@ Depending on the activity, XP must be applied. If that is the case, but the acti
 
 - The Astrolabe icon opens up the calendar with the seasons and the years showing a complete list of past diary entries. Clicking on an activity will open its full entry. New activities can also be added through here, by clicking on the appropriate square for the season and year. Please see [[Long term activities]].
 
-![](modules/arm5e-compendia/doc/images/Diary.webp)
+![](images/Diary.webp)
 *Diary tab*
 
 ### Effects
@@ -245,7 +245,7 @@ This tab lists all the effects currently affecting this **Actor** (including cov
 
 - **Dev note:** In Foundry core, the name for this feature is Active effects but they can be Active, Passive or Inactive which can make things confusing.
 
-![](modules/arm5e-compendia/doc/images/ActorEffects.webp)
+![](images/ActorEffects.webp)
 *Actor effects tab*
 
 ### Actor settings, or the gear icon

@@ -1,0 +1,70 @@
+{
+  "name": "Settings",
+  "folder": "fvhddaQ8XyRwnldJ",
+  "ownership": {
+    "default": 2,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "HZV1J7fg8SPBkubm",
+  "pages": [
+    {
+      "name": "Settings",
+      "text": {
+        "markdown": "Please be aware this page will not discuss all of Foundry VTT's settings, only the ones pertinent to the Ars Magica **system**.\n\n**Sourcebooks filter:** This setting allows you to choose what sourcebooks to include in you current world. That way you or a new user won't get overwhelmed with choices and you get to customize what is or not allowed in your game *(At the moment, it only filters spell attributes - the full functionality is being worked on)*;\n\n**Compendia reference:** Allows you to select which module will be the reference to this specific world's compendia. Let's say you are playing in two different Tribunals and have different modules for them, with different information, which you don't want to mix - this is where you set that;\n\n**System Migration Version**: Allows you to reset the version of the system to an older version in order to trigger a migration from that version. Useful to quickly migrate documents freshly imported from an old compendium;\n\n**Default icon style:** Whether black & white or color version of default icons are used at creation of documents. It only applies to brand new documents; existing documents will keep the original icons. This is purely a cosmetic preference and won't affect anything else in the **system**;\n\n**Icon style for Arts:** Choose between the Hermetic Arts symbols or Hand gestures to represent Arts. This is purely a cosmetic preference and won't affect anything else in the **system**;\n\n**Show metagame information:** Whether to show the sourcebook and page where an Item is coming from;\n\n**Show rolls**: Who can see whose rolls. Good for keeping the mystery up;\n\n**Show rolls formula**: Who can see whose formula rolls;\n\n**Show NPC magic details:** During magic contests against an NPC, choose between:\n\n-   Tell me only if it is a success or failure;\n    \n-   Tell me exactly by how much a success or failure happened.\n    \n\n**Fun stress die:** Shows a dialog when rolling a 1 on a stress dice (for Everyone, Nobody or Only players). If left at Only players, GM's rolls that explode are rolled automatically;\n\n**Dramatic pause when rolling a one:** [Dice so Nice integration] If you have the Dice so Nice module enabled and the \"Fun stress die\" setting disabled, it will add a dramatic pause (in milliseconds) after rolling a one;\n\n**Quick delete:** Whether to ask for confirmation before deleting an owned Item or not;\n\n**Track resources:** Creates a diary entry whenever resources are added or removed from an Actor sheet (to disable during character creation). This setting is also available in the Astrolabium;\n\n**Enforce schedule constraints**: Whether to prevent users from scheduling or applying seasonal activities due to constraints put in the system. (For example: reading a book twice the same season);\n\n**Winter first** : Whether the first season of the year is winter or spring. (recommendation: do not change it in the middle of a Saga);\n\n**Clear user cache:** reset the browser session data on next refresh. Currently the user cache contains all filters criteria for all actors as well as the folding state of all foldable sections. With time, it can grow bigger than necessary as every sheet opened will store its data in it;\n\n**Use an alternate stress die:** Instead of exploding on 1 and checking for botch on (1)0, the opposite happens. When exploding, it adds +10 to the roll instead of doubling.\n\n\nIf you're following our recommended reading order, please move on to @UUID[JournalEntry.NGnaPcEcFR8xvhpR.JournalEntryPage.MOBLXlevcrM8tGiY]{Actors}",
+        "format": 2,
+        "content": "<p>Please be aware this page will not discuss all of Foundry VTT's settings, only the ones pertinent to the Ars Magica <strong>system</strong>.</p>\n<p><strong>Sourcebooks filter:</strong> This setting allows you to choose what sourcebooks to include in you current world. That way you or a new user won't get overwhelmed with choices and you get to customize what is or not allowed in your game <em>(At the moment, it only filters spell attributes - the full functionality is being worked on)</em>;</p>\n<p><strong>Compendia reference:</strong> Allows you to select which module will be the reference to this specific world's compendia. Let's say you are playing in two different Tribunals and have different modules for them, with different information, which you don't want to mix - this is where you set that;</p>\n<p><strong>System Migration Version</strong>: Allows you to reset the version of the system to an older version in order to trigger a migration from that version. Useful to quickly migrate documents freshly imported from an old compendium;</p>\n<p><strong>Default icon style:</strong> Whether black &amp; white or color version of default icons are used at creation of documents. It only applies to brand new documents; existing documents will keep the original icons. This is purely a cosmetic preference and won't affect anything else in the <strong>system</strong>;</p>\n<p><strong>Icon style for Arts:</strong> Choose between the Hermetic Arts symbols or Hand gestures to represent Arts. This is purely a cosmetic preference and won't affect anything else in the <strong>system</strong>;</p>\n<p><strong>Show metagame information:</strong> Whether to show the sourcebook and page where an Item is coming from;</p>\n<p><strong>Show rolls</strong>: Who can see whose rolls. Good for keeping the mystery up;</p>\n<p><strong>Show rolls formula</strong>: Who can see whose formula rolls;</p>\n<p><strong>Show NPC magic details:</strong> During magic contests against an NPC, choose between:</p>\n<ul>\n<li><p>Tell me only if it is a success or failure;</p></li>\n<li><p>Tell me exactly by how much a success or failure happened.</p></li>\n</ul>\n<p><strong>Fun stress die:</strong> Shows a dialog when rolling a 1 on a stress dice (for Everyone, Nobody or Only players). If left at Only players, GM's rolls that explode are rolled automatically;</p>\n<p><strong>Dramatic pause when rolling a one:</strong> [Dice so Nice integration] If you have the Dice so Nice module enabled and the \"Fun stress die\" setting disabled, it will add a dramatic pause (in milliseconds) after rolling a one;</p>\n<p><strong>Quick delete:</strong> Whether to ask for confirmation before deleting an owned Item or not;</p>\n<p><strong>Track resources:</strong> Creates a diary entry whenever resources are added or removed from an Actor sheet (to disable during character creation). This setting is also available in the Astrolabium;</p>\n<p><strong>Enforce schedule constraints</strong>: Whether to prevent users from scheduling or applying seasonal activities due to constraints put in the system. (For example: reading a book twice the same season);</p>\n<p><strong>Winter first</strong> : Whether the first season of the year is winter or spring. (recommendation: do not change it in the middle of a Saga);</p>\n<p><strong>Clear user cache:</strong> reset the browser session data on next refresh. Currently the user cache contains all filters criteria for all actors as well as the folding state of all foldable sections. With time, it can grow bigger than necessary as every sheet opened will store its data in it;</p>\n<p><strong>Use an alternate stress die:</strong> Instead of exploding on 1 and checking for botch on (1)0, the opposite happens. When exploding, it adds +10 to the roll instead of doubling.</p>\n<p>If you're following our recommended reading order, please move on to @UUID[JournalEntry.NGnaPcEcFR8xvhpR.JournalEntryPage.MOBLXlevcrM8tGiY]{Actors}</p>"
+      },
+      "_id": "xG16QexpHHgMfurT",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!HZV1J7fg8SPBkubm.xG16QexpHHgMfurT"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "world": {
+      "lavaFlowJournalEntry": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1765608525994,
+    "modifiedTime": 1765608525994,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!journal!HZV1J7fg8SPBkubm"
+}

@@ -2,7 +2,7 @@ Long term activities are created through diary entries (Character-> Diary tab)
 
 Create a new diary entry and select the activity type:
 
-![](modules/arm5e-compendia/doc/images/ActivitiesList.webp)
+![](images/ActivitiesList.webp)
 
 -   A diary is, as its name implies, a classical text describing events from the character perspective.
     
@@ -13,7 +13,7 @@ Create a new diary entry and select the activity type:
 
 The advanced tab will look something like this:
 
-![](modules/arm5e-compendia/doc/images/Adventuring.webp)
+![](images/Adventuring.webp)
 
 -   A source quality that may be editable or not depending on the type of activity
     

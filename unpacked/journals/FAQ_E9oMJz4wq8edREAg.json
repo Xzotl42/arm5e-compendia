@@ -1,0 +1,70 @@
+{
+  "name": "FAQ",
+  "folder": "fvhddaQ8XyRwnldJ",
+  "ownership": {
+    "default": 2,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "E9oMJz4wq8edREAg",
+  "pages": [
+    {
+      "name": "FAQ",
+      "text": {
+        "markdown": "# General\n\n#### I cannot edit a character's Characteristic.\n\nYou probably have an active effect giving a modifier to this Characteristic. Here's a workaround: in the \"Effects\" tab, suspend the effect in question for the time being in order to edit the Characteristic.\n\n# Abilities\n\n#### What are the fields \"Ability key\" and \"Option\" for?\n\nThe Ability Key field is used by the system to know which Ability it is. That way you can name it as you wish and in the language you prefer (the **system** doesn't care about what you name it, as long as the Ability Key is kept). The option field is read-only most of the time, but it is used for generic abilities (eg: Area Lore, Crafting , Languages,... ) to distinguish between them. For example, a character may know leatherwork and forging, both crafting abilities: the option field will allow differentiating between the two.\n\nThis is useful when you need to tell the system which ability you are talking about, such as the Affinity or Puissant Ability virtues for example.\n\n  \n# Diary\n\n#### I cannot select the Ability I want to progress into.\n\nA character must possess an Ability in order to progress in it. Add the Ability from a compendium with a score of 0 or drag and drop it on the diary sheet's Abilities tab (the latter doesn't work with training and teaching). Update: this limitation was removed in Ophelio version (2.2.3).\n\n# Rolls\n\n#### How do I know where the roll total comes from?\n\nThere is an un-foldable section if you click \"details\" in the chat message you get in the message window.\n\n#### How do I use confidence points?\n\nThere is a little button in the chat message which will allow that if the character has enough confidence points left.\n\n# Combat\n\n#### How do I apply damage to a character?\n\nClick on the \"Soak\" link in the Combat tab and set a value. If a combat is ongoing, it will automatically compute the correct amount to Soak. The Actor size is taken into account for the calculation.",
+        "format": 2,
+        "content": "<h1>General</h1>\n<h4>I cannot edit a character's Characteristic.</h4>\n<p>You probably have an active effect giving a modifier to this Characteristic. Here's a workaround: in the \"Effects\" tab, suspend the effect in question for the time being in order to edit the Characteristic.</p>\n<h1>Abilities</h1>\n<h4>What are the fields \"Ability key\" and \"Option\" for?</h4>\n<p>The Ability Key field is used by the system to know which Ability it is. That way you can name it as you wish and in the language you prefer (the <strong>system</strong> doesn't care about what you name it, as long as the Ability Key is kept). The option field is read-only most of the time, but it is used for generic abilities (eg: Area Lore, Crafting , Languages,… ) to distinguish between them. For example, a character may know leatherwork and forging, both crafting abilities: the option field will allow differentiating between the two.</p>\n<p>This is useful when you need to tell the system which ability you are talking about, such as the Affinity or Puissant Ability virtues for example.</p>\n<h1>Diary</h1>\n<h4>I cannot select the Ability I want to progress into.</h4>\n<p>A character must possess an Ability in order to progress in it. Add the Ability from a compendium with a score of 0 or drag and drop it on the diary sheet's Abilities tab (the latter doesn't work with training and teaching). Update: this limitation was removed in Ophelio version (2.2.3).</p>\n<h1>Rolls</h1>\n<h4>How do I know where the roll total comes from?</h4>\n<p>There is an un-foldable section if you click \"details\" in the chat message you get in the message window.</p>\n<h4>How do I use confidence points?</h4>\n<p>There is a little button in the chat message which will allow that if the character has enough confidence points left.</p>\n<h1>Combat</h1>\n<h4>How do I apply damage to a character?</h4>\n<p>Click on the \"Soak\" link in the Combat tab and set a value. If a combat is ongoing, it will automatically compute the correct amount to Soak. The Actor size is taken into account for the calculation.</p>"
+      },
+      "_id": "o8mUeTT1VLZantNz",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!E9oMJz4wq8edREAg.o8mUeTT1VLZantNz"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "world": {
+      "lavaFlowJournalEntry": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1765608525994,
+    "modifiedTime": 1765608525994,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!journal!E9oMJz4wq8edREAg"
+}

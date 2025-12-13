@@ -1,7 +1,7 @@
 There are different types of **Actors** that can be created:
 
 
-![](modules/arm5e-compendia/doc/images/NewActor.webp)
+![](images/NewActor.webp)
 
 Their sheets have been color coded for convenience, as well, so you can tell at a glance what they are.
 

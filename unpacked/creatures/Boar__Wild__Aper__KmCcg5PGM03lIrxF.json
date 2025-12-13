@@ -14,9 +14,10 @@
     },
     "description": {
       "born": {
-        "value": 940
+        "value": 1210
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "boar-wild-aper",
@@ -24,6 +25,7 @@
     "reviewer": "xzotl",
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -56,7 +58,8 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
     "characteristics": {
       "int": {
@@ -94,6 +97,24 @@
         "aging": 0
       }
     },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
     "vitals": {
       "siz": {
         "value": 0
@@ -109,6 +130,14 @@
       "label": "Confidence ",
       "score": 0,
       "points": 0
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "abilities": [],
     "weapons": [],
@@ -1432,10 +1461,11 @@
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": null
+          "id": "JEdDfwtWiUBPuew7"
         },
         "state": "inert",
-        "enchantments": null
+        "enchantments": null,
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -1448,10 +1478,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1765108438962,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "ixInxrh1he447Tbz",
       "sort": 200000,
@@ -1490,7 +1520,8 @@
           "id": "JEdDfwtWiUBPuew7"
         },
         "state": "inert",
-        "enchantments": null
+        "enchantments": null,
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -1503,10 +1534,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1765108451013,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "ZM2XlMDDlR041WDk",
       "sort": 200000,
@@ -1615,10 +1646,10 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.4",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1748671593021,
-    "modifiedTime": 1748671593021,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "modifiedTime": 1765108481665,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "KmCcg5PGM03lIrxF",
   "sort": 1100000,

@@ -33,7 +33,7 @@ ActorName.TabName.SubtabName</p>
 
 For example: **Character.Abilities.Virtues&Flaws** indicates the subtab *Virtues&Flaws* in the tab *Abilities* of the *Character sheet* (in this case, Magnus's). Please look at the image below, where we navigated to that subtab:
 
-![](modules/arm5e-compendia/doc/images/CharacterSheet01.webp)
+![](images/CharacterSheet01.webp)
 *Abilities.Virtues&Flaws*
 
 The way the **system** organizes information, much like a character sheet on paper, is through lists. If you take a quick look at the above image, you will see some of Magnus's Virtues and Flaws listed and a few extra icons to help us manage that. Those icons are common throughout the **system** and are explained below:
@@ -71,7 +71,7 @@ Here are a few examples of what can be done:
 - A laboratory on a character will do the same as above.
 
     
-![](modules/arm5e-compendia/doc/images/ChainLink.webp)
+![](images/ChainLink.webp)
 
 A chain link symbol near a field often indicates it is possible to link the appropriate document by dropping it on the sheet. Clicking on the chain will generally open the linked document sheet.
 

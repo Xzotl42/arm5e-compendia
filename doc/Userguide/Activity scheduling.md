@@ -2,7 +2,7 @@ This section explains how to manage the seasonal activities of the troupe throug
 
 **Important note**: All the constraints described below can be temporary or permanently ignored by disabling the new setting: *Enforce schedule constraints*
 
-The scheduling of activities can be managed from 3 similar dialogs with different goals, there are all accessible through the astrolab icon: ![](modules/arm5e-compendia/doc/images/astrolab.webp)
+The scheduling of activities can be managed from 3 similar dialogs with different goals, there are all accessible through the astrolab icon: ![](images/astrolab.webp)
 ## Workflow
 
 The workflow is supposed to go like this:
@@ -20,7 +20,7 @@ The workflow is supposed to go like this:
 
 This dialog is accessible from the Actor.Diary tab, it lists all the planned activities for this actor.
 
-![](modules/arm5e-compendia/doc/images/characterCalendar.webp)
+![](images/characterCalendar.webp)
 
 - Each rectangle of the table represent a season, a dotted line indicates it is in the future
 - The blue color indicates that some activity is planned for the season
@@ -32,7 +32,7 @@ This dialog is accessible from the Actor.Diary tab, it lists all the planned act
 
 This dialog is accessed from the diary entry sheet
 
-![](modules/arm5e-compendia/doc/images/activitySchedule.webp)
+![](images/activitySchedule.webp)
 
 All of the above applies but additionally it allows to move the activity to another season (or seasons).
 - To be able to schedule the activity:
@@ -43,4 +43,4 @@ All of the above applies but additionally it allows to move the activity to anot
 
 Accessed through the Astrolabium, this dialog allows the GM to have a general view year by year of the activities of each character. It is possible to filter the type of actor displayed
 
-![](modules/arm5e-compendia/doc/images/troupeSchedule.webp)
+![](images/troupeSchedule.webp)

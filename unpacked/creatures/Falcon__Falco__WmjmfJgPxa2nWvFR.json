@@ -14,9 +14,10 @@
     },
     "description": {
       "born": {
-        "value": 940
+        "value": 1210
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "falcon-falco",
@@ -24,6 +25,7 @@
     "reviewer": "xzotl",
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -56,7 +58,8 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
     "characteristics": {
       "int": {
@@ -94,6 +97,24 @@
         "aging": 0
       }
     },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
     "vitals": {
       "siz": {
         "value": -3
@@ -109,6 +130,14 @@
       "label": "Confidence ",
       "score": 0,
       "points": 0
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "abilities": [],
     "weapons": [],
@@ -790,10 +819,11 @@
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": null
+          "id": "BppPKHruM3mMQD1a"
         },
         "state": "inert",
-        "enchantments": null
+        "enchantments": null,
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -806,10 +836,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1765108555606,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "X9Qd6BdId748ZrHX",
       "sort": 0,
@@ -1254,10 +1284,11 @@
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": null
+          "id": "BppPKHruM3mMQD1a"
         },
         "state": "inert",
-        "enchantments": null
+        "enchantments": null,
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -1270,10 +1301,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1765108564446,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "wGtcKyR72QwTL4Ta",
       "sort": 0,
@@ -1382,10 +1413,10 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.4",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1748671593021,
-    "modifiedTime": 1748671593021,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "modifiedTime": 1765108784717,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "WmjmfJgPxa2nWvFR",
   "sort": 800000,

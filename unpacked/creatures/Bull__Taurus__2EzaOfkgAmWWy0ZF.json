@@ -14,9 +14,10 @@
     },
     "description": {
       "born": {
-        "value": 1202
+        "value": 1210
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "bull-taurus",
@@ -24,6 +25,7 @@
     "reviewer": "xzotl",
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -56,7 +58,8 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
     "characteristics": {
       "int": {
@@ -94,6 +97,24 @@
         "aging": 0
       }
     },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
     "vitals": {
       "siz": {
         "value": 2
@@ -109,6 +130,14 @@
       "label": "Confidence ",
       "score": 0,
       "points": 0
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "abilities": [],
     "weapons": [],
@@ -943,16 +972,17 @@
         "dam": 2,
         "str": 0,
         "range": 0,
-        "weaponExpert": false,
+        "weaponExpert": true,
         "equipped": true,
         "horse": false,
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": null
+          "id": "WZugoPunRjidJKmy"
         },
         "state": "inert",
-        "enchantments": null
+        "enchantments": null,
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -965,10 +995,10 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.4",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1765108472881,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "9gDCDumEB8MVpn1z",
       "sort": 100000,
@@ -1124,10 +1154,10 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.4",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1748671593021,
-    "modifiedTime": 1748671593021,
-    "lastModifiedBy": "ErQ613O32LNYb71L"
+    "modifiedTime": 1765108481085,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "2EzaOfkgAmWWy0ZF",
   "sort": 500000,

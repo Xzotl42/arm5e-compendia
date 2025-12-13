@@ -1,0 +1,70 @@
+{
+  "name": "Sanatorium",
+  "folder": "fvhddaQ8XyRwnldJ",
+  "ownership": {
+    "default": 2,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "0dVWcwwAtCN2OSzi",
+  "pages": [
+    {
+      "name": "Sanatorium",
+      "text": {
+        "markdown": "The sanatorium is a dialog to manage the recovery of wounds during a season. It is accessible in Description.Vitals&Combat by clicking the bandaged icon.\n\n![](modules/arm5e-compendia/doc/images/Health.webp)\n\nFor the sake of simplicity or until a deeper integration with Simple Calendar is done:\n\n- One season equals 92 days\n- Heavy wound recovery is 90 days\n- Medium wound recovery is 30 days\n- Light wound recovery is 7 days\n\n### Interface\n\n![](modules/arm5e-compendia/doc/images/sanatorium.webp)\n\nFrom top to bottom:\n\n- A small vignette to show who is the patient\n- The patient stamina (read only)\n- **Recovery bonus**: Any modifier to recovery given by active effect (read only)\n- **Mundane help**: Used for the chirurgy or medicine score of the physician\n- **Magical help**: Used for Creo Corpus effects on the patient\n- **Sanctum help**: Health modifier provided by the sanctum if any (read only).\n\nAll of the above can be changed in the middle of the season between recovery rolls (eg: if the physician is no longer available and/or a Corpus effect is cast afterward)\n\n- The date is computed automatically using the oldest untreated wound not in the future. This will permit the recovery of wound inflicted during recovery.\n  _For example: While recovering from a medium wound, Thibault fell badly in the stairs while trying to reach the latrines. Opening the sanatorium will allow the recovery of the new wound on the same season_\n\n- The current wounds are displayed by increased gravity. A green aura means that the wound will improve at the end of the recovery period and a red aura indicates that it will get worse.\n- If there is not enough days to do a recovery roll for this season or if the wound is fully healed, the wound icon will get a small lock icon on the top right corner.\n- Hovering with the mouse on a wound will show the modifier to the next roll.\n- For wounds inflicted mid-season, it is possible to adjust the number of days remaining before the first recovery roll.\n- Button \"Roll for recovery\" : click until there is no more days available or wounds to recover from\n- Button \"End of season\" : Clickable only when it is not possible to roll anymore. It will create a new diary entry in the patient calendar containing the medical log for the season.\n\n### Patient's file\n\n- A log of all the rolls made for the season is created. It shows for each wound whether a roll has succeeded or failed and the wound penalty at the end of the period.\n  Note: The RAW states that if more than a month is spent at a given wound penalty it can impact the seasonal activities for the season:\n- -6 or greater : no other activity possible\n- -3 to -5 : No lab activity or crafting possible\n- -1 to -2 : No spells that cost fatigue (important if you intent to cast spontaneous CrCo spells for further recovery)\n- Dev note: Unfortunately, between wound getting worse and better during a season and multiple recovery activities the same season, it has become too complex to compute reliably if the penalty lasted a month during the season (not that it is impossible to do, but it is simpler to do the math... for now)\n\n### Medical history\n\nAll healed wounds are kept in the medical history next to the bandaged hand in the Vitals&Combat tab. You can clear it all using the Perdo hand gesture on the top-right.\n\n![](modules/arm5e-compendia/doc/images/MedicalHistory.webp)",
+        "format": 2,
+        "content": "<p>The sanatorium is a dialog to manage the recovery of wounds during a season. It is accessible in Description.Vitals&amp;Combat by clicking the bandaged icon.</p>\n<p><img src=\"modules/arm5e-compendia/doc/images/Health.webp\" alt=\"\" /></p>\n<p>For the sake of simplicity or until a deeper integration with Simple Calendar is done:</p>\n<ul>\n<li>One season equals 92 days</li>\n<li>Heavy wound recovery is 90 days</li>\n<li>Medium wound recovery is 30 days</li>\n<li>Light wound recovery is 7 days</li>\n</ul>\n<h3>Interface</h3>\n<p><img src=\"modules/arm5e-compendia/doc/images/sanatorium.webp\" alt=\"\" /></p>\n<p>From top to bottom:</p>\n<ul>\n<li>A small vignette to show who is the patient</li>\n<li>The patient stamina (read only)</li>\n<li><strong>Recovery bonus</strong>: Any modifier to recovery given by active effect (read only)</li>\n<li><strong>Mundane help</strong>: Used for the chirurgy or medicine score of the physician</li>\n<li><strong>Magical help</strong>: Used for Creo Corpus effects on the patient</li>\n<li><strong>Sanctum help</strong>: Health modifier provided by the sanctum if any (read only).</li>\n</ul>\n<p>All of the above can be changed in the middle of the season between recovery rolls (eg: if the physician is no longer available and/or a Corpus effect is cast afterward)</p>\n<ul>\n<li><p>The date is computed automatically using the oldest untreated wound not in the future. This will permit the recovery of wound inflicted during recovery.\n<em>For example: While recovering from a medium wound, Thibault fell badly in the stairs while trying to reach the latrines. Opening the sanatorium will allow the recovery of the new wound on the same season</em></p></li>\n<li><p>The current wounds are displayed by increased gravity. A green aura means that the wound will improve at the end of the recovery period and a red aura indicates that it will get worse.</p></li>\n<li><p>If there is not enough days to do a recovery roll for this season or if the wound is fully healed, the wound icon will get a small lock icon on the top right corner.</p></li>\n<li><p>Hovering with the mouse on a wound will show the modifier to the next roll.</p></li>\n<li><p>For wounds inflicted mid-season, it is possible to adjust the number of days remaining before the first recovery roll.</p></li>\n<li><p>Button \"Roll for recovery\" : click until there is no more days available or wounds to recover from</p></li>\n<li><p>Button \"End of season\" : Clickable only when it is not possible to roll anymore. It will create a new diary entry in the patient calendar containing the medical log for the season.</p></li>\n</ul>\n<h3>Patient's file</h3>\n<ul>\n<li>A log of all the rolls made for the season is created. It shows for each wound whether a roll has succeeded or failed and the wound penalty at the end of the period.\nNote: The RAW states that if more than a month is spent at a given wound penalty it can impact the seasonal activities for the season:</li>\n<li>-6 or greater : no other activity possible</li>\n<li>-3 to -5 : No lab activity or crafting possible</li>\n<li>-1 to -2 : No spells that cost fatigue (important if you intent to cast spontaneous CrCo spells for further recovery)</li>\n<li>Dev note: Unfortunately, between wound getting worse and better during a season and multiple recovery activities the same season, it has become too complex to compute reliably if the penalty lasted a month during the season (not that it is impossible to do, but it is simpler to do the math… for now)</li>\n</ul>\n<h3>Medical history</h3>\n<p>All healed wounds are kept in the medical history next to the bandaged hand in the Vitals&amp;Combat tab. You can clear it all using the Perdo hand gesture on the top-right.</p>\n<p><img src=\"modules/arm5e-compendia/doc/images/MedicalHistory.webp\" alt=\"\" /></p>"
+      },
+      "_id": "jNitArmdrlr5LMgP",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!0dVWcwwAtCN2OSzi.jNitArmdrlr5LMgP"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "world": {
+      "lavaFlowJournalEntry": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1765608525994,
+    "modifiedTime": 1765608525994,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!journal!0dVWcwwAtCN2OSzi"
+}

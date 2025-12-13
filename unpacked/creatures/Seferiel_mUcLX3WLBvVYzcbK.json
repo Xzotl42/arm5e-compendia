@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1220
+        "value": 1230
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 10 pawns of Ignem in the sword.</p></div><div class=\"el-p\"><p dir=\"auto\">Seferiel is an angel with special responsibility for Hermetic magi. Most of the time, he seeks to draw them closer to God, but sometimes he acts as the instrument of God's vengeance against those who are particularly wicked. His attitude depends slightly on whether magic is inherently sinful in your saga; his suggested courses of action depend on this more strongly. However, either way he likes Hermetic magi, in general, and finds them fascinating people. He often pretends to be a magus in order to get to know people better, and find out what they are really like.</p></div><div class=\"el-p\"><p dir=\"auto\">Seferiel sometimes takes an interest in a particular magus, one whom he sees has great potential, and is a suitable antagonist for the Plagued by Angel Story Flaw. His divinely-appointed mission is, however, to the Order as a whole, and he travels across Europe to bring God's message to as many magi as possible.</p></div>",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "seferiel",
@@ -95,9 +96,18 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
-    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Shining white robes, flaming greatsword<br><strong>Encumbrance:</strong> 0 (0)<br><strong>Vis:</strong> 10 pawns of Ignem in the sword.<br><strong>Appearance:</strong> A large man, with golden-tinged skin and burning-bright hair, dressed in a white robe that shines like the stars. He carries a burning greatsword.</p></div><div class=\"el-p\"><p dir=\"auto\">Seferiel is an angel with special responsibility for Hermetic magi. Most of the time, he seeks to draw them closer to God, but sometimes he acts as the instrument of God's vengeance against those who are particularly wicked. His attitude depends slightly on whether magic is inherently sinful in your saga; his suggested courses of action depend on this more strongly. However, either way he likes Hermetic magi, in general, and finds them fascinating people. He often pretends to be a magus in order to get to know people better, and find out what they are really like.</p></div><div class=\"el-p\"><p dir=\"auto\">Seferiel sometimes takes an interest in a particular magus, one whom he sees has great potential, and is a suitable antagonist for the Plagued by Angel Story Flaw. His divinely-appointed mission is, however, to the Order as a whole, and he travels across Europe to bring God's message to as many magi as possible.</p></div>",
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Shining white robes, flaming greatsword<br><strong>Encumbrance:</strong> 0 (0)<br><strong>Appearance:</strong> A large man, with golden-tinged skin and burning-bright hair, dressed in a white robe that shines like the stars. He carries a burning greatsword.</p></div><div class=\"el-p\"><p dir=\"auto\"></p></div>",
     "characteristics": {
       "int": {
         "value": 5,
@@ -336,6 +346,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1625,9 +1636,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.31",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761890534707,
-    "modifiedTime": 1761891016205,
+    "modifiedTime": 1765108287230,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "mUcLX3WLBvVYzcbK",

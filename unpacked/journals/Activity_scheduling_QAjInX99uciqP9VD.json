@@ -1,0 +1,70 @@
+{
+  "name": "Activity scheduling",
+  "folder": "fvhddaQ8XyRwnldJ",
+  "ownership": {
+    "default": 2,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "QAjInX99uciqP9VD",
+  "pages": [
+    {
+      "name": "Activity scheduling",
+      "text": {
+        "markdown": "This section explains how to manage the seasonal activities of the troupe through years, including activities spanning multiple seasons.\n\n**Important note**: All the constraints described below can be temporary or permanently ignored by disabling the new setting: *Enforce schedule constraints*\n\nThe scheduling of activities can be managed from 3 similar dialogs with different goals, there are all accessible through the astrolab icon: ![](modules/arm5e-compendia/doc/images/astrolab.webp)\n## Workflow\n\nThe workflow is supposed to go like this:\n\n- The GM is setting the current date in the future when the next game session is supposed to happen, \"giving\" seasons to the players\n- The players can plan and apply their activities up to that date. \n\n## Constraints\n\n- You can not apply an activity if another prior activity (ie: in the past) is still unapplied.\n- It is not possible to apply an activity that ends in the future but it is ok to schedule it and apply when the time has come.\n- A per RAW, some types of activity are exclusive and other can coexists. One exception to RAW is adventuring which is often house-ruled as not conflicting\n\n## Character calendar\n\nThis dialog is accessible from the Actor.Diary tab, it lists all the planned activities for this actor.\n\n![](modules/arm5e-compendia/doc/images/characterCalendar.webp)\n\n- Each rectangle of the table represent a season, a dotted line indicates it is in the future\n- The blue color indicates that some activity is planned for the season\n- A red color indicates that a conflict exists between two or more activities (eg: reading 2 books the same season)\n- Each icon represents an activity, hovering will display its title, clicking will display its sheet.\n- A red aura around an activity indicates that it is not yet applied.\n\n## Activity scheduling\n\nThis dialog is accessed from the diary entry sheet\n\n![](modules/arm5e-compendia/doc/images/activitySchedule.webp)\n\nAll of the above applies but additionally it allows to move the activity to another season (or seasons).\n- To be able to schedule the activity:\n\t- There must be no conflict\n\t- A number of seasons based on the duration must be ticked.\n- If the activity spans multiple seasons, changing the start date will reassign all seasons in a sequence.\n## Troupe scheduling\n\nAccessed through the Astrolabium, this dialog allows the GM to have a general view year by year of the activities of each character. It is possible to filter the type of actor displayed\n\n![](modules/arm5e-compendia/doc/images/troupeSchedule.webp)",
+        "format": 2,
+        "content": "<p>This section explains how to manage the seasonal activities of the troupe through years, including activities spanning multiple seasons.</p>\n<p><strong>Important note</strong>: All the constraints described below can be temporary or permanently ignored by disabling the new setting: <em>Enforce schedule constraints</em></p>\n<p>The scheduling of activities can be managed from 3 similar dialogs with different goals, there are all accessible through the astrolab icon: <img src=\"modules/arm5e-compendia/doc/images/astrolab.webp\" alt=\"\" /></p>\n<h2>Workflow</h2>\n<p>The workflow is supposed to go like this:</p>\n<ul>\n<li>The GM is setting the current date in the future when the next game session is supposed to happen, \"giving\" seasons to the players</li>\n<li>The players can plan and apply their activities up to that date. </li>\n</ul>\n<h2>Constraints</h2>\n<ul>\n<li>You can not apply an activity if another prior activity (ie: in the past) is still unapplied.</li>\n<li>It is not possible to apply an activity that ends in the future but it is ok to schedule it and apply when the time has come.</li>\n<li>A per RAW, some types of activity are exclusive and other can coexists. One exception to RAW is adventuring which is often house-ruled as not conflicting</li>\n</ul>\n<h2>Character calendar</h2>\n<p>This dialog is accessible from the Actor.Diary tab, it lists all the planned activities for this actor.</p>\n<p><img src=\"modules/arm5e-compendia/doc/images/characterCalendar.webp\" alt=\"\" /></p>\n<ul>\n<li>Each rectangle of the table represent a season, a dotted line indicates it is in the future</li>\n<li>The blue color indicates that some activity is planned for the season</li>\n<li>A red color indicates that a conflict exists between two or more activities (eg: reading 2 books the same season)</li>\n<li>Each icon represents an activity, hovering will display its title, clicking will display its sheet.</li>\n<li>A red aura around an activity indicates that it is not yet applied.</li>\n</ul>\n<h2>Activity scheduling</h2>\n<p>This dialog is accessed from the diary entry sheet</p>\n<p><img src=\"modules/arm5e-compendia/doc/images/activitySchedule.webp\" alt=\"\" /></p>\n<p>All of the above applies but additionally it allows to move the activity to another season (or seasons).</p>\n<ul>\n<li>To be able to schedule the activity:<ul>\n<li>There must be no conflict</li>\n<li>A number of seasons based on the duration must be ticked.</li></ul></li>\n<li>If the activity spans multiple seasons, changing the start date will reassign all seasons in a sequence.</li>\n</ul>\n<h2>Troupe scheduling</h2>\n<p>Accessed through the Astrolabium, this dialog allows the GM to have a general view year by year of the activities of each character. It is possible to filter the type of actor displayed</p>\n<p><img src=\"modules/arm5e-compendia/doc/images/troupeSchedule.webp\" alt=\"\" /></p>"
+      },
+      "_id": "R0xH8eiFBxR9Qkw5",
+      "type": "text",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!QAjInX99uciqP9VD.R0xH8eiFBxR9Qkw5"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "world": {
+      "lavaFlowJournalEntry": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1765608525994,
+    "modifiedTime": 1765608525994,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_key": "!journal!QAjInX99uciqP9VD"
+}

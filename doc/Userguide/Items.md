@@ -37,7 +37,7 @@ Beside the name, speciality and description, the following fields are available.
 
 Abilities modified by an active effect have a coloured halo
 
-![](modules/arm5e-compendia/doc/images/EffectsOnAbilities.webp)
+![](images/EffectsOnAbilities.webp)
 
 Puissant ability
 
@@ -94,7 +94,7 @@ The base effect is the root of any magical effect, spell or powers. They are int
 
 You can select additional arts as requisites by clicking on the hammer icon:
 
-![](modules/arm5e-compendia/doc/images/Requisites.webp)
+![](images/Requisites.webp)
 
 The **base level** is the level of a spell with this effect with minimal attributes (Range: self, Duration: Momentary, Target : individual). It is the same number found in the book for the spell guidelines.
 
@@ -164,7 +164,7 @@ There two versions that can be generated:
     
     (For lab texts, the book needs to be in the inventory of the character or its sanctum
     
-    ![](modules/arm5e-compendia/doc/images/book2.webp)
+    ![](images/book2.webp)
     
 -   Topic: You can select whether the book is about an Art, an ability, a spell mastery or a laboratory text
     

@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 4 pawns of Animal, in the whole body.</p></div><div class=\"el-p\"><p dir=\"auto\">Lupersus has been sent by God to guard a holy hermit, provide him with food, and, occasionally, lead those in need of advice to the hermit who can provide it. He cannot speak, and has no wish to do so. While his main focus is on the hermit, Lupersus is generally compassionate, and helps those in trouble whom he finds within his range. Sometimes he leads them to safety, but most people do not trust a wolf. In those cases, he chases them to safety. Lupersus is not an angel, but rather a divine creature, and does not have the powers shared by all angels.</p></div>",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "lupersus",
@@ -95,9 +96,18 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
-    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 4 pawns of Animal, in the whole body.<br><strong>Appearance:</strong> A silver-gray wolf, with a noble bearing. No matter what terrain he runs through, Lupersus never gets dirty.</p></div><div class=\"el-p\"><p dir=\"auto\">Lupersus has been sent by God to guard a holy hermit, provide him with food, and, occasionally, lead those in need of advice to the hermit who can provide it. He cannot speak, and has no wish to do so. While his main focus is on the hermit, Lupersus is generally compassionate, and helps those in trouble whom he finds within his range. Sometimes he leads them to safety, but most people do not trust a wolf. In those cases, he chases them to safety. Lupersus is not an angel, but rather a divine creature, and does not have the powers shared by all angels.</p></div>",
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Appearance:</strong> A silver-gray wolf, with a noble bearing. No matter what terrain he runs through, Lupersus never gets dirty.</p></div>",
     "characteristics": {
       "int": {
         "value": 0,
@@ -336,6 +346,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1256,9 +1267,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.31",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761462349094,
-    "modifiedTime": 1762365119929,
+    "modifiedTime": 1765108148525,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "txH171mwmIOArjPI",

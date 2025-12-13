@@ -1,6 +1,6 @@
 The sanatorium is a dialog to manage the recovery of wounds during a season. It is accessible in Description.Vitals&Combat by clicking the bandaged icon.
 
-![](modules/arm5e-compendia/doc/images/Health.webp)
+![](images/Health.webp)
 
 For the sake of simplicity or until a deeper integration with Simple Calendar is done:
 
@@ -11,7 +11,7 @@ For the sake of simplicity or until a deeper integration with Simple Calendar is
 
 ### Interface
 
-![](modules/arm5e-compendia/doc/images/sanatorium.webp)
+![](images/sanatorium.webp)
 
 From top to bottom:
 
@@ -47,4 +47,4 @@ All of the above can be changed in the middle of the season between recovery rol
 
 All healed wounds are kept in the medical history next to the bandaged hand in the Vitals&Combat tab. You can clear it all using the Perdo hand gesture on the top-right.
 
-![](modules/arm5e-compendia/doc/images/MedicalHistory.webp)
+![](images/MedicalHistory.webp)
