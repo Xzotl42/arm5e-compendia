@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1196
+        "value": 1205
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "<div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Arms and armor. Has a faerie horse constructed of the knight's own glamor, so it flies when the knight does, and shares the knight's Magic Resistance.<br><strong>Vis</strong>: 2 pawns, often rusty pieces of armor that the knight has poured its glamor into.<br></p><p dir=\"auto\">These faeries are often encountered outside courts, on lonely roads, and guarding bridges. They seek out defeat by humans as a way of gaining additional combat Pretenses. They are never seen with their armor off, so they may be a role that other faeries take on when they wish to enjoy some blood sport. Faerie Knights are more bound to the rules of chivalry than real knights, and so they do not use the Damaging Effect Power on their weapons against worthy foes.</p></div>",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "faerie-knight",
@@ -95,9 +96,29 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
-    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Equipment:</strong> Arms and armor. Has a faerie horse constructed of the knight's own glamor, so it flies when the knight does, and shares the knight's Magic Resistance.<br><strong>Vis</strong>: 2 pawns, often rusty pieces of armor that the knight has poured its glamor into.<br><strong>Appearance:</strong> A knight clad in silver leaves of metal, astride a fine horse. These knights often display the motif of their court on their surcoat, shield and pavilion.</p></div><div class=\"el-p\"><p dir=\"auto\">These faeries are often encountered outside courts, on lonely roads, and guarding bridges. They seek out defeat by humans as a way of gaining additional combat Pretenses. They are never seen with their armor off, so they may be a role that other faeries take on when they wish to enjoy some blood sport. Faerie Knights are more bound to the rules of chivalry than real knights, and so they do not use the Damaging Effect Power on their weapons against worthy foes.</p></div>",
+    "combatPreps": {
+      "current": "mace-and-heater-shield",
+      "list": {
+        "custom": {
+          "ids": [
+            "5CCgv2lEjdjQYtgj",
+            "46cXVDEhSryB8yH2"
+          ]
+        },
+        "mace-and-heater-shield": {
+          "ids": [
+            "5CCgv2lEjdjQYtgj",
+            "46cXVDEhSryB8yH2"
+          ],
+          "name": "Mace and Heater shield",
+          "itemList": "Mace and Heater shield*, Faerie Metal Scale - Full"
+        }
+      }
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Appearance:</strong> A knight clad in silver leaves of metal, astride a fine horse. These knights often display the motif of their court on their surcoat, shield and pavilion.</p><p dir=\"auto\"></p></div>",
     "characteristics": {
       "int": {
         "value": 0,
@@ -336,6 +357,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1970,9 +1992,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.29",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761287500942,
-    "modifiedTime": 1761901758504,
+    "modifiedTime": 1765619477373,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "Pxl3c7WYVpTJwBaB",

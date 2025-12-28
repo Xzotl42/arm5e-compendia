@@ -22,7 +22,7 @@ You can trigger a roll by clicking on the relevant item you want to roll or, occ
 
 **Please be aware all the rolls will be affected by the Default Roll Mode!**
 
-![](images/ChatRollMode.png)
+![](images/ChatRollMode.webp)
 *Chat Roll Mode, found at the bottom right of the Foundry screen*
 
 **Dev note:** There is not yet a way to just roll a stress die using the character sheet, that is, not involving any characteristic, ability etc. Some people are rolling a dummy personality trait for that. A macro has been provided to do it, and it is available in the system compendia.

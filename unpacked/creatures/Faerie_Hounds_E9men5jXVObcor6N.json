@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1196
+        "value": 1205
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 1 pawn Animal, dog corpse</p></div><p><strong>Powers:</strong><br>The powers listed are commonly found in Faerie Hounds, but it is rare for a single hound to have more than two of them.</p>",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "faerie-hounds",
@@ -95,9 +96,20 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
     },
-    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 1 pawn Animal, dog corpse</p><p dir=\"auto\"><strong>Appearance:</strong> Faerie hounds are usually of chunky, hunting breeds. Many have shining eyes, and almost all have black, white or green fur. These statistics also suit the hunting hounds of the courtly fae. This type of faerie hound often has a white coat, red ears and blue eyes.</p></div><div class=\"el-p\"><p dir=\"auto\">Huge faerie dogs haunt the roads of much of Mythic Europe. They terrify, and sometimes kill, travelers. Some can run rapidly, and others run upon their hindlimbs when chasing humans, to have their teeth closer to the victim's throat.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Variants:</strong><br>In part of France, this role is filled by a terrifying goat.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Aufhocker,</strong> found in German-speaking areas, acts as a kelpie, and uses a power to cling to foes while goring them so that his weight adds 6 to their combat Load.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Kludie,</strong> from Belgium, is the most powerful variant of this beast. It can take monstrously-large versions of the forms of dog, cat, bat, horse or frog. It walks on its back legs, with a dancing movement as it sprints toward its victim. It is preceded by supernatural blue flames. Kludie knows the trick of bouncing on the back of his quarry and using a power to drag his prey down. He also does the kelpie trick, dunking or drowning those who mount him in horse form.</p></div><p></p><p><strong>Powers:</strong><br>The powers listed are commonly found in Faerie Hounds, but it is rare for a single hound to have more than two of them.</p>",
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": [
+            "hVoPKTpPIobK6fgj"
+          ]
+        }
+      }
+    },
+    "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Appearance:</strong> Faerie hounds are usually of chunky, hunting breeds. Many have shining eyes, and almost all have black, white or green fur. These statistics also suit the hunting hounds of the courtly fae. This type of faerie hound often has a white coat, red ears and blue eyes.</p></div><div class=\"el-p\"><p dir=\"auto\">Huge faerie dogs haunt the roads of much of Mythic Europe. They terrify, and sometimes kill, travelers. Some can run rapidly, and others run upon their hindlimbs when chasing humans, to have their teeth closer to the victim's throat.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Variants:</strong><br>In part of France, this role is filled by a terrifying goat.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Aufhocker,</strong> found in German-speaking areas, acts as a kelpie, and uses a power to cling to foes while goring them so that his weight adds 6 to their combat Load.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Kludie,</strong> from Belgium, is the most powerful variant of this beast. It can take monstrously-large versions of the forms of dog, cat, bat, horse or frog. It walks on its back legs, with a dancing movement as it sprints toward its victim. It is preceded by supernatural blue flames. Kludie knows the trick of bouncing on the back of his quarry and using a power to drag his prey down. He also does the kelpie trick, dunking or drowning those who mount him in horse form.</p><p></p></div>",
     "characteristics": {
       "int": {
         "value": 0,
@@ -340,6 +352,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1203,11 +1216,12 @@
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": null
+          "id": "8uDLxXoJScky7VuC"
         },
         "state": "inert",
         "enchantments": null,
-        "credits": ""
+        "credits": "",
+        "naturalWeapon": true
       },
       "effects": [],
       "ownership": {
@@ -1221,9 +1235,9 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.29",
+        "systemVersion": "2.4.1.7",
         "createdTime": null,
-        "modifiedTime": 1761287445773,
+        "modifiedTime": 1765619300838,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "hVoPKTpPIobK6fgj",
@@ -1568,9 +1582,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.29",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761252654085,
-    "modifiedTime": 1761901758504,
+    "modifiedTime": 1765619311646,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "E9men5jXVObcor6N",

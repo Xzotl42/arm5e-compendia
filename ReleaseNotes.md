@@ -1,6 +1,6 @@
 # Release notes
 
-## Version 1.1.3
+## Version 1.1.4
 
 ### Compendia updates
 
@@ -9,6 +9,11 @@
   - WIP flagging natural weapons as such.
 - Journals
   - New userguide without broken image links
+- Flaws
+  - Unhappily married had text in it from the Unbaptised flaw
+- Spells
+  - Tossing the Brawling Brute base level => 10
+  - Topple the Brutish Band base level => 10
 
 ### Changes
 

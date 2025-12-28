@@ -49,6 +49,7 @@ export async function prepareForImport({
   if (!docDir) {
     // go up one directory from scripts to module root, then into doc
     const moduleRoot = path.resolve(__dirname, "..");
+    console.log(`No docDir specified, defaulting to ${moduleRoot}\\doc`);
     docDir = path.join(moduleRoot, "doc");
   }
 

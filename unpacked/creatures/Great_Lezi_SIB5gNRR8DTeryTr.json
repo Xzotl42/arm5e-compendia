@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1196
+        "value": 1205
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "great-lezi",
@@ -95,7 +96,16 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "biography": "<p><strong>Size:</strong> varies from –10 to +7. A Lezi may change size in increments of fractions of an inch, if it wishes. For every +1 Size, add +2 Strength and subtract 1 Quickness. For every –1 in Size, subtract 2 Strength and add +1 Quickness.</p><p>Some Lezis, particularly those with backward feet, are unable to harm humans who have turned all of their clothes backwards.</p><div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 8 pawns, External vis, club</p></div><div class=\"el-p\"><p dir=\"auto\">The Forest Lord is found in Slavic lands. He usually appears as a tall, pale, bearded man with emerald eyes, but can take the shape of any plant or animal. He may change his size from that of a blade of grass to that of a tall tree. Many lezi have feet that face backward, and many are faunlike. Great Lezi command woodland animals, particularly wolves. The term \"great\" is used to compare this creature to the more common lezi, which is a form of faun.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Variants:</strong> Gigantic fauns are found in the Basque country in Iberia. Once they were much like other fauns, although even then they had striking red fur. When humans won the right to till the country, these fauns became agricultural faeries. They use their great height to plan agricultural improvements, perform feats of remarkable engineering, and shout warnings when predators approach. In the region they are called Basajauns, but this is confusing because Basajaun is a large, wild faun in the folklore of the surrounding peoples, who keeps house with his wife and human slaves.</p></div><p></p><h2>To review</h2><ul><li>no \"Reputation?</li><li>Ability not found: \"Forest Lore\"</li><li>Virtue or Flaw indexKey not found: \"3 x Great Characteristic\"</li><li>Virtue or Flaw indexKey not found: \"5 x Improved Characteristics\"</li><li>Virtue or Flaw indexKey not found: \"Some Lezis\"</li><li>Virtue or Flaw indexKey not found: \"particularly those with backward feet\"</li><li>Virtue or Flaw indexKey not found: \"are unable to harm humans who have turned all of their clothes backwards.\"</li><li>Natural Weapons: No matches for \"2 x Brawl (club)* Init\"?</li></ul>",
     "characteristics": {
@@ -339,6 +349,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1702,16 +1713,17 @@
         "enchantments": null,
         "reviewer": "KILLTHESCRIBE",
         "review_status": "definitiveReady",
-        "credits": ""
+        "credits": "",
+        "naturalWeapon": true
       },
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.Vld8teIWCgtO8Hni",
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.0.30",
+        "systemVersion": "2.4.1.7",
         "createdTime": 1761334921671,
-        "modifiedTime": 1761335027266,
+        "modifiedTime": 1765619510508,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_id": "myz2qDTZ2m56EW8h",
@@ -1881,9 +1893,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.30",
+    "systemVersion": "2.4.1.7",
     "createdTime": 1761333513828,
-    "modifiedTime": 1761901758504,
+    "modifiedTime": 1765619528912,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "SIB5gNRR8DTeryTr",
