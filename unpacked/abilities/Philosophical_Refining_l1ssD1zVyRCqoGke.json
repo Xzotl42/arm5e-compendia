@@ -1,0 +1,42 @@
+{
+  "name": "Philosophical Refining",
+  "type": "ability",
+  "system": {
+    "key": "technique",
+    "option": "Philosophical-Refining",
+    "description": "<p>Like magi, an elemental philosopher may extract vis from a magical aura, producing his (Refining Total / 10) in vis associated with the appropriate one of the four elements. He can also affect supernatural animals of the appropriate temperament with his Refining Art, increasing or decreasing their Might in the same way an elemental theurgist affects supernatural beings. This process produces a pawn of vis of the appropriate Form for each five points in the character’s Refining Total, but no more than (the target’s Might Score / 5). An elemental philosopher may also move vis from one object to another. To do this, his Refining Total for the season must equal or exceed (the total number of pawns of vis moved x 5). If the moved vis is not associated with the Form used in the Refining Total, it is transformed into the appropriate Form by this process, but half of it (rounded down) is lost. For example, with a Refining Total of 25 using Elementalist Air, 5 pawns of Vim vis could be moved from one container into another, leaving 2 pawns of Auram vis at the end of the season. Philosophical Refining also allows an elemental philosopher to use vis associated with any Art in his elemental magic, and he adds his Philosophiae to his Refining Totals.</p>",
+    "source": "HMRE",
+    "page": 26,
+    "indexKey": "philosophical-refining",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "credits": "",
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "accelerated": true,
+    "optionLinked": true,
+    "realm": "mundane"
+  },
+  "img": "icons/svg/aura.svg",
+  "effects": [],
+  "folder": "16LRZFqj4LYYBPK0",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.11",
+    "createdTime": 1767455316909,
+    "modifiedTime": 1767455412124,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "l1ssD1zVyRCqoGke",
+  "sort": 700000,
+  "_key": "!items!l1ssD1zVyRCqoGke"
+}

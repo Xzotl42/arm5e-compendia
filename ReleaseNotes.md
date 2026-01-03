@@ -1,11 +1,33 @@
 # Release notes
 
+## Version 1.1.5
+
+### Changes
+
+- Improved character importer.
+
+### Compendia updates
+
+- Creatures
+  - Changed the default permissions (more restricted for players)
+- Covenant
+  - Changed the default permissions (more restricted for players)
+- [NEW] NPCs
+  - More restricted for players
+  - Antagonists [WIP]: Up to chapter Three
+- Equipment
+  - Flagging natural weapons as such.
+- Virtues
+  - Added effects to Guardian Angel
+- Abilities
+  - Added Hedge Elementalist abilities
+
 ## Version 1.1.4
 
 ### Compendia updates
 
 - Creatures
-  - WIP spliting description and SG notes between biography and secret fields
+  - [WIP] spliting description and SG notes between biography and secret fields
   - WIP flagging natural weapons as such.
 - Journals
   - New userguide without broken image links

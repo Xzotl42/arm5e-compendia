@@ -154,7 +154,14 @@ export const AREAS = [
 
 export const LORES = [];
 
-export const ORGANIZATIONS = ["Covenant Lore"];
+export const ORGANIZATIONS = [
+  "Covenant Lore",
+  "Organization Lore: Nobles",
+  "Organization Lore: Church",
+  "Organization Lore: Nobility",
+  "Organization Lore: Household",
+  "Noble lore"
+];
 
 export const TYPOS = {
   KeenVision: "Keen Vision",
@@ -163,7 +170,9 @@ export const TYPOS = {
   LightTouch: "Light Touch",
   EnchantingMusic: "Enchanting Music",
   SharpEars: "Sharp Ears",
-  "Affinity(Single Weapon)": "Affinity (Single Weapon)"
+  "Affinity(Single Weapon)": "Affinity (Single Weapon)",
+  "Civil & Canon Lore": "Civil & Canon Law",
+  "AreaLore: Silk Road": "Area Lore: Silk Road"
 };
 
 export const MINOR_MAJOR = [
@@ -197,18 +206,27 @@ export const MINOR_MAJOR = [
 // Map ability names to their keys, the match will be done by startsWith function
 export const ABILITY_KEY_MAPPING = {
   "Living Language": "language-generic",
+  "(Living Language)": "language-generic",
   "[Native Language]": "language-generic",
   "Native Language": "language-generic",
   "Faerie Speech": "language-generic",
+  "Local Language": "language-generic",
+  "Norman French": "language-generic",
   Language: "language-generic",
+  "High German": "language-generic",
   German: "language-german",
   Latin: "language-latin",
   Greek: "language-greek",
+  "Ancient Greek": "language-greek",
   Arabic: "language-arabic",
   Hebrew: "language-hebrew",
+  French: "language-generic",
   "Hermes Lore": "order-of-hermes-lore",
+  "Organization Lore: Order of Hermes": "order-of-hermes-lore",
   "Civil and Canon Law": "civil-canon-law",
+  "Civil & Canon Law": "civil-canon-law",
   "Sense Holiness and Unholiness": "sense-holiness-unholiness",
+  "Sense Holiness & Unholiness": "sense-holiness-unholiness",
   "Single Weapons": "single-weapon",
   "Great Weapons": "great-weapon",
   "Thrown Weapons": "thrown-weapon",
@@ -217,7 +235,9 @@ export const ABILITY_KEY_MAPPING = {
   Climb: "athletics",
   "Craft ": "craft-generic",
   "Profession ": "profession-generic",
-  "Prof: ": "profession-generic"
+  "Profession: ": "profession-generic",
+  "Prof: ": "profession-generic",
+  "Code of Hermes Lore": "code-of-hermes"
 };
 
 export const VIRTUES_KEY_MAPPING = {
@@ -234,13 +254,15 @@ export const VIRTUES_KEY_MAPPING = {
   "Lesser Purifying Touch ": "lesser-purifying-touch",
   "Major Magical Focus": "major-magical-focus",
   "Minor Magical Focus": "minor-magical-focus",
+  "Protection ": "protection",
   "Side Effect": "side-effect",
   "Skinchanger ": "skinchanger",
   "Social Contacts ": "social-contacts",
   "Special Circumstances ": "special-circumstances",
   "Strong Faerie Blood": "strong-faerie-blood",
   "student of ": "student-of-realm",
-  "ways of the ": "ways-of-the-land"
+  "ways of the ": "ways-of-the-land",
+  "Sense Holiness & Unholiness": "sense-holiness-unholiness"
 };
 
 export const FLAWS_KEY_MAPPING = {
@@ -265,6 +287,10 @@ export const FLAWS_KEY_MAPPING = {
   "Vulnerable Magic": "vulnerable-magic",
   Visions: "visions",
   Weakness: "weakness"
+};
+
+export const NATURAL_WEAPONS = {
+  "large-fangs": {}
 };
 
 export const EQUIPEMENT = {
@@ -517,6 +543,10 @@ export const EQUIPEMENT = {
     key: "chain-mail-partial",
     type: "armor"
   },
+  "full-chain-mail": {
+    key: "chain-mail-full",
+    type: "armor"
+  },
   "metal-reinf-leather-partial": {
     key: "metal-reinf-leather-partial",
     type: "armor"
@@ -557,6 +587,42 @@ export const EQUIPEMENT = {
   "quiltedfur-partial": {
     key: "quiltedfur-partial",
     type: "armor"
-  }
+  },
+  "lance-and-heater": [
+    {
+      key: "s-lance",
+      type: "weapon",
+      ability: "single-weapon"
+    },
+    {
+      key: "s-shield-heater",
+      type: "weapon",
+      ability: "single-weapon"
+    }
+  ],
+  "long-sword-and-heater": [
+    {
+      key: "s-shield-heater",
+      type: "weapon",
+      ability: "single-weapon"
+    },
+    {
+      key: "s-sword-long",
+      type: "weapon",
+      ability: "single-weapon"
+    }
+  ],
+  "long-sword-and-heater-shield": [
+    {
+      key: "s-shield-heater",
+      type: "weapon",
+      ability: "single-weapon"
+    },
+    {
+      key: "s-sword-long",
+      type: "weapon",
+      ability: "single-weapon"
+    }
+  ]
 };
 // (await (await game.packs.get("arm5e-compendia.equipment")).getDocuments()).map(e => {return   [e.system.indexKey] : { type: e.folder.name} ;})

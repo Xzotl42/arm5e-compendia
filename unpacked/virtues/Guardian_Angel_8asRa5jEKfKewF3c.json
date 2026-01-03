@@ -2,7 +2,82 @@
   "name": "Guardian Angel",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-  "effects": [],
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.8asRa5jEKfKewF3c",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.traits.soak",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.arts.magicResistance",
+          "value": "15",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 5,
+          "key": "system.realms.divine.aligned",
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals",
+            "spellcasting",
+            "realm"
+          ],
+          "subtype": [
+            "soak",
+            "magicResistance",
+            "divine"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Guardian angel",
+      "img": "icons/svg/aura.svg",
+      "_id": "EpbGk57mDZ0ucYEC",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.11",
+        "createdTime": 1767428119749,
+        "modifiedTime": 1767428650058,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!items.effects!8asRa5jEKfKewF3c.EpbGk57mDZ0ucYEC"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {

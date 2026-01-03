@@ -14,7 +14,7 @@
     },
     "description": {
       "born": {
-        "value": 1215
+        "value": 1225
       },
       "apprentice": {
         "value": "10"
@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "the-over-familiar-cat",
@@ -95,7 +96,16 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "biography": "<p><strong>Equipment:</strong> None</p><p><strong>Customization Notes:</strong> The Familiar Cat'sspecies Virtues and Flaws are Perfect Balance, Puissant Awareness, Sharp Ears, and Nocturnal. Since being awakened Intelligence has replaced Cunning, and her Presence and Communication have improved since she gained the power of speech. She has gained 4 years experience since joining her master as a young (1 year old) cat. Changing this familiar's type is straightforward using The Book of Mundane Beasts. Bond effects are the choice of the magus; these are but a sample of a familiar that grogs may encounter. (Bond scores are not included here.)</p><p><strong>Bond Effects</strong>:</p><p><strong>Speech</strong>: MuAn 20, Touch, Concentration, Individual. Gives an animal the unnatural ability to form human speech.</p><p><strong>Mental Communication</strong>: CrMe 15, Touch, Momentary, Individual, unlimited use Allows complex thoughts to be shared.</p><p><strong>Shared Senses (Sight)</strong>: InMe 30, Touch, Concentration, Individual, bond maintains concentration. The magus can share the cat’s sight.</p><p><strong>Vis</strong>: 2 Imaginem, in eyes</p>",
     "characteristics": {
@@ -340,6 +350,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -1977,9 +1988,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.0.31",
+    "systemVersion": "2.4.1.11",
     "createdTime": 1762036071195,
-    "modifiedTime": 1762036071195,
+    "modifiedTime": 1767179881488,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "9PnpeyGHMCmfgBvf",

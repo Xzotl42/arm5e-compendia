@@ -1,0 +1,42 @@
+{
+  "name": "Medicinal Refining",
+  "type": "ability",
+  "system": {
+    "key": "technique",
+    "option": "Medicinal-Refining",
+    "description": "<p>The elemental physician can make the longevity potion for other human beings as well as himself, and adds his Medicine to his Refining Totals. In addition, the elemental physician can make a potion that increases the vigor and natural aptitude of a person for a year, using elemental vis. This boosts one of the target’s Characteristics (as shown below) by the elementalist’s (Refining Total / 5), though it cannot increase that Characteristic to a value more than half of the elementalist’s score in the associated Form. This potion costs the same number of pawns of vis as the longevity potion; an elementalist with his lowest Elementalist Form at 4 and a Refining Total of 25 could make a potion that would increase a character’s Strength by five levels, but no higher than +2.</p><p><strong>Element Characteristic Increased:</strong></p><p><strong>Air</strong> Intelligence, Perception, Presence, or Communication </p><p><strong>Earth</strong> Strength, Stamina, Dexterity, or Quickness </p><p><strong>Fire</strong> Presence, Communication, Dexterity, or Quickness </p><p><strong>Water</strong> Intelligence, Perception, Strength, or Stamina</p>",
+    "source": "HMRE",
+    "page": 26,
+    "indexKey": "medicinal-refining",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "credits": "",
+    "defaultChaAb": "int",
+    "speciality": "",
+    "accelerated": true,
+    "optionLinked": true,
+    "realm": "mundane",
+    "xp": 0
+  },
+  "img": "icons/svg/aura.svg",
+  "effects": [],
+  "folder": "16LRZFqj4LYYBPK0",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.11",
+    "createdTime": 1767455276607,
+    "modifiedTime": 1767455479489,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "G4es07rcMlTRJlUM",
+  "sort": 800000,
+  "_key": "!items!G4es07rcMlTRJlUM"
+}

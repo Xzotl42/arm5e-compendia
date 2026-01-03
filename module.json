@@ -1,7 +1,7 @@
 {
   "id": "arm5e-compendia",
   "title": "Ars Magica system shared compendia",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "compatibility": {
     "minimum": "10",
     "verified": "13.351"
@@ -58,6 +58,7 @@
         "spells",
         "equipment",
         "creatures",
+        "npcs",
         "covenants",
         "journals",
         "macros",
@@ -88,7 +89,21 @@
       "path": "packs/creatures.db",
       "type": "Actor",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "arm5e",
+      "flags": {}
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "path": "packs/npcs.db",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER"
       },
       "system": "arm5e",
@@ -100,7 +115,8 @@
       "path": "packs/covenants.db",
       "type": "Actor",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "TRUSTED": "LIMITED",
         "ASSISTANT": "OWNER"
       },
       "system": "arm5e",

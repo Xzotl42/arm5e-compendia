@@ -1,0 +1,42 @@
+{
+  "name": "Theurgical Refining",
+  "type": "ability",
+  "system": {
+    "key": "technique",
+    "option": "Theurgical-Refining",
+    "description": "<p>Refining allows the elemental theurgist to restore Might to a supernatural being, or else to drain it of its Might in the form of raw vis. If the Refining Total is greater than the affected elemental’s Might Score, note the amount by which it is exceeded. If the Elementalist Form used in the Refining Total corresponds to the Form of the elemental’s Might, this is the number of Might Points restored to it. If the Form used is directly opposed to the Form of the affected elemental (air vs. earth, fire vs. water), this amount is subtracted from its Might Pool. Otherwise, half this many Might Points (rounded down) are either added to or subtracted from its Might Pool over the course of the season. If the being would gain more Might Points than it can have in its Might Pool, or if it loses some of its Might Points, raw vis forms in the material animated by the being, 1 pawn for every 5 Might Points given, but no more than its (Might Score divided by 5). This usually appears as condensation or dust inside of the container in which the being is held, or else manifests as pieces of the being that separate from it during the Refining (i.e. mist, ash, moisture, or dirt). The elemental theurgist adds (Realm) Lore, of the same realm as the target, to his Refining Totals.</p>",
+    "source": "HMRE",
+    "page": 25,
+    "indexKey": "theurgical-refining",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "credits": "",
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "accelerated": true,
+    "optionLinked": true,
+    "realm": "mundane"
+  },
+  "img": "icons/svg/aura.svg",
+  "effects": [],
+  "folder": "16LRZFqj4LYYBPK0",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.11",
+    "createdTime": 1767455412062,
+    "modifiedTime": 1767455412124,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "A1kScngk1ecg0QG9",
+  "sort": 400000,
+  "_key": "!items!A1kScngk1ecg0QG9"
+}
