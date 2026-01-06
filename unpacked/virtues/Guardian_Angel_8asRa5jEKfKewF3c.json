@@ -24,15 +24,15 @@
           "priority": null
         },
         {
+          "mode": 2,
           "key": "system.bonuses.arts.magicResistance",
           "value": "15",
-          "mode": 2,
           "priority": null
         },
         {
-          "mode": 5,
           "key": "system.realms.divine.aligned",
           "value": "true",
+          "mode": 5,
           "priority": null
         }
       ],
@@ -40,7 +40,7 @@
         "arm5e": {
           "type": [
             "vitals",
-            "spellcasting",
+            "formMagicResistance",
             "realm"
           ],
           "subtype": [
@@ -70,9 +70,9 @@
         "duplicateSource": null,
         "coreVersion": "12.343",
         "systemId": "arm5e",
-        "systemVersion": "2.4.1.11",
+        "systemVersion": "2.4.1.13",
         "createdTime": 1767428119749,
-        "modifiedTime": 1767428650058,
+        "modifiedTime": 1767601567016,
         "lastModifiedBy": "6SdI10VpXHcBvx2J"
       },
       "_key": "!items.effects!8asRa5jEKfKewF3c.EpbGk57mDZ0ucYEC"

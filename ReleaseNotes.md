@@ -1,5 +1,16 @@
 # Release notes
 
+## Version 1.1.6
+
+### Changes
+
+### Compendia updates
+
+- Abilities
+  - Added Elementalist alternate Arts
+- Macros
+  - Fixed Stress die roll macro
+
 ## Version 1.1.5
 
 ### Changes
@@ -20,7 +31,9 @@
 - Virtues
   - Added effects to Guardian Angel
 - Abilities
-  - Added Hedge Elementalist abilities
+  - Added Elementalist alternate Arts
+- Macros
+  - Fixed Stress die roll macro
 
 ## Version 1.1.4
 

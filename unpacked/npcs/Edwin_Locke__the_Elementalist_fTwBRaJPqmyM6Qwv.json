@@ -565,7 +565,8 @@
               "key": "form"
             }
           ],
-          "rollType": "1"
+          "rollType": "1",
+          "description": "<p>Summoning is the art of drawing elements from the surrounding area, often drawing them into a prepared shape or medium. Some elementalists might call this an incorrect description of their powers, since it may seem to them that they create these elements from nothing rather than bringing them to the caster from somewhere else. However, the basic principle is that the four elements are all part of nature, and so may always be found nearby and used to produce a supernatural effect. Summoning relies upon the character’s Stamina, his score in Summoning added to the appropriate Elementalist Form, plus the local aura and a stress die roll. This procedure always <strong>costs the elementalist a long-term Fatigue level</strong>, and takes anywhere from a few minutes to several hours, depending on the proximity of the summoned target. If successful, the target will appear directly beside the elementalist, within his immediate reach.</p><p><strong>Summoning Total: Stress Die + Stamina + Summoning + (Form) + Aura</strong></p><p>This is compared to the following chart to determine the maximum Size and Might of the target. The Total must always be great enough to affect both the Size and Might of the target. For example, a target of Size –6 and Might 20 would need a Summoning Total of 20 because of its Might, while another the size of a warhorse (+3) with only Might 5 would still require a Summoning Total of 20 because of its Size. A Summoning Total of 10 can only affect a target as large as a cat (–3) with a Might Score of 10 or less, for instance.</p><p><strong>Total Might Size  Note</strong></p><p>0       0    –21  nonexistent<br>1       1    –18  too small to perceive<br>2       2    –15  insect, kernel of grain<br>3       3    –12  baby mouse, 10 insects<br>4       4    –9   bat, frog 5 5 –6 lizard, stoat<br>10     10    –3   badger, cat<br>15     15     0   adult, ten cats<br>20     20    +3   war horse, ten adults<br>25     25    +6   killer whale, 100 adults<br>30     30    +9   humpbacked whale, 100 horses<br>35     35    +12  tower, castle<br>40     40    +15  village, storm<br>45     45    +18  city, river<br>50     50    +21  mountain, sea</p><p>Summoning may be used in one of three different ways, depending upon the type of elemental magic the character learned: Medicinal, Philosophical, or Theurgical (see later). The elementalist may attempt to include multiple elements when Summoning, as long as he possesses all of the Forms used in the formula. For example, an elemental philosopher with Elementalist Air and Elementalist Fire might want to summon an animal with either or both a sanguine or choleric temperament. Use the lower of his two Form scores (Elementalist Air or Elementalist Fire in this case) to determine if he is successful. If this would summon one of several different targets that fit both criteria (for example, there are both sanguine and choleric animals nearby, but no animals that are both sanguine and choleric), the results should favor the element in which he has a higher score. The elementalist may prepare a magical container for his target, if he wishes, by tracing the perimeter of the area in which the target will be held. Summoning circles drawn into the floor are very common containers, though jars and bottles are also used often as they are more transportable. Like a magus drawing a ring (see ArM5 page 112), a magical container may require the elementalist to maintain concentration while performing the summoning, but doing so ensures that the summoned target cannot leave the area for as long as the boundary is undisturbed. If the seal is broken, either by opening the container or breaking the circle, the target of the summoning is free to go wherever it desires. However, as long as the elementalist has a bound captive, he does not recover the long-term Fatigue levels spent to summon it. Thus, elementalists rarely bind more than two or three targets at a time. A summoning container also makes it easier for the elementalist to affect a summoned</p><p>supernatural being with his other Elementalist Techniques, since it lessens the difficulty of penetrating its resistance with those powers as long as the target is held within the container into which it was summoned. If the target has been summoned and successfully bound into a ring or container using the Summoning Art, treat the level of successive effects with the Elementalist Arts as if they were 0, and apply the entire casting total toward the Penetration Total. It is as if the later effect is incorporated into the original Summoning effect, so that the elementalist only needs to penetrate the target’s resistance once. Botching the summoning roll means the elementalist has lost control of his power. The summoned being may appear but without any safeguards, or a different sort of being (such as an angel or demon) is attracted instead. Or, perhaps the elementalist simply channeled too much elemental power through himself, and his bodily humors become imbalanced, making him sick or injured.</p><p></p>"
         },
         "LvKCMpkfzsHUw01u": {
           "name": "Controlling",
@@ -2578,6 +2579,84 @@
       "_id": "mTO0Ptyvmj14uyBc",
       "sort": 0,
       "_key": "!actors.items!fTwBRaJPqmyM6Qwv.mTO0Ptyvmj14uyBc"
+    },
+    {
+      "name": "New SupernaturalEffect",
+      "type": "supernaturalEffect",
+      "system": {
+        "template": "rckQtJKyLJJpZYxz",
+        "verb": {
+          "option": "Theological-Summoning",
+          "key": "technique",
+          "active": true,
+          "specApply": false
+        },
+        "noun": {
+          "key": "form",
+          "option": "Elementalist-Air",
+          "active": false,
+          "specApply": false
+        },
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "bonusAbility": {
+          "active": false,
+          "specApply": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "range": {
+          "value": "personal"
+        },
+        "duration": {
+          "value": "moment"
+        },
+        "target": {
+          "value": "ind"
+        },
+        "targetSize": 0,
+        "complexity": 0,
+        "enhancingRequisite": 0,
+        "general": false,
+        "levelOffset": 0,
+        "level": 1,
+        "baseLevel": 1,
+        "baseEffectDescription": "",
+        "applyFocus": false,
+        "ritual": false,
+        "bonus": 0,
+        "bonusDesc": "",
+        "xp": 0,
+        "masteryAbilities": "",
+        "valid": true
+      },
+      "_id": "5z7FRfxLh3s93pkf",
+      "img": "systems/arm5e/assets/magic/an.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.13",
+        "createdTime": 1767517847642,
+        "modifiedTime": 1767517847642,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "_key": "!actors.items!fTwBRaJPqmyM6Qwv.5z7FRfxLh3s93pkf"
     }
   ],
   "folder": "GJUzeowbsE5qPHaq",
@@ -2738,9 +2817,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "arm5e",
-    "systemVersion": "2.4.1.11",
+    "systemVersion": "2.4.1.13",
     "createdTime": 1767456098991,
-    "modifiedTime": 1767456098991,
+    "modifiedTime": 1767519162605,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "fTwBRaJPqmyM6Qwv",

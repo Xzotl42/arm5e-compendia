@@ -12,7 +12,12 @@ The Ability Key field is used by the system to know which Ability it is. That wa
 
 This is useful when you need to tell the system which ability you are talking about, such as the Affinity or Puissant Ability virtues for example.
 
-  
+# Covenant
+
+### How do I set an Aura to my covenant?
+
+Auras are linked to Scene. You need to create a scene for the covenant (either a map or an image) and set an Aura for it in the canvas menu. Then, in the covenant sheet, select the scene above and the aura will be applied.
+
 # Diary
 
 #### I cannot select the Ability I want to progress into.
