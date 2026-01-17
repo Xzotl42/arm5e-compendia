@@ -14,6 +14,7 @@
       }
     },
     "description": "<br/><h2>Migration comments</h2> The following fields are now computed and readonly. The original value is listed below<ol><li>Wealth totalIncome (0)</li><li>Wealth baseExpenditure (0)</li><li>Wealth costSavings (0)</li><li>Wealth totalExpenditure (0)</li><li>Wealth inhabitantsPoints (0)</li><li>Wealth laboratoriesPoints (0)</li><li>Wealth weaponsPoints (0)</li></ol>",
+    "secrets": "",
     "source": "custom",
     "page": 0,
     "indexKey": "",
@@ -291,7 +292,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -356,7 +356,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [],
   "effects": [],
@@ -369,12 +376,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1730959124699,
     "modifiedTime": 1731255710900,
-    "lastModifiedBy": "tBE5EmoIXLzf3maM"
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
   },
   "_id": "KxuDdnzyaQ0GP9Il",
   "sort": 0,

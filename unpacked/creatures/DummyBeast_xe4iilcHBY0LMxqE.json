@@ -18,6 +18,7 @@
         "value": 1200
       }
     },
+    "secrets": "",
     "source": "custom",
     "page": 0,
     "indexKey": "",
@@ -25,6 +26,7 @@
     "reviewer": "",
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -54,7 +56,16 @@
     "age": {
       "value": 21
     },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
     "characteristics": {
+      "int": {
+        "value": 0
+      },
       "cun": {
         "value": 0
       },
@@ -80,6 +91,24 @@
         "value": 0
       }
     },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
     "vitals": {
       "siz": {
         "value": 0
@@ -95,6 +124,14 @@
       "label": "Confidence ",
       "score": 0,
       "points": 0
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "abilities": [],
     "weapons": [],
@@ -146,7 +183,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -211,7 +247,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [],
   "effects": [],
@@ -226,12 +269,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1730959087531,
     "modifiedTime": 1731255710874,
-    "lastModifiedBy": "tBE5EmoIXLzf3maM"
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
   },
   "_id": "xe4iilcHBY0LMxqE",
   "sort": 0,

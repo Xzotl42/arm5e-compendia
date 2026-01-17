@@ -10,6 +10,8 @@
   - Added Elementalist alternate Arts
 - Macros
   - Fixed Stress die roll macro
+- Spells
+  - Fixed level of Image of the Wizard Torn
 
 ## Version 1.1.5
 
@@ -305,7 +307,6 @@ Verified for 13.350
 ## Version 0.9.8
 
 - Added compendium data from the standard edition
-
   - Abilities
   - Spells
     - Aquam
