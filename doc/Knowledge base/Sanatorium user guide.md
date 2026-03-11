@@ -36,7 +36,7 @@ The Sanatorium remembers which character it belongs to and registers itself on t
 
 ## Understanding the Interface
 
-![[SanatoriumUI.webp]]
+![](images/SanatoriumUI.webp)
 
 ### Top row — Roll modifiers
 
