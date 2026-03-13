@@ -1,5 +1,24 @@
 # Release notes
 
+## Version 1.1.8
+
+### Changes
+
+- User guide
+  - Active effects page reworked
+  - Settings page reworked
+- New Sanatorium user guide.
+- New journal about everything books related (by @KelpTheShark)
+
+### Compendia updates
+
+- Spells
+  - Ominous Levitation of the Weighy Stone - typo
+- Macros
+  - Fixed Stress die macro
+- Flaws
+  - Environmental Magic Condition is major
+
 ## Version 1.1.6
 
 ### Changes

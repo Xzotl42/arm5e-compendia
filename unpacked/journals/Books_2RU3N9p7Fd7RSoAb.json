@@ -1,0 +1,541 @@
+{
+  "name": "Books",
+  "pages": [
+    {
+      "sort": 600000,
+      "name": "Definition of Categories of Value",
+      "type": "text",
+      "_id": "EMmCrPVpxyB5ldoV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>It is, theoretically, possible for a peerlessly capable Hermetic teacher, writing in the best of circumstances, to create a summa with a Quality score of approximately (41 – Level).</p><p>In the history of the Order, this has never happened, but it might during your saga.</p><p>A very few summae, those most prized in the Order, are those that have been created by exceptionally powerful magi, with excellent Reputations, later in life. These books can have a Quality of (35 – level), particularly when techniques described in Covenants are used to enhance a particular copy.</p><p>Most of the summae traded within the Order are written by specialists in an Art, with no particular skill in teaching. These summae have a Quality somewhere between (31 – Level) and (28 – Level).</p><p>A few books are written by magi with weaker skills than these authors. These books are called \"vain summae\", because immodest people do not understand why their book, poor and weak as it is, should not sit alongside better work. These Summae have a Quality of (25 – Level) or below.</p><p>Discarded summae are usually damaged versions of the books above. They are stripped of their resonant materials before sale and usually have a Quality of between (18 – Level) and (15 – Level).</p><p>A tractatus written by a legendary teacher could, theoretically, have a Quality of around 17, but generally an excellent tractatus will have a Quality of around 14, a sound tractatus approximately 11, and a vain tractatus around 6. Damaged tractatus may have Quality scores as low as 1.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959902036
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.EMmCrPVpxyB5ldoV"
+    },
+    {
+      "sort": 650000,
+      "name": "Standard Texts",
+      "type": "text",
+      "_id": "zo07LyIn0pIAInCF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>For nine of the Arts, there is a basic text that, over time, has come to be accepted as the preferred primer for a magus seeking the competence necessary to train an apprentice. These texts, called the Roots of the Arts, are widely and cheaply available. A Redcap can arrange the delivery of any of these texts, for a very small consideration. These texts vary, but all have a Level of at least 7, and a Quality of at least 21.</p><p>Each troupe should decide which Arts have Roots based on the needs of their saga.</p><p>In eight of the Arts, there are summae that are widely accepted as the finest works yet produced. These works, called the Branches of the Arts, can be purchased by young covenants from those with established libraries, but this is unusual.</p><p>In the ritual of the Order it is accepted that these, purest, expressions of the Art should be given as gifts, because the information they contain is of such great value that they cannot be met in kind. It is, however, a delicate matter for a younger covenant to convince an older one to patronize them with such a valuable gift and, surreptitiously, they often offer payments and services in exchange for the gift of one of the summae.</p><p>Many magi seek to pen a standard text, but fail to produce a work that gains this highest level of acclaim. Many libraries contain these informative, but non-definitive, works. Some are excellent but lack the historical romance that has made foundational texts definitive in the minds of magi.</p><p>Two Roots of the Arts have been superseded, each time by a magus of renown and intelligence. The Branches of the Arts have changed over time, as Hermetic magic gradually increases its reach. For example, the Branch of Terram in 1220 is De Lapii, by Jeremias filius Guernicus, a Summa on Terram, Level 17, Quality 14.</p><p>Some of these titles hold such awe, however, that the works that replace them retain their titles and nominal authors. There are no standard tractatus, but dedicated students of various subjects consider certain texts worthy of particular note. These books are far rarer than the Roots and Branches, but can be accessed in libraries that specialize in the book‘s theme.</p><p>Certain magi consider the root and branch symbolism employed in the advertising of standard texts to be a vestigial druidical practice, and they refer to the Foundations and Pillars of the Arts.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959905598
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.zo07LyIn0pIAInCF"
+    },
+    {
+      "sort": 300000,
+      "name": "Writing Books Basics",
+      "type": "text",
+      "_id": "FrPEBWRwACb5ii8H",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A character must have a score of at least five in an Art, or at least two in an Ability, before she can write a useful book. She must also have a score of at least five in the language she wants to write the book in.</p><p>Books may be written about any Ability, including the Mastery Ability of an individual spell. Learning from books about practical Abilities requires the reader to practice as well as read.</p><hr /><p><strong>Summae</strong></p><p>Each summa is described by two factors: its Level, which represents how much knowledge is contained in it, and its Quality, representing how well it is written.</p><p>When a summa is started, the Level of the finished book is determined. The Level may be chosen freely by the author, up to half of her score in the appropriate Art or Ability. The quality of the summa is equal to the author's Communication + 6.</p><p>If the author chooses to set the Level of the summa below half her score, there is a bonus to the Quality. For an Art, the bonus is one point for every Level by which the summa is dropped. For an Ability, the bonus is three points for every Level. This bonus cannot exceed the base Quality of the summa, so the final Quality cannot be more than twice the sum of the author's Communication + bonuses from Virtues + 6.</p><p>Once the level is determined, writing commences. For every season spent writing, the character accumulates a number of points equal to his Communication + Language. When the total of points equals or exceeds the Level of the summa, for Arts, or five times the Level of the summa, for Abilities, the summa is complete. The Level of the book may not be changed midway through the writing (if the character improves the Art or Ability, for example). Once begun, the book must be finished at the initial Level or not finished at all.</p><hr /><p><strong>Tractatus</strong></p><p>It takes one season to write a tractatus. The Quality of a tractatus is equal to the author's Communication + 6.</p><p>A character may only write a total number of tractatus equal to half her score in an Ability or one fifth of her score in an Art, rounded up in both cases.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959843793
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.FrPEBWRwACb5ii8H"
+    },
+    {
+      "sort": 362500,
+      "name": "Copying Texts",
+      "type": "text",
+      "_id": "bJ668l1E4zzueA6t",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>A character may copy books carefully or quickly.</p><hr /><p><strong>Careful Copies</strong></p><p>Copying a tractatus carefully takes one season.</p><p>Every season that a character spends copying a summa carefully, she accumulates points equal to 6 + her Profession: Scribe score. When she has accumulated points equal to the level of an Art summa, or five times the level of an Ability summa, it has been copied.</p><p>A careful copy has the same quality as the original book.</p><hr /><p><strong>Quick Copying</strong></p><p>A character may copy books quickly at three times the rate. That is, she may make three copies of a tractatus (or one copy of each of three tractatus, and so on) in a season, or she gains 18 + 3 times her Profession: Scribe score points towards copying a summa.</p><p>Books copied quickly have a quality one lower than the book copied.</p><hr /><p><strong>COPYING CAREFULLY:</strong></p><p>1 tractatus per season, or 6 + Profession (Scribe) points towards a summa.</p><p><strong>COPYING QUICKLY:</strong></p><p>Three times as fast as careful copying, copy Source Quality is 1 lower than copied book.</p><hr /><p><strong>Corrupted Copies and How to Avoid Them</strong></p><p>Books copied by people lacking particular skills become corrupted. In the simplest case, the scribe omits small marks that are a vital part of the meaning because he thinks they are merely ink blots. In more complex cases, he 'corrects' parts of the text, creating gibberish. A corrupted text is useless.</p><p>A character must be able to read and write the language in which the book is written to copy it without corrupting it. However, a score of 3 in the language is sufficient to allow accurate copying.</p><p>A character must have a score of at least 1 in the relevant Realm Lore, or the appropriate Ability, to copy a text about a Supernatural Ability without corrupting it.</p><p>A character must have a score of at least 1 in Magic Theory in order to copy a book about the Hermetic Arts or Parma Magica without corrupting it. Scores in the Ability in question are no substitute in this case.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959851963
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.bJ668l1E4zzueA6t"
+    },
+    {
+      "sort": 500000,
+      "name": "The Book Trade",
+      "type": "text",
+      "_id": "ri5Ldh09gDwqVVkb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The Order of Hermes supports a vibrant book trade with two main branches: sale of finished books, and scribal hospitality. Sale of books occurs through the Redcap system, supplemented by exchanges that occur at Tribunal meetings. The use of magic to support the Redcap network is considered more fully in Houses of Hermes: True Lineages, page 101.</p><p>Scribal hospitality occurs when a magus is allowed to copy from the library of a covenant to which he does not belong. Hospitality is usually offered in exchange for a payment or service.</p><hr /><p>Many Hermetic books are sold through exchanges of letters, carried by Redcaps. Some Redcaps provide ancillary services to the book trade. Some assess goods for sale on behalf of distant clients, or act as neutral parties between a pair of interested vendors. A few act as procurers, finding desired materials for a small fee. House Mercere’s covenants also sometimes act as scribal centers. There are four main methods of postal sale.</p><hr /><p><strong>Sale by public offer</strong> occurs when covenants make known the catalog of books they have available, and invite buyers. Public offers often persist over lengthy periods. Some covenants, for example, provide their sodales with a list at each Tribunal meeting. Some public offers specify the price the seller requires, others invite negotiation.</p><hr /><p><strong>Sale by tender</strong> occurs when a covenant circulates the desire to possess a certain work, or books of a particular type, and invites contact by potential suppliers. These offers are usually accompanied by an indication of the price the covenant would consider fair, but it is not unusual for a potential seller to contact the tendering covenant and suggest an alternative method of payment.</p><p>Negotiation for sales by tender can be complex and protracted. It is common for several covenants to answer each call, and the tendering covenant may hold a glacial auction by mail, pressuring the sellers to reduce their price.</p><p>Covenants who do not wish to advertise their requirements can usually hire a Redcap to discreetly ask nearby covenants if they have a suitable book available.</p><hr /><p><strong>Sale by exchange</strong> occurs when a covenant advertises that it wishes to trade one class of text for a second class of text. This sort of barter can lead to extended negotiations, on delivery dates and confirmation of the quality of the copies to be traded by a third party trusted by both vendors. Even the choice of quality assessor is often a matter of haggling.</p><hr /><p><strong>Sale by subscription</strong> occurs when a magus announces his intention to create a spell or device and invites magi to pay, in advance, for access to a Lab Text when it becomes available. Some magi seeking subscriptions offer a flat price: for example, a pawn of vis per subscriber.</p><p>Other magi, performing more difficult and expensive research, sometimes encourage the formation of purchasing consortia by offering proportional payments. For example, a magus might agree to release his new Ritual in exchange for twenty-five pawns of vis.</p><p>Covenants spread across Europe may form a buying cartel, splitting the costs in various ways. These consortia are maintained by side agreements. For example a vis rich covenant may pay a large proportion of the price, in exchange for a series of political concessions, acts of assistance with vexing problems, and payments in kind. This allows poor, Spring covenants to join purchasing consortia.</p><hr /><p><strong>Books are often sold at Tribunal.</strong> Many of these sales are pre-arranged, by the methods that are described earlier, and completed at the Tribunal meeting, when each party has the opportunity to inspect the goods of their correspondent. Other covenants bring surplus copies to sell to whoever desires to buy. Many covenants, not wanting the possible expense of unsold stock, create exemplars and take orders during Tribunal for later delivery.</p><p>These books are prepared to a series of informal standards, with the finer books, intended to be used for study, commanding higher prices than those intended as originals, from which working copies are to be made.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959023838
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.ri5Ldh09gDwqVVkb"
+    },
+    {
+      "sort": 700000,
+      "name": "Pricing",
+      "type": "text",
+      "_id": "sdKQbVHo11nM3nQH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Many Hermetic books are sold under a condition called the Cow and Calf Oath. This refers to a ruling from the Hibernia Tribunal that has not been ratified by the Grand Tribunal. It is an agreement that the purchaser of the book will not sell, or freely give, copies without the seller's permission. Some magi approve of the Cow and Calf Oath, while others despise it.</p><p>The prices given later, aside from that for mundane books, assume the characters have sworn the Oath. Prices may be far higher for books that will rival their parents, and reduce the income of the original covenant.</p><hr /><p><strong>Mundane Books</strong></p><p>The mundane book market is a cash market. Any magus with a spare pound can obtain any standard text from a stationer in a large city. Less common books still cost a pound, but it takes a season for the stationer to arrange for a copy to be produced and delivered.</p><p>Cheaper versions, unbound and written on paper, are also available, for half a pound.</p><p>Commissioning books takes longer for covenants remarkably distant from civilization, or poorly served by the Redcaps.</p><hr /><p><strong>Books Concerning the Arts and Arcane Abilities</strong></p><p>The Hermetic book trade is essentially a barter market. Most covenants can create so much mortal money that it isn't valuable enough for them to use as a medium of exchange for rare items. This makes pricing books an art, subject to a lot of haggling.</p><p>The value of the book for sale, and of the things that might be traded for it, can be disturbed by events. A second magus might offer a similar book at any time, lowering the first book's value. A covenant might decide it has too much vis for one Art, and seek to trade it for others. This lowers the value of all vis of that Art, which would make a book's seller ask for more.</p><hr /><p><strong>Least Expensive Books</strong></p><p>The cheapest books available are damaged and discarded surplus books from major libraries. Inexpensive Hermetic books are not systematically produced for sale. Any established covenant could theoretically make them, but no established covenant needs them. There are few buyers for cheap books, and no covenant wastes the effort of creating a book on something that might not sell for years.</p><p>Characters wanting damaged and discarded books can often arrange for them to be added to other trades as sweeteners.</p><p>A covenant wanting to purchase damaged summae with vis can usually find a seller for about a pawn of vis per book, but could arrange other services instead.</p><p>It is unusual for a seller to have a pile of damaged tractatus to sell for a pawn of vis, but after a library flood or some similar calamity, a buyer might get somewhere between three and nine to the pawn, depending on the degree of damage.</p><hr /><p><strong>Vain Books</strong></p><p>Books of the second-lowest level of Quality exist because their authors chose to publish them, despite their comparative lack of worth. Such authors are usually proud of their books, and some give them as gifts to their friends and allies.</p><p>Characters can usually purchase vain summae for half their level in pawns of vis, less if the author is particularly susceptible to flattery. Vain tractatus cost about a pawn each.</p><p>Characters attempting to acquire a vanity book from someone other than its author often find that they must pay for it as if it were sound. The amount of labor and material involved in copying a book does not change simply because the buyer insists on a poor title, and the time taken to copy the poor book could instead be used to copy a good one for another buyer.</p><hr /><p><strong>Sound Books</strong></p><p>Books of the level of Quality that make up most Hermetic libraries are the most difficult to price. There are many possible sellers, so buyers have some opportunity to compare prices and force competition.</p><p>Generally, the lowest prices can be found at covenants that have staff permanently copying books. These charge a number of pawns of vis equal to the book's level, if the purchaser is willing to wait a season for the copy to be produced. A surcharge of up to 20% is added if there is a spare copy available for the impatient.</p><p>Sound tractatus cost around 2 pawns to order, or 3 for the impatient, but trade of equivalent, sound tractatus remains very common.</p><hr /><p><strong>Excellent Books</strong></p><p>Most books of the highest Quality cannot be purchased. Covenants receive them as gifts in exchange for exceptional service, and on the condition that the book will never be copied without the permission of the originating covenant, or magus.</p><p>The Cow and Calf Oath limits the distribution of some material, but is difficult to enforce.</p><p>House Bonisagus does allow magi to copy books of exceptional Quality, as part of its members' obligation under the Oath of Hermes. Durenmar does not sell copies of these texts, but does limit copying to one magus at a time, selected by the Primus's representative.</p><p>Durenmar uses a version of the Cow and Calf Oath to insist that copies of these finest works not be sold, because it is an insult to the authors of the book to value their work against mundane possessions. They may only be given, and with ceremony. There is little the Bonisagus magi can do to prevent the gift being a reciprocation, beyond social pressure.</p><p>House Tremere is eager to sell, or buy, copies of excellent books. A difficulty is that Coeris is an extraordinarily rich covenant, so simple offers of vis do not interest the Prima. In the past, she has accepted transfer of ownership over valuable vis sources in exchange for books. House Tremere takes the Cow and Calf Oath very seriously and sometimes champions it at the request of others.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959910338
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.sdKQbVHo11nM3nQH"
+    },
+    {
+      "sort": 350000,
+      "name": "Writing Books Extended",
+      "type": "text",
+      "_id": "PVr4rNXg0EKesArh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Maximum Summa Quality: Author’s Communication + 3 +1 for skilled scribe +1 for skilled binder + 1 for skilled illuminator + 3 (or less) due to mystical resonance + bonuses due to Virtues + bonus for writing to level less than half of Art score + 3 for non-magical subjects.</p><p>A summa may instruct a magus until his Art equals the book’s level. The effective maximum quality for Art summae is (35 – level), and most books have scores below this.</p><p>The quality bonus due to reducing a book’s level may not exceed 2 x (Communication + Virtue bonuses + bonuses due to skilled artisans + 3).</p><hr /><p>Maximum Tractatus Quality: Author’s Communication + 1 for skilled scribe +1 for skilled binder + 1 for skilled illuminator + 3 (or less) due to mystical resonance + bonuses due to Virtues + 3 for non-magical subjects.</p><p>The effective maximum quality for Art tractatus is 17, and most books have scores below this. A professional is considered to be skilled if she has a Profession score of 6 or more.</p><hr /><p>Mystically resonant materials add to quality in books on Arcane Abilities or Arts. A material is resonant if it appears on the Shape and Material Bonus Table (see ArM5, page 110) with a bonus appropriate to the text. Troupes may also judge other materials to be resonant.</p><p>Resonant materials add +1 to quality if they are purchased items, +2 if they are rare items only to be gained from stories. Clarification of a book using resonant materials (see below) adds a further +1, for a maximum possible bonus of +3.</p><hr /><p>Books about non-magical subjects (that is, subjects other than Arcane Abilities and Arts) are easier to make than mystical books, so they have an automatic +3 quality bonus. They may not have resonant materials.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959847756
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.PVr4rNXg0EKesArh"
+    },
+    {
+      "sort": 411719,
+      "name": "Modified Books",
+      "type": "text",
+      "_id": "5BvfMGP6Vhq7q32P",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Many Hermetic books have their quality compromised by a consideration, other than their use as a course of instruction, which influenced their author or construction.</p><hr /><p><strong>Damaged books</strong> are used because the covenant chooses not to accept the expense of repairing or replacing them. There are many sorts of damage that a book might suffer, most of which can be repaired by a skilled binder and scribe.</p><p>Magic is sometimes used to repair minor book damage. All books age over time, but the rate at which a book ages can be slowed by storage at constant temperature, with moderate humidity, in darkness.</p><p>A book that has deteriorated so far that it is no longer a codex, in a mystical sense, loses its quality bonus due to magical resonances. It also ceases to be a legitimate target for spells designed to affect books.</p><p>The statistical adjustments for damage vary enormously.</p><hr /><p><strong>Editions de luxe</strong> are usually created as gifts, particularly for nobles and churchmen.</p><p>These versions of books are decorated ostentatiously and are larger than usual. This makes them heavy, fragile, and unpleasant to study from, although they are beautiful expressions of the scribal arts.</p><p>The text is complete and other artisans can make working copies from these gorgeous books. An edition de luxe has its quality reduced by up to (Profession: Scribe + Profession: Binder + Profession: Illuminator) / 2, but the greater the reduction the more sumptuous, and suitable as a gift, the book becomes.</p><p>A related type is the treasure-bound book. This has the external features of an edition de luxe, but does not have the unusual internal decoration. Many Hermetic books that incorporate resonant materials are, to mundane scholars, treasure-bound editions.</p><hr /><p>An <strong>epitome</strong> was originally the finest, and final, work on a subject by a Hermetic author. In the modern Order, it refers to books that have been enchanted as magical items.</p><p>For the purposes of enchantment, a book has a material level of 2 and a size multiplier of 4. Books have many shape bonuses: some of these are +6 for changing thoughts, +6 for changing images within the book, +4 for numerology, and +3 for divination.</p><p>The resonant materials of an epitome are the only ones that may be used to assist in its enchantment as an item. Books on mundane subjects do not suffer this restriction.</p><hr /><p><strong>Ex libris</strong> books are cheap copies created by those libraries that allow large numbers of visitors or copyists. Ex libris versions lack resonant materials, as they are considered likely to be stolen, worn, or abused by readers.</p><p>Many are damaged, which reduces their quality, and those that require complicated repairs are often instead sold or given to young covenants.</p><hr /><p><strong>Exemplars</strong> are miniature books created as templates for distant scribes and illuminators. Exemplars are extremely cheap to make, and very easy to transport, compared to full-sized books. An exemplar has a –3 modification to quality.</p><hr /><p><strong>Flap-bound books</strong> have leather flaps instead of boards as their covers. They are usually smaller than books with board covers.</p><p>Their pages develop waves, since they lack a firm cover to provide pressure. Their covers are tied closed to prevent gaping.</p><p>Flap-bound books were popularized by Redcaps, are created in surprising numbers within the Order, and are sometimes used in lieu of exemplars.</p><p>A flap book has a quality modifier of –1 and cannot have resonant materials incorporated as cover ornamentation. As they age, flap books usually buckle, which damages them, further reducing their quality.</p><hr /><p><strong>Holographical books</strong> are those scribed by the author. These are usually poorly prepared, compared to those completed by a professional scribe.</p><p>Holographic books retain an arcane connection to their author for a year, although this is severed if the magus’s opinion, encapsulated in the book, changes. A season of study on the book’s subject, for example, destroys this connection.</p><hr /><p><strong>Huge codices</strong> are physically immense. Each contains vast amounts of information, often many books, but requires magic or assistants to turn the pages. The biggest codex in the Durenmar Library is a treatise on Mercurian rituals.</p><p>It is so large that its diagram for Wizard’s Communion, to be performed by between three and 12 magi, is life-sized, with the participants standing in designated circles upon the surface of the book.</p><p>A huge codex extremely expensive to create, but can be read normally if the wizard has magical methods or servants to compensate for its vastness. Scribes and illuminators prepare huge codices normally, provide they have assistants to turn the pages. Many huge books are epitomes.</p><p>Some huge works, called congregationals , are designed to be read by several magi simultaneously. A congregational has text commensurate with the book’s size — the reverse of an exemplar. Scribes and illuminators find these extremely easy to create, although the coloring is time-consuming. Several magi of similar Intelligence and talent can study from a congregational simultaneously, but these books are used, more often, as collections of communal casting tablets (see below).</p><hr /><p>Some covenants permit departing apprentices to make copies of minor works from their libraries. These copies, called <strong>Juvenilia</strong>, are poor study aids: they are transcribed swiftly as models for later, working copies of books.</p><p>Juvenile copies are scribed by apprentices (their typical lack of a Profession: Scribe score resulting in a –3 quality penalty), are not illuminated, and are usually not bound (no Profession: Binder bonus, no resonances).</p><p>A literate person may make 15 levels of juvenile copy in a season.</p><hr /><p><strong>Palimpsests</strong> are books that have had their original text scraped away so that their vellum can be reused. Hermetic palimpsests retain applicable resonances, and the +1 binding bonus, unless rebound.</p><p>The scraped text of a palimpsest often re-emerges, as the ink on the pages continues to darken. This creates a codex containing two texts, which overlap each other.</p><p>A reader may study either text, but the re-emergent text loses its +1 scribal bonus and has a quality penalty of –3. The newer text also has a quality penalty of –3.</p><hr /><p><strong>Unbound books</strong> are simply a series of sheets that have not been bound. Many copyists deliver books in this form to their clients, who then pay a binder to complete the work in the dress of their library. Unbound books lack resonances and are very easily damaged.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959875842
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.5BvfMGP6Vhq7q32P"
+    },
+    {
+      "sort": 368750,
+      "name": "Book Types",
+      "type": "text",
+      "_id": "Jmi9Cl2KyX6svkq7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>An opus is, literally, any work by an author. An opus’s type defines the style of book it is. The core rules detail summae and tractatus, which are expanded below.</p><hr /><p><strong>Commentaries</strong> are books about other books. A student may not study a commentary until he has studied the summa to which it relates for at least a season. Commentaries are written in the same way as tractatus, and purchased in the same way during covenant creation, but have a +1 quality bonus which does not affect their Build Point cost.</p><hr /><p><strong>Correspondences</strong> are collections of letters that focus on a subject, bound together in chronological sequence. A magus can participate in many correspondences, but can only gain benefit from one per season, which must be on a theme that is associated with the magus’s research or reading. Each magus must read the previous letter in the sequence, from his or her correspondent, before responding, and must receive at least one letter in a season to claim experience. A magus gains an extra experience point in each season in which he is engaged in useful correspondence.</p><p>Bound correspondences contain at least 24 topical letters from each magus, representing around two years’ worth of correspondence. These are read — and purchased at covenant creation — as tractatus with a quality equal to the sum of the two participants’ Communication scores.</p><p>Lengthy bound correspondences are useful as research materials, described below. If both correspondents were experts on a topic, and the collection contains at least one hundred and twenty letters from each, the collection’s value as a research aid increases one level. See the research rules.</p><hr /><p><strong>Florilegia</strong> (singular florilegium) are anthologies on a topic created by binding together tractatus on Arcane Abilities and Arts. Each tractatus is still read separately, but each gains a quality bonus to reflect its mystical interaction with surrounding texts.</p><p>The bonus depends on the editor who assembles the collection, and the materials with which he can work. An editor can only collect as many tractatus into a single florilegium as he could write on that subject (half his score in an Ability, one fifth of his score in an Art).</p><p>He must have access to a collection containing at least twice as many tractatus on the subject as he plans to include in the florilegium, and a score of at least six in the relevant Ability, or 20 in the relevant Art. If these minima are met, the tractatus all gain a +1 bonus to quality. The bonus increases to +2 if the editor is an insightful authority on the subject of the florilegium (has a score of at least 10 in the Ability, or 35 in the Art) and is working from a library with a peerless collection on a subject (having at least five times as many tractatus as the editor plans to include).</p><p>An editor may create as many florilegia as he wishes, but each assemblage takes a season. Florilegia express resonance, so their qualities cannot — yet — be improved with resonant materials or clarification, although young Bonisagus magi sometimes study this problem.</p><p>Florilegia are purchased, at covenant creation, as copies of the included tractatus, including quality bonuses for scribing, binding, and illumination.</p><hr /><p><strong>Folios</strong>: Every seven years, one society within House Bonisagus issues a publication, called a folio, that contains the best laboratory texts and tractatus presented for possible inclusion. More details can be found in the Folios section.</p><hr /><p><strong>Glossed books</strong> are those that have been written upon by a reader. Some glossers are skilled magi whose incisive observations make the book a superior study aid. The majority of glossers are simply vandals: their opinionated commentary, little jokes, and personal notes obscure and crowd the text.</p><p>Glossing, by a reader at least half as skilled as the book’s level and with a superior Communication score to the author, adds 1 to the quality of a book. It is performed during a season of reading.</p><p>Although books may be glossed many times, this does not improve their quality beyond the first point. Glossed texts are bought as books of equivalent quality during covenant creation.</p><hr /><p>An <strong>inspeximus</strong> is literally a book that has been re-read by its author to ensure accurate transcription, but in the Order the term is used for a book which the author has revisited after developing greater experience, and annotated to increase its study level.</p><p>A magus who annotates his summa takes one season to reread and gloss his work, which increases the level of his book by one-third of the difference between his current Art score and the Art score he had when he wrote the summa.</p><p>Many books lack sufficient page space to be annotated in this way, so the magus makes notes which a scribe then inculcates, usually in red ink, or offset from the page’s edge in a new codex. Inspeximuses are purchased at covenant creation as summae of their quality and level.</p><hr /><p><strong>Pictorial works</strong> are designed primarily for reference. A pictorial work requires at least a year’s work from an illustrator who is also a specialist in the skill that the work concerns, represented by scores of at least six in two appropriate Abilities. Pictorial works are purchased in batches, at covenant creation. A group of pictorial works raises the collection’s usefulness for research, in the rules given below, by one level. This costs ten points per Ability.</p><hr /><p><strong>Pamphlets</strong> are brief works, circulated unbound. They are not usually used as study aids. Hermetic magi sometimes dispatch them to encourage their sodales to support them in Tribunal.</p><hr /><p><strong>Primers</strong> are summae written for students of little skill, like apprentices. Calling a magus’s opus a primer is a deep insult, except if the work really was intended for inexperienced students.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959765420
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.Jmi9Cl2KyX6svkq7"
+    },
+    {
+      "sort": 371875,
+      "name": "Book Types: Casting Tablets",
+      "type": "text",
+      "_id": "pobVNP8eFF0M6tcq",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>A casting tablet</strong> contains a simple series of instructions for casting a particular spell. Magi who have not learned the spell’s intricacies through laboratory research may use a casting tablet instead.</p><p>Casting from tablets is dangerous, because the magus is calling on power that he cannot control accurately. Casting from tablets is also an inflexible style of spellcasting.</p><p>A magus casting from a tablet does not understand the spell’s workings, and so may not tinker with decisions made by the author. The Range, Duration, and Target of the spell; the exact amount and Art of raw vis consumed; and any single type of arcane connection to be used, are specified by the author at writing.</p><p>The author either designs the spell for ceremonial casting or for non-ceremonial casting. Spells cast from tablets do not have Penetration bonuses unless they are built into the spell’s level by the author.</p><p>Rituals may be cast from tablets. It is possible, but dangerous, for a magus with a tablet to lead a Wizard’s Communion. A botch by any member of the group causes the leader also to botch. An odd effect of casting from a tablet is that the sigil of the writer is preserved in the spell, and is visible along with the sigil of the caster.</p><p>When casting from a tablet, a magus determines his casting total according to the following formula, then subtracts the spell level from the casting total and looks up the result on the table that follows.</p><p>Casting Total: Stamina + Form + Technique + Aura + stress die (modified by Virtues, Flaws and requisites)</p><hr /><p>Casting Total – Spell Level Result</p><p>0 or more Spell cast, lose one Fatigue level.</p><p>–1 to –10 Spell cast, lose two Fatigue levels.</p><p>–11 o –20 Spell cast, lose three Fatigue levels.</p><p>–21 to –30 Spell cast, gain one Warping Point, lose four Fatigue levels.</p><p>–31 or less Spell not cast, gain Warping Points equal to the magnitude of the spell, lose five Fatigue levels. If the caster gains two or more Warping Points he must check for Twilight. (A magus with scores of zero in the Arts, negative Stamina, casting in a strong Divine aura, could have a penalty of more than 30 to his stress die.)</p><hr /><p>Magi can only author casting tablets for spells they have mastered, although magi can copy tablets written by others. A character spending a season as an author or copyist may create laboratory texts and/or tablets from the same pool of levels. Many options concerning casting, like range or vis use, are foreclosed by the author while writing the casting tablet. Casting tablets do not aid magi to learn spells the way laboratory texts do. Casting tablets purchased at covenant creation cost two Build points per five levels of spells.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772959798455
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.pobVNP8eFF0M6tcq"
+    },
+    {
+      "sort": 373438,
+      "name": "Book Types: Folios",
+      "type": "text",
+      "_id": "OmouhM5esaxJ7t2K",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Folios are collections of Laboratory Texts and tractatus compiled by the Colentes Arcanorum the season after the close of the Colloquium Delectorum. They are thick volumes containing many pages of parchment, and at a glace can be confused with a weighty summa. Rather than an encyclopedic examination of a single topic however, folios contain information about a variety of topics. </p><p>Having received submitted texts from other magi Bonisagi during the last seven years, the Colentes select the best submissions to include in the folio. Folios also include a smattering of information about the various authors, as well as the Colentes’s insights and opinions. Coveted by magi throughout the Order, folios provide a wealth of information in a single binding.</p><p>Once the Colentes have decided on the exact material to be included in a folio, they spend the next season compiling it, staying on at the covenant that held the Colloquium Delectorum. Folios are titled by the year in which they were made, ‘The Folio of 1123’, for example. Once completed the folio is taken to Durenmar, where it is copied three times. </p><p>The first copy is made for House Guernicus and sent to Magvillus in an overt display of House Bonisagus sharing its research. The second copy goes to the covenant that housed the Colentes during their season spent compiling, as reimbursement for their hospitality. The third copy is sent to Harco, domus magna of House Mercere. This copy circulates throughout the Order, carried from covenant to covenant by the Redcaps, along a predetermined route. Each covenant negotiates with House Mercere for their position on this waiting list, as well as for the length of time the folio stays. Naturally, the Redcaps charge for this service.</p><hr /><p><strong>Creating a Folio</strong></p><p>It takes a season to create a folio. The Colentes Arcanorum’s combined Magic Theory scores are the maximum total of Lab Text magnitudes and tractatus Qualities that can be included in a single volume. For example, if the 5 Colentes have a Magic Theory score of 7 each (including their Puissant Magic Theory Ability), the folio can have a total of 35 magnitudes of Lab Texts or tractatus Qualities.</p><p><em>Folios: Colentes combined Magic Theory = Sum of Lab Text magnitudes and/or tractatus Qualities</em></p><p>Once the total number of allowable items has been determined, individual texts are copied to the folio. The regular rules for copying Lab Texts and tractatus apply. Lab Texts are always submitted to the Colentes with the author’s abbreviations and shortcuts omitted, so that they are written understandably. </p><p>An individual Colens may either copy Lab Texts or tractatus. A Colens may copy 12 magnitudes of Lab Texts per point in Profession: Scribe into a folio. A Colens copying tractatus may copy them carefully or quickly, depending on the number of tractatus included. Since quick copying reduces the tractatus’ Quality by one, this is rarely done. </p><p>The Colentes Arcanorum receive Exposure experience for the season spent creating the folio, which can be placed in Magic Theory or Profession: Scribe.</p><hr /><p><strong>Reading Folios</strong></p><p>Essentially, a folio is nothing more than a collection of Lab Texts and tractatus, and the same rules used to read those materials still apply. Having a folio provides you with a handful of choices for your personal study. Each individual Lab Text or tractatus must be read for an entire season, just as if it was a stand alone text. </p><p>The Colentes Arcanorum include biographical data on the author as well as brief accounts of their opinion of the text. Once you have finished a particular item included in a folio, you receive one experience point in Order of Hermes Lore.</p><hr /><p><strong>Copying Folios</strong></p><p>Folios are combined copies of Lab Texts and tractatus, organized and edited by the Colentes. Once combined, they are easier to copy than their individual parts. Copying a folio is very much like copying a summa, and can be done carefully or quickly. </p><p>If a scribe is copying a folio carefully, he accumulates points equal to 6 + his Profession: Scribe score in a season. Once his accumulated  points equal the combined Magic Theory score of the Colentes Arcanorum who created the folio, the folio is copied. </p><p>If he copies the folio quickly, he gains 18 + 3 times his Profession: Scribe score in accumulated points per season. Quickly copying a folio will reduce the Quality of every included tractatus by 1 and delete the additional Order of Hermes Lore experience points. It will not affect the Lab Texts.</p><p></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772961038102
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.OmouhM5esaxJ7t2K"
+    },
+    {
+      "sort": 200000,
+      "name": "Writing and Copying",
+      "type": "text",
+      "_id": "L768SgvYJGKJQGPi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.L768SgvYJGKJQGPi"
+    },
+    {
+      "sort": 800000,
+      "name": "Libraries",
+      "type": "text",
+      "_id": "oSzdMnsyqir9HKs2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Hermetic scholars cannot be sure when the first magical library was founded. The Primus Fenicil of Guernicus, the Order’s most famous historian, claimed that the tradition of magic was eternal.</p><p>He confirmed that the Temple of Imhotep in ancient Egypt contained a library. Hermetic scholars are sure, however, that there is no collection with an unbroken history older than Durenmar.</p><p>The preceding traditions of the Order — the Cult of Mercury, druidism, and shapeshifting — did not have libraries in a style similar to that of Hermetic covenants, but nevertheless, their writings still interest Hermetic magi.</p><hr /><p><strong>Ancient Libraries</strong></p><p>The Cult of Mercury used religious ceremonies to cast magic. Legend records that Plentarch, Pontifex of the Pompeii Temple, collected these rituals in the second century and carved them into 38 golden tablets, which have been lost.</p><p>Two of these rituals have been adapted for use by the Hermetic magi, becoming the spells Vision of the Scrying Pool and Aegis of the Hearth. The rest were lost, although House Guernicus claims Fenicil rediscovered some of these rituals, which they retain to assist in the dispensation of Hermetic justice.</p><p>Hermetic magi scour Europe for traces of the Order of Mercury. They are certain that the other rituals would easily convert to Hermetic practice.</p><p>The druids did not have an equivalent to formulaic spellcasting, although they did cast great rituals. The Schism War obscured the druidical origin of Hermetic rituals. Many magi suggest that Calling the Council of Trees is a druidical spell, but Merinita magi claim it for their Founder. Some magi believe the pre-Hermetic druids did keep libraries, carved in Ogham at sacred sites, daubed on the walls of initiatory caves, and reflected in the songs of the faeries.</p><p>The magi of the Order cannot agree whether they should seek these spells.</p><p>Bjornaer learned magic orally. Her stories pass intact between generations in her House. Some of the Order’s weather and transformation rituals derive from ideas she gave to Bonisagus. A few of her descendants seek détente with the Pomeranian tradition, which still exists.</p><p>They fear their Founder rebelled against her tradition before she learned all of its rites.</p><p>Many magi search for the remains of other ancient libraries. The libraries of Trajan in Rome, Cleopatra in Egypt, and Eumenes at Pergamum might have contained magical rolls. Even if they lacked useful magical writing, they would still contain invaluable texts.</p><p>House Mercere, for example, has offered any magus five pawns of vis every year for 20 years in exchange for a complete copy of the lost Geographica by Ptolemy, whichgives the exact longitude and latitude for hundreds of legendary sites, many of which contain vis. Some magi feel that 100 pawns of vis is a paltry payment for such a treasure, but the Mercere point out that the finder could copy if first, then give it to them. When the race for the vis sources in Geographica begins, they want to start out at least an equal second.</p><hr /><p><strong>About Hermetic Libraries</strong></p><p>The earliest Hermetic libraries followed models provided by mundane society. Many Hermetic collections, however, were larger and more diverse than any mundane equivalent. The rise of the book trade in the 13th century, however, has given birth to mundane libraries that are similar in size to the larger Hermetic collections.</p><p>These libraries look similar to the Hermetic collections they postdate because they face similar problems with similar resources. Furthermore, some transmission of Hermetic methods of librarianship has occurred, possibly to the Church and nobility through interaction with House Jerbiton.</p><hr /><p><strong>Small Hermetic Libraries</strong></p><p>Small covenant libraries are similar to those of small monasteries. Such libraries usually contain only sufficient books for each magus to have something instructive to read. The library is shelved in a common room, for example the council chamber, or is stored in a book closet.</p><p>The amarius, or book closet, holds books flat and keeps the air around them dry, insulated, and dustless. Armarii can be locked, and usually have a list of their contents pasted upon them, to aid magi searching for particular books. Armarii are usually double-doored to limit the amount of floor space that must be kept free about them.</p><p>Mundane armarii each hold only a score of books, shelved with their front covers showing, but Hermetic magi shelve their books differently, which saves space. Small collections, or those which are regularly transported, are kept in chests instead.</p><p>The library of a small covenant is often near the council chamber for a second reason: it is the room most likely to have glazed windows. Magi have the ability to create smokeless, heatless light, but visitors to covenants usually lack this ability because of the Aegis of the Hearth.</p><p>It is convenient to place libraries where natural light is available. Librarians for collections of this size are usually responsible for a more important task to which the library is relevant, and take care of the books in the quiet moments of their primary profession.</p><p>Many monastic librarians, as an example, are precentors — choirmasters — who care for hymnals and by extension all other books. In small Hermetic covenants, the librarian is often the autocrat, the body servant of a senior magus, or an apprentice. They air the books occasionally, and fetch them for magi who do not wish to collect them personally.</p><p>If the library is kept in a room rather than a series of armarii, the librarian must also stoke the fire that warms the room, and dust.</p><p>In libraries large enough that a single row of armarii does not suffice, it becomes inconvenient to require the librarian to unlock each case before using a book. Mundane libraries of this size, which may be thought of as having between 100 and 500 books, use an architecture where each book is chained to a rod that runs across the top of a series of lecterns. The lecterns are sometimes arranged like the pews of a church, so that the back of each row of seats forms the lectern for the row behind it.</p><p>Other libraries save space by having their lecterns back to back, with a row of shared pews running between each lectern pair. This shape of furniture makes libraries obvious to those observing buildings, because each lectern pair is usually perpendicular to a window, so libraries have more, and narrower, windows than other rooms. Hermetic libraries use this system occasionally, but many covenants prefer an alcove system.</p><p>A book alcove is created by building a small room or corridor lined with shelves that are made by carving niches into the walls, then placing boards across the niches. Book alcoves can be kept warm with small fires or minor enchantments, which prevents the books from being damaged by the cold weather experienced in much of Europe. Some covenants use freestanding shelves instead of niches in the walls. These look bizarre to mundane people. The books in small libraries are usually fundamental or intermediate works in the subjects covered. The owners of small libraries are usually keen to expand their collections by trade, purchase, or less scrupulous methods of acquisition. Small libraries often have many more books on mundane subjects than magical ones.</p><hr /><p><strong>Medium Covenant Libraries</strong></p><p>The libraries of Summer covenants are similar to those of minor nobility. The library has its own room, which is well-ventilated but warm. The room has a series of niches around the walls, each containing books on a particular subject. These niches may have doors, which might lock, or might depend instead on the room being locked. The room is kept warm by fires, magic, or hypocausts.</p><p>The center of the room is sometimes a scriptorium or bindery. Some covenants, alternately, use the center of the room for their councils, or to keep mementos of their battles. Mundane theft is deterred by several methods, including locking the room, chaining the books to the shelves, placing curses over the doorways, and keeping a staff member permanently busy in the room.</p><p>The books in Summer covenants are usually informative texts on a broad range of Arts and mundane topics, surrounding a few treasures that are pride of the collection. These key holdings are rarely the result of trade. Many are the opuses of the founders of the covenant.</p><p>Others are riches seized from dangerous locations, or were constructed with materials obtained with great daring. Libraries of this size sometimes also contain voluminous lab notes written by the members of the covenant during years of research.</p><p>The covenant pays a person to care for the library. Her tasks include dusting, airing the books, and making minor repairs. This person may have a second responsibility that accompanies her role as librarian, but as the collection increases in size, it holds less of her attention.</p><p>Larger Summer libraries may have several staff, in multiple roles: bookbinder, copyist, illuminator, tanner, and apothecary.</p><hr /><p><strong>Large Hermetic Libraries</strong></p><p>The libraries of powerful Summer, many Autumn, and some Winter covenants are similar to those of cathedral schools or universities. Libraries that follow this model have the following characteristics, but some large libraries remain similar to those of Summer covenants.</p><p>The library is physically divided into smaller collections, by topic. These collections may share a single building, but more commonly are distributed around the covenant, close to the sancta of their most frequent users. The library has a central office, which stores the library’s catalog Large Hermetic libraries contain books whose subjects overlap.</p><p>Their materials include works of graduated complexity on many Arts. The books also include notes on obscure areas of magical practice. Autumn libraries contain the collected papers of famous magi that have passed away.</p><p>The collection appears disjointed because it serves many roles. The library is a teaching aid, with material suitable for apprentices and young magi. It is a research tool, with material suitable for senior magi. The collection is a source of income, with copying of mediocre texts by outsiders permitted, perhaps encouraged.</p><p>The library is an historical repository, a source of pride, and a display of power. Access to the library is a pawn in internal political struggles, and a way of showing favor to outsiders.</p><p>Libraries of this size have many staff. They perform all of the functions of the staff of smaller libraries, but the complexity of their collection requires an extra set of duties involving finding and retrieving materials for those who request them.</p><p>To do this, they catalog and shelve the library’s collection with a degree of precision not found elsewhere.</p><hr /><p><strong>Unique Hermetic Collections</strong></p><p>Many of the domus magnae have excellent libraries, focused on areas that fascinate their Houses.</p><p>The greatest collection of magical lore in Europe is housed at Durenmar in the Rhine Tribunal. It contains copies of most of the books written by Bonisagus magi, and many written by magi of other Houses.</p><p>The Library of Valnastium holds a vast collection concerning mundane arts, sciences, and theology.</p><p>The Library of Harco contains a useful melange of facts from across Europe, which assists House Mercere’s commercial efforts.</p><p>Many older covenants have libraries which, in their own particular fields, surpass all other collections.</p><hr /><p><strong>The Greater Collection</strong></p><p>The librarians who manage the Order’s largest libraries are aware that no single covenant can own every book. Only Durenmar tries. Most of the great libraries of the Order have mediocre materials on a broad range of subjects, but specialize in a single theme.</p><p>These libraries then grant each others’ researchers hospitality, under a variety of payment arrangements.</p><p>Young magi may benefit from this, because this coalition of powerful libraries sometimes gives aid to new covenants, in exchange for their promise to specialize in an area of weakness within the Greater Collection, as they call the sum of all Hermetic libraries.</p><p>Durenmar aids the efforts to build the Greater Collection. Its librarians see the Greater Collection as a spare copy of the, as yet incomplete, Durenmar Collection, from which damaged materials are recoverable.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1772960664846
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.0",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": -1
+      },
+      "_key": "!journal.pages!2RU3N9p7Fd7RSoAb.oSzdMnsyqir9HKs2"
+    }
+  ],
+  "folder": null,
+  "categories": [],
+  "ownership": {
+    "default": 0,
+    "Pw1GmsDOB9LWYsTh": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.0",
+    "createdTime": 1772967109563,
+    "modifiedTime": 1772967109563,
+    "lastModifiedBy": "Pw1GmsDOB9LWYsTh"
+  },
+  "_id": "2RU3N9p7Fd7RSoAb",
+  "sort": 0,
+  "_key": "!journal!2RU3N9p7Fd7RSoAb"
+}
