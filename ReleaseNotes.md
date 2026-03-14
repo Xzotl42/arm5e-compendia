@@ -1,5 +1,24 @@
 # Release notes
 
+## Version 1.1.8
+
+### Changes
+
+- User guide
+  - Active effects page reworked
+  - Settings page reworked
+- New Sanatorium user guide.
+- New journal about everything books related (by @KelpTheShark)
+
+### Compendia updates
+
+- Spells
+  - Ominous Levitation of the Weighy Stone - typo
+- Macros
+  - Fixed Stress die macro
+- Flaws
+  - Environmental Magic Condition is major
+
 ## Version 1.1.6
 
 ### Changes
@@ -10,6 +29,8 @@
   - Added Elementalist alternate Arts
 - Macros
   - Fixed Stress die roll macro
+- Spells
+  - Fixed level of Image of the Wizard Torn
 
 ## Version 1.1.5
 
@@ -305,7 +326,6 @@ Verified for 13.350
 ## Version 0.9.8
 
 - Added compendium data from the standard edition
-
   - Abilities
   - Spells
     - Aquam

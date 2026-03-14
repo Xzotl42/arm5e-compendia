@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "demonic-steed",
@@ -95,7 +96,16 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 2 pawns of Animal, in hooves.<br><strong>Appearance:</strong> A fearsome black stallion with bloodshot eyes, fangs in its mouth, and hooves of iron.</p></div><div class=\"el-p\"><p dir=\"auto\">This horse is one of three created by an Infernalist magus in a tribunal at the fringes of the Order by repeated applications of a tainted version of <em>Steed of Vengeance</em> (Muto Animal Level 35). There were many failures before he successfully created these three corrupted beasts. Because the spell is well-known, he is able to use the steeds in front of other magi with impunity.</p></div>",
     "characteristics": {
@@ -340,6 +350,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -520,12 +531,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!mb86lDdzeSA5dmCe.pyyCripqQZOCWqRL"
     },
@@ -562,12 +574,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "CABujjRUmiTFQ6sA",
@@ -612,12 +625,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "Dw8qxrXewPSKOI4D",
@@ -721,12 +735,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.343",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.4.0.29",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -761,12 +776,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "QOIIjUXhr1nLJLiy",
@@ -808,12 +824,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "YTGc8xg1CCG20iU7",
@@ -855,12 +872,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "XwOh5akgyjxNE2dG",
       "_id": "UDhJ0JZ0CXHr5OOv",
@@ -902,12 +920,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "dOmBaQtua9gfVp5r",
@@ -944,12 +963,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!mb86lDdzeSA5dmCe.G0eLpKRBVM1iWV9d"
     },
@@ -979,12 +999,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!mb86lDdzeSA5dmCe.XFJRn4dzYa1L3F98"
     },
@@ -1035,12 +1056,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": 1761251821147,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_id": "OEvqZEPWcEQ8h66D",
       "sort": 1400000,
@@ -1079,12 +1101,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.virtues.Item.5BXGd56zod2zfFRA",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": 1761252112924,
         "modifiedTime": 1761252112924,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_id": "kVsuNaJSvr252fR2",
       "sort": 0,
@@ -1114,7 +1137,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -1179,7 +1201,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [],
   "ownership": {
@@ -1192,12 +1221,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.4.0.29",
     "createdTime": 1761251587636,
     "modifiedTime": 1761251671421,
-    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
   },
   "_id": "mb86lDdzeSA5dmCe",
   "sort": 200000,

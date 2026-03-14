@@ -11,12 +11,22 @@
         3
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "X1di4cnx4DsZ2A8n",
-      "text": "The spell or effect is reduced in range, duration, target, or potency",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The spell or effect is reduced in range, duration, target, or potency",
+      "name": "",
       "_key": "!tables.results!ucnhXS4WqqscQllG.X1di4cnx4DsZ2A8n"
     },
     {
@@ -27,12 +37,22 @@
         6
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "yO3WxOdRnsRkIGqA",
-      "text": "The spell or effect’s range, duration, target, or potency is increased",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The spell or effect’s range, duration, target, or potency is increased",
+      "name": "",
       "_key": "!tables.results!ucnhXS4WqqscQllG.yO3WxOdRnsRkIGqA"
     },
     {
@@ -43,12 +63,22 @@
         8
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "bAcPf033VRe29jHJ",
-      "text": "The use of the spell or effect is restricted.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The use of the spell or effect is restricted.",
+      "name": "",
       "_key": "!tables.results!ucnhXS4WqqscQllG.bAcPf033VRe29jHJ"
     },
     {
@@ -59,12 +89,22 @@
         10
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "yovMzdZqnbzL0E1g",
-      "text": "The actual effect of your experiment is modified.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The actual effect of your experiment is modified.",
+      "name": "",
       "_key": "!tables.results!ucnhXS4WqqscQllG.yovMzdZqnbzL0E1g"
     },
     {
@@ -75,12 +115,22 @@
         20
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "CqkOSJoDQ2Yzb4IS",
-      "text": "The actual effect of your experiment is changed com\u0002pletely, save that the relevant Technique and Form remain unchanged, and the level remains similiar",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "The actual effect of your experiment is changed com\u0002pletely, save that the relevant Technique and Form remain unchanged, and the level remains similiar",
+      "name": "",
       "_key": "!tables.results!ucnhXS4WqqscQllG.CqkOSJoDQ2Yzb4IS"
     }
   ],
@@ -92,23 +142,24 @@
     "ErQ613O32LNYb71L": 3
   },
   "flags": {
-    "exportSource": {
-      "world": "ars-magica",
-      "system": "arm5e",
-      "coreVersion": "10.303",
-      "systemVersion": "2.1.0.14"
-    },
     "core": {}
   },
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "12.324",
+    "coreVersion": "13.351",
     "createdTime": 1689068936815,
     "modifiedTime": 1712088567153,
     "lastModifiedBy": "ErQ613O32LNYb71L",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ars-magica",
+      "uuid": null,
+      "coreVersion": "10.303",
+      "systemId": "arm5e",
+      "systemVersion": "2.1.0.14"
+    }
   },
   "formula": "1d10",
   "_id": "ucnhXS4WqqscQllG",

@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "bordelon-a-personal-tormentor",
@@ -95,7 +96,16 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Weakness:</strong> Protected Group (red–haired women)<br><strong>Vis:</strong> 3 pawns of Mentem, in hair.<br><strong>Appearance:</strong> Bordelon appears as a stern–faced old woman, with hair tied back in such a tight bun that it distorts her face. Her small horns are hidden within this hair. Her skin is mottled with liver–spots, and she wears an austere gown which covers her cloven hooves and forked tail. She affects the demeanor of a stern governess. She carries a switch of willow bound with leather, which she wields with expert ability to inflict the most pain.</p></div><div class=\"el-p\"><p dir=\"auto\">Bordelon believes that meekness is a virtue, and that those who strive to better themselves are victims of pride. Her goal is to crush all ambition and prevent those whom she watches from committing the very sin of Satan himself. Bordelon chooses a child early on in his life, and becomes his personal tormentor (granting the Story Flaw Plagued by a Demon). The child soon learns that the demon's periodic appearances are more frequent whenever he tries to distinguish himself from his peers, so her victims tend to become withdrawn, unambitious and meek. Whenever her victim acts in a way that would grant a Confidence point due to increased self-worth, he can expect a visit from Bordelon to punish the presumption.</p></div>",
     "characteristics": {
@@ -336,6 +346,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -520,12 +531,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.R8aDZDVbAEisMF4t"
     },
@@ -559,12 +571,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.vCN7OiDBR8NNzUCz"
     },
@@ -598,12 +611,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": 1760882318569,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.8dBDRaNbkwSdLDAJ"
     },
@@ -637,12 +651,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.Wr1OGeHHevLbfnh9"
     },
@@ -679,12 +694,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "HfawY9db6wqbwXK8",
@@ -729,12 +745,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "Uh7ZiHdsWW2PjSJl",
       "_id": "AeuQnzWVFXQWp96Y",
@@ -777,12 +794,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "YrJWJsX74RaUi6ga",
@@ -840,12 +858,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.343",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.4.0.28",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -880,12 +899,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "tn8jkvNg2KMMAzjw",
@@ -922,12 +942,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.fKa2GJdMzYtmDIBb"
     },
@@ -957,12 +978,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.lBTLL3KNyGPoeEOC"
     },
@@ -992,12 +1014,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.X9K4m8Al4UWfJXF4"
     },
@@ -1031,12 +1054,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760882331643,
         "modifiedTime": 1760882334423,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.Sm5rkMV7BVBThOIp"
     },
@@ -1070,12 +1094,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.22piQPXnfNuNbpmM",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760882344270,
         "modifiedTime": 1760882352654,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.FpffM3wQEFqIJOAR"
     },
@@ -1126,12 +1151,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760882506038,
         "modifiedTime": 1760882545338,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!P8aeDi9wiIn2xJat.EDz5iFl7uTwICfxR"
     }
@@ -1159,7 +1185,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -1224,7 +1249,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -1274,12 +1306,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.30",
         "createdTime": 1761469069371,
         "modifiedTime": 1761469084532,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.effects!P8aeDi9wiIn2xJat.lpK32qg38XHWudHB"
     }
@@ -1292,12 +1325,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.4.0.28",
     "createdTime": 1760881898195,
     "modifiedTime": 1761251587732,
-    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
   },
   "_id": "P8aeDi9wiIn2xJat",
   "sort": 300000,

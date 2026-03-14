@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "baal-peor-lord-of-filth",
@@ -95,7 +96,16 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Weakness:</strong> Running water<br><strong>Vis:</strong> 6 pawns of Perdo, in tongue<br><strong>Appearance:</strong> Baal-Peor appears as an immensely fat naked man, with rolls of flab cascading down his body. He is completely hairless, and has a repulsive, snake–like tongue. He wears a serpent wrapped around his girth like a belt, and its head is usually draped over his shoulder.</p></div><div class=\"el-p\"><p dir=\"auto\">Baal-Peor (or Belphegor) is a demon of wealth. He creates discord by moving mortal riches in disruptive ways (using the <em>Wealth of Nations</em> power). He gives money to the vulnerable, so that the strong are tempted to take it. He gives the possessions of the powerful to others. This tempts the recipients to keep their stolen treasures, and rouses the powerful to recover them by force.</p></div><div class=\"el-p\"><p dir=\"auto\">Baal-Peor was worshipped, in ancient times, less as a wealth-god than as an embodiment of the desire to consume everything and transform it into vileness. His title, \"Lord of the Openings\" describes him: an unfillable mouth leading to a ceaseless defecation. Priests and pilgrims used the space before his statue as a latrine, as a form of worship. Baal-Peor, it is said, was sent by his masters to seek the truth of rumors that humans lived in marital bliss. He tried to live as a woman, but was so disgusted by marital relations that he fled back to Hell.</p></div>",
     "characteristics": {
@@ -343,6 +353,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -539,12 +550,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": 1760880676242,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.lizHZazFxFaZXG4W"
     },
@@ -578,12 +590,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": 1760880734107,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.PM7QHaDcGqlx8IZd"
     },
@@ -613,12 +626,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": 1760880219517,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.FxwZCtKKoXC8mjco"
     },
@@ -648,12 +662,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": 1760880260541,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.85Nj844YUTOL7qvG"
     },
@@ -683,12 +698,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": 1760880276827,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.nt0YXFhhAD6QgmWP"
     },
@@ -725,12 +741,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.GhxO6KomdJ7lO7qc",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "RFwx3qCrd6CJ4GDo",
       "_id": "RSB3z4U2Z4any42F",
@@ -775,12 +792,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.gDKigulrSOhX1Vh7",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "etAD8WMDPfbIBCyt",
@@ -825,12 +843,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.kpqiCnq9iu9jueyj",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "RFwx3qCrd6CJ4GDo",
       "_id": "ggiq2ErPSIYHRNUD",
@@ -869,12 +888,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880287553,
         "modifiedTime": 1760880307782,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.WZYBtStNY86qXcgp"
     },
@@ -905,12 +925,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880316921,
         "modifiedTime": 1760880323322,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.Jg9IpYBf1qRPfwyt"
     },
@@ -947,12 +968,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.9ocsdOchuGNtv9nH",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880349110,
         "modifiedTime": 1760880365741,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "TdRVpTasDzLDRQIH",
@@ -997,12 +1019,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.jNc8xBPcrQUJlGkN",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880397650,
         "modifiedTime": 1760880403510,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "Ku86xoVh78FXIgLr",
       "_id": "G51lIE5pXanzfwtw",
@@ -1047,12 +1070,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.GkZeM6xhRgKdFQzu",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880417756,
         "modifiedTime": 1760880427050,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "ZBtaQ8ZbHyMbNHfs",
@@ -1097,12 +1121,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.xww0Cs8dYQi4Kk5A",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880440605,
         "modifiedTime": 1760880452829,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "RFwx3qCrd6CJ4GDo",
       "_id": "F7of70lYLzVmZqgQ",
@@ -1147,12 +1172,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.MlKq5NOn1CuEy1OG",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880469254,
         "modifiedTime": 1760880479805,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "2WVq3rZBGRxGccwM",
@@ -1194,12 +1220,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880557812,
         "modifiedTime": 1760880571497,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.xKEI3Y8GkEjxfVLn"
     },
@@ -1233,12 +1260,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.22piQPXnfNuNbpmM",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880577990,
         "modifiedTime": 1760880603101,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.goOXnL0WWfVkswMz"
     },
@@ -1272,12 +1300,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880747942,
         "modifiedTime": 1760880795729,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.bOiDIilBo2QXsycu"
     },
@@ -1311,12 +1340,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880812905,
         "modifiedTime": 1760880885004,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.NiS8dFTtGwdW59sl"
     },
@@ -1350,12 +1380,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.creatures.Actor.cDZTKnEZMMxWP5Ph.Item.uoFF5PsehaqTmtwI",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760880925444,
         "modifiedTime": 1760880964739,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.M3f5D936xfJYfzrQ"
     },
@@ -1388,12 +1419,13 @@
       "_stats": {
         "compendiumSource": "Item.Lz0wfysKx5FDXlga",
         "duplicateSource": "Item.rWbZH2DAk0NXER3N",
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760881053928,
         "modifiedTime": 1760881099721,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_id": "yLrWDJ9ZYtYAlg72",
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.yLrWDJ9ZYtYAlg72"
@@ -1445,12 +1477,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.343",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.4.0.28",
             "createdTime": null,
             "modifiedTime": 1760881399794,
-            "lastModifiedBy": "6SdI10VpXHcBvx2J"
+            "lastModifiedBy": "6SdI10VpXHcBvx2J",
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -1485,12 +1518,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.flaws.Item.3NUTVZLNMeA4yZxY",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760881152829,
         "modifiedTime": 1760881152829,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "UfPp46NPMX0jIrJv",
       "_id": "p8AhkJv1JfuTEH8b",
@@ -1532,12 +1566,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.flaws.Item.fJEO7C5bS2oMb0kT",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760881192263,
         "modifiedTime": 1760881214746,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "bz0zTiMt6vpLpBEO",
       "_id": "ipBGJbp0KpIrOL6O",
@@ -1596,12 +1631,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.HKM1VZb46FfyVtsS",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760881258710,
         "modifiedTime": 1760881652196,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.QRuKYY0x5F2fO9yY"
     },
@@ -1652,12 +1688,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.28",
         "createdTime": 1760881448370,
         "modifiedTime": 1760881622570,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.items!nAHgwVW4Xqf3kpBa.ne2gcXuh4umV9NEd"
     }
@@ -1685,7 +1722,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -1750,7 +1786,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -1800,12 +1843,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.30",
         "createdTime": 1761468560012,
         "modifiedTime": 1761469148430,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.effects!nAHgwVW4Xqf3kpBa.kI0ciZmmjK8rANiH"
     }
@@ -1818,12 +1862,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.4.0.30",
     "createdTime": 1760880195772,
     "modifiedTime": 1761469153291,
-    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
   },
   "_id": "nAHgwVW4Xqf3kpBa",
   "sort": 400000,

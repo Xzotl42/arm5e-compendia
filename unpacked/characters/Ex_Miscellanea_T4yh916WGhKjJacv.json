@@ -53,12 +53,12 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "ex-miscellanea",
     "review_status": "reviewed",
     "reviewer": "xzotl",
-    "creationMode": true,
     "age": {
       "value": 25
     },
@@ -77,19 +77,36 @@
     },
     "realms": {
       "magic": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "faeric": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "divine": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       },
       "infernal": {
-        "aligned": false
+        "aligned": false,
+        "susceptible": false
       }
     },
-    "pendingCrisis": false,
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
+    },
     "biography": "<p>This Ex Miscellanea tradition grants the Virtues Giant Blood and Affinity with Terram, and the Flaw Necessary Condition: Touching Stone. The stone in question can be a piece of stone worn on a belt, for example, but it must be at least the size of the magus's hand (the magus has big hands). The magus doesn't have his full allowance of Flaws, so you can take another Major Flaw, or three more Minor, and corresponding Virtues.</p>",
     "characteristics": {
       "int": {
@@ -125,6 +142,17 @@
         "aging": 0
       }
     },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
     "vitals": {
       "siz": {
         "value": 0
@@ -157,6 +185,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -480,6 +509,8 @@
       "dtype": "String",
       "value": "A flash of blue light."
     },
+    "creationMode": true,
+    "pendingCrisis": false,
     "personalities": {
       "0": {
         "name": "Patient",
@@ -588,12 +619,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "MFmQaq0D86Q5BsQv",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -669,12 +701,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "XFd6tWizCkyHAILA",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -750,12 +783,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "fSEepJRrrCyr16iW",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -831,12 +865,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "PM6S9ZurETMCLuQ2",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -912,12 +947,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "mA57x3VtizxmtpPx",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -993,12 +1029,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "XduWd16hWBMfGQAc",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -1042,12 +1079,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "18CnPWalm0cQ8F2a",
@@ -1091,12 +1129,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "RFwx3qCrd6CJ4GDo",
       "_id": "epppEiEls6cSNQPU",
@@ -1172,12 +1211,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_id": "FVD5c9VbOu51Y0tA",
       "folder": "Cy6JvysNx2CNSwuF",
@@ -1221,12 +1261,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "Rmnwwd9oZd2NoQJd",
@@ -1270,12 +1311,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "Ku86xoVh78FXIgLr",
       "_id": "xlTB6TcQVzJt0vW0",
@@ -1319,12 +1361,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "RFwx3qCrd6CJ4GDo",
       "_id": "W2ZWEoHmymjYTlom",
@@ -1368,12 +1411,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "Ku86xoVh78FXIgLr",
       "_id": "OSuCUTfgAqGzMu1Z",
@@ -1417,12 +1461,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "MJT8S16Yiaz9yDbZ",
@@ -1466,12 +1511,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "Ku86xoVh78FXIgLr",
       "_id": "p8a95WlFfqqAQWM9",
@@ -1530,12 +1576,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.3.2.11",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -1569,12 +1616,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "umvpyTZt5f5tEdND",
       "_id": "4j4zHkqqXCz4C0qq",
@@ -1618,12 +1666,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "tH8OnJh1M9NMPAgS",
@@ -1700,12 +1749,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.3.2.11",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -1739,12 +1789,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jyD9OjMnXTZeke24",
       "_id": "iO04OaHDulwxZuD8",
@@ -1788,12 +1839,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "Ku86xoVh78FXIgLr",
       "_id": "qjxzaKS7mbkx7NGX",
@@ -1835,12 +1887,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "ryEkrZYbf9tQGIrO",
       "_id": "86AzveDIwMQ6eRvZ",
@@ -1882,12 +1935,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "C8jqPqfblXk6hGCE",
       "_id": "XvzJ4Bw4qW2FjFfF",
@@ -1929,12 +1983,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "epW5rqBVPMooELYP",
@@ -1978,12 +2033,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "KjKTOpJ68HOHHBqs",
@@ -2042,12 +2098,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.3.2.11",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -2081,12 +2138,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "jegZHVtv21smauPD",
       "_id": "j4z6IZbSyxBoAN3e",
@@ -2128,12 +2186,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "bz0zTiMt6vpLpBEO",
       "_id": "jCZ5tLOPBzMuWO24",
@@ -2193,12 +2252,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.3.2.11",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -2232,12 +2292,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "C8jqPqfblXk6hGCE",
       "_id": "rfePY1sD5nE821VI",
@@ -2279,12 +2340,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "HvyHCuxjJNI5yJoA",
       "_id": "YrJZN1KqsPFvHPHj",
@@ -2348,12 +2410,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.3.2.11",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "_key": "!actors.items.effects!T4yh916WGhKjJacv.lkjydcBHL0St4A8F.y9cNmjCHo962WaDN"
         }
@@ -2383,12 +2446,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "8FTSMAxaThguRoxc",
       "_id": "lkjydcBHL0St4A8F",
@@ -2447,12 +2511,13 @@
           "_stats": {
             "compendiumSource": null,
             "duplicateSource": null,
-            "coreVersion": "12.331",
+            "coreVersion": "13.351",
             "systemId": "arm5e",
             "systemVersion": "2.3.2.11",
             "createdTime": null,
             "modifiedTime": null,
-            "lastModifiedBy": null
+            "lastModifiedBy": null,
+            "exportSource": null
           },
           "img": "icons/svg/aura.svg",
           "type": "base",
@@ -2486,12 +2551,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "C8jqPqfblXk6hGCE",
       "_id": "oOHcCtLRcvw4Z6id",
@@ -2528,12 +2594,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!T4yh916WGhKjJacv.hASJiVr9aCEihZLJ"
     },
@@ -2567,12 +2634,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "CoxB6DSMq2bRMl47",
       "_id": "BWLWdn9hDjhpdvWq",
@@ -2609,12 +2677,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!T4yh916WGhKjJacv.R2DIs5r7i5EnNao2"
     },
@@ -2643,12 +2712,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!T4yh916WGhKjJacv.zU7B9LUZqfblErGh"
     },
@@ -2687,12 +2757,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!T4yh916WGhKjJacv.XWYqEI7CzO1CvdwR"
     },
@@ -2721,12 +2792,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!T4yh916WGhKjJacv.aDThbMJd9irsbzfc"
     },
@@ -2760,12 +2832,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "folder": "MY0pk5xRqPANrebl",
       "_id": "pwoUaf6L94SZ44BW",
@@ -2800,7 +2873,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -2865,7 +2937,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [],
   "folder": "SMUZOLmSflTI5SBb",
@@ -2877,12 +2956,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
     "createdTime": 1732952153082,
     "modifiedTime": 1732958482061,
-    "lastModifiedBy": "wUH1ww0o0zQEBtKr"
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "exportSource": null
   },
   "_id": "T4yh916WGhKjJacv",
   "sort": 600000,

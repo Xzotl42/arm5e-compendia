@@ -53,6 +53,7 @@
         "value": ""
       }
     },
+    "secrets": "",
     "source": "ArM5Def",
     "page": 0,
     "indexKey": "gydryty-kom-the-giant",
@@ -95,7 +96,16 @@
     "states": {
       "pendingCrisis": false,
       "creationMode": true,
-      "confidencePrompt": false
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
     },
     "biography": "<div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> When he is banished his tongue remains, and contains 8 pawns of Auram Vis.</p></div><div class=\"el-p\"><p dir=\"auto\">Gydryty-kom is the master of hail, a giant who can stretch his mouth from the ground to the clouds. He swallows storms and lightning, but grows angry when summoned because it interrupts his eternal battle with a Daimonic snake of fog that threatens to swallow the world. Gydryty-kom was once highly regarded in the lands of the Albanians, but his power has faded thanks to Christianity.</p></div><p><strong>To review</strong></p><ul><li>No \"Abilities\" field</li><li>No \"Virtues and Flaws\" field</li></ul>",
     "characteristics": {
@@ -336,6 +346,7 @@
     },
     "fatigueTotal": 0,
     "fatigueCurrent": 0,
+    "longTermFatigue": 0,
     "fatigue": {
       "fresh": {
         "amount": 0,
@@ -520,12 +531,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!7nSXTnobEcrj9wJi.94EEmoek91WCovsh"
     },
@@ -555,12 +567,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!7nSXTnobEcrj9wJi.uaWdtJ4PU1xjoinA"
     },
@@ -590,12 +603,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!7nSXTnobEcrj9wJi.2zBzvSs8tulvB75J"
     },
@@ -625,12 +639,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "exportSource": null
       },
       "_key": "!actors.items!7nSXTnobEcrj9wJi.BM1dMJnDlz0Prho8"
     },
@@ -662,12 +677,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": 1761292850965,
         "modifiedTime": 1761292850965,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_id": "ABR8w8fkrtO04BKX",
       "sort": 200000,
@@ -706,12 +722,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.gDKigulrSOhX1Vh7",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": 1761292901574,
         "modifiedTime": 1761293080689,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "folder": "adQkl7QaQHRah9iT",
       "_id": "9tVLwApJFDmbaTR1",
@@ -770,12 +787,13 @@
       "_stats": {
         "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.8vsnjFvwA01cMolg",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.29",
         "createdTime": 1761292959823,
         "modifiedTime": 1761293095719,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_id": "q6H8H0xciqpd9E8q",
       "sort": 1300000,
@@ -809,7 +827,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -874,7 +891,14 @@
       }
     },
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "effects": [
     {
@@ -924,12 +948,13 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.351",
         "systemId": "arm5e",
         "systemVersion": "2.4.0.30",
         "createdTime": 1761469732769,
         "modifiedTime": 1761469750676,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
       },
       "_key": "!actors.effects!7nSXTnobEcrj9wJi.tCDvn0EOuMUZrPzz"
     }
@@ -944,12 +969,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.4.0.29",
     "createdTime": 1761292666405,
     "modifiedTime": 1761893762164,
-    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
   },
   "_id": "7nSXTnobEcrj9wJi",
   "sort": 1200000,

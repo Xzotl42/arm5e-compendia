@@ -2,82 +2,7 @@
   "name": "Guardian Angel",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
-  "effects": [
-    {
-      "origin": "Compendium.arm5e-compendia.virtues.Item.8asRa5jEKfKewF3c",
-      "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "disabled": false,
-      "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.bonuses.traits.soak",
-          "value": "5",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "mode": 2,
-          "key": "system.bonuses.arts.magicResistance",
-          "value": "15",
-          "priority": null
-        },
-        {
-          "key": "system.realms.divine.aligned",
-          "value": "true",
-          "mode": 5,
-          "priority": null
-        }
-      ],
-      "flags": {
-        "arm5e": {
-          "type": [
-            "vitals",
-            "formMagicResistance",
-            "realm"
-          ],
-          "subtype": [
-            "soak",
-            "magicResistance",
-            "divine"
-          ],
-          "option": [
-            null,
-            null,
-            null
-          ],
-          "hidden": false
-        }
-      },
-      "name": "Guardian angel",
-      "img": "icons/svg/aura.svg",
-      "_id": "EpbGk57mDZ0ucYEC",
-      "type": "base",
-      "system": {},
-      "description": "",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "arm5e",
-        "systemVersion": "2.4.1.13",
-        "createdTime": 1767428119749,
-        "modifiedTime": 1767601567016,
-        "lastModifiedBy": "6SdI10VpXHcBvx2J"
-      },
-      "_key": "!items.effects!8asRa5jEKfKewF3c.EpbGk57mDZ0ucYEC"
-    }
-  ],
+  "effects": [],
   "flags": {
     "core": {},
     "cf": {
@@ -102,12 +27,13 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729316634167,
     "modifiedTime": 1731255711119,
-    "lastModifiedBy": "tBE5EmoIXLzf3maM"
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
   },
   "folder": "jyD9OjMnXTZeke24",
   "_id": "8asRa5jEKfKewF3c",

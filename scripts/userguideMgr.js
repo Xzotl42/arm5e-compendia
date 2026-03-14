@@ -6,17 +6,22 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 /**
- * Recursively collect all .md files under `dir`.
+ * Recursively collect all .md files under `dir`, skipping any file
+ * whose name appears in `excludeFiles`.
  * @param {string} dir
+ * @param {string[]} [excludeFiles] - file names to skip (case-insensitive)
  * @returns {Promise<string[]>}
  */
-async function collectMdFiles(dir) {
+async function collectMdFiles(dir, excludeFiles = []) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = await Promise.all(
     entries.map(async (ent) => {
       const res = path.join(dir, ent.name);
-      if (ent.isDirectory()) return collectMdFiles(res);
-      if (ent.isFile() && res.toLowerCase().endsWith(".md")) return [res];
+      if (ent.isDirectory()) return collectMdFiles(res, excludeFiles);
+      if (ent.isFile() && res.toLowerCase().endsWith(".md")) {
+        if (excludeFiles.some((ex) => ent.name.toLowerCase() === ex.toLowerCase())) return [];
+        return [res];
+      }
       return [];
     })
   );
@@ -37,13 +42,15 @@ function _escapeForRegex(s) {
  * @param {string} [options.moduleName] - module folder name (defaults 'arm5e-compendia')
  * @param {boolean} [options.dryRun] - if true, do not write files; return planned changes
  * @param {string[]} [options.extensions] - image extensions to match (defaults common image types)
+ * @param {string[]} [options.excludeFiles] - file names to skip entirely (defaults to ['Userguide delivery process.md'])
  * @returns {Promise<{changedFiles: string[], summary: {checked: number, changed: number}}>}
  */
 export async function prepareForImport({
   docDir,
   moduleName = "arm5e-compendia",
   dryRun = false,
-  extensions = ["webp", "png", "jpg", "jpeg", "gif", "svg", "bmp", "avif"]
+  extensions = ["webp", "png", "jpg", "jpeg", "gif", "svg", "bmp", "avif"],
+  excludeFiles = ["Userguide delivery process.md"]
 } = {}) {
   // Default docDir to repo relative: assume this file sits in scripts/
   if (!docDir) {
@@ -60,14 +67,14 @@ export async function prepareForImport({
   const extPattern = extensions.map(_escapeForRegex).join("|");
 
   // Regex to match both formats:
-  // 1. ![](images/FILENAME.<ext>) — markdown links
+  // 1. ![alt text](images/FILENAME.<ext>) — markdown links (with or without alt text)
   // 2. ![[images/FILENAME.<ext>]] — wiki-style links
   // - captures filename (including possible subpaths) ending with a configured extension
   // - case-insensitive to match .JPG, .WebP, etc.
-  const regexMarkdown = new RegExp(`!\\[\\]\\(\\s*images\\/([^\\)\\s]+?\\.(${extPattern}))\\s*\\)`, "gi");
+  const regexMarkdown = new RegExp(`!\\[.*?\\]\\(\\s*images\\/([^\\)\\s]+?\\.(${extPattern}))\\s*\\)`, "gi");
   const regexWiki = new RegExp(`!\\[\\[\\s*images\\/([^\\]\\s]+?\\.(${extPattern}))\\s*\\]\\]`, "gi");
 
-  const mdFiles = await collectMdFiles(docDir);
+  const mdFiles = await collectMdFiles(docDir, excludeFiles);
   let checked = 0;
   const changedFiles = [];
 
@@ -83,9 +90,11 @@ export async function prepareForImport({
 
     let newContent = content;
 
-    // Replace markdown-style links (keep as markdown)
+    // Replace markdown-style links (keep as markdown, preserve alt text)
     newContent = newContent.replace(regexMarkdown, (match, p1) => {
-      return `![](${replacementPrefix}${p1})`;
+      const altMatch = match.match(/!\[([^\]]*)\]/);
+      const altText = altMatch ? altMatch[1] : "";
+      return `![${altText}](${replacementPrefix}${p1})`;
     });
 
     // Replace wiki-style links (convert to markdown)
@@ -124,13 +133,15 @@ export async function prepareForImport({
  * @param {string} [options.moduleName] - module folder name (defaults 'arm5e-compendia')
  * @param {boolean} [options.dryRun] - if true, do not write files; return planned changes
  * @param {string[]} [options.extensions] - image extensions to match (defaults common image types)
+ * @param {string[]} [options.excludeFiles] - file names to skip entirely (defaults to ['Userguide delivery process.md'])
  * @returns {Promise<{changedFiles: string[], summary: {checked: number, changed: number}}>}
  */
 export async function prepareForCommit({
   docDir,
   moduleName = "arm5e-compendia",
   dryRun = false,
-  extensions = ["webp", "png", "jpg", "jpeg", "gif", "svg", "bmp", "avif"]
+  extensions = ["webp", "png", "jpg", "jpeg", "gif", "svg", "bmp", "avif"],
+  excludeFiles = ["Userguide delivery process.md"]
 } = {}) {
   if (!docDir) {
     const moduleRoot = path.resolve(__dirname, "..");
@@ -141,10 +152,10 @@ export async function prepareForCommit({
   const modNamePattern = _escapeForRegex(moduleName);
 
   // Match both formats:
-  // 1. ![](modules/<moduleName>/doc/images/FILENAME.<ext>) — markdown links
+  // 1. ![alt text](modules/<moduleName>/doc/images/FILENAME.<ext>) — markdown links (with or without alt text)
   // 2. ![[modules/<moduleName>/doc/images/FILENAME.<ext>]] — wiki-style links
   const regexMarkdown = new RegExp(
-    `!\\[\\]\\(\\s*modules\\/${modNamePattern}\\/doc\\/images\\/([^\\)\\s]+?\\.(${extPattern}))\\s*\\)`,
+    `!\\[.*?\\]\\(\\s*modules\\/${modNamePattern}\\/doc\\/images\\/([^\\)\\s]+?\\.(${extPattern}))\\s*\\)`,
     "gi"
   );
   const regexWiki = new RegExp(
@@ -152,7 +163,7 @@ export async function prepareForCommit({
     "gi"
   );
 
-  const mdFiles = await collectMdFiles(docDir);
+  const mdFiles = await collectMdFiles(docDir, excludeFiles);
   let checked = 0;
   const changedFiles = [];
 
@@ -168,9 +179,11 @@ export async function prepareForCommit({
 
     let newContent = content;
 
-    // Replace markdown-style links
+    // Replace markdown-style links (preserve alt text)
     newContent = newContent.replace(regexMarkdown, (match, p1) => {
-      return `![](images/${p1})`;
+      const altMatch = match.match(/!\[([^\]]*)\]/);
+      const altText = altMatch ? altMatch[1] : "";
+      return `![${altText}](images/${p1})`;
     });
 
     // Replace wiki-style links (convert to markdown)

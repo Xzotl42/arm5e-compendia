@@ -1,0 +1,35 @@
+{
+  "name": "Roll Stress die",
+  "type": "script",
+  "author": "Pw1GmsDOB9LWYsTh",
+  "img": "systems/arm5e/assets/MacroDice.png",
+  "scope": "global",
+  "command": "/**\n * Roll a stress die\n * \n */\n\nconst tokens = canvas.tokens.controlled;\n\nif (tokens.length == 1 ){\n  rollStressDie(tokens[0]);\n} else {\n  printMessage(\"No Tokens were selected\");\n}\n\nasync function rollStressDie(token){\n  let actor = token.actor;\n  \n  let dataset = {\n    roll: \"option\",\n    usefatigue :\"false\"\n  };\n  await actor.sheet.roll(dataset);\n  \n}\n\n    \nfunction printMessage(message){\n  let chatData = {\n    user : game.user._id,\n    content : message,\n    blind: true,\n    whisper : game.users.filter(u => u.isGM).map(u => u.id)\n  };\n  ChatMessage.create(chatData,{});    \n}",
+  "folder": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "870ec95973b9cbaddfd315410773744d228b52b7",
+      "sourceId": "Macro.DsY5ID5Fmn4JnzZg"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.5.0.0",
+    "createdTime": 1769630513529,
+    "modifiedTime": 1769630523885,
+    "lastModifiedBy": "Pw1GmsDOB9LWYsTh"
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3,
+    "Pw1GmsDOB9LWYsTh": 3
+  },
+  "_id": "pO7lLAxLE2v8FKQZ",
+  "sort": 0,
+  "_key": "!macros!pO7lLAxLE2v8FKQZ"
+}

@@ -11,12 +11,22 @@
         4
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "N2ft3WyLQaS8xLMG",
-      "text": "You gain 15 experience points in Magic Theory",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You gain 15 experience points in Magic Theory",
+      "name": "",
       "_key": "!tables.results!WQAGYNyE7q73D9XU.N2ft3WyLQaS8xLMG"
     },
     {
@@ -27,12 +37,22 @@
         6
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "fyTCEbxHS1gDcHa2",
-      "text": "You gain 15 experience points in some Ability related to the experiment.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You gain 15 experience points in some Ability related to the experiment.",
+      "name": "",
       "_key": "!tables.results!WQAGYNyE7q73D9XU.fyTCEbxHS1gDcHa2"
     },
     {
@@ -43,12 +63,22 @@
         8
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "6UvG54aUUaAEBDMb",
-      "text": "You gain three experience points in one of the Arts used in the experiment",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You gain three experience points in one of the Arts used in the experiment",
+      "name": "",
       "_key": "!tables.results!WQAGYNyE7q73D9XU.6UvG54aUUaAEBDMb"
     },
     {
@@ -59,12 +89,22 @@
         9
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "QlwnZ6lpjzeqlilj",
-      "text": "You gain enough experience points to bring one of the Arts used in the experiment to the next level (or three experience points, whichever is greater)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You gain enough experience points to bring one of the Arts used in the experiment to the next level (or three experience points, whichever is greater)",
+      "name": "",
       "_key": "!tables.results!WQAGYNyE7q73D9XU.QlwnZ6lpjzeqlilj"
     },
     {
@@ -75,12 +115,22 @@
         15
       ],
       "drawn": false,
-      "documentCollection": "",
       "_id": "19rEEjvboZKDHxE2",
-      "text": "Roll twice, and reroll this result if it is generated again",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Roll twice, and reroll this result if it is generated again",
+      "name": "",
       "_key": "!tables.results!WQAGYNyE7q73D9XU.19rEEjvboZKDHxE2"
     }
   ],
@@ -92,23 +142,24 @@
     "ErQ613O32LNYb71L": 3
   },
   "flags": {
-    "exportSource": {
-      "world": "ars-magica",
-      "system": "arm5e",
-      "coreVersion": "10.303",
-      "systemVersion": "2.1.0.14"
-    },
     "core": {}
   },
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.2.4.18",
-    "coreVersion": "12.324",
+    "coreVersion": "13.351",
     "createdTime": 1689068843891,
     "modifiedTime": 1712088471581,
     "lastModifiedBy": "ErQ613O32LNYb71L",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ars-magica",
+      "uuid": null,
+      "coreVersion": "10.303",
+      "systemId": "arm5e",
+      "systemVersion": "2.1.0.14"
+    }
   },
   "formula": "1d10",
   "_id": "WQAGYNyE7q73D9XU",

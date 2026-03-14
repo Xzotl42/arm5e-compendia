@@ -1,10 +1,20 @@
 The sanatorium is a dialog to manage the recovery of wounds during a season. It is accessible in Description.Vitals&Combat by clicking the bandaged icon.
 
+Note: this page is partially deprecated, see [[Sanatorium user guide]] for a more detailed guide.
+
 ![](images/Health.webp)
 
 For the sake of simplicity or until a deeper integration with Simple Calendar is done:
 
-- One season equals 92 days
+Season lengths (medieval conventional equinox/solstice dates):
+
+| Season | Days |
+| ------ | ---- |
+| Spring | 92   |
+| Summer | 92   |
+| Autumn | 91   |
+| Winter | 90   |
+
 - Heavy wound recovery is 90 days
 - Medium wound recovery is 30 days
 - Light wound recovery is 7 days
