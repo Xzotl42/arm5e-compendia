@@ -2,6 +2,10 @@
 
 ## Version 1.1.8
 
+### Compatibility
+
+Ars Magica System V12 verified
+
 ### Changes
 
 - User guide
