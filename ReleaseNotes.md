@@ -1,5 +1,20 @@
 # Release notes
 
+## Version 1.1.9
+
+### Compatibility
+
+Ars Magica System V12 verified
+
+### Changes
+
+- Updated Sanatorium user guide.
+- Some userguide documents were created with the help AI so in order to keep this module free of AI user-facing content, they will be moved on the github wiki...
+
+### Fixes
+
+- Removed duplicate journal entries for the user guide
+
 ## Version 1.1.8
 
 ### Compatibility
