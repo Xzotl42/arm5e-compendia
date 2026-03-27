@@ -1,6 +1,6 @@
 The sanatorium is a dialog to manage the recovery of wounds during a season. It is accessible in Description.Vitals&Combat by clicking the bandaged icon.
 
-Note: this page is partially deprecated, see [[Sanatorium user guide]] for a more detailed guide.
+Note: A more complete userguide is available offline in the github wiki. However, part of it was created using AI so in order to keep this module free of AI user-facing content, it will stay there.
 
 ![](images/Health.webp)
 
@@ -41,8 +41,21 @@ All of the above can be changed in the middle of the season between recovery rol
 - If there is not enough days to do a recovery roll for this season or if the wound is fully healed, the wound icon will get a small lock icon on the top right corner.
 - Hovering with the mouse on a wound will show the modifier to the next roll.
 - For wounds inflicted mid-season, it is possible to adjust the number of days remaining before the first recovery roll.
-- Button "Roll for recovery" : click until there is no more days available or wounds to recover from
+- Button "Roll for recovery" : click until there is no more days available or wounds to recover from.
+- Button "Fast recovery" : Same as above but all the rolls possible for the current season will be chained.
+- Button "Overstrain check" : A stamina roll to check if the worst wound will get worse due to ill advised activity during recovery.
 - Button "End of season" : Clickable only when it is not possible to roll anymore. It will create a new diary entry in the patient calendar containing the medical log for the season.
+
+### Individual Wound Recovery from the Wound Sheet
+
+Any wound item has a **"Roll wound recovery"** button on its item sheet. It will roll for recovery **only for that wound** and all wounds of equal or lesser severity, with the exception of incapacitating wounds that always need to be treated first.
+
+Examples of when it is useful:
+
+- A surgeon treating light wounds for 14 days does not interfere with a heavy wound recovering on its own 90-day rhythm. Set Mundane Help for the wound being treated; heavier wounds will be rolled later with their own separate modifiers.
+- An incapacitating wound needs to be treated the same day, when a skilled physician or Creo Corpus specialist is still far away. It is possible to roll for recovery just for that until proper help arrives.
+
+Important: this assumes that any mundane or magical help will be available during the whole recovery period. If a roll fails, you can stop the season at any time.
 
 ### Patient's file
 
@@ -51,7 +64,7 @@ All of the above can be changed in the middle of the season between recovery rol
 - -6 or greater : no other activity possible
 - -3 to -5 : No lab activity or crafting possible
 - -1 to -2 : No spells that cost fatigue (important if you intent to cast spontaneous CrCo spells for further recovery)
-- Dev note: Unfortunately, between wound getting worse and better during a season and multiple recovery activities the same season, it has become too complex to compute reliably if the penalty lasted a month during the season (not that it is impossible to do, but it is simpler to do the math... for now)
+- At the end of each season, it will indicate what was the highest wound penalty endured for 30+ days.
 
 ### Medical history
 

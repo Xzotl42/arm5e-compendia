@@ -180,7 +180,7 @@ Click **"Fast recovery (auto-roll)"** to have the Sanatorium roll every remainin
 
 ## Individual Wound Recovery from the Wound Sheet
 
-Any wound item has a **"Roll wound recovery"** button on its item sheet (the small icon/pencil view).
+Any wound item has a **"Roll wound recovery"** button on its item sheet.
 
 Clicking this button:
 
