@@ -51,15 +51,20 @@ jobs:
           echo "tag=$TAG" >> $GITHUB_OUTPUT
           echo "version=${TAG#v}" >> $GITHUB_OUTPUT
 
-      # Substitute the Manifest and Download URLs in the module.json
+      # Substitute the Manifest and Download URLs in the module.json.
+      # Using jq instead of sed to safely update only top-level fields without
+      # corrupting nested objects (e.g. authors[].url, media[].url).
       - name: Substitute Manifest and Download Links For Versioned Ones
         if: github.event_name == 'release'
         id: sub_manifest_link_version
         run: |
-          sed -i 's|"version":.*|"version": "${{ steps.resolve.outputs.version }}",|' module.json
-          sed -i 's|"url":.*|"url": "${{ env.project_url }}",|' module.json
-          sed -i 's|"manifest":.*|"manifest": "${{ env.latest_manifest_url }}",|' module.json
-          sed -i 's|"download":.*|"download": "${{ env.release_module_url }}"|' module.json
+          jq \
+            --arg version  "${{ steps.resolve.outputs.version }}" \
+            --arg url      "${{ env.project_url }}" \
+            --arg manifest "${{ env.latest_manifest_url }}" \
+            --arg download "${{ env.release_module_url }}" \
+            '.version = $version | .url = $url | .manifest = $manifest | .download = $download' \
+            module.json > module.json.tmp && mv module.json.tmp module.json
 
       - name: Validate module.json
         if: github.event_name == 'release'
