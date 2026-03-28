@@ -1,5 +1,22 @@
 # Release notes
 
+## Version 1.2.0
+
+### Compatibility
+
+Ars Magica System V12 verified
+
+### Changes
+
+- [Technical] Updated github actions at release
+  - Compatibility node 24
+  - Ensure that userguide image links are set for Obsidian.
+  - Parse the module.json for any syntax problem
+  - On commit, attempt to pack databases in order to detect any problem before release.
+  - Automatic publish on Foundry listing on successful release
+  - Updated Foundry-CLI for database packing and unpacking
+  - Volatile fields (createdTime, systemVersion,...) won't be overwritten when unpacking, greatly reducing the number of pointless files changes in source control
+
 ## Version 1.1.9
 
 ### Compatibility

@@ -8,7 +8,7 @@ export async function unpackDatabases(inputdir, unpacksdir, packNeDB, packClassi
         if (statSync(`${inputdir}/${subdir}`).isDirectory()) {
           if (packClassicLevel) {
             // Compile a LevelDB compendium pack.
-            await extractPack(`${inputdir}/${subdir}`, `${unpacksdir}/${subdir}`)
+            await extractPack(`${inputdir}/${subdir}`, `${unpacksdir}/${subdir}`, { omitVolatile: true })
               .then(() => {
                 console.info(`Unpacked ${subdir} from a classic LevelDB`);
               })
@@ -18,7 +18,7 @@ export async function unpackDatabases(inputdir, unpacksdir, packNeDB, packClassi
               });
           }
           if (packNeDB) {
-            await extractPack(`${inputdir}/${subdir}`, `${unpacksdir}/${subdir}`)
+            await extractPack(`${inputdir}/${subdir}`, `${unpacksdir}/${subdir}`, { omitVolatile: true })
               .then(() => {
                 console.info(`Unpacked ${subdir} from a NeDB`);
               })

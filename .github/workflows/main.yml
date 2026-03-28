@@ -12,45 +12,83 @@ env:
   # The URL to the module archive associated with the module release being
   # processed by this workflow.
   release_module_url: "https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/arm5e-compendia.zip"
+
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Tag to test against (e.g. v1.2.0)"
+        required: true
+        type: string
+      mode:
+        description: "echo-only = print payload only; dry-run = also validate with Foundry API; full = dry-run + publish"
+        required: true
+        type: choice
+        default: echo-only
+        options:
+          - echo-only
+          - dry-run
+          - full
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # get part of the tag after the `v`
-      - name: Extract tag version number
-        id: get_version
-        uses: maltoze/get-version-action@v1
+      # Resolve tag and version for both release events and manual dispatch
+      - name: Resolve tag and version
+        id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "release" ]; then
+            TAG="${{ github.event.release.tag_name }}"
+          else
+            TAG="${{ inputs.tag_name }}"
+          fi
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "version=${TAG#v}" >> $GITHUB_OUTPUT
 
-      # Substitute the Manifest and Download URLs in the system.json
+      # Substitute the Manifest and Download URLs in the module.json
       - name: Substitute Manifest and Download Links For Versioned Ones
+        if: github.event_name == 'release'
         id: sub_manifest_link_version
-        uses: microsoft/variable-substitution@v1
-        with:
-          files: "module.json"
-        env:
-          version: ${{steps.get_version.outputs.version-without-v}}
-          url: ${{ env.project_url }}
-          manifest: ${{ env.latest_manifest_url }}
-          download: ${{ env.release_module_url }}
+        run: |
+          sed -i 's|"version":.*|"version": "${{ steps.resolve.outputs.version }}",|' module.json
+          sed -i 's|"url":.*|"url": "${{ env.project_url }}",|' module.json
+          sed -i 's|"manifest":.*|"manifest": "${{ env.latest_manifest_url }}",|' module.json
+          sed -i 's|"download":.*|"download": "${{ env.release_module_url }}"|' module.json
+
+      - name: Validate module.json
+        if: github.event_name == 'release'
+        run: python3 -m json.tool module.json > /dev/null
+
       - name: Install module
+        if: github.event_name == 'release'
         id: install
         run: npm install
+
+      - name: Fix links
+        if: github.event_name == 'release'
+        id: fix_links
+        run: npm run prepare:commit
+
       - name: Create Database Packs
+        if: github.event_name == 'release'
         id: pack-db
         run: npm run pack
+
       - name: Packaging
+        if: github.event_name == 'release'
         id: package
         # Create a zip file with all files required by the module to add to the release
         run: zip -r ./arm5e-compendia.zip module.json LICENSE.txt README.md ReleaseNotes.md  css/ packs/ unpacked/ scripts/ lang/ templates/ doc/
+
       # Create a release for this specific version
       - name: Update Release with Files
+        if: github.event_name == 'release'
         id: create_version_release
         uses: ncipollo/release-action@v1
         with:
@@ -62,3 +100,76 @@ jobs:
           artifacts: "./module.json, ./arm5e-compendia.zip"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
+
+      # Build the Foundry API payload from module.json and echo it.
+      # On release events, module.json has already been patched with the versioned values above.
+      # On manual dispatch, module.json is read as-is from the checked-out commit.
+      - name: Build and echo Foundry payload
+        id: build_payload
+        run: |
+          MINIMUM=$(jq -r '.compatibility.minimum // ""' module.json)
+          VERIFIED=$(jq -r '.compatibility.verified // ""' module.json)
+          MAXIMUM=$(jq -r '.compatibility.maximum // ""' module.json)
+
+          jq -n \
+            --arg id       "arm5e-compendia" \
+            --arg version  "${{ steps.resolve.outputs.version }}" \
+            --arg manifest "https://github.com/${{ github.repository }}/releases/download/${{ steps.resolve.outputs.tag }}/module.json" \
+            --arg notes    "https://github.com/${{ github.repository }}/releases/tag/${{ steps.resolve.outputs.tag }}" \
+            --arg minimum  "$MINIMUM" \
+            --arg verified "$VERIFIED" \
+            --arg maximum  "$MAXIMUM" \
+            '{
+              id: $id,
+              release: {
+                version: $version,
+                manifest: $manifest,
+                notes: $notes,
+                compatibility: (
+                  { minimum: $minimum, verified: $verified }
+                  + if $maximum != "" then { maximum: $maximum } else {} end
+                )
+              }
+            }' | tee /tmp/foundry_payload.json
+
+      # Validate the payload against the Foundry API without saving anything.
+      - name: Validate Foundry Release (dry-run)
+        if: github.event_name == 'release' || inputs.mode == 'dry-run' || inputs.mode == 'full'
+        env:
+          FOUNDRY_TOKEN: ${{ secrets.FOUNDRY_RELEASE_TOKEN }}
+        run: |
+          PAYLOAD=$(jq '. + {"dry-run": true}' /tmp/foundry_payload.json)
+
+          HTTP_STATUS=$(curl -s -o /tmp/foundry_dryrun.json -w "%{http_code}" \
+            -X POST "https://foundryvtt.com/_api/packages/release_version/" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: ${FOUNDRY_TOKEN}" \
+            -d "$PAYLOAD")
+
+          echo "Dry-run response (HTTP $HTTP_STATUS):"
+          cat /tmp/foundry_dryrun.json
+
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "::error::Foundry dry-run failed with HTTP $HTTP_STATUS"
+            exit 1
+          fi
+
+      # Publish the release to the Foundry VTT package registry.
+      - name: Publish to Foundry VTT Package Registry
+        if: github.event_name == 'release' || inputs.mode == 'full'
+        env:
+          FOUNDRY_TOKEN: ${{ secrets.FOUNDRY_RELEASE_TOKEN }}
+        run: |
+          HTTP_STATUS=$(curl -s -o /tmp/foundry_publish.json -w "%{http_code}" \
+            -X POST "https://foundryvtt.com/_api/packages/release_version/" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: ${FOUNDRY_TOKEN}" \
+            --data-binary @/tmp/foundry_payload.json)
+
+          echo "Publish response (HTTP $HTTP_STATUS):"
+          cat /tmp/foundry_publish.json
+
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "::error::Foundry publish failed with HTTP $HTTP_STATUS"
+            exit 1
+          fi
