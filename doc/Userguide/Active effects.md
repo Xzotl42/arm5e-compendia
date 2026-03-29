@@ -114,14 +114,13 @@ Override the modifiers applied to casting totals for voice and gesture stances:
 #### Other Spellcasting Effects
 
 - **Warping Threshold**: Overrides the warping score threshold (default: 2)
-- **Spell Fatigue Threshold**: Changes when spontaneous spells cause fatigue (default: 10)
-- **Ritual Fatigue Cancelled**: Set to true to negate fatigue from rituals
+- **Spell Fatigue Threshold**: Changes how much below the target level the casting total needs to be to gain fatigue (default: 10)
+- **Ritual Fatigue Cancelled**: Changes how many fatigue levels can be discarded when casting a ritual.
 
 **Examples:**
 
 - _Cyclic Magic_ virtue: Use optional roll bonuses
-- _Diedne Magic_ flaw: Modify spellcasting stances
-- _Minor Magical Focus_: Use optional roll bonuses
+- _Mythic Blood_: Use "Spell Fatigue Threshold" and "Ritual Fatigue Cancelled"
 
 ---
 
@@ -265,7 +264,7 @@ Natural resistance or vulnerability to magical effects of a specific Form. This 
 
 ### Form Magic Resistance
 
-Bonus or penalty to Magic Resistance specifically against spells of a particular Form.
+Bonus or penalty to Magic Resistance specifically against spells of a particular Form. Do not cummulate with Parma Magica
 
 **Available Forms**: All 10 Forms, plus general "Magic Resistance"
 
@@ -325,7 +324,7 @@ Flat modifier to one of the character's Characteristics.
 
 - Intelligence (Int), Perception (Per), Strength (Str), Stamina (Sta)
 - Presence (Pre), Communication (Com), Dexterity (Dex), Quickness (Qik)
-- Cunning (Cun) - for magical creatures
+- Cunning (Cun) - for beasts
 
 **Change Mode**: Add
 **Default**: Varies by virtue/flaw
@@ -334,8 +333,8 @@ Flat modifier to one of the character's Characteristics.
 
 **Examples:**
 
-- _Improved Characteristics_ virtue: +1 to chosen characteristic
-- _Poor Characteristic_ flaw: -3 to chosen characteristic
+- _Great Characteristic_ virtue: +1 to chosen characteristic at 3+
+- _Poor Characteristic_ flaw: -1 to chosen characteristic at 3 or less
 
 ---
 
@@ -374,10 +373,9 @@ Modifies fatigue-related mechanics.
 - **Tired**: Number of Tired levels
 - **Dazed**: Number of Dazed levels
 
-**Examples:**
+**Example:**
 
-- _Enduring Constitution_ virtue: +3 to all fatigue levels
-- _Extra Fatigue Level_: +1 to specific fatigue level
+- _Extra Fatigue Level_: +1 to specific fatigue level, mostly used for creatures
 
 ---
 
@@ -392,10 +390,9 @@ Modifies wound penalties.
 - **Medium**: Modifier to Medium wound penalty (-3 default)
 - **Heavy**: Modifier to Heavy wound penalty (-5 default)
 
-**Examples:**
+**Example:**
 
-- _Great Stamina_ virtue: Reduce all wound penalties by 1
-- _Weak Willed_ flaw: Increase wound penalties
+- _Enduring Constitution_ virtue: Reduce all wound penalties by 1
 
 ---
 
@@ -447,7 +444,7 @@ Flat experience bonus added to ability XP totals. Available for all ability cate
 
 **Use Cases:**
 
-- Representing initial score from virtues (e.g., +15 XP for score 1)
+- Representing initial score from virtues (e.g., +15 XP for score 2)
 - Bonus XP from training or special circumstances
 
 ---
@@ -485,10 +482,10 @@ Uses upgrade mode to set a minimum quality for certain frequently-used abilities
 
 ### Supernatural Ability XP Bonus
 
-Special XP bonus for Supernatural Abilities, typically used to represent the initial score of 1 when the virtue is first taken (15 XP).
+Special XP bonus for Supernatural Abilities, typically used to represent the initial score of 1 when the virtue is first taken (5 XP).
 
 **Change Mode**: Add
-**Default**: 15 (for score 1)
+**Default**: 5 (for score 1)
 
 ---
 
@@ -502,13 +499,17 @@ Flat modifiers to specific laboratory activities (for characters, not laboratori
 
 - **Learn Spell**: Bonus to Lab Total when learning spells
 - **Invent Spell**: Bonus to Lab Total when inventing spells
+- **Item Investigation**: Bonus to Lab Total when investigating magic items
+- **Vis Extraction**: Bonus to Lab Total when extracting vis
+- **Enchanting**: Bonus to Lab Total when enchanting items
+- **Longevity Rituals**: Bonus to Lab Total when creating a longevity ritual
 
 **Change Mode**: Add
 **Default**: Varies by virtue
 
 **Examples:**
 
-- _Inventive Genius_ virtue: +3 to Invent Spell
+- _Inventive Genius_ virtue: +3 to Invent Spell and longevity rituals.
 - _Fast Learner_: +3 to Learn Spell
 
 ---
@@ -820,23 +821,3 @@ The option name in the effect must **exactly match** the option in the owned abi
 1. Ensure effect type is "Optional Roll Bonus"
 2. Check that the roll type matches (Formulaic/Spontaneous/etc.)
 3. Manually look for it in the roll dialog's optional section
-
----
-
-## Future Development
-
-**Planned enhancements:**
-
-- Spell effects with automatic duration tracking
-- Temporary magical effect management
-- Power effects for creatures
-- More sophisticated condition tracking
-- Automatic seasonal activity tracking
-
----
-
-## Summary
-
-Active Effects are a powerful tool for automating the mechanical effects of virtues, flaws, and other modifiers in Ars Magica 5e. Understanding the different types, change modes, and when to use each will greatly enhance your gameplay experience and reduce manual calculations.
-
-For most cases, the preconfigured effects in the compendia will work out of the box. However, understanding how to create and modify effects allows you to customize for house rules, new virtues, or special circumstances in your saga.

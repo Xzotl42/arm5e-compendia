@@ -82,6 +82,13 @@ node ./scripts/userguide-cli.js commit --dry-run
 
 3. **Test** in Foundry VTT
    - Import the userguide journal entry user LavaFlow module
+
+   ```js
+   // workaround to start the module on V13
+   const m = await import("../modules/lava-flow/src/lava-flow.js");
+   m.default.createForm();
+   ```
+
    - Verify all images display correctly
    - Check all links work properly
 
