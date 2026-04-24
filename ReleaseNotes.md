@@ -1,5 +1,27 @@
 # Release notes
 
+## Version 1.2.1
+
+### Changes
+
+- New World folder importer
+  - select a world folder and you can import it in any existing compendia of the right type. It preserves id and either create a new document or update existing ones with the same id.
+- Actor Importer improvements
+  - New mapping for spells variants
+  - Proper import of craft and professions
+  - Secrets field of Actor is enriched with all kinds of details (creature vis, combat details,...)
+  - Accept characters with partial characteristics
+  - Handle spells with many requisites
+  - Spells with a general level have their level properly computed.
+  - Better powers management
+    - Powers with multiple forms are duplicated
+
+### Compendia updates
+
+- New virtues and flaws from Guardians of the Forest
+- NPCs and Creatures of Guardians of the Forest (Letter F)
+- User guide updates
+
 ## Version 1.2.0
 
 ### Compatibility

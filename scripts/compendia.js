@@ -6,6 +6,7 @@ import { FileTools } from "./FileTools.js";
 import { DocumentEnricher } from "./DocumentEnricher.js";
 import { ActorImporter } from "./ActorImporter.js";
 import { FixItYourself } from "./FixItYourself.js";
+import { WorldFolderImporter } from "./WorldFolderImporter.js";
 
 export class CompendiaUtils {
   static async createIndexKeys(pack, onlyMissingOnes = false) {
@@ -325,5 +326,157 @@ export class CompendiaUtils {
   static CloneReferenceCompendia(name, description, author, prefix = "My -") {
     // first check if the name already exists
     // if (prefix)
+  }
+
+  static async showWorldFolderImporter() {
+    if (!game.user.isGM) {
+      console.log("Only GMs can do this operation");
+      return;
+    }
+    const ui = new WorldFolderImporter({}, {});
+    await ui.render(true);
+  }
+
+  /**
+   * Recursively collects a folder and all its descendants in top-down order.
+   * Folders are a flat collection linked by folder.id (same as documents),
+   * so children are found by filtering the full folder list.
+   * @param {Folder} folder
+   * @param {Folder[]} allFolders - flat array of all folders in the collection
+   * @returns {Folder[]}
+   */
+  static _collectFolderTree(folder, allFolders) {
+    const result = [folder];
+    const children = allFolders.filter((f) => f.folder?.id === folder.id);
+    for (const child of children) {
+      result.push(...CompendiaUtils._collectFolderTree(child, allFolders));
+    }
+    return result;
+  }
+
+  /**
+   * Import all documents from a world collection folder (and its subfolders) into a module
+   * compendium, recreating the folder hierarchy. Documents are matched by Foundry _id:
+   * existing ones are updated, missing ones are created.
+   *
+   * @param {string} docType       - "Item", "Actor", or "JournalEntry"
+   * @param {string} folderId      - The root folder id from the world collection
+   * @param {string} targetPackId  - The compendium collection id (e.g. "arm5e-compendia.spells")
+   * @param {boolean} dryRun       - When true, reports what would happen without writing any data
+   * @returns {{ created: number, updated: number, errors: number, report: string }}
+   */
+  static async importWorldFolderToCompendium(docType, folderId, targetPackId, dryRun = true) {
+    // Resolve world collection
+    let collection;
+    if (docType === "Actor") {
+      collection = game.actors;
+    } else if (docType === "JournalEntry") {
+      collection = game.journal;
+    } else {
+      collection = game.items;
+    }
+
+    const rootFolder = collection.folders.get(folderId);
+    if (!rootFolder) {
+      return { created: 0, updated: 0, errors: 0, report: "<p>Source folder not found.</p>" };
+    }
+
+    const targetPack = game.packs.get(targetPackId);
+    if (!targetPack) {
+      return { created: 0, updated: 0, errors: 0, report: `<p>Target compendium not found: ${targetPackId}</p>` };
+    }
+
+    // Collect the entire folder subtree in top-down order so parents are always processed first
+    const folderTree = CompendiaUtils._collectFolderTree(rootFolder, collection.folders.contents);
+
+    const wasLocked = targetPack.locked;
+    if (!dryRun) {
+      await targetPack.configure({ locked: false });
+    }
+
+    await targetPack.getIndex();
+
+    // Build a mapping from world folder id -> pack folder id so child folders can reference parents
+    // worldFolderId -> packFolderId
+    const folderIdMap = new Map();
+
+    if (!dryRun) {
+      for (const folder of folderTree) {
+        // The root folder has no parent in the pack (placed at top level).
+        // Subfolders use the already-mapped pack folder id of their world parent.
+        const parentPackFolderId = folder.id === rootFolder.id ? null : (folderIdMap.get(folder.folder?.id) ?? null);
+
+        // Reuse an existing pack folder with the same name at the same level
+        const existingPackFolder = targetPack.folders.find(
+          (f) => f.name === folder.name && (f.folder?.id ?? null) === parentPackFolderId
+        );
+
+        if (existingPackFolder) {
+          folderIdMap.set(folder.id, existingPackFolder.id);
+        } else {
+          const newFolder = await Folder.create(
+            { name: folder.name, type: docType, folder: parentPackFolderId, color: folder.color },
+            { pack: targetPack.collection }
+          );
+          folderIdMap.set(folder.id, newFolder.id);
+        }
+      }
+    }
+
+    let created = 0;
+    let updated = 0;
+    let errors = 0;
+    const reportLines = [];
+
+    for (const folder of folderTree) {
+      // Documents directly inside this world folder
+      const docs = collection.filter((d) => d.folder?.id === folder.id);
+      if (docs.length === 0) continue;
+
+      const packFolderId = dryRun ? null : (folderIdMap.get(folder.id) ?? null);
+
+      reportLines.push(`<li><strong>${folder.name}</strong><ul>`);
+      for (const doc of docs) {
+        try {
+          const existing = targetPack.index.find((i) => i._id === doc.id);
+          const docData = doc.toObject();
+          docData.folder = packFolderId;
+
+          if (existing) {
+            if (!dryRun) {
+              await CONFIG[docType].documentClass.updateDocuments([docData], {
+                pack: targetPack.collection
+              });
+            }
+            updated++;
+            reportLines.push(`<li>[UPDATE] @UUID[${existing.uuid}]{${doc.name}}</li>`);
+          } else {
+            if (!dryRun) {
+              await CONFIG[docType].documentClass.createDocuments([docData], {
+                pack: targetPack.collection,
+                keepId: true
+              });
+            }
+            created++;
+            reportLines.push(`<li>[CREATE] ${doc.name}</li>`);
+          }
+        } catch (e) {
+          errors++;
+          reportLines.push(`<li>[ERROR] ${doc.name}: ${e.message}</li>`);
+          console.error(`WorldFolderImporter | Error processing "${folder.name}/${doc.name}"`, e);
+        }
+      }
+      reportLines.push(`</ul></li>`);
+    }
+
+    if (!dryRun && wasLocked) {
+      await targetPack.configure({ locked: true });
+    }
+
+    const dryRunNote = dryRun ? " <em>(dry run — no changes were made)</em>" : "";
+    const report = `<p><strong>Results${dryRunNote}:</strong> ${created} created, ${updated} updated, ${errors} errors.</p><ul>${reportLines.join("")}</ul>`;
+
+    console.log(`WorldFolderImporter | ${created} created, ${updated} updated, ${errors} errors.`);
+    return { created, updated, errors, report };
   }
 }

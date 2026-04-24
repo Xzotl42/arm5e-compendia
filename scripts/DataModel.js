@@ -141,14 +141,25 @@ export const TECHNIQUES = ["Creo", "Intellego", "Muto", "Perdo", "Rego"];
 export const FORMS = ["Animal", "Aquam", "Auram", "Corpus", "Herbam", "Ignem", "Imaginem", "Mentem", "Terram", "Vim"];
 
 export const AREAS = [
+  "Harz Mountains Lore",
   "Sicily Lore",
   "Local Farms Lore",
   "Bavaria Lore",
+  "Bavarian Lore",
   "Mythic Middle East Lore",
   "Local Farms Lore",
   "Holy Land Lore",
   "Iberia Lore",
   "Village Lore",
+  "Black Forest Lore",
+  "Rhine Lore",
+  "Swabian Lore",
+  "Saxony Lore",
+  "Fengheld Lore",
+  "Lubeck Lore",
+  "Waddenzee Lore",
+  "Forest Lore (Westerwald)",
+  "Durenmar Lore",
   "[Surrounding Area]"
 ];
 
@@ -162,6 +173,10 @@ export const ORGANIZATIONS = [
   "Organization Lore: Household",
   "Noble lore"
 ];
+
+export const CRAFTS = ["Craft: Whittling"];
+
+export const PROFESSIONS = ["Profession"];
 
 export const TYPOS = {
   KeenVision: "Keen Vision",
@@ -221,6 +236,11 @@ export const ABILITY_KEY_MAPPING = {
   Arabic: "language-arabic",
   Hebrew: "language-hebrew",
   French: "language-generic",
+  Italian: "language-generic",
+  Romansch: "language-generic",
+  "Low German": "language-generic",
+  "West Norse": "language-generic",
+  "West Slavonic": "language-generic",
   "Hermes Lore": "order-of-hermes-lore",
   "Organization Lore: Order of Hermes": "order-of-hermes-lore",
   "Civil and Canon Law": "civil-canon-law",
@@ -234,10 +254,12 @@ export const ABILITY_KEY_MAPPING = {
   "Demonic Lore": "infernal-lore",
   Climb: "athletics",
   "Craft ": "craft-generic",
+  Aramaic: "language-aramaic",
   "Profession ": "profession-generic",
   "Profession: ": "profession-generic",
   "Prof: ": "profession-generic",
-  "Code of Hermes Lore": "code-of-hermes"
+  "Code of Hermes Lore": "code-of-hermes",
+  "Theology: Jewish": "theology-judaism"
 };
 
 export const VIRTUES_KEY_MAPPING = {
@@ -262,7 +284,9 @@ export const VIRTUES_KEY_MAPPING = {
   "Strong Faerie Blood": "strong-faerie-blood",
   "student of ": "student-of-realm",
   "ways of the ": "ways-of-the-land",
-  "Sense Holiness & Unholiness": "sense-holiness-unholiness"
+  "Sense Holiness & Unholiness": "sense-holiness-unholiness",
+  "Latent Magical Ability": "latent-magical-ability",
+  "Deft Art ": "deft-art"
 };
 
 export const FLAWS_KEY_MAPPING = {
@@ -286,7 +310,35 @@ export const FLAWS_KEY_MAPPING = {
   "Vow ": "vow",
   "Vulnerable Magic": "vulnerable-magic",
   Visions: "visions",
-  Weakness: "weakness"
+  Weakness: "weakness",
+  "Incompatible Arts": "incompatible-arts"
+};
+
+export const SPELLS_KEY_MAPPING = {
+  "Phantom of the Talking Head": "phantasm-of-the-talking-head",
+  "Unraveling the Fabric of ": "unravelling-the-fabric-of-form",
+  "Mirror of Opposition ": "mirror-of-opposition-form",
+  "Wizard’s Boost ": "wizards-boost-form",
+  "Wizard’s Reach ": "wizards-reach-form",
+  "Wizard’s Expansion ": "wizards-expansion-form",
+  "Group Wizard’s Boost ": "group-wizards-boost-form",
+  "Facilitate the Stifled ": "facilitate-the-stifled-form-spell",
+  "Harnessing the Essential Power of ": "harnessing-the-essential-power-of-form",
+  "Sustain a Spell of ": "sustain-a-spell-of-form",
+  "The Lasting Synthemata of ": "lasting-synthemata-of-x",
+  "Synthemata of ": "synthemata-of-x",
+  "Coils of Entangling Plants": "coils-of-the-entangling-plants",
+  "Sap the Griffin's Strength": "sap-the-griffons-strength",
+  "Eye of the Eons": "eyes-of-the-eons",
+  "Discern the Images of Truth and Falsehood": "discern-images-of-truth-and-falsehood",
+  "Soothe the Ferocious Boar": "soothe-the-ferocious-bear",
+  "Disguise of the Transformed Wizard": "disguise-of-the-transformed-image",
+  "Ward Against Faeries of the Water": "ward-against-faeries-of-the-waters",
+  "Parting the Waves": "parting-of-the-waves",
+  "Perception of Conflicting Motives": "perception-of-the-conflicting-motives",
+  "Chaos of the Angry Wave": "chaos-of-the-angry-waves",
+  "Winter's Icy Grip": "wizards-icy-grip",
+  "Phantom of the Talking Head": "phantasm-of-the-talking-head"
 };
 
 export const NATURAL_WEAPONS = {

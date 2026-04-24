@@ -6,6 +6,7 @@ import {
   ARTS,
   ARTS_STRUCT,
   CHARACTERISTICS,
+  CRAFTS,
   EQUIPEMENT,
   FLAWS_KEY_MAPPING,
   FORMS,
@@ -13,6 +14,8 @@ import {
   MINOR_MAJOR,
   MODEL,
   ORGANIZATIONS,
+  PROFESSIONS,
+  SPELLS_KEY_MAPPING,
   TECHNIQUES,
   TYPOS,
   VIRTUES_KEY_MAPPING,
@@ -20,7 +23,9 @@ import {
 } from "./DataModel.js";
 import { FileTools } from "./FileTools.js";
 import { ACTIVE_EFFECTS_TYPES } from "../../../systems/arm5e/module/constants/activeEffectsTypes.js";
+import { computeLevel } from "../../../systems/arm5e/module/helpers/magic.js";
 
+const MAGUS_CHAR_TYPES = ["magus", "magusNPC"];
 /**
  * ActorImporter - Form application for importing parsed character/creature data into Ars Magica 5e
  * Handles transformation of JSON data into complete actor documents with items, abilities, virtues, etc.
@@ -67,6 +72,10 @@ export class ActorImporter extends FormApplication {
     });
   }
 
+  static isMagus(charType) {
+    return MAGUS_CHAR_TYPES.includes(charType);
+  }
+
   /**
    * Prepare context data for form rendering, including enriched HTML report
    */
@@ -98,18 +107,22 @@ export class ActorImporter extends FormApplication {
 
     // Consolidate various biography fields into single description
     json.system.description = "";
+    json.system.secrets = "";
     if (json.system["Appearance"]) {
       json.system.description = `<p><b>Appearance:</b> ${json.system["Appearance"]}</p>`;
     }
     if (json.system["Equipment"]) {
-      json.system.description += `<p><b>Equipment:</b> ${json.system["Equipment"]}</p>`;
+      json.system.secrets += `<p><b>Equipment:</b> ${json.system["Equipment"]}</p>`;
     }
     if (json.system.Combat?.comment) {
-      json.system.description += `<p><b>Combat:</b> ${json.system.Combat?.comment}</p>`;
+      json.system.secrets += `<p><b>Combat:</b> ${json.system.Combat?.comment}</p>`;
+    }
+    if (json.system["Vis"]) {
+      json.system.secrets += `<p><b>Vis:</b> ${json.system["Vis"]}</p>`;
     }
 
     if (json.system["Customization Notes"]) {
-      json.system.description += `<p><b>Customization Notes:</b> ${json.system["Customization Notes"]}</p>`;
+      json.system.secrets += `<p><b>Customization Notes:</b> ${json.system["Customization Notes"]}</p>`;
     }
 
     // Normalize Arts keys to lowercase for consistent lookups
@@ -122,11 +135,12 @@ export class ActorImporter extends FormApplication {
 
   /**
    * Open file picker and import all selected actor JSON files
-   * Creates actors in "Antagonists Actors" folder with embedded items
+   * Creates actors in "Guardians of the Forest" folder with embedded items
    */
   async pickFiles() {
     // Prompt user to select JSON files from defed_actors directory
-    const files = await FileTools.filepickerPromise("./pdf2compendia/antagonists");
+    // TODO: Make the path configurable or allow multiple directories
+    const files = await FileTools.filepickerPromise("./pdf2compendia/RhineTribunal");
     // Initialize all statistics counters for this import batch
     this.object.stats.actors = { count: 0 };
     this.object.stats.abilities = { found: 0, unknown: 0, no_field: 0 };
@@ -146,8 +160,8 @@ export class ActorImporter extends FormApplication {
     this.object.toReview = []; // Flagged items needing review
 
     let counter = 1;
-    // Create or fetch "Antagonists Actors" folder for organization
-    const folderName = "Antagonists Actors";
+    // Create or fetch "Guardians of the Forest" folder for organization
+    const folderName = "Guardians of the Forest";
     let folder = game.folders.getName(folderName);
     if (!folder) {
       [folder] = await Folder.create([{ name: folderName, type: "Actor" }]);
@@ -210,9 +224,9 @@ export class ActorImporter extends FormApplication {
     // Determine character archetype (grog, companion, magus, entity, etc.)
     root.charType = { value: this.guessCharType(this.object.currentActor.type, json) };
     // Import characteristics (Str, Dex, Sta, etc.) with error handling
-    if (json.system.Characteristics.message) {
+    if (json.system.Characteristics === undefined || json.system.Characteristics.message) {
       this.addReviewItem(
-        `Characteristics parsing error: ${json.system.Characteristics.message} : "${json.system.Characteristics.entry}"`
+        `Characteristics parsing error: ${json.system.Characteristics?.message} : "${json.system.Characteristics?.entry}"`
       );
       this.actorsWithProblems.add(`${this.current.name} - ${this.currentFile}`);
     } else {
@@ -233,7 +247,7 @@ export class ActorImporter extends FormApplication {
     await this.importReputations(json.system);
 
     // Magi have additional magical attributes and abilities
-    if (root.charType.value == "magus") {
+    if (ActorImporter.isMagus(root.charType.value)) {
       if (this.object.process.spells) await this.importSpells(json.system);
       if (this.object.process.arts) this.importArts(json.system);
     }
@@ -241,7 +255,7 @@ export class ActorImporter extends FormApplication {
     // Set metadata for indexing and tracking
     root.indexKey = FileTools.slugify(json.name);
     root.reviewer = "xzotl";
-    root.source = "Ant"; // TODO: Set source properly from source data
+    root.source = "GotF"; // TODO: Set source properly from source data
 
     // Import abilities (skills and knowledge) with error handling
     if (this.object.process.abilities) {
@@ -280,12 +294,12 @@ export class ActorImporter extends FormApplication {
 
     // Append any flagged items to actor biography for review
     if (this.object.toReview.length) {
-      let desc = "<h2>To review</h2><ul>";
+      let desc = "<h3>To review</h3><ul>";
       for (let it of this.object.toReview) {
         desc += `<li>${it}</li>`;
       }
       desc += "</ul>";
-      this.object.currentActor.system.biography += desc;
+      this.object.currentActor.system.secrets = `${this.object.currentActor.system.secrets ?? ""}${desc}`;
     }
 
     return this.object.currentActor;
@@ -300,33 +314,58 @@ export class ActorImporter extends FormApplication {
     root.characteristics = foundry.utils.deepClone(MODEL.characteristics);
     const char = src.Characteristics;
 
+    const characteristicValues = (entry) => {
+      if (!entry || typeof entry !== "object") {
+        return { value: 0, aging: 0 };
+      }
+      return {
+        value: Number.isFinite(Number(entry.score)) ? Number(entry.score) : 0,
+        aging: Number.isFinite(Number(entry.agingPoints)) ? Number(entry.agingPoints) : 0
+      };
+    };
+
     // Handle either Cunning or Intelligence (mutually exclusive for some characters)
     if (char.Cun) {
-      root.characteristics.cun.value = char.Cun.score;
-      root.characteristics.cun.aging = char.Cun.agingPoints;
+      const cun = characteristicValues(char.Cun);
+      root.characteristics.cun.value = cun.value;
+      root.characteristics.cun.aging = cun.aging;
       delete root.characteristics.int;
     }
     if (char.Int) {
-      root.characteristics.int.value = char.Int.score;
-      root.characteristics.int.aging = char.Int.agingPoints;
+      const int = characteristicValues(char.Int);
+      root.characteristics.int.value = int.value;
+      root.characteristics.int.aging = int.aging;
       delete root.characteristics.cun;
     }
 
     // Import remaining characteristics
-    root.characteristics.per.value = char.Per.score;
-    root.characteristics.per.aging = char.Per.agingPoints;
-    root.characteristics.sta.value = char.Sta.score;
-    root.characteristics.sta.aging = char.Sta.agingPoints;
-    root.characteristics.str.value = char.Str.score;
-    root.characteristics.str.aging = char.Str.agingPoints;
-    root.characteristics.dex.value = char.Dex.score;
-    root.characteristics.dex.aging = char.Dex.agingPoints;
-    root.characteristics.qik.value = char.Qik.score;
-    root.characteristics.qik.aging = char.Qik.agingPoints;
-    root.characteristics.pre.value = char.Pre.score;
-    root.characteristics.pre.aging = char.Pre.agingPoints;
-    root.characteristics.com.value = char.Com.score;
-    root.characteristics.com.aging = char.Com.agingPoints;
+    const per = characteristicValues(char.Per);
+    root.characteristics.per.value = per.value;
+    root.characteristics.per.aging = per.aging;
+
+    const sta = characteristicValues(char.Sta);
+    root.characteristics.sta.value = sta.value;
+    root.characteristics.sta.aging = sta.aging;
+
+    const str = characteristicValues(char.Str);
+    root.characteristics.str.value = str.value;
+    root.characteristics.str.aging = str.aging;
+
+    const dex = characteristicValues(char.Dex);
+    root.characteristics.dex.value = dex.value;
+    root.characteristics.dex.aging = dex.aging;
+
+    const qik = characteristicValues(char.Qik);
+    root.characteristics.qik.value = qik.value;
+    root.characteristics.qik.aging = qik.aging;
+
+    const pre = characteristicValues(char.Pre);
+    root.characteristics.pre.value = pre.value;
+    root.characteristics.pre.aging = pre.aging;
+
+    const com = characteristicValues(char.Com);
+    root.characteristics.com.value = com.value;
+    root.characteristics.com.aging = com.aging;
   }
 
   /**
@@ -354,6 +393,7 @@ export class ActorImporter extends FormApplication {
    */
   importTraits(src) {
     const root = this.object.currentActor.system;
+    root.secrets = typeof src.secrets === "string" ? src.secrets : "";
 
     // Age information
     if (src.Age) {
@@ -362,7 +402,7 @@ export class ActorImporter extends FormApplication {
     }
 
     // House assignment for magi (if name matches a known house)
-    if (root.charType.value == "magus") {
+    if (ActorImporter.isMagus(root.charType.value)) {
       if (Object.keys(MODEL.houses).includes(this.object.currentActor.name)) {
         root.house = { value: MODEL.houses[this.object.currentActor.name] };
       }
@@ -375,7 +415,10 @@ export class ActorImporter extends FormApplication {
 
     // Size (primarily for beasts)
     if (src.Size) {
-      if (this.object.currentActor.type == "beast") {
+      if (
+        this.object.currentActor.type == "beast" ||
+        (this.object.currentActor.type === "npc" && this.object.currentActor.system.charType.value === "entity")
+      ) {
         root.vitals = { siz: { value: src.Size } };
       }
     }
@@ -460,9 +503,51 @@ export class ActorImporter extends FormApplication {
             return "lore-organisation";
           }
         }
+        // Check against crafts list
+        for (let craft of CRAFTS) {
+          if (k === craft) {
+            return "craft-generic";
+          }
+        }
+        // Check against professions list
+        for (let profession of PROFESSIONS) {
+          if (k === profession) {
+            return "profession-generic";
+          }
+        }
         return null;
       }
     }
+  }
+
+  getSpecialCaseCraftOrProfession(k) {
+    if (k.startsWith("Craft; ")) {
+      return {
+        key: "craft-generic",
+        optionName: k.replace(/^Craft;\s*/, "").trim()
+      };
+    }
+
+    if (k.startsWith("Profession: ")) {
+      return {
+        key: "profession-generic",
+        optionName: k.replace(/^Profession:\s*/, "").trim()
+      };
+    }
+
+    for (let craft of CRAFTS) {
+      if (k === craft) {
+        return { key: "craft-generic", optionName: k };
+      }
+    }
+
+    for (let profession of PROFESSIONS) {
+      if (k === profession) {
+        return { key: "profession-generic", optionName: k };
+      }
+    }
+
+    return null;
   }
 
   /**
@@ -512,6 +597,13 @@ export class ActorImporter extends FormApplication {
       //      - Form Resistance (check if matches known form: "Creo Resistance" → "form-resistance")
       //      - Area Lores (matches AREAS list or area-lore pattern)
       //      - Organization Lores (matches ORGANIZATIONS list)
+      //      - Crafts / Professions (generic keys with option slug)
+      const craftOrProfession = this.getSpecialCaseCraftOrProfession(k);
+      if (craftOrProfession) {
+        await this.addSpecialCaseAbility(k, v, craftOrProfession.key, craftOrProfession.optionName);
+        continue;
+      }
+
       const indexKey = await this.getAbitilyIndexKey(k, v);
 
       if (indexKey) {
@@ -751,6 +843,7 @@ export class ActorImporter extends FormApplication {
               this.addReviewItem(`Improved characteristics - Virtue or Flaw not found: "${v}"`);
             }
           }
+
           // SPECIAL CASE: Poor <Characteristic> [xN] - Penalty to characteristic
           // "Poor Strength" or "Poor Strength x2" etc.
           else if (v.startsWith("Poor ")) {
@@ -835,6 +928,10 @@ export class ActorImporter extends FormApplication {
           // SPECIAL CASE: Personality flaws (Arrogant, Cautious, Cruel, etc.)
           else if (await this.handlePersonalityFlaws(v, slug)) {
             continue;
+          } else if (v.endsWith("Gild Enmity")) {
+            await this.addSpecialCaseVnF("flaws", v, "gild-enmity");
+          } else if (v.endsWith("Gild Trained")) {
+            await this.addSpecialCaseVnF("virtues", v, "gild-trained");
           }
           // NO MATCH FOUND: Log as unknown virtue/flaw
           else {
@@ -1141,40 +1238,49 @@ export class ActorImporter extends FormApplication {
     }
     const items = this.object.currentItems;
 
-    for (let [k, v] of Object.entries(src["Spells Known"])) {
-      k = k.trim();
+    const spellEntries = Array.isArray(src["Spells Known"])
+      ? src["Spells Known"].filter((s) => s && typeof s.name === "string")
+      : Object.entries(src["Spells Known"]).map(([name, data]) => ({
+          name,
+          ...(data ?? {})
+        }));
+
+    for (const spell of spellEntries) {
+      const v = spell;
+      const k = (spell.name ?? "").trim();
+      if (!k) continue;
       const slug = FileTools.slugify(k);
       // console.log(`Find spell with key : "${slug}"`);
-      const item = await CompendiaUtils.getItemFromCompendium("spells", slug);
+
+      let item = await CompendiaUtils.getItemFromCompendium("spells", slug);
       if (item) {
+        item = item.toObject();
         stats.spells.found++;
+        // Handle general spell
+        if (item.system.general) {
+          const level = computeLevel(item.system, "spell", false);
+          item.system.levelOffset = parseInt(spell.level) - level;
+        }
+
         items.push(item);
       } else {
-        if ("Phantom of the Talking Head" === k.trim()) {
-          // Typo in Criamon template
-          await this.addSpecialCaseSpell("Phantasm of the Talking Head", v, "phantasm-of-the-talking-head");
-        } else if (k.startsWith("Unraveling the Fabric of ")) {
-          await this.addSpecialCaseSpell(k, v, "unravelling-the-fabric-of-form");
-        } else if (k.startsWith("Mirror of Opposition ")) {
-          await this.addSpecialCaseSpell(k, v, "mirror-of-opposition-form");
-        } else if (k.startsWith("Wizard’s Boost ")) {
-          await this.addSpecialCaseSpell(k, v, "wizards-boost-form");
-        } else if (k.startsWith("Wizard’s Reach ")) {
-          await this.addSpecialCaseSpell(k, v, "wizards-reach-form");
-        } else if (k.startsWith("Wizard’s Expansion ")) {
-          await this.addSpecialCaseSpell(k, v, "wizards-expansion-form");
-        } else if (k.startsWith("Group Wizard’s Boost ")) {
-          await this.addSpecialCaseSpell(k, v, "group-wizards-boost-form");
-        } else if (k.startsWith("Facilitate the Stifled ")) {
-          await this.addSpecialCaseSpell(k, v, "facilitate-the-stifled-form-spell");
-        } else if (k.startsWith("Harnessing the Essential Power of ")) {
-          await this.addSpecialCaseSpell(k, v, "harnessing-the-essential-power-of-form");
-        } else if (k.startsWith("Sustain a Spell of ")) {
-          await this.addSpecialCaseSpell(k, v, "sustain-a-spell-of-form");
-        } else if (k.startsWith("The Lasting Synthemata of ")) {
-          await this.addSpecialCaseSpell(k, v, "lasting-synthemata-of-x");
-        } else if (k.startsWith("Synthemata of ")) {
-          await this.addSpecialCaseSpell(k, v, "synthemata-of-x");
+        let mapped = false;
+        for (let mapping of Object.entries(SPELLS_KEY_MAPPING)) {
+          if (k.startsWith(mapping[0])) {
+            let item = await CompendiaUtils.getItemFromCompendium("spells", mapping[1]);
+            item = item.toObject();
+            if (item.system.general) {
+              const level = computeLevel(item.system, "spell", false);
+              item.system.levelOffset = parseInt(spell.level) - level;
+            }
+            items.push(item);
+            mapped = true;
+            break;
+          }
+        }
+
+        if (mapped) {
+          continue;
         } else if (k.startsWith("Revoke the Protection of ")) {
           let m = k.match(/Revoke the Protection of (.+)/);
           if (FORMS.includes(m[1])) {
@@ -1197,6 +1303,7 @@ export class ActorImporter extends FormApplication {
     if (item) {
       item = item.toObject();
       item.name = name;
+
       this.object.currentItems.push(item);
       this.object.stats.spells.found++;
     } else {
@@ -1224,7 +1331,7 @@ export class ActorImporter extends FormApplication {
     return false;
   }
 
-  async addSpecialCaseAbility(name, attributes, key) {
+  async addSpecialCaseAbility(name, attributes, key, optionName = null) {
     let item = await CompendiaUtils.getItemFromCompendium("abilities", key);
 
     if (item) {
@@ -1235,7 +1342,7 @@ export class ActorImporter extends FormApplication {
       item.system.xp = attributes.xp;
       item.system.speciality = attributes.specialization;
       if (item.system.option !== "") {
-        item.system.option = FileTools.slugify(name);
+        item.system.option = FileTools.slugify(optionName ?? name);
       }
       this.object.currentItems.push(item);
       this.object.stats.abilities.found++;
@@ -1296,8 +1403,11 @@ export class ActorImporter extends FormApplication {
         // Others are companions (specialists, warriors, etc.)
         return "companion";
       }
+    } else {
+      if (json.system.Arts) {
+        return "magusNPC";
+      }
     }
-
     // For supernatural creatures
     const realm = this.getMightFieldName(json);
     if (realm) {
@@ -1563,7 +1673,7 @@ export class ActorImporter extends FormApplication {
           description: p.description,
           cost: p.points, // Power point cost
           init: p.init, // Initiative modifier
-          form: p.form.substring(0, 2).toLowerCase(), // Form abbreviation
+          form: p.form === "inherit" ? p.form : p.form.substring(0, 2).toLowerCase(), // Form abbreviation
           indexKey: FileTools.slugify(p.name),
           reviewer: "xzotl",
           source: "Cov"
