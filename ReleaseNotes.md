@@ -1,5 +1,13 @@
 # Release notes
 
+## Version 1.2.2
+
+### Compendia updates
+
+- Base effects updates for Definitive Edition (by orneen). (part 1)
+
+### Changes
+
 ## Version 1.2.1
 
 ### Changes
@@ -15,8 +23,6 @@
   - Spells with a general level have their level properly computed.
   - Better powers management
     - Powers with multiple forms are duplicated
-
-### Compendia updates
 
 - New virtues and flaws from Guardians of the Forest
 - NPCs and Creatures of Guardians of the Forest (Letter F)

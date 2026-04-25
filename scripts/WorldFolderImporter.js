@@ -84,11 +84,17 @@ export class WorldFolderImporter extends FormApplication {
 
   async _doImport() {
     const { docType, sourceFolder, targetPack, dryRun } = this.object;
+    console.log(
+      `[WorldFolderImporter] Import started — docType: ${docType}, folder: ${sourceFolder}, pack: ${targetPack}, dryRun: ${dryRun}`
+    );
     const result = await game.arm5eCompendia.CompendiaUtils.importWorldFolderToCompendium(
       docType,
       sourceFolder,
       targetPack,
       dryRun
+    );
+    console.log(
+      `[WorldFolderImporter] Import finished — docType: ${docType}, folder: ${sourceFolder}, pack: ${targetPack}, dryRun: ${dryRun}`
     );
     this.object.report = result.report;
     this.render();

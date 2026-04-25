@@ -1,0 +1,63 @@
+{
+  "name": "Reduce the casting total for a specific type of supernatural effect (such as Hermetic magic) cast by the target by the (level + 2 magnitudes) of the spell. (see desc)",
+  "type": "baseEffect",
+  "img": "icons/commodities/materials/parchment-secrets.webp",
+  "effects": [],
+  "folder": "DWjf8tAvdmAEQTwG",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1752302469202,
+    "modifiedTime": 1777108482368,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form": {
+      "value": "vi"
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "baseEffectDescription": "<p>If two or more such spells affect one target, only the highest has any effect: the penalties do not add. The spell must penetrate the target's Magic Resistance in order to have any effect. A maga must be familiar with a type of supernatural effect to invent a spell to affect it.</p>",
+    "baseLevel": 1,
+    "description": "",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "",
+    "review_status": "definitiveReady",
+    "reviewer": "orneen",
+    "credits": ""
+  },
+  "_id": "fUqblvN9eVb25p7c",
+  "sort": 0,
+  "_key": "!items!fUqblvN9eVb25p7c"
+}
