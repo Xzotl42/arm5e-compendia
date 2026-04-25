@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 1.2.3
+
+### Compendia updates
+
+- Base effects updates for Definitive Edition (by orneen). (part 2)
+
 ## Version 1.2.2
 
 ### Compendia updates
