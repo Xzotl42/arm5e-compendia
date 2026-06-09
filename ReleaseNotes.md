@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 1.2.5
+
+### Compendia updates
+
+- Bows ability no longer uses perception but dexterity as default characteristic.
+- QuickUI macros update
+
 ## Version 1.2.3
 
 ### Compendia updates

@@ -713,26 +713,41 @@ export class ActorImporter extends FormApplication {
           }
 
           // Try VIRTUES_KEY_MAPPING - check prefix matches and slugified matches
+          let mappingFound = false;
           for (let mapping of Object.entries(VIRTUES_KEY_MAPPING)) {
             if (v.startsWith(mapping[0])) {
-              return await this.addSpecialCaseVnF("virtues", v, mapping[1]);
+              await this.addSpecialCaseVnF("virtues", v, mapping[1]);
+              mappingFound = true;
+              break;
             } else if (v.toLowerCase().startsWith(mapping[0])) {
-              return await this.addSpecialCaseVnF("virtues", v, mapping[1]);
+              await this.addSpecialCaseVnF("virtues", v, mapping[1]);
+              mappingFound = true;
+              break;
             } else if (FileTools.slugify(v) == mapping[0]) {
-              return await this.addSpecialCaseVnF("virtues", v, mapping[1]);
+              await this.addSpecialCaseVnF("virtues", v, mapping[1]);
+              mappingFound = true;
+              break;
             }
           }
+          if (mappingFound) continue;
 
           // Try FLAWS_KEY_MAPPING - check prefix matches and slugified matches
           for (let mapping of Object.entries(FLAWS_KEY_MAPPING)) {
             if (v.startsWith(mapping[0])) {
-              return await this.addSpecialCaseVnF("flaws", v, mapping[1]);
+              await this.addSpecialCaseVnF("flaws", v, mapping[1]);
+              mappingFound = true;
+              break;
             } else if (v.toLowerCase().startsWith(mapping[0])) {
-              return await this.addSpecialCaseVnF("flaws", v, mapping[1]);
+              await this.addSpecialCaseVnF("flaws", v, mapping[1]);
+              mappingFound = true;
+              break;
             } else if (FileTools.slugify(v) == mapping[0]) {
-              return await this.addSpecialCaseVnF("flaws", v, mapping[1]);
+              await this.addSpecialCaseVnF("flaws", v, mapping[1]);
+              mappingFound = true;
+              break;
             }
           }
+          if (mappingFound) continue;
 
           // SPECIAL CASE: Quiet Magic variants
           // "Quiet Magic" (normal) or "Quiet Magic x2" (silent magic - double benefit)

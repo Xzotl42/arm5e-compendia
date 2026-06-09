@@ -160,6 +160,7 @@ export const AREAS = [
   "Waddenzee Lore",
   "Forest Lore (Westerwald)",
   "Durenmar Lore",
+  "German Lore",
   "[Surrounding Area]"
 ];
 
@@ -229,7 +230,7 @@ export const ABILITY_KEY_MAPPING = {
   "Norman French": "language-generic",
   Language: "language-generic",
   "High German": "language-generic",
-  German: "language-german",
+  German: "language-generic",
   Latin: "language-latin",
   Greek: "language-greek",
   "Ancient Greek": "language-greek",
@@ -298,6 +299,7 @@ export const FLAWS_KEY_MAPPING = {
   Dutybound: "dutybound",
   Enemies: "enemies",
   Fear: "fear",
+  Favors: "favors",
   "Greater Malediction ": "greater-malediction",
   "Lesser Malediction ": "lesser-malediction",
   "Necessary Condition": "necessary-condition",
