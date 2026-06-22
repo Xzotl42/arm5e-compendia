@@ -1,0 +1,122 @@
+{
+  "name": "Dwarf",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [
+    {
+      "_id": "7Ku4M7y6PCGfxK66",
+      "changes": [
+        {
+          "key": "system.vitals.siz.value",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.str.value",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.characteristics.sta.value",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.flaws.voE3EGIFczw3bxPe",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals",
+            "characteristics",
+            "characteristics"
+          ],
+          "subtype": [
+            "size",
+            "str",
+            "sta"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "name": "Dwarf",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!lM884WIUYka1rCFp.7Ku4M7y6PCGfxK66"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are the size of a child. Your comfortable walking speed is two-thirds that of a normal person. Your Size is –2, so the severity of wounds you take increases in three point increments rather than five point increments (see page @@). You take a –1 penalty to each of Strength and Stamina, which may reduce each Characteristic as low as –6. You cannot take this Flaw and Giant Blood (page @@), Large (page @@), or Small Frame (page @@).</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "dwarf",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711383,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "JfccfuGi1M1LXZSX",
+  "_id": "lM884WIUYka1rCFp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!lM884WIUYka1rCFp"
+}

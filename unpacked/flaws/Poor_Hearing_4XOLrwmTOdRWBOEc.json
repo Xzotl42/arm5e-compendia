@@ -1,0 +1,47 @@
+{
+  "name": "Poor Hearing",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Subtract 3 from rolls involving hearing. Speech that is hard for others to understand because of language, dialect, or accent is almost impossible for you to follow. You often pretend to be listening to people when in fact you are not.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "poor-hearing",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1759505373175,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "folder": "UfPp46NPMX0jIrJv",
+  "_id": "4XOLrwmTOdRWBOEc",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!4XOLrwmTOdRWBOEc"
+}

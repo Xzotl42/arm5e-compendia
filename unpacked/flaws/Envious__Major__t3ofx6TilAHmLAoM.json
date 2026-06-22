@@ -1,0 +1,47 @@
+{
+  "name": "Envious (Major)",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You believe that everyone has it better than you do, and that they don’t deserve their good fortune, while you do. Thus, you try to ruin their lives and take their goods for yourself. (This is not a good Flaw for a player character, as it is likely to lead to conflict with the other players.)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "envious-major",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711388,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "bz0zTiMt6vpLpBEO",
+  "_id": "t3ofx6TilAHmLAoM",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!t3ofx6TilAHmLAoM"
+}

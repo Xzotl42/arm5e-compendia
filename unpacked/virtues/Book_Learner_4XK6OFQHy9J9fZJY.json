@@ -1,0 +1,103 @@
+{
+  "name": "Book Learner",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "fsyqHHHCi18Tv8Sk",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.reading",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.qFhRohQtWHrT6Gm2",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities"
+          ],
+          "subtype": [
+            "reading"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Book learner",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!4XK6OFQHy9J9fZJY.fsyqHHHCi18Tv8Sk"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You have a talent for comprehending the writings of others. When studying from books, treat them as if they were three Quality levels higher than they actually are.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "book-learner",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1731255711116,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "4XK6OFQHy9J9fZJY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!4XK6OFQHy9J9fZJY"
+}

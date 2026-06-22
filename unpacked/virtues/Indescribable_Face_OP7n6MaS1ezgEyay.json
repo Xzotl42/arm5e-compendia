@@ -1,0 +1,113 @@
+{
+  "name": "Indescribable Face",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "bilD3QUxzUDAjaDz",
+      "changes": [
+        {
+          "key": "system.bonuses.activities.training",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.activities.teaching",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.imAvDTVdtOdGXMKR",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities",
+            "activities"
+          ],
+          "subtype": [
+            "training",
+            "teaching"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "name": "Apt student",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!OP7n6MaS1ezgEyay.bilD3QUxzUDAjaDz"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>After meeting this character, other characters usually find it hard to describe him sufficiently well to separate him from others. Some forgettable characters are just average height and weight, with unremarkable features. Others have a particular feature which is so striking it crowds out other memories. He has an ostentatious hat. She was carrying a little dog. The characters can recall the striking feature, but little else. A player who selects this Virtue for his character needs to select which form of the Virtue his character has.&nbsp;</p><p>&nbsp;</p><p>A character who is simply average is always forgettable. He can’t turn the ability off and may use props when building a Reputation among other criminals. He may be “that guy in the black gloves who strangles people,” for example, although no-one recalls precisely what he looks like. Intimately related characters can eventually become sufficiently used to the character’s forgettable face that they remember it.&nbsp;</p><p>&nbsp;</p><p>A character who distracts with a prop is memorable when she wishes to be. She can simply not use her devices of distraction if she wishes to make an impression. She can also switch her distracting prop. For example if she hears that someone is looking for a lady with a curious dog, she might switch to a baby, or a curious hat. A character who distracts with props is usually not recognized by random people in crowds (whose eyes also follow the prop, not the face), but this protection is less perfect than a truly forgettable face.</p><p>&nbsp;</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "indescribable-face",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729586117775,
+    "modifiedTime": 1731255711135,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "OP7n6MaS1ezgEyay",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!OP7n6MaS1ezgEyay"
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Missing ingredients*",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "missing-ingredients"
+  },
+  "effects": [
+    {
+      "origin": "Item.xrKFPuJsGS2QNmt7",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.upkeep.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "upkeep"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "HkMosnHtL3i3VhtP",
+      "transfer": true,
+      "name": "Missing ingredients",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!xrKFPuJsGS2QNmt7.HkMosnHtL3i3VhtP"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1731255712420,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "WJlb29XyAyeU9Akz",
+  "_id": "xrKFPuJsGS2QNmt7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!xrKFPuJsGS2QNmt7"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Hex",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "_id": "bilD3QUxzUDAjaDz",
+      "changes": [
+        {
+          "key": "system.bonuses.skills.supernatural_hex.xpMod",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.imAvDTVdtOdGXMKR",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "supernatural"
+          ],
+          "option": [
+            "hex"
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Xp bonus",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
+        "createdTime": null,
+        "modifiedTime": 1729769229942,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!VFmLdARBKSXBARIU.bilD3QUxzUDAjaDz"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character has the ability to curse her enemies, making dire predictions about their future, which tend to come true. This gives her the Supernatural Ability Hex at 1. This Virtue is most often associated with the Infernal realm.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "hex",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729512906781,
+    "modifiedTime": 1731255711142,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "Sym94leLiWXQ3Rh9",
+  "_id": "VFmLdARBKSXBARIU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!VFmLdARBKSXBARIU"
+}

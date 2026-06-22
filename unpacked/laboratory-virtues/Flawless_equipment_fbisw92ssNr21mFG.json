@@ -1,0 +1,111 @@
+{
+  "name": "Flawless Equipment",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The outfittings of the lab are flawless, perhaps even too perfect to have been crafted by mortal hands. <em>+2 General Quality, +2 Upkeep (unless the equipment is continuously protected, created, or donated by supernatural means, in which case –1 Upkeep); +2 Vis Extraction.</em></p>",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "flawless-equipment",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.fbisw92ssNr21mFG",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.visExtraction.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "generalQuality",
+            "visExtraction"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "7XKFj85eBPMxPw16",
+      "transfer": true,
+      "name": "Flawless equipment (to be configured with +2 upkeep or -1 upkeep if the equipment is continuously protected, created or donated by supernatural means)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!fbisw92ssNr21mFG.7XKFj85eBPMxPw16"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712301,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "fbisw92ssNr21mFG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!fbisw92ssNr21mFG"
+}

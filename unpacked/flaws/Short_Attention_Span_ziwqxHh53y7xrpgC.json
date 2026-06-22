@@ -1,0 +1,47 @@
+{
+  "name": "Short Attention Span",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You have trouble concentrating. Keeping watch, listening to complex orders, following the plot of a story, or performing other such tasks that require continued attention are usually not within your ability.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "short-attention-span",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711391,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "hXfkbCsUoxlA0bSB",
+  "_id": "ziwqxHh53y7xrpgC",
+  "sort": 5900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ziwqxHh53y7xrpgC"
+}

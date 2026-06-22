@@ -1,0 +1,47 @@
+{
+  "name": "Lycanthrope",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_xc1hyhkw51",
+      "path": "Flaws#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You have been cursed to change form into a dangerous predator (such as a wolf, lynx, or bear) on nights of the full moon (or similar, monthly, astrological events). No items or clothing transform between shapes, and it takes one full round for the full transformation to take effect. You are not immune to normal weapons, and the curse does not infect bite victims. The animal may be detected as a cursed human with an InAn or InCo spell.&nbsp;</p><p>You have the intelligence of an animal while changed, react to all stimuli as an animal, and do not retain any memory of actions taken in animal form, save occasionally in dreams. You may not even realize that you are under this curse. You can still recognize both friends and enemies when changed.</p><p>Lycanthropes may transform into a non-magical animal between Size –1 (wolf) and Size +2 (bear). You have the normal physical characteristics of a shapeshifter (see page @@), except that +3 is added to your Soak score (in animal form only). Furthermore, you are fully healed of all wounds incurred in animal form upon resuming human form (which happens at dawn).&nbsp;</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "lycanthrope",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1732302432338,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "exportSource": null
+  },
+  "folder": "PMTtdepguHpd2YfJ",
+  "_id": "x9UIufdWrsmWfloD",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!x9UIufdWrsmWfloD"
+}

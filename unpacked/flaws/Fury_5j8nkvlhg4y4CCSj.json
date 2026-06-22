@@ -1,0 +1,47 @@
+{
+  "name": "Fury",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>A violent temper sometimes overwhelms you, sending you into a destructive, uncontrollable rage. You are likely to be provoked by some sort of specific event, such as being insulted, being hurt, or hearing the Order of Hermes disparaged. Roll 9+ on a stress die to avoid flying into a rage when such an event occurs, with another roll every round to try to calm yourself should you fail the first. On a botch, you try to kill everyone around you. While enraged you get +3 to Damage, but –1 on all other scores and rolls.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "story",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "fury",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711365,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "HvyHCuxjJNI5yJoA",
+  "_id": "5j8nkvlhg4y4CCSj",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!5j8nkvlhg4y4CCSj"
+}

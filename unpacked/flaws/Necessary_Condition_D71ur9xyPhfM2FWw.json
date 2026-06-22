@@ -1,0 +1,47 @@
+{
+  "name": "Necessary Condition",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_zctzc5h7p5",
+      "path": "Flaws#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>In order for your magic to work, you must perform a specific action while casting any spell. This should be something simple, such as singing or spinning around three times. If you cannot perform the action, you cannot cast spells at all.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "necessary-condition",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711368,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "MY0pk5xRqPANrebl",
+  "_id": "D71ur9xyPhfM2FWw",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!D71ur9xyPhfM2FWw"
+}

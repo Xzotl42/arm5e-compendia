@@ -1,0 +1,47 @@
+{
+  "name": "Frightful Presence",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are capable of instilling great dread through your appearance. This can work in one of two ways: you are either able to contort your face into a vision of terror (common if Presence is less than zero); or else radiate an aura of awe and splendor that makes others weak at the knees (common if Presence is greater than zero). </p><p>Everyone witnessing you displaying your Frightful Presence must make an immediate Brave Personality roll against an Ease Factor of 3. Add your Presence to the Ease Factor, ignoring any negative sign (for example, a Presence of +3 or –3 makes the Ease Factor 6). A failure means that they either attempt to flee your immediate vicinity, or else are cowed before your glory. </p><p>If the targets remain within your presence (because they are awed or because they are trapped), they can reattempt the Brave roll every two minutes. Once a person has been affected by the Frightful Presence and recovered from its effects, he cannot be affected again; although you will acquire an appropriate Reputation (such as Fearsome or Awesome) at a score of 2 among those you have affected, which will color your dealings with them. </p><p>This effect has a Penetration Total of 0.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "frightful-presence",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729491277272,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "6swvfLJmmr88Do4C",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!6swvfLJmmr88Do4C"
+}

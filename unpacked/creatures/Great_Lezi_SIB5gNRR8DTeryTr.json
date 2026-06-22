@@ -1,0 +1,1939 @@
+{
+  "name": "Great Lezi",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1205
+      },
+      "apprentice": {
+        "value": "10"
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "secrets": "",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "great-lezi",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": []
+        }
+      }
+    },
+    "biography": "<p><strong>Size:</strong> varies from –10 to +7. A Lezi may change size in increments of fractions of an inch, if it wishes. For every +1 Size, add +2 Strength and subtract 1 Quickness. For every –1 in Size, subtract 2 Strength and add +1 Quickness.</p><p>Some Lezis, particularly those with backward feet, are unable to harm humans who have turned all of their clothes backwards.</p><div class=\"el-p\"><p dir=\"auto\"><strong>Vis:</strong> 8 pawns, External vis, club</p></div><div class=\"el-p\"><p dir=\"auto\">The Forest Lord is found in Slavic lands. He usually appears as a tall, pale, bearded man with emerald eyes, but can take the shape of any plant or animal. He may change his size from that of a blade of grass to that of a tall tree. Many lezi have feet that face backward, and many are faunlike. Great Lezi command woodland animals, particularly wolves. The term \"great\" is used to compare this creature to the more common lezi, which is a form of faun.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Variants:</strong> Gigantic fauns are found in the Basque country in Iberia. Once they were much like other fauns, although even then they had striking red fur. When humans won the right to till the country, these fauns became agricultural faeries. They use their great height to plan agricultural improvements, perform feats of remarkable engineering, and shout warnings when predators approach. In the region they are called Basajauns, but this is confusing because Basajaun is a large, wild faun in the folklore of the surrounding peoples, who keeps house with his wife and human slaves.</p></div><p></p><h2>To review</h2><ul><li>no \"Reputation?</li><li>Ability not found: \"Forest Lore\"</li><li>Virtue or Flaw indexKey not found: \"3 x Great Characteristic\"</li><li>Virtue or Flaw indexKey not found: \"5 x Improved Characteristics\"</li><li>Virtue or Flaw indexKey not found: \"Some Lezis\"</li><li>Virtue or Flaw indexKey not found: \"particularly those with backward feet\"</li><li>Virtue or Flaw indexKey not found: \"are unable to harm humans who have turned all of their clothes backwards.\"</li><li>Natural Weapons: No matches for \"2 x Brawl (club)* Init\"?</li></ul>",
+    "characteristics": {
+      "int": {
+        "value": 3,
+        "aging": 0
+      },
+      "per": {
+        "value": 3,
+        "aging": 0
+      },
+      "str": {
+        "value": 20,
+        "aging": 0
+      },
+      "sta": {
+        "value": 3,
+        "aging": 0
+      },
+      "pre": {
+        "value": -2,
+        "aging": 0
+      },
+      "com": {
+        "value": 0,
+        "aging": 0
+      },
+      "dex": {
+        "value": 0,
+        "aging": 0
+      },
+      "qik": {
+        "value": -7,
+        "aging": 0
+      },
+      "cun": {
+        "value": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 7
+      },
+      "soa": {
+        "value": 15
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "longTermFatigue": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "he",
+      "value": 40,
+      "points": 40
+    },
+    "powers": [],
+    "realm": "faeric",
+    "personalities": {
+      "0": {
+        "name": "Loves Forest",
+        "score": 5
+      }
+    },
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    },
+    "magicSystem": {
+      "name": "",
+      "adjective": "",
+      "practitioner": "",
+      "effects": "",
+      "laboratory": "",
+      "realm": "mundane"
+    }
+  },
+  "items": [
+    {
+      "name": "Animal Handling",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/animalHandling.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Care and use of animals, including raising, tending, grooming, and healing them.</p><p><strong>Specialties:</strong> falconry, specific animals. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "woodland creatures",
+        "xp": 225,
+        "key": "animalHandling",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "animal-handling",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333721113,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "HH6nNAIGAO0Bi1pE",
+      "sort": 4700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.HH6nNAIGAO0Bi1pE"
+    },
+    {
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">General physical prowess. It includes moving smoothly, confidently, and with grace. Use of Athletics improves most large-muscle coordination.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> acrobatics, contortions, grace, jumping, running. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "striding",
+        "xp": 30,
+        "key": "athletics",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "athletics",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333738535,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "aLGKMo4ElycorsYK",
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.aLGKMo4ElycorsYK"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "damage to forest",
+        "xp": 225,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333747891,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "WRHvAxs8dapXOEcG",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.WRHvAxs8dapXOEcG"
+    },
+    {
+      "name": "Bargain",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/bargain.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The know-how to get the greatest return for a service or product, while paying the least. It involves reading the person with whom you haggle, a general knowledge of the value of goods, and presenting yourself in certain ways. A good haggler can easily overcome resistance in an inexperienced customer and see through attempts to over-value most merchandise.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> specific types of products, hard sell. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "from position of strength",
+        "xp": 30,
+        "key": "bargain",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "bargain",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333757193,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "2ecwvKZqnqMoxzqD",
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.2ecwvKZqnqMoxzqD"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "human interlopers",
+        "xp": 105,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333767612,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "UOjM36FpevDpq2lP",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.UOjM36FpevDpq2lP"
+    },
+    {
+      "folder": "adQkl7QaQHRah9iT",
+      "name": "Carouse",
+      "type": "ability",
+      "_id": "XgN0QBpeFgtak5kg",
+      "img": "systems/arm5e/assets/icons/abilities/carouse.svg",
+      "system": {
+        "description": "<p style=\"text-align: justify;\">The ability to enjoy oneself without suffering adverse effects. A person with this skill can, for example, consume prodigious amounts of alcohol without passing out. The skill also covers a familiarity with acceptable behavior, balancing enjoyment and moderation. With this Skill, a person is able to have fun and gain friends among the lower classes nearly anywhere, even among those of a different culture.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> power drinking, drinking songs, games of chance, staying sober. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "carouse",
+        "defaultChaAb": "pre",
+        "speciality": "wine",
+        "xp": 30,
+        "key": "carouse",
+        "option": "",
+        "realm": "mundane",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333775750,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.XgN0QBpeFgtak5kg"
+    },
+    {
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "forest folk",
+        "xp": 15,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333782102,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "d4eHph5EZsInfgLV",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.d4eHph5EZsInfgLV"
+    },
+    {
+      "name": "Faerie Speech",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "",
+        "xp": 75,
+        "key": "livingLanguage",
+        "option": "faerie-speech",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333791870,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "X4HHj2lxk3tlQJEH",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.X4HHj2lxk3tlQJEH"
+    },
+    {
+      "name": "Guile",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/guile.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Telling convincing lies, as well as feigning emotion, belief, or frame of mind. If you understand the person you are attempting to deceive (roll 9+ on Perception + Folk Ken), you gain a bonus of +1 to your Guile roll. This Ability also covers disguising yourself, and pretending to be something you are not. It is often an opposed roll, against the victim's Perception + Folk Ken or, for disguise, Perception + Awareness.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> particular sorts of deception, lying to authority, fast talk, elaborate lies. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "about woodland dangers",
+        "xp": 15,
+        "key": "guile",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "guile",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333803060,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "AQoWlK6HufI2j0xR",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.AQoWlK6HufI2j0xR"
+    },
+    {
+      "name": "Leadership",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "woodland creatures",
+        "xp": 225,
+        "key": "leadership",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "leadership",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": 1761333857563,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "CatTP6dj30Yp1eD7",
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.CatTP6dj30Yp1eD7"
+    },
+    {
+      "name": "Swim",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/swim.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The ability to propel yourself through water quickly and efficiently.</p>\n<p><strong>Specialties:</strong> long distances, diving, underwater maneuvering. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "sta",
+        "speciality": "streams",
+        "xp": 0,
+        "key": "swim",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "swim",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "UcneuzN5agQIVqv7",
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.UcneuzN5agQIVqv7"
+    },
+    {
+      "name": "Faerie Sight",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">The character is able to improve itself in ways traditional for characters of this type. A dwarf may seek to become a dwarf king, for example. Or a faerie maid may wish to steal a child to raise as her own.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-sight",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "gf4kNneAkyuQHy7U",
+      "sort": 2200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.gf4kNneAkyuQHy7U"
+    },
+    {
+      "name": "Faerie Speech",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">Many faeries have a Pretense called Faerie Speech, which they use instead of acquiring human languages. Faeries seem to know the same languages as whomever they are talking to. If speaking to a group that has demonstrated mixed linguistic skills, the faerie may select which language to speak in.</span></p><p><span class=\"fontstyle0\">This effect occurs whenever the faerie speaks and costs no Might. It is not magically resisted, because the effect only alters the behavior of the faerie. If the faerie has not heard a person from its audience speak, it may only use whichever language it last used with humans. Once its audience speaks, the faerie may then converse in the correct language for its audience.</span></p><p><span class=\"fontstyle0\">In the bestiary chapter, Faerie Speech is frequently given to characters designed as NPCs. Characters designed for possible use by players have this Virtue more rarely, to free up a Virtue slot, but it is still appropriate for a wide variety of faeries.</span></p>",
+        "source": "RoP:F",
+        "page": 50,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "faerie-speech",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "M8jPKhSRUj1nybpU",
+      "sort": 700000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.M8jPKhSRUj1nybpU"
+    },
+    {
+      "name": "Highly Cognizant",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nxctmjlqqdb",
+          "path": "Virtues#/CF_SEP/Hermetic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Fae only. The character is aware that creative humans can generate change in faeries, and can actively seek out such changes.</p>",
+        "source": "RoP:F",
+        "page": 52,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "highly-cognizant",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3,
+        "wUH1ww0o0zQEBtKr": 3
+      },
+      "_id": "SyQI1WJ7mirMX06o",
+      "sort": 3200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.SyQI1WJ7mirMX06o"
+    },
+    {
+      "name": "Sovereign Ward (may not leave forest)",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "system": {
+        "description": "<p><span class=\"fontstyle0\">If a taboo is selected as a major flaw, the faerie may not harm a person or thing that is defended by the ward. “Harm” is defined very broadly in the faerie’s glamour. A faerie that is vulnerable to religious symbols, for example, can not work around the symbol by putting mundane poison in the food of the wearer, or burning his house down around him. The person is completely safe from the faerie. The faerie must attempt to flee the ward, and its body is destroyed instantly by the ward’s touch.</span> <br style=\" font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; \"></p>",
+        "source": "RoP:F",
+        "page": 52,
+        "indexKey": "sovereign-ward",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "PMTtdepguHpd2YfJ",
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "1gXw96oyxqYT2mD9",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.1gXw96oyxqYT2mD9"
+    },
+    {
+      "name": "Loves Forest",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 75,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "qsxPDjnes549w58Q",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.qsxPDjnes549w58Q"
+    },
+    {
+      "name": "Folk Ken",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/folkKen.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Understanding the background, personality, and motives of another person. Often the storyguide secretly rolls a die when this Ability is used. Thus, you do not know if your character guessed correctly, or even botched.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> peasants, townsfolk, nobles, clergy, magi, the opposite sex. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "forest folk",
+        "key": "folkKen",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "folk-ken",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 30
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.9ocsdOchuGNtv9nH",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761333827422,
+        "modifiedTime": 1761333844443,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "kuG6WULHx2aoWITq",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.kuG6WULHx2aoWITq"
+    },
+    {
+      "name": "Swim",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/swim.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The ability to propel yourself through water quickly and efficiently.</p>\n<p><strong>Specialties:</strong> long distances, diving, underwater maneuvering. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "sta",
+        "speciality": "streams",
+        "key": "swim",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "swim",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false,
+        "xp": 30
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.o7aNMQpv9Ukd0Htq",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761333865096,
+        "modifiedTime": 1761333876108,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "MBIplFtm02NKUPAq",
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.MBIplFtm02NKUPAq"
+    },
+    {
+      "name": "Extended Glamour",
+      "type": "power",
+      "system": {
+        "description": "<p>Constant, Mentem: Grants awareness of everything that happens within the bounds of the forest. In essence, the faerie is coterminous with the forest, so it is present simultaneously everywhere within its boundaries.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "extended-glamour",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334000019,
+        "modifiedTime": 1761334000019,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "LVbhMrMpWZIWzZjK",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.LVbhMrMpWZIWzZjK"
+    },
+    {
+      "name": "Focus Power (Manifestation) Animal",
+      "type": "power",
+      "system": {
+        "description": "<p>Animal or Herbam. Init: Qik -5 Manifests the faerie's consciousness amongst animal and plant life its glamor touches, temporarily controlling their actions. This power allows the lezi to simulate any Creo Animal, Rego Animal, Creo Herbam or Rego Herbam effect with a value of 25 spell levels or less, targeted at the animals within its glamor and suiting its motif.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "focus-power-manifestation-animal",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 5,
+        "init": -5,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334153048,
+        "modifiedTime": 1761334153048,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "TFCjlhWkJiscs1bI",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.TFCjlhWkJiscs1bI"
+    },
+    {
+      "name": "Focus Power (Manifestation) Herbam",
+      "type": "power",
+      "system": {
+        "description": "<p>Animal or Herbam. Init: Qik -5 Manifests the faerie's consciousness amongst animal and plant life its glamor touches, temporarily controlling their actions. This power allows the lezi to simulate any Creo Animal, Rego Animal, Creo Herbam or Rego Herbam effect with a value of 25 spell levels or less, targeted at the animals within its glamor and suiting its motif.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "focus-power-manifestation-herbam",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "he",
+        "cost": 5,
+        "init": -5,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334171444,
+        "modifiedTime": 1761334186672,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "s0TqTXdCIAhtn8qx",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.s0TqTXdCIAhtn8qx"
+    },
+    {
+      "name": "Focus Power (Woodland Change) Herbam",
+      "type": "power",
+      "system": {
+        "description": "<p>Animal or Herbam. Init: Qik -5 : Muto and Intellego effects only in Herbam and Animal.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "focus-power-woodland-change-herbam",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "he",
+        "cost": 5,
+        "init": -5,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334302298,
+        "modifiedTime": 1761334302298,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "qGs6cJfMG54bp56l",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.qGs6cJfMG54bp56l"
+    },
+    {
+      "name": "Focus Power (Woodland Change) Animal",
+      "type": "power",
+      "system": {
+        "description": "<p>Animal or Herbam. Init: Qik -5 : Muto and Intellego effects only in Herbam and Animal.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "focus-power-woodland-change-animal",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "he",
+        "cost": 5,
+        "init": -5,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334345345,
+        "modifiedTime": 1761334345345,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "KHFV0Cr7cCsVNwuB",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.KHFV0Cr7cCsVNwuB"
+    },
+    {
+      "name": "Focus Power (Size Reduction)",
+      "type": "power",
+      "system": {
+        "description": "<p>Corpus or Animal: Greater Lezi are considered to naturally be Size +7, and use powers to live at a smaller Size.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "focus-power-size-reduction",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "co",
+        "cost": 5,
+        "init": -5,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334639596,
+        "modifiedTime": 1761334639596,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "1Qz7jF771nwxQeKb",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.1Qz7jF771nwxQeKb"
+    },
+    {
+      "name": "Transform Into Animal",
+      "type": "power",
+      "system": {
+        "description": "<p>Animal: Transforms the character into a land animal. Faeries retain the power of speech in animal form.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "transform-into-animal",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 3,
+        "init": -3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334698583,
+        "modifiedTime": 1761334698583,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "0KmcW4H1A0TJhpHw",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.0KmcW4H1A0TJhpHw"
+    },
+    {
+      "name": "Transform Into Bird or Fish",
+      "type": "power",
+      "system": {
+        "description": "<p>Animal: Transforms the character into a specified bird or fish. Faeries retain the power of speech in animal form.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "transform-into-bird-or-fish",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "form": "an",
+        "cost": 3,
+        "init": -3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "faeric"
+      },
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.spells.Item.6ysy1oPyWYhO9S4B",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334732830,
+        "modifiedTime": 1761334732830,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "iBxKG1DvN7KIWq6V",
+      "sort": 200000,
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.iBxKG1DvN7KIWq6V"
+    },
+    {
+      "name": "(S) Club",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+      "effects": [],
+      "folder": "o685xKwWjHPMy4pe",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>The lezi's arms are made of solid wood, and do damage like a club. They are wielded with the Brawl Pretense, even if the lezi generates clubs to use in battle.</p><p>2 attacks</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "cost": {
+          "value": "inexp",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": "UOjM36FpevDpq2lP"
+        },
+        "weaponExpert": false,
+        "horse": false,
+        "init": 1,
+        "atk": 2,
+        "dfn": 1,
+        "dam": 3,
+        "str": -2,
+        "range": 0,
+        "load": 1,
+        "equipped": true,
+        "indexKey": "s-club",
+        "state": "inert",
+        "enchantments": null,
+        "reviewer": "KILLTHESCRIBE",
+        "review_status": "definitiveReady",
+        "credits": "",
+        "naturalWeapon": true
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.equipment.Item.Vld8teIWCgtO8Hni",
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.7",
+        "createdTime": 1761334921671,
+        "modifiedTime": 1765619510508,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_id": "myz2qDTZ2m56EW8h",
+      "sort": 450000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!SIB5gNRR8DTeryTr.myz2qDTZ2m56EW8h"
+    }
+  ],
+  "folder": "88CO5QBkOKA6hTJa",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Great Lezi",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.creatures.Actor.SIB5gNRR8DTeryTr",
+      "duration": {
+        "turns": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.soak",
+          "value": "12",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "soak"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Soak bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "MllDi7btRb5X5OtR",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.30",
+        "createdTime": 1761334558200,
+        "modifiedTime": 1761334610841,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!SIB5gNRR8DTeryTr.MllDi7btRb5X5OtR"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.1.7",
+    "createdTime": 1761333513828,
+    "modifiedTime": 1765619528912,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "_id": "SIB5gNRR8DTeryTr",
+  "sort": 400000,
+  "_key": "!actors!SIB5gNRR8DTeryTr"
+}

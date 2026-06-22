@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Step Sideways",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The caster instantly moves to a location she can see within 50 paces. If a Dexterity + Finesse roll against an Ease Factor of 6 is failed, then something goes slightly awry: she might be facing the wrong way, or appears a foot or two above the ground.",
+    "source": "Through the Aegis",
+    "page": 79,
+    "indexKey": "step-sideways",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 15
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1752180660370,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "Gr4GWY0b0NneHRzU",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Gr4GWY0b0NneHRzU"
+}

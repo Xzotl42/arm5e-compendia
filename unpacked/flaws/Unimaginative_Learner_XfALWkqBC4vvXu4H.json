@@ -1,0 +1,104 @@
+{
+  "name": "Unimaginative Learner",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "origin": "Item.XfALWkqBC4vvXu4H",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.visStudy",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities"
+          ],
+          "subtype": [
+            "visStudy"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Uniaginative learner",
+      "_id": "hFSBNsrS85NyJu9U",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!XfALWkqBC4vvXu4H.hFSBNsrS85NyJu9U"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_zctzc5h7p5",
+      "path": "Flaws#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You have trouble figuring things out for yourself. Subtract 3 from rolls when you study from raw vis.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "unimaginative-learner",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711376,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "8FTSMAxaThguRoxc",
+  "_id": "XfALWkqBC4vvXu4H",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!XfALWkqBC4vvXu4H"
+}

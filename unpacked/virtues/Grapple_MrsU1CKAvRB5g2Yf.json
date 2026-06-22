@@ -1,0 +1,164 @@
+{
+  "folder": "MewGclJOm3EmdeRI",
+  "name": "Grapple",
+  "type": "quality",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "system": {
+    "description": "<p>The creature may make a grapple attack instead of a normal attack. This attack may only be employed against an opponent which is less than or equal to (creature's Size + 1). See Non Lethal Combat (page @@) for rules on grappling. If the creature has another natural weapon (such as a bite), it may add its current Grapple Strength to its Attack Total in subsequent rounds, until the opponent breaks free. The creature must defend against any opponent outside the grapple with its Grapple Defense (see Natural Weapons Table, below).</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "grapple",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "type": "mundane",
+    "impact": {
+      "value": "minor"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.characteristics.com.upgrade",
+          "value": "0",
+          "mode": 4,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.characteristics.com.value",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "characteristicBoost",
+            "characteristics"
+          ],
+          "subtype": [
+            "com",
+            "com"
+          ],
+          "option": [
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Com boost",
+      "img": "icons/svg/aura.svg",
+      "_id": "D5jReB3N8J5AyS6E",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!MrsU1CKAvRB5g2Yf.D5jReB3N8J5AyS6E"
+    },
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.music.upgrade",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "qualityAbilityBoost"
+          ],
+          "subtype": [
+            "music"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Music 3",
+      "img": "icons/svg/aura.svg",
+      "_id": "2m5LV1sn97v723j8",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!MrsU1CKAvRB5g2Yf.2m5LV1sn97v723j8"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733376778358,
+    "modifiedTime": 1733376778358,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "exportSource": null
+  },
+  "_id": "MrsU1CKAvRB5g2Yf",
+  "sort": 0,
+  "_key": "!items!MrsU1CKAvRB5g2Yf"
+}

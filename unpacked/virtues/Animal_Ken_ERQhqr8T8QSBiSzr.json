@@ -1,0 +1,103 @@
+{
+  "name": "Animal Ken",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "origin": "Compendium.arm5e.virtues.ERQhqr8T8QSBiSzr",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.animalKen.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "animalKen"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "0CC31dpYw2eJPkRm",
+      "transfer": true,
+      "name": "Xp bonus",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!ERQhqr8T8QSBiSzr.0CC31dpYw2eJPkRm"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nh7mgwj6rq",
+      "path": "Virtues#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You can communicate with animals as if they were human beings. Choosing this Virtue confers the Ability Animal Ken 1 (page @@).</p><p>&nbsp;</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "animal-ken",
+    "review_status": "definitiveReady",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "ERQhqr8T8QSBiSzr",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ERQhqr8T8QSBiSzr"
+}

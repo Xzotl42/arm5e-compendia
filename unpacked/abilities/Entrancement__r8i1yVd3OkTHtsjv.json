@@ -1,0 +1,48 @@
+{
+  "name": "Entrancement*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/entrancement.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You have the power to control another's will. By staring deeply into someone's eyes for several seconds — generally impossible in combat — you can verbally command the person to perform a certain task. Roll Presence + Entrancement against the target's Stamina roll. The person being controlled may get a bonus to resist at the option of the storyguide, according to the table below. Hermetic magi get their normal Mentem Magic Resistance, and get the normal Stamina roll if the effect penetrates. The blind, and people with their eyes closed, are immune; see page @@ for more guidelines on making eye contact. However, it is not possible to look away while being Entranced unless you win the opposed roll.</p></div><div class=\"el-table\" style=\"overflow-x: auto;\" dir=\"ltr\"><table><thead><tr><th dir=\"ltr\">Command</th><th dir=\"ltr\">Example</th><th dir=\"ltr\">Victim's Bonus</th></tr></thead><tbody><tr><td dir=\"ltr\">Innocuous</td><td dir=\"ltr\">Talk to me</td><td dir=\"auto\">3</td></tr><tr><td dir=\"ltr\">Questionable</td><td dir=\"ltr\">Meet me alone at night</td><td dir=\"auto\">6</td></tr><tr><td dir=\"ltr\">Dangerous</td><td dir=\"ltr\">Put your weapons away</td><td dir=\"auto\">9</td></tr><tr><td dir=\"ltr\">Heinous</td><td dir=\"ltr\">Kill your fellows</td><td dir=\"auto\">12</td></tr><tr><td dir=\"ltr\">Suicidal</td><td dir=\"ltr\">Jump off a cliff</td><td dir=\"auto\">15</td></tr></tbody></table></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "pre",
+    "speciality": "",
+    "xp": 0,
+    "key": "entrancement",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "entrancement",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751897,
+    "modifiedTime": 1731255710948,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "r8i1yVd3OkTHtsjv",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!r8i1yVd3OkTHtsjv"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Arthritis",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Your joints are stiff and often painful, making almost any prolonged movement difficult. You are at –3 to rolls involving repetitive movement, sustained over time. Occasionally, the pain is so great that you are seriously disabled. On any movement or combat botch, one of your joints may “lock up,” making the limb effectively useless (–6 to all rolls involving it) until you have a chance to rest it for a day or two.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "arthritis",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1759505373175,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "folder": "UfPp46NPMX0jIrJv",
+  "_id": "9Q86ADdJOOOzSQZE",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!9Q86ADdJOOOzSQZE"
+}

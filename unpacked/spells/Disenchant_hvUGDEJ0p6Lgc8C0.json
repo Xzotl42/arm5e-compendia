@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Disenchant",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "You make a Hermetic magic item lose all its powers permanently if the level of this spell + a stress die (no botch) equals or exceeds the highest level of the enchantments in the item. The enchantment is utterly destroyed, as is all of the vis that was used in the magic item. The object left is in all ways a mundane item, but could be invested with enchantments again at a later time.",
+    "source": "ArM5",
+    "page": 160,
+    "indexKey": "disenchant",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": true,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 20
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1777026180031,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "_id": "hvUGDEJ0p6Lgc8C0",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 9600000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!hvUGDEJ0p6Lgc8C0"
+}

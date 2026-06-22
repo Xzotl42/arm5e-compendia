@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Fading Star of Evening",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell causes wild, uncontrolled magic to course through the target. He gains two Warping Points, and if he is a magus, he must check to see whether he enters Twilight.",
+    "source": "HP",
+    "page": 86,
+    "indexKey": "fading-star-of-evening",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 15
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1752180692697,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "oMDX7KAj1pnuiwNu",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 10700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!oMDX7KAj1pnuiwNu"
+}

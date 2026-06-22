@@ -1,0 +1,129 @@
+{
+  "name": "Superior Equipment",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab is supplied with higher-quality equipment, for example Venetian glassware. If the equipment was made at the covenant, the craftsman should have a Craft Ability of 6 or more, but do not increase Upkeep. <em>+1 General Quality, +2 Upkeep, +1 Safety; +1 Vis Extraction.</em></p>",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "superior-equipment",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.0kjxkPG0GAC6SZ4R",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.safety.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.visExtraction.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "safety",
+            "visExtraction"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "grl7OzXyUDA4QHxF",
+      "transfer": true,
+      "name": "Superior equipment",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!0kjxkPG0GAC6SZ4R.grl7OzXyUDA4QHxF"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712295,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "0kjxkPG0GAC6SZ4R",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!0kjxkPG0GAC6SZ4R"
+}

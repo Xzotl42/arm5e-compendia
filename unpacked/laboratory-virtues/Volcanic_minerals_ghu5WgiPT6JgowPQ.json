@@ -1,0 +1,111 @@
+{
+  "name": "Volcanic Minerals",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The laboratory is supplied with exotic minerals from a volcano. The laboratory needs to be regularly resupplied, otherwise this Virtue is lost. There is no benefit in taking this Virtue multiple times — once the laboratory’s demands for exotic minerals have been met, additional minerals are of little value. <em>–1 Upkeep, +1 Terram.</em></p>",
+    "source": "HP",
+    "page": 19,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "volcanic-minerals",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.ghu5WgiPT6JgowPQ",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.upkeep.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.te.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "upkeep",
+            "te"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "URFM2Twpn6locWXT",
+      "transfer": true,
+      "name": "Volcanic minerals",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!ghu5WgiPT6JgowPQ.URFM2Twpn6locWXT"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712301,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "ghu5WgiPT6JgowPQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ghu5WgiPT6JgowPQ"
+}

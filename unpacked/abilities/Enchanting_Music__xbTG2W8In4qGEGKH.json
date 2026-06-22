@@ -1,0 +1,48 @@
+{
+  "name": "Enchanting Music*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/enchantingMusic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">When you set your mind to it, you can influence others with a particular performance ability. For a specific effect, you must use words that people can understand. You can calm the grieving with tunes alone, but you need lyrics to convince peasants to rise up against the local lord. General effects work on animals, but specific effects only work on creatures that can understand words. When you use Enchanting Ability, roll a die (stress or simple, depending on the situation) and add Communication and Enchanting Ability. An Ease Factor of 9 will calm the upset, 12 will win someone's love, 15 will incite a riot, and a 24 might win back a soul from the Prince of Darkness. If you botch, you inspire an unwanted emotion.</p></div><div class=\"el-p\"><p dir=\"auto\">If the target has Magic Resistance, you must penetrate their resistance; see page @@ for rules.</p></div><div class=\"el-p\"><p dir=\"auto\">You should also roll for the quality of the performance, but the magical effect is independent of this, unless you botch. If you do botch the Ability roll, you have failed to produce any performance for some reason, and so the Supernatural Ability automatically fails.</p></div><p style=\"text-align: justify\"><strong>Specialties:</strong> a particular emotion, a particular sort of person. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "com",
+    "speciality": "",
+    "xp": 0,
+    "key": "enchantingMusic",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "enchanting-music",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751875,
+    "modifiedTime": 1731255710950,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "xbTG2W8In4qGEGKH",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!xbTG2W8In4qGEGKH"
+}

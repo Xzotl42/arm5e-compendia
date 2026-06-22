@@ -1,0 +1,47 @@
+{
+  "name": "Unpredictable Magic",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_zctzc5h7p5",
+      "path": "Flaws#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You always roll a stress die when using magic, even if completely relaxed. If you choose to cast a spontaneous spell without expending fatigue, you must still roll to check for a botch, although the roll does not add to your Casting Total. Even if you have mastered a spell, you must always roll at least one botch die.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "unpredictable-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711371,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "8FTSMAxaThguRoxc",
+  "_id": "K7X0REkRf7eh4Mah",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!K7X0REkRf7eh4Mah"
+}

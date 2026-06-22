@@ -1,0 +1,105 @@
+{
+  "name": "Obese",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.flaws.Item.3NUTVZLNMeA4yZxY",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.rolls.fatigue",
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "fatigue"
+          ],
+          "subtype": [
+            "fatigueRolls"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Fatigue rolls modifier",
+      "img": "icons/svg/aura.svg",
+      "_id": "CuyrypXStGNejZIO",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.1.4",
+        "createdTime": 1764495459636,
+        "modifiedTime": 1764495518075,
+        "lastModifiedBy": "ErQ613O32LNYb71L",
+        "exportSource": null
+      },
+      "_key": "!items.effects!3NUTVZLNMeA4yZxY.CuyrypXStGNejZIO"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_g1gywhrffo",
+      "path": "Flaws#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are large because of fat, not muscle. You are at –1 to all rolls that involve moving quickly or gracefully and at –3 to all Fatigue rolls. You are not so large that your Size is increased, and you may take this Flaw along with the Virtues and Flaws that change your Size.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "obese",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1759505373175,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "folder": "UfPp46NPMX0jIrJv",
+  "_id": "3NUTVZLNMeA4yZxY",
+  "sort": 4400000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!3NUTVZLNMeA4yZxY"
+}

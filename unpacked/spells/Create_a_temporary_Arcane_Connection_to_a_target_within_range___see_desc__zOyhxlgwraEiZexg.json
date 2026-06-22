@@ -1,0 +1,63 @@
+{
+  "name": "Create a temporary Arcane Connection to a target within range. (see desc)",
+  "type": "baseEffect",
+  "img": "icons/commodities/materials/parchment-secrets.webp",
+  "effects": [],
+  "folder": "DWjf8tAvdmAEQTwG",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1752302469202,
+    "modifiedTime": 1777108025505,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form": {
+      "value": "vi"
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "baseEffectDescription": "<p>This Arcane Connection cannot be fixed in a laboratory, and does not itself give a bonus to Penetration. It does, however, allow the magus to use other methods to boost Penetration, and to use other spells on the target even if the magus can no longer perceive it. Note that this spell must Penetrate the target’s Magic Resistance, if any, like any other spell.</p>",
+    "baseLevel": 4,
+    "description": "",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "",
+    "review_status": "definitiveReady",
+    "reviewer": "orneen",
+    "credits": ""
+  },
+  "_id": "zOyhxlgwraEiZexg",
+  "sort": 0,
+  "_key": "!items!zOyhxlgwraEiZexg"
+}

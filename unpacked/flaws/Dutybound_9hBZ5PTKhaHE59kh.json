@@ -1,0 +1,47 @@
+{
+  "name": "Dutybound",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You adhere to a restrictive code of conduct that forbids certain behavior, probably including prohibitions against lying, killing prisoners, stealing, and other occasionally useful actions. You follow this code out of guilt or fear rather than high-flown moral standards, and may spend more time justifying yourself than keeping your conduct pure.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "dutybound",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711367,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "hXfkbCsUoxlA0bSB",
+  "_id": "9hBZ5PTKhaHE59kh",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!9hBZ5PTKhaHE59kh"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Legerdemain*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/legerdemain.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_buj82p3vtnu",
+      "path": "Abilities#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Sleight of hand and knowledge of confidence games requiring sleight of hand. It requires a delicate touch and great hand-eye coordination. Legerdemain includes filching things from market stalls, cutting purses, and picking such locks as there are, as well as the \"magical\" trickery often used to raise money from credulous folk. The target of an attempt rolls Perception + Awareness to detect your actions. If the perceiver has Legerdemain skill, he may substitute that for Awareness if he wishes. On particularly delicate moves such as picking pockets, someone trying to spot the character using Legerdemain receives a +3 bonus. </p><p><strong>Specialties</strong>: filching, picking pockets, \"magic\" tricks. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "dex",
+    "speciality": "",
+    "xp": 0,
+    "key": "legerdemain",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "legerdemain",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751904,
+    "modifiedTime": 1732268024898,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "_id": "myO1pWGrXMg2D3xl",
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!myO1pWGrXMg2D3xl"
+}

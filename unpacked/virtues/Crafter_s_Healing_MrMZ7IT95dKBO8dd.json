@@ -1,0 +1,47 @@
+{
+  "name": "Crafter’s Healing",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Like the smiths of ancient lore, the character can magically heal wounds by touching them with the tools of his trade. This is a rare and mysterious power that Hermetic magi cannot understand or duplicate, and it is common for this Virtue to follow familial bloodlines. Selecting this Virtue gives the character the Crafter’s Healing Ability at a score of 1.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "crafters-healing",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729445061251,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "MrMZ7IT95dKBO8dd",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MrMZ7IT95dKBO8dd"
+}

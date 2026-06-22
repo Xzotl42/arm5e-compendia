@@ -1,0 +1,65 @@
+<form class="{{cssClass}} arm5eChooser aura-config" autocomplete="off">
+  {{> "systems/arm5e/templates/roll/parts/roll-header.hbs" header="Inputs" }}
+  <div class="marginsides32">
+
+    <div class="form-group">
+      <label>Dry run <i class="fa-regular fa-circle-question"
+          title="Preview changes without writing to the compendium"></i></label>
+      <input type="checkbox" name="dryRun" {{checked dryRun}} />
+    </div>
+
+    <div class="form-group">
+      <label>Document type</label>
+      <select name="docType" data-type="String" style="max-width: 250px;">
+        {{#select docType}}
+          {{#each docTypes}}
+            <option value="{{this.value}}">{{this.label}}</option>
+          {{/each}}
+        {{/select}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Source folder</label>
+      {{#if sourceFolders.length}}
+        <select name="sourceFolder" data-type="String" style="max-width: 250px;">
+          {{#select sourceFolder}}
+            <option value="">-- Select a folder --</option>
+            {{#each sourceFolders}}
+              <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+      {{else}}
+        <span><em>No folders found in this collection.</em></span>
+      {{/if}}
+    </div>
+
+    <div class="form-group">
+      <label>Target compendium</label>
+      {{#if targetPacks.length}}
+        <select name="targetPack" data-type="String" style="max-width: 250px;">
+          {{#select targetPack}}
+            <option value="">-- Select a compendium --</option>
+            {{#each targetPacks}}
+              <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+      {{else}}
+        <span><em>No compendia available for the selected document type.</em></span>
+      {{/if}}
+    </div>
+
+    <button class="import-btn" style="margin-top: 3px;" {{#unless canImport}}disabled{{/unless}}>Import</button>
+
+    {{#if enrichedReport}}
+      <div class="import-report"
+        style="margin-top: 8px; border: 1px solid #999; border-radius: 3px; padding: 6px; max-height: 220px; overflow-y: auto; font-size: 0.9em;">
+        {{{enrichedReport}}}
+      </div>
+    {{/if}}
+
+  </div>
+  {{> "systems/arm5e/templates/roll/parts/roll-footer.hbs" footer="Inputs"}}
+</form>

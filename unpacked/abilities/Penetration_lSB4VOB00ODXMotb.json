@@ -1,0 +1,48 @@
+{
+  "name": "Penetration",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/penetration.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_7bwhgya3q6x",
+      "path": "Abilities#/CF_SEP/Arcane",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">Getting your spell through the target's Magic Resistance. See page @@ for detailed Penetration rules.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> any one Art. (Arcane)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "penetration",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "penetration",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751863,
+    "modifiedTime": 1731255710947,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "Ku86xoVh78FXIgLr",
+  "_id": "lSB4VOB00ODXMotb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!lSB4VOB00ODXMotb"
+}

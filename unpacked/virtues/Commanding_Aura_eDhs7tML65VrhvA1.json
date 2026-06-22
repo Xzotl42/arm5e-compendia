@@ -1,0 +1,47 @@
+{
+  "name": "Commanding Aura",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>This supernatural power is granted to characters by either the pope, or the Divine directly. It is an inherent benefit of Church office. Most characters with this Virtue also have the Senior Clergy Social Status Virtue.</p><p> The character has a power equivalent to the Hermetic spell <em>Aura of Rightful Authority </em>(page @@), but with Voice Range; this power has no cost, and no Penetration. The character also has a Magic Resistance and a Soak bonus that depend upon his rank in the Church. If the character carries a relic, this Magic Resistance is <em>added </em>to that of the relic. </p><p> </p><p><strong>Pope:</strong></p><p>Magic Resistance 25, Soak bonus +5.</p><p> <strong>Cardinal, or legatus a latere: </strong>Magic Resistance 20, Soak Bonus +4.</p><p> <strong>Legatus missus: </strong>Magic Resistance 15, Soak Bonus +3.</p><p> <strong>Archbishop: </strong>Magic Resistance 10, Soak Bonus +2. </p><p> </p><p>Papal legates are the representatives of the pope. If the legatus missus — a lower grade with limited powers — delays or deviates from his mission, then his Commanding Aura ceases to work until he completes penance. The Commanding Aura is also lost when a legatus missus completes his mission. </p><p> </p><p>Some lay rulers ordained by the pope (mostly kings and emperors) also have a Commanding Aura. See <em>Realms of Power: The Divine</em>, page 42.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "commanding-aura",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729366664504,
+    "modifiedTime": 1733500328579,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "exportSource": null
+  },
+  "folder": "JAV9SoAVuA225dAI",
+  "_id": "eDhs7tML65VrhvA1",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!eDhs7tML65VrhvA1"
+}

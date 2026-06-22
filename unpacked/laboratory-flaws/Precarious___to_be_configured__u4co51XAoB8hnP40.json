@@ -1,0 +1,98 @@
+{
+  "name": "Precarious* \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 119,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "precarious"
+  },
+  "effects": [
+    {
+      "origin": "Item.u4co51XAoB8hnP40",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "safety"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "fUR5NDxWBcpiLdhN",
+      "transfer": true,
+      "name": "Precarious (to be configured with 1 point on an appropriate Art specialization)",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!u4co51XAoB8hnP40.fUR5NDxWBcpiLdhN"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_ls5eoj8lbn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663055052510,
+    "modifiedTime": 1731255712420,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "NVhyR3IguEbeHnVj",
+  "_id": "u4co51XAoB8hnP40",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!u4co51XAoB8hnP40"
+}

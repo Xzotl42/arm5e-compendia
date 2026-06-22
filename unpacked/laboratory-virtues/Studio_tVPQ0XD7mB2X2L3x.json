@@ -1,0 +1,102 @@
+{
+  "name": "Studio",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>An ornate room just outside the lab proper is set aside for the sole purpose of displaying and showing off the owner’s most prized possessions to guests. Verditius magi commonly build studios in order to display the items they have crafted to potential customers (see Houses of Hermes: Mystery Cults). The studio takes up more of the sanctum space, but not usually of the laboratory chamber itself. <em>+1 to +3 Aesthetics, depending on the number and magnificence of items displayed.</em></p>",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "studio",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.tVPQ0XD7mB2X2L3x",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "oovcLxhbqumCOXBN",
+      "transfer": true,
+      "name": "Studio (Aesthetics at 1, can be increase to 3)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tVPQ0XD7mB2X2L3x.oovcLxhbqumCOXBN"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712302,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "bgjOBA1J7YuglBIX",
+  "_id": "tVPQ0XD7mB2X2L3x",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!tVPQ0XD7mB2X2L3x"
+}

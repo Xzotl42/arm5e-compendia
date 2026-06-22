@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Shattering the Malicious (Rune)",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Like Unraveling the Fabric of (Form), but targeted specifically at one rune (for example, Kauno or Laguz).\nNote: The original description was, “Like Unraveling the Fabric of (Form), but targeted specifically at rune­magic.”",
+    "source": "GotF",
+    "page": 60,
+    "indexKey": "shattering-the-malicious-rune",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": true,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 3
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1777026782797,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "_id": "PHSNcDdhZAHrDEAv",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 6200000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!PHSNcDdhZAHrDEAv"
+}

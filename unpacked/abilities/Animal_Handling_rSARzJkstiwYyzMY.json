@@ -1,0 +1,48 @@
+{
+  "name": "Animal Handling",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/animalHandling.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_buj82p3vtnu",
+      "path": "Abilities#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Care and use of animals, including raising, tending, grooming, and healing them.</p><p><strong>Specialties:</strong> falconry, specific animals. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "pre",
+    "speciality": "",
+    "xp": 0,
+    "key": "animalHandling",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "animal-handling",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751851,
+    "modifiedTime": 1732268024898,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "_id": "rSARzJkstiwYyzMY",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!rSARzJkstiwYyzMY"
+}

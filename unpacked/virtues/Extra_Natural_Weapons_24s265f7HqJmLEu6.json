@@ -1,0 +1,164 @@
+{
+  "folder": "MewGclJOm3EmdeRI",
+  "name": "Extra Natural Weapons",
+  "type": "quality",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "system": {
+    "description": "<p>Gain an extra set of Natural Weapons, such as Horns/Antlers, Teeth/Tusks, Claws, or Hooves. Only one set of weapons may be used in each round of combat. This quality may be taken more than once.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "extra-natural-weapons",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "type": "mundane",
+    "impact": {
+      "value": "minor"
+    },
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.characteristics.com.upgrade",
+          "value": "0",
+          "mode": 4,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.characteristics.com.value",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "characteristicBoost",
+            "characteristics"
+          ],
+          "subtype": [
+            "com",
+            "com"
+          ],
+          "option": [
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Com boost",
+      "img": "icons/svg/aura.svg",
+      "_id": "D5jReB3N8J5AyS6E",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!24s265f7HqJmLEu6.D5jReB3N8J5AyS6E"
+    },
+    {
+      "origin": "Item.OByu58KOWYNkWSKr",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.music.upgrade",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "qualityAbilityBoost"
+          ],
+          "subtype": [
+            "music"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Music 3",
+      "img": "icons/svg/aura.svg",
+      "_id": "2m5LV1sn97v723j8",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!24s265f7HqJmLEu6.2m5LV1sn97v723j8"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "wUH1ww0o0zQEBtKr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1733376620054,
+    "modifiedTime": 1733376620054,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "exportSource": null
+  },
+  "_id": "24s265f7HqJmLEu6",
+  "sort": 0,
+  "_key": "!items!24s265f7HqJmLEu6"
+}

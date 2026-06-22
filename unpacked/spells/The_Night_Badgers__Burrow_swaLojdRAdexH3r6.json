@@ -1,0 +1,82 @@
+{
+  "type": "spell",
+  "name": "The Night-Badgers’ Burrow",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 5,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "group"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "Moves the targets from the Animal province to the Terram province in the Twilight Void. This can allow them to leave the Void through a Terram vestige or boundary.",
+    "source": "RoP:M",
+    "page": 28,
+    "indexKey": "the-night-badgers-burrow",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS",
+    "level": 20
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.swaLojdRAdexH3r6",
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1752180697058,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "swaLojdRAdexH3r6",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!swaLojdRAdexH3r6"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "(Gild) Trained",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "origin": "Item.sKLmw7fhKXq8fTSv",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.visStudy",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities"
+          ],
+          "subtype": [
+            "visStudy"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Vis Study",
+      "_id": "64me9GK16BHoIa8D",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!m0PCmy7MK4ACTWwV.64me9GK16BHoIa8D"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div><p>You have been trained for a number of seasons at the covenant of Durenmar during the end of your apprenticeship in the Rhine Tribunal. In addition to a season of training by a magus of House Bonisagus, you have also been inducted into one of the Rhine's political gilds, receiving two or more seasons of training by one of its masters. You gain an additional 30 experience points, which may be spent on Order of Hermes Lore, Intrigue, and Durenmar Lore (or, rarely, the Lore of another covenant where you were trained by your gild). You gain a further 60 experience points that may be spent on any General or Arcane Abilities, Arts, and spells (one point per level) that are appropriate to your gild. For example, the Ash Gild Trained Virtue can confer Hunt, Penetration, and battle magics, whereas Elder Gild Trained might grant Etiquette, Faerie Lore, and faerie spells. This extra training may negate the effect of the Weak Parens Flaw, in which case the Virtue and Flaw cancel out and both can be dropped. With the approval of the storyguide, it may be combined with the Skilled Parens Virtue.</p><p>This Virtue is not compulsory for Rhine magi — not all magi apprenticed here opt to receive this training and join a gild immediately, although many do. A magus who joins a gild post-apprenticeship usually still receives gild training, but in this case the Virtue should not be taken — instead the magus must spend seasons of time to be trained, for which experience points are gained as usual according to the Long Term Events chapter of **Ars Magica** 5th Edition.</p></div>",
+    "source": "GotF",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "gild-trained",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "credits": "",
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1777021544242,
+    "modifiedTime": 1777021544242,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "m0PCmy7MK4ACTWwV",
+  "sort": 0,
+  "_key": "!items!m0PCmy7MK4ACTWwV"
+}

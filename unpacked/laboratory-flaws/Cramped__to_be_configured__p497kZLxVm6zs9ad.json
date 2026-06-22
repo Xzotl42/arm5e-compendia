@@ -1,0 +1,134 @@
+{
+  "name": "Cramped \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "cramped"
+  },
+  "effects": [
+    {
+      "origin": "Item.p497kZLxVm6zs9ad",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.generalQuality.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.safety.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "",
+          "value": "1",
+          "mode": 0,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "laboratory",
+            "none"
+          ],
+          "subtype": [
+            "generalQuality",
+            "upkeep",
+            "safety",
+            "aesthetics",
+            "none"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "Ql8szgJOirVldg6y",
+      "transfer": true,
+      "name": "Cramped (miss 1 point on a activity specialization)",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!p497kZLxVm6zs9ad.Ql8szgJOirVldg6y"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1731255712420,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "aDJYrD4qp7WjRbfx",
+  "_id": "p497kZLxVm6zs9ad",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!p497kZLxVm6zs9ad"
+}

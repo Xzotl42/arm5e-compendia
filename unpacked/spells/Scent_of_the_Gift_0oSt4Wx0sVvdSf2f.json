@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Scent of the Gift",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 10,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "smell"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The spell allows the caster to smell any person within range who has The Gift, Gentle Gift, or Blatant Gift. It needs to Penetrate, and constitutes scrying if a magus is within range, unless cast forcelessly.",
+    "source": "custom",
+    "page": 140,
+    "indexKey": "scent-of-the-gift",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 25
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1777027009593,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "_id": "0oSt4Wx0sVvdSf2f",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!0oSt4Wx0sVvdSf2f"
+}

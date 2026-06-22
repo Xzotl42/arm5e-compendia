@@ -1,0 +1,47 @@
+{
+  "name": "Delusion",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You believe wholeheartedly in something that just isn’t so. Examples include that you are a magus (if you are not), that you are the Pope’s child, or that your imaginary friend is real.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "delusion",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711385,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "hXfkbCsUoxlA0bSB",
+  "_id": "oATSUqY7nckgcBdc",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!oATSUqY7nckgcBdc"
+}

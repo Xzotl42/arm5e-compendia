@@ -1,0 +1,103 @@
+{
+  "name": "Affinity With (ability)",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "_id": "OhGxjxuMflCr8VcU",
+      "changes": [
+        {
+          "key": "",
+          "value": "1.5",
+          "mode": 0,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.LJAAZ3p7XLkvN9GI",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "none"
+          ],
+          "subtype": [
+            "none"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Affinity to be configured",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!nKbgCBCMjiIhsIqE.OhGxjxuMflCr8VcU"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>All Advancement Totals for one Ability are increased by half, rounded up, as are any experience points you put in that Ability at character creation. You may only take this Virtue once for a given Ability, but may take it again for different Abilities. If you take this Virtue for an Ability, you may exceed the normal age-based cap during character generation (see page @@) by two points for that Ability.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 40,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "affinity-with-ability",
+    "review_status": "definitiveReady",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1731255711156,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "nKbgCBCMjiIhsIqE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!nKbgCBCMjiIhsIqE"
+}

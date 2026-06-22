@@ -1,0 +1,47 @@
+{
+  "name": "Guild Master",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character is a guild master and may legally practice his trade in </p><p>town, and hire journeymen to work for him. He participates in guild activities and is considered a member in good standing. You may select Academic Abilities at character generation.&nbsp;</p><p>&nbsp;</p>",
+    "source": "ArM5Def",
+    "page": 40,
+    "type": "socialWestern",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "guild-master",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729512639550,
+    "modifiedTime": 1731255711140,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "Dlca5muDKIfBSi6F",
+  "_id": "SuuEUpqjsZ42P8wK",
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!SuuEUpqjsZ42P8wK"
+}

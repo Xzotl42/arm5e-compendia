@@ -1,0 +1,48 @@
+{
+  "name": "Language: Latin*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/deadLanguage.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_097jrlmaqjp7",
+      "path": "Abilities#/CF_SEP/Academic, Languages",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>This skill is similar to all other (Language) Abilities, but it is only available to educated characters. It grants the ability to speak a language which is no longer used as a native language in the areas the character has lived in. The most important example is Latin. All educated characters in the West know Latin, since without it you cannot learn any Academic Knowledges. It is also the common language of the Church and Order of Hermes. In other areas of the world, Arabic, Greek and Hebrew fill similar functions, although of these only Hebrew is a dead language.</p><p><strong>Specialties</strong>: academic usage, Church ceremonies, Hermetic usage. (Academic)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "com",
+    "speciality": "",
+    "xp": 0,
+    "key": "deadLanguage",
+    "option": "Latin",
+    "realm": "magic",
+    "indexKey": "language-latin",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751850,
+    "modifiedTime": 1731255710937,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "RFwx3qCrd6CJ4GDo",
+  "_id": "3y9cx5cEwpdzxzlN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!3y9cx5cEwpdzxzlN"
+}

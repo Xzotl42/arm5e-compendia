@@ -1,0 +1,47 @@
+{
+  "name": "Slow Caster",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_zctzc5h7p5",
+      "path": "Flaws#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">Your magic requires more time to prepare and execute than that of other magi. Your Formulaic spells take two rounds to cast; Spontaneous spells also take two rounds unless you fast-cast, in which case they take one round casting time. Fast-cast Mastered spells also take the normal one-round time. You can still cast Muto Vim spells on your own spells, but the casting process takes longer. Ritual spells and ceremonial castings are performed as normal, since all magi must cast them slowly and carefully.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "slow-caster",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711375,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "8FTSMAxaThguRoxc",
+  "_id": "VbcljlapH0Ws8rzD",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!VbcljlapH0Ws8rzD"
+}

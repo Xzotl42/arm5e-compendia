@@ -1,0 +1,57 @@
+{
+  "name": "(C) Arbalest, Heavy",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-heavy-black.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>A powerful, late-medieval arbalest with a steel bow. A heavy arbalest is spanned with a built-in mechanical device called a cranequin. This is a six-round Extended Action. If the spanning process is interrupted, the character may resume it at the point where he left off.</p>",
+    "source": "LoM",
+    "page": 139,
+    "cost": {
+      "value": "exp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": false,
+    "init": 5,
+    "atk": 5,
+    "dfn": 0,
+    "dam": 12,
+    "str": 1,
+    "range": 35,
+    "load": 2,
+    "equipped": false,
+    "indexKey": "c-arbalest-heavy",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1731255712556,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "_id": "gD7hYVicUW4D9iBl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!gD7hYVicUW4D9iBl"
+}

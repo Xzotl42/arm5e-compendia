@@ -1,0 +1,114 @@
+{
+  "name": "Independent Study",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.KS9Gxs6Txp1EZapb",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.activities.adventuring",
+          "value": "3",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.bonuses.activities.practice",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "activities",
+            "activities"
+          ],
+          "subtype": [
+            "adventuring",
+            "practice"
+          ],
+          "option": [
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "XP bonus on Adventuring and Practice",
+      "img": "icons/svg/aura.svg",
+      "_id": "VT8ukVbpdR2FqIsF",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.4.0.16",
+        "createdTime": 1757739075063,
+        "modifiedTime": 1757739158062,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "_key": "!items.effects!KS9Gxs6Txp1EZapb.VT8ukVbpdR2FqIsF"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character develops new skills extremely quickly on his own. When he is studying through Practice, add two to the Source Quality, and add three to the Source Quality of his Adventure experience.</p><p>&nbsp;</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "independent-study",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729589752113,
+    "modifiedTime": 1731255711130,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "KS9Gxs6Txp1EZapb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!KS9Gxs6Txp1EZapb"
+}

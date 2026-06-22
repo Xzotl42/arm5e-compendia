@@ -1,0 +1,48 @@
+{
+  "name": "Sense Holiness & Unholiness*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/senseHolyAndUnholy.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are able to feel the presence of good and evil. A Perception + Sense Holiness and Unholiness roll against an Ease Factor of 9 lets you sense holiness or unholiness in a general area; against an Ease Factor of 15, in a person or object. The Ease Factor to detect a demon is 0, but the character must still Penetrate its Magic Resistance. If an angel is hiding its divine nature, which is unusual, the Ease Factor is 15, and the character must Penetrate. If the angel is not hiding its divine nature, the roll automatically succeeds. In auras of particularly strong divine or infernal influence, your sensitivity may overwhelm you. This Ability is granted by the Divine realm, not the Magic or Faerie realms, and thus uses the Divine column of the realm interaction chart (page @@). </p><p><strong>Specialties</strong>: good or evil. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "per",
+    "speciality": "",
+    "xp": 0,
+    "key": "senseHolyAndUnholy",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "sense-holiness-unholiness",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751922,
+    "modifiedTime": 1731255710941,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "OHRBhU3P4daWv4EJ",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!OHRBhU3P4daWv4EJ"
+}

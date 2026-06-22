@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Lungs of Drowning",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "part"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": true,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell fills the target’s lungs with water, causing him to experience the sensation of drowning. The character begins to suffer deprivation due to lack of air (see Ars Magica Fifth Edition, page 180), but as the spell only lasts for Diameter duration (two minutes), the character is unlikely to die unless the spell is repeatedly cast on him.",
+    "source": "HP",
+    "page": 86,
+    "indexKey": "lungs-of-drowning",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 20
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1752180666778,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "NIQUlUvHOthqnQfq",
+  "folder": "U1PQp4E5HVBU8pTj",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!NIQUlUvHOthqnQfq"
+}

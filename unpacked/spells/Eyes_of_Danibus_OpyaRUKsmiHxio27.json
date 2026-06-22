@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Eyes of Danibus",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "enhancingRequisite": 1,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": true,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Trajan can see from any vantage point along a river that he holds an Arcane Connection to. He can see the river itself, anything on or in the river, and anything within a pace of the river banks (subject to the normal limitations of sight).",
+    "source": "Hooks",
+    "page": 79,
+    "indexKey": "eyes-of-danibus",
+    "targetSize": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 25
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1752180668581,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "OpyaRUKsmiHxio27",
+  "folder": "U1PQp4E5HVBU8pTj",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!OpyaRUKsmiHxio27"
+}

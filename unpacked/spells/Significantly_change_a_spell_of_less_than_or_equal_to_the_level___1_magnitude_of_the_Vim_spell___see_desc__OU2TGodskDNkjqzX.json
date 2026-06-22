@@ -1,0 +1,63 @@
+{
+  "name": "Significantly change a spell of less than or equal to the level + 1 magnitude of the Vim spell. (see desc)",
+  "type": "baseEffect",
+  "img": "icons/commodities/materials/parchment-secrets.webp",
+  "effects": [],
+  "folder": "DWjf8tAvdmAEQTwG",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1752302469202,
+    "modifiedTime": 1777108357799,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form": {
+      "value": "vi"
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "baseEffectDescription": "<p>This may not change either the Technique or Form of the target spell. A change in power of plus or minus one magnitude is a significant change, as is a change of target, if the target was possible for the original spell.</p>",
+    "baseLevel": 1,
+    "description": "",
+    "source": "ArM5Def",
+    "page": 0,
+    "indexKey": "",
+    "review_status": "definitiveReady",
+    "reviewer": "orneen",
+    "credits": ""
+  },
+  "_id": "OU2TGodskDNkjqzX",
+  "sort": 0,
+  "_key": "!items!OU2TGodskDNkjqzX"
+}

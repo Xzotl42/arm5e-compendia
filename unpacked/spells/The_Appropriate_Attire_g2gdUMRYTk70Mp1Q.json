@@ -1,0 +1,82 @@
+{
+  "type": "spell",
+  "name": "The Appropriate Attire",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "an"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell slightly changes the color and cut of a leather jerkin, wool tunic, or fur cloak. In social situations where clothing is important, the caster gains a +1 bonus to any Etiquette or Charm roll the player has to make.",
+    "source": "App",
+    "page": 45,
+    "indexKey": "the-appropriate-attire",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "reviewed",
+    "reviewer": "TGGoHS",
+    "level": 4
+  },
+  "img": "systems/arm5e/assets/magic/an.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.world.spells-animal.Item.g2gdUMRYTk70Mp1Q",
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1729689989096,
+    "modifiedTime": 1752180684759,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "g2gdUMRYTk70Mp1Q",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "folder": "Wzb8TRtvqtVwjohA",
+  "sort": 0,
+  "_key": "!items!g2gdUMRYTk70Mp1Q"
+}

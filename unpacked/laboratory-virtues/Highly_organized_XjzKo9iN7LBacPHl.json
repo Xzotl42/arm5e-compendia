@@ -1,0 +1,102 @@
+{
+  "name": "Highly Organized",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab's contents have been optimally arranged. There is a chance to gain this Virtue whenever a season of work is undertaken to improve the Refinement (see Refinement, above). A season of such work (with the normal chances of changes to laboratory Virtues and Flaws) may still be undertaken, even if no improvement to Refinement is possible. This Virtue is lost if a major accident is suffered, if someone else uses the lab, or if someone of lower Intelligence helps in it. <em>+1 General Quality.</em></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "highly-organized",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.XjzKo9iN7LBacPHl",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.generalQuality.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "generalQuality"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "DjTN95kbt1SNgvg6",
+      "transfer": true,
+      "name": "Highly organized",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!XjzKo9iN7LBacPHl.DjTN95kbt1SNgvg6"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712300,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "XjzKo9iN7LBacPHl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!XjzKo9iN7LBacPHl"
+}

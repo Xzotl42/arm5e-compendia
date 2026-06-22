@@ -1,0 +1,104 @@
+{
+  "name": "Premonitions",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "origin": "Item.lwiiGPQg5aSIK9fO",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.premonitions.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "premonitions"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "XP Bonus",
+      "_id": "QyzAY451Lt9o5iA4",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": 1729674818091,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J",
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!lwiiGPQg5aSIK9fO.QyzAY451Lt9o5iA4"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nh7mgwj6rq",
+      "path": "Virtues#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You intuitively sense whenever something is wrong, or is likely to go wrong soon. Choosing this Virtue confers the Ability Premonitions 1 (page @@).</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "premonitions",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "lwiiGPQg5aSIK9fO",
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!lwiiGPQg5aSIK9fO"
+}

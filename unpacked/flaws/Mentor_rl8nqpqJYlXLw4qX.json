@@ -1,0 +1,47 @@
+{
+  "name": "Mentor",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>A person of some importance, wealth, or wisdom has taken an interest in your life, and at times provides you with minor material aid and advice. However, at some point your mentor will have a small favor or two to ask of you. He might not necessarily like your relationship with the covenant — perhaps you must keep it a secret. The Mentor must be an NPC.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "story",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "mentor",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711387,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "w0VVgqRCx0opq0TL",
+  "_id": "rl8nqpqJYlXLw4qX",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!rl8nqpqJYlXLw4qX"
+}

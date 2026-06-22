@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Traveler’s Foresight",
+  "system": {
+    "technique": {
+      "value": "in"
+    },
+    "form": {
+      "value": "im"
+    },
+    "baseLevel": 2,
+    "range": {
+      "value": "road"
+    },
+    "duration": {
+      "value": "conc"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "The magus can see and hear the nearest person on the road he is traveling.",
+    "source": "MoH",
+    "page": 125,
+    "indexKey": "travelers-foresight",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 5
+  },
+  "img": "systems/arm5e/assets/magic/im.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266588755,
+    "modifiedTime": 1752180698404,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "tsQ7dVzOHUEVn6UG",
+  "folder": "6dbqyhZVkNHEsIEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!tsQ7dVzOHUEVn6UG"
+}

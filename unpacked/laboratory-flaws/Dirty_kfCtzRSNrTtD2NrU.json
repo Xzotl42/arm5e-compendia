@@ -1,0 +1,116 @@
+{
+  "name": "Dirty",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 116,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "dirty"
+  },
+  "effects": [
+    {
+      "origin": "Item.kfCtzRSNrTtD2NrU",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.pe.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "health",
+            "aesthetics",
+            "pe"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "TK1N4lZh4Rc7DhGN",
+      "transfer": true,
+      "name": "Dirty",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!kfCtzRSNrTtD2NrU.TK1N4lZh4Rc7DhGN"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_lueaox4ueo"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663055655748,
+    "modifiedTime": 1731255712419,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "WJlb29XyAyeU9Akz",
+  "_id": "kfCtzRSNrTtD2NrU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!kfCtzRSNrTtD2NrU"
+}

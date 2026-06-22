@@ -1,0 +1,47 @@
+{
+  "name": "Bard",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character has attended a <span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">bard</span>ic school and has passed the examination after four years, earning him to the title of filí at the rank of <em>Dos</em>. This accords him some respect among the native Irish, amounting to a Local Reputation of 1. He should be no younger than 20. You should take the Educated (<span style=\"font-family: Times, 'Times_EmbeddedFont', 'Times_MSFontService', Times New Roman, serif\">Bard</span>ic) Virtue to represent the learning he has received. This Social Status only applies in Ireland.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "socialHibernia",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "bard",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729344397090,
+    "modifiedTime": 1731255711163,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "CoxB6DSMq2bRMl47",
+  "_id": "syLM6wkbdsn92YV4",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!syLM6wkbdsn92YV4"
+}

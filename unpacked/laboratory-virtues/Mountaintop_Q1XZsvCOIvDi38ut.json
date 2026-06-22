@@ -1,0 +1,130 @@
+{
+  "name": "Mountaintop",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab is located at the peak of a mountain. This is a dramatic and remote setting with a spectacular view, prone to strong winds and snows. <em>–1 Safety, +1 Upkeep, +2 Aesthetics; +2 Au.</em></p>",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "mountaintop",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.Q1XZsvCOIvDi38ut",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.specialty.au.bonus",
+          "value": "2",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty",
+            "laboratory"
+          ],
+          "subtype": [
+            "safety",
+            "upkeep",
+            "au",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "_id": "GE8i9baoD68NBV4A",
+      "transfer": true,
+      "name": "Mountaintop",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Q1XZsvCOIvDi38ut.GE8i9baoD68NBV4A"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712298,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "bgjOBA1J7YuglBIX",
+  "_id": "Q1XZsvCOIvDi38ut",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Q1XZsvCOIvDi38ut"
+}

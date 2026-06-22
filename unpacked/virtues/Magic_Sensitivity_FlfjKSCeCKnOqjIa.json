@@ -1,0 +1,104 @@
+{
+  "name": "Magic Sensitivity",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "origin": "Item.FlfjKSCeCKnOqjIa",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.magicSensitivity.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "magicSensitivity"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "XP Bonus",
+      "_id": "ao3iOjP0tkReTUIC",
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": null,
+        "modifiedTime": 1732793174850,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!FlfjKSCeCKnOqjIa.ao3iOjP0tkReTUIC"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nh7mgwj6rq",
+      "path": "Virtues#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are often able to identify a place or object as magical. However, your sensitivity makes you more susceptible to magical effects: subtract your Magic Sensitivity score from your Magic Resistance. Choosing this Virtue confers the Ability Magic Sensitivity 1 (page @@).</p>",
+    "source": "ArM5Def",
+    "page": 45,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "magic-sensitivity",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.11",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "FlfjKSCeCKnOqjIa",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!FlfjKSCeCKnOqjIa"
+}

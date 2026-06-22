@@ -1,0 +1,107 @@
+{
+  "name": "Deformed \"to be configured\"",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "deformed"
+  },
+  "effects": [
+    {
+      "origin": "Item.8sPQgMKcwgqDBLnJ",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "safety",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "oS1lSU6iktnqeMsI",
+      "transfer": true,
+      "name": "Deformed (to configure with 1 point in Mu or Pe)",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!8sPQgMKcwgqDBLnJ.oS1lSU6iktnqeMsI"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1731255712415,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "fl7kQmeXUGdXgUzN",
+  "_id": "8sPQgMKcwgqDBLnJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!8sPQgMKcwgqDBLnJ"
+}

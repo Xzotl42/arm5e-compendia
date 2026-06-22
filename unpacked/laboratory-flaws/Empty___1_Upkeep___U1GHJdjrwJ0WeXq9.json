@@ -1,0 +1,107 @@
+{
+  "name": "Empty (+1 Upkeep)*",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "empty-1-upkeep"
+  },
+  "effects": [
+    {
+      "origin": "Item.8OmPZSs61Ybw4WpV",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "-1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.upkeep.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics",
+            "upkeep"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "m0oCVkh4Y8gsVCNI",
+      "transfer": true,
+      "name": "Empty",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!U1GHJdjrwJ0WeXq9.m0oCVkh4Y8gsVCNI"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1731255712417,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "fl7kQmeXUGdXgUzN",
+  "_id": "U1GHJdjrwJ0WeXq9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!U1GHJdjrwJ0WeXq9"
+}

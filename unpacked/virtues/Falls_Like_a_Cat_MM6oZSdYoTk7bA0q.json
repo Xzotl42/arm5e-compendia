@@ -1,0 +1,47 @@
+{
+  "name": "Falls Like a Cat",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character is not injured by falls of up to three times his height, or six times his height if he can soften his fall by catching on windowsills, breaking through awnings, or hitting branches on the way down. At greater heights the character suffers Impact damage of +1 for every additional foot, if landing on a hard surface, or for every additional four feet, if landing on a soft surface.</p><p>&nbsp;</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "general",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "falls-like-a-cat",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729488637692,
+    "modifiedTime": 1731255711132,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "jegZHVtv21smauPD",
+  "_id": "MM6oZSdYoTk7bA0q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!MM6oZSdYoTk7bA0q"
+}

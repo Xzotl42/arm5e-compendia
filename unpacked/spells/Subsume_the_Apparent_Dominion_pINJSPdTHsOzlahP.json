@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Subsume the Apparent Dominion",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 15,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "room"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell allows a subsumed aura to manifest by temporarily suppressing an apparent Dominion aura of strength less than or equal to three. It has a Room Target and so produces a localized effect, ideal for mimicking a weak lacuna. If there are any other auras present, the strongest of these manifests.\nCasting this ritual creates a preternatural tether of level one and provides a +1 yearly aura modifier, both as described in Realms of Power: Magic, page 10.\nThis laboratory text is for a level 50 ritual but the effect is general. By re-creating the spell from this laboratory text, the maga accumulates 10 points towards researching Confluence of the Realms (see Legends of Hermes). To do this, Conciatta’s own code must first be broken (Ars Magica Fifth Edition, page 102), which requires at least a season working with the text to decode it. The only available casting tablet for this spell is the one written into the cellar fresco.",
+    "source": "LH",
+    "page": 26,
+    "indexKey": "subsume-the-apparent-dominion",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 50
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1752180693545,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "pINJSPdTHsOzlahP",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 11100000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!pINJSPdTHsOzlahP"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Assistant*",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>A Gifted assistant (such as an Hermetic apprentice) helps out in the lab, affording a bonus to lab work. <em>+(assistant's Intelligence + Magic Theory) General Quality.</em> (This is simply a restatement of the existing bonuses.)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "assistant",
+    "review_status": "needAE",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.EoxG9TGYYDZt3j3C",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [],
+      "flags": {
+        "arm5e": {
+          "type": [],
+          "subtype": [],
+          "option": []
+        }
+      },
+      "_id": "QOaynYRRXcAqjgjn",
+      "transfer": true,
+      "name": "Assistant (not configured because duplicate with apprentice)",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!EoxG9TGYYDZt3j3C.QOaynYRRXcAqjgjn"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712297,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "EoxG9TGYYDZt3j3C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!EoxG9TGYYDZt3j3C"
+}

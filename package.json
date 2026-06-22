@@ -1,0 +1,33 @@
+{
+  "name": "arm5e-compendia",
+  "description": "Reference and template for personal shared compendia used with the Ars Magica 5th Edition system for Foundry VTT",
+  "version": "0.2.1",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3",
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "pack": "node scripts/pack.js",
+    "unpack": "node scripts/unpack.js",
+    "prepare:import:dry": "node ./scripts/userguide-cli.js import --dry",
+    "prepare:import": "node ./scripts/userguide-cli.js import",
+    "prepare:commit:dry": "node ./scripts/userguide-cli.js commit --dry",
+    "prepare:commit": "node ./scripts/userguide-cli.js commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xzotl42/arm5e-compendia.git"
+  },
+  "keywords": [
+    "arm5e",
+    "FoundryVTT"
+  ],
+  "author": "Xzotl",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Xzotl42/arm5e-compendia/issues"
+  },
+  "homepage": "https://github.com/Xzotl42/arm5e-compendia#readme"
+}

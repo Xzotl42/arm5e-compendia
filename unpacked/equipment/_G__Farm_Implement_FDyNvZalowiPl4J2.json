@@ -1,0 +1,57 @@
+{
+  "name": "(G) Farm Implement",
+  "type": "weapon",
+  "img": "icons/tools/hand/rake-wood-yellow.webp",
+  "effects": [],
+  "folder": "seNqaIxNCRH7Ny02",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Many farm implements such as rakes, scythes, and mattocks can be used as improvised weapons. They are characterized by awkardness and a tendency to break under the rigors of combat. As improvised weapons, farm implements are less effective even than other Inexpensive weapons.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "cost": {
+      "value": "inexp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": false,
+    "init": 1,
+    "atk": 3,
+    "dfn": 1,
+    "dam": 5,
+    "str": 0,
+    "range": 0,
+    "load": 2,
+    "equipped": false,
+    "indexKey": "g-farm-implement",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1733480671432,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "exportSource": null
+  },
+  "_id": "FDyNvZalowiPl4J2",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!FDyNvZalowiPl4J2"
+}

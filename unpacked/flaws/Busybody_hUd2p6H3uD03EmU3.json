@@ -1,0 +1,47 @@
+{
+  "name": "Busybody",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/personality.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_18qw00m8tam",
+      "path": "Flaws#/CF_SEP/Personality",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You usually know everything that is going on among your friends and acquaintances, especially in private matters. You are always interested in rumors and gossip, and are frequently able to extract personal secrets from people. Among magi the language is more dignified, but the idea is the same: you keep tabs on the Hermetic community (your covenant, your House, and nearby covenants — at the least). However, magi probably don’t have much knowledge of what’s going on among the lower-class members of their covenant unless they choose to apply this Flaw specifically to such people at character creation.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "personality",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "busybody",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711382,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "hXfkbCsUoxlA0bSB",
+  "_id": "hUd2p6H3uD03EmU3",
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!hUd2p6H3uD03EmU3"
+}

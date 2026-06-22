@@ -1,0 +1,274 @@
+{
+  "name": "Strong Faerie Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "_id": "ghUg7E1TBNc4nCJZ",
+      "changes": [
+        {
+          "key": "system.realms.faeric.aligned",
+          "value": "true",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
+      "tint": "#000000",
+      "transfer": true,
+      "flags": {
+        "arm5e": {
+          "type": [
+            "realm"
+          ],
+          "subtype": [
+            "faeric"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "name": "Fae aligned",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.skills.secondSight.xpMod",
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "secondSight"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Second sight",
+      "img": "icons/svg/aura.svg",
+      "_id": "MwlDxY7HoS3LGxpG",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1732953362025,
+        "modifiedTime": 1732953403959,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+        "exportSource": null
+      },
+      "_key": "!items.effects!cyufl6WghNbW3tRn.MwlDxY7HoS3LGxpG"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.agingStart",
+          "value": "15",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "agingStart"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Aging late",
+      "img": "icons/svg/aura.svg",
+      "_id": "tlQay2OuvqOsFeth",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1732953460349,
+        "modifiedTime": 1732953500570,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+        "exportSource": null
+      },
+      "_key": "!items.effects!cyufl6WghNbW3tRn.tlQay2OuvqOsFeth"
+    },
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.bonuses.traits.aging",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "vitals"
+          ],
+          "subtype": [
+            "aging"
+          ],
+          "option": [
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "Aging bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "9hLF74zBwPkyft7v",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.11",
+        "createdTime": 1732953579223,
+        "modifiedTime": 1732953605230,
+        "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+        "exportSource": null
+      },
+      "_key": "!items.effects!cyufl6WghNbW3tRn.9hLF74zBwPkyft7v"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_qajjxhee95m",
+      "path": "Virtues#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The blood of the fay is strong in you. Perhaps one of your parents was actually a faerie, or maybe you were conceived or born in a place of great faerie power. This ancestry grants you several abilities.</p><p>First, you have natural longevity. You start making aging rolls at the age of fifty, rather than the normal 35, and get –3 to Aging Rolls, cumulative with any other bonuses.</p><p>Second, you have faerie eyes. This gives you the Virtue Second Sight (see page @@) at no cost, and you can see normally in total darkness or semi-darkness, such as in deep woods or at night. Your eyes look mostly normal, but are an unusual and vivid color.</p><p>Third, you may learn Faerie Lore during character generation.</p><p>Finally, you get the benefits of a particular type of fay heritage, as given in the Virtue Faerie Blood (page @@). Your specific fay heritage is clearly visible. Choose one physical quirk, such as small horns, literally blue blood, or eyes without irises and pupils, appropriate to the faeries from which you are descended.</p><p>You may not have both Faerie Blood and Strong Faerie Blood.</p><p>This is a Supernatural Virtue, and you cannot lose it when being trained as a magus (see page @@). If your master cannot preserve the ability, you cannot be trained.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "strong-faerie-blood",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1731255711149,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "Sym94leLiWXQ3Rh9",
+  "_id": "cyufl6WghNbW3tRn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!cyufl6WghNbW3tRn"
+}

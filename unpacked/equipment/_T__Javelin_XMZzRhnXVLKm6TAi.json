@@ -1,0 +1,57 @@
+{
+  "name": "(T) Javelin",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/javelin.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Can be wielded in melee as a short spear</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "cost": {
+      "value": "std"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": false,
+    "init": 0,
+    "atk": 2,
+    "dfn": 0,
+    "dam": 5,
+    "str": 0,
+    "range": 10,
+    "load": 1,
+    "equipped": false,
+    "indexKey": "t-javelin",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1731255712556,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "_id": "XMZzRhnXVLKm6TAi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!XMZzRhnXVLKm6TAi"
+}

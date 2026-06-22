@@ -1,0 +1,48 @@
+{
+  "name": "Magic Sensitivity*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/magicSensitivity.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You are often able to identify a place or object as magical. However, your sensitivity makes you more susceptible to magical effects: subtract your Magic Sensitivity score from your Magic Resistance. When attempting to sense the magic nature of a place or object, the storyguide will assign an Ease Factor-simply roll a simple die + Perception + Magic Sensitivity.</p></div><div class=\"el-p\"><p dir=\"auto\">Detecting a Magic aura would normally have an Ease Factor equal to 12 – aura level, so 9 for a level 3 aura and 6 for a level 6 aura.</p></div><div class=\"el-p\"><p dir=\"auto\">For spells and enchanted items, an Ease Factor equal to 21 – magnitude of effect is a good guide. For enchanted items, use the magnitude of the most powerful effect in the item.</p></div><div class=\"el-p\"><p dir=\"auto\">For magical creatures, 15 – one fifth of the creature's Magic Might is appropriate, so for a creature with a Magic Might of 25, the Ease Factor would be 10.</p></div><div class=\"el-p\"><p dir=\"auto\"><strong>Specialties</strong>: auras, magical creatures, enchanted items, active spells. (Supernatural)</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "per",
+    "speciality": "",
+    "xp": 0,
+    "key": "magicSensitivity",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "magic-sensitivity",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751842,
+    "modifiedTime": 1731255710945,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "hQeCIi3ymhcn1sld",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!hQeCIi3ymhcn1sld"
+}

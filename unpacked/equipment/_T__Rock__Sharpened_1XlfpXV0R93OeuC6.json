@@ -1,0 +1,57 @@
+{
+  "name": "(T) Rock, Sharpened",
+  "type": "weapon",
+  "img": "icons/commodities/stone/boulder-grey.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>A very primitive weapon, sometimes used by faeries and the like.</p>",
+    "source": "AnM",
+    "page": 17,
+    "cost": {
+      "value": "inexp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": false,
+    "init": 0,
+    "atk": 0,
+    "dfn": 1,
+    "dam": 3,
+    "str": -1,
+    "range": 5,
+    "load": 1,
+    "equipped": false,
+    "indexKey": "t-rock-sharpened",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1731255712554,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "_id": "1XlfpXV0R93OeuC6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!1XlfpXV0R93OeuC6"
+}

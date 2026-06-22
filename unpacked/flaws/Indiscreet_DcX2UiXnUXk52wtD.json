@@ -1,0 +1,47 @@
+{
+  "name": "Indiscreet",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are unable to keep a secret. You must tell all to the first interested party you meet in an effort to be helpful or to demonstrate that you are in-the-know, unless you succeed on an Intelligence-based stress roll against an Ease Factor of 9. If you botch, you may have to be physically restrained by your companions from answering any questions put to you for the remainder of the encounter.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "story",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "indiscreet",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711368,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "HvyHCuxjJNI5yJoA",
+  "_id": "DcX2UiXnUXk52wtD",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!DcX2UiXnUXk52wtD"
+}

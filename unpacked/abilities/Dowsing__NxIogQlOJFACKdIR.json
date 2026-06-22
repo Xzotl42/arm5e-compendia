@@ -1,0 +1,48 @@
+{
+  "name": "Dowsing*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/dowsing.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">You have the ability to find things nearby through the use of a dowsing rod (usually a forked stick) and your own intuitive sense. You concentrate on the thing to be found, hold your dowsing rod out in front of you, and follow its subtle motions to the target. If you're looking for something specific, you must have an appropriate sympathetic connection to the thing sought (such as bottled water from a stream when searching for running water). Before you roll, designate the area in which you are searching — if the item sought is not present in that area, you automatically fail. The time required to search depends on the size of the area, and must be invested whether you succeed or not. It takes about one Diameter (two minutes, or twenty combat rounds) to search for something within 25 paces, and doubling the distance quadruples the time. To find something common, like water, within 25 paces requires a Perception + Dowsing of 9+. Increased distances or dowsing for less common things increases the target number, so that, for example, finding gold within 100 paces would have an Ease Factor of 15.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> searching for a particular kind of thing (water, gold, etc.), searching in a particular kind of place. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "per",
+    "speciality": "",
+    "xp": 0,
+    "key": "dowsing",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "downsing",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751892,
+    "modifiedTime": 1731255710941,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "NxIogQlOJFACKdIR",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!NxIogQlOJFACKdIR"
+}

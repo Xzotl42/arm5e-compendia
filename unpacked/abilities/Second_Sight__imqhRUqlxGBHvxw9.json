@@ -1,0 +1,48 @@
+{
+  "name": "Second Sight*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/secondSight.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are able to see through illusionary concealment and disguise, including invisibility, and can also see naturally invisible things such as spirits and the boundaries between regio levels (see page @@). The Ease Factor to see through illusionary concealment is normally equal to 6 + the magnitude of the might of the creature responsible for the effect, or 6 + the magnitude of a Hermetic spell. In general, this Virtue allows you to see through Hermetic concealment effected with Imaginem, but not other Forms. The Magic Resistance, if any, of the concealed creature does not interfere with your Second Sight. If something is actually transformed, for example by a MuCo spell, you cannot determine the genuine form. The Ease Factor to see a naturally invisible thing is normally 9, and the Ease Factor for seeing regio levels is specified on page @@. All Second Sight rolls are Perception + Second Sight, and they are almost always simple rolls. </p><p><strong>Specialties</strong>: regiones, invisible things, illusory disguises, faeries, ghosts. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "secondSight",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "second-sight",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751886,
+    "modifiedTime": 1731255710945,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "imqhRUqlxGBHvxw9",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!imqhRUqlxGBHvxw9"
+}

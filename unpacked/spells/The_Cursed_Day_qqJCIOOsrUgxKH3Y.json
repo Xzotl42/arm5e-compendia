@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "The Cursed Day",
+  "system": {
+    "technique": {
+      "value": "re"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "arc"
+    },
+    "duration": {
+      "value": "sun"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spells opens a magical tunnel between the caster and the target. Spells cast through this tunnel must be at least one magnitude less than the level of this spell.\nThis spell has duration of Sun.",
+    "source": "HP",
+    "page": 80,
+    "indexKey": "the-cursed-day",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 15
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1752180695203,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "qqJCIOOsrUgxKH3Y",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 11200000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!qqJCIOOsrUgxKH3Y"
+}

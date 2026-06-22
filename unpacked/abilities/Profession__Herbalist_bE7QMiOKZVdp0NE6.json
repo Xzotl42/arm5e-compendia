@@ -1,0 +1,48 @@
+{
+  "name": "Profession: Herbalist",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/profession.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_objljw4w1kp",
+      "path": "Abilities#/CF_SEP/General, Professions",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">The ability to do a job which does not involve making something. Examples include jongleur, reeve, sailor, steward, teamster, and washerwoman.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> depend on the profession. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "profession",
+    "option": "Herbalist",
+    "realm": "magic",
+    "indexKey": "profession-herbalist",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751869,
+    "modifiedTime": 1732268024898,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "_id": "bE7QMiOKZVdp0NE6",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!bE7QMiOKZVdp0NE6"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Diedne Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Your magic lineage and traditions are from the druids and the vanquished former house of Diedne, making you especially skilled with Spontaneous magic. When you cast a spontaneous spell without expending Fatigue, you may choose to divide by five or by two. If you choose to divide by five, you need not roll a stress die, and cannot botch, just as normal. If you choose to divide by two, you must roll a stress die, and may botch.</p><p> </p><p>When you expend fatigue on casting a spontaneous spell, the lowest applicable Art is doubled before the whole total is divided by two. You still roll a stress die, and may botch.</p><p> </p><p>You must keep your lineage hidden from the Order, giving you a Major Story Flaw — Dark Secret is an obvious choice, but you may choose a different one with troupe approval. This is in addition to your normal allowance of Flaws, and does not grant you any points with which to buy Virtues.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "diedne-magic",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729447692748,
+    "modifiedTime": 1731255711165,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "ryEkrZYbf9tQGIrO",
+  "_id": "wTObIsS8vTq2lZM7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!wTObIsS8vTq2lZM7"
+}

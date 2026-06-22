@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Wizard’s Flood",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "aq"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "targetSize": 7,
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This ritual, when cast in a river, causes it to rapidly rise and burst its banks. This floods the terrain about half a mile from either bank, for a length of about 20 miles, to a depth of two paces. The area inundated depends on the local geography (cliffs, gorges and dams may direct the flow, for example). The flood waters are natural, cannot be resisted by Magic Resistance, and may take days to recede, evaporate, and drain. The flood drowns people and animals, ruins crops, and washes away most wooden structures (and ruins the lower level of stone ones). This ritual is Trajan’s master work. He is well known for it in the Rhine.",
+    "source": "Hooks",
+    "page": 79,
+    "indexKey": "wizards-flood",
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 35
+  },
+  "img": "systems/arm5e/assets/magic/aq.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730233430460,
+    "modifiedTime": 1752180697300,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "t3Mmx6N6BKoidfju",
+  "folder": "U1PQp4E5HVBU8pTj",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!t3Mmx6N6BKoidfju"
+}

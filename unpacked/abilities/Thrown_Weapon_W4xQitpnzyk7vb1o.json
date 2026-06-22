@@ -1,0 +1,48 @@
+{
+  "name": "Thrown Weapon",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/trownWeapon.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_7d6ngxdzyst",
+      "path": "Abilities#/CF_SEP/Martial",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p><span style=\"font-family: bookAntiquaBold\">Fighting at range using weapons which are thrown.</span></p><p style=\"box-sizing: border-box; user-select: text; margin: 0.5em 0px; color: rgb(25, 24, 19); font-family: bookAntiquaBold; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: bookAntiquaBold\"><strong style=\"box-sizing: border-box; user-select: text;\">Specialties:</strong> any one weapon. (Martial)</span></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "dex",
+    "speciality": "",
+    "xp": 0,
+    "key": "trownWeapon",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "thrown-weapon",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751882,
+    "modifiedTime": 1731255710942,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "Uh7ZiHdsWW2PjSJl",
+  "_id": "W4xQitpnzyk7vb1o",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!W4xQitpnzyk7vb1o"
+}

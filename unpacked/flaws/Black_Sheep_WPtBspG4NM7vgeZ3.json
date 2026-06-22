@@ -1,0 +1,47 @@
+{
+  "name": "Black Sheep",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You come from a prestigious family, but you have somehow estranged yourself from your relatives. They have nothing to do with you, unless they wish to punish you somehow or make use of you. Those who resent your family’s power can take safe revenge by assaulting you. You begin the game with a bad Reputation of your choice at level 2, among those who respect your family.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "story",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "black-sheep",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711375,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "HvyHCuxjJNI5yJoA",
+  "_id": "WPtBspG4NM7vgeZ3",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!WPtBspG4NM7vgeZ3"
+}

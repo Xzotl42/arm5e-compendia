@@ -1,0 +1,28 @@
+{
+  "name": "Display RollData",
+  "type": "script",
+  "command": "// Display the content of RollData in the console\n// it can be used to refer to an actor stat in an inline roll\n\n// get an array with all the selected token\nconst tokens = canvas.tokens.controlled;\n\nif (tokens.length != 1 ){\n  ui.notifications.info(\"No Tokens or too many tokens were selected\");\n} else {\n  let actor = tokens[0].actor;\n  let data = actor.getRollData();\n  console.log(data);\n}",
+  "img": "icons/svg/dice-target.svg",
+  "author": "6SdI10VpXHcBvx2J",
+  "scope": "global",
+  "folder": "qGZgdsZ3cZpILlVt",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.5",
+    "createdTime": 1730838256561,
+    "modifiedTime": 1764512097078,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "83Qwa3xUW7OCiKXQ",
+  "sort": 500000,
+  "_key": "!macros!83Qwa3xUW7OCiKXQ"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Outlaw Leader",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_da50amwz3qe",
+      "path": "Flaws#/CF_SEP/Social Status",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You command a small group (three to six persons) of outlaws. Your followers look up to you and do what you tell them — within reason. However, you must occasionally stick up for the group or one of its members, as well as provide for them. You often have to deal with challenges to your leadership in one form or another. You are well known as an outlaw in the local area, with a Reputation level of 3. You are actively sought by the local lord, sheriff, or other such official. You may take Martial Abilities at character generation. Grogs may not take this Flaw.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "social",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "outlaw-leader",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711374,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "49M5jwoqSphEsyDt",
+  "_id": "RZ2tetfPJzUk7noo",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!RZ2tetfPJzUk7noo"
+}

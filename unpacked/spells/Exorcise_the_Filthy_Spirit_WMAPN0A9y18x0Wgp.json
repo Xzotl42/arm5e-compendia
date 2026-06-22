@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Exorcise the Filthy Spirit",
+  "system": {
+    "technique": {
+      "value": "pe"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 1,
+    "range": {
+      "value": "voice"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell operates against a demon that is currently possessing a human (see Chapter 4: Infernal Legions, Common Powers). If the spell penetrates the Infernal Might of the demon, it loses a number of points from its Possession Might Pool equal to the level of this spell minus the demon’s Might. If this reduces the Possession Might Pool to zero, the demon abandons its host and the possession ends. If the energumen has its own Magic Resistance, then both resistances must be penetrated for the spell to be effective.",
+    "source": "RoP:I",
+    "page": 122,
+    "indexKey": "exorcise-the-filthy-spirit",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": true,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 3
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1777026268135,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J",
+    "exportSource": null
+  },
+  "_id": "WMAPN0A9y18x0Wgp",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 7300000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!WMAPN0A9y18x0Wgp"
+}

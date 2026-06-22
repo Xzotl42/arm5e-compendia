@@ -1,0 +1,47 @@
+{
+  "name": "Dependent",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/story.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ciwmacrmzmm",
+      "path": "Flaws#/CF_SEP/Story",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You feel responsible for someone, and bound to help if they are in trouble. This person may be a relative or friend, but should be relatively weak and a non-player character. If your Dependent passes beyond your ability to help, or becomes too powerful, you should substitute another Story Flaw. Possibilities include taking the children of the old Dependent as new dependents, taking the killers of the Dependent as Enemies, or taking the Dependent as a True Friend.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "story",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "dependent",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711366,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "HvyHCuxjJNI5yJoA",
+  "_id": "6F3oirP5GvH083zw",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!6F3oirP5GvH083zw"
+}

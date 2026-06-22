@@ -1,0 +1,47 @@
+{
+  "name": "Weak Spontaneous Magic",
+  "type": "flaw",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_zctzc5h7p5",
+      "path": "Flaws#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<div class=\"el-p\"><p dir=\"auto\">You may not exert yourself when casting spontaneous magic, so you always divide your Casting Score by five. In stressful conditions you must still roll a stress die to see if you botch, but the die roll does not add to your casting total. You may still use ceremonial casting.</p></div><div class=\"el-p\"><p dir=\"auto\">This Flaw may be combined with Difficult Spontaneous Magic (page @@) to create a magus who cannot cast spontaneous magic at all.</p></div>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "weak-spontaneous-magic",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729832791616,
+    "modifiedTime": 1731255711371,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "MY0pk5xRqPANrebl",
+  "_id": "Igv2QJa0ZUwDMjyD",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!Igv2QJa0ZUwDMjyD"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Minor Magical Focus",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>Your magic is particularly attuned to some narrow field, such as self-transformation, birds of prey, or healing. In general, the field should be slightly narrower than a single Technique and Form combination, although it may include restricted areas of several such combinations. Healing, for example, is a part of Creo Corpus, Creo Animal, and possibly Creo Herbam. You cannot be focused on a laboratory activity, such as creating charged items, although a focus does apply to laboratory activities.</p><p><strong>Sample Minor Magical Foci</strong></p><p>This list is merely exemplary; other foci are possible.</p><p><strong>Animal</strong>: Birds of prey, canines, mustelidae.</p><p><strong>Aquam</strong>: Stagnant water, small streams.</p><p><strong>Auram</strong>: Wind, rain, lightning.</p><p><strong>Corpus</strong>: Aging, disease.</p><p><strong>Herbam</strong>: Fruiting, wood.</p><p><strong>Imaginem</strong>: A particular color or sound.</p><p><strong>Mentem</strong>: Anger, lust, erasing memories, changing memories.</p><p><strong>Terram</strong>: Creating metals, destroying stone.</p><p><strong>Healing</strong>: Applies to people, animals, and plants.</p><p><strong>Self-transformation</strong>: Applies to both Corpus and Mentem.</p><p>When you cast a spell or generate a Lab Total within your focus, add the lowest applicable Art score twice, as for a Major Magical Focus (page @@).</p><p>A magus may only have one Magical Focus, whether major or minor, regardless of the source of the focus.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "minor-magical-focus",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1731255711157,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "C8jqPqfblXk6hGCE",
+  "_id": "o2SwHMN1e0MLTo8x",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!o2SwHMN1e0MLTo8x"
+}

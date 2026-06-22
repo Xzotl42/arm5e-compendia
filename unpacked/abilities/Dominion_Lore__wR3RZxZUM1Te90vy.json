@@ -1,0 +1,48 @@
+{
+  "name": "Dominion Lore*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/dominionLore.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_7bwhgya3q6x",
+      "path": "Abilities#/CF_SEP/Arcane",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Knowledge of the manifestations of the power of the Divine. Different from Church Lore (a kind of (Organization) Lore)) because it covers miracles rather than politics, and different from Theology because it is concerned with power rather than doctrine.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> angels, saints, Divine creatures. (Arcane)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "angels",
+    "xp": 0,
+    "key": "dominionLore",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "dominion-lore",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.9",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751887,
+    "modifiedTime": 1732268887734,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "Ku86xoVh78FXIgLr",
+  "_id": "wR3RZxZUM1Te90vy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!wR3RZxZUM1Te90vy"
+}

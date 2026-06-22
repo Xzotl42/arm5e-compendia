@@ -1,0 +1,57 @@
+{
+  "name": "Bow, Composite",
+  "type": "weapon",
+  "img": "icons/weapons/bows/longbow-recurve.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>This weapon is used by Saracens, Moors, and Asiatic nomads (Turks and Mongols or, in the early Middle Ages, Huns and Magyars).</p>",
+    "source": "AnM",
+    "page": 17,
+    "cost": {
+      "value": "exp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": false,
+    "init": -2,
+    "atk": 4,
+    "dfn": 0,
+    "dam": 7,
+    "str": 2,
+    "range": 30,
+    "load": 2,
+    "equipped": false,
+    "indexKey": "bow-composite",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1731255712557,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "_id": "pLEEkkNxXrWjeZL3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!pLEEkkNxXrWjeZL3"
+}

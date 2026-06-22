@@ -1,0 +1,111 @@
+{
+  "name": "Superior Construction",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab benefits from distinguished construction techniques, for example, high quality building materials were used, or it was made by a master architect or a magus (such as with the spell Conjuring the Mystic Tower). If constructing the building, its cost is doubled. <em>+1 Safety, +1 Aesthetics.</em></p><p></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "superior-construction",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.0JwJw6WeNSfqNfOz",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.safety.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory"
+          ],
+          "subtype": [
+            "safety",
+            "aesthetics"
+          ],
+          "option": [
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "TCkMzvB81LMJQCAK",
+      "transfer": true,
+      "name": "Superior construction",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!0JwJw6WeNSfqNfOz.TCkMzvB81LMJQCAK"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712295,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "bgjOBA1J7YuglBIX",
+  "_id": "0JwJw6WeNSfqNfOz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!0JwJw6WeNSfqNfOz"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Lore, (Organisation)",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/organizationLore.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_buj82p3vtnu",
+      "path": "Abilities#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">Knowledge of the legends, history, structure, operation, and goals of the specified organization. Organizations can be as large as the Church, or as small as a local craft guild. The smaller the organization, the more detailed your knowledge. Order of Hermes Lore is particularly important to most magi.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> personalities, history, politics. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "organizationLore",
+    "option": "org-name",
+    "realm": "magic",
+    "indexKey": "lore-organisation",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": true
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751873,
+    "modifiedTime": 1750426854708,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "_id": "o6xkgqAVxsDGdPg1",
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!o6xkgqAVxsDGdPg1"
+}

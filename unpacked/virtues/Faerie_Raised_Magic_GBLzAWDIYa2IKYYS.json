@@ -1,0 +1,47 @@
+{
+  "name": "Faerie-Raised Magic",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character’s experience with faeries and the Faerie realm has conditioned him to invent spells very quickly; to him, Formulaic spells seem like inherent powers that you can learn through observation and experimentation. Because of this, he can teach himself spells outside of the laboratory. You may spend experience points from Exposure, Adventure, and Practice on spells you could normally invent that mimic faerie powers or other supernatural effects your character has observed that season. </p><p> </p><p>To invent a spell in this way, the magus’s Technique + Form + Intelligence + Magic Theory must at least equal (the spell’s level – 10), and you must spend a number of experience points equal to (the spell magnitude + 4). Spells of level 5 or less cost their level in experience points (but always at least 1). For example, a level 2 spell costs 2 experience points, and a Level 15 spell costs 7 experience points. The magus cannot invent Ritual spells in this way. </p><p> </p><p>If the magus already knows a spell that is similar to one he wishes to invent (see Similar Spells, page @@), any experience points you spend towards learning that spell are increased by one-half, rounded up. This means that a level 25 spell would cost 6 experience points instead of 9, for example. </p><p> </p><p>This Virtue also includes the Virtue Spell Improvisation. That is, you may add the magnitude of a known Formulaic spell as a bonus to your character’s Casting Total when spontaneously casting a spell that is similar to it. </p><p> </p><p>If you take this Virtue during character creation, you should normally take the Faerie Upbringing Flaw. Because the magus’s master also had to teach him about human society, he probably had less time to teach him Hermetic magic. It is possible that the apprentice invented Formulaic spells quickly enough on his own to compensate for this, but you might take the Weak Parens Flaw to suggest this limitation of his apprenticeship. </p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "faerie-raised-magic",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729488345344,
+    "modifiedTime": 1731255711126,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "ryEkrZYbf9tQGIrO",
+  "_id": "GBLzAWDIYa2IKYYS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!GBLzAWDIYa2IKYYS"
+}

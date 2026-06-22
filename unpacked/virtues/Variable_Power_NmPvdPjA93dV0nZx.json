@@ -1,0 +1,47 @@
+{
+  "name": "Variable Power",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>One of the character’s magic powers (Greater, Lesser, Personal, or Ritual) becomes more powerful over time, based on either (age / 10), (Might Score / 5), Warping Score, or his score in an appropriate Ability. (Age and Warping should not be allowed as variables if the character is immune to their effects.) For example, an effect that allows the character to change his shape into an animal might be associated with a special Ability, and his score in that Ability would determine how many different animals he could become. </p><p> Generally speaking, a single power can have its effect level increased by five, or include another effect of the same level that is similar the original, for each level of variance. For a character with Variable Powers based on his age, for example, this would mean the effectiveness of one of his powers would be increased by a total of five magnitudes after he has lived for 50 years. </p><p> This Virtue may be taken more than once, if the character has more than one power, but it only applies once to a single power.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "variable-power",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729794833466,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "_id": "NmPvdPjA93dV0nZx",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!NmPvdPjA93dV0nZx"
+}

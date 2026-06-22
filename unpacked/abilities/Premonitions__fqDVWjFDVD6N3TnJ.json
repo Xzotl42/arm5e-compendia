@@ -1,0 +1,48 @@
+{
+  "name": "Premonitions*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/premonitions.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You intuitively sense whenever something is wrong, or is likely to go wrong soon. This Ability can be called upon by you or the storyguide, as appropriate, whenever there is a chance to avoid danger. Roll Perception + Premonitions against an Ease Factor depending on the situation. The Ease Factor starts at 3 for imminent, mortal peril, and increases as the distance in time increases and the level of danger decreases. Mortal peril a week in the future would have an Ease Factor of 9, while an imminent minor inconvenience would have an Ease Factor of about 15. If you beat the Ease Factor by 3 or more, you also get some sense of the nature of the danger, with more detail if you roll more highly. </p><p><strong>Specialties</strong>: threats to a particular person or group of people, particular kinds of threats. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "premonitions",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "premonitions",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751837,
+    "modifiedTime": 1731255710945,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "fqDVWjFDVD6N3TnJ",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!fqDVWjFDVD6N3TnJ"
+}

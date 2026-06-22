@@ -1,0 +1,48 @@
+{
+  "name": "Stealth",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/stealth.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_buj82p3vtnu",
+      "path": "Abilities#/CF_SEP/General",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify;\">Sneaking about without being seen or heard, also hiding in one place. This includes following people without their noticing, which is rolled against the other person's Perception.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> hide, sneak, shadowing, urban areas, natural areas. (General)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "dex",
+    "speciality": "",
+    "xp": 0,
+    "key": "stealth",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "stealth",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751846,
+    "modifiedTime": 1732268024898,
+    "lastModifiedBy": "wUH1ww0o0zQEBtKr",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "adQkl7QaQHRah9iT",
+  "_id": "zrNQa6Maf1qA0l44",
+  "sort": 5500000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!zrNQa6Maf1qA0l44"
+}

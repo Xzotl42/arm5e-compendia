@@ -1,0 +1,105 @@
+{
+  "name": "Demonic Might",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+  "effects": [
+    {
+      "origin": "Item.O2dOYXOagZo9UpHa",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.skills.supernatural_whistleUpTheWind.xpMod",
+          "value": "5",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "xpBonusSupernaturalAbility"
+          ],
+          "subtype": [
+            "supernatural"
+          ],
+          "option": [
+            "whistleUpTheWind"
+          ],
+          "hidden": false
+        }
+      },
+      "name": "XP bonus",
+      "img": "icons/svg/aura.svg",
+      "_id": "kqGTqhSUtUSAvyhn",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!gYqcrwG8zC6ymFCm.kqGTqhSUtUSAvyhn"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You may only take this Virtue if your character has the Demonic Blood Virtue. Her Infernal Might increases by 2 points. Upon her death, her body contains a number of pawns of Corpus vis equal to her (Infernal Might / 5), rounding up. You may take this Virtue more than once, though it can account for no more than half of the character’s total Virtues.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "supernatural",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "demonic-might",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729833466916,
+    "modifiedTime": 1743830551217,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "exportSource": null
+  },
+  "folder": "XwOh5akgyjxNE2dG",
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_id": "gYqcrwG8zC6ymFCm",
+  "sort": 2600000,
+  "_key": "!items!gYqcrwG8zC6ymFCm"
+}

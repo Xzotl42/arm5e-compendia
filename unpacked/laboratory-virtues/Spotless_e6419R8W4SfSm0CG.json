@@ -1,0 +1,120 @@
+{
+  "name": "Spotless",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The lab is impeccably clean. This requires a season of work to gain. Also, there is a chance to gain this Virtue whenever a season of work is undertaken to improve the Refinement (see Refinement, above). This Virtue is lost if cleanliness is not maintained, or after an accident or neglect is suffered. <em>+1 Health, +1 Aesthetics; +1 Cr.</em></p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "laboratoryOutfitting",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "spotless",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.e6419R8W4SfSm0CG",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.health.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "key": "system.aesthetics.bonus",
+          "value": "1",
+          "mode": 2,
+          "priority": null
+        },
+        {
+          "mode": 2,
+          "key": "system.specialty.cr.bonus",
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory",
+            "laboratory",
+            "labSpecialty"
+          ],
+          "subtype": [
+            "health",
+            "aesthetics",
+            "cr"
+          ],
+          "option": [
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "_id": "nldOsSyxl9Ed6c4U",
+      "transfer": true,
+      "name": "Spotless",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!e6419R8W4SfSm0CG.nldOsSyxl9Ed6c4U"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_rzez68dypd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712301,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "68Cg6jITpFirriaM",
+  "_id": "e6419R8W4SfSm0CG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!e6419R8W4SfSm0CG"
+}

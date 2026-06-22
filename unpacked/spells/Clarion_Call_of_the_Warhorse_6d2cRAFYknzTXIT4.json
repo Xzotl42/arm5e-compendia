@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Clarion Call of the Warhorse",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "me"
+    },
+    "baseLevel": 3,
+    "range": {
+      "value": "personal"
+    },
+    "duration": {
+      "value": "diam"
+    },
+    "target": {
+      "value": "other"
+    },
+    "complexity": 3,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "Anyone hearing the caster’s battle cry is heartened by its tone, and receives a 4-3 bonus to his Brave Personality Trait. Those attaining Brave scores greater than 4-3 through this spell perform acts of courage well beyond those expected of them.",
+    "source": "HoH:MC",
+    "page": 29,
+    "indexKey": "clarion-call-of-the-warhorse",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 15
+  },
+  "img": "systems/arm5e/assets/magic/me.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266602531,
+    "modifiedTime": 1752180650182,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "6d2cRAFYknzTXIT4",
+  "folder": "A2fOZ4LIRFoc2Ij8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!6d2cRAFYknzTXIT4"
+}

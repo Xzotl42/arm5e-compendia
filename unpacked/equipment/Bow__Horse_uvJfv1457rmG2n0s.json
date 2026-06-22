@@ -1,0 +1,57 @@
+{
+  "name": "Bow, Horse",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-recurve-red.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>A compact composite bow, suitable for use from horseback</p>",
+    "source": "AnM",
+    "page": 17,
+    "cost": {
+      "value": "exp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": true,
+    "init": -2,
+    "atk": 5,
+    "dfn": 0,
+    "dam": 8,
+    "str": 2,
+    "range": 15,
+    "load": 2,
+    "equipped": false,
+    "indexKey": "bow-horse",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1731255712558,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "_id": "uvJfv1457rmG2n0s",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!uvJfv1457rmG2n0s"
+}

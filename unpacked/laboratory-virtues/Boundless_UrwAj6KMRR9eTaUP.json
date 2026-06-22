@@ -1,0 +1,102 @@
+{
+  "name": "Boundless",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>The interior of the lab has an unlimited amount of space, despite the seeming mundane limitations of its structure from the outside. This effect is outside the scope of normal Hermetic magic, but it might have a non-Hermetic or faerie origin. Size may be increased to any desired number. <em>+2 Warping.</em></p>",
+    "source": "Cov",
+    "page": 118,
+    "type": "laboratorySupernatural",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "boundless",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.UrwAj6KMRR9eTaUP",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.warping.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "warping"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "aW9kUpoKiuE8TNSc",
+      "transfer": true,
+      "name": "Boundless",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!UrwAj6KMRR9eTaUP.aW9kUpoKiuE8TNSc"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_uc0symsykwn"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712299,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "ZGMqg8IEffHNf4tN",
+  "_id": "UrwAj6KMRR9eTaUP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!UrwAj6KMRR9eTaUP"
+}

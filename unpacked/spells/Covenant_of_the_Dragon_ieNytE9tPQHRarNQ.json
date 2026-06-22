@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Covenant of the Dragon",
+  "system": {
+    "technique": {
+      "value": "mu"
+    },
+    "form": {
+      "value": "co"
+    },
+    "baseLevel": 25,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "year"
+    },
+    "target": {
+      "value": "group"
+    },
+    "targetSize": 1,
+    "complexity": 2,
+    "enhancingRequisite": 2,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": true
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": true,
+      "im": false,
+      "me": false,
+      "te": true,
+      "vi": false
+    },
+    "description": "This ritual changes the blood of a Group of up to 100 individuals into lava. This has the same effect on each member of the Group as the ritual Dragon s Blood. This is an efficient way (in terms of vis) of protecting an entire covenant from the heat hazards of living in a covenant located in — volcano — although each person will take 6 Warping points every year (see Ars Magica Fifth Edition, page 168).",
+    "source": "HP",
+    "page": 15,
+    "indexKey": "covenant-of-the-dragon",
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 85
+  },
+  "img": "systems/arm5e/assets/magic/co.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730240398532,
+    "modifiedTime": 1752180687192,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "ieNytE9tPQHRarNQ",
+  "folder": "G2cgv5WjMszSYrBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!ieNytE9tPQHRarNQ"
+}

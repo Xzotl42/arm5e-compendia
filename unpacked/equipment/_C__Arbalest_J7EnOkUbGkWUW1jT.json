@@ -1,0 +1,57 @@
+{
+  "name": "(C) Arbalest",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-purple.webp",
+  "effects": [],
+  "folder": "Z3dh8zqhoGTsQkJz",
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_ebcddbqmaft",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>An arbalest is crossbow that requires a mechanical device to span. Some arbalests can be spanned in a four-round Extended Action using a windlass. A few are spanned with block-and-tackle, which is usually slower, requiring a (6–Str)-round Extended Action. If the spanning process is interrupted, the character may later resume it at the point where he left off.</p>",
+    "source": "LoM",
+    "page": 139,
+    "cost": {
+      "value": "exp"
+    },
+    "quantity": 1,
+    "ability": "",
+    "weaponExpert": false,
+    "horse": false,
+    "init": 5,
+    "atk": 5,
+    "dfn": 0,
+    "dam": 10,
+    "str": -1,
+    "range": 30,
+    "load": 3,
+    "equipped": false,
+    "indexKey": "c-arbalest",
+    "state": "inert",
+    "enchantments": null,
+    "reviewer": "KILLTHESCRIBE",
+    "review_status": "definitiveReady"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729410723029,
+    "modifiedTime": 1731255712555,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "_id": "J7EnOkUbGkWUW1jT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!J7EnOkUbGkWUW1jT"
+}

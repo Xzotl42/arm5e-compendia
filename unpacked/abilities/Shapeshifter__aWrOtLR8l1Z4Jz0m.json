@@ -1,0 +1,48 @@
+{
+  "name": "Shapeshifter*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/shapeshifter.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_mjq1fx3r06m",
+      "path": "Abilities#/CF_SEP/Supernatural",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify;\">You may change your shape into that of a mundane animal from the size of a robin (-5) to that of a bear (+2). This requires a few seconds' (one round's) concentration, and a roll of Stamina + Shapeshift against an Ease Factor of 9. Changing back to human form requires the same concentration, and the same roll.</p>\n<p style=\"text-align: justify;\">You have a limited repertoire of shapes, one for every point you have in the Shapeshift ability. Every time you raise the Ability by one point, you may choose a new shape.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> One of your shapes, particular conditions for the change. (Supernatural)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "sta",
+    "speciality": "",
+    "xp": 0,
+    "key": "shapeshifter",
+    "option": "",
+    "realm": "magic",
+    "indexKey": "shapeshifter",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751936,
+    "modifiedTime": 1731255710944,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZbCET9zUtDWzYD5z",
+  "_id": "aWrOtLR8l1Z4Jz0m",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!aWrOtLR8l1Z4Jz0m"
+}

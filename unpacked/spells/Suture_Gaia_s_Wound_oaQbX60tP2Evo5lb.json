@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Suture Gaia’s Wound",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "vi"
+    },
+    "baseLevel": 20,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moment"
+    },
+    "target": {
+      "value": "bound"
+    },
+    "complexity": 0,
+    "ritual": true,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": true,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell repairs the damage done by the Great Pestilence to the aura and the Herbam Form in a specific area. It does not prevent future impairments from the sentient fungus.",
+    "source": "Dies",
+    "page": 102,
+    "indexKey": "suture-gaias-wound",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 45
+  },
+  "img": "systems/arm5e/assets/magic/vi.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266633698,
+    "modifiedTime": 1752180693075,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "oaQbX60tP2Evo5lb",
+  "folder": "FLOveJlX4MXFkepb",
+  "sort": 10800000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!oaQbX60tP2Evo5lb"
+}

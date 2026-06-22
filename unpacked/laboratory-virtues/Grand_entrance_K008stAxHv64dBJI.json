@@ -1,0 +1,102 @@
+{
+  "name": "Grand Entrance",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/upgraded-magic.svg",
+  "system": {
+    "description": "<p>An elaborate and sizable entranceway, such as a great door or arch, an opulent lobby, or perhaps a reception room leads to the lab. This takes up more of the sanctum space, but not usually of the laboratory chamber itself. It often takes a season or more for craftsmen to build or outfit. The sanctum marker is likely displayed prominently.</p><p>The lab at least looks good from the outside, so casual observers are likely to be impressed. <em>+2 Aesthetics.</em></p><p></p>",
+    "source": "Cov",
+    "page": 114,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "grand-entrance",
+    "review_status": "reviewed",
+    "reviewer": "Gapherd",
+    "hidden": false,
+    "tainted": false
+  },
+  "effects": [
+    {
+      "origin": "Item.K008stAxHv64dBJI",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.aesthetics.bonus",
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "aesthetics"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "GlBrCr7L4Vv3NfH9",
+      "transfer": true,
+      "name": "Grand entrance",
+      "description": "",
+      "statuses": [],
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!K008stAxHv64dBJI.GlBrCr7L4Vv3NfH9"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_iinnr0klax"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729577172410,
+    "modifiedTime": 1731255712298,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "bgjOBA1J7YuglBIX",
+  "_id": "K008stAxHv64dBJI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!K008stAxHv64dBJI"
+}

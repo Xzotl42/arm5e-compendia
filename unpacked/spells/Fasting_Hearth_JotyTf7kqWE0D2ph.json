@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Fasting Hearth",
+  "system": {
+    "technique": {
+      "value": "cr"
+    },
+    "form": {
+      "value": "ig"
+    },
+    "baseLevel": 4,
+    "range": {
+      "value": "touch"
+    },
+    "duration": {
+      "value": "moon"
+    },
+    "target": {
+      "value": "ind"
+    },
+    "complexity": 0,
+    "ritual": false,
+    "technique-req": {
+      "cr": false,
+      "in": false,
+      "mu": false,
+      "pe": false,
+      "re": false
+    },
+    "form-req": {
+      "an": false,
+      "aq": false,
+      "au": false,
+      "co": false,
+      "he": false,
+      "ig": false,
+      "im": false,
+      "me": false,
+      "te": false,
+      "vi": false
+    },
+    "description": "This spell creates a fire, which is large enough to fill the hearth in a great hall, at the location touched by the caster. The created fire burns continuously for the duration of the spell with no need for fuel. This spell was created in the early days of the Order, and is common in covenants without a nearby source of firewood. The Fasting Hearth is not frequently used for a magus’ laboratory because of the Warping effects it can have on research conducted under its influence.",
+    "source": "MoH",
+    "page": 110,
+    "indexKey": "fasting-hearth",
+    "targetSize": 0,
+    "enhancingRequisite": 0,
+    "general": false,
+    "levelOffset": 0,
+    "baseEffectDescription": "",
+    "applyFocus": false,
+    "bonus": 0,
+    "bonusDesc": "",
+    "xp": 0,
+    "masteryAbilities": "",
+    "review_status": "toReview",
+    "reviewer": "",
+    "ownership": null,
+    "level": 20
+  },
+  "img": "systems/arm5e/assets/magic/ig.png",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.4",
+    "createdTime": 1730266564295,
+    "modifiedTime": 1752180663395,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "exportSource": null
+  },
+  "_id": "JotyTf7kqWE0D2ph",
+  "folder": "TXWRpVwDyXc4LXyP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!JotyTf7kqWE0D2ph"
+}

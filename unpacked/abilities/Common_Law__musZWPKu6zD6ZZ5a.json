@@ -1,0 +1,48 @@
+{
+  "name": "Common Law*",
+  "type": "ability",
+  "img": "systems/arm5e/assets/icons/abilities/law.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_5d6v8nsyfy",
+      "path": "Abilities#/CF_SEP/Academic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p style=\"text-align: justify\">Knowledge of the laws of England. There is no authority for this Ability, and it is only taught in England.</p><p style=\"text-align: justify\"><strong>Specialties</strong>: local laws, exchequer laws. (Academic)</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "defaultChaAb": "int",
+    "speciality": "",
+    "xp": 0,
+    "key": "law",
+    "option": "common",
+    "realm": "magic",
+    "indexKey": "common-law",
+    "reviewer": "xzotl",
+    "review_status": "reviewed",
+    "optionLinked": false
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.4.0.21",
+    "coreVersion": "13.351",
+    "createdTime": 1662235751928,
+    "modifiedTime": 1758519155922,
+    "lastModifiedBy": "xMd6zrGNn4dbQYey",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "RFwx3qCrd6CJ4GDo",
+  "_id": "musZWPKu6zD6ZZ5a",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!musZWPKu6zD6ZZ5a"
+}

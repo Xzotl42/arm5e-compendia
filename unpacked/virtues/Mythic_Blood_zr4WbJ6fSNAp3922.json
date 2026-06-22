@@ -1,0 +1,113 @@
+{
+  "name": "Mythic Blood",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
+  "effects": [
+    {
+      "origin": "Compendium.arm5e-compendia.virtues.Item.zr4WbJ6fSNAp3922",
+      "duration": {
+        "turns": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "key": "system.bonuses.arts.spellFatigueThreshold",
+          "value": "10",
+          "mode": 5,
+          "priority": null
+        },
+        {
+          "mode": 5,
+          "key": "system.bonuses.arts.ritualFatigueCancelled",
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "spellcasting",
+            "spellcasting"
+          ],
+          "subtype": [
+            "spellFatigueThreshold",
+            "ritualFatigueCancelled"
+          ],
+          "option": [
+            null,
+            null
+          ],
+          "hidden": false
+        }
+      },
+      "name": "No fatigue when short",
+      "img": "icons/svg/aura.svg",
+      "_id": "vDhxVJuOF1HdXycP",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "2.3.2.13",
+        "createdTime": 1735312249458,
+        "modifiedTime": 1735312364463,
+        "lastModifiedBy": "6XwTYdUF2pe6loNQ",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zr4WbJ6fSNAp3922.vDhxVJuOF1HdXycP"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>You are a blood descendant of either a wizard of legend (possibly one of the Twelve Founders, or some other ancient and powerful sorcerer) or a supernatural being (such as a dragon).</p><p> Your potent Gift means that you do not lose Fatigue levels if your Casting Total falls short of the level of a formulaic spell by ten points or less, although you do lose Fatigue if the spell fails completely. When casting Ritual spells, lose three fewer Fatigue levels than normal. This means that you lose no Fatigue levels if you succeed, or fail by ten points or less. You must expend Fatigue normally to cast Spontaneous magic, and if you fail to cast a Formulaic spell you lose the normal number of Fatigue levels.</p><p> Additionally, you may choose one special magic feat which you can invoke at will and cancel at will, as often as you like. Invoking this feat takes as long as fast-casting a Mastered Formulaic spell (see page @@), and requires the same level of concentration. The effect should be designed as a non-Ritual Hermetic effect, with a level + Penetration limited as below. The Penetration of the effect is not modified by the magus’s Penetration Ability score, and cannot be negative, so that the highest possible level of the effect is 30.</p><p> </p><ol><li style=\"text-align: justify;\"><em>Invocation:</em> Level + Penetration</li><li style=\"text-align: justify;\"><em>Speak and Gesture:</em> 30</li><li style=\"text-align: justify;\"><em>Speak:</em> 25</li><li style=\"text-align: justify;\"><em>Gesture:</em> 20</li><li style=\"text-align: justify;\"><em>Neither Speak nor Gesture:</em> 15</li></ol><p>This Virtue includes a Minor Magical Focus in an area related to your legendary ancestor and a hereditary Minor Personality Flaw (both at no extra cost). Mythic Blood is not particularly uncommon in the Order of Hermes, so this Virtue does not grant any Reputation.</p><p> </p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "hermetic",
+    "impact": {
+      "value": "major"
+    },
+    "indexKey": "mythic-blood",
+    "review_status": "needAE",
+    "reviewer": "xzotl",
+    "hidden": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729316634167,
+    "modifiedTime": 1731255711167,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "ryEkrZYbf9tQGIrO",
+  "_id": "zr4WbJ6fSNAp3922",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!zr4WbJ6fSNAp3922"
+}

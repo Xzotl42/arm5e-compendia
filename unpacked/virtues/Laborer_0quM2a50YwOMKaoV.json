@@ -1,0 +1,47 @@
+{
+  "name": "Laborer",
+  "type": "virtue",
+  "img": "systems/arm5e/assets/icons/VF/social.svg",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "cf": {
+      "id": "temp_nxctmjlqqdb",
+      "path": "Virtues#/CF_SEP/Hermetic",
+      "color": "#000000"
+    }
+  },
+  "system": {
+    "description": "<p>The character is a trained worker who practices a trade that is a valuable service to his community, but by which no finished good is produced. Unlike a peasant, who is an agrarian worker who works at a variety of jobs, a laborer concentrates on one specific endeavor to earn his livelihood, be it hauling wood, washing clothes, cleaning latrines, carrying luggage, or serving food.</p>",
+    "source": "ArM5Def",
+    "page": 0,
+    "type": "social",
+    "impact": {
+      "value": "free"
+    },
+    "indexKey": "laborer",
+    "review_status": "reviewed",
+    "reviewer": "xzotl",
+    "hidden": false,
+    "tainted": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "createdTime": 1729609055712,
+    "modifiedTime": 1731255711112,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "exportSource": null
+  },
+  "folder": "CoxB6DSMq2bRMl47",
+  "_id": "0quM2a50YwOMKaoV",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "_key": "!items!0quM2a50YwOMKaoV"
+}

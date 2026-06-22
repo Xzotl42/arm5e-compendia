@@ -1,0 +1,220 @@
+{
+  "name": "Disaster",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roll a simple die + Risk Modifier - Perception",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        -10,
+        0
+      ],
+      "drawn": false,
+      "_id": "Me8lvZdpSE4rmme8",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You avoid disaster but waste the season.",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.Me8lvZdpSE4rmme8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "ZOnIpshXskX5Rt7T",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your creation is destroyed.",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.ZOnIpshXskX5Rt7T"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "T43B5By7iJsxYGaw",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "ur creation is destroyed, and so is some other valuable item that you keep in your laboratory.",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.T43B5By7iJsxYGaw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "G9BhhtxAcNldSEZ7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Explosion! Your lab equipment is ruined, and you must roll a simple die for each valuble possession you keep in your lab. On a 0, it is destroyed. You take an amount of damage equal to a simple die + the level of the spell or effect you were working on.",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.G9BhhtxAcNldSEZ7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "JCSs1icnV86ZuXK1",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Your experiment backfires in such a way that the entire convenant is threatened, either through fire, the summoning of a major threat, or some other calamity the storyguide makes up.",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.JCSs1icnV86ZuXK1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "N9SaANBcg78RyD3i",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "You gain Warping Points equal to the number of zeroes on the botch roll. Roll for Twilight if you gain two or more",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.N9SaANBcg78RyD3i"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        100
+      ],
+      "drawn": false,
+      "_id": "kLIpjrbDvoxI6JDW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Roll twice more on this chart.",
+      "name": "",
+      "_key": "!tables.results!p21H0NcbOF1es2xT.kLIpjrbDvoxI6JDW"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "k2UQWqUTpGfaVBxo",
+  "ownership": {
+    "default": 0,
+    "ErQ613O32LNYb71L": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.2.4.18",
+    "coreVersion": "13.351",
+    "createdTime": 1689068297989,
+    "modifiedTime": 1712088471581,
+    "lastModifiedBy": "ErQ613O32LNYb71L",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "ars-magica",
+      "uuid": null,
+      "coreVersion": "10.303",
+      "systemId": "arm5e",
+      "systemVersion": "2.1.0.14"
+    }
+  },
+  "formula": "1d10",
+  "_id": "p21H0NcbOF1es2xT",
+  "sort": 0,
+  "_key": "!tables!p21H0NcbOF1es2xT"
+}

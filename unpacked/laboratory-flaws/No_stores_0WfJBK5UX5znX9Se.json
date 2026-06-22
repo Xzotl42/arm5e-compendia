@@ -1,0 +1,98 @@
+{
+  "name": "No stores",
+  "type": "flaw",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": "",
+    "source": "Cov",
+    "page": 115,
+    "type": "laboratoryStructure",
+    "impact": {
+      "value": "minor"
+    },
+    "indexKey": "no-stores"
+  },
+  "effects": [
+    {
+      "origin": "Item.0WfJBK5UX5znX9Se",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "tint": "#000000",
+      "changes": [
+        {
+          "mode": 2,
+          "key": "system.safety.bonus",
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "arm5e": {
+          "type": [
+            "laboratory"
+          ],
+          "subtype": [
+            "safety"
+          ],
+          "option": [
+            null
+          ]
+        }
+      },
+      "_id": "QQ7GtxKedo2mw54g",
+      "transfer": true,
+      "name": "No stores",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!0WfJBK5UX5znX9Se.QQ7GtxKedo2mw54g"
+    }
+  ],
+  "flags": {
+    "cf": {
+      "id": "temp_oozmc1rqf3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "2.3.2.7",
+    "coreVersion": "13.351",
+    "createdTime": 1663056000309,
+    "modifiedTime": 1731255712413,
+    "lastModifiedBy": "tBE5EmoIXLzf3maM",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "aDJYrD4qp7WjRbfx",
+  "_id": "0WfJBK5UX5znX9Se",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1JBSgWiiwizu7vru": 3
+  },
+  "_key": "!items!0WfJBK5UX5znX9Se"
+}
