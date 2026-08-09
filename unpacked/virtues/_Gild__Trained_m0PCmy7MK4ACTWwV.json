@@ -2,62 +2,7 @@
   "name": "(Gild) Trained",
   "type": "virtue",
   "img": "systems/arm5e/assets/icons/VF/hermetic.svg",
-  "effects": [
-    {
-      "origin": "Item.sKLmw7fhKXq8fTSv",
-      "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "disabled": false,
-      "tint": "#000000",
-      "changes": [
-        {
-          "mode": 2,
-          "key": "system.bonuses.activities.visStudy",
-          "value": "3",
-          "priority": null
-        }
-      ],
-      "flags": {
-        "arm5e": {
-          "type": [
-            "activities"
-          ],
-          "subtype": [
-            "visStudy"
-          ],
-          "option": [
-            null
-          ]
-        }
-      },
-      "name": "Vis Study",
-      "_id": "64me9GK16BHoIa8D",
-      "description": "",
-      "transfer": true,
-      "statuses": [],
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "arm5e",
-        "systemVersion": "3.0.0.11",
-        "lastModifiedBy": null
-      },
-      "img": "icons/svg/aura.svg",
-      "type": "base",
-      "system": {},
-      "sort": 0,
-      "_key": "!items.effects!m0PCmy7MK4ACTWwV.64me9GK16BHoIa8D"
-    }
-  ],
+  "effects": [],
   "flags": {
     "core": {},
     "cf": {

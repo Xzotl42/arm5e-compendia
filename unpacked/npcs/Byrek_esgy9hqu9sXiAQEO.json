@@ -53,7 +53,7 @@
         "value": ""
       }
     },
-    "secrets": "<p><strong>Equipment:</strong> Long spear,axe,round shield,and a heavy leather hauberk,which he sheds when running.</p><h3></h3>",
+    "secrets": "<p>Byrek's mother was a witch of the Horse Clan at Crintera covenant (see Chapter 9: The Eastern Marches, Crintera) and when he came of age she gave him a magical amulet carved of horse bone that she told him would make him as swift and as tireless as a horse. Byrek attributes his running ability and mighty constitution to this amulet, which he never takes off; but whether it actually works is unknown. Nevertheless, Byrek is capable of amazing feats of endurance, and he was often used by Crintera to run messages. Due his focused mind he is able to remember messages very well, but he does tend to be very single-minded about tasks and neglect things that are second nature to most grogs. He is also remarkably clumsy for one who is so graceful at speed. Byrek feels rejected by Crintera; he feels that the reason that he was given away by the covenant was because of some fault in his abilities. Consequently, he has become very depressed and demoralized and may even appear surly to some. Once he is convinced that he has a useful function to fulfill at the characters' covenant his depression may lift.</p><p><strong>Equipment:</strong> Long spear,axe,round shield,and a heavy leather hauberk,which he sheds when running.</p><h3></h3>",
     "source": "GotF",
     "page": 0,
     "indexKey": "byrek",
@@ -109,7 +109,7 @@
         }
       }
     },
-    "biography": "<p><b>Appearance:</b> Byrek is tall and sturdily built, and quite awkward. He is most often slouched against some vertical surface, propped up by his spear. He takes no care of his appearance or his equipment. Rarely clean-shaven, he has lice in his thick black hair and scratches constantly. His weapons are rusty, and his hauberk filthy. Byrek's mother was a witch of the Horse Clan at Crintera covenant (see Chapter 9: The Eastern Marches, Crintera) and when he came of age she gave him a magical amulet carved of horse bone that she told him would make him as swift and as tireless as a horse. Byrek attributes his running ability and mighty constitution to this amulet, which he never takes off; but whether it actually works is unknown. Nevertheless, Byrek is capable of amazing feats of endurance, and he was often used by Crintera to run messages. Due his focused mind he is able to remember messages very well, but he does tend to be very single-minded about tasks and neglect things that are second nature to most grogs. He is also remarkably clumsy for one who is so graceful at speed. Byrek feels rejected by Crintera; he feels that the reason that he was given away by the covenant was because of some fault in his abilities. Consequently, he has become very depressed and demoralized and may even appear surly to some. Once he is convinced that he has a useful function to fulfill at the characters' covenant his depression may lift.</p>",
+    "biography": "<p><strong>Appearance:</strong> Byrek is tall and sturdily built, and quite awkward. He is most often slouched against some vertical surface, propped up by his spear. He takes no care of his appearance or his equipment. Rarely clean-shaven, he has lice in his thick black hair and scratches constantly. His weapons are rusty, and his hauberk filthy. </p>",
     "characteristics": {
       "int": {
         "value": 0,
@@ -2148,6 +2148,57 @@
         "6SdI10VpXHcBvx2J": 3
       },
       "_key": "!actors.items!esgy9hqu9sXiAQEO.iP5d4y0IAvkk69iL"
+    },
+    {
+      "name": "German Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "Pomerania",
+        "xp": 0,
+        "key": "areaLore",
+        "option": "German-Lore",
+        "realm": "magic",
+        "indexKey": "area-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.arm5e-compendia.abilities.Item.jTQljMRQlD2ubG1N",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "createdTime": 1777183773901,
+        "modifiedTime": 1777183773901,
+        "lastModifiedBy": "6SdI10VpXHcBvx2J"
+      },
+      "folder": null,
+      "_id": "kDPTKBchLamuguo3",
+      "sort": 1225000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!esgy9hqu9sXiAQEO.kDPTKBchLamuguo3"
     }
   ],
   "folder": "8xD6Ik7c4mo3pqQF",
@@ -2260,10 +2311,10 @@
     "systemId": "arm5e",
     "systemVersion": "3.0.0.11",
     "createdTime": 1777036105975,
-    "modifiedTime": 1777036105975,
+    "modifiedTime": 1777187608633,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
   "_id": "esgy9hqu9sXiAQEO",
-  "sort": 0,
+  "sort": 300000,
   "_key": "!actors!esgy9hqu9sXiAQEO"
 }

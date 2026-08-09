@@ -1,0 +1,2831 @@
+{
+  "name": "Lord Robert Schönburg",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1191
+      },
+      "apprentice": {
+        "value": 10
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "secrets": "<p><strong>Equipment:</strong> Fine clothing,sword (for show -- he can't use it),any number of pouches with herbs,strange rocks,and animal pieces. He owns about 10 pawns of vis of mixed types.</p><p>The illegitimate son of Baron Schonburg, Robert was given a fine education in Cologne, which is where he met the mentor who initiated him into the Dark Arts. He then returned to his father's court, where Baron Schonburg put him in charge of collecting the toll duties from Pfalz Island. From this base, Lord Robert has collected a motley group of suspicious characters who assist him in what amounts to piracy. He flaunts his ambivalent status in noble circles, turning up to social events to which he has not been invited, then acting disgracefully. The baron is ashamed of his only son's behavior; furthermore, he suspects him of exacting a grossly unjust toll. However, Schonburg's loyalties are divided and this has left him impotent to settle the matter. Robert is a committed servant of the Devil, not because of any religious fervor, but rather for the benefits he can reap from such service. Robert's natural desire for wealth has become much stronger since his initiation, and he has discovered that people tend to avoid his company more often. This does not faze him; with his new power of bewitchment, he has been able to ensure that people do what he says without hesitation, a power that he loves and tends to use in frivolous ways. Another of his Dark Powers is the uncanny knack to know if he is in trouble or about to be exposed -- a power that has saved his skin on many occasions. Finally, his forbidden knowledge of the occult has allowed him to exert control over minor natural magics. Lord Robert can cast spells using his Intelligence + Infernal Lore + aura + stress die as a Casting Total, but such spells must be cast as if they were Ritual spells, requiring both time and vis. He may use gemstones and the like in such magics to give him a bonus to this roll equal to their Shape and Material bonus. Robert is not suitable as a player character, but rather should be the villain of a saga whose covenant is set in the Rhine Gorge. As the saga develops, Robert may become more proficient at his Hell-born magic and may even develop powers to rival a Hermetic magus by dealing directly with a demon. The exact nature of these powers are left to the storyguide to develop. Hidden among the trees on the south (upstream) island are two burial mounds. Robert violated these ancient graves for their paltry treasures (possibly vis), awakening the grave guardians -- powerful undead corpses with powers of stealth and destruction. These specters wait patiently to exact their revenge, until one night in midsummer when the river level has dropped enough so as to allow them to walk across the rocky spine and attack the castle. From the rocky spine, which extends across the eastern flank of Pfalz island, can be harvested one dripstone every season. The power of these rocks remain unknown until one day —</p><p>a passing ship's captain inquires after a charm that may protect him from the Loreley siren (see below), which the former inhabitants of the island seemingly sold.—</p>",
+    "source": "GotF",
+    "page": 0,
+    "indexKey": "lord-robert-schonburg",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 29
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 29
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null,
+      "name": "Covenant Name"
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": [],
+          "name": "Custom"
+        }
+      }
+    },
+    "biography": "<p><strong>Appearance:</strong> Robert is a tall, handsome man, with black hair at shoulder length. He prefers to be cleanshaven, and usually affects attire of solid black or dark green. His clothes are always of the most expensive materials, and he also favors ostentatious jewelry, often bearing his personal symbol: an eagle with wings displayed, pierced through the heart with a spear. He has startlingly green eyes, that captivate the victims of his charms, particularly women. </p>",
+    "characteristics": {
+      "int": {
+        "value": 3,
+        "aging": 0
+      },
+      "per": {
+        "value": -1,
+        "aging": 0
+      },
+      "str": {
+        "value": 0,
+        "aging": 0
+      },
+      "sta": {
+        "value": 0,
+        "aging": 0
+      },
+      "pre": {
+        "value": 2,
+        "aging": 0
+      },
+      "com": {
+        "value": 1,
+        "aging": 0
+      },
+      "dex": {
+        "value": -1,
+        "aging": 0
+      },
+      "qik": {
+        "value": -1,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": 0
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": {
+      "0": {
+        "name": "Little More than a Thug"
+      }
+    },
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": 0
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": 0
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "longTermFatigue": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "mundane",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "",
+      "value": 0,
+      "points": 0
+    },
+    "powers": [],
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "personalities": {
+      "0": {
+        "name": "Arrogant",
+        "score": 3
+      },
+      "1": {
+        "name": "Greedy",
+        "score": 3
+      },
+      "2": {
+        "name": "Scheming",
+        "score": 2
+      }
+    },
+    "reputation": {
+      "0": {
+        "system": {
+          "score": 2
+        }
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    }
+  },
+  "items": [
+    {
+      "name": "Little More than a Thug",
+      "type": "reputation",
+      "img": "icons/svg/angel.svg",
+      "system": {
+        "xp": 15,
+        "type": "local",
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "85O7yJ9vtH3Du3cW",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.85O7yJ9vtH3Du3cW"
+    },
+    {
+      "name": "Artes Liberales",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/artesLib.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The seven artes liberales, or liberal arts, are the basis of medieval higher education. Everyone learns them at the universities before passing on to study other subjects. It would be very rare for a character to have a score in any other Academic Knowledge without a score of at least one in this.</p><p style=\"text-align: justify\">The artes liberales are divided into two groups: the Trivium (grammar, logic, and rhetoric) and the Quadrivium (arithmetic, geometry, astronomy, and music). The emphasis at this period is on the Trivium, but both are taught. (Note that Artes Liberales as a whole is one Skill, not seven separate ones.)</p><p style=\"text-align: justify\">Grammar concerns theoretical questions of the structure of languages, rather than the ability to use a specific language (that is covered by Speak skills). The authorities are Priscian and Donatus. Logic is the study of the syllogism, and other forms of reasoning discussed by Aristotle. It is the most important of the arts at this period. Aristotle is the authority, in his <em>logica vetus </em>and <em>logica nova</em>. Rhetoric is the study of the theory of rhetorical forms: knowledge of the sort of tricks that an orator can use, rather than the ability to use them. The authority is Cicero, especially his <em>De Inventione</em>.</p><p style=\"text-align: justify\">Arithmetic is the ability to add and subtract, multiply and divide. The authority is Boethius, <em>De arithmetica</em>. Geometry is concerned with study of plane and solid figures, and the authority is Euclid, in his <em>Elementa</em>. It also deals with the study of light, and Euclid's <em>Optica</em> is the authority here. Astronomy is concerned with predicting the positions of the stars and planets, and the authority is Ptolemy, in the <em>Libri Almagesti</em>. Music is purely theoretical, the study of proportions and musical theory, not the ability to sing or play an instrument. The authority is Boethius, in <em>De Musica</em>.</p><p style=\"text-align: justify\">Artes Liberales also covers the ability to read and write. For every point in the Ability, the character can read and write one writing system, providing that he knows a language which normally uses that system: the Latin alphabet, the Greek alphabet, the Arabic alphabet, and so on.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> grammar, logic, rhetoric, arithmetic, geometry, astronomy, music, Ritual magic, Ceremonial magic. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "accounts",
+        "xp": 15,
+        "key": "artesLib",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "artes-liberales",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "1f5EqMCcn1dQr044",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.1f5EqMCcn1dQr044"
+    },
+    {
+      "name": "Athletics",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/athletics.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">General physical prowess. It includes moving smoothly, confidently, and with grace. Use of Athletics improves most large-muscle coordination.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> acrobatics, contortions, grace, jumping, running. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "jumping",
+        "xp": 15,
+        "key": "athletics",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "athletics",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "Rt882IH5m0izWR0j",
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.Rt882IH5m0izWR0j"
+    },
+    {
+      "name": "Awareness",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/awareness.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>Noticing things, be they things you are looking for or things that you are not expecting. It is also used to see how alert you are in circumstances that require watchfulness. </p><p><strong>Specialties</strong>: bodyguarding, keeping watch, alertness, searching. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "light sleeper",
+        "xp": 5,
+        "key": "awareness",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "awareness",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "AzOau08SOzXuDlay",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.AzOau08SOzXuDlay"
+    },
+    {
+      "name": "Brawl",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "dirty fighting",
+        "xp": 15,
+        "key": "brawl",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "brawl",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "xCW3uiA0h2Kwrdff",
+      "sort": 3200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.xCW3uiA0h2Kwrdff"
+    },
+    {
+      "name": "Bargain",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/bargain.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">The know-how to get the greatest return for a service or product, while paying the least. It involves reading the person with whom you haggle, a general knowledge of the value of goods, and presenting yourself in certain ways. A good haggler can easily overcome resistance in an inexperienced customer and see through attempts to over-value most merchandise.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> specific types of products, hard sell. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "gaining advantage",
+        "xp": 5,
+        "key": "bargain",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "bargain",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "BoeljT4Zl2FnRnl1",
+      "sort": 3000000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.BoeljT4Zl2FnRnl1"
+    },
+    {
+      "name": "Charm",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "women",
+        "xp": 50,
+        "key": "charm",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "charm",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "o8OlPqA9sAoudCSf",
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.o8OlPqA9sAoudCSf"
+    },
+    {
+      "name": "Chirurgy",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/chirurgy.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">This is Middle Ages-style surgery, used to help others recover from physical damage. It encompasses tending and binding wounds of all varieties, and the necessary but brutal skill of cauterization. See page @@ for rules</p><p style=\"text-align: justify\"><strong>Specialties:</strong> cauterization, diagnosis, binding wounds, setting bones. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "burn wounds",
+        "xp": 15,
+        "key": "chirurgy",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "chirurgy",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "o6HXGFcSUjYtB6IJ",
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.o6HXGFcSUjYtB6IJ"
+    },
+    {
+      "name": "Civil and Canon Law",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/law.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Civil Law is the law of the Roman Empire. Most local legal systems are based upon it (England being the notable exception), and when a law is needed to govern international relations, Civil Law is appealed to. The authority is Justinian's Digest. Canon Law is the law of the Church. It is important to Mythic Europe as it applies in all nations, governing the working of the church and some other areas, such as marriage. It is important to note that members of the clergy are only subject to Canon Law, not customary or Civil Law. Most high churchmen are skilled canonists, not theologians. Canon Law is made by Papal bulls (pronouncements), but the authority is Gratian, in his Decretum. This skill covers the knowledge of both types of law. Other religions, particularly Judaism and Islam, have their own versions of this Ability, which must be learned separately.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> laws and customs of a specific area, papal laws. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "tolls",
+        "xp": 15,
+        "key": "law",
+        "option": "civil-and-canon-law",
+        "realm": "magic",
+        "indexKey": "civil-canon-law",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "xZuA2OE3MWTs1bmt",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.xZuA2OE3MWTs1bmt"
+    },
+    {
+      "name": "Concentration",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/concentration.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Focusing your mental faculties on one task, particularly for extended periods of time. If you are attempting a feat that demands your extra attention, or if you have just failed an action and are trying again, the storyguide can call for a Concentration roll before you can make the attempt. This Ability is especially important for magi because it helps them maintain concentration on spells despite distractions.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> spell concentration, reading, lab work. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "Entrancement",
+        "xp": 5,
+        "key": "concentration",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "concentration",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "nY51Fc7DdHeoglF3",
+      "sort": 4600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.nY51Fc7DdHeoglF3"
+    },
+    {
+      "name": "Entrancement",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/entrancement.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_mjq1fx3r06m",
+          "path": "Abilities#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">You have the power to control another's will. By staring deeply into someone's eyes for several seconds — generally impossible in combat — you can verbally command the person to perform a certain task. Roll Presence + Entrancement against the target's Stamina roll. The person being controlled may get a bonus to resist at the option of the storyguide, according to the table below. Hermetic magi get their normal Mentem Magic Resistance, and get the normal Stamina roll if the effect penetrates. The blind, and people with their eyes closed, are immune; see page @@ for more guidelines on making eye contact. However, it is not possible to look away while being Entranced unless you win the opposed roll.</p></div><div class=\"el-table\" style=\"overflow-x: auto;\" dir=\"ltr\"><table><thead><tr><th dir=\"ltr\">Command</th><th dir=\"ltr\">Example</th><th dir=\"ltr\">Victim's Bonus</th></tr></thead><tbody><tr><td dir=\"ltr\">Innocuous</td><td dir=\"ltr\">Talk to me</td><td dir=\"auto\">3</td></tr><tr><td dir=\"ltr\">Questionable</td><td dir=\"ltr\">Meet me alone at night</td><td dir=\"auto\">6</td></tr><tr><td dir=\"ltr\">Dangerous</td><td dir=\"ltr\">Put your weapons away</td><td dir=\"auto\">9</td></tr><tr><td dir=\"ltr\">Heinous</td><td dir=\"ltr\">Kill your fellows</td><td dir=\"auto\">12</td></tr><tr><td dir=\"ltr\">Suicidal</td><td dir=\"ltr\">Jump off a cliff</td><td dir=\"auto\">15</td></tr></tbody></table></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "women",
+        "xp": 75,
+        "key": "entrancement",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "entrancement",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "ZbCET9zUtDWzYD5z",
+      "_id": "vQxia4ryjxRD6uU5",
+      "sort": 1700000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.vQxia4ryjxRD6uU5"
+    },
+    {
+      "name": "Etiquette",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/etiquette.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">You know the social graces and how to behave in different situations. Etiquette differs from Charm in that Etiquette covers proper behavior, rather than charming behavior. You cannot seduce someone with Etiquette, but neither can you get through an audience with the bishop on Charm alone.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> nobility, court, peasants, faeries, the Church. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "pre",
+        "speciality": "subtle insults",
+        "xp": 15,
+        "key": "etiquette",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "etiquette",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "CBjHXbsuNSdb7JMq",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.CBjHXbsuNSdb7JMq"
+    },
+    {
+      "name": "Faerie Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/faerieLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Familiarity with faerie powers, weaknesses, motivations, and areas.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> faerie forests, faerie mounds, specific types of faeries. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "Loreley",
+        "xp": 5,
+        "key": "faerieLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "faerie-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "itds050J3xGfLXzF",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.itds050J3xGfLXzF"
+    },
+    {
+      "name": "Folk Ken",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/folkKen.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Understanding the background, personality, and motives of another person. Often the storyguide secretly rolls a die when this Ability is used. Thus, you do not know if your character guessed correctly, or even botched.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> peasants, townsfolk, nobles, clergy, magi, the opposite sex. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "soldiers",
+        "xp": 15,
+        "key": "folkKen",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "folk-ken",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "nf33ZgEBKCS6S56r",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.nf33ZgEBKCS6S56r"
+    },
+    {
+      "name": "High German",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/livingLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_r64qqxkggi",
+          "path": "Abilities#/CF_SEP/General, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Fluency in a particular living language. Rather than a die roll modifier, your score in this Knowledge measures your ability to communicate.</p><table style=\"width: 99.1914%; height: 122px;\" border=\"1\"><tbody><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p><strong>Score</strong></p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><strong>Fluency</strong></p></td><td style=\"width: 76.5033%; height: 17px; text-align: center;\"><p><strong>Description</strong></p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>0</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Point and grunt</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>With one or more experience points, you know “please”, ”thank you”, and a few other words.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>1</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic questions and answers</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>“Where is the church?,” “Do you sell food?” Constant mistakes, and an atrocious accent. People must speak slowly and often repeat themselves, and you cannot string a conversation together.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>2</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Basic conversation</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can sustain a short conversation on a common topic. You still make many mistakes, and often fail to catch what others say.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>3</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Haltingly functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on everyday topics, although it takes time, you make many mistakes, and your accent is still bad.</p></td></tr><tr style=\"height: 17px;\"><td style=\"width: 7.07427%; height: 17px; text-align: center;\"><p>4</p></td><td style=\"width: 15.6073%; height: 17px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Functional</em></span></p></td><td style=\"width: 76.5033%; height: 17px; text-align: justify;\"><p>You can hold a conversation on non-technical topics, and make few mistakes. People do not normally need to repeat themselves. This is the minimum level required to study from a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>5</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Fluent</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You still have an accent if this is not your native language, but it is weak. You speak as well as most natives. This is the minimum level required to write a book.</p></td></tr><tr style=\"height: 10px;\"><td style=\"width: 7.07427%; height: 10px; text-align: center;\"><p>6</p></td><td style=\"width: 15.6073%; height: 10px; text-align: center;\"><p><span style=\"text-align: justify;\"><em>Elegant</em></span></p></td><td style=\"width: 76.5033%; height: 10px; text-align: justify;\"><p>You choose your words well, and have no accent if this is not your native language.<br><br></p></td></tr></tbody></table><p style=\"text-align: justify\">Two dialects of the same language generally have a –1 penalty. If your character is not specialized in a dialect, you should specify a dialect without specializing in it, and take the penalty when conversing with people who speak a different dialect. If you speak a \"standard\" version of the language, that is a dialect that differs from all other dialects.</p><p style=\"text-align: justify\">When two people speak to each other, the lower Ability score determines how well they communicate. Characters who speak related languages can communicate at a penalty to their scores (assigned by the storyguide) depending on how closely related the two languages are.</p><p style=\"text-align: justify\">Note that Latin and Hebrew are not living languages in most of Mythic Europe. However, characters who live in places where they are (such as some covenants) may learn this Ability without any special Virtues.</p><p style=\"text-align: justify\">Characters with this Ability are illiterate unless they also have a score in Artes Liberales (page 62).</p><p style=\"text-align: justify\">This Ability also covers artistic compositions in the language, and telling existing tales with verve and passion. Knowledge of stories is covered by the appropriate Lore Abilities.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> poetry, prose, specific dialects, expansive vocabulary, specific technical vocabulary, slang, storytelling. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "fine speech",
+        "xp": 75,
+        "key": "livingLanguage",
+        "option": "high-german",
+        "realm": "magic",
+        "indexKey": "language-generic",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "nYxkC4sbnw9IE7bJ",
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.nYxkC4sbnw9IE7bJ"
+    },
+    {
+      "name": "Guile",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/guile.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Telling convincing lies, as well as feigning emotion, belief, or frame of mind. If you understand the person you are attempting to deceive (roll 9+ on Perception + Folk Ken), you gain a bonus of +1 to your Guile roll. This Ability also covers disguising yourself, and pretending to be something you are not. It is often an opposed roll, against the victim's Perception + Folk Ken or, for disguise, Perception + Awareness.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> particular sorts of deception, lying to authority, fast talk, elaborate lies. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "to affronted husbands",
+        "xp": 30,
+        "key": "guile",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "guile",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "duaKTB3lNbfVEeNC",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.duaKTB3lNbfVEeNC"
+    },
+    {
+      "name": "Hunt",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/hunt.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Setting snares, choosing appropriate hunting spots, and following and identifying the spoor of creatures of all varieties. This Ability also lets you cover your tracks or not leave any in the first place.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> tracking, covering tracks, hunting a specific animal. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "per",
+        "speciality": "from horseback",
+        "xp": 15,
+        "key": "hunt",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "hunt",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "F1NjcjhwGUc9piXM",
+      "sort": 4900000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.F1NjcjhwGUc9piXM"
+    },
+    {
+      "name": "Infernal Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/infernalLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">An understanding and familiarity with the sinister side of the world, primarily the Infernal and its agents. Includes knowledge of demons and their habits and weaknesses, undead and their habits and weaknesses, and the power of curses.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> demons, undead, curses. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "pacts",
+        "xp": 50,
+        "key": "infernalLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "infernal-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "AEEmf0IP4JK9Iznj",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.AEEmf0IP4JK9Iznj"
+    },
+    {
+      "name": "Intrigue",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/intrigue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Dealing and plotting, including subtle use of power in non-confrontational ways to achieve your own ends. Intrigue need not be underhanded or manipulative - it also covers negotiations and knowledge of formal and informal rules of conduct and politeness. In addition, Intrigue also allows a character to pick up important information about those in power, separating fact from useless gossip. Intrigue is a vital talent for those who frequent court or a Hermetic Tribunal.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> gossip, plotting, rumormongering, alliances. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "nobility",
+        "xp": 15,
+        "key": "intrigue",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "intrigue",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "9BcyXNEkxFMF9fFX",
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.9BcyXNEkxFMF9fFX"
+    },
+    {
+      "name": "Latin",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/deadLanguage.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_097jrlmaqjp7",
+          "path": "Abilities#/CF_SEP/Academic, Languages",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>This skill is similar to all other (Language) Abilities, but it is only available to educated characters. It grants the ability to speak a language which is no longer used as a native language in the areas the character has lived in. The most important example is Latin. All educated characters in the West know Latin, since without it you cannot learn any Academic Knowledges. It is also the common language of the Church and Order of Hermes. In other areas of the world, Arabic, Greek and Hebrew fill similar functions, although of these only Hebrew is a dead language.</p><p><strong>Specialties</strong>: academic usage, Church ceremonies, Hermetic usage. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "com",
+        "speciality": "incantation",
+        "xp": 30,
+        "key": "deadLanguage",
+        "option": "latin",
+        "realm": "magic",
+        "indexKey": "language-latin",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "8fPmJY2ZeRt1huuM",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.8fPmJY2ZeRt1huuM"
+    },
+    {
+      "name": "Leadership",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/leadership.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Getting people to obey your orders and to follow you. Can also be used to inspire fear in others, cowing them into submission.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> intimidation, in combat, inspiration. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "ruffians",
+        "xp": 15,
+        "key": "leadership",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "leadership",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "NhQfvmJ3ZTuGCLOS",
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.NhQfvmJ3ZTuGCLOS"
+    },
+    {
+      "name": "Magic Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/magicLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Knowledge of magical creatures, areas, and traditions.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> creatures, magical traditions, regiones. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "occult properties",
+        "xp": 30,
+        "key": "magicLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "magic-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "99WhrQSK4XteMtVC",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.99WhrQSK4XteMtVC"
+    },
+    {
+      "name": "Philosophiae",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/philosophy.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>There are three philosophies — natural philosophy, moral philosophy, and metaphysics. Aristotle is the auctor for all of them, in different books. Most scholars study the philosophies after the Arts but before going on to Law, Theology or Medicine. Natural philosophy is the study of the sub-lunar world. It roughly corresponds to today's science. The main texts are the <em>Physica</em>, <em>De Meteorologia</em>, and <em>De historia animalium</em>. Moral philosophy is the study of the proper way of human life. It covers ethics, politics, and economics — the texts are the <em>Ethica</em>, <em>Politica</em>, and <em>Economica</em>. Metaphysics is the philosophy of the fundamental nature of the world. The main text is Aristotle's <em>Metaphysica</em>. The theories of the Philosophiae are all basically correct in Mythic Europe. </p><p><strong>Specialties</strong>: natural philosophy, moral philosophy, metaphysics, Ritual magic, Ceremonial magic. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "natural magic",
+        "xp": 30,
+        "key": "philosophy",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "philosophiae",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "3aJ3cx0WfUFIMGPY",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.3aJ3cx0WfUFIMGPY"
+    },
+    {
+      "name": "Premonitions",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/premonitions.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_mjq1fx3r06m",
+          "path": "Abilities#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You intuitively sense whenever something is wrong, or is likely to go wrong soon. This Ability can be called upon by you or the storyguide, as appropriate, whenever there is a chance to avoid danger. Roll Perception + Premonitions against an Ease Factor depending on the situation. The Ease Factor starts at 3 for imminent, mortal peril, and increases as the distance in time increases and the level of danger decreases. Mortal peril a week in the future would have an Ease Factor of 9, while an imminent minor inconvenience would have an Ease Factor of about 15. If you beat the Ease Factor by 3 or more, you also get some sense of the nature of the danger, with more detail if you roll more highly. </p><p><strong>Specialties</strong>: threats to a particular person or group of people, particular kinds of threats. (Supernatural)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "expeditious retreats",
+        "xp": 30,
+        "key": "premonitions",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "premonitions",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "ZbCET9zUtDWzYD5z",
+      "_id": "tMBTjXMXR46gg4KZ",
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.tMBTjXMXR46gg4KZ"
+    },
+    {
+      "name": "Ride",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/ride.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Riding and controlling a horse, especially under stress.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> battle, speed, tricks. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "while hunting",
+        "xp": 15,
+        "key": "ride",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "ride",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "EJ8QoqiZcJIMCBPA",
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.EJ8QoqiZcJIMCBPA"
+    },
+    {
+      "name": "Rhine Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "nobles) Stealth 1 (eavesdropping",
+        "xp": 30,
+        "key": "areaLore",
+        "option": "rhine-lore",
+        "realm": "magic",
+        "indexKey": "area-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": true,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "PLQBDSiikXYt7lyJ",
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.PLQBDSiikXYt7lyJ"
+    },
+    {
+      "name": "Theology",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/theology.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_5d6v8nsyfy",
+          "path": "Abilities#/CF_SEP/Academic",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Theology is the study of God and his work in the world. The authorities are the Bible and Peter the Lombard's Sententiae, the Bible having theoretical primacy, being infallible, and the Sentences being most studied. The speculations of theology are very abstruse, and many theologians are accused of heresy. Sometimes those accused recant, and sometimes they convince the Church that they were right after all. Theology can also be purchased (as a separate Ability) for other religions like Islam and Judaism.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> biblical knowledge, heresy, history. (Academic)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "mortal sin",
+        "xp": 5,
+        "key": "theology",
+        "option": "theology",
+        "realm": "magic",
+        "indexKey": "theology",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "RFwx3qCrd6CJ4GDo",
+      "_id": "ELVkXjIrVjUFiatO",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.ELVkXjIrVjUFiatO"
+    },
+    {
+      "name": "Gentleman",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/social.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_kuhc1tso94g",
+          "path": "Virtues#/CF_SEP/Social Status",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You are a minor member (possibly illegitimate) of a noble family. You do not stand to inherit from your </p><p>relatives, but are still treated as one of their own and may be addressed as “Lord” or “Lady.” You probably reside near the covenant with your relatives. Although you do not want for anything, you have no vast wealth of your own. You may occasionally ask your family to buy expensive equipment for you, but you will need a convincing rationale. You are expected to wait on your relations much of the time or you will lose the benefits of family (though you will keep your social standing if you can otherwise maintain your normal lifestyle). </p><p>The Wealthy Virtue and Poor Flaw affect you normally.</p><p>&nbsp;</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "social",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "gentlemanwoman",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Dlca5muDKIfBSi6F",
+      "_id": "178BBQIic7os4YQH",
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.178BBQIic7os4YQH"
+    },
+    {
+      "name": "Entrancement",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [
+        {
+          "origin": "Item.XrU7t1oCkbk8we6a",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.skills.entrancement.xpMod",
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "xpBonusSupernaturalAbility"
+              ],
+              "subtype": [
+                "entrancement"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "XP Bonus",
+          "_id": "EOOHBfrsl5vyRKLk",
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "arm5e",
+            "systemVersion": "3.0.0.11",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!5vTtjhYQ5Biz9Vhq.0Zf3W0z6f1jOJ1ca.EOOHBfrsl5vyRKLk"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nh7mgwj6rq",
+          "path": "Virtues#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have the power to control another</p><p>’s will by staring into their eyes and giving them a verbal command. Choosing this Virtue confers the Ability Entrancement 1 (page @@).</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "supernatural",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "entrancement",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Sym94leLiWXQ3Rh9",
+      "_id": "0Zf3W0z6f1jOJ1ca",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.0Zf3W0z6f1jOJ1ca"
+    },
+    {
+      "name": "Arcane Lore",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You may take Arcane Abilities during character generation. Unless you have The Gift, you cannot learn Parma Magica. You get an additional 50 experience points, which must be spent on Arcane Abilities.</p><p>&nbsp;</p><p>A Gifted character who is not a Hermetic magus and knows Parma Magica <em>must</em> take the Major Story Flaw Enemy: Entire Order of Hermes, as magi are bound by their Oath to slay the character on sight, unless he immediately joins the Order. Such a character cannot be played in a normal saga, as the other player characters have to kill him.</p><p>&nbsp;</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "arcane-lore",
+        "review_status": "needAE",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "PxQzD6RrKo9ZxL7x",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.PxQzD6RrKo9ZxL7x"
+    },
+    {
+      "name": "Educated",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You have been educated in a grammar </p><p>school, and may have attended a university or cathedral school. You may purchase Academic Abilities during character generation. During character generation you get an additional 50 experience points, which must be spent on Latin and Artes Liberales.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "educated",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "Y29SLCmLefWSTGMN",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.Y29SLCmLefWSTGMN"
+    },
+    {
+      "name": "Premonitions",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/supernatural.svg",
+      "effects": [
+        {
+          "origin": "Item.lwiiGPQg5aSIK9fO",
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "tint": "#000000",
+          "changes": [
+            {
+              "mode": 2,
+              "key": "system.bonuses.skills.premonitions.xpMod",
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "flags": {
+            "arm5e": {
+              "type": [
+                "xpBonusSupernaturalAbility"
+              ],
+              "subtype": [
+                "premonitions"
+              ],
+              "option": [
+                null
+              ],
+              "hidden": false
+            }
+          },
+          "name": "XP Bonus",
+          "_id": "QyzAY451Lt9o5iA4",
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "arm5e",
+            "systemVersion": "3.0.0.11",
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!5vTtjhYQ5Biz9Vhq.HQCXZZUSL5Mx2NvC.QyzAY451Lt9o5iA4"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_nh7mgwj6rq",
+          "path": "Virtues#/CF_SEP/Supernatural",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You intuitively sense whenever something is wrong, or is likely to go wrong soon. Choosing this Virtue confers the Ability Premonitions 1 (page @@).</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "supernatural",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "premonitions",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "XwOh5akgyjxNE2dG",
+      "_id": "HQCXZZUSL5Mx2NvC",
+      "sort": 4200000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.HQCXZZUSL5Mx2NvC"
+    },
+    {
+      "name": "Privileged Upbringing",
+      "type": "virtue",
+      "img": "systems/arm5e/assets/icons/VF/generalVirtue.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_qajjxhee95m",
+          "path": "Virtues#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You grew up in an environment where you had access to teachers and free time for study. You have an additional 50 experience points, which may be spent on General, Academic, or Martial Abilities. You may not, however, buy Academic or Martial Abilities with your normal pool of experience points unless you have another Virtue or Flaw permitting that. The most common reason for this Virtue is that your family was wealthy while you were a child, but if you are wealthy now, you should take the Wealthy Virtue (page @@).</p><p> </p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "privileged-upbringing",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "credits": "",
+        "tainted": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "jegZHVtv21smauPD",
+      "_id": "P6cmcg9KLPsByiGG",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.P6cmcg9KLPsByiGG"
+    },
+    {
+      "name": "Avaricious",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/personality.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_18qw00m8tam",
+          "path": "Flaws#/CF_SEP/Personality",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You want money, lots of money. When you have it, you do not spend it, but hoard it so that you can count it. You can be avaricious about physical things other than money, such as books or raw vis. In this case, you do not use the things you hoard, nor do you allow others to use them.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "personality",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "avaricious-minor",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "hXfkbCsUoxlA0bSB",
+      "_id": "oPYFAM1wc8cSFCvl",
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.oPYFAM1wc8cSFCvl"
+    },
+    {
+      "name": "Black Sheep",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/story.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ciwmacrmzmm",
+          "path": "Flaws#/CF_SEP/Story",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>You come from a prestigious family, but you have somehow estranged yourself from your relatives. They have nothing to do with you, unless they wish to punish you somehow or make use of you. Those who resent your family’s power can take safe revenge by assaulting you. You begin the game with a bad Reputation of your choice at level 2, among those who respect your family.</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "story",
+        "impact": {
+          "value": "major"
+        },
+        "indexKey": "black-sheep",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "HvyHCuxjJNI5yJoA",
+      "_id": "Z9RdgkeZtUm4Fzun",
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.Z9RdgkeZtUm4Fzun"
+    },
+    {
+      "name": "Nocturnal",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">Your natural body rhythms try to keep you sleeping until noon. You are at –1 on all rolls made between dawn and midday. Conversely, you have little difficulty staying up at night. Though you enjoy no special benefits in the dark, your companions may decide to saddle you with night guard duty on a regular basis to use your attributes to best effect.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "nocturnal",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "effects": [],
+      "folder": "UfPp46NPMX0jIrJv",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_id": "ZaZfS2B5TWR8X8bo",
+      "sort": 3300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.ZaZfS2B5TWR8X8bo"
+    },
+    {
+      "name": "Tainted With Evil",
+      "type": "flaw",
+      "img": "systems/arm5e/assets/icons/VF/generalFlaw.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_g1gywhrffo",
+          "path": "Flaws#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<div class=\"el-p\"><p dir=\"auto\">An air of corruption surrounds you as a result of something you, your parents, or your ancestors did. Others naturally feel very ill at ease around you, and can easily grow to hate you. Gaining a positive Reputation is impossible. Magi do not react as strongly to this attribute as normal people.</p></div>",
+        "source": "ArM5Def",
+        "page": 0,
+        "type": "general",
+        "impact": {
+          "value": "minor"
+        },
+        "indexKey": "tainted-with-evil",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "hidden": false,
+        "tainted": false,
+        "credits": ""
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "UfPp46NPMX0jIrJv",
+      "_id": "TWKA8yHPMimrUQF4",
+      "sort": 5600000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.TWKA8yHPMimrUQF4"
+    },
+    {
+      "name": "Arrogant",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "w6Ncw3S9DP6em38S",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.w6Ncw3S9DP6em38S"
+    },
+    {
+      "name": "Greedy",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "QpQ2pYlKdCgqVdD4",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.QpQ2pYlKdCgqVdD4"
+    },
+    {
+      "name": "Fine clothing",
+      "type": "item",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "quantity": 1,
+        "weight": 0,
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "carried": false,
+        "state": "inert",
+        "enchantments": null
+      },
+      "_id": "7XkLtJYA1lGKfA2t",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.7XkLtJYA1lGKfA2t"
+    },
+    {
+      "name": "Scheming",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 15,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "2CC4Q47eILP6JDlE",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.2CC4Q47eILP6JDlE"
+    },
+    {
+      "name": "Sword (for show -- he can't use it)",
+      "type": "item",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "quantity": 1,
+        "weight": 0,
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "carried": false,
+        "state": "inert",
+        "enchantments": null
+      },
+      "_id": "hgsfJkEyiqzozkA4",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.hgsfJkEyiqzozkA4"
+    },
+    {
+      "name": "Any number of pouches with herbs, animal pieces and strange rocks",
+      "type": "item",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "quantity": 1,
+        "weight": 0,
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "carried": false,
+        "state": "inert",
+        "enchantments": null
+      },
+      "_id": "FsiHPUJDWN90Kmie",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.FsiHPUJDWN90Kmie"
+    },
+    {
+      "name": "About 10 pawns of vis of mixed types.",
+      "type": "item",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": "",
+        "quantity": 1,
+        "weight": 0,
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "carried": false,
+        "state": "inert",
+        "enchantments": null
+      },
+      "_id": "LjzxyHT1m57doJ7r",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.LjzxyHT1m57doJ7r"
+    },
+    {
+      "name": "Fist",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "folder": "u0bqg5ruG7sX6XV0",
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_ebcddbqmaft",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p>This is includes any unarmed attacks made with the hands</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "weaponExpert": false,
+        "horse": false,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
+        "str": 0,
+        "range": 0,
+        "load": 0,
+        "indexKey": "b-fist",
+        "state": "inert",
+        "enchantments": null,
+        "review_status": "definitiveReady",
+        "reviewer": "KILLTHESCRIBE",
+        "credits": "",
+        "formDamage": "te",
+        "naturalWeapon": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_id": "jsLShbnGROTQLoVs",
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!5vTtjhYQ5Biz9Vhq.jsLShbnGROTQLoVs"
+    }
+  ],
+  "folder": "8xD6Ik7c4mo3pqQF",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Lord Robert Schönburg",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1777187390966,
+    "modifiedTime": 1777187390966,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "5vTtjhYQ5Biz9Vhq",
+  "sort": 0,
+  "_key": "!actors!5vTtjhYQ5Biz9Vhq"
+}

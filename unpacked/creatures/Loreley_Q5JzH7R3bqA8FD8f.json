@@ -1,0 +1,963 @@
+{
+  "name": "Loreley",
+  "type": "npc",
+  "system": {
+    "version": "2.0.2",
+    "virtues": [],
+    "flaws": [],
+    "diaryEntries": [],
+    "resource": {
+      "fatigue": {
+        "value": 0,
+        "max": 5
+      }
+    },
+    "description": {
+      "born": {
+        "value": 1195
+      },
+      "apprentice": {
+        "value": 10
+      },
+      "birthname": {
+        "value": ""
+      },
+      "birthplace": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "religion": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "title": {
+        "value": ""
+      },
+      "handed": {
+        "value": ""
+      }
+    },
+    "secrets": "<p>The daughter of the Rhine Spirit (see Chapter 5: The Rhine, The Rhinefalls), the Loreley resents humankind's attempts to tame her father and tries to wreak as much havoc on shipping as she can. Women do not escape her fury either -- she is jealous of their ability to win the hearts of men when she can only hold their attention with her glamor. She will lure mariners towards her cliff and then nimbly scramble down to greet them, capturing them with her Control Person power and causing them to drown.</p><p><strong>Vis:</strong> 6 Aquam, in blood; 4 Imaginem, in comb</p>",
+    "source": "GotF",
+    "page": 0,
+    "indexKey": "loreley",
+    "review_status": "toReview",
+    "reviewer": "xzotl",
+    "age": {
+      "value": 25
+    },
+    "apparent": {
+      "dtype": "Number",
+      "value": 25
+    },
+    "con": {
+      "label": "Confidence ",
+      "score": 1,
+      "points": 3
+    },
+    "covenant": {
+      "value": "Covenant Name",
+      "actorId": null
+    },
+    "realms": {
+      "magic": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "faeric": {
+        "aligned": true,
+        "susceptible": false
+      },
+      "divine": {
+        "aligned": false,
+        "susceptible": false
+      },
+      "infernal": {
+        "aligned": false,
+        "susceptible": false
+      }
+    },
+    "states": {
+      "pendingCrisis": false,
+      "creationMode": true,
+      "confidencePrompt": false,
+      "pendingDamage": false
+    },
+    "combatPreps": {
+      "current": "custom",
+      "list": {
+        "custom": {
+          "ids": [],
+          "name": "Custom"
+        }
+      }
+    },
+    "biography": "<p><strong>Appearance:</strong> An exceedingly beautiful maiden, clothed only in her long, golden hair, which she is forever combing with a jeweled comb. </p>",
+    "characteristics": {
+      "int": {
+        "value": 0,
+        "aging": 0
+      },
+      "per": {
+        "value": 1,
+        "aging": 0
+      },
+      "str": {
+        "value": -2,
+        "aging": 0
+      },
+      "sta": {
+        "value": -1,
+        "aging": 0
+      },
+      "pre": {
+        "value": 5,
+        "aging": 0
+      },
+      "com": {
+        "value": 5,
+        "aging": 0
+      },
+      "dex": {
+        "value": 2,
+        "aging": 0
+      },
+      "qik": {
+        "value": 0,
+        "aging": 0
+      }
+    },
+    "twilight": {
+      "stage": 0,
+      "pointsGained": 0,
+      "strength": 0,
+      "complexity": 0,
+      "enigmaSpec": false,
+      "concentrationSpec": false,
+      "control": null,
+      "year": null,
+      "season": null
+    },
+    "vitals": {
+      "siz": {
+        "value": 0
+      },
+      "soa": {
+        "value": -1
+      },
+      "enc": {
+        "value": 0
+      }
+    },
+    "abilities": [],
+    "weapons": [],
+    "armor": [],
+    "vis": [],
+    "items": [],
+    "spells": [],
+    "magicalEffects": [],
+    "laboratoryTexts": [],
+    "reputations": [],
+    "decrepitude": {
+      "points": 0,
+      "effects": "Decrepitude effects",
+      "finalScore": null
+    },
+    "warping": {
+      "points": 0,
+      "effects": "Warping effects",
+      "label": "Warping ",
+      "score": 0,
+      "finalScore": null
+    },
+    "familiar": {
+      "nameFam": "",
+      "specieFam": "",
+      "techniqueFam": {
+        "value": ""
+      },
+      "formFam": {
+        "value": ""
+      },
+      "cordFam": {
+        "bronze": 0,
+        "silver": 0,
+        "gold": 0
+      },
+      "characteristicsFam": {
+        "int": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "com": {
+          "value": 0
+        },
+        "dex": {
+          "value": 0
+        },
+        "qik": {
+          "value": 0
+        }
+      },
+      "vitalsFam": {
+        "size": {
+          "value": 0
+        },
+        "might": {
+          "value": 0
+        },
+        "soak": {
+          "value": 0
+        },
+        "fatigue": {
+          "value": 0
+        },
+        "initiative": {
+          "value": 0
+        },
+        "attack": {
+          "value": 0
+        },
+        "defense": {
+          "value": 0
+        },
+        "damage": {
+          "value": 0
+        }
+      },
+      "abilitiesFam": [],
+      "powersFam": []
+    },
+    "sanctum": {
+      "value": "",
+      "actorId": null
+    },
+    "laboratory": {
+      "longevityRitual": {
+        "labTotal": 0,
+        "modifier": 0,
+        "twilightScars": ""
+      },
+      "abilitiesSelected": {
+        "finesse": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "awareness": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "concentration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "artesLib": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "philosophy": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "parma": {
+          "abilityID": "",
+          "value": 0,
+          "label": "",
+          "speciality": ""
+        },
+        "magicTheory": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        },
+        "penetration": {
+          "abilityID": "",
+          "value": 0,
+          "label": ""
+        }
+      },
+      "fastCastingSpeed": {
+        "value": 0,
+        "sumary": "Qik + Finesse + stress die"
+      },
+      "determiningEffect": {
+        "value": 0,
+        "sumary": "Per + Awareness + die VS 15-magnitude"
+      },
+      "targeting": {
+        "value": 0,
+        "sumary": "Per + Finesse + die"
+      },
+      "concentration": {
+        "value": 0,
+        "sumary": "Sta + Concentration + die"
+      },
+      "magicResistance": {
+        "value": 0,
+        "sumary": "Parma * 5 + Form"
+      },
+      "multipleCasting": {
+        "value": 0,
+        "sumary": "Int + Finesse + stress die - no of spells VS 9"
+      },
+      "basicLabTotal": {
+        "value": 0,
+        "sumary": "Int + Magic theory + Aura (+ Technique + Form)"
+      },
+      "totalPenetration": {
+        "value": 0,
+        "sumary": "Penetration + (Active effects penetration like Arcane connection or Sympathetic Connection)"
+      },
+      "visLimit": {
+        "value": 0,
+        "sumary": "Magic theory * 2"
+      }
+    },
+    "fatigueTotal": 0,
+    "fatigueCurrent": 0,
+    "longTermFatigue": 0,
+    "fatigue": {
+      "fresh": {
+        "amount": 0,
+        "number": 0
+      },
+      "winded": {
+        "amount": 1,
+        "number": 0
+      },
+      "weary": {
+        "amount": 1,
+        "number": -1
+      },
+      "tired": {
+        "amount": 1,
+        "number": -3
+      },
+      "dazed": {
+        "amount": 1,
+        "number": -5
+      },
+      "unconscious": {
+        "amount": 1,
+        "number": 0
+      }
+    },
+    "stances": {
+      "voiceStance": "firm",
+      "gesturesStance": "bold"
+    },
+    "arts": {
+      "techniques": {
+        "cr": {
+          "label": "Creo",
+          "xp": 0
+        },
+        "in": {
+          "label": "Intellego",
+          "xp": 0
+        },
+        "mu": {
+          "label": "Muto",
+          "xp": 0
+        },
+        "pe": {
+          "label": "Perdo",
+          "xp": 0
+        },
+        "re": {
+          "label": "Rego",
+          "xp": 0
+        }
+      },
+      "forms": {
+        "an": {
+          "label": "Animal",
+          "xp": 0
+        },
+        "aq": {
+          "label": "Aquam",
+          "xp": 0
+        },
+        "au": {
+          "label": "Auram",
+          "xp": 0
+        },
+        "co": {
+          "label": "Corpus",
+          "xp": 0
+        },
+        "he": {
+          "label": "Herbam",
+          "xp": 0
+        },
+        "ig": {
+          "label": "Ignem",
+          "xp": 0
+        },
+        "im": {
+          "label": "Imaginem",
+          "xp": 0
+        },
+        "me": {
+          "label": "Mentem",
+          "xp": 0
+        },
+        "te": {
+          "label": "Terram",
+          "xp": 0
+        },
+        "vi": {
+          "label": "Vim",
+          "xp": 0
+        }
+      }
+    },
+    "apprentice": {
+      "name": "",
+      "age": 0,
+      "years": 0,
+      "int": 0,
+      "magicTheory": 0
+    },
+    "charType": {
+      "value": "entity",
+      "label": "Char. Type"
+    },
+    "house": {
+      "value": "gen",
+      "label": "House"
+    },
+    "might": {
+      "label": "Might",
+      "form": "aq",
+      "value": 30,
+      "points": 30
+    },
+    "powers": [],
+    "realm": "faeric",
+    "bonuses": {
+      "traits": {
+        "aging": 0
+      }
+    },
+    "personalities": {
+      "0": {
+        "name": "Hateful to Men",
+        "score": 3
+      },
+      "1": {
+        "name": "Jealous of Women",
+        "score": 3
+      }
+    },
+    "combat": {
+      "overload": [
+        0,
+        0
+      ]
+    }
+  },
+  "items": [
+    {
+      "name": "Infatuation",
+      "type": "power",
+      "system": {
+        "description": "The Loreley's voice can create a strong desire in all who hear it to approach her. They will do everything in their power to get close to her, even leaping into the river and scrabbling up the cliff, or steering their craft towards the rocks, if that is what it takes. This power can affect up to ten people each round, who get a single Intelligence stress roll against an Ease Factor of 9 to resist it. Women receive a +3 bonus to this roll, as do those who have blocked their ears with wax. Possession of a dripstone (see page 124) allows the wearer to ignore the song if he makes a Perception roll against an Ease Factor of 6.",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "infatuation",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "im",
+        "cost": 4,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "nO4EJE9o7un7QI6g",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.nO4EJE9o7un7QI6g"
+    },
+    {
+      "name": "Control water",
+      "type": "power",
+      "system": {
+        "description": "<p>The Loreley may cause any Creo or Rego Aquam effects up to 30th level, at a cost of 1 Might per magnitude of the effect.</p>",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "point-per-magnitude",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "aq",
+        "cost": 1,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "vrbySS2O4x5S01v9",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.vrbySS2O4x5S01v9"
+    },
+    {
+      "name": "Control Person",
+      "type": "power",
+      "system": {
+        "description": "If the Loreley can lure someone close enough to make eye contact, she can attempt to dominate his mind. This power only works on men, and can only affect one person at a time. The victim must make an Intelligence stress roll against an Ease Factor of 12 or do anything that the Loreley tells him, even leap to his death if that is what she desires. Control Water, 1",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "control-person",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "me",
+        "cost": 8,
+        "init": 2,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "0tjbxkMI5C7wxq1x",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.0tjbxkMI5C7wxq1x"
+    },
+    {
+      "name": "Form of Water",
+      "type": "power",
+      "system": {
+        "description": "The Loreley can transform herself into water and slip into the Rhine. While in this form she will regenerate 5 Might points per hour (four times her usual rate), and she will recover from wounds in minutes, hours, or days (for Light, Medium, and Heavy wounds, respectively), rather than days, weeks, and months. This makes her almost impossible to kill.",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "form-of-water",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "aq",
+        "cost": 10,
+        "init": 3,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "rGIe0s7S9Hhi6vm6",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.rGIe0s7S9Hhi6vm6"
+    },
+    {
+      "name": "Vulnerability to Iron",
+      "type": "power",
+      "system": {
+        "description": "Cold iron is extremely painful to the Loreley, and she will take a Light Wound even from the merest touch. Any iron weapon that hits her (that is, still has a Damage Total after subtracting her Soak), has its wound level increased by one. Infatuation, 4 points, Init +0,",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "vulnerability-to-iron",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "inherit",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "HveODKTD0wMxYULC",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.HveODKTD0wMxYULC"
+    },
+    {
+      "name": "Faerie Nature",
+      "type": "power",
+      "system": {
+        "description": "As a faerie, the Loreley does not suffer from Fatigue, nor is she affected by diseases or old age. She can understand any languages, and can be understood by anyone. All faeries also have the Second Sight Virtue, and gain the benefits or penalties of any supernatural aura when using their faerie powers, according to the Realm Interaction table (see Ars Magica 5th Edition, page 183).",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "faerie-nature",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "inherit",
+        "cost": 0,
+        "init": 0,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "SoQ7PiYw48UoGuO4",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.SoQ7PiYw48UoGuO4"
+    },
+    {
+      "folder": "u0bqg5ruG7sX6XV0",
+      "name": "Dodging",
+      "type": "weapon",
+      "_id": "b8wbt8qQylJO87uT",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
+      "system": {
+        "description": "",
+        "source": "ArM5Def",
+        "page": 0,
+        "indexKey": "dodge",
+        "review_status": "reviewed",
+        "reviewer": "xzotl",
+        "cost": {
+          "value": "n-a",
+          "amount": 0
+        },
+        "quantity": 1,
+        "load": 0,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
+        "str": 0,
+        "range": 0,
+        "weaponExpert": false,
+        "horse": false,
+        "ability": {
+          "key": "brawl",
+          "option": "",
+          "id": null
+        },
+        "state": "inert",
+        "enchantments": null,
+        "credits": "",
+        "formDamage": "te",
+        "naturalWeapon": false
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "wUH1ww0o0zQEBtKr": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.b8wbt8qQylJO87uT"
+    },
+    {
+      "name": "Hateful to Men",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "448mrMGF459MwN3O",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.448mrMGF459MwN3O"
+    },
+    {
+      "name": "Jealous of Women",
+      "type": "personalityTrait",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "xp": 30,
+        "description": "",
+        "source": "custom",
+        "page": 0,
+        "indexKey": "",
+        "review_status": "toReview",
+        "reviewer": "",
+        "credits": ""
+      },
+      "_id": "lEEyoEbZgC2Fzh9H",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Q5JzH7R3bqA8FD8f.lEEyoEbZgC2Fzh9H"
+    }
+  ],
+  "folder": "88CO5QBkOKA6hTJa",
+  "img": "icons/svg/mystery-man-black.svg",
+  "prototypeToken": {
+    "name": "Loreley",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man-black.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "6SdI10VpXHcBvx2J": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "arm5e",
+    "systemVersion": "3.0.0.11",
+    "createdTime": 1777187925686,
+    "modifiedTime": 1777187925686,
+    "lastModifiedBy": "6SdI10VpXHcBvx2J"
+  },
+  "_id": "Q5JzH7R3bqA8FD8f",
+  "sort": 0,
+  "_key": "!actors!Q5JzH7R3bqA8FD8f"
+}

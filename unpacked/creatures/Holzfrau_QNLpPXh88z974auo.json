@@ -1,5 +1,5 @@
 {
-  "name": "Bockman",
+  "name": "Holzfrau",
   "type": "npc",
   "system": {
     "version": "2.0.2",
@@ -53,10 +53,10 @@
         "value": ""
       }
     },
-    "secrets": "<p><strong>Vis:</strong> 1 pawn of Animal vis, in the right horn; 1 pawn of Mentem vis, in the left horn</p>",
+    "secrets": "<p><strong>Vis:</strong> 4 Herbam, in hair</p>",
     "source": "GotF",
     "page": 0,
-    "indexKey": "bockman",
+    "indexKey": "holzfrau",
     "review_status": "toReview",
     "reviewer": "xzotl",
     "age": {
@@ -108,10 +108,10 @@
         }
       }
     },
-    "biography": "<p><b>Appearance:</b> Although human in shape, the only thing remotely human in appearance is its chest and arms. It has the head and legs of a goat. The horns are usually backwards-curving and sharp. Its feral eyes and slavering jaws (filled with sharp teeth) strike fear in the bravest hearts. These horrible faeries lurk near the paths through the Black Forest, waiting to ambush travelers. They usually use their Unease of the Still Forest to spook their victims and their mounts, before leaping out from concealment and unleashing their Fear power. They are physically weak in combat, and notoriously cowardly themselves; their main purpose (which is successful) is to discourage travelers through the forest. They nearly always work alone, and can be found in many of the oldest forests in Germany.</p>",
+    "biography": "<p><b>Appearance:</b> The holzfrau always appears as a woman, often (but not always) young and beautiful. She is usually bare-foot, and dressed in peasant clothing. They always have a distinguishing manner of dress, which may be used to identify the type of wood-wife (see main text). The Holzfrau is a spirit of vegetation, and is usually beneficial to mankind. She will simply flee from those who threaten her, but those who treat her kindly may receive kindness in return. Different wood-wives are associated with different plants -- somewhat like dryads -- and may have powers that relate to the mythical properties of the plant that they tend. Walpurga (see Chapter 8: Central Germany, The Harz Mountains) is the queen of the holzfrauen. Some spirits are more malicious. Stories of the Baumesel (Ass of the Trees) and Bockman (man-goat; see Chapter 6: The Black Forest) are used to frighten children, and with good reason, for these spirits attack lone travelers in the woods. The Eschenfrau (Wife of the Ash) is a very evil spirit to those unfortunate enough to have one living near them, and she must be appeased with a sacrifice on Ash Wednesday.</p>",
     "characteristics": {
       "int": {
-        "value": -1,
+        "value": 1,
         "aging": 0
       },
       "per": {
@@ -119,27 +119,27 @@
         "aging": 0
       },
       "str": {
-        "value": 1,
+        "value": -2,
         "aging": 0
       },
       "sta": {
-        "value": 2,
+        "value": 0,
         "aging": 0
       },
       "pre": {
-        "value": 0,
+        "value": 2,
         "aging": 0
       },
       "com": {
-        "value": 0,
+        "value": -1,
         "aging": 0
       },
       "dex": {
-        "value": 5,
+        "value": 0,
         "aging": 0
       },
       "qik": {
-        "value": 2,
+        "value": 0,
         "aging": 0
       }
     },
@@ -156,10 +156,10 @@
     },
     "vitals": {
       "siz": {
-        "value": -1
+        "value": 0
       },
       "soa": {
-        "value": 2
+        "value": 0
       },
       "enc": {
         "value": 0
@@ -461,9 +461,9 @@
     },
     "might": {
       "label": "Might",
-      "form": "an",
-      "value": 20,
-      "points": 20
+      "form": "he",
+      "value": 0,
+      "points": 0
     },
     "powers": [],
     "realm": "faeric",
@@ -474,12 +474,12 @@
     },
     "personalities": {
       "0": {
-        "name": "Malicious",
+        "name": "Kindly",
         "score": 3
       },
       "1": {
-        "name": "Brave",
-        "score": 0
+        "name": "Shy",
+        "score": 3
       }
     },
     "combat": {
@@ -491,23 +491,23 @@
   },
   "items": [
     {
-      "name": "The Patient Stance",
+      "name": "Control Plants",
       "type": "power",
       "system": {
-        "description": "Whilst remaining motionless, the bockman cannot be distinguished from the surrounding vegetation; it is effectively invisible. This power only works in forests. Unease of the Still Forest, 2<h3>Migration note:</h3><p>Init is now strictly a number, previous value:\"n/a\", new value: 0",
+        "description": "Wood-wives may create any Creo or Rego Herbam effects up to 20th level, at a cost of 1 point per magnitude of the effect. This cost is doubled in the winter. (1 point per magnitude)",
         "source": "Cov",
         "page": 0,
-        "indexKey": "the-patient-stance",
+        "indexKey": "control-plants",
         "review_status": "toReview",
         "reviewer": "xzotl",
-        "form": "im",
-        "cost": 0,
-        "init": 0,
+        "form": "he",
+        "cost": 1,
+        "init": 1,
         "credits": "",
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "KGaig0NWVUVqXGzx",
+      "_id": "fZI0Hq03HKAz8EVa",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
@@ -526,64 +526,26 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.KGaig0NWVUVqXGzx"
+      "_key": "!actors.items!QNLpPXh88z974auo.fZI0Hq03HKAz8EVa"
     },
     {
-      "name": "Unease of the Still Forest",
+      "name": "Healing",
       "type": "power",
       "system": {
-        "description": "<p>The bockman can radiate an aura of unease for up to 100 paces from its current location. The aura causes birds to stop singing, and an unnatural silence strikes the area of effect. This aura causes a growing feeling of dread to all within it; tempers become frayed, and people become paranoid and jumpy. For every hour subjected to this aura, a person suffers a cumulative -1 penalty to Personality Traits involving bravery or positive action, and it similarly enhances those such as Short-Tempered and Suspicious. No sleep can be gained while under the effects of the aura, and no Fatigue can be regained.<br>Cost: 2 per hour</p>",
+        "description": "With a kiss, a wood-wife can remove pain, cleanse a wound of infection, or grant swift healing. This either cures a light wound caused by disease or gives a +9 to recovery rolls.",
         "source": "Cov",
         "page": 0,
-        "indexKey": "point-per-hour",
-        "review_status": "reviewed",
-        "reviewer": "xzotl",
-        "form": "me",
-        "cost": 2,
-        "init": 0,
-        "credits": "",
-        "penetration": 0,
-        "realm": "mundane"
-      },
-      "_id": "mwCuEPBLmbTeN90m",
-      "img": "icons/svg/tower.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "arm5e",
-        "systemVersion": "3.0.0.11",
-        "lastModifiedBy": null
-      },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.mwCuEPBLmbTeN90m"
-    },
-    {
-      "name": "Fear",
-      "type": "power",
-      "system": {
-        "description": "The victims of this power suffer an overwhelming dread, and if they fail a stress die roll against an Ease Factor of 6 (modified by a Brave Personality Trait), they will run in fear until exhausted, or (if unable to run), will collapse in a quivering heap until the sun rises. If the bockman uses this power when it may be seen, then anyone who sees it can be affected (up to ten people); otherwise it can affect only one target.",
-        "source": "Cov",
-        "page": 0,
-        "indexKey": "fear",
+        "indexKey": "healing",
         "review_status": "toReview",
         "reviewer": "xzotl",
-        "form": "me",
+        "form": "co",
         "cost": 4,
-        "init": 2,
+        "init": -1,
         "credits": "",
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "R6RaXqgrWL6W36Ia",
+      "_id": "BtwU02fbKFoICHwA",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
@@ -602,13 +564,51 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.R6RaXqgrWL6W36Ia"
+      "_key": "!actors.items!QNLpPXh88z974auo.BtwU02fbKFoICHwA"
+    },
+    {
+      "name": "Fertility",
+      "type": "power",
+      "system": {
+        "description": "All holzfrauen can create an effect identical to The Bountiful Feast, granting fertility and protection to crops. They can also withdraw any protection that they have bestowed, should their generosity be abused.",
+        "source": "Cov",
+        "page": 0,
+        "indexKey": "fertility",
+        "review_status": "toReview",
+        "reviewer": "xzotl",
+        "form": "he",
+        "cost": 4,
+        "init": 1,
+        "credits": "",
+        "penetration": 0,
+        "realm": "mundane"
+      },
+      "_id": "CNIa0aMv3U9Mo51C",
+      "img": "icons/svg/tower.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QNLpPXh88z974auo.CNIa0aMv3U9Mo51C"
     },
     {
       "name": "Faerie Nature",
       "type": "power",
       "system": {
-        "description": "As a faerie, the bockman does not suffer from Fatigue, nor is it affected by diseases or old age. All faeries also have the Second Sight Virtue, and gain the benefits or penalties of any supernatural aura when using their faerie powers, according to the Realm Interaction table (see ArM5, page 183).",
+        "description": "As a faerie, the holzfrau does not suffer from Fatigue, nor is she affected by diseases or old age. She can understand any languages, and can be understood by anyone. All faeries also have the Second Sight Virtue, and gain the benefits or penalties of any supernatural aura when using their faerie powers, according to the Realm Interaction table (see Ars Magica 5th Edition, page 183).",
         "source": "Cov",
         "page": 0,
         "indexKey": "faerie-nature",
@@ -621,7 +621,7 @@
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "UM7oJgT5iNt9esXa",
+      "_id": "8NwKI56iAvgSKf2F",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
@@ -640,13 +640,13 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.UM7oJgT5iNt9esXa"
+      "_key": "!actors.items!QNLpPXh88z974auo.8NwKI56iAvgSKf2F"
     },
     {
       "name": "Vulnerability to Iron",
       "type": "power",
       "system": {
-        "description": "Weapons made from iron do an extra 2 points of damage to the bockman. The Patient Stance, 0 points, Init n/a,",
+        "description": "Cold-forged iron is painful to a holzfrau, and they will do anything to avoid its touch. It will not actually harm them, however. Control Plants, 1 point, Init +1,",
         "source": "Cov",
         "page": 0,
         "indexKey": "vulnerability-to-iron",
@@ -659,7 +659,7 @@
         "penetration": 0,
         "realm": "mundane"
       },
-      "_id": "FXiwhDYO1dwXX3TI",
+      "_id": "PdOYgcUwlQSFIw6k",
       "img": "icons/svg/tower.svg",
       "effects": [],
       "folder": null,
@@ -678,7 +678,7 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.FXiwhDYO1dwXX3TI"
+      "_key": "!actors.items!QNLpPXh88z974auo.PdOYgcUwlQSFIw6k"
     },
     {
       "name": "Athletics",
@@ -698,8 +698,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "dex",
-        "speciality": "leaping",
-        "xp": 30,
+        "speciality": "escaping pursuers",
+        "xp": 15,
         "key": "athletics",
         "option": "",
         "realm": "magic",
@@ -720,63 +720,14 @@
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "2JiMjl2Jgbsj06Ej",
+      "_id": "eO1QUEJv5C2nbHXj",
       "sort": 3700000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.2JiMjl2Jgbsj06Ej"
-    },
-    {
-      "name": "Black Forest Lore",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/areaLore.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p style=\"text-align: justify\">Knowledge of one particular region, covenant, or even a village. It includes knowing where things are in the immediate area, local history and legends, and the centers of power in the region. The smaller the region, the more detailed your knowledge.</p><p style=\"text-align: justify\"><strong>Specialties:</strong> geography, history, legends, politics, personalities. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "int",
-        "speciality": "roads",
-        "xp": 105,
-        "key": "areaLore",
-        "option": "black-forest-lore",
-        "realm": "magic",
-        "indexKey": "area-lore",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": true,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "arm5e",
-        "systemVersion": "3.0.0.11",
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "ySj04MsqGxSu2rH8",
-      "sort": 3600000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.ySj04MsqGxSu2rH8"
+      "_key": "!actors.items!QNLpPXh88z974auo.eO1QUEJv5C2nbHXj"
     },
     {
       "name": "Awareness",
@@ -796,8 +747,8 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "per",
-        "speciality": "forests",
-        "xp": 30,
+        "speciality": "travelers",
+        "xp": 15,
         "key": "awareness",
         "option": "",
         "realm": "magic",
@@ -818,19 +769,19 @@
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "X7y1UPaSpkP8mKYL",
+      "_id": "JIiUhVe7KGdnwqHJ",
       "sort": 5000000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.X7y1UPaSpkP8mKYL"
+      "_key": "!actors.items!QNLpPXh88z974auo.JIiUhVe7KGdnwqHJ"
     },
     {
-      "name": "Brawl",
+      "name": "Charm",
       "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/brawl.svg",
+      "img": "systems/arm5e/assets/icons/abilities/charm.svg",
       "effects": [],
       "flags": {
         "core": {},
@@ -841,16 +792,16 @@
         }
       },
       "system": {
-        "description": "<p style=\"text-align: justify;\">Fighting hand-to-hand without weapons, or with the sorts of improvised weapons you just pick up, including knives. Brawl is also the Ability used to dodge attacks if you have no Martial Abilities.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> punches, grapples, knives, dodging. (General)</p>",
+        "description": "<p style=\"text-align: justify;\">Enticing, fascinating, and endearing others to you, but only on a personal basis. It can be used to win someone over emotionally, especially members of the opposite sex.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> courtly love, first impressions, being witty. (General)</p>",
         "source": "ArM5Def",
         "page": 0,
-        "defaultChaAb": "dex",
-        "speciality": "claws",
+        "defaultChaAb": "pre",
+        "speciality": "men",
         "xp": 30,
-        "key": "brawl",
+        "key": "charm",
         "option": "",
         "realm": "magic",
-        "indexKey": "brawl",
+        "indexKey": "charm",
         "reviewer": "xzotl",
         "review_status": "reviewed",
         "optionLinked": false,
@@ -867,14 +818,161 @@
         "lastModifiedBy": null
       },
       "folder": "adQkl7QaQHRah9iT",
-      "_id": "oKbOuMFtZg65lBpQ",
-      "sort": 3200000,
+      "_id": "kL2DEuPrKCVqUb68",
+      "sort": 1900000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.oKbOuMFtZg65lBpQ"
+      "_key": "!actors.items!QNLpPXh88z974auo.kL2DEuPrKCVqUb68"
+    },
+    {
+      "name": "Chirurgy",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/chirurgy.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify\">This is Middle Ages-style surgery, used to help others recover from physical damage. It encompasses tending and binding wounds of all varieties, and the necessary but brutal skill of cauterization. See page @@ for rules</p><p style=\"text-align: justify\"><strong>Specialties:</strong> cauterization, diagnosis, binding wounds, setting bones. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "infected wounds",
+        "xp": 75,
+        "key": "chirurgy",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "chirurgy",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "b0dpq7USRlYcHmIw",
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QNLpPXh88z974auo.b0dpq7USRlYcHmIw"
+    },
+    {
+      "name": "Faerie Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/faerieLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Familiarity with faerie powers, weaknesses, motivations, and areas.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> faerie forests, faerie mounds, specific types of faeries. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "faerie plants",
+        "xp": 75,
+        "key": "faerieLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "faerie-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "L6SOcsoxYW0ien8S",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QNLpPXh88z974auo.L6SOcsoxYW0ien8S"
+    },
+    {
+      "name": "Magic Lore",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/magicLore.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_7bwhgya3q6x",
+          "path": "Abilities#/CF_SEP/Arcane",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Knowledge of magical creatures, areas, and traditions.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> creatures, magical traditions, regiones. (Arcane)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "int",
+        "speciality": "magical herbs",
+        "xp": 50,
+        "key": "magicLore",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "magic-lore",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "Ku86xoVh78FXIgLr",
+      "_id": "9kPeKuQ7C2LMNPOX",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QNLpPXh88z974auo.9kPeKuQ7C2LMNPOX"
     },
     {
       "name": "Second Sight",
@@ -894,7 +992,7 @@
         "source": "ArM5Def",
         "page": 0,
         "defaultChaAb": "int",
-        "speciality": "glamors",
+        "speciality": "animals",
         "xp": 50,
         "key": "secondSight",
         "option": "",
@@ -916,112 +1014,14 @@
         "lastModifiedBy": null
       },
       "folder": "ZbCET9zUtDWzYD5z",
-      "_id": "VKrGMDufcP8Qh4IA",
+      "_id": "0Q0LSHeSJyyFy7AH",
       "sort": 1500000,
       "ownership": {
         "default": 0,
         "1JBSgWiiwizu7vru": 3,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.VKrGMDufcP8Qh4IA"
-    },
-    {
-      "name": "Stealth",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/stealth.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p style=\"text-align: justify;\">Sneaking about without being seen or heard, also hiding in one place. This includes following people without their noticing, which is rolled against the other person's Perception.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> hide, sneak, shadowing, urban areas, natural areas. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "dex",
-        "speciality": "forests",
-        "xp": 30,
-        "key": "stealth",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "stealth",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": false,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "arm5e",
-        "systemVersion": "3.0.0.11",
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "moZPneoXHyDGvueh",
-      "sort": 5500000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.moZPneoXHyDGvueh"
-    },
-    {
-      "name": "Survival",
-      "type": "ability",
-      "img": "systems/arm5e/assets/icons/abilities/survival.svg",
-      "effects": [],
-      "flags": {
-        "core": {},
-        "cf": {
-          "id": "temp_buj82p3vtnu",
-          "path": "Abilities#/CF_SEP/General",
-          "color": "#000000"
-        }
-      },
-      "system": {
-        "description": "<p style=\"text-align: justify;\">Finding food, water, shelter, a direct route, and relative safety in the wilderness (a very dangerous place in Mythic Europe). This Ability covers such mundane tasks as building a fire and cooking food without implements.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> specific locales. (General)</p>",
-        "source": "ArM5Def",
-        "page": 0,
-        "defaultChaAb": "per",
-        "speciality": "forests",
-        "xp": 105,
-        "key": "survival",
-        "option": "",
-        "realm": "magic",
-        "indexKey": "survival",
-        "reviewer": "xzotl",
-        "review_status": "reviewed",
-        "optionLinked": false,
-        "credits": "",
-        "accelerated": false
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "arm5e",
-        "systemVersion": "3.0.0.11",
-        "lastModifiedBy": null
-      },
-      "folder": "adQkl7QaQHRah9iT",
-      "_id": "RKaXQay7sVya3BEn",
-      "sort": 200000,
-      "ownership": {
-        "default": 0,
-        "1JBSgWiiwizu7vru": 3,
-        "6SdI10VpXHcBvx2J": 3
-      },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.RKaXQay7sVya3BEn"
+      "_key": "!actors.items!QNLpPXh88z974auo.0Q0LSHeSJyyFy7AH"
     },
     {
       "name": "Ways of the Forest",
@@ -1061,16 +1061,65 @@
         "lastModifiedBy": null
       },
       "folder": "jyD9OjMnXTZeke24",
-      "_id": "HsWBzgUloBRchRtK",
+      "_id": "UMEAztR2lTaMFQwy",
       "sort": 0,
       "ownership": {
         "default": 0,
         "6SdI10VpXHcBvx2J": 3
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.HsWBzgUloBRchRtK"
+      "_key": "!actors.items!QNLpPXh88z974auo.UMEAztR2lTaMFQwy"
     },
     {
-      "name": "Malicious",
+      "name": "Stealth",
+      "type": "ability",
+      "img": "systems/arm5e/assets/icons/abilities/stealth.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_buj82p3vtnu",
+          "path": "Abilities#/CF_SEP/General",
+          "color": "#000000"
+        }
+      },
+      "system": {
+        "description": "<p style=\"text-align: justify;\">Sneaking about without being seen or heard, also hiding in one place. This includes following people without their noticing, which is rolled against the other person's Perception.</p>\n<p style=\"text-align: justify;\"><strong>Specialties:</strong> hide, sneak, shadowing, urban areas, natural areas. (General)</p>",
+        "source": "ArM5Def",
+        "page": 0,
+        "defaultChaAb": "dex",
+        "speciality": "hiding from pursuers",
+        "xp": 30,
+        "key": "stealth",
+        "option": "",
+        "realm": "magic",
+        "indexKey": "stealth",
+        "reviewer": "xzotl",
+        "review_status": "reviewed",
+        "optionLinked": false,
+        "credits": "",
+        "accelerated": false
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.0.11",
+        "lastModifiedBy": null
+      },
+      "folder": "adQkl7QaQHRah9iT",
+      "_id": "ydXLWHEX19BSB1ic",
+      "sort": 5500000,
+      "ownership": {
+        "default": 0,
+        "1JBSgWiiwizu7vru": 3,
+        "6SdI10VpXHcBvx2J": 3
+      },
+      "_key": "!actors.items!QNLpPXh88z974auo.ydXLWHEX19BSB1ic"
+    },
+    {
+      "name": "Kindly",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
@@ -1083,7 +1132,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "1SFx5NXytc8OFDc3",
+      "_id": "cFg9QgHg9xDagqpR",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1101,14 +1150,14 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.1SFx5NXytc8OFDc3"
+      "_key": "!actors.items!QNLpPXh88z974auo.cFg9QgHg9xDagqpR"
     },
     {
-      "name": "Brave",
+      "name": "Shy",
       "type": "personalityTrait",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
-        "xp": 0,
+        "xp": 30,
         "description": "",
         "source": "custom",
         "page": 0,
@@ -1117,7 +1166,7 @@
         "reviewer": "",
         "credits": ""
       },
-      "_id": "8TzjusngcfhRHIhY",
+      "_id": "CmUsRHoP4LxWkR4g",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -1135,19 +1184,19 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.8TzjusngcfhRHIhY"
+      "_key": "!actors.items!QNLpPXh88z974auo.CmUsRHoP4LxWkR4g"
     },
     {
       "folder": "u0bqg5ruG7sX6XV0",
-      "name": "Claws",
+      "name": "Dodging",
       "type": "weapon",
-      "_id": "kuqgGoRLztQjAvbM",
-      "img": "icons/commodities/claws/claw-canine-brown-grey.webp",
+      "_id": "OntaX0OOJ9XZbzFw",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
       "system": {
         "description": "",
         "source": "ArM5Def",
         "page": 0,
-        "indexKey": "claws",
+        "indexKey": "dodge",
         "review_status": "reviewed",
         "reviewer": "xzotl",
         "cost": {
@@ -1156,27 +1205,27 @@
         },
         "quantity": 1,
         "load": 0,
-        "init": -1,
-        "atk": 2,
-        "dfn": 3,
-        "dam": 2,
+        "init": 0,
+        "atk": 0,
+        "dfn": 0,
+        "dam": 0,
         "str": 0,
         "range": 0,
-        "weaponExpert": true,
+        "weaponExpert": false,
         "horse": false,
         "ability": {
           "key": "brawl",
           "option": "",
-          "id": "oKbOuMFtZg65lBpQ"
+          "id": null
         },
         "state": "inert",
         "enchantments": null,
         "credits": "",
         "formDamage": "te",
-        "naturalWeapon": true
+        "naturalWeapon": false
       },
       "effects": [],
-      "sort": 1000000,
+      "sort": 400000,
       "ownership": {
         "default": 0,
         "wUH1ww0o0zQEBtKr": 3,
@@ -1192,13 +1241,13 @@
         "systemVersion": "3.0.0.11",
         "lastModifiedBy": null
       },
-      "_key": "!actors.items!UIt2RwCLBsZ3wdFv.kuqgGoRLztQjAvbM"
+      "_key": "!actors.items!QNLpPXh88z974auo.OntaX0OOJ9XZbzFw"
     }
   ],
   "folder": "88CO5QBkOKA6hTJa",
   "img": "icons/svg/mystery-man-black.svg",
   "prototypeToken": {
-    "name": "Bockman",
+    "name": "Holzfrau",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -1304,11 +1353,11 @@
     "coreVersion": "13.351",
     "systemId": "arm5e",
     "systemVersion": "3.0.0.11",
-    "createdTime": 1777057518455,
+    "createdTime": 1777186113161,
     "modifiedTime": 1777186113318,
     "lastModifiedBy": "6SdI10VpXHcBvx2J"
   },
-  "_id": "UIt2RwCLBsZ3wdFv",
-  "sort": 300000,
-  "_key": "!actors!UIt2RwCLBsZ3wdFv"
+  "_id": "QNLpPXh88z974auo",
+  "sort": 200000,
+  "_key": "!actors!QNLpPXh88z974auo"
 }

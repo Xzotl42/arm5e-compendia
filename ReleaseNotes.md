@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 1.2.6
+
+### Compendia updates
+
+- NPCs and Creatures of Guardians of the Forest (Letter L)
+- Virtue formatting pass by @KazhadJake
+
 ## Version 1.2.5
 
 ### Compendia updates

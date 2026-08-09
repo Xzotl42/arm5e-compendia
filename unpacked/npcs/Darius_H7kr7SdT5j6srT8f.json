@@ -489,8 +489,8 @@
       "value": "fla",
       "label": "House"
     },
-    "dom-mag": {
-      "label": "Domus Magna",
+    "domusMagnus": {
+      "label": "Domus Magnus",
       "dtype": "String",
       "value": ""
     },
@@ -513,6 +513,11 @@
       "label": "Wizard's Sigil",
       "dtype": "String",
       "value": "A flash of blue light."
+    },
+    "dom-mag": {
+      "label": "Domus Magna",
+      "dtype": "String",
+      "value": ""
     },
     "creationMode": true,
     "pendingCrisis": false,
@@ -543,10 +548,7 @@
       }
     },
     "combat": {
-      "overload": [
-        0,
-        0
-      ]
+      "overload": [0, 0]
     },
     "castingtotal": {
       "applyFocus": false,
@@ -4599,15 +4601,9 @@
           "transfer": true,
           "flags": {
             "arm5e": {
-              "type": [
-                "realm"
-              ],
-              "subtype": [
-                "magic"
-              ],
-              "option": [
-                null
-              ]
+              "type": ["realm"],
+              "subtype": ["magic"],
+              "option": [null]
             }
           },
           "name": "Magic aligned",
@@ -4805,15 +4801,9 @@
           "transfer": true,
           "flags": {
             "arm5e": {
-              "type": [
-                "art"
-              ],
-              "subtype": [
-                "pe"
-              ],
-              "option": [
-                null
-              ],
+              "type": ["art"],
+              "subtype": ["pe"],
+              "option": [null],
               "hidden": false
             }
           },
@@ -4912,15 +4902,9 @@
           "transfer": true,
           "flags": {
             "arm5e": {
-              "type": [
-                "affinity"
-              ],
-              "subtype": [
-                "pe"
-              ],
-              "option": [
-                null
-              ]
+              "type": ["affinity"],
+              "subtype": ["pe"],
+              "option": [null]
             }
           },
           "name": "Affinity with Perdo",
@@ -5048,30 +5032,9 @@
           "transfer": true,
           "flags": {
             "arm5e": {
-              "type": [
-                "fatigue",
-                "fatigue",
-                "fatigue",
-                "wounds",
-                "wounds",
-                "wounds"
-              ],
-              "subtype": [
-                "weary",
-                "tired",
-                "dazed",
-                "light",
-                "medium",
-                "heavy"
-              ],
-              "option": [
-                null,
-                null,
-                null,
-                null,
-                null,
-                null
-              ]
+              "type": ["fatigue", "fatigue", "fatigue", "wounds", "wounds", "wounds"],
+              "subtype": ["weary", "tired", "dazed", "light", "medium", "heavy"],
+              "option": [null, null, null, null, null, null]
             }
           },
           "name": "Enduring constitution",
@@ -5314,15 +5277,9 @@
           ],
           "flags": {
             "arm5e": {
-              "type": [
-                "xpBonusSupernaturalAbility"
-              ],
-              "subtype": [
-                "premonitions"
-              ],
-              "option": [
-                null
-              ],
+              "type": ["xpBonusSupernaturalAbility"],
+              "subtype": ["premonitions"],
+              "option": [null],
               "hidden": false
             }
           },
@@ -5421,15 +5378,9 @@
           ],
           "flags": {
             "arm5e": {
-              "type": [
-                "xpBonusSupernaturalAbility"
-              ],
-              "subtype": [
-                "secondSight"
-              ],
-              "option": [
-                null
-              ],
+              "type": ["xpBonusSupernaturalAbility"],
+              "subtype": ["secondSight"],
+              "option": [null],
               "hidden": false
             }
           },
@@ -6109,7 +6060,7 @@
   ],
   "img": "icons/svg/mystery-man.svg",
   "prototypeToken": {
-    "name": "With the statistics completed, Niall finishes filling in the details of Darius's appearance and background, preparing him for play in the saga.",
+    "name": "Darius",
     "displayName": 0,
     "actorLink": false,
     "appendNumber": false,
@@ -6226,15 +6177,9 @@
       ],
       "flags": {
         "arm5e": {
-          "type": [
-            "vitals"
-          ],
-          "subtype": [
-            "aging"
-          ],
-          "option": [
-            null
-          ],
+          "type": ["vitals"],
+          "subtype": ["aging"],
+          "option": [null],
           "hidden": false
         }
       },
@@ -6276,11 +6221,11 @@
     "systemId": "arm5e",
     "systemVersion": "2.4.1.11",
     "createdTime": 1767179818661,
-    "modifiedTime": 1767179818661,
+    "modifiedTime": 1777185720402,
     "lastModifiedBy": "6SdI10VpXHcBvx2J",
     "exportSource": null
   },
   "_id": "H7kr7SdT5j6srT8f",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!actors!H7kr7SdT5j6srT8f"
 }
