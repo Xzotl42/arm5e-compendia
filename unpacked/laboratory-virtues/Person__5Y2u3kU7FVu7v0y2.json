@@ -20,36 +20,13 @@
     {
       "origin": "Item.5Y2u3kU7FVu7v0y2",
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.safety.bonus",
-          "value": "-1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.arts.forms.co.bonus",
-          "value": "0",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "mode": 2,
-          "key": "system.arts.forms.me.bonus",
-          "value": "0",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -77,12 +54,33 @@
       "statuses": [],
       "img": "icons/svg/aura.svg",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.safety.bonus",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.arts.forms.co.bonus",
+            "value": 0,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.arts.forms.me.bonus",
+            "value": 0,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "sort": 0,
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.3",
         "createdTime": null,
@@ -90,6 +88,9 @@
         "lastModifiedBy": null,
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!5Y2u3kU7FVu7v0y2.4CJgiPnga47XNfDj"
     }
   ],
@@ -102,7 +103,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729577172410,

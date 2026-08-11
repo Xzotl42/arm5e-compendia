@@ -20,36 +20,13 @@
     {
       "origin": "Item.uEaLfjt2HMM1WbIs",
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.upkeep.bonus",
-          "value": "1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.health.bonus",
-          "value": "1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.aesthetics.bonus",
-          "value": "2",
-          "mode": 2,
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -76,12 +53,33 @@
       "statuses": [],
       "img": "icons/svg/aura.svg",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.upkeep.bonus",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.health.bonus",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.aesthetics.bonus",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "sort": 0,
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.3",
         "createdTime": null,
@@ -89,6 +87,9 @@
         "lastModifiedBy": null,
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!uEaLfjt2HMM1WbIs.fDw2ejuImoUle15v"
     }
   ],
@@ -101,7 +102,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729577172410,

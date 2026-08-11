@@ -5,35 +5,12 @@
   "effects": [
     {
       "_id": "7Ku4M7y6PCGfxK66",
-      "changes": [
-        {
-          "key": "system.vitals.siz.value",
-          "value": "-2",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.characteristics.str.value",
-          "value": "-1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.characteristics.sta.value",
-          "value": "-1",
-          "mode": 2,
-          "priority": null
-        }
-      ],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "origin": "Compendium.arm5e.flaws.voE3EGIFczw3bxPe",
       "tint": "#000000",
@@ -63,7 +40,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.4",
         "createdTime": null,
@@ -73,8 +50,32 @@
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.vitals.siz.value",
+            "value": -2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.characteristics.str.value",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.characteristics.sta.value",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "sort": 0,
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!lM884WIUYka1rCFp.7Ku4M7y6PCGfxK66"
     }
   ],
@@ -103,7 +104,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729832791616,

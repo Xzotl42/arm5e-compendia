@@ -6,24 +6,13 @@
     {
       "origin": "Compendium.world.de-ars-flaws.Item.dHpl3fZP8yC0vdeV",
       "duration": {
-        "rounds": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "mode": 2,
-          "key": "system.bonuses.labActivities.inventSpell",
-          "value": "-3",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -42,7 +31,16 @@
       "img": "icons/svg/aura.svg",
       "_id": "TOWcvT3wafSvNx4X",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.labActivities.inventSpell",
+            "value": -3,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -50,7 +48,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.4",
         "createdTime": 1729923801911,
@@ -58,6 +56,9 @@
         "lastModifiedBy": "6SdI10VpXHcBvx2J",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!dHpl3fZP8yC0vdeV.TOWcvT3wafSvNx4X"
     }
   ],
@@ -86,7 +87,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729832791616,

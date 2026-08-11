@@ -5,23 +5,12 @@
   "effects": [
     {
       "_id": "ghUg7E1TBNc4nCJZ",
-      "changes": [
-        {
-          "key": "system.realms.faeric.aligned",
-          "value": "true",
-          "mode": 5,
-          "priority": null
-        }
-      ],
       "disabled": false,
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "origin": "Compendium.arm5e.virtues.HKnN71E0GJQ7aBP2",
       "tint": "#000000",
@@ -45,7 +34,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.0",
         "createdTime": null,
@@ -55,31 +44,32 @@
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.realms.faeric.aligned",
+            "value": true,
+            "priority": null,
+            "type": "override"
+          }
+        ]
+      },
       "sort": 0,
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!cyufl6WghNbW3tRn.ghUg7E1TBNc4nCJZ"
     },
     {
       "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
       "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "mode": 2,
-          "key": "system.bonuses.skills.secondSight.xpMod",
-          "value": "5",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -98,7 +88,16 @@
       "img": "icons/svg/aura.svg",
       "_id": "MwlDxY7HoS3LGxpG",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.skills.secondSight.xpMod",
+            "value": 5,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -106,7 +105,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": 1732953362025,
@@ -114,29 +113,21 @@
         "lastModifiedBy": "wUH1ww0o0zQEBtKr",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!cyufl6WghNbW3tRn.MwlDxY7HoS3LGxpG"
     },
     {
       "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
       "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "mode": 2,
-          "key": "system.bonuses.traits.agingStart",
-          "value": "15",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -155,7 +146,16 @@
       "img": "icons/svg/aura.svg",
       "_id": "tlQay2OuvqOsFeth",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.traits.agingStart",
+            "value": 15,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -163,7 +163,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": 1732953460349,
@@ -171,29 +171,21 @@
         "lastModifiedBy": "wUH1ww0o0zQEBtKr",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!cyufl6WghNbW3tRn.tlQay2OuvqOsFeth"
     },
     {
       "origin": "Compendium.arm5e-compendia.virtues.Item.cyufl6WghNbW3tRn",
       "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "mode": 2,
-          "key": "system.bonuses.traits.aging",
-          "value": "3",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -212,7 +204,16 @@
       "img": "icons/svg/aura.svg",
       "_id": "9hLF74zBwPkyft7v",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.traits.aging",
+            "value": 3,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -220,7 +221,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": 1732953579223,
@@ -228,6 +229,9 @@
         "lastModifiedBy": "wUH1ww0o0zQEBtKr",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!cyufl6WghNbW3tRn.9hLF74zBwPkyft7v"
     }
   ],
@@ -255,7 +259,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729316634167,

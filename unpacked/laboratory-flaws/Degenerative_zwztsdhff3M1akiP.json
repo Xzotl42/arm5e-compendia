@@ -16,54 +16,13 @@
     {
       "origin": "Item.zwztsdhff3M1akiP",
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.upkeep.bonus",
-          "value": "2",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.safety.bonus",
-          "value": "-1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.warping.bonus",
-          "value": "1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.health.bonus",
-          "value": "-2",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "key": "system.aesthetics.bonus",
-          "value": "-1",
-          "mode": 2,
-          "priority": null
-        },
-        {
-          "mode": 2,
-          "key": "system.specialty.pe.bonus",
-          "value": "2",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -98,7 +57,7 @@
       "description": "",
       "statuses": [],
       "_stats": {
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": null,
         "systemVersion": null,
         "createdTime": null,
@@ -110,8 +69,50 @@
       },
       "img": "icons/svg/aura.svg",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.upkeep.bonus",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.safety.bonus",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.warping.bonus",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.health.bonus",
+            "value": -2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.aesthetics.bonus",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.specialty.pe.bonus",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "sort": 0,
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!zwztsdhff3M1akiP.S4Si9WlOx60C9sUQ"
     }
   ],
@@ -124,7 +125,7 @@
   "_stats": {
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "createdTime": 1663055052510,
     "modifiedTime": 1731255712420,
     "lastModifiedBy": "tBE5EmoIXLzf3maM",

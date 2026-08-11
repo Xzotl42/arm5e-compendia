@@ -6,30 +6,13 @@
     {
       "origin": "Compendium.arm5e-compendia.virtues.Item.zr4WbJ6fSNAp3922",
       "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.bonuses.arts.spellFatigueThreshold",
-          "value": "10",
-          "mode": 5,
-          "priority": null
-        },
-        {
-          "mode": 5,
-          "key": "system.bonuses.arts.ritualFatigueCancelled",
-          "value": "3",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -51,7 +34,22 @@
       "img": "icons/svg/aura.svg",
       "_id": "vDhxVJuOF1HdXycP",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.arts.spellFatigueThreshold",
+            "value": 10,
+            "priority": null,
+            "type": "override"
+          },
+          {
+            "key": "system.bonuses.arts.ritualFatigueCancelled",
+            "value": 3,
+            "priority": null,
+            "type": "override"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -59,7 +57,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.13",
         "createdTime": 1735312249458,
@@ -67,6 +65,9 @@
         "lastModifiedBy": "6XwTYdUF2pe6loNQ",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!zr4WbJ6fSNAp3922.vDhxVJuOF1HdXycP"
     }
   ],
@@ -94,7 +95,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729316634167,

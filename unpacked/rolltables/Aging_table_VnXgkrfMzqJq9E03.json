@@ -1,0 +1,384 @@
+{
+  "_id": "VnXgkrfMzqJq9E03",
+  "name": "Aging table",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>INTERNAL DO NOT CHANGE! Describe the effects of an aging roll</p>",
+  "results": [
+    {
+      "_id": "TascPeYnnua0BPMB",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        -999,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "noaging",
+      "documentUuid": null,
+      "description": "<p>noaging</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.TascPeYnnua0BPMB"
+    },
+    {
+      "_id": "I9px4XfBzl6xCNwy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "normal",
+      "documentUuid": null,
+      "description": "<p>normal</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.I9px4XfBzl6xCNwy"
+    },
+    {
+      "_id": "j5j2iSLLMb8xjvbu",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "anyAgingPt",
+      "documentUuid": null,
+      "description": "<p>anyAgingPt</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.j5j2iSLLMb8xjvbu"
+    },
+    {
+      "_id": "CHenhIzkq2AS2Igh",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "crisis",
+      "documentUuid": null,
+      "description": "<p>crisis</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.CHenhIzkq2AS2Igh"
+    },
+    {
+      "_id": "k3RNEPfwbRjhtVdH",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "QikPt",
+      "documentUuid": null,
+      "description": "<p>QikPt</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.k3RNEPfwbRjhtVdH"
+    },
+    {
+      "_id": "ZJPoFt2VrPlkSlkD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "StaPt",
+      "documentUuid": null,
+      "description": "<p>StaPt</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.ZJPoFt2VrPlkSlkD"
+    },
+    {
+      "_id": "lGSln6QxiYXftE2N",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "PerPt",
+      "documentUuid": null,
+      "description": "<p>PerPt</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.lGSln6QxiYXftE2N"
+    },
+    {
+      "_id": "4Dx9TlMJhN5EOnbU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "PrsPt",
+      "documentUuid": null,
+      "description": "<p>PrsPt</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.4Dx9TlMJhN5EOnbU"
+    },
+    {
+      "_id": "HyZv8xvorbYwx2Ji",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "StrStaPts",
+      "documentUuid": null,
+      "description": "<p>StrStaPts</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.HyZv8xvorbYwx2Ji"
+    },
+    {
+      "_id": "4P5pUYBL5RmjLOWk",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "DexQikPts",
+      "documentUuid": null,
+      "description": "<p>DexQikPts</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.4P5pUYBL5RmjLOWk"
+    },
+    {
+      "_id": "7Y8wuyWSTWuK6QJx",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "ComPrsPts",
+      "documentUuid": null,
+      "description": "<p>ComPrsPts</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.7Y8wuyWSTWuK6QJx"
+    },
+    {
+      "_id": "9ku7iD2J0WhUdNcv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "IntPerPts",
+      "documentUuid": null,
+      "description": "<p>IntPerPts</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.9ku7iD2J0WhUdNcv"
+    },
+    {
+      "_id": "1I9tHKPhSjr0Et0p",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        22,
+        999
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "arm5e",
+        "systemVersion": "3.0.1.14",
+        "createdTime": 1786266373743,
+        "modifiedTime": 1786266373743,
+        "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "crisis",
+      "documentUuid": null,
+      "description": "<p>crisis</p>",
+      "_key": "!tables.results!VnXgkrfMzqJq9E03.1I9tHKPhSjr0Et0p"
+    }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "5h8zlEzGcp8XuAm9",
+  "flags": {
+    "core": {}
+  },
+  "ownership": {
+    "default": 0,
+    "4OxU3E57BM9ttwDI": 3,
+    "CrnmQQhMqEaHWCMk": 3
+  },
+  "_stats": {
+    "systemId": "arm5e",
+    "systemVersion": "3.0.1.14",
+    "coreVersion": "14.365",
+    "createdTime": 1786266373743,
+    "modifiedTime": 1786266373743,
+    "lastModifiedBy": "CrnmQQhMqEaHWCMk",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!tables!VnXgkrfMzqJq9E03"
+}

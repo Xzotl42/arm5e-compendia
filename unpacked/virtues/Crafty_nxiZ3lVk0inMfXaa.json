@@ -21,30 +21,13 @@
     {
       "origin": "Compendium.arm5e-compendia.virtues.Item.nxiZ3lVk0inMfXaa",
       "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "key": "system.characteristics.cun.upgrade",
-          "value": "0",
-          "mode": 4,
-          "priority": null
-        },
-        {
-          "mode": 2,
-          "key": "system.characteristics.cun.value",
-          "value": "1",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -66,7 +49,22 @@
       "img": "icons/svg/aura.svg",
       "_id": "pZT3FVvEIrx0cjne",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.characteristics.cun.upgrade",
+            "value": 0,
+            "priority": null,
+            "type": "upgrade"
+          },
+          {
+            "key": "system.characteristics.cun.value",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -74,7 +72,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.11",
         "createdTime": 1733081688032,
@@ -82,6 +80,9 @@
         "lastModifiedBy": "wUH1ww0o0zQEBtKr",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!nxiZ3lVk0inMfXaa.pZT3FVvEIrx0cjne"
     }
   ],
@@ -93,7 +94,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.11",
     "createdTime": 1733081629985,

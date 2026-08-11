@@ -6,24 +6,13 @@
     {
       "origin": "Compendium.arm5e-compendia.flaws.Item.1tRWI5HaSr2vK5lI",
       "duration": {
-        "turns": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "tint": "#000000",
-      "changes": [
-        {
-          "mode": 5,
-          "key": "system.bonuses.arts.warpingThreshold",
-          "value": "1",
-          "priority": null
-        }
-      ],
       "flags": {
         "arm5e": {
           "type": [
@@ -42,7 +31,16 @@
       "img": "icons/svg/aura.svg",
       "_id": "Y4N6eWeSfx1vYBTF",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.arts.warpingThreshold",
+            "value": 1,
+            "priority": null,
+            "type": "override"
+          }
+        ]
+      },
       "description": "",
       "transfer": true,
       "statuses": [],
@@ -50,7 +48,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.365",
         "systemId": "arm5e",
         "systemVersion": "2.3.2.13",
         "createdTime": 1735281953438,
@@ -58,6 +56,9 @@
         "lastModifiedBy": "6XwTYdUF2pe6loNQ",
         "exportSource": null
       },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
       "_key": "!items.effects!1tRWI5HaSr2vK5lI.Y4N6eWeSfx1vYBTF"
     }
   ],
@@ -86,7 +87,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.365",
     "systemId": "arm5e",
     "systemVersion": "2.3.2.7",
     "createdTime": 1729832791616,

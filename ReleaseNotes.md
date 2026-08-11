@@ -6,6 +6,8 @@
 
 - NPCs and Creatures of Guardians of the Forest (Letter L)
 - Virtue formatting pass by @KazhadJake
+- Slothful flaw's description is now correct.
+- Aging roll tables added
 
 ## Version 1.2.5
 
