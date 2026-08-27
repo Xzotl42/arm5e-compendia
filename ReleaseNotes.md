@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 1.2.7
+
+### Compendia updates
+
+- removal of legacy DB files
+- Hermetic Patron is now a story flaw.
+
 ## Version 1.2.6
 
 ### Compendia updates
