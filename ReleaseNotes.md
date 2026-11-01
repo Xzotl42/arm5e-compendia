@@ -1,17 +1,12 @@
 # Release notes
 
-## Version 1.2.8
+## Version 1.2.7
 
 ### Compendia updates
 
 - Macro to roll damage is now using targeted token instead of selected ones.
 - Updated description of Quiet Magic and Silent Magic
 - Start of a new folder in Equipment compendium which will contain books (from Art and Academe first).
-
-## Version 1.2.7
-
-### Compendia updates
-
 - removal of legacy DB files
 - Hermetic Patron is now a story flaw.
 
